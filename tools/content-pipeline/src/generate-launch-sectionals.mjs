@@ -1042,12 +1042,12 @@ const specs = [
   ["sectional-geometry-01", "Geometry — Sectional", "Geometry — Sectional", "Geometry", "Geometry", "math", "geo", geometryRows],
   ["sectional-mensuration-01", "Mensuration — Sectional", "Mensuration — Sectional", "Mensuration", "Mensuration", "math", "mens", mensurationRows],
   ["sectional-di-01", "Data Interpretation — Sectional", "Data Interpretation — Sectional", "Data Interpretation", "Data Interpretation", "math", "di", diRows],
-  ["sectional-calendar-01", "Calendar — Sectional", "Calendar — Sectional", "Calendar", "Calendar", "reasoning", "cal", calendarRows],
+  ["sectional-calendar-01", "Calendar — Sectional", "Calendar — Sectional", "Calendar", "Calendar", "reason", "cal", calendarRows],
   ["sectional-time-work-01", "Time & Work — Sectional", "Time & Work — Sectional", "Time & Work", "Time & Work", "math", "tw", timeWorkRows],
-  ["sectional-coding-decoding-01", "Coding-Decoding — Sectional", "Coding-Decoding — Sectional", "Coding-Decoding", "Coding-Decoding", "reasoning", "code", codingRows],
-  ["sectional-blood-relations-01", "Blood Relations — Sectional", "Blood Relations — Sectional", "Blood Relations", "Blood Relations", "reasoning", "blood", bloodRows],
-  ["sectional-seating-01", "Seating Arrangement — Sectional", "Seating Arrangement — Sectional", "Seating Arrangement", "Seating Arrangement", "reasoning", "seat", seatingRows],
-  ["sectional-direction-sense-01", "Direction Sense — Sectional", "Direction Sense — Sectional", "Direction Sense", "Direction Sense", "reasoning", "dir", directionRows],
+  ["sectional-coding-decoding-01", "Coding-Decoding — Sectional", "Coding-Decoding — Sectional", "Coding-Decoding", "Coding-Decoding", "reason", "code", codingRows],
+  ["sectional-blood-relations-01", "Blood Relations — Sectional", "Blood Relations — Sectional", "Blood Relations", "Blood Relations", "reason", "blood", bloodRows],
+  ["sectional-seating-01", "Seating Arrangement — Sectional", "Seating Arrangement — Sectional", "Seating Arrangement", "Seating Arrangement", "reason", "seat", seatingRows],
+  ["sectional-direction-sense-01", "Direction Sense — Sectional", "Direction Sense — Sectional", "Direction Sense", "Direction Sense", "reason", "dir", directionRows],
 ];
 
 await mkdir(OUT, { recursive: true });
