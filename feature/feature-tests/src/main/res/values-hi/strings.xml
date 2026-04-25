@@ -103,6 +103,14 @@
     <string name="review_trap_label">यह option क्यों लुभाता है</string>
     <string name="review_empty_filtered">इस filter के लिए कोई प्रश्न नहीं।</string>
     <string name="review_load_error">समीक्षा लोड नहीं हो सकी।</string>
+    <string name="review_bookmark">प्रश्न bookmark करें</string>
+    <string name="review_bookmarked">Bookmarked</string>
+    <string name="review_bookmark_sheet_title">प्रश्न save करें</string>
+    <string name="review_bookmark_save_toggle">इस प्रश्न को save करें</string>
+    <string name="review_bookmark_note">Note</string>
+    <string name="review_bookmark_note_hint">Optional note</string>
+    <string name="review_bookmark_save">Save</string>
+    <string name="review_bookmark_remove">Remove</string>
     <string name="results_weak_header">अगला यह पढ़ें</string>
     <string name="results_weak_subhead">आपके सबसे ज़्यादा गलत topics — primer पढ़ने के लिए tap करें।</string>
     <string name="results_weak_row_fmt">%1$s · %2$d गलत</string>

@@ -3,17 +3,22 @@ package com.railprep.feature.home.navigation
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import androidx.navigation.compose.composable
+import androidx.navigation.toRoute
 import com.railprep.feature.home.HomeRootScreen
 import com.railprep.feature.home.profile.about.AboutScreen
 import com.railprep.feature.home.profile.bookmarks.BookmarksScreen
 import com.railprep.feature.home.profile.diag.DiagScreen
 import com.railprep.feature.home.profile.edit.ProfileEditScreen
+import com.railprep.feature.home.profile.savedquestions.SavedQuestionDetailScreen
+import com.railprep.feature.home.profile.savedquestions.SavedQuestionsScreen
 import kotlinx.serialization.Serializable
 
 sealed interface HomeRoute {
     @Serializable data object Home : HomeRoute
     @Serializable data object ProfileEdit : HomeRoute
     @Serializable data object Bookmarks : HomeRoute
+    @Serializable data object SavedQuestions : HomeRoute
+    @Serializable data class SavedQuestionDetail(val questionId: String) : HomeRoute
     @Serializable data object About : HomeRoute
     @Serializable data object Diag : HomeRoute
 }
@@ -41,6 +46,7 @@ fun NavGraphBuilder.homeGraph(
             onSignedOut = onSignedOut,
             onNavigateToLearn = onNavigateToLearn,
             onOpenBookmarks = { navController.navigate(HomeRoute.Bookmarks) },
+            onOpenSavedQuestions = { navController.navigate(HomeRoute.SavedQuestions) },
             onOpenProfileEdit = { navController.navigate(HomeRoute.ProfileEdit) },
             onOpenAbout = { navController.navigate(HomeRoute.About) },
             onOpenDiag = { navController.navigate(HomeRoute.Diag) },
@@ -57,6 +63,22 @@ fun NavGraphBuilder.homeGraph(
         BookmarksScreen(
             onTopicClick = onNavigateToTopic,
             onBack = { navController.popBackStack() },
+        )
+    }
+    composable<HomeRoute.SavedQuestions> {
+        SavedQuestionsScreen(
+            onQuestionClick = { questionId ->
+                navController.navigate(HomeRoute.SavedQuestionDetail(questionId))
+            },
+            onBack = { navController.popBackStack() },
+        )
+    }
+    composable<HomeRoute.SavedQuestionDetail> { backStackEntry ->
+        val args = backStackEntry.toRoute<HomeRoute.SavedQuestionDetail>()
+        SavedQuestionDetailScreen(
+            questionId = args.questionId,
+            onBack = { navController.popBackStack() },
+            onRemoved = { navController.popBackStack() },
         )
     }
     composable<HomeRoute.About> {

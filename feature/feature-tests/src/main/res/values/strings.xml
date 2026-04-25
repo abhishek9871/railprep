@@ -106,6 +106,14 @@
     <string name="review_trap_label">Why this option tempts</string>
     <string name="review_empty_filtered">No questions match this filter.</string>
     <string name="review_load_error">Couldn\'t load review.</string>
+    <string name="review_bookmark">Bookmark question</string>
+    <string name="review_bookmarked">Bookmarked</string>
+    <string name="review_bookmark_sheet_title">Save question</string>
+    <string name="review_bookmark_save_toggle">Save this question</string>
+    <string name="review_bookmark_note">Note</string>
+    <string name="review_bookmark_note_hint">Optional note</string>
+    <string name="review_bookmark_save">Save</string>
+    <string name="review_bookmark_remove">Remove</string>
 
     <!-- Diag overlay (long-press timer) -->
     <string name="attempt_diag_title">Attempt diagnostics</string>

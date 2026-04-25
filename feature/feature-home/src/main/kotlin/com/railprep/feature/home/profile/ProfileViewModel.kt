@@ -5,8 +5,10 @@ import androidx.lifecycle.viewModelScope
 import com.railprep.domain.model.SupportedLanguage
 import com.railprep.domain.repository.AuthRepository
 import com.railprep.domain.repository.AuthState
+import com.railprep.domain.repository.BookmarkRepository
 import com.railprep.domain.repository.LanguageRepository
 import com.railprep.domain.repository.ProfileRepository
+import com.railprep.domain.repository.QuestionBookmarkRepository
 import com.railprep.domain.util.DomainResult
 import com.railprep.feature.notifications.DigestReminderScheduler
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -24,6 +26,8 @@ data class ProfileUiState(
     val streakCurrent: Int = 0,
     val streakBest: Int = 0,
     val notificationsEnabled: Boolean = false,
+    val topicBookmarkCount: Int = 0,
+    val savedQuestionCount: Int = 0,
 )
 
 @HiltViewModel
@@ -31,6 +35,8 @@ class ProfileViewModel @Inject constructor(
     private val authRepository: AuthRepository,
     private val languageRepository: LanguageRepository,
     private val profileRepository: ProfileRepository,
+    private val bookmarkRepository: BookmarkRepository,
+    private val questionBookmarkRepository: QuestionBookmarkRepository,
     private val reminderScheduler: DigestReminderScheduler,
 ) : ViewModel() {
 
@@ -41,6 +47,7 @@ class ProfileViewModel @Inject constructor(
         observeAuth()
         observeLanguage()
         observeProfile()
+        refreshBookmarkCounts()
     }
 
     private fun observeProfile() {
@@ -67,6 +74,25 @@ class ProfileViewModel @Inject constructor(
                     if (enabled) reminderScheduler.enable() else reminderScheduler.disable()
                 }
                 is DomainResult.Failure -> { /* silent — toggle stays at old value */ }
+            }
+        }
+    }
+
+    fun refreshBookmarkCounts() {
+        viewModelScope.launch {
+            val topicCount = when (val r = bookmarkRepository.listBookmarks()) {
+                is DomainResult.Success -> r.value.size
+                is DomainResult.Failure -> _state.value.topicBookmarkCount
+            }
+            val questionCount = when (val r = questionBookmarkRepository.list()) {
+                is DomainResult.Success -> r.value.size
+                is DomainResult.Failure -> _state.value.savedQuestionCount
+            }
+            _state.update {
+                it.copy(
+                    topicBookmarkCount = topicCount,
+                    savedQuestionCount = questionCount,
+                )
             }
         }
     }

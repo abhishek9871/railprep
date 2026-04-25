@@ -21,6 +21,7 @@ import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Logout
 import androidx.compose.material.icons.filled.NotificationsActive
 import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Quiz
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
@@ -43,6 +44,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.tokens.Spacing
 import com.railprep.core.design.tokens.TouchTarget
@@ -56,6 +59,7 @@ fun ProfileTab(
     onSignedOut: () -> Unit,
     onOpenEdit: () -> Unit,
     onOpenBookmarks: () -> Unit,
+    onOpenSavedQuestions: () -> Unit,
     onOpenAbout: () -> Unit,
     onOpenDiag: () -> Unit,
     viewModel: ProfileViewModel = hiltViewModel(),
@@ -64,6 +68,10 @@ fun ProfileTab(
     var showLanguagePicker by remember { mutableStateOf(false) }
     var showNotifPrompt by remember { mutableStateOf(false) }
     val context = androidx.compose.ui.platform.LocalContext.current
+
+    LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
+        viewModel.refreshBookmarkCounts()
+    }
 
     Column(
         modifier = Modifier
@@ -85,8 +93,19 @@ fun ProfileTab(
             color = MaterialTheme.colorScheme.tertiary,
         )
 
+        ProfileRow(
+            icon = Icons.Filled.BookmarkBorder,
+            label = stringResource(R.string.profile_bookmarks),
+            badgeCount = state.topicBookmarkCount,
+            onClick = onOpenBookmarks,
+        )
+        ProfileRow(
+            icon = Icons.Filled.Quiz,
+            label = stringResource(R.string.profile_saved_questions),
+            badgeCount = state.savedQuestionCount,
+            onClick = onOpenSavedQuestions,
+        )
         ProfileRow(icon = Icons.Filled.Edit, label = stringResource(R.string.profile_edit), onClick = onOpenEdit)
-        ProfileRow(icon = Icons.Filled.BookmarkBorder, label = stringResource(R.string.profile_bookmarks), onClick = onOpenBookmarks)
         ProfileRow(icon = Icons.Filled.Translate, label = stringResource(R.string.profile_language), onClick = { showLanguagePicker = true })
 
         NotificationsToggleRow(
@@ -228,6 +247,7 @@ private fun ProfileHeader(
 private fun ProfileRow(
     icon: ImageVector,
     label: String,
+    badgeCount: Int? = null,
     onClick: () -> Unit,
     destructive: Boolean = false,
 ) {
@@ -257,6 +277,20 @@ private fun ProfileRow(
                     else MaterialTheme.colorScheme.onSurface,
                 modifier = Modifier.weight(1f),
             )
+            if (badgeCount != null) {
+                Surface(
+                    shape = CircleShape,
+                    color = MaterialTheme.colorScheme.primaryContainer,
+                ) {
+                    Text(
+                        text = badgeCount.toString(),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onPrimaryContainer,
+                        modifier = Modifier.padding(horizontal = Spacing.Sm, vertical = 2.dp),
+                    )
+                }
+                Spacer(Modifier.size(Spacing.Sm))
+            }
             if (!destructive) {
                 Icon(
                     Icons.AutoMirrored.Filled.KeyboardArrowRight,

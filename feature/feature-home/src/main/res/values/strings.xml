@@ -23,6 +23,7 @@
     <string name="profile_title">Profile</string>
     <string name="profile_edit">Edit profile</string>
     <string name="profile_bookmarks">Bookmarks</string>
+    <string name="profile_saved_questions">Saved Questions</string>
     <string name="profile_language">Language</string>
     <string name="profile_about">About &amp; attributions</string>
     <string name="profile_sign_out">Sign out</string>
@@ -44,6 +45,24 @@
     <string name="bookmarks_title">Your bookmarks</string>
     <string name="bookmarks_empty_title">No bookmarks yet</string>
     <string name="bookmarks_empty_subtitle">Tap the bookmark icon on any topic to save it here.</string>
+
+    <!-- Saved questions -->
+    <string name="saved_questions_title">Saved Questions</string>
+    <string name="saved_question_detail_title">Saved Question</string>
+    <string name="saved_questions_empty">Bookmark questions while reviewing tests to revisit them later</string>
+    <string name="saved_questions_filter_empty">No saved questions match this filter.</string>
+    <string name="saved_questions_load_error">Couldn\'t load saved questions.</string>
+    <string name="saved_questions_filter_all">All</string>
+    <string name="saved_questions_filter_with_note">With note</string>
+    <string name="saved_questions_filter_sectionals">Sectionals</string>
+    <string name="saved_questions_filter_pyq">PYQ</string>
+    <string name="saved_questions_filter_daily_digest">Daily Digest</string>
+    <string name="saved_questions_remove">Remove</string>
+    <string name="saved_question_missing">This saved question is no longer available.</string>
+    <string name="saved_question_note">Note</string>
+    <string name="saved_question_save_note">Save note</string>
+    <string name="saved_question_method_tab">Method</string>
+    <string name="saved_question_concept_tab">Concept</string>
 
     <!-- About -->
     <string name="about_title">About RailPrep</string>

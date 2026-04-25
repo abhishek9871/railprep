@@ -1,5 +1,8 @@
 package com.railprep.feature.tests.review
 
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,23 +16,32 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Bookmark
+import androidx.compose.material.icons.filled.BookmarkBorder
+import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -53,6 +65,7 @@ fun ReviewScreen(
     viewModel: ReviewViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    var sheetQuestion by remember { mutableStateOf<Question?>(null) }
     LaunchedEffect(attemptId) { viewModel.load(attemptId) }
 
     Scaffold(
@@ -117,12 +130,33 @@ fun ReviewScreen(
                         verticalArrangement = Arrangement.spacedBy(Spacing.Md),
                     ) {
                         items(visible, key = { it.id }) { q ->
-                            ReviewCard(question = q, answer = state.answers[q.id], showHi = state.showHi)
+                            ReviewCard(
+                                question = q,
+                                answer = state.answers[q.id],
+                                showHi = state.showHi,
+                                bookmarked = state.bookmarkNotes.containsKey(q.id),
+                                onToggleBookmark = { viewModel.toggleBookmark(q.id) },
+                                onLongPress = { sheetQuestion = q },
+                            )
                         }
                     }
                 }
             }
         }
+    }
+
+    sheetQuestion?.let { question ->
+        BookmarkSheet(
+            question = question,
+            showHi = state.showHi,
+            initialSaved = state.bookmarkNotes.containsKey(question.id),
+            initialNote = state.bookmarkNotes[question.id],
+            onSave = { save, note ->
+                viewModel.saveBookmark(question.id, save, note)
+                sheetQuestion = null
+            },
+            onDismiss = { sheetQuestion = null },
+        )
     }
 }
 
@@ -152,23 +186,45 @@ private fun Chip(
     )
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
-private fun ReviewCard(question: Question, answer: AttemptAnswer?, showHi: Boolean) {
+private fun ReviewCard(
+    question: Question,
+    answer: AttemptAnswer?,
+    showHi: Boolean,
+    bookmarked: Boolean,
+    onToggleBookmark: () -> Unit,
+    onLongPress: () -> Unit,
+) {
     val correct = question.options.firstOrNull { it.isCorrect }
     val selected = answer?.selectedOptionId?.let { id -> question.options.firstOrNull { it.id == id } }
 
     Surface(
         color = MaterialTheme.colorScheme.surfaceVariant,
         shape = RoundedCornerShape(Radius.Md),
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier
+            .fillMaxWidth()
+            .combinedClickable(onClick = {}, onLongClick = onLongPress),
     ) {
         Column(modifier = Modifier.padding(Spacing.Md),
                verticalArrangement = Arrangement.spacedBy(Spacing.Xs)) {
-            Text(
-                text = if (showHi && !question.stemHi.isNullOrBlank()) question.stemHi!! else question.stemEn,
-                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Medium),
-                color = MaterialTheme.colorScheme.onSurface,
-            )
+            Row(verticalAlignment = Alignment.Top) {
+                Text(
+                    text = if (showHi && !question.stemHi.isNullOrBlank()) question.stemHi!! else question.stemEn,
+                    style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.Medium),
+                    color = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.weight(1f),
+                )
+                IconButton(onClick = onToggleBookmark) {
+                    Icon(
+                        imageVector = if (bookmarked) Icons.Filled.Bookmark else Icons.Filled.BookmarkBorder,
+                        contentDescription = stringResource(
+                            if (bookmarked) R.string.review_bookmarked else R.string.review_bookmark,
+                        ),
+                        tint = MaterialTheme.colorScheme.primary,
+                    )
+                }
+            }
             Spacer(Modifier.size(Spacing.Xs))
             question.options.forEach { opt ->
                 ReviewOptionRow(
@@ -195,6 +251,74 @@ private fun ReviewCard(question: Question, answer: AttemptAnswer?, showHi: Boole
             // Two-layer explanations (Stage 4 originals): method first, concept second.
             // Falls back to legacy explanationEn/Hi for the 30-Q sample test.
             ExplanationSection(question = question, showHi = showHi)
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun BookmarkSheet(
+    question: Question,
+    showHi: Boolean,
+    initialSaved: Boolean,
+    initialNote: String?,
+    onSave: (save: Boolean, note: String?) -> Unit,
+    onDismiss: () -> Unit,
+) {
+    var save by remember(question.id, initialSaved) { mutableStateOf(initialSaved) }
+    var note by remember(question.id, initialNote) { mutableStateOf(initialNote.orEmpty()) }
+
+    ModalBottomSheet(onDismissRequest = onDismiss) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = Spacing.Lg, vertical = Spacing.Md),
+            verticalArrangement = Arrangement.spacedBy(Spacing.Md),
+        ) {
+            Text(
+                text = stringResource(R.string.review_bookmark_sheet_title),
+                style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold),
+                color = MaterialTheme.colorScheme.onSurface,
+            )
+            Text(
+                text = if (showHi && !question.stemHi.isNullOrBlank()) question.stemHi!! else question.stemEn,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text(
+                    text = stringResource(R.string.review_bookmark_save_toggle),
+                    style = MaterialTheme.typography.bodyLarge,
+                    modifier = Modifier.weight(1f),
+                )
+                Switch(checked = save, onCheckedChange = { save = it })
+            }
+            OutlinedTextField(
+                value = note,
+                onValueChange = { note = it },
+                enabled = save,
+                minLines = 2,
+                label = { Text(stringResource(R.string.review_bookmark_note)) },
+                placeholder = { Text(stringResource(R.string.review_bookmark_note_hint)) },
+                modifier = Modifier.fillMaxWidth(),
+            )
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.End,
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                TextButton(
+                    enabled = initialSaved,
+                    onClick = { onSave(false, null) },
+                ) {
+                    Text(stringResource(R.string.review_bookmark_remove))
+                }
+                Spacer(Modifier.size(Spacing.Sm))
+                Button(onClick = { onSave(save, note) }) {
+                    Text(stringResource(R.string.review_bookmark_save))
+                }
+            }
+            Spacer(Modifier.size(Spacing.Sm))
         }
     }
 }

@@ -19,6 +19,7 @@
     <string name="profile_title">प्रोफ़ाइल</string>
     <string name="profile_edit">प्रोफ़ाइल संपादित करें</string>
     <string name="profile_bookmarks">बुकमार्क</string>
+    <string name="profile_saved_questions">सहेजे गए प्रश्न</string>
     <string name="profile_language">भाषा</string>
     <string name="profile_about">जानकारी और श्रेय</string>
     <string name="profile_sign_out">साइन आउट</string>
@@ -37,6 +38,23 @@
     <string name="bookmarks_title">आपके बुकमार्क</string>
     <string name="bookmarks_empty_title">अभी कोई बुकमार्क नहीं</string>
     <string name="bookmarks_empty_subtitle">किसी भी विषय पर बुकमार्क आइकन दबाकर यहाँ सेव करें।</string>
+
+    <string name="saved_questions_title">सहेजे गए प्रश्न</string>
+    <string name="saved_question_detail_title">सहेजा गया प्रश्न</string>
+    <string name="saved_questions_empty">Review में questions bookmark करें ताकि बाद में दोहरा सकें</string>
+    <string name="saved_questions_filter_empty">इस filter में कोई saved question नहीं।</string>
+    <string name="saved_questions_load_error">Saved questions लोड नहीं हो सके।</string>
+    <string name="saved_questions_filter_all">सभी</string>
+    <string name="saved_questions_filter_with_note">Note वाले</string>
+    <string name="saved_questions_filter_sectionals">Sectionals</string>
+    <string name="saved_questions_filter_pyq">PYQ</string>
+    <string name="saved_questions_filter_daily_digest">Daily Digest</string>
+    <string name="saved_questions_remove">Remove</string>
+    <string name="saved_question_missing">यह saved question अब उपलब्ध नहीं है।</string>
+    <string name="saved_question_note">Note</string>
+    <string name="saved_question_save_note">Note save करें</string>
+    <string name="saved_question_method_tab">Method</string>
+    <string name="saved_question_concept_tab">Concept</string>
 
     <string name="about_title">RailPrep के बारे में</string>
     <string name="about_intro">RailPrep केवल कैटलॉग ऐप है। हम मीडिया होस्ट नहीं करते। हर वीडियो, PDF, लेख मूल स्रोत से दिखाया जाता है — पूरे श्रेय के साथ।</string>

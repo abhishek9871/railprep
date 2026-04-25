@@ -6,6 +6,7 @@ import com.railprep.data.repository.BookmarkRepositoryImpl
 import com.railprep.data.repository.DigestRepositoryImpl
 import com.railprep.data.repository.LearnRepositoryImpl
 import com.railprep.data.repository.ProfileRepositoryImpl
+import com.railprep.data.repository.QuestionBookmarkRepositoryImpl
 import com.railprep.data.repository.TestsRepositoryImpl
 import com.railprep.domain.repository.AttemptRepository
 import com.railprep.domain.repository.AuthRepository
@@ -13,6 +14,7 @@ import com.railprep.domain.repository.BookmarkRepository
 import com.railprep.domain.repository.DigestRepository
 import com.railprep.domain.repository.LearnRepository
 import com.railprep.domain.repository.ProfileRepository
+import com.railprep.domain.repository.QuestionBookmarkRepository
 import com.railprep.domain.repository.TestsRepository
 import dagger.Binds
 import dagger.Module
@@ -38,6 +40,12 @@ abstract class DataRepositoryModule {
     @Binds
     @Singleton
     abstract fun bindBookmarkRepository(impl: BookmarkRepositoryImpl): BookmarkRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindQuestionBookmarkRepository(
+        impl: QuestionBookmarkRepositoryImpl,
+    ): QuestionBookmarkRepository
 
     @Binds
     @Singleton

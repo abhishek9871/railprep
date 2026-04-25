@@ -34,6 +34,7 @@ fun HomeRootScreen(
     onSignedOut: () -> Unit,
     onNavigateToLearn: () -> Unit,
     onOpenBookmarks: () -> Unit,
+    onOpenSavedQuestions: () -> Unit,
     onOpenProfileEdit: () -> Unit,
     onOpenAbout: () -> Unit,
     onOpenDiag: () -> Unit,
@@ -94,6 +95,7 @@ fun HomeRootScreen(
                     onSignedOut = onSignedOut,
                     onOpenEdit = onOpenProfileEdit,
                     onOpenBookmarks = onOpenBookmarks,
+                    onOpenSavedQuestions = onOpenSavedQuestions,
                     onOpenAbout = onOpenAbout,
                     onOpenDiag = onOpenDiag,
                 )
