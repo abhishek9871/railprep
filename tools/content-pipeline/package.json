@@ -1,0 +1,22 @@
+{
+  "name": "railprep-content-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Generates topic-catalog SQL for RailPrep from YouTube channels + NCERT textbook indexes. Applies via Supabase REST using SUPABASE_SERVICE_KEY.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "discover:yt": "node src/youtube-discover.mjs",
+    "discover:ncert": "node src/ncert-pdfs.mjs",
+    "discover:pib": "node src/pib-feed.mjs",
+    "apply": "node src/apply-to-supabase.mjs",
+    "all": "npm run discover:ncert && npm run discover:yt && npm run apply"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^2.4.5",
+    "undici": "^6.19.8"
+  }
+}

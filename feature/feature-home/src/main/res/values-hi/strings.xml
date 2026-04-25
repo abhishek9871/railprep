@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_home">होम</string>
+    <string name="nav_tests">टेस्ट</string>
+    <string name="nav_feed">फ़ीड</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+
+    <string name="home_welcome_fmt">नमस्ते, %1$s</string>
+    <string name="home_subtitle">आज भी तैयारी जारी रखें।</string>
+    <string name="home_cta_start_learning">पढ़ाई शुरू करें</string>
+    <string name="home_cta_learn_subtitle">RRB NTPC के लिए चुने हुए वीडियो और NCERT PDFs।</string>
+    <string name="home_cta_browse_bookmarks">आपके बुकमार्क</string>
+
+    <string name="tests_coming_soon">मॉक टेस्ट फ़ेज़ 3 में आएंगे।</string>
+    <string name="tests_coming_subtitle">CBT-पैटर्न टेस्ट — समयबद्ध, नेगेटिव मार्किंग, विश्लेषण।</string>
+    <string name="feed_coming_soon">करंट अफ़ेयर्स फ़ीड फ़ेज़ 4 में आएगी।</string>
+    <string name="feed_coming_subtitle">PIB + विश्वसनीय स्रोत, रोज़ संपादित।</string>
+
+    <string name="profile_title">प्रोफ़ाइल</string>
+    <string name="profile_edit">प्रोफ़ाइल संपादित करें</string>
+    <string name="profile_bookmarks">बुकमार्क</string>
+    <string name="profile_language">भाषा</string>
+    <string name="profile_about">जानकारी और श्रेय</string>
+    <string name="profile_sign_out">साइन आउट</string>
+    <string name="profile_no_email">कोई ईमेल दर्ज नहीं</string>
+    <string name="profile_diag_hint">अवतार पर लंबे समय दबाएँ — डायग्नोस्टिक्स खुलेंगे।</string>
+
+    <string name="edit_title">प्रोफ़ाइल संपादित करें</string>
+    <string name="edit_save">सेव करें</string>
+    <string name="edit_saved">सेव हो गया।</string>
+
+    <string name="language_picker_title">ऐप भाषा</string>
+    <string name="language_picker_en">English</string>
+    <string name="language_picker_hi">हिन्दी</string>
+    <string name="language_picker_applied">भाषा बदल दी गई।</string>
+
+    <string name="bookmarks_title">आपके बुकमार्क</string>
+    <string name="bookmarks_empty_title">अभी कोई बुकमार्क नहीं</string>
+    <string name="bookmarks_empty_subtitle">किसी भी विषय पर बुकमार्क आइकन दबाकर यहाँ सेव करें।</string>
+
+    <string name="about_title">RailPrep के बारे में</string>
+    <string name="about_intro">RailPrep केवल कैटलॉग ऐप है। हम मीडिया होस्ट नहीं करते। हर वीडियो, PDF, लेख मूल स्रोत से दिखाया जाता है — पूरे श्रेय के साथ।</string>
+    <string name="about_sources_header">सामग्री स्रोत</string>
+    <string name="about_src_ncert">NCERT — पाठ्यपुस्तकें ncert.nic.in से लिंक; कॉपी नहीं।</string>
+    <string name="about_src_youtube">YouTube — आधिकारिक IFrame प्लेयर से चलाए जाते हैं। हर विषय पर क्रिएटर का नाम दिखाया जाता है।</string>
+    <string name="about_src_pib">Press Information Bureau — GODL-India के तहत (फ़ेज़ 4)।</string>
+    <string name="about_src_datagov">data.gov.in — GODL-India के तहत डेटा (फ़ेज़ 4)।</string>
+    <string name="about_licenses_header">लाइसेंस</string>
+    <string name="about_license_yt">YouTube Standard License — आधिकारिक IFrame प्लेयर से।</string>
+    <string name="about_license_ncert">NCERT — सर्वाधिकार; हम केवल लिंक करते हैं।</string>
+    <string name="about_license_godl">Government Open Data Licence — India.</string>
+    <string name="about_license_cc">CC BY-SA 4.0 (फ़ेज़ 2 में प्रयोग नहीं)।</string>
+
+    <string name="diag_title">डायग्नोस्टिक्स</string>
+    <string name="diag_version">ऐप संस्करण</string>
+    <string name="diag_user_id">यूज़र आईडी</string>
+    <string name="diag_pdf_cache">PDF कैश आकार</string>
+    <string name="diag_clear_cache">PDF कैश साफ़ करें</string>
+    <string name="diag_cleared">कैश साफ़ हो गया।</string>
+    <string name="diag_refresh">रीफ़्रेश करें</string>
+    <string name="diag_last_pdf_header">अंतिम PDF डाउनलोड</string>
+    <string name="diag_last_pdf_outcome">परिणाम</string>
+    <string name="diag_last_pdf_http">HTTP कोड</string>
+    <string name="diag_last_pdf_bytes">बाइट्स</string>
+    <string name="diag_last_pdf_ct">Content-Type</string>
+    <string name="diag_last_pdf_magic">पहले 8 बाइट्स (hex)</string>
+    <string name="diag_last_pdf_err">त्रुटि</string>
+    <string name="profile_streak_label_fmt">🔥 %1$d-दिन streak · सर्वश्रेष्ठ %2$d</string>
+    <string name="profile_streak_none">🔥 streak शुरू नहीं — Home पर "आज के 10" से शुरू करें</string>
+</resources>

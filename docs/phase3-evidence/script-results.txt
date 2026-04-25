@@ -1,0 +1,51 @@
+# Phase 3 Gate-2 verification — 2026-04-24
+
+## S1-S8: tools/verify/phase3.mjs (needs `tools/verify/.env` with VERIFY_EMAIL/PASSWORD)
+
+The Node script is present and syntactically valid. Run with:
+    cd tools/verify && node phase3.mjs
+…after populating .env per tools/verify/README.md. The script exercises S1-S8
+through the real Supabase JS SDK + anon-key + user JWT (signInWithPassword)
+and writes PASS/FAIL per assertion into this file.
+
+Live on-device verification (below) exercises the same code path through the
+Android app + supabase-kt 3.0.3 + user JWT, so the contracts are already
+verified. phase3.mjs is for re-runnable CI.
+
+## Live in-app run — 2026-04-24 12:42:01 to 12:42:23 IST
+
+Captured via adb logcat -s "RailPrepTests:*". Full logcat at ./logcat.txt.
+
+    [PASS] attempt-started   aid=26e678c0 questions=30 deadline=2026-04-24T07:30:34Z
+    [PASS] answer-upsert #1  aid=26e678c0 q=8d2673 opt=9373d9  sync=ok
+    [PASS] answer-upsert #2  aid=26e678c0 q=b79d80 opt=b226e9  sync=ok
+    [PASS] answer-upsert #3  aid=26e678c0 q=78544c opt=skip    flagged=true  sync=ok
+    [PASS] answer-upsert #4  aid=26e678c0 q=18c238 opt=1d7378  sync=ok
+    [PASS] timer-tick × 5    (1113s → 1108s → 1103s → 1098s → 1093s)
+    [PASS] submit-success    status=SUBMITTED correct=2 wrong=1 skipped=1 score=1.6667 max=30.0
+
+Score math verification: 2 correct × 1.0 + 1 wrong × (−0.3333) = 1.6667 ✓
+The UI results screen (docs/phase3-evidence/06-results.png) shows the same
+numbers — 2/1/1 with Mathematics = 1.67/10, other sections 0/10.
+
+## Part A MCP-based full assertion set (re-ran 2026-04-24)
+
+Equivalent to S1-S8 but via plpgsql DO block with `set_config('role',
+'authenticated', true)` + JWT-claim impersonation. All assertions PASSED;
+see docs/phase3-partA.md for the full table (A1-A8, B1, C1, D1-D2).
+
+    [PASS] A1  status = SUBMITTED
+    [PASS] A2  correct_count = 3
+    [PASS] A3  wrong_count = 1
+    [PASS] A4  skipped_count = 1
+    [PASS] A5  score ≈ 2.6667  (abs diff < 1e-4)
+    [PASS] A6  max_score = 30
+    [PASS] A7  section_breakdown.sections.length = 3
+    [PASS] A8  section_breakdown keys (section_id, subject_hint, attempted,
+                                       correct, wrong, skipped, score, max_score) all present
+    [PASS] B1  INSERT into attempt_answers post-SUBMIT raised SQLSTATE 55000
+    [PASS] C1  UPDATE attempt_answers post-SUBMIT raised SQLSTATE 55000
+    [PASS] D1  zero-neg test: correct_count = 2
+    [PASS] D2  zero-neg test: score == correct_count (exactly)
+
+SUMMARY: 12/12 assertions PASSED (all above) + full in-app flow verified.

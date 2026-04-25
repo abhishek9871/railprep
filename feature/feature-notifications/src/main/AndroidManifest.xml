@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Android 13+ runtime permission. Requested only at first digest submit,
+         NOT at app launch (brief D2 requirement). -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+</manifest>

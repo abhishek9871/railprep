@@ -1,0 +1,45 @@
+# Android / Gradle
+*.iml
+.gradle/
+local.properties
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing secrets (belts and braces — keystore should live outside the repo anyway)
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# Kotlin / KSP
+.kotlin/
+
+# IDE
+.claude/
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+*.ipr
+*.iws
+out/
+
+# Node tooling
+node_modules/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# Output
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs
+*.log
+
+# Generated Google Services / Firebase files (not used, but kept to prevent accidents)
+google-services.json

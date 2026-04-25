@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tests list (tab body) -->
+    <string name="tests_list_title">मॉक टेस्ट</string>
+    <string name="tests_list_subtitle">CBT पैटर्न प्रैक्टिस — section timing + negative marking के साथ।</string>
+    <string name="tests_filter_all">सभी</string>
+    <string name="tests_filter_cbt1">CBT-1</string>
+    <string name="tests_filter_cbt2">CBT-2</string>
+    <string name="tests_filter_pyq">PYQ</string>
+    <string name="tests_filter_sectional">Sectional</string>
+    <string name="tests_filter_pyq_library">PYQ Library</string>
+    <string name="tests_card_lang_en">EN</string>
+    <string name="tests_card_lang_hi">हिन्दी</string>
+    <string name="tests_card_pyq_link_subtitle">मूल पेपर पढ़ने के लिए tap करें · Source: %1$s</string>
+    <string name="tests_card_duration_fmt">%1$d मिनट</string>
+    <string name="tests_card_qcount_fmt">%1$d प्रश्न</string>
+    <string name="tests_card_pro">PRO</string>
+    <string name="tests_load_error">टेस्ट लोड नहीं हो सके। pull to retry।</string>
+    <string name="tests_list_empty">इस filter के लिए कोई टेस्ट उपलब्ध नहीं है।</string>
+    <string name="tests_pull_to_refresh">Refresh के लिए pull करें</string>
+    <string name="tests_card_not_attempted">अभी तक attempt नहीं किया</string>
+    <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>
+    <string name="tests_card_best_single_fmt">Best: %1$s / %2$s · 1 attempt</string>
+
+    <!-- Instructions -->
+    <string name="instructions_title">निर्देश</string>
+    <string name="instructions_header_fmt">%1$s</string>
+    <string name="instructions_duration_fmt">अवधि: %1$d मिनट</string>
+    <string name="instructions_qcount_fmt">कुल प्रश्न: %1$d</string>
+    <string name="instructions_neg_fmt">Negative marking: प्रति गलत उत्तर −%1$s</string>
+    <string name="instructions_sections_header">Sections</string>
+    <string name="instructions_section_line_fmt">%1$s — %2$d प्रश्न</string>
+    <string name="instructions_rules_header">नियम</string>
+    <string name="instructions_rule_bilingual">कभी भी शीर्ष पट्टी से English / हिन्दी के बीच switch कर सकते हैं।</string>
+    <string name="instructions_rule_timer">Timer server पर चलता है — ऐप छोड़ने पर भी pause नहीं होगा।</string>
+    <string name="instructions_rule_neg">गलत उत्तर पर negative marking लगेगी; skip किए प्रश्नों पर नहीं।</string>
+    <string name="instructions_rule_submit">आप पहले submit कर सकते हैं, या समय समाप्त होने पर ऐप automatically submit कर देगा।</string>
+    <string name="instructions_start">टेस्ट शुरू करें</string>
+    <string name="instructions_resume">टेस्ट जारी रखें</string>
+    <string name="instructions_starting">शुरू हो रहा है…</string>
+    <string name="instructions_start_error">टेस्ट शुरू नहीं हो सका। कृपया पुनः प्रयास करें।</string>
+
+    <!-- Battery opt -->
+    <string name="battopt_title">ऐप चालू रखें</string>
+    <string name="battopt_body">यह device लंबे टेस्ट के दौरान ऐप रोक सकता है। अपने timer को सटीक रखने के लिए RailPrep के लिए battery optimization disable करें।</string>
+    <string name="battopt_open_settings">Settings खोलें</string>
+    <string name="battopt_skip">छोड़ें</string>
+
+    <!-- Player -->
+    <string name="player_question_index_fmt">प्रश्न %1$d / %2$d</string>
+    <string name="player_section_fmt">Section: %1$s</string>
+    <string name="player_palette">Palette</string>
+    <string name="player_prev">पिछला</string>
+    <string name="player_next">अगला</string>
+    <string name="player_submit">Submit</string>
+    <string name="player_mark_review">समीक्षा के लिए mark</string>
+    <string name="player_marked_review">Marked</string>
+    <string name="player_clear">Clear</string>
+    <string name="player_lang_en">EN</string>
+    <string name="player_lang_hi">हि</string>
+    <string name="player_submitting">Submit हो रहा है…</string>
+    <string name="player_submit_failed">Submit नहीं हो सका। फिर से Submit tap करें।</string>
+    <string name="player_load_error">टेस्ट लोड नहीं हो सका। वापस जाकर पुनः प्रयास करें।</string>
+    <string name="player_time_up">समय समाप्त — submit हो रहा है।</string>
+    <string name="player_confirm_submit_title">अभी submit करें?</string>
+    <string name="player_confirm_submit_body_fmt">आपने %2$d में से %1$d का उत्तर दिया है। Submit के बाद उत्तर नहीं बदल सकते।</string>
+    <string name="player_confirm_submit_ok">Submit</string>
+    <string name="player_confirm_submit_cancel">जारी रखें</string>
+
+    <!-- Palette -->
+    <string name="palette_title">Question palette</string>
+    <string name="palette_legend_answered">उत्तर दिया</string>
+    <string name="palette_legend_marked">Marked for review</string>
+    <string name="palette_legend_skipped">Skipped / नहीं देखा</string>
+    <string name="palette_legend_current">वर्तमान</string>
+
+    <!-- Results -->
+    <string name="results_title">परिणाम</string>
+    <string name="results_score_label">अंक</string>
+    <string name="results_of_fmt">%2$s में से %1$s</string>
+    <string name="results_breakdown_correct">सही</string>
+    <string name="results_breakdown_wrong">गलत</string>
+    <string name="results_breakdown_skipped">Skipped</string>
+    <string name="results_section_header">Section-wise</string>
+    <string name="results_section_row_fmt">%1$s — %3$s में से %2$s</string>
+    <string name="results_review_cta">उत्तर देखें</string>
+    <string name="results_done">हो गया</string>
+    <string name="results_percentile_wait">Rank 10 attempts के बाद दिखेगा।</string>
+    <string name="results_load_error">परिणाम लोड नहीं हो सके।</string>
+
+    <!-- Review -->
+    <string name="review_title">समीक्षा</string>
+    <string name="review_filter_all">सभी</string>
+    <string name="review_filter_wrong">गलत</string>
+    <string name="review_filter_skipped">Skipped</string>
+    <string name="review_filter_marked">Marked</string>
+    <string name="review_correct_answer_label">सही उत्तर</string>
+    <string name="review_your_answer_label">आपका उत्तर</string>
+    <string name="review_not_answered">उत्तर नहीं दिया</string>
+    <string name="review_explanation_header">स्पष्टीकरण</string>
+    <string name="review_explanation_method">Method (exam shortcut)</string>
+    <string name="review_explanation_concept">Concept (क्यों काम करता है)</string>
+    <string name="review_trap_label">यह option क्यों लुभाता है</string>
+    <string name="review_empty_filtered">इस filter के लिए कोई प्रश्न नहीं।</string>
+    <string name="review_load_error">समीक्षा लोड नहीं हो सकी।</string>
+    <string name="results_weak_header">अगला यह पढ़ें</string>
+    <string name="results_weak_subhead">आपके सबसे ज़्यादा गलत topics — primer पढ़ने के लिए tap करें।</string>
+    <string name="results_weak_row_fmt">%1$s · %2$d गलत</string>
+
+    <!-- Diag -->
+    <string name="attempt_diag_title">Attempt diagnostics</string>
+    <string name="attempt_diag_attempt_id">Attempt id</string>
+    <string name="attempt_diag_deadline">Deadline</string>
+    <string name="attempt_diag_local_now">Local now</string>
+    <string name="attempt_diag_drift">Drift (local − deadline)</string>
+    <string name="attempt_diag_last_sync">Last server sync</string>
+    <string name="attempt_diag_pending">Pending local writes</string>
+    <string name="attempt_diag_close">बंद करें</string>
+</resources>

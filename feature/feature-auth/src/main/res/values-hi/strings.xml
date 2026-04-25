@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash -->
+    <string name="app_wordmark">रेलप्रेप</string>
+    <string name="app_tagline">आपकी NTPC यात्रा यहाँ से शुरू।</string>
+
+    <!-- Language picker -->
+    <string name="language_title">भाषा चुनें</string>
+    <string name="language_subtitle">आप इसे कभी भी प्रोफ़ाइल से बदल सकते हैं।</string>
+    <string name="language_continue">जारी रखें</string>
+    <string name="language_coming_soon">जल्द उपलब्ध — फ़िलहाल अंग्रेज़ी।</string>
+    <string name="language_coming_soon_badge">जल्द</string>
+
+    <!-- Onboarding -->
+    <!-- TODO(i18n): polish copy with a native speaker in Phase 11. -->
+    <string name="onboarding_slide1_title">हर दिन अद्यतन करंट अफ़ेयर्स</string>
+    <string name="onboarding_slide1_body">रेलवे समाचार, राष्ट्रीय घटनाएँ, PIB विज्ञप्तियाँ — NTPC पाठ्यक्रम के अनुसार।</string>
+    <string name="onboarding_slide2_title">पूर्ण CBT-पैटर्न मॉक टेस्ट</string>
+    <string name="onboarding_slide2_body">समयबद्ध सेक्शन, नेगेटिव मार्किंग, तुरंत विश्लेषण — असल परीक्षा जैसा।</string>
+    <string name="onboarding_slide3_title">हिन्दी या अंग्रेज़ी में पढ़ें</string>
+    <string name="onboarding_slide3_body">भाषा कभी भी बदलें। हर पाठ, हर प्रश्न, हर सूचना।</string>
+    <string name="onboarding_skip">छोड़ें</string>
+    <string name="onboarding_next">आगे</string>
+    <string name="onboarding_get_started">शुरू करें</string>
+
+    <!-- Auth -->
+    <string name="auth_title">जारी रखने के लिए साइन इन करें</string>
+    <string name="auth_subtitle">अपनी प्रगति सभी डिवाइसों पर ट्रैक करें।</string>
+    <string name="auth_continue_google">Google से जारी रखें</string>
+    <string name="auth_sign_in_email">ईमेल से साइन इन</string>
+    <string name="auth_legal_note">जारी रखने पर, आप हमारी शर्तों और गोपनीयता नीति से सहमत हैं।</string>
+
+    <!-- Email auth -->
+    <string name="email_title">ईमेल साइन इन</string>
+    <string name="email_tab_sign_in">साइन इन</string>
+    <string name="email_tab_create_account">खाता बनाएँ</string>
+    <string name="email_field_email">ईमेल</string>
+    <string name="email_field_password">पासवर्ड</string>
+    <string name="email_submit_sign_in">साइन इन</string>
+    <string name="email_submit_create_account">खाता बनाएँ</string>
+    <string name="email_forgot_password">पासवर्ड भूल गए?</string>
+    <string name="email_back">वापस</string>
+    <string name="email_err_empty">अपना ईमेल डालें।</string>
+    <string name="email_err_invalid">यह मान्य ईमेल नहीं लगता।</string>
+    <string name="password_err_empty">पासवर्ड डालें।</string>
+    <string name="password_err_too_short">कम से कम 8 अक्षर रखें।</string>
+    <string name="email_reset_sent">पासवर्ड रीसेट लिंक भेजा गया। अपना ईमेल देखें।</string>
+    <string name="email_account_created">खाता बना। पुष्टि के लिए अपना ईमेल देखें।</string>
+    <string name="email_banner_confirm">हमने आपकी ईमेल पर पुष्टि लिंक भेजा है। उस पर क्लिक करें और फिर यहाँ लौटकर साइन इन करें।</string>
+
+    <!-- Password reset -->
+    <string name="reset_otp_title">कोड डालें</string>
+    <string name="reset_otp_subtitle">हमने %1$s पर कोड भेजा है। इनबॉक्स और स्पैम देखें।</string>
+    <string name="reset_otp_field_code">सत्यापन कोड</string>
+    <string name="reset_otp_err_invalid">अपने ईमेल से कोड डालें।</string>
+    <string name="reset_otp_verify">सत्यापित करें</string>
+    <string name="reset_otp_resend">कोड दोबारा भेजें</string>
+    <string name="reset_code_resent">कोड दोबारा भेजा गया। इनबॉक्स देखें।</string>
+    <string name="new_password_title">नया पासवर्ड तय करें</string>
+    <string name="new_password_subtitle">मज़बूत पासवर्ड चुनें। अगली बार साइन इन के लिए यही इस्तेमाल होगा।</string>
+    <string name="new_password_field_new">नया पासवर्ड</string>
+    <string name="new_password_field_confirm">पासवर्ड की पुष्टि</string>
+    <string name="new_password_err_mismatch">पासवर्ड मेल नहीं खा रहे।</string>
+    <string name="new_password_submit">पासवर्ड अपडेट करें</string>
+
+    <!-- Goal -->
+    <string name="goal_title">अपना लक्ष्य तय करें</string>
+    <string name="goal_subtitle">थोड़ी जानकारी दें ताकि हम आपकी योजना बना सकें।</string>
+    <string name="goal_display_name">आपका नाम (वैकल्पिक)</string>
+    <string name="goal_exam_target">लक्ष्य परीक्षा</string>
+    <string name="goal_exam_cbt1">NTPC CBT-1</string>
+    <string name="goal_exam_cbt2">NTPC CBT-2</string>
+    <string name="goal_target_date">परीक्षा की संभावित तारीख</string>
+    <string name="goal_pick_date">तारीख चुनें</string>
+    <string name="goal_pick">चुनें</string>
+    <string name="goal_ok">ठीक</string>
+    <string name="goal_cancel">रद्द</string>
+    <string name="goal_daily_minutes">रोज़ाना अध्ययन: %1$d मिनट</string>
+    <string name="goal_qualification">योग्यता</string>
+    <string name="goal_qual_12th">12वीं पास</string>
+    <string name="goal_qual_graduate">स्नातक</string>
+    <string name="goal_category">श्रेणी</string>
+    <string name="goal_dob">जन्म तिथि</string>
+    <string name="goal_finish">पूरा करें</string>
+    <string name="goal_err_required">यह आवश्यक है।</string>
+    <string name="goal_err_date_range">आज से 30 दिन और 2 वर्ष के बीच की तारीख चुनें।</string>
+    <string name="goal_err_under_18">आपकी उम्र कम से कम 18 वर्ष होनी चाहिए।</string>
+</resources>

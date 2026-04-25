@@ -1,0 +1,485 @@
+{
+  "_doc": "Phase 4 D3 sectional — Profit & Loss. Every Q teaches a distinct misconception via trap_reason. Tags overlap sibling math sectionals (percentage, discount). Hindi register: narrative HI + English/inline technical nouns (CP, SP, MP, discount, markup, %, ₹) per the Phase 3 glossary.",
+  "slug": "sectional-profit-loss-01",
+  "title_en": "Profit & Loss — Sectional",
+  "title_hi": "लाभ-हानि — Sectional",
+  "section": { "title_en": "Profit & Loss", "title_hi": "लाभ-हानि", "subject_hint": "math" },
+  "total_minutes": 25,
+  "questions": [
+    {
+      "id": "pl-01",
+      "stem_en": "An article bought for ₹800 is sold for ₹960. Find the gain percentage.",
+      "stem_hi": "एक वस्तु ₹800 में खरीदकर ₹960 में बेची गई। gain प्रतिशत क्या है?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "gain-percentage", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%",     "text_hi": "20%",     "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "16.67%",  "text_hi": "16.67%",  "is_correct": false, "trap_reason_en": "Divided gain 160 by SP 960 (not CP 800): 160/960 = 16.67%. This answers margin% on SP, not gain% on CP.", "trap_reason_hi": "160 को SP 960 से भाग दिया: 160/960 = 16.67%। यह margin% (SP पर) है, gain% (CP पर) नहीं।" },
+        { "label": "C", "text_en": "25%",     "text_hi": "25%",     "is_correct": false, "trap_reason_en": "Subtracted gain 160 from CP first, then used 640 as the denominator: 160/(800−160) = 160/640 = 25%. The denominator must stay CP 800.", "trap_reason_hi": "CP 800 में से gain 160 घटाकर denominator 640 लिया: 160/640 = 25%। Denominator हमेशा CP 800 ही रहेगा।" },
+        { "label": "D", "text_en": "120%",    "text_hi": "120%",    "is_correct": false, "trap_reason_en": "Computed SP/CP × 100 = 960/800 × 100 = 120%. This is the selling-price multiplier expressed as a percent (= 1 + gain%), not the gain% itself.", "trap_reason_hi": "SP/CP × 100 = 960/800 × 100 = 120% लिया। यह SP multiplier % में है (1 + gain%), gain% नहीं।" }
+      ],
+      "explanation_method_en": "Gain = SP − CP = 960 − 800 = 160. Gain% = 160/800 × 100 = 20%.",
+      "explanation_concept_en": "Gain percent always uses cost price as the base: gain% = (SP−CP)/CP × 100. Using SP as the denominator answers a different question (margin %, not gain %) — the values differ whenever there is any non-zero profit or loss.",
+      "explanation_method_hi": "Gain = SP − CP = 960 − 800 = 160। Gain% = 160/800 × 100 = 20%।",
+      "explanation_concept_hi": "Gain percent हमेशा cost price पर लगता है: gain% = (SP−CP)/CP × 100। SP को denominator बनाना गलत है — वह margin% निकालता है (अलग धारणा)।"
+    },
+    {
+      "id": "pl-02",
+      "stem_en": "The cost price of an article is ₹500. The shopkeeper marks it up by 20%. What is the marked price?",
+      "stem_hi": "एक वस्तु का cost price ₹500 है। दुकानदार उस पर 20% markup लगाता है। marked price क्या है?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "markup"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹520", "text_hi": "₹520", "is_correct": false, "trap_reason_en": "Added 20 directly instead of 20% of 500; 20% of 500 = 100, giving ₹600, not ₹520.", "trap_reason_hi": "500 में 20 सीधे जोड़ा; 20% of 500 = 100 होता, अतः ₹600 सही है।" },
+        { "label": "B", "text_en": "₹600", "text_hi": "₹600", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "₹700", "text_hi": "₹700", "is_correct": false, "trap_reason_en": "Doubled the markup rate to 40%: 500 × 1.40 = 700. The question states 20%, not 40%.", "trap_reason_hi": "markup rate को दोगुना करके 40% लगाया: 500 × 1.40 = 700। Question में 20% दिया है, 40% नहीं।" },
+        { "label": "D", "text_en": "₹400", "text_hi": "₹400", "is_correct": false, "trap_reason_en": "Computed 500 × 0.80 — took a 20% discount direction instead of a 20% markup.", "trap_reason_hi": "500 × 0.80 लगाया — markup की जगह 20% discount की दिशा में किया।" }
+      ],
+      "explanation_method_en": "MP = CP × (1 + markup%) = 500 × 1.20 = ₹600.",
+      "explanation_concept_en": "Markup is measured as a percentage of cost price: a 20% markup adds 20% of CP (₹100) to CP (₹500), yielding MP ₹600. Markup and discount are inverse direction operations — they move the price away from CP and away from MP respectively.",
+      "explanation_method_hi": "MP = CP × (1 + markup%) = 500 × 1.20 = ₹600।",
+      "explanation_concept_hi": "Markup cost price का percent होता है: 20% markup = CP का 20% (₹100) = ₹500 में जुड़कर MP ₹600। Markup CP से बढ़ाता है, discount MP से घटाता है — दिशा विपरीत है।"
+    },
+    {
+      "id": "pl-03",
+      "stem_en": "The marked price of a shirt is ₹600. After a 15% discount, what is the selling price?",
+      "stem_hi": "एक shirt का marked price ₹600 है। 15% discount के बाद selling price क्या होगी?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "discount"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹510", "text_hi": "₹510", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹585", "text_hi": "₹585", "is_correct": false, "trap_reason_en": "Subtracted 15 (the percent number, not 15% of the amount) directly from 600: 600 − 15 = 585.", "trap_reason_hi": "600 में से 15 (percent की संख्या) सीधे घटाया, न कि 15% of 600 = 90: 600 − 15 = 585।" },
+        { "label": "C", "text_en": "₹540", "text_hi": "₹540", "is_correct": false, "trap_reason_en": "Applied a 10% discount (600 × 0.90 = 540), not the 15% stated in the question.", "trap_reason_hi": "600 × 0.90 = 540 लगाया — 10% discount, जबकि question में 15% है।" },
+        { "label": "D", "text_en": "₹690", "text_hi": "₹690", "is_correct": false, "trap_reason_en": "Added 15% instead of subtracting: 600 × 1.15 = 690. Direction flipped — discount subtracts, not adds.", "trap_reason_hi": "Discount को घटाने की बजाय जोड़ा: 600 × 1.15 = 690। Discount हमेशा घटता है, जुड़ता नहीं।" }
+      ],
+      "explanation_method_en": "SP = MP × (1 − discount%) = 600 × 0.85 = ₹510. Shortcut: 10% of 600 = 60, 5% = 30, total = 90 off.",
+      "explanation_concept_en": "Discount is a percentage of the marked price (not of CP). SP = MP − discount. When you flip the operation to a multiplier (0.85 here), the arithmetic collapses to one step — handy in exam conditions.",
+      "explanation_method_hi": "SP = MP × (1 − discount%) = 600 × 0.85 = ₹510। shortcut: 10% of 600 = 60, 5% = 30, कुल 90 घटाएँ।",
+      "explanation_concept_hi": "Discount marked price का percent है (CP का नहीं)। SP = MP − discount। multiplier (यहाँ 0.85) में बदलने से एक step में हल हो जाता है।"
+    },
+    {
+      "id": "pl-04",
+      "stem_en": "An article bought for ₹900 is sold for ₹810. Find the loss percentage.",
+      "stem_hi": "एक वस्तु ₹900 में खरीदकर ₹810 में बेची गई। loss प्रतिशत क्या है?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "loss-percentage", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "10%",      "text_hi": "10%",      "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "11.11%",   "text_hi": "11.11%",   "is_correct": false, "trap_reason_en": "Divided loss 90 by SP 810 (not CP 900): 90/810 = 11.11%. Loss% always uses CP as the base.", "trap_reason_hi": "90 को SP 810 से भाग दिया: 90/810 = 11.11%। Loss% हमेशा CP पर।" },
+        { "label": "C", "text_en": "9%",       "text_hi": "9%",       "is_correct": false, "trap_reason_en": "Substituted denominator 1000 for CP 900 (mental shortcut): 90/1000 = 9%. Correct CP is 900, not 1000.", "trap_reason_hi": "CP 900 की जगह 1000 रख दिया: 90/1000 = 9%। सही CP 900 है।" },
+        { "label": "D", "text_en": "90%",      "text_hi": "90%",      "is_correct": false, "trap_reason_en": "Computed SP/CP × 100 = 810/900 × 100 = 90%. This is SP as a percent of CP (= 100 − loss%), not the loss% itself.", "trap_reason_hi": "SP/CP × 100 = 810/900 × 100 = 90% लगाया। यह CP के percent में SP है (= 100 − loss%), loss% नहीं।" }
+      ],
+      "explanation_method_en": "Loss = CP − SP = 90. Loss% = 90/900 × 100 = 10%.",
+      "explanation_concept_en": "Loss% uses CP as the base just like gain%. Sign is captured by the fact that SP < CP; the formula (CP−SP)/CP × 100 returns a positive percentage representing the shortfall relative to cost.",
+      "explanation_method_hi": "Loss = CP − SP = 90। Loss% = 90/900 × 100 = 10%।",
+      "explanation_concept_hi": "Loss% में भी base CP होता है (gain% की तरह)। Formula (CP−SP)/CP × 100; positive number shortfall दर्शाता है।"
+    },
+    {
+      "id": "pl-05",
+      "stem_en": "A toy is sold for ₹660 at a gain of 10%. What was the cost price?",
+      "stem_hi": "एक खिलौना ₹660 में 10% gain पर बेचा गया। cost price क्या थी?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "reverse-calculation"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹594", "text_hi": "₹594", "is_correct": false, "trap_reason_en": "Subtracted 10% of SP from SP: 660 − 66 = 594. CP formula is SP/(1 + gain%), not SP − gain%·SP.", "trap_reason_hi": "SP में से 10% of SP घटाया: 660 − 66 = 594। CP formula SP/(1 + gain%) है।" },
+        { "label": "B", "text_en": "₹600", "text_hi": "₹600", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "₹726", "text_hi": "₹726", "is_correct": false, "trap_reason_en": "Added 10% of SP to SP: 660 × 1.10 = 726. Treated SP as the base of gain in the wrong direction.", "trap_reason_hi": "SP में 10% of SP जोड़ दिया: 660 × 1.10 = 726। Gain base को गलत दिशा में लगाया।" },
+        { "label": "D", "text_en": "₹550", "text_hi": "₹550", "is_correct": false, "trap_reason_en": "Applied reverse formula with 20% in place of 10%: 660/1.20 = 550. Read the gain rate wrong.", "trap_reason_hi": "Reverse formula में 10% की जगह 20% लगाया: 660/1.20 = 550। Gain rate गलत पढ़ा।" }
+      ],
+      "explanation_method_en": "SP = CP × (1 + gain%) ⇒ CP = SP / 1.10 = 660/1.10 = ₹600.",
+      "explanation_concept_en": "Reverse-percentage: given a post-gain SP, the CP is recovered by dividing by the multiplier (1 + gain%). Subtracting the gain% from SP is a common error — it uses SP as the base of the gain, but gain is measured on CP.",
+      "explanation_method_hi": "SP = CP × (1 + gain%) ⇒ CP = SP/1.10 = 660/1.10 = ₹600।",
+      "explanation_concept_hi": "Reverse-percentage: gain-post SP से CP निकालने के लिए multiplier (1 + gain%) से भाग दें। SP में से gain% घटाना गलत है — gain का base CP है, SP नहीं।"
+    },
+    {
+      "id": "pl-06",
+      "stem_en": "A trader bought a machine for ₹1,200 and sold it at a 15% loss. Find the selling price.",
+      "stem_hi": "एक व्यापारी ने ₹1,200 में एक machine खरीदी और 15% loss पर बेची। selling price क्या है?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "loss", "direct-calculation"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹1,020", "text_hi": "₹1,020", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹1,185", "text_hi": "₹1,185", "is_correct": false, "trap_reason_en": "Subtracted 15 (not 15% = ₹180) from CP.", "trap_reason_hi": "CP में से 15 घटाया (15% = ₹180 घटाना था)।" },
+        { "label": "C", "text_en": "₹1,380", "text_hi": "₹1,380", "is_correct": false, "trap_reason_en": "Added the loss instead of subtracting — wrong direction.", "trap_reason_hi": "Loss जोड़ दिया, घटाया नहीं।" },
+        { "label": "D", "text_en": "₹1,080", "text_hi": "₹1,080", "is_correct": false, "trap_reason_en": "Used 10% loss (multiplied by 0.90), not 15%.", "trap_reason_hi": "10% loss लगाया, 15% नहीं।" }
+      ],
+      "explanation_method_en": "SP = CP × (1 − loss%) = 1200 × 0.85 = ₹1,020.",
+      "explanation_concept_en": "Loss shifts SP below CP. Multiplying CP by (1 − loss%) gives SP in one step, analogous to how (1 + gain%) handles the gain case. Subtracting the percent value directly (15) from the amount (1200) conflates 'percent' with 'amount'.",
+      "explanation_method_hi": "SP = CP × (1 − loss%) = 1200 × 0.85 = ₹1,020।",
+      "explanation_concept_hi": "Loss में SP, CP से कम हो जाता है। CP × (1 − loss%) एक step में SP देता है। percent value को सीधे amount से घटाना ग़लत है।"
+    },
+    {
+      "id": "pl-07",
+      "stem_en": "The marked price of a bag is ₹1,000 and it is sold for ₹850. Find the discount percentage.",
+      "stem_hi": "एक bag का marked price ₹1,000 है और यह ₹850 में बिकता है। discount प्रतिशत क्या है?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "discount", "reverse-calculation"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "15%",     "text_hi": "15%",     "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "17.65%",  "text_hi": "17.65%",  "is_correct": false, "trap_reason_en": "Divided discount 150 by SP 850 (not MP 1000): 150/850 = 17.65%. Discount% must use MP as the base.", "trap_reason_hi": "Discount 150 को SP 850 से भाग दिया: 150/850 = 17.65%। Discount% का base MP होता है।" },
+        { "label": "C", "text_en": "13.04%",  "text_hi": "13.04%",  "is_correct": false, "trap_reason_en": "Used MP + discount = 1150 as denominator: 150/1150 = 13.04%. The denominator is just MP, not MP + discount.", "trap_reason_hi": "Denominator में MP + discount = 1150 लिया: 150/1150 = 13.04%। Denominator सिर्फ MP होता है।" },
+        { "label": "D", "text_en": "85%",     "text_hi": "85%",     "is_correct": false, "trap_reason_en": "Computed SP/MP × 100 = 850/1000 × 100 = 85%. This is the fraction paid (= 100 − discount%), not the discount%.", "trap_reason_hi": "SP/MP × 100 = 85% लगाया — यह pay किया गया अंश है (= 100 − discount%), discount% नहीं।" }
+      ],
+      "explanation_method_en": "Discount = MP − SP = 150. Discount% = 150/1000 × 100 = 15%.",
+      "explanation_concept_en": "Discount% is always expressed relative to the marked price, not the selling price. Using SP as the denominator inflates the number because SP < MP, so dividing by the smaller denominator gives a larger apparent rate.",
+      "explanation_method_hi": "Discount = MP − SP = 150। Discount% = 150/1000 × 100 = 15%।",
+      "explanation_concept_hi": "Discount% हमेशा marked price पर होता है, SP पर नहीं। SP से भाग देने पर denominator छोटा होता है (SP<MP) अतः answer बड़ा आता है — गलत।"
+    },
+    {
+      "id": "pl-08",
+      "stem_en": "Which option represents a larger absolute profit: selling at 20% gain on a CP of ₹200, or selling at 15% gain on a CP of ₹300?",
+      "stem_hi": "किसमें absolute profit ज़्यादा है: CP ₹200 पर 20% gain, या CP ₹300 पर 15% gain?",
+      "difficulty": "EASY",
+      "tags": ["profit-loss", "comparison", "percent-vs-absolute"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20% of ₹200",                 "text_hi": "₹200 का 20%",                 "is_correct": false, "trap_reason_en": "20% of 200 = 40, which is less than 15% of 300 = 45.", "trap_reason_hi": "200 का 20% = 40; 300 का 15% = 45 — 40 < 45।" },
+        { "label": "B", "text_en": "15% of ₹300",                 "text_hi": "₹300 का 15%",                 "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "Both equal",                  "text_hi": "दोनों बराबर",                  "is_correct": false, "trap_reason_en": "Incorrect assumption; do the arithmetic: 40 ≠ 45.", "trap_reason_hi": "गलत मान्यता; 40 ≠ 45।" },
+        { "label": "D", "text_en": "Can't compare without more info","text_hi": "जानकारी कम है, compare नहीं कर सकते","is_correct": false, "trap_reason_en": "Both percentages are tied to specific amounts — a definite comparison is possible.","trap_reason_hi": "दोनों percentages specific amounts से जुड़े हैं — comparison हो सकता है।" }
+      ],
+      "explanation_method_en": "Compute each: 20% of 200 = 40, 15% of 300 = 45. 45 > 40.",
+      "explanation_concept_en": "Percentages alone don't compare absolute profits — the base matters. A smaller percent on a larger base can produce more absolute profit. Always multiply the percent by the amount before comparing.",
+      "explanation_method_hi": "हर एक निकालें: 200 का 20% = 40, 300 का 15% = 45। 45 > 40।",
+      "explanation_concept_hi": "Percentage अकेले absolute profit compare नहीं करता — base मायने रखता है। बड़े base पर छोटा percent बड़ा profit दे सकता है।"
+    },
+    {
+      "id": "pl-09",
+      "stem_en": "A watch is marked at ₹2,000. The shopkeeper offers a 10% discount, then a further 5% on the reduced price. What is the final selling price?",
+      "stem_hi": "एक watch का marked price ₹2,000 है। दुकानदार पहले 10% discount देता है, फिर reduced price पर 5% और। अंतिम selling price क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "discount", "successive-discount"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹1,700", "text_hi": "₹1,700", "is_correct": false, "trap_reason_en": "Subtracted 15% directly from 2000 — successive discounts compound, they don't add.", "trap_reason_hi": "2000 से 15% सीधे घटाया — successive discounts compound होते हैं।" },
+        { "label": "B", "text_en": "₹1,710", "text_hi": "₹1,710", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "₹1,800", "text_hi": "₹1,800", "is_correct": false, "trap_reason_en": "Only applied the first discount (10% → 1800); missed the second 5%.", "trap_reason_hi": "सिर्फ पहला discount (10% → 1800) लगाया; दूसरा 5% छूट गया।" },
+        { "label": "D", "text_en": "₹1,690", "text_hi": "₹1,690", "is_correct": false, "trap_reason_en": "Applied 5% on the original 2000 (not on 1800) for the second step.", "trap_reason_hi": "5% को 1800 के बजाय 2000 पर लगाया।" }
+      ],
+      "explanation_method_en": "SP = 2000 × 0.90 × 0.95 = 2000 × 0.855 = ₹1,710. Equivalent single discount = 14.5%.",
+      "explanation_concept_en": "Successive discounts multiply: final factor = (1 − d₁/100)(1 − d₂/100). The equivalent single rate is always smaller than the sum (here 14.5% < 15%) because the second discount applies to an already-shrunk base.",
+      "explanation_method_hi": "SP = 2000 × 0.90 × 0.95 = 2000 × 0.855 = ₹1,710। equivalent single = 14.5%।",
+      "explanation_concept_hi": "Successive discounts multiply होते हैं: factor = (1 − d₁/100)(1 − d₂/100)। Equivalent single हमेशा sum से कम (यहाँ 14.5% < 15%)।"
+    },
+    {
+      "id": "pl-10",
+      "stem_en": "A store offers two successive discounts of 20% and 10%. What is the equivalent single discount percentage?",
+      "stem_hi": "एक store दो successive discounts देता है: 20% और 10%। equivalent single discount प्रतिशत क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "successive-discount", "equivalent-single"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "30%", "text_hi": "30%", "is_correct": false, "trap_reason_en": "Added 20 + 10 — successive percentages compound, they don't sum.", "trap_reason_hi": "20+10 जोड़ दिया — successive percentages compound होते हैं।" },
+        { "label": "B", "text_en": "28%", "text_hi": "28%", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "25%", "text_hi": "25%", "is_correct": false, "trap_reason_en": "Close but computed 20 + 10 − (20×10)/200 with wrong divisor; correct formula uses /100.", "trap_reason_hi": "formula में divisor 200 लगाया; सही /100 है।" },
+        { "label": "D", "text_en": "32%", "text_hi": "32%", "is_correct": false, "trap_reason_en": "Overshot: multiplied factors 0.80 × 0.88 mistakenly (wrong second factor).", "trap_reason_hi": "second factor गलत ले लिया।" }
+      ],
+      "explanation_method_en": "Equivalent single = 1 − 0.80 × 0.90 = 1 − 0.72 = 0.28 = 28%. Formula: a + b − (a×b)/100 = 20 + 10 − 2 = 28.",
+      "explanation_concept_en": "For two successive discounts a% and b% the overall multiplier is (1 − a/100)(1 − b/100). Expanding gives 1 − a/100 − b/100 + ab/10000. The equivalent single discount is a + b − ab/100 (in percent). The ab/100 'correction' term explains why successive discounts always beat the user (the combined rate is less than the sum).",
+      "explanation_method_hi": "equivalent single = 1 − 0.80 × 0.90 = 1 − 0.72 = 0.28 = 28%। formula: a + b − (a×b)/100 = 20 + 10 − 2 = 28।",
+      "explanation_concept_hi": "दो successive discounts a%, b% का overall multiplier (1−a/100)(1−b/100) होता है। equivalent single = a + b − ab/100। यह correction term बताता है कि successive discount हमेशा sum से कम होता है।"
+    },
+    {
+      "id": "pl-11",
+      "stem_en": "Two articles are sold for ₹960 each. On one the trader gains 20%, on the other he loses 20%. What is his overall profit or loss percentage?",
+      "stem_hi": "दो articles ₹960-₹960 में बिकते हैं। एक पर 20% gain, दूसरे पर 20% loss हुआ। overall profit/loss प्रतिशत क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "two-articles-same-sp", "net-profit-loss"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "No profit, no loss",    "text_hi": "न profit, न loss",    "is_correct": false, "trap_reason_en": "Symmetric cancellation — +20% and −20% at the same SP do NOT cancel because the underlying CPs (800 and 1200) differ.", "trap_reason_hi": "+20% और −20% same SP पर cancel नहीं होते क्योंकि CPs (800 और 1200) अलग हैं।" },
+        { "label": "B", "text_en": "4% loss",               "text_hi": "4% loss",               "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "4% gain",               "text_hi": "4% gain",               "is_correct": false, "trap_reason_en": "Correct magnitude but wrong sign — with same SP and equal-% split, the heavier CP (loss side) dominates, so the net is always a LOSS.", "trap_reason_hi": "Magnitude सही, sign गलत — same SP और equal % split में बड़ी CP (loss side) dominate करती है, net हमेशा LOSS।" },
+        { "label": "D", "text_en": "20% loss",              "text_hi": "20% loss",              "is_correct": false, "trap_reason_en": "Applied only the −20% loss side and ignored the +20% gain side entirely: reported the loss% as the overall P/L%.", "trap_reason_hi": "सिर्फ −20% loss side लगाया, +20% gain side पूरी तरह छोड़ दिया: overall P/L% को loss% के बराबर मान लिया।" }
+      ],
+      "explanation_method_en": "Shortcut: whenever SPs are equal and the two percentages are the same x%, overall loss = (x/10)² = (20/10)² = 4%.",
+      "explanation_concept_en": "CP of the 20%-gain article = 960/1.20 = 800. CP of the 20%-loss article = 960/0.80 = 1200. Total CP = 2000, total SP = 1920. Loss = 80 on 2000 = 4%. The asymmetry comes from the CPs differing: the loss article's CP is higher (so the percent loss is on a bigger base) than the gain article's.",
+      "explanation_method_hi": "shortcut: जब दोनों SP बराबर और percentages भी (x%), तो net loss = (x/10)² = (20/10)² = 4%।",
+      "explanation_concept_hi": "+20% वाले की CP = 960/1.20 = 800। −20% वाले की CP = 960/0.80 = 1200। कुल CP = 2000, कुल SP = 1920। Loss = 80/2000 = 4%। दिशा loss की होती है क्योंकि loss वाले की CP बड़ी है।"
+    },
+    {
+      "id": "pl-12",
+      "stem_en": "An article is marked up by 40% above its cost and then sold after a 20% discount. Find the gain percentage.",
+      "stem_hi": "एक वस्तु पर 40% markup लगाकर फिर 20% discount पर बेची गई। gain प्रतिशत क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "markup", "discount", "successive-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%",  "text_hi": "20%",  "is_correct": false, "trap_reason_en": "Subtracted directly: m − d = 40 − 20 = 20%. Ignored that markup uses CP as base (100) while discount uses MP as base (140).", "trap_reason_hi": "सीधे m − d = 40 − 20 = 20% निकाला। Markup CP (100) पर, discount MP (140) पर — bases अलग।" },
+        { "label": "B", "text_en": "12%",  "text_hi": "12%",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "28%",  "text_hi": "28%",  "is_correct": false, "trap_reason_en": "Sign error on the cross-term: computed 40 − 20 + (40×20)/100 = 40 − 20 + 8 = 28. The correct formula is m − d − md/100 (minus sign on cross-term).", "trap_reason_hi": "Cross-term का sign गलत: 40 − 20 + (40×20)/100 = 28 निकाला। सही formula m − d − md/100 है (− sign on cross-term)।" },
+        { "label": "D", "text_en": "10%",  "text_hi": "10%",  "is_correct": false, "trap_reason_en": "Halved the naive difference (40 − 20 = 20) as a 'compounding dampener': got 10%. True dampening = only the cross-term md/100 = 4, giving 16... actually 20 − 8 = 12%, not 10.", "trap_reason_hi": "Naive अंतर (40 − 20 = 20) को आधा कर दिया ('compounding dampener' सोचकर): 10% मिला। सही dampening केवल cross-term md/100 = 8 है।" }
+      ],
+      "explanation_method_en": "Take CP = 100. MP = 140. SP = 140 × 0.80 = 112. Gain% = 12%. Shortcut: final/CP − 1 = 1.40 × 0.80 − 1 = 0.12 = 12%.",
+      "explanation_concept_en": "The markup inflates CP to MP; the discount deflates MP to SP. Net gain depends on whether (1 + markup)(1 − discount) is greater or less than 1. Here it's 1.12, so 12% gain. Adding markup% and subtracting discount% is always wrong unless you explicitly use the compound-percentage formula a + b + (ab/100).",
+      "explanation_method_hi": "CP = 100 मानें। MP = 140। SP = 140 × 0.80 = 112। Gain% = 12%। Shortcut: (1.40 × 0.80) − 1 = 12%।",
+      "explanation_concept_hi": "Markup CP से MP बढ़ाता है; discount MP से SP घटाता है। Net gain (1+markup)(1−discount) पर निर्भर — यहाँ 1.12 → 12% gain। Markup से discount सीधे घटाना गलत है जब तक compound formula न लगाएँ।"
+    },
+    {
+      "id": "pl-13",
+      "stem_en": "A shopkeeper sells goods at cost price but uses a weight of 900g in place of 1 kg. What is his actual gain percentage?",
+      "stem_hi": "एक दुकानदार cost price पर सामान बेचता है पर 1 kg की जगह 900g का बाट (weight) इस्तेमाल करता है। वास्तविक gain% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "dishonest-merchant", "weight-fraud"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "10%",     "text_hi": "10%",     "is_correct": false, "trap_reason_en": "Used shortfall 100 divided by claimed weight 1000: 100/1000 = 10%. The denominator must be what was actually delivered (900g), not claimed.", "trap_reason_hi": "Shortfall 100 को claimed weight 1000 से भाग दिया: 100/1000 = 10%। Denominator delivered weight (900g) होगा।" },
+        { "label": "B", "text_en": "11.11%",  "text_hi": "11.11%",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "9.09%",   "text_hi": "9.09%",   "is_correct": false, "trap_reason_en": "Divided shortfall 100 by 1100 (added shortfall to claimed weight by mistake): 100/1100 = 9.09%. Denominator is 900, not 1100.", "trap_reason_hi": "Shortfall 100 को 1100 से भाग दिया (shortfall को claimed weight में जोड़ दिया): 100/1100 = 9.09%। Denominator 900 है।" },
+        { "label": "D", "text_en": "12.5%",   "text_hi": "12.5%",   "is_correct": false, "trap_reason_en": "Assumed shortfall was 100 on a base of 800 (interpreted 'delivered 800g while claiming 1000g'): 100/800 = 12.5%. The actual delivered weight is 900g.", "trap_reason_hi": "800g को delivered weight मान लिया (shortfall 200g माना): 100/800 = 12.5%। सही delivered weight 900g है।" }
+      ],
+      "explanation_method_en": "Shortcut: gain% = (error / (true wt − error)) × 100 = (100/900) × 100 = 11.11%.",
+      "explanation_concept_en": "The merchant's cost per true-gram stays the same, but he only delivers 900g while charging the price of 1000g. So he saves the cost of 100g for every 900g he actually gives. Gain percent is therefore 100/900 (the extra revenue divided by what was actually spent), not 100/1000 (which would be the fraction of the claimed weight).",
+      "explanation_method_hi": "shortcut: gain% = (error / (true wt − error)) × 100 = (100/900) × 100 = 11.11%।",
+      "explanation_concept_hi": "Merchant true-gram की cost वही रखता है पर केवल 900g देता है और 1000g की कीमत वसूलता है। हर 900g पर 100g की cost बचाता है। Gain% = 100/900, न कि 100/1000।"
+    },
+    {
+      "id": "pl-14",
+      "stem_en": "10 kg of rice at ₹10 per kg is mixed with 10 kg at ₹20 per kg. The mixture is sold at ₹18 per kg. Find the gain percentage on the mixture.",
+      "stem_hi": "10 kg चावल ₹10 per kg वाला और 10 kg ₹20 per kg वाला मिलाकर mixture ₹18 per kg पर बेचा गया। mixture पर gain% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "mixture", "gain-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%",     "text_hi": "20%",     "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "60%",     "text_hi": "60%",     "is_correct": false, "trap_reason_en": "Divided gain 60 by cheap-variety CP only (10 × 10 = 100): 60/100 = 60%. Denominator must be total mix CP = 300.", "trap_reason_hi": "Gain 60 को सिर्फ cheap variety की CP (10 × 10 = 100) से भाग दिया: 60/100 = 60%। सही total mix CP 300।" },
+        { "label": "C", "text_en": "15%",     "text_hi": "15%",     "is_correct": false, "trap_reason_en": "Assumed total CP at the higher rate: 20 kg × ₹20 = ₹400 → 60/400 = 15%. Actual mix CP = 10×10 + 10×20 = 300.", "trap_reason_hi": "Total CP को ऊँची rate पर मान लिया: 20 kg × ₹20 = ₹400 → 60/400 = 15%। सही mix CP = 10×10 + 10×20 = 300।" },
+        { "label": "D", "text_en": "16.67%",  "text_hi": "16.67%",  "is_correct": false, "trap_reason_en": "Divided gain 60 by total SP 360 (not CP 300): 60/360 = 16.67%. Gain% is always on CP.", "trap_reason_hi": "Gain 60 को total SP 360 से भाग दिया: 60/360 = 16.67%। Gain% हमेशा CP पर।" }
+      ],
+      "explanation_method_en": "Total CP = 10×10 + 10×20 = 100 + 200 = ₹300. Total SP = 20 × 18 = ₹360. Gain = 60. Gain% = 60/300 × 100 = 20%.",
+      "explanation_concept_en": "When two costs are mixed and sold at a single rate, total CP is the sum of the two inputs and total SP is (final per-unit rate × total units). Gain% is always on total CP, not on either input's CP alone.",
+      "explanation_method_hi": "Total CP = 10×10 + 10×20 = 300। Total SP = 20×18 = 360। Gain = 60। Gain% = 60/300 × 100 = 20%।",
+      "explanation_concept_hi": "दो costs mix होकर एक rate पर बिकते हैं: total CP = sum of inputs, total SP = per-unit rate × total units। Gain% कुल CP पर।"
+    },
+    {
+      "id": "pl-15",
+      "stem_en": "A trader buys a product for ₹500. He spends ₹50 on transport and sells it for ₹660. Find his gain percentage.",
+      "stem_hi": "एक व्यापारी ₹500 में product खरीदता है, ₹50 transport पर खर्च करता है, और ₹660 में बेचता है। gain% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "overhead-cost", "total-cost"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%", "text_hi": "20%", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "32%", "text_hi": "32%", "is_correct": false, "trap_reason_en": "Ignored transport when computing CP: used gain 160 (= 660 − 500) over CP 500: 160/500 = 32%. Correct total cost = 500 + 50 = 550, gain = 110.", "trap_reason_hi": "Transport छोड़ दिया: gain 160 (= 660 − 500) को CP 500 पर: 160/500 = 32%। सही total cost = 500 + 50 = 550, gain = 110।" },
+        { "label": "C", "text_en": "22%", "text_hi": "22%", "is_correct": false, "trap_reason_en": "Used correct gain 110 but ignored transport only in the denominator: 110/500 = 22%. Transport 50 must be included in CP, so 110/550 = 20%.", "trap_reason_hi": "Gain 110 सही, पर denominator में transport छूट गया: 110/500 = 22%। Transport 50 CP में जोड़ना है: 110/550 = 20%।" },
+        { "label": "D", "text_en": "24%", "text_hi": "24%", "is_correct": false, "trap_reason_en": "Subtracted transport from CP instead of adding: 500 − 50 = 450; 110/450 = 24.4%. Transport is a cost — it ADDS to CP, not subtracts.", "trap_reason_hi": "Transport को CP में से घटा दिया: 500 − 50 = 450; 110/450 = 24.4%। Transport cost है, यह CP में जुड़ती है।" }
+      ],
+      "explanation_method_en": "Total CP = 500 + 50 = ₹550. Gain = 660 − 550 = 110. Gain% = 110/550 × 100 = 20%.",
+      "explanation_concept_en": "All overheads (transport, storage, packaging) are part of the cost price. Ignoring them inflates the apparent gain%. Always aggregate every pre-sale expense into CP before computing gain%.",
+      "explanation_method_hi": "Total CP = 500 + 50 = ₹550। Gain = 110। Gain% = 110/550 × 100 = 20%।",
+      "explanation_concept_hi": "सारे overheads (transport, storage, packaging) CP में जुड़ते हैं। इन्हें भूलने पर apparent gain% बढ़ जाता है।"
+    },
+    {
+      "id": "pl-16",
+      "stem_en": "By selling an article for ₹720, a man incurs a 20% loss. At what price should he sell it to gain 10%?",
+      "stem_hi": "₹720 में बेचने पर एक व्यक्ति को 20% loss होता है। 10% gain पाने के लिए उसे किस कीमत पर बेचना चाहिए?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "target-sp", "reverse-calculation"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹990",  "text_hi": "₹990",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹792",  "text_hi": "₹792",  "is_correct": false, "trap_reason_en": "Added 10% to current SP — but new gain% is measured on CP, not on previous SP.", "trap_reason_hi": "current SP में 10% जोड़ दिया — पर gain% CP पर लगता है, SP पर नहीं।" },
+        { "label": "C", "text_en": "₹900",  "text_hi": "₹900",  "is_correct": false, "trap_reason_en": "This is the CP (720/0.80). The target SP is CP × 1.10 = 990.", "trap_reason_hi": "यह CP (720/0.80) है। Target SP = CP × 1.10 = 990।" },
+        { "label": "D", "text_en": "₹1,008", "text_hi": "₹1,008", "is_correct": false, "trap_reason_en": "Applied 12% gain on 900 or similar; exact is 10% on 900 = 990.", "trap_reason_hi": "12% लगाया; सही 10% on 900 = 990।" }
+      ],
+      "explanation_method_en": "Recover CP: CP = 720/0.80 = ₹900. Target SP = CP × 1.10 = 990.",
+      "explanation_concept_en": "Both the current loss and the target gain are expressed against CP. Recover CP from the loss SP (SP_loss = CP × (1 − 0.20)), then apply the gain multiplier (1 + 0.10) to get the target SP. Trying to jump from SP_loss directly to SP_target using a +30% (20+10) shift is always wrong because the bases are different.",
+      "explanation_method_hi": "CP = 720/0.80 = ₹900। Target SP = CP × 1.10 = 990।",
+      "explanation_concept_hi": "Current loss और target gain दोनों CP पर। पहले CP निकालें (720/0.80=900), फिर gain factor (1.10) लगाकर target SP। SP_loss से सीधे +30% नहीं।"
+    },
+    {
+      "id": "pl-17",
+      "stem_en": "A trader gains 25% on the cost price of an article. What is his gain as a percentage of the selling price?",
+      "stem_hi": "एक व्यापारी CP पर 25% gain लेता है। SP के percent में उसका gain कितना है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "percent-base-switch"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "25%",    "text_hi": "25%",    "is_correct": false, "trap_reason_en": "Assumed gain% is base-invariant — reported the markup (25%) as the margin. But switching denominator from CP to SP changes the value.", "trap_reason_hi": "Gain% को base-independent माना — markup (25%) को margin के रूप में दे दिया। CP से SP में denominator बदलने पर answer बदलता है।" },
+        { "label": "B", "text_en": "20%",    "text_hi": "20%",    "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "16.67%", "text_hi": "16.67%", "is_correct": false, "trap_reason_en": "Used 25/150 — added gain 25 to SP 125 to form 150 as denominator (double-counted the gain): 25/150 = 16.67%.", "trap_reason_hi": "Denominator में gain को दोबारा जोड़ा: 25/(125+25) = 25/150 = 16.67%।" },
+        { "label": "D", "text_en": "12.5%",  "text_hi": "12.5%",  "is_correct": false, "trap_reason_en": "Halved the markup 25% → 12.5% (used division by 2 as the markup-to-margin converter). Correct converter: markup/(1 + markup) = 0.25/1.25 = 0.20.", "trap_reason_hi": "Markup 25% को आधा करके 12.5% किया (mistakenly division by 2 को converter समझा)। सही converter: markup/(1 + markup) = 0.25/1.25 = 0.20।" }
+      ],
+      "explanation_method_en": "Take CP = 100. SP = 125. Gain = 25. As % of SP: 25/125 × 100 = 20%.",
+      "explanation_concept_en": "Gain on cost (markup) and gain on sales (margin) give different percent values. Markup = gain/CP; margin = gain/SP. They only coincide when gain = 0. The formula to convert: margin = markup/(1 + markup) when markup is in fractional form.",
+      "explanation_method_hi": "CP = 100 मानें। SP = 125। Gain = 25। SP के percent में: 25/125 × 100 = 20%।",
+      "explanation_concept_hi": "Gain-on-cost (markup) और gain-on-sales (margin) अलग-अलग percent देते हैं। Conversion: margin = markup/(1 + markup) (fractional markup में)।"
+    },
+    {
+      "id": "pl-18",
+      "stem_en": "The marked price of a TV is 25% above its cost price. A discount of 12% is offered on the MP. Find the profit percentage.",
+      "stem_hi": "एक TV का marked price CP से 25% अधिक है। MP पर 12% discount मिलता है। profit% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "markup", "discount", "successive-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "10%",   "text_hi": "10%",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "13%",   "text_hi": "13%",   "is_correct": false, "trap_reason_en": "Subtracted 25 − 12 directly — doesn't work when bases differ (markup on CP, discount on MP).", "trap_reason_hi": "25−12 सीधे निकाला — pr bases अलग हैं।" },
+        { "label": "C", "text_en": "15%",   "text_hi": "15%",   "is_correct": false, "trap_reason_en": "Tried 25 − (12% of 25) = 22 — close logic but wrong formulation.", "trap_reason_hi": "25 − (12% of 25) = 22 जैसा लगाया — तरीका सही नहीं।" },
+        { "label": "D", "text_en": "12%",   "text_hi": "12%",   "is_correct": false, "trap_reason_en": "Used the discount percent as profit percent — these are unrelated.", "trap_reason_hi": "discount% को profit% मान लिया।" }
+      ],
+      "explanation_method_en": "CP = 100 ⇒ MP = 125. SP = 125 × 0.88 = 110. Profit% = 10%. Shortcut: net = m + d − md/100 with m=+25, d=−12, giving 10%.",
+      "explanation_concept_en": "Markup above CP produces MP; discount below MP produces SP. Net profit over CP = (1 + m)(1 − d) − 1. Concretely: 1.25 × 0.88 − 1 = 0.10 = 10%. Treating markup and discount as the same-base subtraction is the most common exam error.",
+      "explanation_method_hi": "CP = 100 ⇒ MP = 125। SP = 125 × 0.88 = 110। Profit% = 10%।",
+      "explanation_concept_hi": "Markup CP के ऊपर, discount MP पर। net profit = (1+m)(1−d) − 1 = 1.25 × 0.88 − 1 = 10%।"
+    },
+    {
+      "id": "pl-19",
+      "stem_en": "A man buys an article and sells it at a 10% gain. If he had bought it for ₹50 less and sold for ₹30 less, he would have gained 20%. Find the original cost price.",
+      "stem_hi": "एक आदमी एक article खरीदकर 10% gain पर बेचता है। अगर वह उसे ₹50 कम में खरीदता और ₹30 कम में बेचता, तो 20% gain होता। original CP क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "equation-setup", "word-problem"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹200", "text_hi": "₹200", "is_correct": false, "trap_reason_en": "Doesn't satisfy the second condition: with CP 200, new SP would be 190, but 1.20×(200−50) = 180 ≠ 190.", "trap_reason_hi": "CP 200 पर second condition fail: new SP 190, पर 1.20×(200−50) = 180 ≠ 190।" },
+        { "label": "B", "text_en": "₹250", "text_hi": "₹250", "is_correct": false, "trap_reason_en": "Equation test: new SP = 1.10×250 − 30 = 245, 1.20×(250−50) = 240 ≠ 245.", "trap_reason_hi": "250 पर check: 1.10×250 − 30 = 245, पर 1.20×200 = 240 ≠ 245।" },
+        { "label": "C", "text_en": "₹300", "text_hi": "₹300", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "D", "text_en": "₹225", "text_hi": "₹225", "is_correct": false, "trap_reason_en": "Algebra slip — try the system: 1.10x − 30 = 1.20(x − 50) gives x = 300, not 225.", "trap_reason_hi": "Algebra में गलती — 1.10x − 30 = 1.20(x − 50) से x = 300।" }
+      ],
+      "explanation_method_en": "Let CP = x. Original SP = 1.10x. New CP = x − 50, new SP = 1.10x − 30. New gain condition: 1.10x − 30 = 1.20(x − 50) ⇒ 1.10x − 30 = 1.20x − 60 ⇒ 30 = 0.10x ⇒ x = ₹300.",
+      "explanation_concept_en": "Translate the two gain conditions into two equations, subtract to eliminate the unknown SP. This yields one equation in CP. Careful with sign consistency when moving terms across the equality.",
+      "explanation_method_hi": "CP = x। Original SP = 1.10x। नई SP = 1.10x − 30 = 1.20 × (x − 50) → 1.10x − 30 = 1.20x − 60 → x = 300।",
+      "explanation_concept_hi": "दोनों gain conditions को equations में बदलें, घटाकर SP eliminate करें। एक unknown (CP) बचता है।"
+    },
+    {
+      "id": "pl-20",
+      "stem_en": "A shopkeeper allows a 'Buy 3 Get 1 Free' offer. What is the effective discount percentage?",
+      "stem_hi": "एक दुकानदार 'Buy 3 Get 1 Free' का offer देता है। effective discount% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["profit-loss", "discount", "bulk-offer"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "33.33%", "text_hi": "33.33%", "is_correct": false, "trap_reason_en": "Computed 1/3 = 33.33%: used 'free items per PAID item' (1 free per 3 paid). The discount uses 'free items per TOTAL taken' (1 of 4).", "trap_reason_hi": "1/3 = 33.33% निकाला: 'per paid item' (1 free per 3 paid) framing लगाई। Discount 'per total taken' (1 of 4) पर होता है।" },
+        { "label": "B", "text_en": "25%",    "text_hi": "25%",    "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "20%",    "text_hi": "20%",    "is_correct": false, "trap_reason_en": "Miscounted: treated the offer as 'Buy 4 Get 1 Free' (1/5 = 20%) instead of 'Buy 3 Get 1 Free' (1/4 = 25%).", "trap_reason_hi": "Offer को 'Buy 4 Get 1 Free' (1/5 = 20%) समझा, जबकि है 'Buy 3 Get 1 Free' (1/4 = 25%)।" },
+        { "label": "D", "text_en": "50%",    "text_hi": "50%",    "is_correct": false, "trap_reason_en": "Read the offer as 'Buy 1 Get 1 Free' (1/2 = 50%). Actual offer gives 1 free per 4 total, not 1 per 2.", "trap_reason_hi": "Offer को 'Buy 1 Get 1 Free' (1/2 = 50%) पढ़ा। Actual में 4 में से 1 free, 2 में से 1 नहीं।" }
+      ],
+      "explanation_method_en": "Customer pays for 3 items but takes 4. Effective price per item = (3/4) of marked. Discount = 1/4 = 25%.",
+      "explanation_concept_en": "Bulk 'get one free' offers are framed as 'free per paid' (which suggests 1/3 ≈ 33%) but the exam asks for discount percent on the total items taken: out of 4 items the customer pays for 3, so 1/4 is the effective savings. Wording sensitivity matters.",
+      "explanation_method_hi": "Customer 3 items की payment करता है, 4 ले जाता है। Per-item effective price = (3/4) MP। Discount = 1/4 = 25%।",
+      "explanation_concept_hi": "'Free per paid' framing 1/3 (≈33%) सुझाती है, पर exam 'total taken' पर discount पूछता है: 4 में से 3 की payment → 1/4 bachat।"
+    },
+    {
+      "id": "pl-21",
+      "stem_en": "A shopkeeper prices goods at CP (marked price = CP), offers a 10% discount, and also delivers 20% less weight than stated. Find his overall gain or loss percentage.",
+      "stem_hi": "एक दुकानदार goods को CP पर mark करता है (MP = CP), फिर 10% discount देता है, और stated से 20% कम weight देता है। overall gain/loss% क्या है?",
+      "difficulty": "HARD",
+      "tags": ["profit-loss", "discount", "dishonest-merchant", "combined"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "Loss 10%",   "text_hi": "Loss 10%",   "is_correct": false, "trap_reason_en": "Only counted the discount effect; ignored the short-weight uplift.", "trap_reason_hi": "सिर्फ discount लगाया; short-weight uplift छोड़ दिया।" },
+        { "label": "B", "text_en": "Gain 12.5%", "text_hi": "Gain 12.5%", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "Gain 10%",   "text_hi": "Gain 10%",   "is_correct": false, "trap_reason_en": "Only counted the short-weight uplift (100/80 = +25% gain on delivered) without netting the 10% discount.", "trap_reason_hi": "सिर्फ short-weight का uplift लिया; 10% discount का loss-effect नहीं netted किया।" },
+        { "label": "D", "text_en": "Gain 25%",   "text_hi": "Gain 25%",   "is_correct": false, "trap_reason_en": "Jumped to 1/0.80 − 1 = 25% ignoring the 10% discount entirely.", "trap_reason_hi": "1/0.80 − 1 = 25% लगा दिया; 10% discount पूरा नज़रअंदाज़।" }
+      ],
+      "explanation_method_en": "Let CP per true unit = ₹100, MP = ₹100. After 10% discount, customer pays ₹90. But he receives only 0.80 true units. So the shop's revenue for 0.80 true units = ₹90. Shop's cost for those 0.80 true units = 0.80 × 100 = ₹80. Gain = 90 − 80 = ₹10 on cost ₹80 ⇒ gain% = 10/80 × 100 = 12.5%.",
+      "explanation_concept_en": "When discount (a loss-mechanism) and short-weight (a gain-mechanism) combine, the correct frame is 'same quantity of goods on both sides'. Compute what the shop charges for a delivered unit and what it costs them — the gap, divided by their actual cost, is the gain%. Mixing percentages directly double-counts bases.",
+      "explanation_method_hi": "मान लें CP per true unit = ₹100, MP = ₹100। 10% discount के बाद customer ₹90 देता है। पर receive 0.80 units ही करता है। Shop का cost 0.80 units के लिए = 0.80 × 100 = ₹80। Revenue ₹90। Gain = 10 on cost 80 ⇒ 10/80 × 100 = 12.5%।",
+      "explanation_concept_hi": "Discount (loss-मanism) और short-weight (gain-mानism) combine हों तो same-quantity-of-goods frame लें: delivered unit पर shop की revenue और cost दोनों निकालें, gap को actual cost पर percent में बदलें।"
+    },
+    {
+      "id": "pl-22",
+      "stem_en": "Three-fourths of a shipment is sold at a 20% gain. At what gain or loss percentage should the remaining one-fourth be sold so that the overall transaction breaks even?",
+      "stem_hi": "एक shipment का 3/4 हिस्सा 20% gain पर बिकता है। शेष 1/4 को किस gain/loss% पर बेचा जाए ताकि overall transaction पर कोई gain/loss न हो (break-even)?",
+      "difficulty": "HARD",
+      "tags": ["profit-loss", "partial-sale", "break-even", "weighted-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20% loss",  "text_hi": "20% loss",  "is_correct": false, "trap_reason_en": "Assumed symmetric loss equal to the gain — but the bases (quantities) differ.", "trap_reason_hi": "Symmetric loss माना; पर quantities अलग हैं।" },
+        { "label": "B", "text_en": "40% loss",  "text_hi": "40% loss",  "is_correct": false, "trap_reason_en": "Doubled the loss percent to compensate the 3× quantity — close idea but wrong direction of compensation: 60% loss is right.", "trap_reason_hi": "compensation 3× quantity के लिए doubled; सही 3×20% = 60% loss।" },
+        { "label": "C", "text_en": "60% loss",  "text_hi": "60% loss",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "D", "text_en": "80% loss",  "text_hi": "80% loss",  "is_correct": false, "trap_reason_en": "Overshot — only 3× the gain rate is needed, i.e., 60%.", "trap_reason_hi": "ज़्यादा; 3× gain rate = 60% चाहिए।" }
+      ],
+      "explanation_method_en": "Let total CP = 100 (unit cost = 1). First 3/4 earns 3/4 × 1 × 0.20 = 0.15 gain. For break-even, remaining 1/4 must bear a loss equal to 0.15 in absolute terms. Loss on 1/4 of cost 0.25 ⇒ loss% = 0.15/0.25 = 60%.",
+      "explanation_concept_en": "To break even, absolute gain equals absolute loss, not percent gain equals percent loss. Because the gaining and losing pools have different CP sizes (3:1), the smaller pool must bear a proportionally larger percent loss. The ratio of percent-loss to percent-gain equals the ratio of the larger pool to the smaller (3:1 here).",
+      "explanation_method_hi": "Total CP = 100 (unit cost = 1) मानें। पहला 3/4 पर gain = 0.15। Break-even के लिए बाकी 1/4 पर loss = 0.15 absolute। Loss% = 0.15/0.25 = 60%।",
+      "explanation_concept_hi": "Break-even के लिए absolute gain = absolute loss (percent नहीं)। Pools का size अलग होने पर small pool को बड़ा percent loss झेलना पड़ता है। ratio = large pool/small pool = 3:1।"
+    },
+    {
+      "id": "pl-23",
+      "stem_en": "An article is sold at a 10% loss. If it had been sold for ₹132 more, the transaction would have yielded a 12% gain. Find the cost price.",
+      "stem_hi": "एक article 10% loss पर बिका। अगर ₹132 अधिक में बेचा जाता, तो 12% gain होता। CP क्या है?",
+      "difficulty": "HARD",
+      "tags": ["profit-loss", "sp-difference", "equation-setup"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹600",  "text_hi": "₹600",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹660",  "text_hi": "₹660",  "is_correct": false, "trap_reason_en": "Added gain 10% of 600 = 60 to 600 → 660. Reported a post-gain SP rather than solving the gap equation 0.22x = 132.", "trap_reason_hi": "600 में gain 10% = 60 जोड़कर 660 दिया: post-gain SP दे दिया, जबकि gap equation 0.22x = 132 हल करना था।" },
+        { "label": "C", "text_en": "₹550",  "text_hi": "₹550",  "is_correct": false, "trap_reason_en": "Divided 132 by 0.24: used sum of rates (0.12 + 0.12 or similar) instead of their difference. Correct denominator is (0.12 − (−0.10)) = 0.22.", "trap_reason_hi": "132 को 0.24 से भाग दिया: rates का sum लगाया, difference नहीं। सही denominator = 0.12 − (−0.10) = 0.22।" },
+        { "label": "D", "text_en": "₹1320", "text_hi": "₹1320", "is_correct": false, "trap_reason_en": "Multiplied 132 × 10 (treated 10% as the factor, skipping the × 100 step): 132 × 10 = 1320. Correct is 132/0.22 = 600.", "trap_reason_hi": "132 × 10 लगाया (10% को factor समझा, × 100 step छोड़ दिया): 132 × 10 = 1320। सही 132/0.22 = 600।" }
+      ],
+      "explanation_method_en": "SP_high − SP_low = (1.12 − 0.90) × CP = 0.22 × CP = 132 ⇒ CP = 600.",
+      "explanation_concept_en": "The gap between two SPs expressed on the same CP equals the difference of their multipliers times CP. The gain percent (+12) and the loss percent (−10) translate to multipliers 1.12 and 0.90; their difference (0.22) times CP gives the price gap.",
+      "explanation_method_hi": "SP_high − SP_low = (1.12 − 0.90) × CP = 0.22 × CP = 132 → CP = 600।",
+      "explanation_concept_hi": "दो SPs का gap (same CP पर) = (उनके multipliers का अंतर) × CP। यहाँ 0.22 × CP = 132।"
+    },
+    {
+      "id": "pl-24",
+      "stem_en": "A shopkeeper purchases 21 items for ₹1,050. He sells some at a 25% gain and the rest at a 10% loss, netting an overall 10% gain on the whole lot. How many items were sold at a gain?",
+      "stem_hi": "एक दुकानदार ₹1,050 में 21 items खरीदता है। कुछ items 25% gain पर और बाकी 10% loss पर बिकती हैं, पूरे lot पर overall 10% gain होता है। कितनी items gain पर बिकीं?",
+      "difficulty": "HARD",
+      "tags": ["profit-loss", "alligation", "partial-sale"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "9",  "text_hi": "9",  "is_correct": false, "trap_reason_en": "Applied alligation but assigned the arm distances to the wrong pools: took 20/35 × 21 = 12 as the LOSS count and reported 9 as the gain count. Actual alligation gives 12:9 with gain = 12.", "trap_reason_hi": "Alligation में arms उलट दिए: 20/35 × 21 = 12 को loss count मान लिया और gain count 9 दे दिया। सही 12:9 में gain = 12।" },
+        { "label": "B", "text_en": "12", "text_hi": "12", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "15", "text_hi": "15", "is_correct": false, "trap_reason_en": "Used ratio 5:2 instead of 4:3 (misread arm distances as 25 and 10 instead of 20 and 15): 5/7 × 21 = 15.", "trap_reason_hi": "4:3 की जगह 5:2 ratio लगाया (arm distances 25 और 10 पढ़ लिए, सही 20 और 15 हैं): 5/7 × 21 = 15।" },
+        { "label": "D", "text_en": "10", "text_hi": "10", "is_correct": false, "trap_reason_en": "Halved the total 21 (round half-split to 10 + 11) assuming the target 10% sits midway between +25 and −10. Alligation gives an asymmetric 12:9 split.", "trap_reason_hi": "Target 10% को +25 और −10 के बीच mid मानकर total 21 को आधा (10 + 11) कर दिया। सही alligation से 12:9 asymmetric split मिलता है।" }
+      ],
+      "explanation_method_en": "Per-item CP = 1050/21 = ₹50. Alligation: distance from target (+10%) to gain arm (+25%) = 15; to loss arm (−10%) = 20. Quantity ratio gain:loss = 20:15 = 4:3. Gain pool = 4/(4+3) × 21 = 12. Verify: 12 × 50 × 0.25 − 9 × 50 × 0.10 = 150 − 45 = 105 = 10% × 1050. ✓",
+      "explanation_concept_en": "Alligation places the two 'arms' (+25%, −10%) on a number line with the target (+10%) between them, computes signed distances, and inverts the ratio to get the quantity split. Items were chosen so the 4:3 ratio maps to whole numbers 12:9 summing to 21 — no rounding.",
+      "explanation_method_hi": "Per-item CP = 1050/21 = ₹50। Alligation: target (+10%) से gain arm (+25%) तक दूरी = 15; loss arm (−10%) तक दूरी = 20। Quantity ratio gain:loss = 20:15 = 4:3। Gain pool = 4/7 × 21 = 12। Verify: 12 × 50 × 0.25 − 9 × 50 × 0.10 = 150 − 45 = 105 = 10% × 1050। ✓",
+      "explanation_concept_hi": "Alligation में दो arms (+25%, −10%) को number line पर रखें, target (+10%) बीच में, signed दूरियाँ निकालें, ratio invert करके quantity split। यहाँ 4:3 ratio को 12:9 (sum 21) whole numbers पर map किया — कोई rounding नहीं।"
+    },
+    {
+      "id": "pl-25",
+      "stem_en": "A dealer sells 8 articles at the marked price of 10 articles. Find the discount percentage.",
+      "stem_hi": "एक dealer 10 articles के marked price पर 8 articles बेचता है। discount% क्या है?",
+      "difficulty": "HARD",
+      "tags": ["profit-loss", "discount", "per-unit-pricing"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%",   "text_hi": "20%",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "25%",   "text_hi": "25%",   "is_correct": false, "trap_reason_en": "Used 2/8 (inverted: extra articles per paid articles) instead of 2/10 (fewer articles per marked quantity).", "trap_reason_hi": "2/8 लगाया (paid पर); सही 2/10 (marked पर)।" },
+        { "label": "C", "text_en": "12.5%", "text_hi": "12.5%", "is_correct": false, "trap_reason_en": "Used 1/8 — wrong numerator (off by one from 2).", "trap_reason_hi": "1/8 लगाया; numerator गलत।" },
+        { "label": "D", "text_en": "16.66%","text_hi": "16.66%","is_correct": false, "trap_reason_en": "Used 2/12 — denominator invented.", "trap_reason_hi": "2/12 लगाया; denominator बना दिया।" }
+      ],
+      "explanation_method_en": "Customer pays the price of 10 but receives only 8. Discount = 2 missing articles out of 10 marked = 2/10 = 20%.",
+      "explanation_concept_en": "The discount reference is the marked quantity (what the customer would have expected at the marked price), not the received quantity. 'X articles for the price of Y' (with X < Y) → discount = (Y − X)/Y.",
+      "explanation_method_hi": "Customer 10 की payment करता है, पाता 8। Discount = 2/10 = 20%।",
+      "explanation_concept_hi": "'X articles for the price of Y' (X < Y) में discount base marked quantity Y होती है, delivered quantity X नहीं। Discount = (Y − X)/Y।"
+    }
+  ]
+}

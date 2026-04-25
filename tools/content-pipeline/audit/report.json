@@ -1,0 +1,1703 @@
+[
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/iemh101.pdf",
+    "title": "Orienting Yourself: The Use of Coordinates (NCERT Class 9 Mathematics Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "x-axis",
+    "hits": [
+      "orienting",
+      "yourself",
+      "use",
+      "coordinates"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/iemh102.pdf",
+    "title": "Introduction to Linear Polynomials (NCERT Class 9 Mathematics Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "x-axis",
+    "hits": [
+      "introduction",
+      "linear",
+      "polynomials"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh101.pdf",
+    "title": "Real Numbers (NCERT Class 10 Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "method.",
+    "hits": [
+      "real",
+      "numbers"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh102.pdf",
+    "title": "Polynomials (NCERT Class 10 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Coefficient of",
+    "hits": [
+      "polynomials"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/hemh101.pdf",
+    "title": "Rational Numbers (NCERT Class 8 Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Operation Numbers Remarks",
+    "hits": [
+      "rational",
+      "numbers"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Number System & Simplification",
+    "url": "https://ncert.nic.in/textbook/pdf/hemh102.pdf",
+    "title": "Linear Equations in One Variable (NCERT Class 8 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "",
+    "hits": [
+      "linear",
+      "equations",
+      "variable"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Percentage, Profit & Loss",
+    "url": "https://ncert.nic.in/textbook/pdf/hemh107.pdf",
+    "title": "Comparing Quantities (NCERT Class 8 Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "TRY THESE",
+    "hits": [
+      "comparing",
+      "quantities"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Percentage, Profit & Loss",
+    "url": "https://ncert.nic.in/textbook/pdf/hemh108.pdf",
+    "title": "Algebraic Expressions (NCERT Class 8 Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Solution:",
+    "hits": [
+      "algebraic",
+      "expressions"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Percentage, Profit & Loss",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh103.pdf",
+    "title": "Pair of Linear Equations in Two Variables (NCERT Class 10 Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "Solution :",
+    "hits": [
+      "pair",
+      "linear",
+      "equations",
+      "variables"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Percentage, Profit & Loss",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh104.pdf",
+    "title": "Quadratic Equations (NCERT Class 10 Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "It is of the form ax2 + bx + c = 0.",
+    "hits": [
+      "quadratic",
+      "equations"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Percentage, Profit & Loss",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh105.pdf",
+    "title": "Arithmetic Progressions (NCERT Class 10 Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "are, respectively",
+    "hits": [
+      "arithmetic",
+      "progressions"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/iemh107.pdf",
+    "title": "The Mathematics of Maybe: Introduction to Probability (NCERT Class 9 Mathematics Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Think and Reflect",
+    "hits": [
+      "maybe",
+      "introduction",
+      "probability"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/iemh108.pdf",
+    "title": "Predicting What Comes Next: Sequences and Progressions (NCERT Class 9 Mathematics Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 6,
+    "total": 6,
+    "pdf_header": "Think and Reflect",
+    "hits": [
+      "predicting",
+      "what",
+      "comes",
+      "next",
+      "sequences",
+      "progressions"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh106.pdf",
+    "title": "Triangles (NCERT Class 10 Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "triangles are similar.",
+    "hits": [
+      "triangles"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh107.pdf",
+    "title": "Coordinate Geometry (NCERT Class 10 Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "B(3, – 8) in the ratio 2 : 7.",
+    "hits": [
+      "coordinate",
+      "geometry"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh108.pdf",
+    "title": "Introduction to Trigonometry (NCERT Class 10 Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "hypotenuse \tAC",
+    "hits": [
+      "introduction",
+      "trigonometry"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh109.pdf",
+    "title": "Some Applications of Trigonometry (NCERT Class 10 Ch 9)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "angle of elevation of the top of the",
+    "hits": [
+      "some",
+      "applications",
+      "trigonometry"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh110.pdf",
+    "title": "Circles (NCERT Class 10 Ch 10)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Remarks",
+    "hits": [
+      "circles"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh111.pdf",
+    "title": "Areas Related to Circles (NCERT Class 10 Ch 11)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "sector =",
+    "hits": [
+      "areas",
+      "related",
+      "circles"
+    ]
+  },
+  {
+    "subject": "math",
+    "chapter": "Geometry & Mensuration",
+    "url": "https://ncert.nic.in/textbook/pdf/jemh112.pdf",
+    "title": "Surface Areas and Volumes (NCERT Class 10 Ch 12)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Unless stated otherwise, take  = 22",
+    "hits": [
+      "surface",
+      "areas",
+      "volumes"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/iess401.pdf",
+    "title": "What is Democracy? Why Democracy? (NCERT Class 9 Polity Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "r\trr\trre\tee\teea\ta\ta\ta\tad\tdd\tdd",
+    "hits": [
+      "what",
+      "democracy",
+      "why"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/iess402.pdf",
+    "title": "Constitutional Design (NCERT Class 9 Polity Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "CONSTITUTIONAL DESIGN",
+    "hits": [
+      "constitutional",
+      "design"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/iess403.pdf",
+    "title": "Electoral Politics (NCERT Class 9 Polity Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "ELECTORAL POLITICS",
+    "hits": [
+      "electoral",
+      "politics"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/iess404.pdf",
+    "title": "Working of Institutions (NCERT Class 9 Polity Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "WORKING OF INSTITUTIONS",
+    "hits": [
+      "working",
+      "institutions"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/iess405.pdf",
+    "title": "Democratic Rights (NCERT Class 9 Polity Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "DEMOCRATIC RIGHTS",
+    "hits": [
+      "democratic",
+      "rights"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/jess401.pdf",
+    "title": "Power Sharing (NCERT Class 10 Polity Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Exercises",
+    "hits": [
+      "power",
+      "sharing"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/jess402.pdf",
+    "title": "Federalism (NCERT Class 10 Polity Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "government.",
+    "hits": [
+      "federalism"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/jess403.pdf",
+    "title": "Gender, Religion and Caste (NCERT Class 10 Polity Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "© Zuban",
+    "hits": [
+      "gender",
+      "religion",
+      "caste"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/jess404.pdf",
+    "title": "Political Parties (NCERT Class 10 Polity Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "The Hindu",
+    "hits": [
+      "political",
+      "parties"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/jess405.pdf",
+    "title": "Outcomes of Democracy (NCERT Class 10 Polity Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "democracy",
+    "hits": [
+      "outcomes",
+      "democracy"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/hess301.pdf",
+    "title": "The Indian Constitution (NCERT Class 8 SPL III Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "The Indian Constitution",
+    "hits": [
+      "constitution"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/hess302.pdf",
+    "title": "Understanding Secularism (NCERT Class 8 SPL III Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Understanding Secularism",
+    "hits": [
+      "understanding",
+      "secularism"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/hess303.pdf",
+    "title": "Parliament and the Making of Laws (NCERT Class 8 SPL III Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "number of MPs in the Lok",
+    "hits": [
+      "parliament",
+      "making",
+      "laws"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/hess304.pdf",
+    "title": "Judiciary (NCERT Class 8 SPL III Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Judiciary",
+    "hits": [
+      "judiciary"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Polity",
+    "url": "https://ncert.nic.in/textbook/pdf/hess305.pdf",
+    "title": "Understanding Marginalisation (NCERT Class 8 SPL III Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "understanding",
+      "marginalisation"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/iess301.pdf",
+    "title": "The French Revolution (NCERT Class 9 History Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "India and the Contemporary World",
+    "hits": [
+      "french",
+      "revolution"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/iess302.pdf",
+    "title": "Socialism in Europe and the Russian Revolution (NCERT Class 9 History Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "Socialism in Europe and the Russian Revolution",
+    "hits": [
+      "socialism",
+      "europe",
+      "russian",
+      "revolution"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/iess303.pdf",
+    "title": "Nazism and the Rise of Hitler (NCERT Class 9 History Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Nazism and the Rise of Hitler",
+    "hits": [
+      "nazism",
+      "rise",
+      "hitler"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/iess304.pdf",
+    "title": "Forest Society and Colonialism (NCERT Class 9 History Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Forest Society and Colonialism",
+    "hits": [
+      "forest",
+      "society",
+      "colonialism"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/iess305.pdf",
+    "title": "Pastoralists in the Modern World (NCERT Class 9 History Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Pastoralists in the Modern World",
+    "hits": [
+      "pastoralists",
+      "modern"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/jess301.pdf",
+    "title": "The Rise of Nationalism in Europe (NCERT Class 10 History Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Nationalism",
+    "hits": [
+      "rise",
+      "nationalism",
+      "europe"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/jess302.pdf",
+    "title": "Nationalism in India (NCERT Class 10 History Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Nationalism",
+    "hits": [
+      "nationalism"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/jess303.pdf",
+    "title": "The Making of a Global World (NCERT Class 10 History Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "The Making of a Global World",
+    "hits": [
+      "making",
+      "global"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/jess304.pdf",
+    "title": "The Age of Industrialisation (NCERT Class 10 History Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "The Age of Industrialisation",
+    "hits": [
+      "age",
+      "industrialisation"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/jess305.pdf",
+    "title": "Print Culture and the Modern World (NCERT Class 10 History Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Print",
+    "hits": [
+      "print",
+      "culture",
+      "modern"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/hess201.pdf",
+    "title": "How, When and Where (NCERT Class 8 History Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Activity\t",
+    "hits": [
+      "how",
+      "when",
+      "where"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/hess202.pdf",
+    "title": "From Trade to Territory: The Company Establishes Power (NCERT Class 8 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 5,
+    "total": 5,
+    "pdf_header": "East India Company",
+    "hits": [
+      "trade",
+      "territory",
+      "company",
+      "establishes",
+      "power"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/hess203.pdf",
+    "title": "Ruling the Countryside (NCERT Class 8 History Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Activity\t",
+    "hits": [
+      "ruling",
+      "countryside"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/hess204.pdf",
+    "title": "Tribals, Dikus and the Vision of a Golden Age (NCERT Class 8 Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 5,
+    "total": 5,
+    "pdf_header": "In this land of the English how hard it is to live",
+    "hits": [
+      "tribals",
+      "dikus",
+      "vision",
+      "golden",
+      "age"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/hess205.pdf",
+    "title": "When People Rebel — 1857 and After (NCERT Class 8 History Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 4,
+    "pdf_header": "Activity",
+    "hits": [
+      "when",
+      "people",
+      "after"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/kehs101.pdf",
+    "title": "Writing and City Life — Mesopotamia (NCERT Class 11 World History Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "WRITING AND CITY LIFE",
+    "hits": [
+      "writing",
+      "city",
+      "life",
+      "mesopotamia"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/kehs102.pdf",
+    "title": "An Empire Across Three Continents — Rome (NCERT Class 11 World History Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "NOMADIC EMPIRES",
+    "hits": [
+      "empire",
+      "across",
+      "continents",
+      "rome"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/kehs103.pdf",
+    "title": "Nomadic Empires — The Mongols (NCERT Class 11 World History Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 3,
+    "pdf_header": "CHANGING TRADITIONS",
+    "hits": [
+      "nomadic",
+      "empires"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/kehs104.pdf",
+    "title": "The Three Orders — European Feudalism (NCERT Class 11 World History Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "THE THREE ORDERS",
+    "hits": [
+      "orders",
+      "european",
+      "feudalism"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "History",
+    "url": "https://ncert.nic.in/textbook/pdf/kehs105.pdf",
+    "title": "Changing Cultural Traditions — The Renaissance (NCERT Class 11 World History Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "CHANGING CULTURAL TRADITIONS",
+    "hits": [
+      "changing",
+      "cultural",
+      "traditions",
+      "renaissance"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/iess201.pdf",
+    "title": "The Story of Village Palampur (NCERT Class 9 Economics Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Let’s Discuss",
+    "hits": [
+      "story",
+      "village",
+      "palampur"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/iess202.pdf",
+    "title": "People as Resource (NCERT Class 9 Economics Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Let’s Discuss",
+    "hits": [
+      "people",
+      "resource"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/iess203.pdf",
+    "title": "Poverty as a Challenge (NCERT Class 9 Economics Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Let’s Discuss",
+    "hits": [
+      "poverty",
+      "challenge"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/iess204.pdf",
+    "title": "Food Security in India (NCERT Class 9 Economics Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Let’s Discuss",
+    "hits": [
+      "food",
+      "security"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/jess201.pdf",
+    "title": "Development (NCERT Class 10 Economics Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "LET’S WORK THESE OUT",
+    "hits": [
+      "development"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/jess202.pdf",
+    "title": "Sectors of the Indian Economy (NCERT Class 10 Economics Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "LET’S WORK THESE OUT",
+    "hits": [
+      "sectors",
+      "economy"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/jess203.pdf",
+    "title": "Money and Credit (NCERT Class 10 Economics Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "LET’S WORK THESE OUT",
+    "hits": [
+      "money",
+      "credit"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/jess204.pdf",
+    "title": "Globalisation and the Indian Economy (NCERT Class 10 Economics Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 2,
+    "pdf_header": "LET’S WORK THESE OUT",
+    "hits": [
+      "globalisation"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/jess205.pdf",
+    "title": "Consumer Rights (NCERT Class 10 Economics Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Less than 16.4",
+    "hits": [
+      "consumer",
+      "rights"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec101.pdf",
+    "title": "Indian Economy on the Eve of Independence (NCERT Class 11 Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Work These Out",
+    "hits": [
+      "economy",
+      "eve",
+      "independence"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec102.pdf",
+    "title": "Indian Economy 1950-1990 (NCERT Class 11 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Work These Out",
+    "hits": [
+      "economy"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec103.pdf",
+    "title": "Liberalisation, Privatisation and Globalisation (NCERT Class 11 Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Work These Out",
+    "hits": [
+      "liberalisation",
+      "privatisation",
+      "globalisation"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec104.pdf",
+    "title": "Human Capital Formation in India (NCERT Class 11 Economics Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Work This Out",
+    "hits": [
+      "human",
+      "capital",
+      "formation"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec105.pdf",
+    "title": "Rural Development (NCERT Class 11 Economics Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Work These Out",
+    "hits": [
+      "rural",
+      "development"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec106.pdf",
+    "title": "Employment: Growth, Informalisation and Other Issues (NCERT Class 11 Economics Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 5,
+    "total": 5,
+    "pdf_header": "Self-employed",
+    "hits": [
+      "employment",
+      "growth",
+      "informalisation",
+      "other",
+      "issues"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec107.pdf",
+    "title": "Environment and Sustainable Development (NCERT Class 11 Economics Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "development.",
+    "hits": [
+      "environment",
+      "sustainable",
+      "development"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Economy",
+    "url": "https://ncert.nic.in/textbook/pdf/keec108.pdf",
+    "title": "Comparative Development Experiences of India and its Neighbours (NCERT Class 11 Economics Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 5,
+    "total": 5,
+    "pdf_header": "UNIT",
+    "hits": [
+      "comparative",
+      "development",
+      "experiences",
+      "its",
+      "neighbours"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess101.pdf",
+    "title": "India — Size and Location (NCERT Class 9 Geography Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "OCEAN",
+    "hits": [
+      "size",
+      "location"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess102.pdf",
+    "title": "Physical Features of India (NCERT Class 9 Geography Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "physical",
+      "features"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess103.pdf",
+    "title": "Drainage — Rivers of India (NCERT Class 9 Geography Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "National River Conservation Plan",
+    "hits": [
+      "drainage",
+      "rivers"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess104.pdf",
+    "title": "Climate (NCERT Class 9 Geography Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "",
+    "hits": [
+      "climate"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess105.pdf",
+    "title": "Natural Vegetation and Wildlife (NCERT Class 9 Geography Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "The common animals found in these forests",
+    "hits": [
+      "natural",
+      "vegetation",
+      "wildlife"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/iess106.pdf",
+    "title": "Population (NCERT Class 9 Geography Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "POPULATION",
+    "hits": [
+      "population"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess101.pdf",
+    "title": "Resources and Development (NCERT Class 10 Geography Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "(ii) A type of non-renewable resource.",
+    "hits": [
+      "resources",
+      "development"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess102.pdf",
+    "title": "Forest and Wildlife Resources (NCERT Class 10 Geography Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "depletion.",
+    "hits": [
+      "forest",
+      "wildlife",
+      "resources"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess103.pdf",
+    "title": "Water Resources (NCERT Class 10 Geography Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Fig. 3.4",
+    "hits": [
+      "water",
+      "resources"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess104.pdf",
+    "title": "Agriculture (NCERT Class 10 Geography Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Oil Seeds:",
+    "hits": [
+      "agriculture"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess105.pdf",
+    "title": "Minerals and Energy Resources (NCERT Class 10 Geography Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Copper",
+    "hits": [
+      "minerals",
+      "energy",
+      "resources"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess106.pdf",
+    "title": "Manufacturing Industries (NCERT Class 10 Geography Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "ACTIVITY",
+    "hits": [
+      "manufacturing",
+      "industries"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/jess107.pdf",
+    "title": "Lifelines of National Economy (NCERT Class 10 Geography Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Fig. 7.9",
+    "hits": [
+      "lifelines",
+      "national",
+      "economy"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/hess401.pdf",
+    "title": "Resources (NCERT Class 8 Geography Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Glossary",
+    "hits": [
+      "resources"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/hess402.pdf",
+    "title": "Land, Soil, Water, Natural Vegetation and Wildlife (NCERT Class 8 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 6,
+    "total": 6,
+    "pdf_header": "Do you know?",
+    "hits": [
+      "land",
+      "soil",
+      "water",
+      "natural",
+      "vegetation",
+      "wildlife"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/hess403.pdf",
+    "title": "Agriculture (NCERT Class 8 Geography Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Do you know?",
+    "hits": [
+      "agriculture"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/hess404.pdf",
+    "title": "Industries (NCERT Class 8 Geography Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Activity",
+    "hits": [
+      "industries"
+    ]
+  },
+  {
+    "subject": "ga",
+    "chapter": "Indian Geography",
+    "url": "https://ncert.nic.in/textbook/pdf/hess405.pdf",
+    "title": "Human Resources (NCERT Class 8 Geography Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Do you know?",
+    "hits": [
+      "human",
+      "resources"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Physics",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc109.pdf",
+    "title": "Light — Reflection and Refraction (NCERT Class 10 Ch 9)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "Solution",
+    "hits": [
+      "light",
+      "reflection",
+      "refraction"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Physics",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc110.pdf",
+    "title": "The Human Eye and the Colourful World (NCERT Class 10 Ch 10)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "vision?",
+    "hits": [
+      "human",
+      "eye",
+      "colourful"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Physics",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc111.pdf",
+    "title": "Electricity (NCERT Class 10 Ch 11)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Solution",
+    "hits": [
+      "electricity"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Physics",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc112.pdf",
+    "title": "Magnetic Effects of Electric Current (NCERT Class 10 Ch 12)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "Solution",
+    "hits": [
+      "magnetic",
+      "effects",
+      "electric",
+      "current"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Chemistry",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc101.pdf",
+    "title": "Chemical Reactions and Equations (NCERT Class 10 Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "reactions.",
+    "hits": [
+      "chemical",
+      "reactions",
+      "equations"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Chemistry",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc102.pdf",
+    "title": "Acids, Bases and Salts (NCERT Class 10 Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "n What do you observe?",
+    "hits": [
+      "acids",
+      "bases",
+      "salts"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Chemistry",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc103.pdf",
+    "title": "Metals and Non-metals (NCERT Class 10 Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Heat",
+    "hits": [
+      "metals",
+      "non"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Chemistry",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc104.pdf",
+    "title": "Carbon and its Compounds (NCERT Class 10 Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "More to Know!",
+    "hits": [
+      "carbon",
+      "its",
+      "compounds"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Biology",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc105.pdf",
+    "title": "Life Processes (NCERT Class 10 Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "More to Know!",
+    "hits": [
+      "life",
+      "processes"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Biology",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc106.pdf",
+    "title": "Control and Coordination (NCERT Class 10 Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "control",
+      "coordination"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Biology",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc107.pdf",
+    "title": "How Do Organisms Reproduce? (NCERT Class 10 Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "n Observe the slide under a microscope.",
+    "hits": [
+      "how",
+      "organisms",
+      "reproduce"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Biology",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc108.pdf",
+    "title": "Heredity and Evolution (NCERT Class 10 Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "heredity"
+    ]
+  },
+  {
+    "subject": "science",
+    "chapter": "Biology",
+    "url": "https://ncert.nic.in/textbook/pdf/jesc113.pdf",
+    "title": "Our Environment (NCERT Class 10 Ch 13)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "the environment.",
+    "hits": [
+      "our",
+      "environment"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe101.pdf",
+    "title": "Kaveri — How I Taught My Grandmother to Read (NCERT Class 9 English Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 4,
+    "total": 4,
+    "pdf_header": "How I Taught",
+    "hits": [
+      "how",
+      "taught",
+      "grandmother",
+      "read"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe102.pdf",
+    "title": "Kaveri — The Pot Maker (NCERT Class 9 English Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "The Pot Maker",
+    "hits": [
+      "pot",
+      "maker"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe103.pdf",
+    "title": "Kaveri — Winds of Change (NCERT Class 9 English Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Winds of Change",
+    "hits": [
+      "winds",
+      "change"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe104.pdf",
+    "title": "Kaveri — Vitamin-M (NCERT Class 9 English Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 1,
+    "total": 1,
+    "pdf_header": "Vitamin-M",
+    "hits": [
+      "vitamin"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe105.pdf",
+    "title": "Kaveri — The World of Limitless Possibilities (NCERT Class 9 English Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "of Limitless",
+    "hits": [
+      "limitless",
+      "possibilities"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe106.pdf",
+    "title": "Kaveri — Twin Melodies (NCERT Class 9 English Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Twin Melodies",
+    "hits": [
+      "twin",
+      "melodies"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe107.pdf",
+    "title": "Kaveri — Carrier of Words (NCERT Class 9 English Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Words",
+    "hits": [
+      "carrier",
+      "words"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iebe108.pdf",
+    "title": "Kaveri — Follow That Dream (NCERT Class 9 English Ch 8)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "Believe in",
+    "hits": [
+      "follow",
+      "dream"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo101.pdf",
+    "title": "Moments — The Lost Child (NCERT Class 9 English Ch 1)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "lost",
+      "child"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo102.pdf",
+    "title": "Moments — The Adventures of Toto (NCERT Class 9 English Ch 2)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "adventures",
+      "toto"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo103.pdf",
+    "title": "Moments — Iswaran the Storyteller (NCERT Class 9 English Ch 3)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "iswaran",
+      "storyteller"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo104.pdf",
+    "title": "Moments — In the Kingdom of Fools (NCERT Class 9 English Ch 4)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "kingdom",
+      "fools"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo105.pdf",
+    "title": "Moments — The Happy Prince (NCERT Class 9 English Ch 5)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "to Egypt.”",
+    "hits": [
+      "happy",
+      "prince"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo106.pdf",
+    "title": "Moments — Weathering the Storm in Ersama (NCERT Class 9 English Ch 6)",
+    "verdict": "MATCH",
+    "overlap": 3,
+    "total": 3,
+    "pdf_header": "",
+    "hits": [
+      "weathering",
+      "storm",
+      "ersama"
+    ]
+  },
+  {
+    "subject": "english",
+    "chapter": "Comprehension",
+    "url": "https://ncert.nic.in/textbook/pdf/iemo107.pdf",
+    "title": "Moments — The Last Leaf (NCERT Class 9 English Ch 7)",
+    "verdict": "MATCH",
+    "overlap": 2,
+    "total": 2,
+    "pdf_header": "",
+    "hits": [
+      "last",
+      "leaf"
+    ]
+  }
+]

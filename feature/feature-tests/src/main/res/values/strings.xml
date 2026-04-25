@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tests list (tab body) -->
+    <string name="tests_list_title">Mock tests</string>
+    <string name="tests_list_subtitle">CBT-pattern practice with timed sections + negative marking.</string>
+    <string name="tests_filter_all">All</string>
+    <string name="tests_filter_cbt1">CBT-1</string>
+    <string name="tests_filter_cbt2">CBT-2</string>
+    <string name="tests_filter_pyq">PYQ</string>
+    <string name="tests_filter_sectional">Sectional</string>
+    <string name="tests_filter_pyq_library">PYQ Library</string>
+    <string name="tests_card_lang_en">EN</string>
+    <string name="tests_card_lang_hi">हिन्दी</string>
+    <string name="tests_card_pyq_link_subtitle">Tap to read the original paper · Source: %1$s</string>
+    <string name="tests_card_duration_fmt">%1$d min</string>
+    <string name="tests_card_qcount_fmt">%1$d Q</string>
+    <string name="tests_card_pro">PRO</string>
+    <string name="tests_load_error">Couldn\'t load tests. Pull to retry.</string>
+    <string name="tests_list_empty">No tests available yet — try another filter.</string>
+    <string name="tests_pull_to_refresh">Pull to refresh</string>
+    <string name="tests_card_not_attempted">Not attempted yet</string>
+    <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>
+    <string name="tests_card_best_single_fmt">Best: %1$s / %2$s · 1 attempt</string>
+
+    <!-- Instructions -->
+    <string name="instructions_title">Instructions</string>
+    <string name="instructions_header_fmt">%1$s</string>
+    <string name="instructions_duration_fmt">Duration: %1$d minutes</string>
+    <string name="instructions_qcount_fmt">Total questions: %1$d</string>
+    <string name="instructions_neg_fmt">Negative marking: −%1$s per wrong answer</string>
+    <string name="instructions_sections_header">Sections</string>
+    <string name="instructions_section_line_fmt">%1$s — %2$d Q</string>
+    <string name="instructions_rules_header">Rules</string>
+    <string name="instructions_rule_bilingual">Toggle between English and हिन्दी anytime from the top bar.</string>
+    <string name="instructions_rule_timer">The timer runs on the server — it does not pause when you leave the app.</string>
+    <string name="instructions_rule_neg">Wrong answers carry negative marking. Skipped questions do not.</string>
+    <string name="instructions_rule_submit">You can submit early, or the app will auto-submit when the timer ends.</string>
+    <string name="instructions_start">Start test</string>
+    <string name="instructions_resume">Resume test</string>
+    <string name="instructions_starting">Starting…</string>
+    <string name="instructions_start_error">Couldn\'t start the test. Please try again.</string>
+
+    <!-- Battery optimization exemption prompt (shown at test Start, not app launch) -->
+    <string name="battopt_title">Keep the app running</string>
+    <string name="battopt_body">This device may stop the app during a long test. Disable battery optimization for RailPrep to keep your timer accurate.</string>
+    <string name="battopt_open_settings">Open settings</string>
+    <string name="battopt_skip">Skip</string>
+
+    <!-- Player -->
+    <string name="player_question_index_fmt">Q %1$d / %2$d</string>
+    <string name="player_section_fmt">Section: %1$s</string>
+    <string name="player_palette">Palette</string>
+    <string name="player_prev">Previous</string>
+    <string name="player_next">Next</string>
+    <string name="player_submit">Submit</string>
+    <string name="player_mark_review">Mark for review</string>
+    <string name="player_marked_review">Marked</string>
+    <string name="player_clear">Clear</string>
+    <string name="player_lang_en">EN</string>
+    <string name="player_lang_hi">हि</string>
+    <string name="player_submitting">Submitting…</string>
+    <string name="player_submit_failed">Couldn\'t submit. Tap Submit again.</string>
+    <string name="player_load_error">Couldn\'t load the test. Go back and try again.</string>
+    <string name="player_time_up">Time\'s up — submitting.</string>
+    <string name="player_confirm_submit_title">Submit now?</string>
+    <string name="player_confirm_submit_body_fmt">You have answered %1$d of %2$d. You can\'t change your answers after submitting.</string>
+    <string name="player_confirm_submit_ok">Submit</string>
+    <string name="player_confirm_submit_cancel">Keep going</string>
+
+    <!-- Palette sheet -->
+    <string name="palette_title">Question palette</string>
+    <string name="palette_legend_answered">Answered</string>
+    <string name="palette_legend_marked">Marked for review</string>
+    <string name="palette_legend_skipped">Skipped / not visited</string>
+    <string name="palette_legend_current">Current</string>
+
+    <!-- Results -->
+    <string name="results_title">Results</string>
+    <string name="results_score_label">Score</string>
+    <string name="results_of_fmt">%1$s of %2$s</string>
+    <string name="results_breakdown_correct">Correct</string>
+    <string name="results_breakdown_wrong">Wrong</string>
+    <string name="results_breakdown_skipped">Skipped</string>
+    <string name="results_section_header">By section</string>
+    <string name="results_section_row_fmt">%1$s — %2$s / %3$s</string>
+    <string name="results_review_cta">Review answers</string>
+    <string name="results_done">Done</string>
+    <string name="results_percentile_wait">Rank will appear after 10 attempts.</string>
+    <string name="results_load_error">Couldn\'t load results.</string>
+    <string name="results_weak_header">Study these next</string>
+    <string name="results_weak_subhead">Topics you missed the most — tap to read the primer.</string>
+    <string name="results_weak_row_fmt">%1$s · %2$d wrong</string>
+
+    <!-- Review -->
+    <string name="review_title">Review</string>
+    <string name="review_filter_all">All</string>
+    <string name="review_filter_wrong">Wrong</string>
+    <string name="review_filter_skipped">Skipped</string>
+    <string name="review_filter_marked">Marked</string>
+    <string name="review_correct_answer_label">Correct answer</string>
+    <string name="review_your_answer_label">Your answer</string>
+    <string name="review_not_answered">Not answered</string>
+    <string name="review_explanation_header">Explanation</string>
+    <string name="review_explanation_method">Method (exam shortcut)</string>
+    <string name="review_explanation_concept">Concept (why it works)</string>
+    <string name="review_trap_label">Why this option tempts</string>
+    <string name="review_empty_filtered">No questions match this filter.</string>
+    <string name="review_load_error">Couldn\'t load review.</string>
+
+    <!-- Diag overlay (long-press timer) -->
+    <string name="attempt_diag_title">Attempt diagnostics</string>
+    <string name="attempt_diag_attempt_id">Attempt id</string>
+    <string name="attempt_diag_deadline">Deadline</string>
+    <string name="attempt_diag_local_now">Local now</string>
+    <string name="attempt_diag_drift">Drift (local − deadline)</string>
+    <string name="attempt_diag_last_sync">Last server sync</string>
+    <string name="attempt_diag_pending">Pending local writes</string>
+    <string name="attempt_diag_close">Close</string>
+</resources>

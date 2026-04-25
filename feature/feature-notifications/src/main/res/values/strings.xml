@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notif_channel_digest_name">Daily digest reminders</string>
+    <string name="notif_channel_digest_desc">One nudge at 20:00 IST if you haven\'t done Today\'s 10 yet.</string>
+    <string name="notif_digest_title">Today\'s 10 is waiting 🔥</string>
+    <string name="notif_digest_body_no_streak">10 questions, 10 minutes. Start a streak tonight.</string>
+    <string name="notif_digest_body_streak_fmt">Keep your %1$d-day streak alive — 10 questions, 10 minutes.</string>
+
+    <string name="notif_optin_title">Daily reminder at 8pm?</string>
+    <string name="notif_optin_body">We can nudge you at 20:00 IST if you haven\'t done Today\'s 10. You can turn this off anytime from Profile.</string>
+    <string name="notif_optin_yes">Turn on</string>
+    <string name="notif_optin_no">Not now</string>
+
+    <string name="notif_toggle_label">Daily reminder (8pm IST)</string>
+</resources>

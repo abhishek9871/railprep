@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": "fixture-percentage-passes-1",
+      "stem_en": "A shopkeeper marks the price of an article 25% above the cost price and offers a discount of 12% on the marked price. Find the profit percentage.",
+      "stem_hi": "एक दुकानदार किसी वस्तु का marked price उसके cost price से 25% अधिक रखता है और marked price पर 12% की discount देता है। profit प्रतिशत क्या है?",
+      "options": [
+        { "label": "A", "text_en": "10%", "text_hi": "10%", "is_correct": true,  "trap_reason_en": null,                                                                                                          "trap_reason_hi": null },
+        { "label": "B", "text_en": "13%", "text_hi": "13%", "is_correct": false, "trap_reason_en": "Subtracts 12 from 25 directly — ignores that markup is on cost but discount is on marked, not on the same base.", "trap_reason_hi": "12 को 25 से सीधे घटाया — markup cost पर है लेकिन discount marked price पर है, base अलग है।" },
+        { "label": "C", "text_en": "15%", "text_hi": "15%", "is_correct": false, "trap_reason_en": "Common error of computing 25-(12% of 25) = 22; close to right approach but wrong base.",                          "trap_reason_hi": "25-(12% of 25)=22 के तरीके से निकाला; तरीका सही पर base गलत है।" },
+        { "label": "D", "text_en": "12%", "text_hi": "12%", "is_correct": false, "trap_reason_en": "Picks the discount % itself — confuses discount % with profit %.",                                                "trap_reason_hi": "discount % को ही profit % समझ लिया।" }
+      ],
+      "explanation_method_en": "Shortcut: Profit% = markup% - discount% - (markup% × discount%)/100 = 25 - 12 - (25 × 12)/100 = 25 - 12 - 3 = 10%. Use this formula directly when both adjustments are small.",
+      "explanation_concept_en": "Take CP = ₹100. Marked price = 100 × 1.25 = ₹125. Selling price = 125 × (1 - 0.12) = 125 × 0.88 = ₹110. Profit = ₹10 on ₹100 cost = 10%. The two adjustments compound; you cannot simply subtract 12 from 25 because the bases differ — markup is on CP, discount is on MP.",
+      "explanation_method_hi": "shortcut: profit% = markup% - discount% - (markup% × discount%)/100 = 25 - 12 - (25 × 12)/100 = 25 - 12 - 3 = 10%। दोनों adjustments छोटे हों तो यह formula सीधे लगाएँ।",
+      "explanation_concept_hi": "मान लीजिए CP = ₹100। Marked price = 100 × 1.25 = ₹125। Selling price = 125 × (1 - 0.12) = 125 × 0.88 = ₹110। Profit = ₹100 पर ₹10 = 10%। दोनों adjustments compound होते हैं — 12 को 25 से सीधे घटाना गलत है क्योंकि base अलग हैं (markup CP पर, discount MP पर)।",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "profit-loss", "successive-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL"
+    }
+  ]
+}

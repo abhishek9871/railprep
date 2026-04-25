@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="daily_card_title">आज के 10</string>
+    <string name="daily_card_subtitle_unstarted">10 प्रश्न · लगभग 10 मिनट · रोज़ नए, server-picked</string>
+    <string name="daily_card_subtitle_done_fmt">हो गया · %1$d / %2$d सही</string>
+    <string name="daily_card_cta_start">शुरू करें</string>
+    <string name="daily_card_cta_review">समीक्षा</string>
+    <string name="daily_streak_label_fmt">%1$d-दिन का streak</string>
+    <string name="daily_streak_no_streak">streak शुरू नहीं हुआ</string>
+    <string name="daily_card_load_error">आज का digest load नहीं हुआ।</string>
+
+    <string name="daily_player_title">आज के 10</string>
+    <string name="daily_player_question_index_fmt">प्रश्न %1$d / %2$d</string>
+    <string name="daily_player_prev">पिछला</string>
+    <string name="daily_player_next">अगला</string>
+    <string name="daily_player_submit">Submit</string>
+    <string name="daily_player_submitting">Submitting…</string>
+    <string name="daily_player_submit_failed">Submit नहीं हुआ। फिर Submit दबाएँ।</string>
+    <string name="daily_player_lang_en">EN</string>
+    <string name="daily_player_lang_hi">हि</string>
+    <string name="daily_player_confirm_title">अभी Submit करें?</string>
+    <string name="daily_player_confirm_body_fmt">आपने %2$d में से %1$d answer किए हैं। Submit के बाद answer बदला नहीं जा सकता।</string>
+    <string name="daily_player_confirm_submit">Submit</string>
+    <string name="daily_player_confirm_keep">जारी रखें</string>
+    <string name="daily_player_load_error">आज का digest load नहीं हुआ।</string>
+
+    <string name="daily_results_title">आज के 10 — हो गए</string>
+    <string name="daily_results_score_label">Score</string>
+    <string name="daily_results_of_fmt">%1$d / %2$d</string>
+    <string name="daily_results_streak_extended_fmt">🔥 Streak: %1$d दिन</string>
+    <string name="daily_results_streak_started">🔥 Streak शुरू — कल फिर आइए!</string>
+    <string name="daily_results_review_cta">Answers देखें</string>
+    <string name="daily_results_done">Done</string>
+
+    <string name="daily_review_title">आज के 10 — Review</string>
+    <string name="daily_review_correct">सही</string>
+    <string name="daily_review_your_answer">आपका answer</string>
+    <string name="daily_review_not_answered">Answer नहीं दिया</string>
+    <string name="daily_review_explanation_method">Method (exam shortcut)</string>
+    <string name="daily_review_explanation_concept">Concept (क्यों काम करता है)</string>
+    <string name="daily_review_explanation_legacy">स्पष्टीकरण</string>
+    <string name="daily_review_trap_label">यह option क्यों लुभाता है</string>
+    <string name="daily_review_load_error">Review load नहीं हुआ।</string>
+</resources>

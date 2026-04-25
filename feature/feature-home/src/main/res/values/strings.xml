@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_tests">Tests</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Home dashboard -->
+    <string name="home_welcome_fmt">Hey, %1$s</string>
+    <string name="home_subtitle">Let\'s keep the streak going.</string>
+    <string name="home_cta_start_learning">Start learning</string>
+    <string name="home_cta_learn_subtitle">Videos + NCERT PDFs curated for RRB NTPC.</string>
+    <string name="home_cta_browse_bookmarks">Your bookmarks</string>
+
+    <!-- Tests / Feed placeholders -->
+    <string name="tests_coming_soon">Mock tests are coming in Phase 3.</string>
+    <string name="tests_coming_subtitle">CBT-pattern tests with timing, negative marking, and analytics.</string>
+    <string name="feed_coming_soon">Current affairs feed lands in Phase 4.</string>
+    <string name="feed_coming_subtitle">PIB + trusted sources, curated daily.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_edit">Edit profile</string>
+    <string name="profile_bookmarks">Bookmarks</string>
+    <string name="profile_language">Language</string>
+    <string name="profile_about">About &amp; attributions</string>
+    <string name="profile_sign_out">Sign out</string>
+    <string name="profile_no_email">No email on file</string>
+    <string name="profile_diag_hint">Long-press your avatar for diagnostics.</string>
+
+    <!-- Edit profile -->
+    <string name="edit_title">Edit profile</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_saved">Saved.</string>
+
+    <!-- Language picker -->
+    <string name="language_picker_title">App language</string>
+    <string name="language_picker_en">English</string>
+    <string name="language_picker_hi">हिन्दी (Hindi)</string>
+    <string name="language_picker_applied">Language switched.</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">Your bookmarks</string>
+    <string name="bookmarks_empty_title">No bookmarks yet</string>
+    <string name="bookmarks_empty_subtitle">Tap the bookmark icon on any topic to save it here.</string>
+
+    <!-- About -->
+    <string name="about_title">About RailPrep</string>
+    <string name="about_intro">RailPrep is a catalog-only discovery app. We host no media. Every video, PDF, and article is served from its original source with full attribution.</string>
+    <string name="about_sources_header">Content sources</string>
+    <string name="about_src_ncert">NCERT — school textbooks. Linked from ncert.nic.in; not redistributed.</string>
+    <string name="about_src_youtube">YouTube — videos played via the official IFrame player. Creator names shown on every topic.</string>
+    <string name="about_src_pib">Press Information Bureau — published under GODL-India (Phase 4).</string>
+    <string name="about_src_datagov">data.gov.in — datasets under GODL-India (Phase 4).</string>
+    <string name="about_licenses_header">Licenses</string>
+    <string name="about_license_yt">YouTube Standard License — via official IFrame player.</string>
+    <string name="about_license_ncert">NCERT — all rights reserved; we link only.</string>
+    <string name="about_license_godl">Government Open Data Licence — India.</string>
+    <string name="about_license_cc">CC BY-SA 4.0 (Wikipedia — not used in Phase 2).</string>
+
+    <!-- Diagnostics -->
+    <string name="diag_title">Diagnostics</string>
+    <string name="diag_version">App version</string>
+    <string name="diag_user_id">User ID</string>
+    <string name="diag_pdf_cache">PDF cache size</string>
+    <string name="diag_clear_cache">Clear PDF cache</string>
+    <string name="diag_cleared">Cache cleared.</string>
+    <string name="diag_refresh">Refresh</string>
+    <string name="diag_last_pdf_header">Last PDF download</string>
+    <string name="diag_last_pdf_outcome">Outcome</string>
+    <string name="diag_last_pdf_http">HTTP code</string>
+    <string name="diag_last_pdf_bytes">Bytes</string>
+    <string name="diag_last_pdf_ct">Content-Type</string>
+    <string name="diag_last_pdf_magic">First 8 bytes (hex)</string>
+    <string name="diag_last_pdf_err">Error</string>
+    <string name="profile_streak_label_fmt">🔥 %1$d-day streak · best %2$d</string>
+    <string name="profile_streak_none">🔥 No streak yet — tap Today\'s 10 on Home to start</string>
+</resources>

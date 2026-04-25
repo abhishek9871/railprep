@@ -1,0 +1,485 @@
+{
+  "_doc": "Phase 4 D3 sectional — Ratio & Proportion. Every trap names the specific computation. Tags: ratio-proportion (primary), plus secondaries (direct, inverse, partnership, mixture, age, coins). Hindi register: narrative HI + English numerics/technical nouns. No primer overlap in D3 scope (reasoning primers don't cover ratio).",
+  "slug": "sectional-ratio-01",
+  "title_en": "Ratio & Proportion — Sectional",
+  "title_hi": "अनुपात और समानुपात — Sectional",
+  "section": { "title_en": "Ratio & Proportion", "title_hi": "अनुपात और समानुपात", "subject_hint": "math" },
+  "total_minutes": 25,
+  "questions": [
+    {
+      "id": "ratio-01",
+      "stem_en": "If A : B = 2 : 3 and A = 12, find B.",
+      "stem_hi": "यदि A : B = 2 : 3 और A = 12 हो, तो B निकालिए।",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "direct-ratio", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "18", "text_hi": "18", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "8",  "text_hi": "8",  "is_correct": false, "trap_reason_en": "Inverted the ratio: computed 12 × 2/3 = 8. The ratio A:B = 2:3 means B = A × 3/2, not A × 2/3.", "trap_reason_hi": "Ratio उल्टा लगाया: 12 × 2/3 = 8 निकाला। A:B = 2:3 का मतलब B = A × 3/2 है।" },
+        { "label": "C", "text_en": "15", "text_hi": "15", "is_correct": false, "trap_reason_en": "Added the ratio parts as units: 12 + 3 = 15. Ratios scale multiplicatively, not additively.", "trap_reason_hi": "Ratio parts जोड़ दिए: 12 + 3 = 15। Ratios multiplicatively scale होते हैं।" },
+        { "label": "D", "text_en": "36", "text_hi": "36", "is_correct": false, "trap_reason_en": "Multiplied A by the sum of ratio parts: 12 × 3 = 36. Correct formula uses only the B-part (3/2).", "trap_reason_hi": "A को 3 से गुणा किया: 12 × 3 = 36। सही formula: B = A × 3/2।" }
+      ],
+      "explanation_method_en": "A:B = 2:3 ⇒ B = A × 3/2 = 12 × 3/2 = 18.",
+      "explanation_concept_en": "A ratio a:b defines a common scale factor k such that A = ak and B = bk. Given A, solve for k = A/a, then B = k × b. Alternately, B = A × (b/a) — the ratio of the B-part to the A-part.",
+      "explanation_method_hi": "A:B = 2:3 ⇒ B = A × 3/2 = 12 × 3/2 = 18।",
+      "explanation_concept_hi": "अनुपात a:b एक common scale factor k बताता है जहाँ A = ak, B = bk। A से k = A/a निकालें, फिर B = k × b। या सीधे B = A × (b/a)।"
+    },
+    {
+      "id": "ratio-02",
+      "stem_en": "Divide ₹600 between P and Q in the ratio 5 : 3. How much does P get?",
+      "stem_hi": "₹600 को P और Q के बीच 5 : 3 के अनुपात में बाँटिए। P को कितना मिलेगा?",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "partition", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹375", "text_hi": "₹375", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹225", "text_hi": "₹225", "is_correct": false, "trap_reason_en": "Gave Q's share (₹600 × 3/8 = 225) as P's share. Swapped the ratio parts.", "trap_reason_hi": "Q का share (600 × 3/8 = 225) को P का share मान लिया। Ratio parts swap हो गए।" },
+        { "label": "C", "text_en": "₹300", "text_hi": "₹300", "is_correct": false, "trap_reason_en": "Divided the total by 2 (assumed equal split): 600/2 = 300. The ratio 5:3 is not equal.", "trap_reason_hi": "Total को 2 से भाग दिया (equal split मान लिया): 600/2 = 300। 5:3 equal नहीं है।" },
+        { "label": "D", "text_en": "₹500", "text_hi": "₹500", "is_correct": false, "trap_reason_en": "Used 5 of 6 (5/(5+1)) instead of 5/(5+3): 600 × 5/6 = 500. Summed ratio parts wrong.", "trap_reason_hi": "Ratio parts का sum गलत: 600 × 5/6 = 500 लगाया, सही 5/(5+3) = 5/8।" }
+      ],
+      "explanation_method_en": "P's share = 600 × 5/(5+3) = 600 × 5/8 = 375.",
+      "explanation_concept_en": "When a total is split in ratio a:b, person A gets (a/(a+b)) × total. The sum of ratio parts is the denominator; it represents 'one full unit' of the total. Forgetting to sum ratio parts in the denominator is the most common slip.",
+      "explanation_method_hi": "P का share = 600 × 5/(5+3) = 600 × 5/8 = 375।",
+      "explanation_concept_hi": "Total को a:b में बाँटें तो A को (a/(a+b)) × total मिलता है। Ratio parts का sum denominator में — यह 'one full unit' है। Sum भूलना common गलती है।"
+    },
+    {
+      "id": "ratio-03",
+      "stem_en": "The ratio of boys to girls in a class is 3:2. If there are 15 boys, how many students are in the class in total?",
+      "stem_hi": "एक कक्षा में लड़कों और लड़कियों का अनुपात 3:2 है। यदि 15 लड़के हों, तो कक्षा में कुल कितने छात्र हैं?",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "part-to-whole", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "25", "text_hi": "25", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "10", "text_hi": "10", "is_correct": false, "trap_reason_en": "Reported only the girls count (15 × 2/3 = 10) as total. Total includes both boys and girls.", "trap_reason_hi": "केवल लड़कियों की संख्या (15 × 2/3 = 10) को total दे दिया। Total = लड़के + लड़कियाँ।" },
+        { "label": "C", "text_en": "45", "text_hi": "45", "is_correct": false, "trap_reason_en": "Multiplied boys by sum of ratio (15 × 3 = 45). Scale factor should be found first: k = 15/3 = 5, then total = k × (3+2) = 25.", "trap_reason_hi": "Boys × ratio sum (15 × 3 = 45) लगाया। पहले k = 15/3 = 5, फिर total = k × (3+2) = 25।" },
+        { "label": "D", "text_en": "30", "text_hi": "30", "is_correct": false, "trap_reason_en": "Doubled the boys count (15 × 2 = 30) assuming 2:1 boys:girls. Ratio is 3:2, not 2:1.", "trap_reason_hi": "Boys × 2 = 30 लगाया (ratio 2:1 मानकर)। असली ratio 3:2 है, 2:1 नहीं।" }
+      ],
+      "explanation_method_en": "Scale factor k = 15/3 = 5. Girls = 2k = 10. Total = 15 + 10 = 25.",
+      "explanation_concept_en": "From any one part, recover the scale factor k = (given part)/(its ratio piece). All other parts are multiples of k. The total is k × (sum of all ratio pieces).",
+      "explanation_method_hi": "Scale factor k = 15/3 = 5। Girls = 2k = 10। Total = 15 + 10 = 25।",
+      "explanation_concept_hi": "किसी एक part से scale factor k = (दिया हुआ part)/(उसका ratio piece) निकालें। बाकी parts k के multiples। Total = k × (सभी pieces का sum)।"
+    },
+    {
+      "id": "ratio-04",
+      "stem_en": "If a : b = 3 : 4 and b : c = 2 : 5, find a : c.",
+      "stem_hi": "यदि a : b = 3 : 4 और b : c = 2 : 5, तो a : c ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "chained-ratio"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "3 : 10", "text_hi": "3 : 10", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "3 : 5",  "text_hi": "3 : 5",  "is_correct": false, "trap_reason_en": "Reported the second ratio's c-part (5) with the first ratio's a-part (3), ignoring that b differs between the two ratios (4 vs 2). Scale b to a common value.", "trap_reason_hi": "दूसरी ratio का c (5) और पहली ratio का a (3) सीधे लिए — दोनों ratios में b अलग (4 vs 2) है।" },
+        { "label": "C", "text_en": "6 : 5",  "text_hi": "6 : 5",  "is_correct": false, "trap_reason_en": "Multiplied the first ratio's 3 by 2 (= 6) but left c unchanged at 5. Should also scale c by the same factor that makes b common.", "trap_reason_hi": "पहली ratio के 3 को × 2 = 6 किया पर c को 5 रखा। b को common बनाने के factor से c को भी scale करना था।" },
+        { "label": "D", "text_en": "3 : 20", "text_hi": "3 : 20", "is_correct": false, "trap_reason_en": "Multiplied the c-part (5) by the b-part of the second ratio (4) to 'scale': 5 × 4 = 20. Correct scaling makes b common, not c.", "trap_reason_hi": "c (5) को दूसरी ratio के b (4) से गुणा किया: 5 × 4 = 20। Scaling b पर होती है, c पर नहीं।" }
+      ],
+      "explanation_method_en": "Make b common. a:b = 3:4 and b:c = 2:5 = 4:10 (multiply by 2 to make b=4). So a:b:c = 3:4:10 ⇒ a:c = 3:10.",
+      "explanation_concept_en": "To chain two ratios that share a middle term, scale them so the middle term matches. Once they share the same middle value, you can read a:c (or any pair) directly from the combined chain.",
+      "explanation_method_hi": "b को common बनाएँ। a:b = 3:4 और b:c = 2:5 = 4:10 (× 2 से b = 4)। अतः a:b:c = 3:4:10 ⇒ a:c = 3:10।",
+      "explanation_concept_hi": "दो ratios में common middle term scale करके match करें। एक बार middle बराबर हो जाए तो chained ratio से a:c (या कोई भी pair) सीधे पढ़ लें।"
+    },
+    {
+      "id": "ratio-05",
+      "stem_en": "If 4 : x :: x : 9, find the positive value of x.",
+      "stem_hi": "यदि 4 : x :: x : 9 हो, तो x का धनात्मक मान निकालिए।",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "mean-proportion", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "6",   "text_hi": "6",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "36",  "text_hi": "36",  "is_correct": false, "trap_reason_en": "Gave x² = 36 as x itself, skipping the square root. Mean proportion x = √(4 × 9), not 4 × 9.", "trap_reason_hi": "x² = 36 को ही x मान लिया — square root लेना भूल गए। Mean proportion x = √(4 × 9) है।" },
+        { "label": "C", "text_en": "13",  "text_hi": "13",  "is_correct": false, "trap_reason_en": "Added the two terms: 4 + 9 = 13. Mean proportion is the geometric mean (√ab), not the sum.", "trap_reason_hi": "दोनों terms जोड़े: 4 + 9 = 13। Mean proportion geometric mean (√ab) है, sum नहीं।" },
+        { "label": "D", "text_en": "6.5", "text_hi": "6.5", "is_correct": false, "trap_reason_en": "Computed the arithmetic mean (4 + 9)/2 = 6.5. For proportions, the mean term uses geometric mean (√ab), not arithmetic.", "trap_reason_hi": "Arithmetic mean (4 + 9)/2 = 6.5 लगाया। Proportions में mean term geometric mean होती है।" }
+      ],
+      "explanation_method_en": "a:x :: x:b ⇒ x² = a × b = 4 × 9 = 36 ⇒ x = 6 (positive root).",
+      "explanation_concept_en": "In a proportion a:x :: x:b (x is called the 'mean proportion'), the product of extremes equals the product of means: a × b = x × x. So x is the geometric mean of a and b — always less than or equal to the arithmetic mean (equal only when a = b).",
+      "explanation_method_hi": "a:x :: x:b ⇒ x² = a × b = 4 × 9 = 36 ⇒ x = 6 (positive)।",
+      "explanation_concept_hi": "Proportion a:x :: x:b में (x mean proportion है), extremes का product = means का product: a × b = x²। x, a और b का geometric mean होता है (arithmetic mean से छोटा या बराबर)।"
+    },
+    {
+      "id": "ratio-06",
+      "stem_en": "A sum of ₹1,400 is divided among A, B, and C in the ratio 2 : 3 : 2. Find C's share.",
+      "stem_hi": "₹1,400 को A, B, C में 2 : 3 : 2 के अनुपात में बाँटा गया। C का share क्या है?",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "partition", "three-way-split"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹400", "text_hi": "₹400", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹600", "text_hi": "₹600", "is_correct": false, "trap_reason_en": "Gave B's share (1400 × 3/7 = 600) as C's share — read the middle ratio piece.", "trap_reason_hi": "B का share (1400 × 3/7 = 600) को C का share मान लिया।" },
+        { "label": "C", "text_en": "₹350", "text_hi": "₹350", "is_correct": false, "trap_reason_en": "Divided total by 4 (treating two 2-parts and one 3-part as '4 equal slots'): 1400/4 = 350. Ratio parts aren't equal slots.", "trap_reason_hi": "Total को 4 से भाग दिया (दो 2-parts और एक 3-part को '4 equal slots' मान लिया): 1400/4 = 350।" },
+        { "label": "D", "text_en": "₹500", "text_hi": "₹500", "is_correct": false, "trap_reason_en": "Halved C's portion's ratio piece (2/4 instead of 2/7) — used wrong denominator: 1400 × 2/4 = 700 or 1400 × 2/5 = 560, then adjusted. Correct denom = 2+3+2 = 7.", "trap_reason_hi": "C के लिए wrong denominator: 2/4 या 2/5 लगाया। सही 2/(2+3+2) = 2/7।" }
+      ],
+      "explanation_method_en": "C's share = 1400 × 2/(2+3+2) = 1400 × 2/7 = 400.",
+      "explanation_concept_en": "For a three-way split in ratio a:b:c, each share is (its part)/(a+b+c) × total. The sum in the denominator is always 'everyone combined', even when two parts are equal.",
+      "explanation_method_hi": "C का share = 1400 × 2/(2+3+2) = 1400 × 2/7 = 400।",
+      "explanation_concept_hi": "तीन-भाग split a:b:c में हर share = (own part)/(a+b+c) × total। Denominator सब parts का sum होता है, भले ही दो parts बराबर हों।"
+    },
+    {
+      "id": "ratio-07",
+      "stem_en": "The present ages of A and B are in the ratio 5 : 4. After 6 years, their ages will be in the ratio 11 : 9. Find B's present age.",
+      "stem_hi": "A और B की वर्तमान ages का ratio 5 : 4 है। 6 साल बाद यह 11 : 9 हो जाएगा। B की वर्तमान age क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "age-problem", "two-equations"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "48 years", "text_hi": "48 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "60 years", "text_hi": "60 साल", "is_correct": false, "trap_reason_en": "Gave A's present age (5k = 60 with k = 12) as B's. A is the 5-part; B is the 4-part.", "trap_reason_hi": "A की present age (5k = 60, k = 12) को B's age दे दी। A 5-part है, B 4-part।" },
+        { "label": "C", "text_en": "54 years", "text_hi": "54 साल", "is_correct": false, "trap_reason_en": "Gave B's future age (4k + 6 = 54 with k = 12) instead of present. Question asks PRESENT age.", "trap_reason_hi": "B की future age (4k + 6 = 54, k = 12) दी, present नहीं। Question PRESENT पूछ रहा है।" },
+        { "label": "D", "text_en": "24 years", "text_hi": "24 साल", "is_correct": false, "trap_reason_en": "Used wrong scale k = 6 (instead of 12), giving B = 4 × 6 = 24. Cross-multiplication 9(5k+6) = 11(4k+6) gives k = 12, not 6.", "trap_reason_hi": "गलत scale k = 6 (12 की जगह) से B = 4 × 6 = 24 निकाला। Cross-multiplication से k = 12।" }
+      ],
+      "explanation_method_en": "Let A = 5k, B = 4k. After 6 years: (5k + 6)/(4k + 6) = 11/9. Cross-multiply: 9(5k + 6) = 11(4k + 6) ⇒ 45k + 54 = 44k + 66 ⇒ k = 12. B = 4k = 48.",
+      "explanation_concept_en": "Let scale k satisfy A = 5k, B = 4k. The future-ratio equation becomes linear in k after cross-multiplying. Solve for k, then multiply to get B.",
+      "explanation_method_hi": "A = 5k, B = 4k मानें। 6 साल बाद (5k + 6)/(4k + 6) = 11/9 ⇒ 9(5k + 6) = 11(4k + 6) ⇒ k = 12। B = 4k = 48।",
+      "explanation_concept_hi": "Scale k के साथ A = 5k, B = 4k। Future-ratio equation cross-multiplication के बाद k में linear बनता है। k निकालकर B = 4k।"
+    },
+    {
+      "id": "ratio-08",
+      "stem_en": "Two numbers are in the ratio 5 : 7. If 4 is added to each, the ratio becomes 3 : 4. Find the smaller number.",
+      "stem_hi": "दो संख्याओं का ratio 5 : 7 है। दोनों में 4 जोड़ने पर ratio 3 : 4 हो जाता है। छोटी संख्या क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "equation-setup", "ratio-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20", "text_hi": "20", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "28", "text_hi": "28", "is_correct": false, "trap_reason_en": "Gave the larger number (7k = 28) instead of smaller. 'Smaller' is the 5-part.", "trap_reason_hi": "बड़ी संख्या (7k = 28) दे दी, छोटी नहीं। Smaller = 5-part।" },
+        { "label": "C", "text_en": "15", "text_hi": "15", "is_correct": false, "trap_reason_en": "Used k = 3 (mis-solved the linear equation), so 5k = 15. The right equation gives k = 4.", "trap_reason_hi": "Linear equation गलत solve: k = 3 लगाया, 5k = 15। सही k = 4।" },
+        { "label": "D", "text_en": "24", "text_hi": "24", "is_correct": false, "trap_reason_en": "Added 4 to the correct answer 20 (returned the SHIFTED value). Question asks for the original smaller number, not after-shift.", "trap_reason_hi": "सही answer 20 में 4 जोड़कर 24 दे दिया (shifted value)। Question original छोटी संख्या पूछ रहा है।" }
+      ],
+      "explanation_method_en": "Let numbers = 5k, 7k. (5k + 4)/(7k + 4) = 3/4. Cross: 4(5k + 4) = 3(7k + 4) ⇒ 20k + 16 = 21k + 12 ⇒ k = 4. Smaller = 5 × 4 = 20.",
+      "explanation_concept_en": "When the same number is added to both parts of a ratio, the ratio generally changes (unless both original parts are equal, which violates the stated ratios). Parametrize by k, form the after-shift equation, solve the linear equation in k, then scale.",
+      "explanation_method_hi": "Numbers = 5k, 7k मानें। (5k + 4)/(7k + 4) = 3/4 ⇒ 4(5k + 4) = 3(7k + 4) ⇒ k = 4। Smaller = 5k = 20।",
+      "explanation_concept_hi": "Ratio के दोनों parts में same number जोड़ने पर ratio बदलता है। k से parametrize करें, after-shift equation बनाएँ, linear equation solve।"
+    },
+    {
+      "id": "ratio-09",
+      "stem_en": "If the ratio of the present ages of a father and son is 7:2 and after 10 years it becomes 9:4, find the present age of the son.",
+      "stem_hi": "पिता और पुत्र की वर्तमान ages का ratio 7:2 है; 10 साल बाद यह 9:4 हो जाएगा। पुत्र की वर्तमान age क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "age-problem", "two-equations"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "10 years", "text_hi": "10 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "14 years", "text_hi": "14 साल", "is_correct": false, "trap_reason_en": "Used future-ratio son part (4) × 10/4 incorrectly: from 9:4, new son age = 4k = 4 × 5 = 20, subtract 10 gives 10 not 14. B came from a muddled middle step.", "trap_reason_hi": "Future son 4k = 20, − 10 = 10 सही। B एक गलत intermediate से आया।" },
+        { "label": "C", "text_en": "20 years", "text_hi": "20 साल", "is_correct": false, "trap_reason_en": "Gave future age of son (present + 10 = 20) as present age. Question asks PRESENT.", "trap_reason_hi": "Son की future age (present + 10 = 20) दी। Question PRESENT पूछ रहा है।" },
+        { "label": "D", "text_en": "35 years", "text_hi": "35 साल", "is_correct": false, "trap_reason_en": "Gave father's present age (7k = 35) instead of son's. Father is 7-part, son is 2-part.", "trap_reason_hi": "Father की present age (7k = 35) दे दी। Son 2-part है।" }
+      ],
+      "explanation_method_en": "Let father = 7k, son = 2k. After 10 years: (7k + 10)/(2k + 10) = 9/4. Cross: 4(7k + 10) = 9(2k + 10) ⇒ 28k + 40 = 18k + 90 ⇒ 10k = 50 ⇒ k = 5. Son = 2k = 10.",
+      "explanation_concept_en": "Age ratio problems over time: parametrize both present ages by a common scale k, apply the future-ratio constraint, and solve the linear equation. The same +t offset applies to BOTH ages, preserving the time gap but usually changing the ratio.",
+      "explanation_method_hi": "Father = 7k, son = 2k मानें। 10 साल बाद (7k + 10)/(2k + 10) = 9/4 ⇒ 4(7k + 10) = 9(2k + 10) ⇒ 10k = 50 ⇒ k = 5। Son = 2k = 10।",
+      "explanation_concept_hi": "Age-over-time ratio: दोनों present ages को k से parametrize करें, future-ratio लगाएँ, linear equation solve। +t offset दोनों पर लगता है।"
+    },
+    {
+      "id": "ratio-10",
+      "stem_en": "A and B invest ₹8,000 and ₹12,000 respectively in a business. At the end of the year, the profit is ₹3,000. Find A's share.",
+      "stem_hi": "A और B ने एक business में क्रमशः ₹8,000 और ₹12,000 invest किए। साल के अंत में profit ₹3,000 हुआ। A का share क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "partnership", "profit-split"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹1,200", "text_hi": "₹1,200", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹1,500", "text_hi": "₹1,500", "is_correct": false, "trap_reason_en": "Split profit equally: 3000/2 = 1500. Partnership profit splits in the RATIO of investments, not equally (unless investments are equal).", "trap_reason_hi": "Profit equally बाँट दिया: 3000/2 = 1500। Partnership में profit investments के RATIO में बँटता है।" },
+        { "label": "C", "text_en": "₹1,800", "text_hi": "₹1,800", "is_correct": false, "trap_reason_en": "Gave B's share (3000 × 12/(8+12) = 3000 × 3/5 = 1800) instead of A's. A has the smaller investment, so smaller share.", "trap_reason_hi": "B का share (3000 × 12/20 = 1800) A को दे दिया। A की investment कम है, share भी कम।" },
+        { "label": "D", "text_en": "₹600",   "text_hi": "₹600",   "is_correct": false, "trap_reason_en": "Used 2/5 instead of 2/5 but of total 1500 mistakenly: 3000 × 8/20 = 1200, but student did 1500 × 8/20 = 600. Used profit/2 as base.", "trap_reason_hi": "3000 की जगह 1500 (आधा) को base मान लिया: 1500 × 8/20 = 600।" }
+      ],
+      "explanation_method_en": "Investment ratio 8000:12000 = 2:3. A's share = 3000 × 2/(2+3) = 3000 × 2/5 = 1200.",
+      "explanation_concept_en": "When investments are made for the same duration, profit splits in the ratio of investments alone. If durations differ, multiply each investment by its duration (the 'time-weighted investment') and split the profit in those ratios.",
+      "explanation_method_hi": "Investment ratio 8000:12000 = 2:3। A का share = 3000 × 2/(2+3) = 3000 × 2/5 = 1200।",
+      "explanation_concept_hi": "Same duration पर profit investments के ratio में बँटता है। अलग durations हो तो investment × time (time-weighted investment) के ratio में बँटाएँ।"
+    },
+    {
+      "id": "ratio-11",
+      "stem_en": "A and B enter a partnership. A invests ₹10,000 for 12 months and B invests ₹15,000 for 8 months. Find the ratio of their profit shares.",
+      "stem_hi": "A और B partnership में हैं। A ने ₹10,000 को 12 महीने और B ने ₹15,000 को 8 महीने invest किया। उनके profit shares का ratio निकालिए।",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "partnership", "time-weighted"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "1 : 1", "text_hi": "1 : 1", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "2 : 3", "text_hi": "2 : 3", "is_correct": false, "trap_reason_en": "Used only the investment ratio (10:15 = 2:3), ignoring the time durations (12 vs 8 months).", "trap_reason_hi": "Investment ratio (10:15 = 2:3) ही लगाया — durations (12 vs 8 महीने) छोड़ दिए।" },
+        { "label": "C", "text_en": "3 : 2", "text_hi": "3 : 2", "is_correct": false, "trap_reason_en": "Used only the duration ratio (12:8 = 3:2) ignoring the investment amounts. Both dimensions must be multiplied.", "trap_reason_hi": "Duration ratio (12:8 = 3:2) ही लगाया — investments छोड़ दिए। दोनों dimensions multiply करने होते हैं।" },
+        { "label": "D", "text_en": "4 : 3", "text_hi": "4 : 3", "is_correct": false, "trap_reason_en": "Used 10×12:15×8 = 120:120 but then arbitrarily added (10+15):(12+8) = 25:20 = 5:4 or similar sum-based garbled ratio.", "trap_reason_hi": "10×12:15×8 = 120:120 सही निकाला पर (10+15):(12+8) जैसा sum-based garble कर दिया।" }
+      ],
+      "explanation_method_en": "Time-weighted investments: A = 10000 × 12 = 120000; B = 15000 × 8 = 120000. Ratio = 120000 : 120000 = 1 : 1.",
+      "explanation_concept_en": "In a partnership with different investments AND different durations, profit shares are in the ratio of (investment × time), not just investment alone. Coincidentally equal products lead to a 1:1 split even when neither investment nor duration alone would suggest it.",
+      "explanation_method_hi": "Time-weighted: A = 10000 × 12 = 120000, B = 15000 × 8 = 120000। Ratio = 120000 : 120000 = 1 : 1।",
+      "explanation_concept_hi": "अलग investments AND अलग durations वाले partnership में profit (investment × time) के ratio में। Coincidence से equal हों तो 1:1 भी निकल सकता है।"
+    },
+    {
+      "id": "ratio-12",
+      "stem_en": "A vessel contains a mixture of milk and water in the ratio 3 : 2. If 4 litres of water are added, the ratio becomes 3 : 4. Find the quantity of milk in the original mixture.",
+      "stem_hi": "एक बर्तन में दूध और पानी का ratio 3 : 2 है। 4 litres पानी मिलाने पर ratio 3 : 4 हो जाता है। मूल mixture में दूध कितना था?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "mixture", "water-addition"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "6 litres",  "text_hi": "6 litres",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "4 litres",  "text_hi": "4 litres",  "is_correct": false, "trap_reason_en": "Reported the water added (4 litres) as the milk quantity. The water addition is separate from the original milk.", "trap_reason_hi": "जोड़े गए पानी (4 litres) को ही milk quantity मान लिया। Addition original milk से अलग है।" },
+        { "label": "C", "text_en": "8 litres",  "text_hi": "8 litres",  "is_correct": false, "trap_reason_en": "Used (final water part) × scale: 4k where k = 2; got 8. Actual: milk doesn't change, so solve 3k/(2k + 4) = 3/4 directly.", "trap_reason_hi": "(4k, k = 2) लगाकर 8 निकाला। सही: milk नहीं बदलता, 3k/(2k + 4) = 3/4 सीधे हल करें।" },
+        { "label": "D", "text_en": "12 litres", "text_hi": "12 litres", "is_correct": false, "trap_reason_en": "Applied k to milk incorrectly: reported 3k as 12 with k = 4. The equation yields k = 2, so milk = 3k = 6.", "trap_reason_hi": "k = 4 लगाकर 3k = 12 दे दिया। सही k = 2, milk = 3k = 6।" }
+      ],
+      "explanation_method_en": "Let milk = 3k, water = 2k. After adding 4L water: milk stays 3k, water = 2k + 4. New ratio: 3k/(2k + 4) = 3/4 ⇒ 4 × 3k = 3 × (2k + 4) ⇒ 12k = 6k + 12 ⇒ k = 2. Milk = 3 × 2 = 6 L.",
+      "explanation_concept_en": "Adding pure water changes the water component but leaves the milk component unchanged. Parametrize by k, fix the milk quantity, update the water quantity with the added 4L, and set up the new ratio. Solve the linear equation for k.",
+      "explanation_method_hi": "Milk = 3k, water = 2k मानें। 4L पानी जोड़ने पर milk वही, water = 2k + 4। नई ratio: 3k/(2k + 4) = 3/4 ⇒ 12k = 6k + 12 ⇒ k = 2। Milk = 6 L।",
+      "explanation_concept_hi": "Pure पानी जोड़ने पर water बदलता है, milk नहीं। k से parametrize करें, milk fix रखें, water में 4 जोड़ें, नई ratio set करें, k solve करें।"
+    },
+    {
+      "id": "ratio-13",
+      "stem_en": "If a : b = 2 : 3 and b : c = 4 : 5, find a : b : c in its simplest form.",
+      "stem_hi": "यदि a : b = 2 : 3 और b : c = 4 : 5 हो, तो a : b : c सरलतम रूप में क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "chained-ratio", "lcm"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "8 : 12 : 15", "text_hi": "8 : 12 : 15", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "2 : 3 : 5",   "text_hi": "2 : 3 : 5",   "is_correct": false, "trap_reason_en": "Concatenated the two ratios without unifying b: kept a's b-part as 3 but b's c-part as 5 with b-part 4 — inconsistent b.", "trap_reason_hi": "दोनों ratios को सीधे जोड़ दिया बिना b को unify किए — b-parts 3 और 4 अलग रहे।" },
+        { "label": "C", "text_en": "2 : 7 : 5",   "text_hi": "2 : 7 : 5",   "is_correct": false, "trap_reason_en": "Added the two b-parts (3 + 4 = 7) to 'reconcile' them. Correct way: scale to common LCM of 3 and 4 (= 12).", "trap_reason_hi": "दोनों b-parts जोड़कर (3 + 4 = 7) 'reconcile' करने की कोशिश। सही: 3 और 4 के LCM (= 12) पर scale।" },
+        { "label": "D", "text_en": "6 : 12 : 15", "text_hi": "6 : 12 : 15", "is_correct": false, "trap_reason_en": "Scaled the first ratio by 2 (6:6 — wrong) instead of by 4 (8:12) to make b = 12 common.", "trap_reason_hi": "पहली ratio को 2 से scale किया (6:6 — गलत), 4 से करना था (8:12) ताकि b = 12 common हो।" }
+      ],
+      "explanation_method_en": "LCM of b-parts (3 and 4) = 12. Scale first ratio by 4: a:b = 2:3 → 8:12. Scale second ratio by 3: b:c = 4:5 → 12:15. Combined: a:b:c = 8:12:15.",
+      "explanation_concept_en": "Chaining ratios requires matching the shared term exactly. Find the LCM of the two b-values, scale each ratio to that common b, then read off a:b:c directly. LCM scaling guarantees integer parts throughout.",
+      "explanation_method_hi": "b-parts (3 और 4) का LCM = 12। पहली ratio × 4: 2:3 → 8:12। दूसरी ratio × 3: 4:5 → 12:15। मिलाकर a:b:c = 8:12:15।",
+      "explanation_concept_hi": "Ratios chain करने के लिए shared term exactly match होना चाहिए। दोनों b-values का LCM निकालकर हर ratio को scale करें, फिर a:b:c पढ़ लें।"
+    },
+    {
+      "id": "ratio-14",
+      "stem_en": "A bag contains 1-rupee, 50-paise, and 25-paise coins in the ratio 2 : 3 : 4. If the total value is ₹45, find the number of 50-paise coins.",
+      "stem_hi": "एक बैग में 1 रुपये, 50 पैसे, और 25 पैसे के सिक्कों का ratio 2 : 3 : 4 है। कुल value ₹45 है। 50 पैसे के कितने सिक्के हैं?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "coins", "value-vs-count"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "30", "text_hi": "30", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "20", "text_hi": "20", "is_correct": false, "trap_reason_en": "Reported count of ₹1 coins (2k = 20 with k = 10) as the 50-paise count. 50-paise is the 3-part, not the 2-part.", "trap_reason_hi": "₹1 सिक्कों की count (2k = 20, k = 10) को 50-paise count दे दिया। 50-paise 3-part है।" },
+        { "label": "C", "text_en": "40", "text_hi": "40", "is_correct": false, "trap_reason_en": "Reported count of 25-paise (4k = 40 with k = 10) as 50-paise. Mistook the 4-part for the 3-part.", "trap_reason_hi": "25-paise की count (4k = 40, k = 10) को 50-paise कह दिया। 4-part को 3-part समझा।" },
+        { "label": "D", "text_en": "15", "text_hi": "15", "is_correct": false, "trap_reason_en": "Ignored coin denominations and split the total ₹45 directly in count-ratio 2:3:4: 45 × 3/9 = 15. Each denomination contributes a different amount to the value.", "trap_reason_hi": "Coin denominations छोड़कर ₹45 को सीधे count-ratio 2:3:4 में बाँटा: 45 × 3/9 = 15। हर denomination value में अलग योगदान देता है।" }
+      ],
+      "explanation_method_en": "Let counts be 2k, 3k, 4k. Total value (in ₹) = 2k × 1 + 3k × 0.5 + 4k × 0.25 = 2k + 1.5k + k = 4.5k. Set 4.5k = 45 ⇒ k = 10. 50-paise count = 3k = 30.",
+      "explanation_concept_en": "When coins of different denominations are in a COUNT-ratio, the VALUE ratio differs. Compute value = count × denomination for each type, sum to get total value, then solve for the scale factor k. Mixing value with count directly gives wrong answers because a 1-rupee coin contributes more to value than a 25-paise coin per unit count.",
+      "explanation_method_hi": "Counts = 2k, 3k, 4k मानें। Total value = 2k × 1 + 3k × 0.5 + 4k × 0.25 = 4.5k = 45 ⇒ k = 10। 50-paise count = 3k = 30।",
+      "explanation_concept_hi": "अलग denominations वाले coins की COUNT-ratio में VALUE-ratio अलग होती है। Value = count × denomination हर type के लिए, sum करके total से k निकालें।"
+    },
+    {
+      "id": "ratio-15",
+      "stem_en": "In a school, the ratio of boys to girls is 4:3. If 12 more girls join, the ratio becomes 2:3. Find the original number of boys.",
+      "stem_hi": "एक school में लड़कों और लड़कियों का ratio 4:3 है। 12 और लड़कियाँ आ जाएँ तो ratio 2:3 हो जाएगा। मूल लड़कों की संख्या क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "one-side-changes", "equation-setup"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "16", "text_hi": "16", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "12", "text_hi": "12", "is_correct": false, "trap_reason_en": "Reported original girls count (3k = 12 with k = 4) as boys. Boys are the 4-part: 4k = 16.", "trap_reason_hi": "मूल girls count (3k = 12, k = 4) को boys कह दिया। Boys 4-part हैं: 4k = 16।" },
+        { "label": "C", "text_en": "24", "text_hi": "24", "is_correct": false, "trap_reason_en": "Computed girls AFTER joining (3k + 12 = 24 with k = 4) and reported as boys. Question asks original boys, not after-shift girls.", "trap_reason_hi": "Girls के 12 जोड़ने के बाद (3k + 12 = 24, k = 4) को boys दे दिया। Question original boys पूछ रहा है।" },
+        { "label": "D", "text_en": "8",  "text_hi": "8",  "is_correct": false, "trap_reason_en": "Used wrong scale k = 2 (instead of 4): 4k = 8. Cross-mult 3(4k) = 2(3k + 12) gives 12k = 6k + 24 ⇒ k = 4, not 2.", "trap_reason_hi": "गलत scale k = 2 (4 की जगह) से 4k = 8 दे दिया। Cross-mult से k = 4।" }
+      ],
+      "explanation_method_en": "Let boys = 4k, girls = 3k. After 12 more girls: 4k/(3k + 12) = 2/3 ⇒ 3 × 4k = 2(3k + 12) ⇒ 12k = 6k + 24 ⇒ 6k = 24 ⇒ k = 4. Boys = 4k = 16.",
+      "explanation_concept_en": "When a ratio shifts because only ONE side changes (e.g., girls increase, boys constant), set up an equation where the unchanged side uses the original k-multiplied value and the changed side adds the delta. Cross-multiply, solve linearly for k, then back-substitute.",
+      "explanation_method_hi": "Boys = 4k, girls = 3k मानें। 12 लड़कियाँ जोड़ने पर 4k/(3k + 12) = 2/3 ⇒ 12k = 6k + 24 ⇒ k = 4। Boys = 4k = 16।",
+      "explanation_concept_hi": "सिर्फ एक side बदले तो unchanged side k × original, changed side पर delta जोड़ें, फिर cross-multiply से linear equation।"
+    },
+    {
+      "id": "ratio-16",
+      "stem_en": "The incomes of A and B are in the ratio 5:4 and their expenditures in the ratio 3:2. If each saves ₹1,000 per month, find A's monthly income.",
+      "stem_hi": "A और B की incomes का ratio 5:4 और expenditures का ratio 3:2 है। हर कोई ₹1,000 per month बचाता है। A की monthly income क्या है?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "income-expenditure", "two-ratios"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹2,500", "text_hi": "₹2,500", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹2,000", "text_hi": "₹2,000", "is_correct": false, "trap_reason_en": "Gave B's income (4k = 2000 with k = 500) as A's. A is the 5-part with larger income.", "trap_reason_hi": "B की income (4k = 2000, k = 500) A को दे दी। A 5-part है, बड़ी income।" },
+        { "label": "C", "text_en": "₹1,500", "text_hi": "₹1,500", "is_correct": false, "trap_reason_en": "Reported A's expenditure (3m = 1500 with m = 500) as income. Savings = income − expenditure.", "trap_reason_hi": "A की expenditure (3m = 1500, m = 500) को income कह दिया। Savings = income − expenditure।" },
+        { "label": "D", "text_en": "₹5,000", "text_hi": "₹5,000", "is_correct": false, "trap_reason_en": "Used wrong scale: k = 1000 gives A = 5k = 5000. The two scale factors (k for income, m for expenditure) must both be solved from the savings condition.", "trap_reason_hi": "गलत scale: k = 1000 से A = 5k = 5000। Income और expenditure के दो scales (k, m) दोनों savings condition से solve होने चाहिए।" }
+      ],
+      "explanation_method_en": "Let incomes be 5k, 4k and expenditures 3m, 2m. Savings: 5k − 3m = 1000 and 4k − 2m = 1000. Solve: from eq2, 2k = m + 500 ⇒ m = 2k − 500. Substitute: 5k − 3(2k − 500) = 1000 ⇒ 5k − 6k + 1500 = 1000 ⇒ −k = −500 ⇒ k = 500. A's income = 5k = 2500.",
+      "explanation_concept_en": "Two independent ratios (one for income, one for expenditure) each get their own scale factor. The savings constraint (same for both) gives two equations in two unknowns (k, m). Solve the linear system simultaneously.",
+      "explanation_method_hi": "Incomes = 5k, 4k और expenditures = 3m, 2m मानें। Savings: 5k − 3m = 1000, 4k − 2m = 1000। Solve: k = 500, m = 500। A की income = 5k = 2500।",
+      "explanation_concept_hi": "Income और expenditure की स्वतंत्र ratios के अलग scales (k, m)। Savings constraint दोनों के लिए same, अतः दो equations दो variables में।"
+    },
+    {
+      "id": "ratio-17",
+      "stem_en": "If x : y = 3 : 4 and y : z = 2 : 7, find the value of (x + y) : (y + z).",
+      "stem_hi": "यदि x : y = 3 : 4 और y : z = 2 : 7 हो, तो (x + y) : (y + z) का मान क्या है?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "chained-ratio", "combined-expressions"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "7 : 18", "text_hi": "7 : 18", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "5 : 9",  "text_hi": "5 : 9",  "is_correct": false, "trap_reason_en": "Used first ratio x+y = 3+4 = 7 and second y+z = 2+7 = 9 without unifying y-value (4 ≠ 2).", "trap_reason_hi": "x+y = 3+4 = 7 और y+z = 2+7 = 9 सीधे लिए बिना y को unify किए (4 ≠ 2)।" },
+        { "label": "C", "text_en": "7 : 14", "text_hi": "7 : 14", "is_correct": false, "trap_reason_en": "Scaled second ratio but only c-part: y:z → 2:7, used y+z = 2+14 but kept y=2. Correct: LCM y → 4 means z → 14 ⇒ y+z = 4+14 = 18.", "trap_reason_hi": "दूसरी ratio में सिर्फ c-part को scale किया। LCM y = 4 से z = 14 → y+z = 4+14 = 18।" },
+        { "label": "D", "text_en": "3 : 11", "text_hi": "3 : 11", "is_correct": false, "trap_reason_en": "Used x=3 (without pairing with y=4): mis-wrote x+y as 3 instead of 3+4=7. Then y+z as 4+7=11 kept one y from wrong side.", "trap_reason_hi": "x+y = 3 लिखा (केवल x); y+z = 4+7 = 11 में y गलत side से लिया।" }
+      ],
+      "explanation_method_en": "Make y common. x:y = 3:4 and y:z = 2:7 = 4:14 (× 2). So x:y:z = 3:4:14. Then (x+y)/(y+z) = (3+4)/(4+14) = 7/18.",
+      "explanation_concept_en": "Whenever a problem combines two ratios into a single expression, first unify the shared term via LCM, then form the chained x:y:z. All subsequent calculations on that triple are straightforward arithmetic on the same scale.",
+      "explanation_method_hi": "y को common बनाएँ। x:y = 3:4 और y:z = 2:7 = 4:14 (× 2)। अतः x:y:z = 3:4:14। (x+y)/(y+z) = 7/18।",
+      "explanation_concept_hi": "दो ratios को combine करना हो तो पहले shared term LCM से unify करें, फिर x:y:z बनाएँ। उस triple पर अगली calculations plain arithmetic हैं।"
+    },
+    {
+      "id": "ratio-18",
+      "stem_en": "A sum of money is divided among A, B, C in such a way that for every ₹1 A gets, B gets ₹2 and C gets ₹1.50. If C's share is ₹450, find the total sum.",
+      "stem_hi": "एक राशि A, B, C में इस तरह बाँटी गई कि A को ₹1 मिलने पर B को ₹2 और C को ₹1.50 मिलता है। C का share ₹450 है। कुल राशि क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "partition", "decimal-ratio"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹1,350", "text_hi": "₹1,350", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹900",   "text_hi": "₹900",   "is_correct": false, "trap_reason_en": "Summed only A + B (300 + 600 = 900) and forgot to add C's 450.", "trap_reason_hi": "केवल A + B (300 + 600 = 900) जोड़ा, C का 450 भूल गए।" },
+        { "label": "C", "text_en": "₹1,500", "text_hi": "₹1,500", "is_correct": false, "trap_reason_en": "Truncated 1.5 to 1 (treated decimal as integer): used ratio 1:2:1, sum = 4, total = 450/1 × 4 = 1800, then subtracted 300 'for the half'. Correct: 450/1.5 × (1+2+1.5) = 300 × 4.5 = 1350.", "trap_reason_hi": "1.5 को 1 truncate कर दिया: ratio 1:2:1, sum = 4, total = 450 × 4 = 1800 निकालकर 300 घटाया। सही: 450/1.5 × (1+2+1.5) = 300 × 4.5 = 1350।" },
+        { "label": "D", "text_en": "₹300",   "text_hi": "₹300",   "is_correct": false, "trap_reason_en": "Reported A's share (C/1.5 = 300) as the total. Total spans A + B + C.", "trap_reason_hi": "A का share (C/1.5 = 300) को कुल राशि कह दिया। Total = A + B + C।" }
+      ],
+      "explanation_method_en": "Ratio A:B:C = 1:2:1.5 = 2:4:3 (multiplied by 2 to clear decimals). C = 450 corresponds to 3 parts, so 1 part = 150. Total parts = 2+4+3 = 9. Total sum = 9 × 150 = 1350.",
+      "explanation_concept_en": "Decimal ratios behave identically to integer ratios; multiplying all terms by the same factor clears decimals without changing the ratio. Always convert to the cleanest integer form to avoid arithmetic slips.",
+      "explanation_method_hi": "Ratio A:B:C = 1:2:1.5 = 2:4:3 (× 2 से decimal clear)। C = 450 is 3 parts ⇒ 1 part = 150। Total parts = 9 ⇒ Total = 9 × 150 = 1350।",
+      "explanation_concept_hi": "Decimal ratios integer ratios जैसे ही काम करती हैं। सभी terms को same factor से × करके decimals clear कर लें।"
+    },
+    {
+      "id": "ratio-19",
+      "stem_en": "If 12 men can do a piece of work in 18 days, how many men are needed to complete the same work in 9 days?",
+      "stem_hi": "यदि 12 men किसी काम को 18 दिन में करते हैं, तो वही काम 9 दिन में पूरा करने के लिए कितने men चाहिए?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "inverse-proportion", "work-time"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "24", "text_hi": "24", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "6",  "text_hi": "6",  "is_correct": false, "trap_reason_en": "Used direct proportion: halved days → halved men (12/2 = 6). Work-time is INVERSELY proportional: fewer days need MORE men.", "trap_reason_hi": "Direct proportion लगाई: days आधे → men आधे (12/2 = 6)। Work-time inverse हैं: कम दिन = ज़्यादा men।" },
+        { "label": "C", "text_en": "18", "text_hi": "18", "is_correct": false, "trap_reason_en": "Swapped the numbers without applying the ratio: used 18 (days) as the answer.", "trap_reason_hi": "18 (days) को ही answer लिख दिया — ratio apply नहीं की।" },
+        { "label": "D", "text_en": "36", "text_hi": "36", "is_correct": false, "trap_reason_en": "Multiplied by 3 incorrectly: 12 × 3 = 36. The time ratio is 18/9 = 2, so men scale by 2, not 3.", "trap_reason_hi": "× 3 लगाया: 12 × 3 = 36। Time ratio 18/9 = 2 है, अतः men × 2।" }
+      ],
+      "explanation_method_en": "Men × Days = constant (work done). 12 × 18 = M × 9 ⇒ M = 216/9 = 24.",
+      "explanation_concept_en": "In work-time problems, (workers) × (time) = total person-days required for the job. Halving the time requires doubling the workforce. Inverse proportion means one goes up as the other goes down, with the product constant.",
+      "explanation_method_hi": "Men × Days = constant (total work)। 12 × 18 = M × 9 ⇒ M = 216/9 = 24।",
+      "explanation_concept_hi": "Work-time में (workers) × (time) = total person-days। Time आधा → men दोगुने। Inverse proportion: एक बढ़े तो दूसरा घटे, product constant।"
+    },
+    {
+      "id": "ratio-20",
+      "stem_en": "The ratio of the ages of a man and his wife is 4 : 3. After 4 years, the ratio will be 9 : 7. How old is the wife now?",
+      "stem_hi": "एक पुरुष और उसकी पत्नी की ages का ratio 4 : 3 है। 4 साल बाद यह 9 : 7 हो जाएगा। पत्नी की वर्तमान age क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["ratio-proportion", "age-problem", "spouse-ages"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "24 years", "text_hi": "24 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "28 years", "text_hi": "28 साल", "is_correct": false, "trap_reason_en": "Added 4 to the correct answer 24 (returned wife's age after 4 years instead of now).", "trap_reason_hi": "सही answer 24 में 4 जोड़ दिया (4 साल बाद की age दे दी)।" },
+        { "label": "C", "text_en": "32 years", "text_hi": "32 साल", "is_correct": false, "trap_reason_en": "Gave husband's present age (4k = 32, k = 8) as wife's.", "trap_reason_hi": "पति की present age (4k = 32, k = 8) को पत्नी की दे दी।" },
+        { "label": "D", "text_en": "36 years", "text_hi": "36 साल", "is_correct": false, "trap_reason_en": "Added 4 to husband's age (32 + 4 = 36) — doubled the confusion by swapping person AND adding time.", "trap_reason_hi": "पति की age में 4 जोड़कर (32 + 4 = 36) — person और time दोनों गलत।" }
+      ],
+      "explanation_method_en": "Let man = 4k, wife = 3k. After 4 years: (4k + 4)/(3k + 4) = 9/7 ⇒ 7(4k + 4) = 9(3k + 4) ⇒ 28k + 28 = 27k + 36 ⇒ k = 8. Wife = 3 × 8 = 24.",
+      "explanation_concept_en": "Spouse ages work exactly like any two-age problem: parametrize both by k, apply the future-ratio constraint, solve for k, return the requested age (wife = 3k here).",
+      "explanation_method_hi": "Man = 4k, wife = 3k मानें। 4 साल बाद (4k + 4)/(3k + 4) = 9/7 ⇒ 7(4k + 4) = 9(3k + 4) ⇒ k = 8। Wife = 3 × 8 = 24।",
+      "explanation_concept_hi": "Spouse ages भी दो-age problem जैसा: k से parametrize, future-ratio constraint, k निकालकर requested age।"
+    },
+    {
+      "id": "ratio-21",
+      "stem_en": "In a partnership, A invests ₹6,000 for 4 months, B ₹4,000 for 6 months, and C ₹8,000 for 3 months. Find the ratio of their profit shares.",
+      "stem_hi": "Partnership में A ₹6,000 को 4 महीने, B ₹4,000 को 6 महीने, और C ₹8,000 को 3 महीने invest करते हैं। profit shares का ratio क्या है?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "partnership", "three-way-time-weighted"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "1 : 1 : 1", "text_hi": "1 : 1 : 1", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "6 : 4 : 8", "text_hi": "6 : 4 : 8", "is_correct": false, "trap_reason_en": "Used only the investment amounts (6:4:8) ignoring durations. Profit depends on investment × time.", "trap_reason_hi": "केवल investments (6:4:8) लगाईं, durations छोड़े। Profit investment × time पर निर्भर।" },
+        { "label": "C", "text_en": "4 : 6 : 3", "text_hi": "4 : 6 : 3", "is_correct": false, "trap_reason_en": "Used only durations (4:6:3) ignoring investments. Time alone doesn't determine profit in partnerships.", "trap_reason_hi": "केवल durations (4:6:3) लगाईं, investments छोड़े।" },
+        { "label": "D", "text_en": "2 : 1 : 4", "text_hi": "2 : 1 : 4", "is_correct": false, "trap_reason_en": "Divided investment by duration (6/4, 4/6, 8/3) → 1.5, 0.67, 2.67 ≈ 2:1:4. Correct is investment × time (not /time).", "trap_reason_hi": "Investment को duration से भाग दिया। सही है investment × time, /time नहीं।" }
+      ],
+      "explanation_method_en": "Time-weighted investments: A = 6000 × 4 = 24000; B = 4000 × 6 = 24000; C = 8000 × 3 = 24000. Ratio = 24000 : 24000 : 24000 = 1 : 1 : 1.",
+      "explanation_concept_en": "Three-way partnership profit share uses the product (investment × time) for each partner. Coincidentally equal products give equal shares, which would feel surprising without the calculation.",
+      "explanation_method_hi": "Time-weighted: A = 6000 × 4 = 24000, B = 4000 × 6 = 24000, C = 8000 × 3 = 24000। Ratio = 1 : 1 : 1।",
+      "explanation_concept_hi": "तीन-पक्षीय partnership में हर partner का (investment × time) product। Coincidence से equal = equal shares।"
+    },
+    {
+      "id": "ratio-22",
+      "stem_en": "A mixture contains milk and water in the ratio 5:1. On adding 5 litres of water, the ratio becomes 5:2. Find the quantity of milk in the mixture originally.",
+      "stem_hi": "एक mixture में दूध और पानी का ratio 5:1 है। 5 litres पानी मिलाने पर ratio 5:2 हो जाता है। मूल mixture में दूध कितना था?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "mixture", "water-addition", "equation-setup"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "25 litres", "text_hi": "25 litres", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "30 litres", "text_hi": "30 litres", "is_correct": false, "trap_reason_en": "Added water 5L to the correct milk 25L: 25 + 5 = 30. Question asks milk alone, not milk + added water.", "trap_reason_hi": "सही milk 25L में पानी 5L जोड़कर 30 दे दिया। Question milk अकेला पूछ रहा है।" },
+        { "label": "C", "text_en": "5 litres",  "text_hi": "5 litres",  "is_correct": false, "trap_reason_en": "Reported the quantity of water added (5L) as milk. Confused input with the asked quantity.", "trap_reason_hi": "जोड़े गए पानी (5L) को milk कह दिया।" },
+        { "label": "D", "text_en": "10 litres", "text_hi": "10 litres", "is_correct": false, "trap_reason_en": "Used k = 2 incorrectly: milk = 5k = 10. Correct k solves 5k/(k + 5) = 5/2 ⇒ k = 5, milk = 25.", "trap_reason_hi": "k = 2 गलत लगाया, milk = 5k = 10। सही 5k/(k + 5) = 5/2 ⇒ k = 5 ⇒ milk = 25।" }
+      ],
+      "explanation_method_en": "Let milk = 5k, water = k. After adding 5L water: milk 5k, water k + 5. New ratio: 5k/(k + 5) = 5/2 ⇒ 2 × 5k = 5(k + 5) ⇒ 10k = 5k + 25 ⇒ k = 5. Milk = 5k = 25 L.",
+      "explanation_concept_en": "Like ratio-12 but with starker asymmetry between milk and water; the same framework (parametrize, update changed side, solve linear) applies. Always distinguish the quantity that changes from the one that stays fixed.",
+      "explanation_method_hi": "Milk = 5k, water = k मानें। 5L water जोड़ने पर milk वही, water k + 5। 5k/(k + 5) = 5/2 ⇒ 10k = 5k + 25 ⇒ k = 5। Milk = 25 L।",
+      "explanation_concept_hi": "ratio-12 जैसा framework: changed side पर delta जोड़ें, fixed side k × original रखें, linear equation solve।"
+    },
+    {
+      "id": "ratio-23",
+      "stem_en": "The salaries of A, B, and C are in the ratio 3 : 5 : 7. If their salaries are increased by 50%, 60%, and 50% respectively, find the new ratio of their salaries.",
+      "stem_hi": "A, B, C की salaries का ratio 3 : 5 : 7 है। क्रमशः 50%, 60%, 50% बढ़ोतरी के बाद नया ratio क्या है?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "percentage-hike", "multi-person"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "9 : 16 : 21", "text_hi": "9 : 16 : 21", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "3 : 5 : 7",   "text_hi": "3 : 5 : 7",   "is_correct": false, "trap_reason_en": "Assumed equal percent hikes preserve the ratio — but B got 60%, the others 50%, so the ratio shifts.", "trap_reason_hi": "Equal hikes होते तो ratio same रहती; B को 60%, बाकी को 50% — ratio बदलेगा।" },
+        { "label": "C", "text_en": "9 : 15 : 21", "text_hi": "9 : 15 : 21", "is_correct": false, "trap_reason_en": "Scaled all three by 50% (3×1.5, 5×1.5, 7×1.5). B's hike is 60%, so B → 5 × 1.6 = 8 (in halves: 16 on double-scale), not 15.", "trap_reason_hi": "तीनों को 50% से scale किया (× 1.5)। B पर 60%: 5 × 1.6 = 8 (2x scale पर 16), 15 नहीं।" },
+        { "label": "D", "text_en": "6 : 11 : 14", "text_hi": "6 : 11 : 14", "is_correct": false, "trap_reason_en": "Doubled the multiplication factor wrong: 3×2, 5×2.2, 7×2. Used factors 2 and 2.2 instead of 1.5 and 1.6.", "trap_reason_hi": "Factors गलत: 1.5/1.6 की जगह 2/2.2 लगा दिए।" }
+      ],
+      "explanation_method_en": "New salaries = 3 × 1.5, 5 × 1.6, 7 × 1.5 = 4.5, 8, 10.5. Multiply by 2 to clear decimals: 9, 16, 21. Ratio = 9 : 16 : 21.",
+      "explanation_concept_en": "Different percentage hikes applied to different parts generally change the ratio. Apply each multiplier individually (1.5 for 50%, 1.6 for 60%), then clear decimals by a common factor. Equal hikes preserve the ratio; unequal hikes shift it.",
+      "explanation_method_hi": "नई salaries = 3 × 1.5, 5 × 1.6, 7 × 1.5 = 4.5, 8, 10.5। × 2 से decimals clear: 9, 16, 21। Ratio = 9 : 16 : 21।",
+      "explanation_concept_hi": "अलग % hikes से ratio बदलती है। हर multiplier individually लगाएँ (1.5 for 50%, 1.6 for 60%), फिर decimals clear करें।"
+    },
+    {
+      "id": "ratio-24",
+      "stem_en": "If the ratio of the sides of two squares is 2:3, find the ratio of their areas.",
+      "stem_hi": "दो squares की sides का ratio 2:3 है। उनके areas का ratio क्या है?",
+      "difficulty": "EASY",
+      "tags": ["ratio-proportion", "geometric-ratio", "area"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "4 : 9",  "text_hi": "4 : 9",  "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "2 : 3",  "text_hi": "2 : 3",  "is_correct": false, "trap_reason_en": "Reported the side ratio as area ratio. Area scales with the SQUARE of the linear ratio.", "trap_reason_hi": "Side ratio को area ratio मान लिया। Area linear ratio के SQUARE से scale होता है।" },
+        { "label": "C", "text_en": "8 : 27", "text_hi": "8 : 27", "is_correct": false, "trap_reason_en": "Used side³ (volume scaling, 2³:3³ = 8:27) — that's the ratio of VOLUMES of CUBES, not areas of squares.", "trap_reason_hi": "Side³ (volume scaling, 2³:3³ = 8:27) लगाया — यह cubes के volumes का ratio है।" },
+        { "label": "D", "text_en": "4 : 6",  "text_hi": "4 : 6",  "is_correct": false, "trap_reason_en": "Doubled each side (2×2:3×2 = 4:6 simplifies to 2:3) — linear doubling doesn't give area.", "trap_reason_hi": "हर side को double किया (2×2:3×2 = 4:6 → 2:3) — linear doubling area नहीं देता।" }
+      ],
+      "explanation_method_en": "Area of a square = side². So area ratio = (side ratio)² = (2/3)² = 4/9.",
+      "explanation_concept_en": "When a linear dimension scales by factor k, area scales by k² and volume by k³. For squares (or any 2D shape), area ratio is always the SQUARE of the linear ratio. Cubes would give k³.",
+      "explanation_method_hi": "Square का area = side²। अतः area ratio = (side ratio)² = (2/3)² = 4/9।",
+      "explanation_concept_hi": "Linear dimension k से scale हो तो area k² से, volume k³ से। 2D शapes (square सहित) में area ratio = linear ratio का SQUARE।"
+    },
+    {
+      "id": "ratio-25",
+      "stem_en": "₹3,300 is divided among A, B, C, D such that A : B = 1 : 2, B : C = 3 : 5, and C : D = 5 : 7. Find B's share.",
+      "stem_hi": "₹3,300 को A, B, C, D में इस तरह बाँटा गया कि A : B = 1 : 2, B : C = 3 : 5, C : D = 5 : 7। B का share क्या है?",
+      "difficulty": "HARD",
+      "tags": ["ratio-proportion", "four-way-chained", "partition"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹600", "text_hi": "₹600", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹440", "text_hi": "₹440", "is_correct": false, "trap_reason_en": "Used A:B:C:D = 1:2:5:7 directly without unifying B (2 in first ratio vs 3 in second): sum = 15, B = 3300 × 2/15 = 440. Correct chain unifies B and C via LCM to get 3:6:10:14.", "trap_reason_hi": "A:B:C:D = 1:2:5:7 सीधे लिया (B को unify नहीं किया, 2 vs 3): sum = 15, B = 3300 × 2/15 = 440। सही chain LCM से 3:6:10:14।" },
+        { "label": "C", "text_en": "₹825", "text_hi": "₹825", "is_correct": false, "trap_reason_en": "Split the total equally among 4 people: 3300/4 = 825. Ratios are unequal; this ignores them.", "trap_reason_hi": "Total को 4 लोगों में बराबर बाँट दिया: 3300/4 = 825। Ratios unequal हैं, यह split उन्हें ignore करता है।" },
+        { "label": "D", "text_en": "₹1,100","text_hi": "₹1,100","is_correct": false, "trap_reason_en": "Divided total by 3 (counted only the 3 stated ratios as splits): 3300/3 = 1100. There are 4 people (A, B, C, D), not 3.", "trap_reason_hi": "Total को 3 से भाग दिया (3 दी हुई ratios को splits मान लिया): 3300/3 = 1100। People 4 हैं (A, B, C, D), 3 नहीं।" }
+      ],
+      "explanation_method_en": "Chain: A:B = 1:2; scale by 3 to make B match B:C's B-part (= 3 → 6), giving A:B = 3:6. So A:B:C = 3:6:10 (B:C scaled to B = 6 ⇒ × 2 ⇒ 6:10). Then C:D = 5:7 → 10:14 (× 2 to make C = 10). Combined: A:B:C:D = 3:6:10:14. Sum = 33. B = 3300 × 6/33 = 600.",
+      "explanation_concept_en": "Chaining three ratios requires iteratively unifying one shared term at a time. Find the LCM of each overlap, scale, advance, and repeat. Missing even one unification step gives an inconsistent chain that under- or over-counts shares.",
+      "explanation_method_hi": "Chain: A:B = 1:2 → 3:6 (× 3 से B = 6 match करे B:C के 3 से ⇒ × 2 करके 6:10); C:D = 5:7 → 10:14 (× 2 से C = 10)। A:B:C:D = 3:6:10:14। Sum = 33। B = 3300 × 6/33 = 600।",
+      "explanation_concept_hi": "तीन ratios chain करने के लिए एक-एक shared term को LCM से unify करें। एक भी step छूटा तो chain inconsistent।"
+    }
+  ]
+}

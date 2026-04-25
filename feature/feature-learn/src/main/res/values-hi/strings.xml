@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="learn_subjects_title">विषय</string>
+    <string name="learn_chapter_empty">जल्द ही नई सामग्री — पाइपलाइन साप्ताहिक अपडेट करती है।</string>
+    <string name="learn_topic_title_fallback">विषय</string>
+    <string name="learn_topic_bookmark">बुकमार्क</string>
+    <string name="learn_topic_load_failed">यह विषय लोड नहीं हो सका।</string>
+    <string name="learn_pdf_failed">PDF डाउनलोड नहीं हो सकी।</string>
+    <string name="learn_pdf_open_external">ब्राउज़र में खोलें</string>
+    <string name="learn_pdf_network_error">PDF डाउनलोड नहीं हुई। अपना कनेक्शन जाँचें।</string>
+    <string name="learn_pdf_retry">पुनः प्रयास</string>
+    <string name="learn_pdf_unsupported">यह PDF ऐप में नहीं खुल सकती।</string>
+    <string name="learn_pdf_unsupported_hint">लिंक पुराना हो सकता है या फ़ाइल सुरक्षित है। आप इसे ब्राउज़र में खोल सकते हैं।</string>
+    <string name="learn_article_placeholder">लेख सुविधा फ़ेज़ 4 में आएगी।</string>
+
+    <string name="attrib_ncert_fmt">स्रोत: %1$s — ncert.nic.in. RailPrep NCERT की मूल PDF से लिंक करता है, कॉपी होस्ट नहीं करता।</string>
+    <string name="attrib_godl_fmt">स्रोत: %1$s. GODL-India के अंतर्गत प्रकाशित।</string>
+    <string name="attrib_ccbysa_fmt">स्रोत: %1$s. CC BY-SA 4.0.</string>
+    <string name="attrib_yt_fmt">स्रोत: %1$s (YouTube). आधिकारिक YouTube IFrame प्लेयर पर चलाया गया।</string>
+    <string name="attrib_public_fmt">स्रोत: %1$s. पब्लिक डोमेन.</string>
+</resources>

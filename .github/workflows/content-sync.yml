@@ -1,0 +1,46 @@
+name: content-sync
+
+on:
+  schedule:
+    # Mon + Thu at 02:00 UTC (07:30 IST)
+    - cron: '0 2 * * 1,4'
+  workflow_dispatch:
+
+jobs:
+  discover-and-apply:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: tools/content-pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: tools/content-pipeline/package-lock.json
+
+      - run: npm ci
+
+      - name: Discover NCERT PDFs (crawl landing pages)
+        run: npm run discover:ncert
+
+      - name: Discover YouTube candidates
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: npm run discover:yt
+
+      - name: Apply to Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: npm run apply
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### Content pipeline run" >> $GITHUB_STEP_SUMMARY
+          echo "- Date: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- SQL files generated:" >> $GITHUB_STEP_SUMMARY
+          ls -la sql/ >> $GITHUB_STEP_SUMMARY 2>/dev/null || echo "  (none)" >> $GITHUB_STEP_SUMMARY

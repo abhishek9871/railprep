@@ -1,0 +1,31 @@
+{
+  "_comment": "NCERT textbook index. Verified by reading page-1 content of each book's first chapter (see docs/PHASE_25_REPORT.md audit). URL pattern is https://ncert.nic.in/textbook/pdf/{code}{part}{NN}.pdf. The crawler pattern-enumerates 01..MAX per book and HEAD-checks each. Subject tags are the true content (not a guess) so the reseed generator can map topics to the right catalog chapter.",
+  "books": [
+    { "class": 6,  "subject": "math",       "title": "Ganita Prakash I",              "code": "fegp", "language": "en", "landing": "https://ncert.nic.in/textbook.php?fegp1=0-10" },
+    { "class": 7,  "subject": "math",       "title": "Ganita Prakash",                "code": "gegp", "language": "en", "landing": "https://ncert.nic.in/textbook.php?gegp1=0-12" },
+    { "class": 7,  "subject": "science",    "title": "Curiosity (Science)",           "code": "gesc", "language": "en", "landing": "https://ncert.nic.in/textbook.php?gesc1=0-15" },
+    { "class": 8,  "subject": "math",       "title": "Ganita Prakash (formerly Mathematics)", "code": "hemh", "language": "en", "landing": "https://ncert.nic.in/textbook.php?hemh1=0-15" },
+    { "class": 8,  "subject": "history",    "title": "Our Pasts III",                 "code": "hess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?hess2=0-10" },
+    { "class": 8,  "subject": "polity",     "title": "Social and Political Life III", "code": "hess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?hess3=0-10" },
+    { "class": 8,  "subject": "geography",  "title": "Resources and Development",     "code": "hess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?hess4=0-6" },
+    { "class": 9,  "subject": "math",       "title": "Ganita Manjari",                "code": "iemh", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iemh1=0-15" },
+    { "class": 9,  "subject": "geography",  "title": "Contemporary India I",          "code": "iess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iess1=0-6"  },
+    { "class": 9,  "subject": "economics",  "title": "Economics",                     "code": "iess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iess2=0-4"  },
+    { "class": 9,  "subject": "history",    "title": "India and the Contemporary World I", "code": "iess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iess3=0-5"  },
+    { "class": 9,  "subject": "polity",     "title": "Democratic Politics I",         "code": "iess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iess4=0-5"  },
+    { "class": 9,  "subject": "english",    "title": "Beehive (literature)",          "code": "iebe", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iebe1=0-11" },
+    { "class": 9,  "subject": "english",    "title": "Moments (short stories)",       "code": "iemo", "language": "en", "landing": "https://ncert.nic.in/textbook.php?iemo1=0-10" },
+    { "class": 10, "subject": "math",       "title": "Mathematics",                   "code": "jemh", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jemh1=0-15" },
+    { "class": 10, "subject": "science",    "title": "Science",                       "code": "jesc", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jesc1=0-13" },
+    { "class": 10, "subject": "geography",  "title": "Contemporary India II",         "code": "jess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jess1=0-7"  },
+    { "class": 10, "subject": "economics",  "title": "Understanding Economic Development", "code": "jess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jess2=0-5"  },
+    { "class": 10, "subject": "history",    "title": "India and the Contemporary World II", "code": "jess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jess3=0-5"  },
+    { "class": 10, "subject": "polity",     "title": "Democratic Politics II",        "code": "jess", "language": "en", "landing": "https://ncert.nic.in/textbook.php?jess4=0-5"  },
+    { "class": 11, "subject": "physics",    "title": "Physics Part II (Ch 8-15)",     "code": "keph", "language": "en", "landing": "https://ncert.nic.in/textbook.php?keph2=0-8"  },
+    { "class": 11, "subject": "economics",  "title": "Indian Economic Development",   "code": "keec", "language": "en", "landing": "https://ncert.nic.in/textbook.php?keec1=0-10" },
+    { "class": 11, "subject": "history",    "title": "Themes in World History",       "code": "kehs", "language": "en", "landing": "https://ncert.nic.in/textbook.php?kehs1=0-11" },
+    { "class": 11, "subject": "polity",     "title": "Political Theory",              "code": "keps", "language": "en", "landing": "https://ncert.nic.in/textbook.php?keps1=0-10" },
+    { "class": 12, "subject": "physics",    "title": "Physics Part I",                "code": "leph", "language": "en", "landing": "https://ncert.nic.in/textbook.php?leph1=0-8"  },
+    { "class": 12, "subject": "biology",    "title": "Biology Part I",                "code": "lebo", "language": "en", "landing": "https://ncert.nic.in/textbook.php?lebo1=0-16" }
+  ]
+}

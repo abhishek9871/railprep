@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash -->
+    <string name="app_wordmark">RailPrep</string>
+    <string name="app_tagline">Your NTPC journey starts here.</string>
+
+    <!-- Language picker -->
+    <string name="language_title">Choose your language</string>
+    <string name="language_subtitle">You can change this anytime from Profile.</string>
+    <string name="language_continue">Continue</string>
+    <string name="language_coming_soon">Coming soon — English for now.</string>
+    <string name="language_coming_soon_badge">Coming soon</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_slide1_title">Current affairs, updated daily</string>
+    <string name="onboarding_slide1_body">Railway news, national events, and PIB releases — curated for the NTPC syllabus.</string>
+    <string name="onboarding_slide2_title">Full CBT-pattern mock tests</string>
+    <string name="onboarding_slide2_body">Timed sections, negative marking, instant analytics — built like the real exam.</string>
+    <string name="onboarding_slide3_title">Study in Hindi or English</string>
+    <string name="onboarding_slide3_body">Switch languages anytime. Every lesson, every question, every notification.</string>
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get started</string>
+
+    <!-- Auth -->
+    <string name="auth_title">Sign in to continue</string>
+    <string name="auth_subtitle">Track your progress across devices.</string>
+    <string name="auth_continue_google">Continue with Google</string>
+    <string name="auth_sign_in_email">Sign in with email</string>
+    <string name="auth_legal_note">By continuing you agree to our Terms and acknowledge the Privacy Policy.</string>
+
+    <!-- Email auth -->
+    <string name="email_title">Email sign in</string>
+    <string name="email_tab_sign_in">Sign in</string>
+    <string name="email_tab_create_account">Create account</string>
+    <string name="email_field_email">Email</string>
+    <string name="email_field_password">Password</string>
+    <string name="email_submit_sign_in">Sign in</string>
+    <string name="email_submit_create_account">Create account</string>
+    <string name="email_forgot_password">Forgot password?</string>
+    <string name="email_back">Back</string>
+    <string name="email_err_empty">Enter your email.</string>
+    <string name="email_err_invalid">That doesn\'t look like a valid email.</string>
+    <string name="password_err_empty">Enter a password.</string>
+    <string name="password_err_too_short">Use at least 8 characters.</string>
+    <string name="email_reset_sent">Password reset email sent. Check your inbox.</string>
+    <string name="email_account_created">Account created. Check your email to confirm.</string>
+    <string name="email_banner_confirm">We sent a confirmation link to your email. Click it, then come back here and sign in.</string>
+
+    <!-- Password reset -->
+    <string name="reset_otp_title">Enter your code</string>
+    <string name="reset_otp_subtitle">We sent a code to %1$s. Check your inbox and spam folder.</string>
+    <string name="reset_otp_field_code">Verification code</string>
+    <string name="reset_otp_err_invalid">Enter the code from your email.</string>
+    <string name="reset_otp_verify">Verify</string>
+    <string name="reset_otp_resend">Resend code</string>
+    <string name="reset_code_resent">Code resent. Check your inbox.</string>
+    <string name="new_password_title">Set a new password</string>
+    <string name="new_password_subtitle">Choose something strong. You\'ll use this to sign in next time.</string>
+    <string name="new_password_field_new">New password</string>
+    <string name="new_password_field_confirm">Confirm password</string>
+    <string name="new_password_err_mismatch">Passwords don\'t match.</string>
+    <string name="new_password_submit">Update password</string>
+
+    <!-- Goal -->
+    <string name="goal_title">Set your exam goal</string>
+    <string name="goal_subtitle">Tell us a bit so we can tailor your plan.</string>
+    <string name="goal_display_name">Your name (optional)</string>
+    <string name="goal_exam_target">Target exam</string>
+    <string name="goal_exam_cbt1">NTPC CBT-1</string>
+    <string name="goal_exam_cbt2">NTPC CBT-2</string>
+    <string name="goal_target_date">Target exam date</string>
+    <string name="goal_pick_date">Pick a date</string>
+    <string name="goal_pick">Pick</string>
+    <string name="goal_ok">OK</string>
+    <string name="goal_cancel">Cancel</string>
+    <string name="goal_daily_minutes">Daily study: %1$d min</string>
+    <string name="goal_qualification">Qualification</string>
+    <string name="goal_qual_12th">12th pass</string>
+    <string name="goal_qual_graduate">Graduate</string>
+    <string name="goal_category">Category</string>
+    <string name="goal_dob">Date of birth</string>
+    <string name="goal_finish">Finish setup</string>
+    <string name="goal_err_required">This is required.</string>
+    <string name="goal_err_date_range">Pick a date between 30 days and 2 years from today.</string>
+    <string name="goal_err_under_18">You must be at least 18 years old.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RailPrep</string>
+    <string name="phase0_scaffold_ok">Phase 0 scaffold OK</string>
+    <string name="phase0_hello_button">Hello</string>
+</resources>

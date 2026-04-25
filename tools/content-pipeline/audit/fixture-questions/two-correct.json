@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": "fixture-bad-two-correct",
+      "stem_en": "Which of the following is the capital of India?",
+      "stem_hi": "भारत की राजधानी कौन-सी है?",
+      "options": [
+        { "label": "A", "text_en": "New Delhi", "text_hi": "नई दिल्ली", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "Delhi",     "text_hi": "दिल्ली",     "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "Mumbai",    "text_hi": "मुंबई",      "is_correct": false, "trap_reason_en": "Mumbai is the financial capital, not the political capital.", "trap_reason_hi": "मुंबई आर्थिक राजधानी है, राजनैतिक नहीं।" },
+        { "label": "D", "text_en": "Kolkata",   "text_hi": "कोलकाता",    "is_correct": false, "trap_reason_en": "Kolkata was the British India capital before 1911.",         "trap_reason_hi": "1911 से पहले ब्रिटिश भारत की राजधानी कोलकाता थी।" }
+      ],
+      "explanation_method_en": "Recall: capital of India is New Delhi (since 1911). Eliminate Mumbai, Kolkata.",
+      "explanation_concept_en": "New Delhi was inaugurated as the capital of British India on 13 December 1911 by King George V at the Delhi Durbar, replacing Calcutta. It remained the capital after independence in 1947.",
+      "explanation_method_hi": "याद करें: भारत की राजधानी New Delhi है (1911 से)। Mumbai, Kolkata निकालें।",
+      "explanation_concept_hi": "13 दिसंबर 1911 को Delhi Durbar में King George V द्वारा New Delhi को British India की राजधानी घोषित किया गया, Calcutta की जगह। 1947 के बाद भी यही राजधानी रही।",
+      "difficulty": "EASY",
+      "tags": ["india-polity", "capitals"],
+      "source": "Original",
+      "license": "ORIGINAL"
+    }
+  ]
+}

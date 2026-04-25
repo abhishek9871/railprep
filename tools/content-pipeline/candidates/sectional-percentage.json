@@ -1,0 +1,294 @@
+{
+  "_doc": "Stage 4 original sectional — Percentage. Bilingual exam-register + 2-layer pedagogy + trap analysis on every wrong option. Seed slug: sectional-percentage-01.",
+  "slug": "sectional-percentage-01",
+  "title_en": "Percentage — Sectional",
+  "title_hi": "प्रतिशत — Sectional",
+  "section": { "title_en": "Percentage", "title_hi": "प्रतिशत", "subject_hint": "math" },
+  "questions": [
+    {
+      "id": "pct-01",
+      "stem_en": "What is 35% of 240?",
+      "stem_hi": "240 का 35% क्या है?",
+      "difficulty": "EASY",
+      "tags": ["percentage", "basic-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "84", "text_hi": "84", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "82", "text_hi": "82", "is_correct": false, "trap_reason_en": "Computed 35×240/100 but rounded to nearest 10 too aggressively.", "trap_reason_hi": "35×240/100 निकाला पर 10 के पास round कर दिया।" },
+        { "label": "C", "text_en": "96", "text_hi": "96", "is_correct": false, "trap_reason_en": "Used 40% (rounded up the rate).", "trap_reason_hi": "rate को 40% तक round कर दिया।" },
+        { "label": "D", "text_en": "72", "text_hi": "72", "is_correct": false, "trap_reason_en": "Used 30% (rounded down the rate).", "trap_reason_hi": "rate को 30% तक round कर दिया।" }
+      ],
+      "explanation_method_en": "35% = 35/100 = 0.35. 0.35 × 240 = 84. Quicker: 10% of 240 = 24, so 35% = 24 × 3.5 = 84.",
+      "explanation_concept_en": "'Percent' means 'per 100'. p% of N = (p × N)/100. The fraction p/100 is the multiplier; multiplying any number N by it scales N down proportionally. 10% chunks are easy mental anchors — split the rate into 10s and remainders.",
+      "explanation_method_hi": "35% = 35/100 = 0.35। 0.35 × 240 = 84। तेज़ तरीका: 10% of 240 = 24, अतः 35% = 24 × 3.5 = 84।",
+      "explanation_concept_hi": "'percent' का मतलब 'per 100' है। p% of N = (p × N)/100। यह fraction p/100 multiplier है जो किसी भी संख्या N को proportional रूप से scale करता है। 10% के chunks सबसे आसान mental anchor हैं — rate को 10 और शेष में बाँटें।"
+    },
+    {
+      "id": "pct-02",
+      "stem_en": "If a number is increased by 20% and then decreased by 20%, what is the net change?",
+      "stem_hi": "किसी संख्या को 20% बढ़ाकर फिर 20% घटाया जाए, तो net change क्या है?",
+      "difficulty": "EASY",
+      "tags": ["percentage", "successive-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "0% (no change)", "text_hi": "0% (कोई बदलाव नहीं)", "is_correct": false, "trap_reason_en": "Common error — students subtract 20-20 = 0, but the bases differ. The 20% decrease is on the increased number (120%), not on the original.", "trap_reason_hi": "common गलती — 20-20 = 0 कर दिया, लेकिन base अलग हैं। 20% decrease बढ़ी हुई संख्या (120%) पर लगता है, मूल पर नहीं।" },
+        { "label": "B", "text_en": "4% decrease", "text_hi": "4% की कमी", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "4% increase", "text_hi": "4% की बढ़त", "is_correct": false, "trap_reason_en": "Right magnitude, wrong direction — successive +x% and −x% always result in a net decrease, never an increase.", "trap_reason_hi": "magnitude सही, दिशा गलत — successive +x% और −x% का net result हमेशा कमी होगा, बढ़त नहीं।" },
+        { "label": "D", "text_en": "40% decrease", "text_hi": "40% की कमी", "is_correct": false, "trap_reason_en": "Incorrectly added the percentages. Successive percentages compound, they don't add.", "trap_reason_hi": "percentages को जोड़ दिया। successive percentages compound होते हैं, जोड़े नहीं जाते।" }
+      ],
+      "explanation_method_en": "Use the formula: net% = a + b + (a×b)/100, where a = +20, b = −20. Net = 20 − 20 + (20)(−20)/100 = 0 − 4 = −4%. So 4% decrease.",
+      "explanation_concept_en": "Take 100 as the original. After +20%: 120. After −20% on 120: 120 × 0.80 = 96. Final = 96, drop = 4 on 100 = 4%. The two ±x% adjustments don't cancel because the base of the second adjustment (120) is larger than the base of the first (100); the absolute decrease 24 exceeds the absolute increase 20.",
+      "explanation_method_hi": "formula: net% = a + b + (a×b)/100, जहाँ a = +20, b = −20. Net = 20 − 20 + (20)(−20)/100 = 0 − 4 = −4%। यानी 4% decrease।",
+      "explanation_concept_hi": "100 को मूल मानें। +20% के बाद: 120। 120 पर −20% = 120 × 0.80 = 96। Final = 96, गिरावट = 100 में से 4 = 4%। ±x% adjustments cancel नहीं होते क्योंकि दूसरे adjustment का base (120) पहले के base (100) से बड़ा है; absolute कमी 24 absolute बढ़त 20 से ज़्यादा है।"
+    },
+    {
+      "id": "pct-03",
+      "stem_en": "A number when increased by 25% becomes 80. What was the original number?",
+      "stem_hi": "एक संख्या को 25% बढ़ाने पर 80 हो जाती है। मूल संख्या क्या थी?",
+      "difficulty": "EASY",
+      "tags": ["percentage", "reverse-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "60", "text_hi": "60", "is_correct": false, "trap_reason_en": "Subtracted 25 from 80 = 55, then approximated up. Wrong because 25% of original ≠ 25 absolute.", "trap_reason_hi": "80 से 25 घटाकर 55 निकाला और round किया। गलत क्योंकि मूल का 25% absolute 25 नहीं है।" },
+        { "label": "B", "text_en": "55", "text_hi": "55", "is_correct": false, "trap_reason_en": "Subtracted 25 directly from 80 — confusing 25% of original with 25 units.", "trap_reason_hi": "80 में से 25 घटाया — मूल का 25% को 25 units समझा।" },
+        { "label": "C", "text_en": "64", "text_hi": "64", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "D", "text_en": "100", "text_hi": "100", "is_correct": false, "trap_reason_en": "Subtracted 25% from 80: 80 − 20 = 60, then over-corrected. The relationship is 80 = 1.25 × x, so x = 64.", "trap_reason_hi": "80 से 20 घटाया, फिर over-correct कर दिया। सही: 80 = 1.25 × x, अतः x = 64।" }
+      ],
+      "explanation_method_en": "If +25% gives 80, then 80 represents 125% of original. Original = 80 × 100/125 = 80 × 0.8 = 64.",
+      "explanation_concept_en": "Reverse-percentage problems are about identifying which side of the comparison is the 'whole' (100%). Here 'after a 25% increase' means the result is 125% of the start. To recover the start, divide the result by the multiplier (1.25), not by adding/subtracting 25 to the result.",
+      "explanation_method_hi": "+25% पर 80 मिलता है, यानी 80 मूल के 125% के बराबर है। मूल = 80 × 100/125 = 80 × 0.8 = 64।",
+      "explanation_concept_hi": "Reverse-percentage problems में पहचानना है कि comparison में 'whole' (100%) कौन है। यहाँ '25% बढ़ाने पर' का मतलब result मूल का 125% है। मूल को निकालने के लिए result को multiplier (1.25) से भाग दें — न कि result में 25 जोड़ें/घटाएँ।"
+    },
+    {
+      "id": "pct-04",
+      "stem_en": "60% of a number is 144. What is 75% of the same number?",
+      "stem_hi": "किसी संख्या का 60% = 144 है। उसी संख्या का 75% क्या है?",
+      "difficulty": "EASY",
+      "tags": ["percentage", "ratio-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "180", "text_hi": "180", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "240", "text_hi": "240", "is_correct": false, "trap_reason_en": "This is the original number (60% × 240 = 144), not 75% of it.", "trap_reason_hi": "यह मूल संख्या है (60% × 240 = 144), उसका 75% नहीं।" },
+        { "label": "C", "text_en": "168", "text_hi": "168", "is_correct": false, "trap_reason_en": "Added 24 (15 increase ratio) to 144 — used absolute additive logic instead of ratio.", "trap_reason_hi": "144 में 24 जोड़ा (15 increase ratio) — ratio की जगह additive logic लगाया।" },
+        { "label": "D", "text_en": "192", "text_hi": "192", "is_correct": false, "trap_reason_en": "Added 48 = 144 × 1/3, mistaking 75/60 for 4/3 instead of 5/4.", "trap_reason_hi": "144 × 1/3 = 48 जोड़ा, 75/60 को 4/3 समझ लिया, सही 5/4 है।" }
+      ],
+      "explanation_method_en": "Ratio shortcut: 75% / 60% = 75/60 = 5/4. So 75% = 144 × 5/4 = 180. No need to find the number first.",
+      "explanation_concept_en": "Both 60% and 75% are different fractions of the same whole. Their ratio (75/60 = 5/4) tells you directly how the second value relates to the first. This 'cross-percent' shortcut saves a step over finding the original number (240) and then 75% of it (180).",
+      "explanation_method_hi": "Ratio shortcut: 75% / 60% = 75/60 = 5/4। तो 75% = 144 × 5/4 = 180। मूल संख्या निकालने की ज़रूरत नहीं।",
+      "explanation_concept_hi": "60% और 75% दोनों एक ही whole के अलग-अलग fractions हैं। उनका ratio (75/60 = 5/4) सीधे बताता है कि दूसरा value पहले से कितना है। यह 'cross-percent' shortcut मूल संख्या (240) निकालने और फिर 75% (180) निकालने का step बचाता है।"
+    },
+    {
+      "id": "pct-05",
+      "stem_en": "Ramesh spends 75% of his salary. If his salary is increased by 20% and his expenses by 10%, by what percent do his savings change?",
+      "stem_hi": "रमेश अपनी salary का 75% खर्च करता है। यदि उसकी salary 20% बढ़े और expenses 10% बढ़ें, तो savings कितने प्रतिशत बदलेंगी?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "savings-expenses", "salary-expenses"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "Increase by 50%", "text_hi": "50% की बढ़त", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "Increase by 10%", "text_hi": "10% की बढ़त", "is_correct": false, "trap_reason_en": "Subtracted 10 from 20 — but salary and expenses are different bases, you can't compare percentages directly.", "trap_reason_hi": "20 से 10 घटाया — पर salary और expenses के base अलग हैं, percentages को सीधे compare नहीं कर सकते।" },
+        { "label": "C", "text_en": "Increase by 30%", "text_hi": "30% की बढ़त", "is_correct": false, "trap_reason_en": "Added 20 + 10 = 30 — wrong direction, expenses cut savings, they don't add.", "trap_reason_hi": "20 + 10 = 30 जोड़ा — दिशा गलत, expenses savings कम करते हैं, जोड़ते नहीं।" },
+        { "label": "D", "text_en": "Increase by 25%", "text_hi": "25% की बढ़त", "is_correct": false, "trap_reason_en": "Approximation by feel — actual answer requires computing absolute Δsavings = 20−7.5 = 12.5 on a savings base of 25.", "trap_reason_hi": "अंदाज़ से — असली answer में Δsavings = 20−7.5 = 12.5 (savings base 25 पर) निकालना पड़ता है।" }
+      ],
+      "explanation_method_en": "Take salary = 100, so expenses = 75 and savings = 25. New salary = 120, new expenses = 75 × 1.10 = 82.5. New savings = 120 − 82.5 = 37.5. Change = (37.5 − 25)/25 = 50%.",
+      "explanation_concept_en": "Savings are the residual: salary minus expenses. When two different bases (here 100 and 75) grow at different rates, the residual's percent change depends on the absolute changes, not the percent changes. Always assume a clean base (e.g., 100), compute absolute amounts, and only then convert the change in the residual back to a percent.",
+      "explanation_method_hi": "salary = 100 मानें, expenses = 75, savings = 25। नई salary = 120, नई expenses = 75 × 1.10 = 82.5। नई savings = 120 − 82.5 = 37.5। Change = (37.5 − 25)/25 = 50%।",
+      "explanation_concept_hi": "Savings residual हैं: salary − expenses। जब दो अलग bases (यहाँ 100 और 75) अलग rates पर बढ़ते हैं, तो residual का percent change percent changes पर नहीं, absolute changes पर निर्भर करता है। हमेशा clean base (e.g. 100) मान लें, absolute amounts निकालें, फिर residual के change को percent में बदलें।"
+    },
+    {
+      "id": "pct-06",
+      "stem_en": "If the price of sugar increases by 25%, by what percentage should a family reduce its consumption to keep the expenditure on sugar unchanged?",
+      "stem_hi": "यदि चीनी की कीमत 25% बढ़ जाए, तो परिवार को consumption कितने प्रतिशत घटानी चाहिए कि sugar पर expenditure same रहे?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "price-consumption", "reverse-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "25%", "text_hi": "25%", "is_correct": false, "trap_reason_en": "Symmetric instinct — but cutting consumption by 25% only offsets a small price rise, not 25%. Bases differ.", "trap_reason_hi": "symmetric instinct से — पर 25% consumption cut छोटी price rise को offset करता है, 25% को नहीं। bases अलग।" },
+        { "label": "B", "text_en": "20%", "text_hi": "20%", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "15%", "text_hi": "15%", "is_correct": false, "trap_reason_en": "Underestimated — 15% consumption cut leaves expenditure higher than original.", "trap_reason_hi": "अंदाज़ कम — 15% consumption cut से expenditure मूल से ज़्यादा रह जाता है।" },
+        { "label": "D", "text_en": "30%", "text_hi": "30%", "is_correct": false, "trap_reason_en": "Overcompensated — 30% consumption cut would leave expenditure lower than original.", "trap_reason_hi": "Overcompensate — 30% consumption cut से expenditure मूल से कम हो जाता है।" }
+      ],
+      "explanation_method_en": "Formula: required reduction% = (rise%)/(100 + rise%) × 100 = 25/125 × 100 = 20%.",
+      "explanation_concept_en": "Expenditure = price × consumption. To keep it constant when price multiplies by 1.25, consumption must multiply by 1/1.25 = 0.80, i.e., reduce by 20%. The asymmetry between 25% rise and 20% cut comes from the base inversion: rising 25% on the smaller base, cutting 20% on the larger base.",
+      "explanation_method_hi": "formula: needed cut% = (rise%)/(100 + rise%) × 100 = 25/125 × 100 = 20%।",
+      "explanation_concept_hi": "Expenditure = price × consumption. इसे constant रखने के लिए जब price 1.25 गुना हो, तो consumption को 1/1.25 = 0.80 गुना करना होगा, यानी 20% कम। 25% बढ़त और 20% कमी की asymmetry base के बदलने से आती है: छोटे base पर 25% बढ़त, बड़े base पर 20% कमी।"
+    },
+    {
+      "id": "pct-07",
+      "stem_en": "In an election between two candidates, the loser polled 45% of total valid votes and lost by 4000 votes. How many total valid votes were cast?",
+      "stem_hi": "दो उम्मीदवारों के बीच चुनाव में हारने वाले को 45% valid votes मिले और वह 4000 votes से हारा। कुल valid votes कितने थे?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "elections", "percent-difference"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20000", "text_hi": "20000", "is_correct": false, "trap_reason_en": "Used (4000/20%) but with wrong margin — 4000 = 10% of total, not 20%.", "trap_reason_hi": "(4000/20%) लगाया पर margin गलत — 4000 = total का 10%, 20% नहीं।" },
+        { "label": "B", "text_en": "40000", "text_hi": "40000", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "8000",  "text_hi": "8000",  "is_correct": false, "trap_reason_en": "Used 4000 ÷ 0.5 — confused half-margin shortcut with the percent gap.", "trap_reason_hi": "4000 ÷ 0.5 लगाया — half-margin shortcut को percent gap समझ लिया।" },
+        { "label": "D", "text_en": "44000", "text_hi": "44000", "is_correct": false, "trap_reason_en": "Computed 4000/9% (treating 9% wrongly as the margin). Margin is 10%.", "trap_reason_hi": "4000/9% लगाया (9% margin गलत)। सही margin 10% है।" }
+      ],
+      "explanation_method_en": "Loser got 45%, winner got 55%. Margin = 55% − 45% = 10% of total = 4000 votes. So total = 4000/0.10 = 40000.",
+      "explanation_concept_en": "When two parties split 100% and one has p%, the other has (100−p)%. The 'margin' is the absolute difference (100−2p)%. Convert any margin in absolute units (here 4000 votes) to total by dividing by the margin's fractional value.",
+      "explanation_method_hi": "हारने वाले को 45%, जीतने वाले को 55%। margin = 55% − 45% = total का 10% = 4000 votes। तो total = 4000/0.10 = 40000।",
+      "explanation_concept_hi": "जब दो parties 100% बाँटें और एक को p% मिले, तो दूसरे को (100−p)%। margin absolute difference (100−2p)% होता है। किसी भी margin को absolute units (यहाँ 4000 votes) से total तक पहुँचाने के लिए margin के fractional value से भाग दें।"
+    },
+    {
+      "id": "pct-08",
+      "stem_en": "The population of a town increased from 20000 to 23000. Find the percentage increase.",
+      "stem_hi": "एक कस्बे की जनसंख्या 20000 से 23000 हो गई। percentage increase निकालिए।",
+      "difficulty": "EASY",
+      "tags": ["percentage", "growth-rate"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "13%",   "text_hi": "13%",   "is_correct": false, "trap_reason_en": "Used (3000/23000)×100 — divided by the new value instead of the old.",       "trap_reason_hi": "(3000/23000)×100 लगाया — नए value से भाग दिया, पुराने से नहीं।" },
+        { "label": "B", "text_en": "15%",   "text_hi": "15%",   "is_correct": true,  "trap_reason_en": null,                                                                          "trap_reason_hi": null },
+        { "label": "C", "text_en": "10%",   "text_hi": "10%",   "is_correct": false, "trap_reason_en": "Estimation — close to 15 but underestimated. 3000/20000 = 0.15 = 15%, exact.", "trap_reason_hi": "अंदाज़ कम — 15 के पास, पर 3000/20000 = 0.15 = 15% exact है।" },
+        { "label": "D", "text_en": "1.15%", "text_hi": "1.15%", "is_correct": false, "trap_reason_en": "Computed 3000/20000 = 0.15 but forgot to multiply by 100 to convert to %.",   "trap_reason_hi": "3000/20000 = 0.15 निकाला पर × 100 भूल गए।" }
+      ],
+      "explanation_method_en": "Increase = 23000 − 20000 = 3000. % increase = 3000/20000 × 100 = 15%.",
+      "explanation_concept_en": "Percentage change is always relative to the OLD value (the base). Formula: %change = (new − old)/old × 100. Dividing by the new value (23000) gives the wrong answer because that's not the base of the increase — the increase happened from 20000.",
+      "explanation_method_hi": "increase = 23000 − 20000 = 3000। % increase = 3000/20000 × 100 = 15%।",
+      "explanation_concept_hi": "Percentage change हमेशा OLD value (base) के सापेक्ष होता है। Formula: %change = (new − old)/old × 100। नई value (23000) से भाग देने पर answer गलत आता है क्योंकि वह base नहीं है — बढ़त 20000 से हुई है।"
+    },
+    {
+      "id": "pct-09",
+      "stem_en": "A's salary is 25% more than B's salary. By what percentage is B's salary less than A's?",
+      "stem_hi": "A की salary B की salary से 25% अधिक है। B की salary A की salary से कितने प्रतिशत कम है?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "comparison-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "25%", "text_hi": "25%", "is_correct": false, "trap_reason_en": "Common error: assumed symmetry. But the bases differ — 25% of B (smaller) ≠ 25% of A (larger).", "trap_reason_hi": "common गलती: symmetry मान ली। पर bases अलग हैं — B (छोटा) का 25% ≠ A (बड़ा) का 25%।" },
+        { "label": "B", "text_en": "20%", "text_hi": "20%", "is_correct": true,  "trap_reason_en": null,                                                                                                          "trap_reason_hi": null },
+        { "label": "C", "text_en": "30%", "text_hi": "30%", "is_correct": false, "trap_reason_en": "Overcorrection — sensed asymmetry but went the wrong way. Less salary's percent gap is smaller, not bigger.",   "trap_reason_hi": "Overcorrect — asymmetry पकड़ी पर दिशा गलत। कम salary का percent gap छोटा होता है, बड़ा नहीं।" },
+        { "label": "D", "text_en": "15%", "text_hi": "15%", "is_correct": false, "trap_reason_en": "Used 25 × 0.6 — wrong shortcut. Correct shortcut is 25/(100+25) × 100 = 20.",                                  "trap_reason_hi": "25 × 0.6 लगाया — shortcut गलत। सही: 25/(100+25) × 100 = 20।" }
+      ],
+      "explanation_method_en": "Shortcut: B<A by (25/125) × 100 = 20%. Generally, if X is x% more than Y, Y is x/(100+x) × 100% less than X.",
+      "explanation_concept_en": "Take B = 100, then A = 125. Difference = 25. To express the difference as a percent of A: 25/125 = 20%. The reason 25% ≠ 20% is the base shift: when comparing 'A more than B' the base is B; when comparing 'B less than A' the base is A. Larger base means smaller percent.",
+      "explanation_method_hi": "shortcut: B<A by (25/125) × 100 = 20%। सामान्य: यदि X, Y से x% अधिक है, तो Y, X से x/(100+x) × 100% कम है।",
+      "explanation_concept_hi": "B = 100 मानें, A = 125। अंतर = 25। A के percent में: 25/125 = 20%। 25% ≠ 20% होने का कारण base shift है: 'A from B more' में base B है; 'B from A less' में base A। बड़ा base = छोटा percent।"
+    },
+    {
+      "id": "pct-10",
+      "stem_en": "An article is marked at ₹500. After a discount of 10% and an additional 5% off on the discounted price, what is the final price?",
+      "stem_hi": "एक वस्तु का marked price ₹500 है। पहले 10% discount, फिर discounted price पर 5% और discount। अंतिम कीमत क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "successive-discount", "discount"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹425.00", "text_hi": "₹425.00", "is_correct": false, "trap_reason_en": "Subtracted 15% directly from ₹500 — but successive discounts compound, they don't add.", "trap_reason_hi": "₹500 में से 15% सीधे घटाया — successive discounts compound होते हैं, जोड़े नहीं जाते।" },
+        { "label": "B", "text_en": "₹427.50", "text_hi": "₹427.50", "is_correct": true,  "trap_reason_en": null,                                                                                                  "trap_reason_hi": null },
+        { "label": "C", "text_en": "₹450.00", "text_hi": "₹450.00", "is_correct": false, "trap_reason_en": "Computed only the first discount and stopped.",                                                          "trap_reason_hi": "केवल पहला discount निकाला, दूसरा भूल गए।" },
+        { "label": "D", "text_en": "₹475.00", "text_hi": "₹475.00", "is_correct": false, "trap_reason_en": "Took only 5% off the marked price — applied wrong discount.",                                            "trap_reason_hi": "marked price से सिर्फ 5% घटाया — wrong discount लगाया।" }
+      ],
+      "explanation_method_en": "Final = 500 × 0.90 × 0.95 = 500 × 0.855 = ₹427.50. Equivalent single discount = 1 − 0.855 = 14.5%.",
+      "explanation_concept_en": "Successive percentage changes multiply, they don't add. Each later discount applies to the already-reduced price. Equivalent single rate for two successive discounts a%, b% is: 1 − (1−a/100)(1−b/100). Here = 1 − 0.90 × 0.95 = 0.145 = 14.5%, less than 10+5 = 15%.",
+      "explanation_method_hi": "Final = 500 × 0.90 × 0.95 = 500 × 0.855 = ₹427.50। equivalent single discount = 1 − 0.855 = 14.5%।",
+      "explanation_concept_hi": "Successive percentage changes multiply होते हैं, जुड़ते नहीं। हर अगला discount पहले से कम हुई price पर लगता है। दो successive discounts a%, b% का equivalent single rate: 1 − (1−a/100)(1−b/100)। यहाँ = 1 − 0.90 × 0.95 = 0.145 = 14.5%, जो 10+5 = 15% से कम है।"
+    },
+    {
+      "id": "pct-11",
+      "stem_en": "If 70% of students pass an exam and 24 students fail, how many students appeared?",
+      "stem_hi": "यदि 70% छात्र pass हों और 24 छात्र fail हों, तो कुल कितने छात्र appeared थे?",
+      "difficulty": "EASY",
+      "tags": ["percentage", "complement-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "60",  "text_hi": "60",  "is_correct": false, "trap_reason_en": "Used 24 ÷ 0.40 — used wrong fail percentage.",                       "trap_reason_hi": "24 ÷ 0.40 लगाया — fail % गलत।" },
+        { "label": "B", "text_en": "80",  "text_hi": "80",  "is_correct": true,  "trap_reason_en": null,                                                                  "trap_reason_hi": null },
+        { "label": "C", "text_en": "100", "text_hi": "100", "is_correct": false, "trap_reason_en": "Used 24/24 = 1 ⇒ 100. Estimation slip.",                                "trap_reason_hi": "अंदाज़ — 24/0.24 लगाने में जल्दबाज़ी।" },
+        { "label": "D", "text_en": "120", "text_hi": "120", "is_correct": false, "trap_reason_en": "Used 24 ÷ 0.20 — used 20% fail rate, but actual is 30%.",                "trap_reason_hi": "24 ÷ 0.20 लगाया — 20% fail माना, सही 30%।" }
+      ],
+      "explanation_method_en": "Pass% = 70 ⇒ Fail% = 30. 30% of total = 24 ⇒ total = 24 ÷ 0.30 = 80.",
+      "explanation_concept_en": "Pass and fail are mutually exclusive and cover all candidates, so they sum to 100%. Whenever you have an absolute count tied to a percent, divide the count by the percent's fractional value (here 0.30, NOT 0.70 — because 24 is the count of failers, not passers).",
+      "explanation_method_hi": "Pass% = 70 ⇒ Fail% = 30। total का 30% = 24 ⇒ total = 24 ÷ 0.30 = 80।",
+      "explanation_concept_hi": "Pass और fail mutually exclusive हैं और सब को cover करते हैं, अतः sum 100%। जब absolute count किसी percent से जुड़ी हो, तो count को percent के fractional value से भाग दें (यहाँ 0.30, 0.70 नहीं — क्योंकि 24 fail हुए हैं, pass नहीं)।"
+    },
+    {
+      "id": "pct-12",
+      "stem_en": "A's income is 20% less than B's. B's income is 25% less than C's. A's income is what percent of C's?",
+      "stem_hi": "A की income B की income से 20% कम है। B की income C की income से 25% कम है। A की income C की income का कितने प्रतिशत है?",
+      "difficulty": "HARD",
+      "tags": ["percentage", "chain-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "55%", "text_hi": "55%", "is_correct": false, "trap_reason_en": "Subtracted 20+25 = 45% directly from 100% — wrong, compound effects.", "trap_reason_hi": "20+25 = 45% सीधे घटाया — गलत, compound effect।" },
+        { "label": "B", "text_en": "60%", "text_hi": "60%", "is_correct": true,  "trap_reason_en": null,                                                                       "trap_reason_hi": null },
+        { "label": "C", "text_en": "65%", "text_hi": "65%", "is_correct": false, "trap_reason_en": "Estimated by additive feel — actual is 60.",                                "trap_reason_hi": "अंदाज़ से — असली 60 है।" },
+        { "label": "D", "text_en": "75%", "text_hi": "75%", "is_correct": false, "trap_reason_en": "Took only the B-vs-C step (75%) and forgot the A-vs-B step.",               "trap_reason_hi": "केवल B-vs-C step (75%) लिया, A-vs-B भूले।" }
+      ],
+      "explanation_method_en": "Take C = 100. B = 100 × 0.75 = 75. A = 75 × 0.80 = 60. So A = 60% of C.",
+      "explanation_concept_en": "Chain percentages of the form 'X is x% less than Y, Y is y% less than Z' compose multiplicatively: A/C = (A/B)(B/C) = (1−x/100)(1−y/100). Adding x and y is wrong because each percent is on a different base in the chain.",
+      "explanation_method_hi": "C = 100 मानें। B = 100 × 0.75 = 75। A = 75 × 0.80 = 60। तो A = C का 60%।",
+      "explanation_concept_hi": "'X, Y से x% कम है, Y, Z से y% कम है' इस chain में percentages गुणा से compose होते हैं: A/C = (A/B)(B/C) = (1−x/100)(1−y/100)। x + y जोड़ना गलत है क्योंकि chain में हर percent अलग base पर है।"
+    },
+    {
+      "id": "pct-13",
+      "stem_en": "In a class of 50 students, 60% are boys. If 8 girls are absent on a particular day, what percent of the class present is girls?",
+      "stem_hi": "50 छात्रों की class में 60% लड़के हैं। एक दिन 8 लड़कियाँ absent हैं — present class में लड़कियाँ कितने प्रतिशत हैं?",
+      "difficulty": "MEDIUM",
+      "tags": ["percentage", "ratio-percentage", "absenteeism"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20%",         "text_hi": "20%",         "is_correct": false, "trap_reason_en": "Used 12/60 instead of 12/42 — divided present girls by total class, not present class.", "trap_reason_hi": "12/60 लगाया, सही 12/42 — divisor present class नहीं, total लिया।" },
+        { "label": "B", "text_en": "Approx 28.6%", "text_hi": "लगभग 28.6%", "is_correct": true,  "trap_reason_en": null,                                                                                          "trap_reason_hi": null },
+        { "label": "C", "text_en": "40%",         "text_hi": "40%",         "is_correct": false, "trap_reason_en": "This is the original girls% — but absent girls reduced it.",                                  "trap_reason_hi": "मूल girls% यही है — पर absent ने इसे कम कर दिया।" },
+        { "label": "D", "text_en": "32%",         "text_hi": "32%",         "is_correct": false, "trap_reason_en": "Used 12/(50−8) but rounded the calculation in the wrong direction.",                          "trap_reason_hi": "12/(50−8) लगाया पर round wrong direction में किया।" }
+      ],
+      "explanation_method_en": "Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 − 8 = 42. % = 12/42 × 100 ≈ 28.57%.",
+      "explanation_concept_en": "When the population's composition changes (here through absences), recompute the relevant base. The 'percent present girls' takes 'present girls' as the numerator and 'present total' (not original total) as the denominator. The boys count stays at 30 because no boys are absent.",
+      "explanation_method_hi": "total = 50, लड़के = 30, लड़कियाँ = 20। absent लड़कियाँ = 8 ⇒ present लड़कियाँ = 12। present class = 50 − 8 = 42। % = 12/42 × 100 ≈ 28.57%।",
+      "explanation_concept_hi": "जब population का composition बदले (यहाँ absences से), तो relevant base फिर से निकालें। 'percent present girls' का numerator 'present girls' और denominator 'present total' (मूल total नहीं) है। लड़के 30 वही रहे क्योंकि कोई लड़का absent नहीं।"
+    },
+    {
+      "id": "pct-14",
+      "stem_en": "The price of a commodity rose by 30%. The expenditure on it increased by only 8%. By what percentage did consumption decrease?",
+      "stem_hi": "एक commodity की कीमत 30% बढ़ी। उस पर expenditure सिर्फ 8% बढ़ा। consumption कितने प्रतिशत घटी?",
+      "difficulty": "HARD",
+      "tags": ["percentage", "expenditure", "price-consumption"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "Approx 16.9%", "text_hi": "लगभग 16.9%", "is_correct": true,  "trap_reason_en": null,                                                                                                          "trap_reason_hi": null },
+        { "label": "B", "text_en": "22%",          "text_hi": "22%",          "is_correct": false, "trap_reason_en": "Subtracted 8 from 30 directly — but expenditure = price × consumption, ratios involved.",               "trap_reason_hi": "30 में से 8 घटाया — पर expenditure = price × consumption, ratios लगते हैं।" },
+        { "label": "C", "text_en": "20%",          "text_hi": "20%",          "is_correct": false, "trap_reason_en": "Approximation — actual consumption ratio is 1.08/1.30 ≈ 0.831, drop ≈ 16.9%, not 20%.",                  "trap_reason_hi": "अंदाज़ से — actual consumption ratio 1.08/1.30 ≈ 0.831, drop ≈ 16.9% है।" },
+        { "label": "D", "text_en": "30%",          "text_hi": "30%",          "is_correct": false, "trap_reason_en": "Cancelled the price rise entirely — would mean expenditure didn't change.",                                "trap_reason_hi": "price rise पूरा cancel कर दिया — पर तब expenditure वही रहती।" }
+      ],
+      "explanation_method_en": "expenditure = price × consumption. So consumption_ratio = expenditure_ratio / price_ratio = 1.08 / 1.30 ≈ 0.8308. Drop ≈ (1 − 0.8308) × 100 ≈ 16.9%.",
+      "explanation_concept_en": "Expenditure is the product of price and consumption. If price rises by p% and expenditure rises by e%, the consumption multiplier is (1 + e/100)/(1 + p/100). The drop in consumption is whatever short-fall keeps expenditure from rising as much as the price did.",
+      "explanation_method_hi": "expenditure = price × consumption। तो consumption_ratio = expenditure_ratio / price_ratio = 1.08/1.30 ≈ 0.8308। drop ≈ (1 − 0.8308) × 100 ≈ 16.9%।",
+      "explanation_concept_hi": "Expenditure = price × consumption। यदि price p% बढ़े और expenditure e% बढ़े, तो consumption multiplier = (1 + e/100)/(1 + p/100)। consumption में जितनी कमी आए, उतनी ही expenditure की rise को price-rise से कम रखती है।"
+    },
+    {
+      "id": "pct-15",
+      "stem_en": "A number is increased by 50% and then decreased by 50%. The net change is:",
+      "stem_hi": "किसी संख्या को 50% बढ़ाया जाए और फिर 50% घटाया जाए। net change है:",
+      "difficulty": "EASY",
+      "tags": ["percentage", "successive-percentage"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "0% (no change)", "text_hi": "0% (कोई बदलाव नहीं)", "is_correct": false, "trap_reason_en": "Symmetry trap — 50−50 doesn't equal zero because bases differ at each step.", "trap_reason_hi": "symmetry trap — 50−50 = 0 नहीं होता क्योंकि हर step पर base अलग है।" },
+        { "label": "B", "text_en": "25% decrease",  "text_hi": "25% की कमी",            "is_correct": true,  "trap_reason_en": null,                                                                                "trap_reason_hi": null },
+        { "label": "C", "text_en": "25% increase",  "text_hi": "25% की बढ़त",           "is_correct": false, "trap_reason_en": "Right magnitude, wrong direction. Successive ±x always nets to a decrease.",       "trap_reason_hi": "magnitude सही, दिशा गलत। successive ±x का net हमेशा कमी होता है।" },
+        { "label": "D", "text_en": "50% decrease",  "text_hi": "50% की कमी",            "is_correct": false, "trap_reason_en": "Took only the second step. The first step inflated the base.",                      "trap_reason_hi": "केवल दूसरा step लिया। पहले step ने base बढ़ा दिया था।" }
+      ],
+      "explanation_method_en": "Formula: net% = a + b + (a×b)/100 = 50 + (−50) + (50)(−50)/100 = 0 − 25 = −25%. So 25% decrease.",
+      "explanation_concept_en": "Take 100 → +50% → 150 → −50% → 75. Drop = 25 on 100 = 25%. The asymmetry comes from cutting on a larger base (150) than you grew on (100). General rule: ±x% successive on the same number always nets to a decrease of (x²/100)%.",
+      "explanation_method_hi": "Formula: net% = a + b + (a×b)/100 = 50 + (−50) + (50)(−50)/100 = 0 − 25 = −25%। यानी 25% की कमी।",
+      "explanation_concept_hi": "100 → +50% → 150 → −50% → 75। drop = 100 में से 25 = 25%। asymmetry का कारण: कमी बड़े base (150) पर लगी, बढ़त छोटे (100) पर। सामान्य नियम: एक ही संख्या पर successive ±x% का net हमेशा (x²/100)% की कमी।"
+    }
+  ]
+}

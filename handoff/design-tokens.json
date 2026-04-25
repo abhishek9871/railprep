@@ -1,0 +1,68 @@
+{
+  "$schema": "https://schemas.design-tokens.org/draft-01/",
+  "brand": {
+    "name": "RailPrep",
+    "tagline": "Your NTPC journey starts here"
+  },
+  "color": {
+    "ink":        { "value": "#0E1422", "note": "Primary text, near-black with a cool cast" },
+    "ink2":       { "value": "#2A3040" },
+    "muted":      { "value": "#6B7085", "note": "Secondary text, timestamps, metadata" },
+    "line":       { "value": "#E7E8EE", "note": "Borders, dividers" },
+    "line2":      { "value": "#F1F2F6", "note": "Subtle dividers" },
+    "canvas":     { "value": "#FAFAFB", "note": "App background" },
+    "surface":    { "value": "#FFFFFF" },
+    "primary":    { "value": "#2B3EA8", "note": "Deep indigo — main brand color" },
+    "primarySoft":{ "value": "#EEF0FB" },
+    "primaryDark":{ "value": "#1B2A7C" },
+    "accent":     { "value": "#F59A2E", "note": "Warm amber — streaks, CTAs, gamification" },
+    "accentSoft": { "value": "#FFF3E0" },
+    "success":    { "value": "#16A34A" },
+    "successSoft":{ "value": "#E7F7EC" },
+    "danger":     { "value": "#DC2626" },
+    "dangerSoft": { "value": "#FDEAEA" },
+    "violet":     { "value": "#7C3AED" },
+    "violetSoft": { "value": "#F1EBFE" },
+    "teal":       { "value": "#0891B2" },
+    "tealSoft":   { "value": "#E0F2F7" }
+  },
+  "subject": {
+    "math":    { "bg": "#EEF0FB", "fg": "#2B3EA8", "dot": "#2B3EA8" },
+    "reason":  { "bg": "#F1EBFE", "fg": "#6D28D9", "dot": "#7C3AED" },
+    "ga":      { "bg": "#E7F7EC", "fg": "#15803D", "dot": "#16A34A" },
+    "gs":      { "bg": "#FFF3E0", "fg": "#B45309", "dot": "#F59A2E" },
+    "ca":      { "bg": "#FDEAEA", "fg": "#B91C1C", "dot": "#DC2626" },
+    "eng":     { "bg": "#E0F2F7", "fg": "#0E7490", "dot": "#0891B2" }
+  },
+  "typography": {
+    "displayFont": "Plus Jakarta Sans",
+    "bodyFont":    "Inter",
+    "monoFont":    "JetBrains Mono",
+    "devanagariFont": "Noto Sans Devanagari",
+    "scale": {
+      "display-lg": { "size": 34, "weight": 800, "letterSpacing": -1.0, "lineHeight": 1.15 },
+      "display":    { "size": 28, "weight": 800, "letterSpacing": -0.8, "lineHeight": 1.2 },
+      "h1":         { "size": 22, "weight": 800, "letterSpacing": -0.6, "lineHeight": 1.25 },
+      "h2":         { "size": 18, "weight": 800, "letterSpacing": -0.4, "lineHeight": 1.3 },
+      "h3":         { "size": 15, "weight": 700, "letterSpacing": -0.3, "lineHeight": 1.35 },
+      "body":       { "size": 14, "weight": 500, "letterSpacing":  0.0, "lineHeight": 1.5 },
+      "body-sm":    { "size": 13, "weight": 500, "letterSpacing":  0.0, "lineHeight": 1.45 },
+      "caption":    { "size": 11, "weight": 600, "letterSpacing":  0.0, "lineHeight": 1.4 },
+      "micro":      { "size": 10, "weight": 700, "letterSpacing":  0.5, "lineHeight": 1.3, "case": "upper" }
+    }
+  },
+  "radius": { "xs": 6, "sm": 10, "md": 14, "lg": 20, "xl": 28, "pill": 9999 },
+  "spacing": { "0": 0, "1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24, "8": 32, "10": 40, "12": 48 },
+  "elevation": {
+    "card":    "0 1px 3px rgba(15,20,40,0.06)",
+    "lifted":  "0 4px 16px rgba(15,20,40,0.08)",
+    "floating":"0 8px 20px rgba(43,62,168,0.35)",
+    "modal":   "0 20px 60px rgba(0,0,0,0.25)"
+  },
+  "motion": {
+    "fast":    "120ms cubic-bezier(0.2,0.7,0.3,1)",
+    "default": "220ms cubic-bezier(0.2,0.7,0.3,1)",
+    "slow":    "400ms cubic-bezier(0.2,0.7,0.3,1)"
+  },
+  "touchTarget": { "min": 44 }
+}

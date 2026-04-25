@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home card -->
+    <string name="daily_card_title">Today\'s 10</string>
+    <string name="daily_card_subtitle_unstarted">10 questions · ~10 min · server-picked, fresh daily</string>
+    <string name="daily_card_subtitle_done_fmt">Done · %1$d / %2$d correct</string>
+    <string name="daily_card_cta_start">Start</string>
+    <string name="daily_card_cta_review">Review</string>
+    <string name="daily_streak_label_fmt">%1$d-day streak</string>
+    <string name="daily_streak_no_streak">No streak yet</string>
+    <string name="daily_card_load_error">Couldn\'t load today\'s digest. Pull to retry.</string>
+
+    <!-- Player -->
+    <string name="daily_player_title">Today\'s 10</string>
+    <string name="daily_player_question_index_fmt">Q %1$d / %2$d</string>
+    <string name="daily_player_prev">Previous</string>
+    <string name="daily_player_next">Next</string>
+    <string name="daily_player_submit">Submit</string>
+    <string name="daily_player_submitting">Submitting…</string>
+    <string name="daily_player_submit_failed">Couldn\'t submit. Tap Submit again.</string>
+    <string name="daily_player_lang_en">EN</string>
+    <string name="daily_player_lang_hi">हि</string>
+    <string name="daily_player_confirm_title">Submit now?</string>
+    <string name="daily_player_confirm_body_fmt">You answered %1$d of %2$d. You won\'t be able to change your answers after submitting.</string>
+    <string name="daily_player_confirm_submit">Submit</string>
+    <string name="daily_player_confirm_keep">Keep going</string>
+    <string name="daily_player_load_error">Couldn\'t load today\'s digest.</string>
+
+    <!-- Results -->
+    <string name="daily_results_title">Today\'s 10 — done</string>
+    <string name="daily_results_score_label">Score</string>
+    <string name="daily_results_of_fmt">%1$d / %2$d</string>
+    <string name="daily_results_streak_extended_fmt">🔥 Streak: %1$d days</string>
+    <string name="daily_results_streak_started">🔥 Streak started — come back tomorrow!</string>
+    <string name="daily_results_review_cta">Review answers</string>
+    <string name="daily_results_done">Done</string>
+
+    <!-- Review (digest-specific) -->
+    <string name="daily_review_title">Today\'s 10 — Review</string>
+    <string name="daily_review_correct">Correct</string>
+    <string name="daily_review_your_answer">Your answer</string>
+    <string name="daily_review_not_answered">Not answered</string>
+    <string name="daily_review_explanation_method">Method (exam shortcut)</string>
+    <string name="daily_review_explanation_concept">Concept (why it works)</string>
+    <string name="daily_review_explanation_legacy">Explanation</string>
+    <string name="daily_review_trap_label">Why this option tempts</string>
+    <string name="daily_review_load_error">Couldn\'t load review.</string>
+</resources>

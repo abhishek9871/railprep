@@ -1,0 +1,23 @@
+{
+  "questions": [
+    {
+      "id": "fixture-bad-missing-trap",
+      "stem_en": "If 5x + 3 = 18, what is the value of x?",
+      "stem_hi": "यदि 5x + 3 = 18 हो, तो x का मान क्या है?",
+      "options": [
+        { "label": "A", "text_en": "3", "text_hi": "3", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "5", "text_hi": "5", "is_correct": false, "trap_reason_en": "",   "trap_reason_hi": "" },
+        { "label": "C", "text_en": "4", "text_hi": "4", "is_correct": false, "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "D", "text_en": "2", "text_hi": "2", "is_correct": false, "trap_reason_en": "",   "trap_reason_hi": "" }
+      ],
+      "explanation_method_en": "Subtract 3 from both sides: 5x = 15. Divide both sides by 5: x = 3.",
+      "explanation_concept_en": "A linear equation in one variable is solved by isolating the variable. Add/subtract to remove constants, then divide by the coefficient. Here we get 5x = 15, hence x = 3.",
+      "explanation_method_hi": "दोनों ओर से 3 घटाएँ: 5x = 15। दोनों ओर को 5 से भाग दें: x = 3।",
+      "explanation_concept_hi": "एक चर वाला linear equation variable को isolate करके हल होता है। पहले constants हटाएँ (add/subtract), फिर coefficient से divide करें। यहाँ 5x = 15 मिलता है, अतः x = 3।",
+      "difficulty": "EASY",
+      "tags": ["algebra", "linear-equation"],
+      "source": "Original",
+      "license": "ORIGINAL"
+    }
+  ]
+}

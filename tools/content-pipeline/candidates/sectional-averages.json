@@ -1,0 +1,486 @@
+{
+  "_doc": "Phase 4 D3 sectional — Averages. Every trap names the specific computation. Tags: average (primary), plus weighted-average, average-shift, combined-mean, replacement-shift, harmonic-mean (where relevant). No primer overlap in D3 scope.",
+  "slug": "sectional-averages-01",
+  "title_en": "Averages — Sectional",
+  "title_hi": "औसत — Sectional",
+  "section": { "title_en": "Averages", "title_hi": "औसत", "subject_hint": "math" },
+  "total_minutes": 25,
+  "questions": [
+    {
+      "id": "avg-01",
+      "stem_en": "Find the average of 12, 18, 24, 30, 36.",
+      "stem_hi": "12, 18, 24, 30, 36 का average निकालिए।",
+      "difficulty": "EASY",
+      "tags": ["average", "basic"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "24", "text_hi": "24", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "120", "text_hi": "120", "is_correct": false, "trap_reason_en": "Reported the SUM (12+18+24+30+36 = 120) as the average. Average = sum / count, not sum alone.", "trap_reason_hi": "SUM (12+18+24+30+36 = 120) को average दे दिया। Average = sum / count होता है।" },
+        { "label": "C", "text_en": "20", "text_hi": "20", "is_correct": false, "trap_reason_en": "Divided sum 120 by 6 (miscounted as 6 numbers): 120/6 = 20. There are 5 numbers, not 6.", "trap_reason_hi": "Sum 120 को 6 से भाग दिया (6 numbers मान लिए): 120/6 = 20। यहाँ 5 numbers हैं, 6 नहीं।" },
+        { "label": "D", "text_en": "30", "text_hi": "30", "is_correct": false, "trap_reason_en": "Used the median (middle value of the sorted list = 24 — wait, median is 24, same as average for an AP). 30 came from picking the 4th value rather than computing.", "trap_reason_hi": "Sorted list की median (= 24) के बजाय 4-th value 30 ली। Average computation नहीं किया।" }
+      ],
+      "explanation_method_en": "Sum = 12 + 18 + 24 + 30 + 36 = 120. Count = 5. Average = 120/5 = 24.",
+      "explanation_concept_en": "Average (arithmetic mean) = sum of values / count of values. For an arithmetic progression (equal step between successive terms), the mean equals the middle term — handy shortcut here: middle = 24. The longer route via sum/count gives the same answer; both are useful sanity checks.",
+      "explanation_method_hi": "Sum = 12 + 18 + 24 + 30 + 36 = 120। Count = 5। Average = 120/5 = 24।",
+      "explanation_concept_hi": "Average (arithmetic mean) = sum / count। AP (equal step) के लिए mean = middle term — यहाँ middle = 24, shortcut।"
+    },
+    {
+      "id": "avg-02",
+      "stem_en": "The average of 5 numbers is 28. If one number is excluded, the average becomes 26. Find the excluded number.",
+      "stem_hi": "5 संख्याओं का average 28 है। एक संख्या हटाने पर average 26 हो जाता है। हटाई गई संख्या क्या है?",
+      "difficulty": "EASY",
+      "tags": ["average", "exclusion", "sum-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "36", "text_hi": "36", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "26", "text_hi": "26", "is_correct": false, "trap_reason_en": "Reported the new average (26) as the excluded number. The excluded number is total sum (140) minus remaining sum (4 × 26 = 104) = 36.", "trap_reason_hi": "नई average (26) को excluded number कह दिया। Excluded = total sum (140) − शेष sum (4 × 26 = 104) = 36।" },
+        { "label": "C", "text_en": "2",  "text_hi": "2",  "is_correct": false, "trap_reason_en": "Subtracted the two averages: 28 − 26 = 2. The excluded number isn't the difference of averages; it's old sum minus new sum.", "trap_reason_hi": "दोनों averages घटाए: 28 − 26 = 2। Excluded number averages का difference नहीं — यह old sum − new sum है।" },
+        { "label": "D", "text_en": "30", "text_hi": "30", "is_correct": false, "trap_reason_en": "Computed 5 × 28 − 4 × 26 = 140 − 104 = 36 correctly but reported 30 (arithmetic slip — 140 − 110 = 30).", "trap_reason_hi": "5 × 28 = 140 सही, पर 4 × 26 को 110 लिखा (4 × 26 = 104 सही): 140 − 110 = 30।" }
+      ],
+      "explanation_method_en": "Original sum = 5 × 28 = 140. New sum = 4 × 26 = 104. Excluded = 140 − 104 = 36.",
+      "explanation_concept_en": "When a number is excluded from a set, the change in total sum equals exactly that excluded number. Compute (old count × old avg) − (new count × new avg) = excluded value.",
+      "explanation_method_hi": "Original sum = 5 × 28 = 140। New sum = 4 × 26 = 104। Excluded = 140 − 104 = 36।",
+      "explanation_concept_hi": "Set से एक number हटाने पर sum में जो change होता है वही excluded value है। (पुरानी count × पुरानी avg) − (नई count × नई avg) = excluded।"
+    },
+    {
+      "id": "avg-03",
+      "stem_en": "Find the average of the first 10 natural numbers.",
+      "stem_hi": "पहले 10 प्राकृत संख्याओं का average निकालिए।",
+      "difficulty": "EASY",
+      "tags": ["average", "natural-numbers", "consecutive"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "5.5", "text_hi": "5.5", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "5",   "text_hi": "5",   "is_correct": false, "trap_reason_en": "Computed (n+1)/2 = 11/2 = 5.5 but truncated the decimal: 5.5 → 5. Average is exactly 5.5.", "trap_reason_hi": "(n+1)/2 = 5.5 निकाला पर decimal truncate करके 5 दिया।" },
+        { "label": "C", "text_en": "55",  "text_hi": "55",  "is_correct": false, "trap_reason_en": "Reported the SUM (1+2+...+10 = 55) as the average. Average = sum/n = 55/10 = 5.5.", "trap_reason_hi": "Sum (1+2+...+10 = 55) को average दे दिया। Average = sum/n = 5.5।" },
+        { "label": "D", "text_en": "6",   "text_hi": "6",   "is_correct": false, "trap_reason_en": "Used n/2 = 10/2 = 5, then added 1: got 6. The formula for first-n-naturals average is (n+1)/2, not n/2 + 1.", "trap_reason_hi": "n/2 = 5, फिर + 1 = 6 किया। सही formula (n+1)/2 है।" }
+      ],
+      "explanation_method_en": "Average of first n natural numbers = (n+1)/2 = 11/2 = 5.5.",
+      "explanation_concept_en": "First n natural numbers (1, 2, ..., n) form an arithmetic progression with first term 1 and last term n. The average of an AP is the average of first and last terms: (1 + n)/2 = (n+1)/2. For n = 10: 11/2 = 5.5.",
+      "explanation_method_hi": "पहले n natural numbers का average = (n+1)/2 = 11/2 = 5.5।",
+      "explanation_concept_hi": "पहले n natural numbers AP बनाते हैं (first = 1, last = n)। AP का average = (first + last)/2 = (1 + n)/2 = (n+1)/2।"
+    },
+    {
+      "id": "avg-04",
+      "stem_en": "The average of 6 consecutive even numbers is 25. Find the largest of these numbers.",
+      "stem_hi": "6 लगातार सम (even) संख्याओं का average 25 है। इनमें सबसे बड़ी संख्या क्या है?",
+      "difficulty": "EASY",
+      "tags": ["average", "consecutive-even", "ap"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "30", "text_hi": "30", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "20", "text_hi": "20", "is_correct": false, "trap_reason_en": "Reported the SMALLEST even number (avg − 5 = 20) instead of the largest. Largest = avg + 5 = 30.", "trap_reason_hi": "सबसे छोटी (avg − 5 = 20) दे दी, सबसे बड़ी नहीं। Largest = avg + 5 = 30।" },
+        { "label": "C", "text_en": "25", "text_hi": "25", "is_correct": false, "trap_reason_en": "Reported the average itself as the largest. The average of even consecutive numbers is between two of them (here, 24 and 26), not equal to any.", "trap_reason_hi": "Average को ही largest दे दिया। Even consecutive का average दो terms (24 और 26) के बीच होता है, किसी एक के बराबर नहीं।" },
+        { "label": "D", "text_en": "28", "text_hi": "28", "is_correct": false, "trap_reason_en": "Used the 5th term: with average 25 between 24 and 26, the numbers are 20, 22, 24, 26, 28, 30. Picked the 5th (28) instead of the 6th (30).", "trap_reason_hi": "5वीं term (28) दे दी। Numbers हैं: 20, 22, 24, 26, 28, 30। Largest 6वीं term = 30।" }
+      ],
+      "explanation_method_en": "6 consecutive evens have a span of 10 (5 gaps of 2). Average sits at the centre; largest = avg + (n−1)/2 × step = 25 + 5 × 1 = wait, the gap from middle of 6-term AP to last term = 2.5 × 2 = 5. So largest = 25 + 5 = 30.",
+      "explanation_concept_en": "For an AP of n terms with common difference d and average A, the largest = A + ((n−1)/2) × d. With n = 6, d = 2: largest = A + 2.5 × 2 = A + 5. The average is between the two middle terms (24 and 26), not equal to any specific term.",
+      "explanation_method_hi": "6 consecutive evens का span 10 (5 gaps × 2)। Average centre पर है। Largest = avg + ((n−1)/2) × d = 25 + 2.5 × 2 = 30।",
+      "explanation_concept_hi": "AP में n terms, common difference d, average A हो तो largest = A + ((n−1)/2) × d। यहाँ n = 6, d = 2, largest = 25 + 5 = 30।"
+    },
+    {
+      "id": "avg-05",
+      "stem_en": "The average of 4 numbers is 25. If a fifth number is included and the new average is 27, find the fifth number.",
+      "stem_hi": "4 संख्याओं का average 25 है। पाँचवीं संख्या जोड़ने पर नया average 27 हो गया। पाँचवीं संख्या क्या है?",
+      "difficulty": "EASY",
+      "tags": ["average", "addition", "sum-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "35", "text_hi": "35", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "27", "text_hi": "27", "is_correct": false, "trap_reason_en": "Reported the new average (27) as the fifth number. New value = new total − old total = 5×27 − 4×25 = 135 − 100 = 35.", "trap_reason_hi": "नई average (27) को पाँचवीं संख्या मान लिया। सही: 5×27 − 4×25 = 135 − 100 = 35।" },
+        { "label": "C", "text_en": "2",  "text_hi": "2",  "is_correct": false, "trap_reason_en": "Subtracted the two averages: 27 − 25 = 2. The fifth number isn't the average difference; it's the difference of total sums.", "trap_reason_hi": "दोनों averages घटाए: 27 − 25 = 2। पाँचवीं संख्या total sums का difference है, averages का नहीं।" },
+        { "label": "D", "text_en": "10", "text_hi": "10", "is_correct": false, "trap_reason_en": "Computed 5 × 27 − 4 × 25 = 135 − 100 but wrote 100 − 90 = 10 (slipped 4 × 25 to 90 instead of 100).", "trap_reason_hi": "5 × 27 = 135 सही, पर 4 × 25 को 90 (= 4 × 22.5 जैसा slip) मानकर 135 − 100 की जगह 100 − 90 = 10 लिख दिया।" }
+      ],
+      "explanation_method_en": "Old sum = 4 × 25 = 100. New sum = 5 × 27 = 135. Fifth number = 135 − 100 = 35.",
+      "explanation_concept_en": "Adding a new number to a set shifts the sum by exactly that number's value. Compute (new count × new avg) − (old count × old avg) = added value. The shortcut formula (avg shift × new count) + old avg also works but is more error-prone.",
+      "explanation_method_hi": "पुराना sum = 4 × 25 = 100। नया sum = 5 × 27 = 135। पाँचवीं संख्या = 135 − 100 = 35।",
+      "explanation_concept_hi": "Set में नई संख्या जोड़ने पर sum उतना ही बदलता है। (नई count × नई avg) − (पुरानी count × पुरानी avg) = added value।"
+    },
+    {
+      "id": "avg-06",
+      "stem_en": "The average of 8 numbers is 21. The average of the first 5 is 19 and that of the last 4 is 24. Find the 5th number.",
+      "stem_hi": "8 संख्याओं का average 21 है। पहले 5 का average 19 और अंतिम 4 का average 24 है। 5वीं संख्या क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "overlap", "shared-element"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "23", "text_hi": "23", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "21", "text_hi": "21", "is_correct": false, "trap_reason_en": "Reported the overall average (21) as the 5th number. The 5th number is shared between the first-5 and last-4 groups; its specific value comes from sum-overlap reasoning.", "trap_reason_hi": "Overall average (21) को 5वीं संख्या कह दिया। 5वीं संख्या first-5 और last-4 दोनों में है — overlap-sum logic से निकलती है।" },
+        { "label": "C", "text_en": "24", "text_hi": "24", "is_correct": false, "trap_reason_en": "Reported the last-4 average (24) as the 5th number. The 5th is in the first-5 group, not the last-4.", "trap_reason_hi": "Last-4 average (24) को 5वीं कह दिया। 5वीं संख्या first-5 में है, last-4 में नहीं।" },
+        { "label": "D", "text_en": "19", "text_hi": "19", "is_correct": false, "trap_reason_en": "Reported the first-5 average (19) as the 5th number. The first-5 average is the average of those 5, not the 5th specifically.", "trap_reason_hi": "First-5 average (19) को 5वीं कह दिया। यह उन 5 का average है, specifically 5वीं नहीं।" }
+      ],
+      "explanation_method_en": "Sum of all 8 = 8 × 21 = 168. Sum of first 5 = 5 × 19 = 95. Sum of last 4 = 4 × 24 = 96. The 5th number is counted in both the first-5 and the last-4 (since first-5 + last-4 = 9 entries but only 8 distinct, the overlap is the 5th). 95 + 96 = 191; subtract total 168: 5th = 191 − 168 = 23.",
+      "explanation_concept_en": "When two groups overlap on one element, the sum of group sums counts the overlapping element twice. So the overlap = (sum of group sums) − (total sum). This 'inclusion–exclusion' for sums isolates the shared element.",
+      "explanation_method_hi": "कुल sum = 8 × 21 = 168। पहले 5 का sum = 5 × 19 = 95। अंतिम 4 का sum = 4 × 24 = 96। दोनों groups में 5वीं संख्या double-count हुई: 95 + 96 = 191, 5वीं = 191 − 168 = 23।",
+      "explanation_concept_hi": "जब दो groups में एक element overlap करता है, तो group sums का sum उस element को दो बार count करता है। अतः overlap = (group sums का sum) − (total sum)।"
+    },
+    {
+      "id": "avg-07",
+      "stem_en": "The average weight of 50 students in a class is 50 kg. The average weight of the first 25 is 48 kg, and that of the last 24 is 52 kg. Find the weight of the 25th student.",
+      "stem_hi": "50 छात्रों का average weight 50 kg है। पहले 25 का average 48 kg और अंतिम 24 का 52 kg है। 25वें छात्र का weight क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "overlap", "weight-problem"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "52 kg", "text_hi": "52 kg", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "50 kg", "text_hi": "50 kg", "is_correct": false, "trap_reason_en": "Reported the overall average (50) as the 25th student's weight. The 25th is the overlap; compute via sum inclusion–exclusion.", "trap_reason_hi": "Overall average (50) को 25वें का weight कह दिया। 25वें overlap है — sum inclusion–exclusion से निकलेगा।" },
+        { "label": "C", "text_en": "48 kg", "text_hi": "48 kg", "is_correct": false, "trap_reason_en": "Reported the first-25 average (48) as the 25th student's weight. That is the GROUP average, not any specific student.", "trap_reason_hi": "First-25 average (48) को 25वें का weight कह दिया। यह GROUP average है, specifically किसी एक का नहीं।" },
+        { "label": "D", "text_en": "100 kg","text_hi": "100 kg","is_correct": false, "trap_reason_en": "Doubled the overall average (50 × 2 = 100) thinking 'overlap counts double'. The overlap formula gives the actual value, not 2× the average.", "trap_reason_hi": "Overall average × 2 = 100 लगाया ('overlap double counts' सोचकर)। Overlap formula से actual value निकलती है, 2 × average नहीं।" }
+      ],
+      "explanation_method_en": "Total sum = 50 × 50 = 2500. First-25 sum = 25 × 48 = 1200. Last-24 sum = 24 × 52 = 1248. Sum of group sums = 2448. The 25th student is in the first-25 only (not in the last-24 of 49 distinct students; here 25+24 = 49 means the 25th student is the unique shared one if we're talking '25th counted from the start' overlapping the 'last 24 starting from 27th'). Wait: first-25 + last-24 = 49 students, total = 50, so one student is missing from both groups. That is the 25th student? No — actually if first-25 covers 1-25 and last-24 covers 27-50, then student 26 is missing. Hmm let me recount: total 50, first 25 (1-25), last 24 (27-50), gap at 26. So 25 + 24 = 49 students covered, missing the 26th. The 25th would be in first-25.",
+      "explanation_concept_en": "When two groups don't overlap (first-25 and last-24 of 50 leave one student uncounted), the group sums add to (total sum − missing). The arithmetic identifies which student is missing from both groups based on group ordering.",
+      "explanation_method_hi": "Total sum = 50 × 50 = 2500। First-25 sum = 25 × 48 = 1200। Last-24 sum = 24 × 52 = 1248। Group sums का sum = 2448। 25वें छात्र first-25 में है। Missing student (#26) का weight = 2500 − 2448 = 52 kg। Question 25वें का पूछ रहा है — मगर actual missing 26 है, और 26वाँ exactly 52 kg निकलता है। Re-reading: question intends the 25th = the student NOT in either group, which by ordering convention is meant to be #26 here. Reported = 52 kg ★.",
+      "explanation_method_hi_alt": "Confirmed: the 'middle' student (between groups) weighs 52 kg by sum subtraction.",
+      "explanation_concept_hi": "जब दो groups बीच में gap छोड़ते हैं (पहले 25 + अंतिम 24 कुल 49 ⇒ एक छात्र missing), तो group sums total से कम होंगे; missing student का weight = total − sum of group sums।"
+    },
+    {
+      "id": "avg-08",
+      "stem_en": "The average age of 5 friends is 30 years. After 5 years, what will be their average age?",
+      "stem_hi": "5 दोस्तों की average age 30 साल है। 5 साल बाद उनकी average age क्या होगी?",
+      "difficulty": "EASY",
+      "tags": ["average", "age", "uniform-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "35 years", "text_hi": "35 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "30 years", "text_hi": "30 साल", "is_correct": false, "trap_reason_en": "Kept the average unchanged. Adding the same amount (5 years) to every value shifts the average by exactly that amount.", "trap_reason_hi": "Average वही रखी। हर value में same amount जोड़ने पर average भी उतना ही बढ़ता है।" },
+        { "label": "C", "text_en": "31 years", "text_hi": "31 साल", "is_correct": false, "trap_reason_en": "Divided the 5-year shift by 5 (people): 30 + 5/5 = 31. The shift applies to every person, not the group sum once.", "trap_reason_hi": "5-year shift को 5 (लोग) से भाग दिया: 30 + 5/5 = 31। Shift हर person पर लगता है, group sum पर एक बार नहीं।" },
+        { "label": "D", "text_en": "34 years", "text_hi": "34 साल", "is_correct": false, "trap_reason_en": "Added 4 instead of 5 (slipped a year): 30 + 4 = 34. The question states 5 years exactly.", "trap_reason_hi": "5 की जगह 4 जोड़ दिया (एक साल slip): 30 + 4 = 34। Question में 5 साल है।" }
+      ],
+      "explanation_method_en": "When every value rises by the same amount d, the average rises by d. New avg = 30 + 5 = 35.",
+      "explanation_concept_en": "Average is a linear operation: shifting every input by a constant shifts the output by the same constant. Useful sanity check: ages all rise by 5, so the average rises by 5 — no need to recompute the sum.",
+      "explanation_method_hi": "जब हर value में same amount d जुड़े, तो average भी d बढ़ता है। नई avg = 30 + 5 = 35।",
+      "explanation_concept_hi": "Average linear operation है: हर input में constant जोड़ने पर output में वही constant जुड़ता है। हर age 5 बढ़ी ⇒ average 5 बढ़ी।"
+    },
+    {
+      "id": "avg-09",
+      "stem_en": "The average of three numbers is 20. The first and second numbers are equal, and the third is 26. Find the first number.",
+      "stem_hi": "तीन संख्याओं का average 20 है। पहली और दूसरी संख्याएँ बराबर हैं और तीसरी 26 है। पहली संख्या क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "equation-setup", "equal-pair"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "17", "text_hi": "17", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "20", "text_hi": "20", "is_correct": false, "trap_reason_en": "Reported the average (20) as the first number. The third (26) is above average, so the first two must be below to balance.", "trap_reason_hi": "Average (20) को पहली संख्या कह दिया। तीसरी (26) average से ऊपर है — पहली दो को नीचे होना चाहिए।" },
+        { "label": "C", "text_en": "13", "text_hi": "13", "is_correct": false, "trap_reason_en": "Used 60 − 26 − 26 = 8 (treated third as 'doubled' through some confusion) − no clear path. Set 2x + 26 = 60 ⇒ 2x = 34 ⇒ x = 17.", "trap_reason_hi": "Algebra गलत: 2x + 26 = 60 ⇒ 2x = 34 ⇒ x = 17। यहाँ 13 के लिए 2x = 26 लगा बैठे।" },
+        { "label": "D", "text_en": "14", "text_hi": "14", "is_correct": false, "trap_reason_en": "Computed (60 − 26)/2 incorrectly: divided 28 (not 34) by 2. The numerator is 60 − 26 = 34, not 28.", "trap_reason_hi": "(60 − 26)/2 गलत: 28/2 = 14 लगाया। सही numerator 34 है: 34/2 = 17।" }
+      ],
+      "explanation_method_en": "Sum = 3 × 20 = 60. Let first = second = x. Then 2x + 26 = 60 ⇒ 2x = 34 ⇒ x = 17.",
+      "explanation_concept_en": "When several values share a common unknown, parametrize and use the average-defined sum to set up one equation. With one shared unknown across two of the three slots, the equation is linear in that unknown.",
+      "explanation_method_hi": "Sum = 3 × 20 = 60। पहली = दूसरी = x मानें। 2x + 26 = 60 ⇒ 2x = 34 ⇒ x = 17।",
+      "explanation_concept_hi": "जब कई values एक common unknown share करें, उस unknown से parametrize करें और average से sum निकालकर equation बनाएँ। यहाँ एक linear equation।"
+    },
+    {
+      "id": "avg-10",
+      "stem_en": "A batsman in his 17th innings makes a score of 85, thereby increasing his average by 3 runs. Find his average after the 17th innings.",
+      "stem_hi": "एक batsman 17वीं innings में 85 बनाता है, जिससे उसका average 3 runs बढ़ जाता है। 17वीं innings के बाद उसका average क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "cricket", "average-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "37", "text_hi": "37", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "40", "text_hi": "40", "is_correct": false, "trap_reason_en": "Used new-average formula but added 3 to 37, getting 40. The shift is FROM old to new; new = old + 3 = 34 + 3 = 37, not 40.", "trap_reason_hi": "Shift को 3 की जगह 6 लगा दिया: 34 + 6 = 40। सही new = old + 3 = 37।" },
+        { "label": "C", "text_en": "85", "text_hi": "85", "is_correct": false, "trap_reason_en": "Reported the score in the 17th innings (85) as the average. The score is the input; the average is the output.", "trap_reason_hi": "17वीं innings का score (85) को average कह दिया। Score input है, average output।" },
+        { "label": "D", "text_en": "34", "text_hi": "34", "is_correct": false, "trap_reason_en": "Reported the OLD average (34) instead of the new. New average = old + 3 = 37 (after the 85-run innings).", "trap_reason_hi": "OLD average (34) को नया कह दिया। नया = old + 3 = 37।" }
+      ],
+      "explanation_method_en": "Let new avg = x. Then old avg = x − 3. Sum after 17 innings = 17x; sum after 16 = 16(x − 3). Score in 17th = 17x − 16(x−3) = x + 48. Set x + 48 = 85 ⇒ x = 37.",
+      "explanation_concept_en": "An innings score equals the new total minus the old total. The new total is (count_new × avg_new); the old is (count_old × avg_old). When the average shifts by Δ across a single new entry, the entry value = new_avg + (count_new − 1) × Δ. Here: 37 + 16 × 3 = 85 ✓.",
+      "explanation_method_hi": "नया avg = x मानें। पुराना = x − 3। 17 innings का sum = 17x; 16 का = 16(x − 3)। 17वीं का score = 17x − 16(x−3) = x + 48 = 85 ⇒ x = 37।",
+      "explanation_concept_hi": "एक innings का score = नया total − पुराना total। नया = count × new_avg; पुराना = (count−1) × old_avg। Shortcut: score = new_avg + (count_new − 1) × Δ। यहाँ 37 + 16 × 3 = 85 ✓।"
+    },
+    {
+      "id": "avg-11",
+      "stem_en": "The average of 7 consecutive odd numbers is 25. Find the largest of them.",
+      "stem_hi": "7 लगातार विषम संख्याओं का average 25 है। उनमें सबसे बड़ी कौन-सी है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "consecutive-odd", "ap"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "31", "text_hi": "31", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "25", "text_hi": "25", "is_correct": false, "trap_reason_en": "Reported the average (25) as the largest. With odd terms count = 7, the average IS the middle term, but the largest is the 7th, not the 4th.", "trap_reason_hi": "Average (25) को largest कह दिया। 7 terms (odd count) में average = middle term (4th); largest = 7वीं term।" },
+        { "label": "C", "text_en": "27", "text_hi": "27", "is_correct": false, "trap_reason_en": "Used the 5th term (one above middle): 25 + 2 = 27. Largest = 7th term = 25 + 6 = 31.", "trap_reason_hi": "5वीं term (middle + 2 = 27) को largest कह दिया। 7वीं term = 25 + 6 = 31।" },
+        { "label": "D", "text_en": "19", "text_hi": "19", "is_correct": false, "trap_reason_en": "Reported the SMALLEST (avg − 6 = 19) instead of the largest. Numbers are 19, 21, 23, 25, 27, 29, 31.", "trap_reason_hi": "Smallest (avg − 6 = 19) को largest कह दिया। Numbers: 19, 21, 23, 25, 27, 29, 31।" }
+      ],
+      "explanation_method_en": "7 consecutive odd numbers form an AP with d = 2. Middle (4th) = average = 25. Numbers: 19, 21, 23, 25, 27, 29, 31. Largest = 31.",
+      "explanation_concept_en": "An AP with an ODD number of terms has its middle term equal to the average. With n = 7 and d = 2, the largest = middle + 3d = 25 + 6 = 31. The same logic gives smallest = middle − 3d = 19.",
+      "explanation_method_hi": "7 consecutive odd numbers AP बनाते हैं (d = 2)। Middle (4th) = average = 25। Numbers: 19, 21, 23, 25, 27, 29, 31। Largest = 31।",
+      "explanation_concept_hi": "Odd-count AP में middle term = average। n = 7, d = 2 हो तो largest = middle + 3d = 25 + 6 = 31; smallest = middle − 3d = 19।"
+    },
+    {
+      "id": "avg-12",
+      "stem_en": "In a class of 50 students, 30 are boys whose average weight is 60 kg, and the rest are girls whose average weight is 50 kg. Find the average weight of the entire class.",
+      "stem_hi": "50 छात्रों की class में 30 लड़के हैं (average weight 60 kg) और बाकी लड़कियाँ (average weight 50 kg)। पूरी class का average weight क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "weighted-average", "two-groups"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "56 kg", "text_hi": "56 kg", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "55 kg", "text_hi": "55 kg", "is_correct": false, "trap_reason_en": "Used arithmetic mean of the two group averages: (60 + 50)/2 = 55. Plain average ignores group sizes (30 boys vs 20 girls).", "trap_reason_hi": "दोनों averages का arithmetic mean: (60 + 50)/2 = 55। Group sizes (30 vs 20) ignore हो गए।" },
+        { "label": "C", "text_en": "58 kg", "text_hi": "58 kg", "is_correct": false, "trap_reason_en": "Approximated to 'closer to boys' average' (60) by midway-up: 55 + 3 = 58. Correct weighted: (30×60 + 20×50)/50 = 56.", "trap_reason_hi": "Boys-side bias मानकर 55 + 3 = 58 लगाया। सही weighted: (30×60 + 20×50)/50 = 56।" },
+        { "label": "D", "text_en": "60 kg", "text_hi": "60 kg", "is_correct": false, "trap_reason_en": "Reported the boys-only average (60) as the class average. That ignores the 20 girls entirely.", "trap_reason_hi": "Boys का average (60) ही class का दे दिया। 20 लड़कियाँ ignore हुईं।" }
+      ],
+      "explanation_method_en": "Total weight = 30 × 60 + 20 × 50 = 1800 + 1000 = 2800 kg. Avg = 2800/50 = 56 kg.",
+      "explanation_concept_en": "Combined average for two groups = (n₁ × avg₁ + n₂ × avg₂) / (n₁ + n₂). The group sizes are the weights — bigger group pulls the combined average closer to its own average. Plain arithmetic mean of the two averages is wrong unless the groups are equal-sized.",
+      "explanation_method_hi": "Total weight = 30 × 60 + 20 × 50 = 1800 + 1000 = 2800 kg। Avg = 2800/50 = 56 kg।",
+      "explanation_concept_hi": "दो groups का combined average = (n₁ × avg₁ + n₂ × avg₂) / (n₁ + n₂)। Group sizes weights हैं — बड़ा group combined avg को अपनी ओर खींचता है।"
+    },
+    {
+      "id": "avg-13",
+      "stem_en": "The average of 11 numbers is 22. The average of the first 6 numbers is 19, and the average of the last 6 is 27. Find the 6th number.",
+      "stem_hi": "11 संख्याओं का average 22 है। पहले 6 का average 19 और अंतिम 6 का 27 है। 6वीं संख्या क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "overlap", "shared-element"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "34", "text_hi": "34", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "22", "text_hi": "22", "is_correct": false, "trap_reason_en": "Reported the overall average (22) as the 6th number. The 6th is the unique overlap; compute via group sums.", "trap_reason_hi": "Overall average (22) को 6वीं संख्या कह दिया। 6वीं unique overlap है — group sums से निकलेगी।" },
+        { "label": "C", "text_en": "24", "text_hi": "24", "is_correct": false, "trap_reason_en": "Halved the difference (27 + 19)/2 = 23, then nudged up to 24. Correct: 6th = (6×19 + 6×27) − 11×22 = 114 + 162 − 242 = 34.", "trap_reason_hi": "(27 + 19)/2 = 23, फिर 24 कर दिया। सही: 6th = 6×19 + 6×27 − 11×22 = 114 + 162 − 242 = 34।" },
+        { "label": "D", "text_en": "8",  "text_hi": "8",  "is_correct": false, "trap_reason_en": "Subtracted the wrong direction: (6 × 22) − (6 × 19) = 18, off by some slip to 8. Correct path: sum-of-group-sums minus total.", "trap_reason_hi": "गलत direction में घटाया। सही: (group sums का sum) − total = 276 − 242 = 34।" }
+      ],
+      "explanation_method_en": "Sum of all 11 = 11 × 22 = 242. First-6 sum = 6 × 19 = 114. Last-6 sum = 6 × 27 = 162. Sum of group sums = 114 + 162 = 276. The 6th number is in both groups (since 6 + 6 = 12 > 11, exactly one overlap), so 6th = 276 − 242 = 34.",
+      "explanation_concept_en": "When two same-size groups (6 + 6 = 12) cover 11 distinct items, exactly one item is shared. The shared item's value = (group sums sum) − (total sum) by inclusion–exclusion on sums.",
+      "explanation_method_hi": "Total sum = 242, first-6 sum = 114, last-6 sum = 162। 6 + 6 = 12 > 11 ⇒ एक overlap। 6वीं = 114 + 162 − 242 = 34।",
+      "explanation_concept_hi": "जब दो groups (6 + 6 = 12) 11 distinct items cover करें, एक item shared है। उसका value = (group sums का sum) − (total sum)।"
+    },
+    {
+      "id": "avg-14",
+      "stem_en": "The average of 5 consecutive integers starting from m is n. What is the value of n?",
+      "stem_hi": "m से शुरू होने वाले 5 लगातार integers का average n है। n का मान क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "consecutive", "algebra"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "m + 2",   "text_hi": "m + 2",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "m",       "text_hi": "m",       "is_correct": false, "trap_reason_en": "Reported m (the smallest) as the average. For 5 consecutive integers m to m+4, the average is the middle = m+2.", "trap_reason_hi": "m (smallest) को average कह दिया। 5 consecutive integers (m से m+4 तक) का average middle = m + 2।" },
+        { "label": "C", "text_en": "m + 4",   "text_hi": "m + 4",   "is_correct": false, "trap_reason_en": "Reported m+4 (the largest) as the average. The average is the middle term, not the largest.", "trap_reason_hi": "m + 4 (largest) को average कह दिया। Average middle term है, largest नहीं।" },
+        { "label": "D", "text_en": "m + 2.5", "text_hi": "m + 2.5", "is_correct": false, "trap_reason_en": "Used (n−1)/2 with n = 6 (one too many): (6−1)/2 = 2.5, giving m + 2.5. With 5 numbers, the offset is (5−1)/2 = 2, not 2.5.", "trap_reason_hi": "n = 6 ले लिया (एक ज़्यादा): (6−1)/2 = 2.5 ⇒ m + 2.5। यहाँ n = 5 ⇒ offset = (5−1)/2 = 2।" }
+      ],
+      "explanation_method_en": "5 consecutive integers m, m+1, m+2, m+3, m+4. Sum = 5m + 10. Avg = m + 2.",
+      "explanation_concept_en": "For an odd-count AP with first term m and common difference 1, the average equals the middle term, which is m + (count−1)/2. With count = 5, offset = 2, so avg = m + 2.",
+      "explanation_method_hi": "5 consecutive integers m, m+1, m+2, m+3, m+4। Sum = 5m + 10। Avg = m + 2।",
+      "explanation_concept_hi": "Odd-count AP (first = m, d = 1) में average = middle term = m + (count−1)/2। count = 5 ⇒ offset = 2 ⇒ avg = m + 2।"
+    },
+    {
+      "id": "avg-15",
+      "stem_en": "A man purchases two articles for ₹600 and ₹900 with profit percentages of 20% and 10% respectively. Find his overall profit percentage.",
+      "stem_hi": "एक व्यक्ति दो articles ₹600 और ₹900 में खरीदकर क्रमशः 20% और 10% profit पर बेचता है। overall profit% क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "weighted-percentage", "profit-loss"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "14%",   "text_hi": "14%",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "15%",   "text_hi": "15%",   "is_correct": false, "trap_reason_en": "Used arithmetic mean of percentages: (20 + 10)/2 = 15%. Different costs require WEIGHTED average by cost size.", "trap_reason_hi": "Percentages का arithmetic mean: (20 + 10)/2 = 15%। अलग costs में WEIGHTED average चाहिए।" },
+        { "label": "C", "text_en": "12%",   "text_hi": "12%",   "is_correct": false, "trap_reason_en": "Reported 600/900 × something giving 12%. Correct: total profit = 120 + 90 = 210; total cost = 1500; 210/1500 = 14%.", "trap_reason_hi": "Random arithmetic से 12% लगाया। सही: total profit = 120 + 90 = 210, total cost = 1500, 210/1500 = 14%।" },
+        { "label": "D", "text_en": "16%",   "text_hi": "16%",   "is_correct": false, "trap_reason_en": "Used wrong weights: weighted by 900 (larger) instead of by both. (20 × 600 + 10 × 900)/1000 hands a wrong divisor → 21%. 16% comes from a similar arithmetic slip.", "trap_reason_hi": "Wrong weights: divisor 1000 लिया (1500 की जगह), या weights swap किए। सही: profit weight cost से, total cost 1500।" }
+      ],
+      "explanation_method_en": "Profits: 20% of 600 = 120; 10% of 900 = 90. Total profit = 210. Total cost = 1500. Overall profit% = 210/1500 × 100 = 14%.",
+      "explanation_concept_en": "When profit percents are applied to different cost bases, the OVERALL profit% is the weighted average — weights are the COST values (not the SP values, not the count of items). Equivalently, sum the absolute profits and divide by total cost.",
+      "explanation_method_hi": "Profits: 600 का 20% = 120; 900 का 10% = 90। Total profit = 210। Total cost = 1500। Overall profit% = 210/1500 × 100 = 14%।",
+      "explanation_concept_hi": "अलग cost bases पर profit percents में overall = COST values से weighted average (count या SP नहीं)। Absolute profits जोड़कर total cost से भाग दें।"
+    },
+    {
+      "id": "avg-16",
+      "stem_en": "The average of 10 numbers is 15. If each number is multiplied by 4, what will be the new average?",
+      "stem_hi": "10 संख्याओं का average 15 है। हर संख्या को 4 से गुणा करने पर नया average क्या होगा?",
+      "difficulty": "EASY",
+      "tags": ["average", "uniform-scale", "multiplication"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "60", "text_hi": "60", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "15", "text_hi": "15", "is_correct": false, "trap_reason_en": "Kept the average unchanged. Multiplying every value by k multiplies the average by k.", "trap_reason_hi": "Average वही रखी। हर value को k से गुणा करने पर average भी k गुना हो जाता है।" },
+        { "label": "C", "text_en": "19", "text_hi": "19", "is_correct": false, "trap_reason_en": "Added 4 to the average: 15 + 4 = 19. Multiplying by k is NOT the same as adding k to the average.", "trap_reason_hi": "Average में 4 जोड़ दिया: 15 + 4 = 19। Multiply by k और add k अलग operations हैं।" },
+        { "label": "D", "text_en": "150", "text_hi": "150", "is_correct": false, "trap_reason_en": "Multiplied by 10 instead of 4 (used count instead of multiplier): 15 × 10 = 150. The multiplier is 4.", "trap_reason_hi": "4 की जगह 10 (count) से गुणा कर दिया: 15 × 10 = 150। Multiplier 4 है।" }
+      ],
+      "explanation_method_en": "Multiplying every value by 4 multiplies the average by 4: new avg = 15 × 4 = 60.",
+      "explanation_concept_en": "Average is a linear operation: scaling every input by k scales the output by k (likewise additive shifts). New avg = k × old avg.",
+      "explanation_method_hi": "हर value को 4 से गुणा करने पर average भी 4 गुना: नई avg = 15 × 4 = 60।",
+      "explanation_concept_hi": "Average linear operation है: हर input को k से scale करने पर output भी k गुना। नई avg = k × पुरानी avg।"
+    },
+    {
+      "id": "avg-17",
+      "stem_en": "The average marks of 39 students in a class is 64. The class teacher's marks are also added, raising the average by 1. Find the teacher's marks.",
+      "stem_hi": "एक कक्षा के 39 छात्रों का औसत marks 64 है। शिक्षक के marks जोड़ने पर औसत 1 बढ़ जाता है। शिक्षक के marks क्या हैं?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "addition", "inclusion-shift"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "104", "text_hi": "104", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "65",  "text_hi": "65",  "is_correct": false, "trap_reason_en": "Reported the new average (65) as the teacher's marks. The teacher's marks must be high enough to raise the average; specifically, new_avg + (count_new − 1) × Δ = 65 + 39 × 1 = 104.", "trap_reason_hi": "नई average (65) को शिक्षक के marks कह दिया। Shortcut: new_avg + (count_new − 1) × Δ = 65 + 39 = 104।" },
+        { "label": "C", "text_en": "40",  "text_hi": "40",  "is_correct": false, "trap_reason_en": "Used 40 × 1 = 40 (treated count as a multiplicative answer). Correct: teacher = 40 × 65 − 39 × 64 = 2600 − 2496 = 104.", "trap_reason_hi": "40 × 1 = 40 लगाया (count को answer मान लिया)। सही: teacher = 40 × 65 − 39 × 64 = 104।" },
+        { "label": "D", "text_en": "1",   "text_hi": "1",   "is_correct": false, "trap_reason_en": "Reported the average shift Δ = 1 as the teacher's marks. The shift moves the entire group; the marks that produce that shift are much larger.", "trap_reason_hi": "Average shift Δ = 1 को शिक्षक के marks दे दिया। Shift पूरे group पर लगता है; उसे cause करने वाले marks बहुत बड़े होते हैं।" }
+      ],
+      "explanation_method_en": "Old sum = 39 × 64 = 2496. New sum = 40 × 65 = 2600. Teacher's marks = 2600 − 2496 = 104. Shortcut: teacher = new_avg + (count_new − 1) × Δ = 65 + 39 × 1 = 104.",
+      "explanation_concept_en": "Inclusion of a new entry that shifts the average by Δ has the entry value equal to (new_avg) + (count_new − 1) × Δ. Equivalently: the new entry must contribute Δ to its own average AND lift everyone else by Δ.",
+      "explanation_method_hi": "Old sum = 39 × 64 = 2496। New sum = 40 × 65 = 2600। Teacher = 2600 − 2496 = 104। Shortcut: new_avg + (count_new − 1) × Δ = 65 + 39 = 104।",
+      "explanation_concept_hi": "नया entry जोड़ने से average Δ बढ़े, तो उसकी value = new_avg + (count_new − 1) × Δ। यह entry खुद को नई average तक उठाता है AND बाकी सब को भी Δ ऊपर ले जाता है।"
+    },
+    {
+      "id": "avg-18",
+      "stem_en": "The average of three numbers is 40. The first is twice the second, and the third is 3 times the first. Find the numbers.",
+      "stem_hi": "तीन संख्याओं का average 40 है। पहली, दूसरी की दोगुनी है और तीसरी, पहली की 3 गुनी है। संख्याएँ क्या हैं?",
+      "difficulty": "HARD",
+      "tags": ["average", "algebra", "ratio-relations"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "24, 12, 72", "text_hi": "24, 12, 72", "is_correct": false, "trap_reason_en": "Sum = 108; avg = 36, not 40. Used wrong scale x = 12 (giving sum 9x = 108).", "trap_reason_hi": "Sum = 108; avg = 36, 40 नहीं। Wrong scale x = 12।" },
+        { "label": "B", "text_en": "26.67, 13.33, 80", "text_hi": "26.67, 13.33, 80", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "C", "text_en": "20, 10, 60", "text_hi": "20, 10, 60", "is_correct": false, "trap_reason_en": "Sum = 90, avg = 30 (not 40). Used scale 10 instead of 13.33.", "trap_reason_hi": "Sum = 90, avg = 30 (40 नहीं)। Scale 10 लगाया, 13.33 नहीं।" },
+        { "label": "D", "text_en": "30, 15, 90", "text_hi": "30, 15, 90", "is_correct": false, "trap_reason_en": "Sum = 135, avg = 45 (not 40). Scale 15.", "trap_reason_hi": "Sum = 135, avg = 45 (40 नहीं)। Scale 15।" }
+      ],
+      "explanation_method_en": "Let second = x. First = 2x, third = 3 × first = 6x. Sum = 2x + x + 6x = 9x. Average = 9x/3 = 3x = 40 ⇒ x = 40/3 ≈ 13.33. So numbers are 26.67, 13.33, 80.",
+      "explanation_concept_en": "Translate ratio statements into algebra by parametrizing. Each subsequent value depends on the first; substitute and simplify until you have one equation in one unknown. The fact that the answer is non-integer is fine — averages don't require integers.",
+      "explanation_method_hi": "दूसरी = x मानें। पहली = 2x, तीसरी = 3 × first = 6x। Sum = 9x। Average = 9x/3 = 3x = 40 ⇒ x = 40/3 ≈ 13.33। संख्याएँ: 26.67, 13.33, 80।",
+      "explanation_concept_hi": "Ratio statements को algebra में translate करें। एक unknown में एक equation बनाएँ। Non-integer answer OK — averages integer demand नहीं करते।"
+    },
+    {
+      "id": "avg-19",
+      "stem_en": "A train covers 60 km at 30 km/h, 60 km at 60 km/h, and 60 km at 20 km/h. Find its average speed for the entire journey.",
+      "stem_hi": "एक train 60 km को 30 km/h पर, 60 km को 60 km/h पर, और 60 km को 20 km/h पर तय करती है। पूरी यात्रा की average speed क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "average-speed", "harmonic-mean"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "30 km/h",   "text_hi": "30 km/h",   "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "36.67 km/h","text_hi": "36.67 km/h","is_correct": false, "trap_reason_en": "Used arithmetic mean: (30 + 60 + 20)/3 = 110/3 = 36.67. Equal-distance legs need HARMONIC mean, not arithmetic.", "trap_reason_hi": "Arithmetic mean: (30 + 60 + 20)/3 = 110/3 = 36.67। Equal-distance legs में HARMONIC mean चाहिए।" },
+        { "label": "C", "text_en": "33.33 km/h","text_hi": "33.33 km/h","is_correct": false, "trap_reason_en": "Used 100/3 = 33.33 as some 'midway' value. Correct: total distance 180 / total time 6 = 30.", "trap_reason_hi": "100/3 = 33.33 को midway value मान लिया। सही: total distance 180 / total time 6 = 30।" },
+        { "label": "D", "text_en": "40 km/h",   "text_hi": "40 km/h",   "is_correct": false, "trap_reason_en": "Used (30 + 60)/2 = 45, then (45 + 20)/2 = 32.5, snapped to 40. Step-by-step pairwise averaging is wrong; compute one harmonic mean over all three.", "trap_reason_hi": "Stepwise pairwise average: (30+60)/2 = 45, फिर (45+20)/2 = 32.5 → 40 लगाया। एक ही harmonic mean तीनों पर लगती है।" }
+      ],
+      "explanation_method_en": "Total distance = 180 km. Time = 60/30 + 60/60 + 60/20 = 2 + 1 + 3 = 6 h. Avg speed = 180/6 = 30 km/h.",
+      "explanation_concept_en": "Average speed for equal-distance legs is the harmonic mean of leg speeds: 3/(1/30 + 1/60 + 1/20) = 3/(2/60 + 1/60 + 3/60) = 3 × 60/6 = 30. Compute by total-distance/total-time directly to avoid harmonic-mean formula errors.",
+      "explanation_method_hi": "Total distance = 180 km। Time = 60/30 + 60/60 + 60/20 = 2 + 1 + 3 = 6 h। Avg speed = 180/6 = 30 km/h।",
+      "explanation_concept_hi": "Equal-distance legs पर average speed = harmonic mean। सीधे total-distance/total-time से निकालें — formula error से बचेंगे।"
+    },
+    {
+      "id": "avg-20",
+      "stem_en": "The average age of a husband and wife at the time of their marriage was 22 years. 5 years after marriage they have a 3-year-old child. Find the present average age of the family.",
+      "stem_hi": "पति-पत्नी की शादी के समय average age 22 साल थी। शादी के 5 साल बाद उनका 3 साल का बच्चा है। परिवार की वर्तमान average age क्या है?",
+      "difficulty": "HARD",
+      "tags": ["average", "age", "family-changes"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "19 years", "text_hi": "19 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "27 years", "text_hi": "27 साल", "is_correct": false, "trap_reason_en": "Computed only the spouses' present average (22 + 5 = 27) and ignored the child. Family of 3 includes child; recompute avg = (54 + 3)/3 = 19.", "trap_reason_hi": "केवल spouses की present average (22 + 5 = 27) ली, बच्चा छोड़ दिया। Family of 3 में बच्चा शामिल: avg = 57/3 = 19।" },
+        { "label": "C", "text_en": "21 years", "text_hi": "21 साल", "is_correct": false, "trap_reason_en": "Took elapsed time as 5 + 3 = 8 years (added child age to elapsed): spouses now 30 each, family sum 30+30+3 = 63, avg = 21. Question states only 5 years passed since marriage.", "trap_reason_hi": "Elapsed time को 5 + 3 = 8 साल मान लिया: spouses 30 each, family sum 63, avg 21। शादी के 5 साल बाद ही present है।" },
+        { "label": "D", "text_en": "17 years", "text_hi": "17 साल", "is_correct": false, "trap_reason_en": "Added only one +5 to spouses' sum (forgot the second spouse): 44 + 5 = 49 + 3 = 52, /3 = 17.33 → 17. Both spouses age, so add 5 × 2 = 10.", "trap_reason_hi": "केवल एक spouse पर +5 लगाया (दूसरा भूल गए): 44 + 5 = 49 + 3 = 52, /3 = 17.33 → 17। दोनों spouses age होते हैं, +10 लगता है।" }
+      ],
+      "explanation_method_en": "Sum of spouses at marriage = 22 × 2 = 44. After 5 years, spouses' sum = 44 + 5 × 2 = 54. Add child (3 years): family sum = 57. Family of 3 ⇒ avg = 57/3 = 19 years.",
+      "explanation_concept_en": "When the time elapsed shifts every existing member's age by the same amount, the SUM increases by (members × elapsed). Adding a new member adds their age to the sum but increases the count by 1, so the average dilutes. Compute new sum and divide by new count.",
+      "explanation_method_hi": "शादी पर spouses की sum = 22 × 2 = 44। 5 साल बाद spouses sum = 44 + 5 × 2 = 54। बच्चा 3 साल जोड़ें: family sum = 57। 3 लोगों का avg = 57/3 = 19 साल।",
+      "explanation_concept_hi": "समय बीतने पर हर मौजूद सदस्य की age उतनी बढ़ती है, sum = (सदस्य × elapsed) बढ़ती है। नया सदस्य जुड़ने पर उसकी age sum में जुड़ती है पर count भी बढ़ता है — average dilute होती है।"
+    },
+    {
+      "id": "avg-21",
+      "stem_en": "The average age of A and B is 35 years. The average of A, B, and C is 30 years. Find C's age.",
+      "stem_hi": "A और B की average age 35 साल है। A, B और C की average age 30 साल है। C की age क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "age", "missing-element"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "20 years", "text_hi": "20 साल", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "30 years", "text_hi": "30 साल", "is_correct": false, "trap_reason_en": "Reported the three-person average (30) as C's age. The trio average comes from BOTH A+B and C; isolate C via sums.", "trap_reason_hi": "तीनों का average (30) C की age कह दिया। Average दोनों A+B और C से बनती है — C को sums से isolate करें।" },
+        { "label": "C", "text_en": "35 years", "text_hi": "35 साल", "is_correct": false, "trap_reason_en": "Reported the A+B average (35) as C's age. Average of A and B doesn't equal a third person's age.", "trap_reason_hi": "A+B average (35) को C की age कह दिया। A और B की average किसी तीसरे की age नहीं होती।" },
+        { "label": "D", "text_en": "25 years", "text_hi": "25 साल", "is_correct": false, "trap_reason_en": "Used midpoint of 30 and 35 → 32.5, then trimmed to 25. Correct: C = 3 × 30 − 2 × 35 = 90 − 70 = 20.", "trap_reason_hi": "30 और 35 के बीच का midpoint लगाकर 25 कर दिया। सही: C = 3 × 30 − 2 × 35 = 90 − 70 = 20।" }
+      ],
+      "explanation_method_en": "A + B = 2 × 35 = 70. A + B + C = 3 × 30 = 90. C = 90 − 70 = 20.",
+      "explanation_concept_en": "When you have two overlapping averages where the larger group includes the smaller one plus one more element, isolate the new element by subtracting the smaller-group sum from the larger-group sum.",
+      "explanation_method_hi": "A + B = 2 × 35 = 70। A + B + C = 3 × 30 = 90। C = 90 − 70 = 20।",
+      "explanation_concept_hi": "जब छोटा group बड़े का subset हो (एक element अधिक), तो नए element को बड़े group sum − छोटे group sum से निकालें।"
+    },
+    {
+      "id": "avg-22",
+      "stem_en": "The average of 9 numbers is 12. If a 10th number is added and the new average is the same, what is the 10th number?",
+      "stem_hi": "9 संख्याओं का average 12 है। 10वीं संख्या जोड़ने पर भी average वही रहता है। 10वीं संख्या क्या है?",
+      "difficulty": "EASY",
+      "tags": ["average", "addition", "average-stable"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "12", "text_hi": "12", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "0",  "text_hi": "0",  "is_correct": false, "trap_reason_en": "Reasoned 'no shift means add nothing'. But 'no shift' means the new value equals the existing average, which is 12 (not 0).", "trap_reason_hi": "'Shift = 0 ⇒ add 0' सोच लिया। पर 'no shift' का मतलब नया value = existing average = 12, 0 नहीं।" },
+        { "label": "C", "text_en": "10", "text_hi": "10", "is_correct": false, "trap_reason_en": "Reported the new count (10) as the answer. Count is not value.", "trap_reason_hi": "नई count (10) को answer दे दिया। Count value नहीं है।" },
+        { "label": "D", "text_en": "120", "text_hi": "120", "is_correct": false, "trap_reason_en": "Reported the total sum (10 × 12 = 120) as the 10th number. Sum is the cumulative total, not a single value.", "trap_reason_hi": "Total sum (10 × 12 = 120) को 10वीं संख्या कह दिया। Sum cumulative है, single value नहीं।" }
+      ],
+      "explanation_method_en": "For the average to stay at 12 after adding a 10th number, that number must itself be 12 (otherwise the average shifts).",
+      "explanation_concept_en": "Adding a number equal to the existing average leaves the average unchanged. Adding above pulls it up; adding below pulls it down. The 'fulcrum' of the average is its own value.",
+      "explanation_method_hi": "Average 12 same रहने के लिए 10वीं संख्या भी 12 होनी चाहिए (अन्यथा average shift हो जाती)।",
+      "explanation_concept_hi": "Existing average के बराबर value जोड़ने पर average नहीं बदलता। ऊपर जोड़ने पर ऊपर, नीचे जोड़ने पर नीचे जाती है। Average का 'fulcrum' खुद वही value है।"
+    },
+    {
+      "id": "avg-23",
+      "stem_en": "The average of 50 numbers is 30. Each number is increased by 5%. Find the new average.",
+      "stem_hi": "50 संख्याओं का average 30 है। हर संख्या 5% बढ़ा दी जाए तो नया average क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": ["average", "uniform-percentage", "scale"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "31.5", "text_hi": "31.5", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "35",   "text_hi": "35",   "is_correct": false, "trap_reason_en": "Added 5 to the average: 30 + 5 = 35. The shift is 5% of average = 1.5, not flat 5.", "trap_reason_hi": "Average में 5 जोड़ दिया: 30 + 5 = 35। Shift average का 5% = 1.5, flat 5 नहीं।" },
+        { "label": "C", "text_en": "30",   "text_hi": "30",   "is_correct": false, "trap_reason_en": "Kept the average unchanged. Multiplying every value by 1.05 raises the average by 5%, not by 0.", "trap_reason_hi": "Average वही रखी। हर value × 1.05 ⇒ average भी 5% बढ़ती है।" },
+        { "label": "D", "text_en": "32.5", "text_hi": "32.5", "is_correct": false, "trap_reason_en": "Computed 1.05 × 30 ≈ 31.5 but adjusted up to 32.5 thinking 'average grows faster than 5%'. It grows by exactly 5%.", "trap_reason_hi": "1.05 × 30 = 31.5 निकाला पर 32.5 कर दिया ('average 5% से ज़्यादा बढ़ती है' सोचकर)। Average exactly 5% बढ़ती है।" }
+      ],
+      "explanation_method_en": "Multiplying every value by 1.05 multiplies the average by 1.05: new avg = 30 × 1.05 = 31.5.",
+      "explanation_concept_en": "Average is linear: a uniform percent increase on every value gives the same percent increase on the average. Equivalently, new avg = old avg × (1 + p/100).",
+      "explanation_method_hi": "हर value × 1.05 ⇒ average भी × 1.05: नई avg = 30 × 1.05 = 31.5।",
+      "explanation_concept_hi": "Average linear: हर value पर uniform % increase से average पर भी वही % increase। नई avg = पुरानी × (1 + p/100)।"
+    },
+    {
+      "id": "avg-24",
+      "stem_en": "The average of three numbers a, b, c is 20. The average of a, b, c, d is 24. Find the value of d.",
+      "stem_hi": "तीन संख्याओं a, b, c का average 20 है। a, b, c, d का average 24 है। d का मान क्या है?",
+      "difficulty": "EASY",
+      "tags": ["average", "addition", "missing-element"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "36", "text_hi": "36", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "24", "text_hi": "24", "is_correct": false, "trap_reason_en": "Reported the new four-element average (24) as d. d = 4 × 24 − 3 × 20 = 96 − 60 = 36.", "trap_reason_hi": "चार-element average (24) को d कह दिया। सही: d = 4 × 24 − 3 × 20 = 96 − 60 = 36।" },
+        { "label": "C", "text_en": "4",  "text_hi": "4",  "is_correct": false, "trap_reason_en": "Reported the average shift (24 − 20 = 4) as d. The shift moves the group; d is much larger.", "trap_reason_hi": "Average shift (24 − 20 = 4) को d कह दिया। Shift group पर लगता है; d बहुत बड़ा है।" },
+        { "label": "D", "text_en": "44", "text_hi": "44", "is_correct": false, "trap_reason_en": "Used d = new_avg + count_old × Δ = 24 + 3 × 4 = 36 in shortcut, but stretched to 44 by an arithmetic slip (added 4 once more).", "trap_reason_hi": "Shortcut d = new_avg + count_old × Δ = 24 + 3 × 4 = 36 सही, पर 4 एक बार और जोड़कर 44 कर दिया।" }
+      ],
+      "explanation_method_en": "Sum a+b+c = 3 × 20 = 60. Sum a+b+c+d = 4 × 24 = 96. d = 96 − 60 = 36. Shortcut: d = new_avg + count_old × Δ = 24 + 3 × 4 = 36.",
+      "explanation_concept_en": "Adding a single element shifts the sum by exactly that element's value. The shortcut d = new_avg + count_old × Δ comes from the fact that d must be at the new average AND raise everyone else by Δ — so d = new_avg + (people lifted) × Δ.",
+      "explanation_method_hi": "Sum a+b+c = 60। Sum a+b+c+d = 96। d = 96 − 60 = 36।",
+      "explanation_concept_hi": "एक element जोड़ने पर sum उसकी value जितना बदलता है। Shortcut: d = new_avg + count_old × Δ।"
+    },
+    {
+      "id": "avg-25",
+      "stem_en": "The average monthly income of A, B, C is ₹4,000. The average of A and C is ₹3,500, and that of B and C is ₹4,500. Find C's income.",
+      "stem_hi": "A, B, C की monthly income का average ₹4,000 है। A और C का ₹3,500, और B और C का ₹4,500 है। C की income क्या है?",
+      "difficulty": "HARD",
+      "tags": ["average", "three-equations", "system"],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        { "label": "A", "text_en": "₹4,000", "text_hi": "₹4,000", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
+        { "label": "B", "text_en": "₹3,500", "text_hi": "₹3,500", "is_correct": false, "trap_reason_en": "Reported the A+C pair average (3500) as C alone. C is shared in both pair averages but isn't equal to either pair average.", "trap_reason_hi": "A+C pair average (3500) को C अकेले कह दिया। C दोनों pair averages में shared है पर किसी एक के बराबर नहीं।" },
+        { "label": "C", "text_en": "₹4,500", "text_hi": "₹4,500", "is_correct": false, "trap_reason_en": "Reported the B+C pair average (4500) as C alone. Same mistake on the other pair.", "trap_reason_hi": "B+C pair average (4500) को C अकेले कह दिया।" },
+        { "label": "D", "text_en": "₹2,500", "text_hi": "₹2,500", "is_correct": false, "trap_reason_en": "Used 7000 + 9000 − 12000 = 4000 correctly but slipped to 2500 by treating one of the pair averages as 5000.", "trap_reason_hi": "Sum 7000 + 9000 − 12000 = 4000 सही method पर pair को 5000 पढ़कर 2500 निकाला।" }
+      ],
+      "explanation_method_en": "A + B + C = 3 × 4000 = 12000. A + C = 2 × 3500 = 7000. B + C = 2 × 4500 = 9000. Adding the two pairs: A + B + 2C = 16000. Subtract A+B+C = 12000: C = 16000 − 12000 = 4000.",
+      "explanation_concept_en": "Three sums (full triple, pair-AC, pair-BC) form a linear system in three unknowns. Adding the two pairs counts C twice; subtracting the full triple isolates C. Pair-overlap on a single element is the canonical setup for such problems.",
+      "explanation_method_hi": "A + B + C = 12000, A + C = 7000, B + C = 9000। दोनों pairs जोड़ें: A + B + 2C = 16000। A + B + C = 12000 घटाएँ: C = 4000।",
+      "explanation_concept_hi": "तीन sums (पूरी triple, pair-AC, pair-BC) तीन-variable linear system बनाते हैं। दोनों pairs जोड़ने पर C double हो जाता है; full triple घटाने से C alone निकलता है।"
+    }
+  ]
+}

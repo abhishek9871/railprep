@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">रेलप्रेप</string>
+    <string name="phase0_scaffold_ok">फ़ेज़ 0 स्कैफ़ोल्ड तैयार</string>
+    <string name="phase0_hello_button">नमस्ते</string>
+</resources>
