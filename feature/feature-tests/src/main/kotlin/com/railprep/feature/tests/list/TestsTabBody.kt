@@ -85,6 +85,9 @@ fun TestsTabBody(
                 modifier = Modifier.padding(top = Spacing.Xs),
             )
             if (mode == TestsTabMode.PRACTICE) {
+                OfficialPatternPanel(
+                    modifier = Modifier.padding(top = Spacing.Md),
+                )
                 OutlinedTextField(
                     value = state.searchQuery,
                     onValueChange = { viewModel.setSearchQuery(it) },
@@ -183,6 +186,36 @@ fun TestsTabBody(
                 }
             },
         )
+    }
+}
+
+@Composable
+private fun OfficialPatternPanel(modifier: Modifier = Modifier) {
+    Surface(
+        shape = RoundedCornerShape(Radius.Md),
+        color = MaterialTheme.colorScheme.secondaryContainer,
+        modifier = modifier.fillMaxWidth(),
+    ) {
+        Column(
+            modifier = Modifier.padding(Spacing.Md),
+            verticalArrangement = Arrangement.spacedBy(Spacing.Xxs),
+        ) {
+            Text(
+                text = stringResource(R.string.tests_pattern_title),
+                style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.SemiBold),
+                color = MaterialTheme.colorScheme.onSecondaryContainer,
+            )
+            Text(
+                text = stringResource(R.string.tests_pattern_cbt1),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSecondaryContainer,
+            )
+            Text(
+                text = stringResource(R.string.tests_pattern_cbt2),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSecondaryContainer,
+            )
+        }
     }
 }
 

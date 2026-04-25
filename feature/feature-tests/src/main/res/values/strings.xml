@@ -5,6 +5,9 @@
     <string name="tests_list_subtitle">CBT-pattern practice with timed sections + negative marking.</string>
     <string name="tests_pyq_title">PYQ papers</string>
     <string name="tests_pyq_subtitle">Original RRB NTPC papers open as PDFs. Use these for paper reading; timed mocks stay under Tests.</string>
+    <string name="tests_pattern_title">Official RRB NTPC pattern</string>
+    <string name="tests_pattern_cbt1">CBT-1: 100 Q / 90 min · GA 40, Math 30, Reasoning 30 · −1/3 per wrong answer</string>
+    <string name="tests_pattern_cbt2">CBT-2: 120 Q / 90 min · GA 50, Math 35, Reasoning 35</string>
     <string name="tests_filter_all">All</string>
     <string name="tests_filter_cbt1">CBT-1</string>
     <string name="tests_filter_cbt2">CBT-2</string>
