@@ -1,0 +1,1271 @@
+{
+  "_doc": "Coverage sectional — Current Affairs & Science Tech. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-current-affairs-science-tech-01",
+  "title_en": "Current Affairs & Science Tech — Sectional",
+  "title_hi": "Current Affairs & Science Tech — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Current Affairs & Science Tech",
+    "title_hi": "Current Affairs & Science Tech",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gacurr-01",
+      "stem_en": "Chandrayaan-3 made India's soft landing near the Moon's south polar region in which year?",
+      "stem_hi": "Chandrayaan-3 ने Moon के south polar region के पास soft landing किस year में की?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "science-tech",
+        "space"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2023",
+          "text_hi": "2023",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "2019",
+          "text_hi": "2019",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2019 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2019 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "2022",
+          "text_hi": "2022",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2022 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2022 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "2024",
+          "text_hi": "2024",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2024 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2024 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Chandrayaan-3 soft-landed in 2023. Therefore, answer = 2023.",
+      "explanation_concept_en": "Chandrayaan-3 soft-landed in 2023. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 2023.",
+      "explanation_method_hi": "Fixed fact याद रखें: Chandrayaan-3 ने 2023 में soft landing की। अतः answer = 2023।",
+      "explanation_concept_hi": "Chandrayaan-3 ने 2023 में soft landing की। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 2023 है।"
+    },
+    {
+      "id": "gacurr-02",
+      "stem_en": "Aditya-L1 is India's mission to study the:",
+      "stem_hi": "Aditya-L1 India का किसे study करने वाला mission है?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "science-tech",
+        "space"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Moon",
+          "text_hi": "Moon",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Moon with Sun; the clue in the question points specifically to Sun.",
+          "trap_reason_hi": "Moon को Sun समझ लिया। Stem की clue specifically Sun की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sun",
+          "text_hi": "Sun",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Mars",
+          "text_hi": "Mars",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mars with Sun; the clue in the question points specifically to Sun.",
+          "trap_reason_hi": "Mars को Sun समझ लिया। Stem की clue specifically Sun की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Venus",
+          "text_hi": "Venus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Venus with Sun; the clue in the question points specifically to Sun.",
+          "trap_reason_hi": "Venus को Sun समझ लिया। Stem की clue specifically Sun की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Aditya-L1 is a solar observation mission. Therefore, answer = Sun.",
+      "explanation_concept_en": "Aditya-L1 is a solar observation mission. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Sun.",
+      "explanation_method_hi": "Fixed fact याद रखें: Aditya-L1 solar observation mission है। अतः answer = Sun।",
+      "explanation_concept_hi": "Aditya-L1 solar observation mission है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Sun है।"
+    },
+    {
+      "id": "gacurr-03",
+      "stem_en": "Aditya-L1 was launched by which launch vehicle?",
+      "stem_hi": "Aditya-L1 किस launch vehicle से launch हुआ?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "science-tech",
+        "space"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "GSLV Mk III",
+          "text_hi": "GSLV Mk III",
+          "is_correct": false,
+          "trap_reason_en": "Confuses GSLV Mk III with PSLV-C57; the clue in the question points specifically to PSLV-C57.",
+          "trap_reason_hi": "GSLV Mk III को PSLV-C57 समझ लिया। Stem की clue specifically PSLV-C57 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "SSLV-D1",
+          "text_hi": "SSLV-D1",
+          "is_correct": false,
+          "trap_reason_en": "Confuses SSLV-D1 with PSLV-C57; the clue in the question points specifically to PSLV-C57.",
+          "trap_reason_hi": "SSLV-D1 को PSLV-C57 समझ लिया। Stem की clue specifically PSLV-C57 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "PSLV-C57",
+          "text_hi": "PSLV-C57",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "ASLV",
+          "text_hi": "ASLV",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ASLV with PSLV-C57; the clue in the question points specifically to PSLV-C57.",
+          "trap_reason_hi": "ASLV को PSLV-C57 समझ लिया। Stem की clue specifically PSLV-C57 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Aditya-L1 was launched by PSLV-C57. Therefore, answer = PSLV-C57.",
+      "explanation_concept_en": "Aditya-L1 was launched by PSLV-C57. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is PSLV-C57.",
+      "explanation_method_hi": "Fixed fact याद रखें: Aditya-L1 PSLV-C57 से launch हुआ। अतः answer = PSLV-C57।",
+      "explanation_concept_hi": "Aditya-L1 PSLV-C57 से launch हुआ। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer PSLV-C57 है।"
+    },
+    {
+      "id": "gacurr-04",
+      "stem_en": "XPoSat is associated with studies of:",
+      "stem_hi": "XPoSat किस study से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "science-tech",
+        "space"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "soil moisture",
+          "text_hi": "soil moisture",
+          "is_correct": false,
+          "trap_reason_en": "Confuses soil moisture with X-ray polarization; the clue in the question points specifically to X-ray polarization.",
+          "trap_reason_hi": "soil moisture को X-ray polarization समझ लिया। Stem की clue specifically X-ray polarization की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "ocean salinity",
+          "text_hi": "ocean salinity",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ocean salinity with X-ray polarization; the clue in the question points specifically to X-ray polarization.",
+          "trap_reason_hi": "ocean salinity को X-ray polarization समझ लिया। Stem की clue specifically X-ray polarization की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "solar eclipse photography",
+          "text_hi": "solar eclipse photography",
+          "is_correct": false,
+          "trap_reason_en": "Confuses solar eclipse photography with X-ray polarization; the clue in the question points specifically to X-ray polarization.",
+          "trap_reason_hi": "solar eclipse photography को X-ray polarization समझ लिया। Stem की clue specifically X-ray polarization की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "X-ray polarization",
+          "text_hi": "X-ray polarization",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: XPoSat studies X-ray polarization. Therefore, answer = X-ray polarization.",
+      "explanation_concept_en": "XPoSat studies X-ray polarization. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is X-ray polarization.",
+      "explanation_method_hi": "Fixed fact याद रखें: XPoSat X-ray polarization study करता है। अतः answer = X-ray polarization।",
+      "explanation_concept_hi": "XPoSat X-ray polarization study करता है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer X-ray polarization है।"
+    },
+    {
+      "id": "gacurr-05",
+      "stem_en": "The 2023 G20 Summit hosted by India was held in:",
+      "stem_hi": "India द्वारा hosted 2023 G20 Summit कहाँ हुआ?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "summits"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "New Delhi",
+          "text_hi": "New Delhi",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Mumbai",
+          "text_hi": "Mumbai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mumbai with New Delhi; the clue in the question points specifically to New Delhi.",
+          "trap_reason_hi": "Mumbai को New Delhi समझ लिया। Stem की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bengaluru",
+          "text_hi": "Bengaluru",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bengaluru with New Delhi; the clue in the question points specifically to New Delhi.",
+          "trap_reason_hi": "Bengaluru को New Delhi समझ लिया। Stem की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Hyderabad",
+          "text_hi": "Hyderabad",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Hyderabad with New Delhi; the clue in the question points specifically to New Delhi.",
+          "trap_reason_hi": "Hyderabad को New Delhi समझ लिया। Stem की clue specifically New Delhi की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: India hosted the 2023 G20 Summit in New Delhi. Therefore, answer = New Delhi.",
+      "explanation_concept_en": "India hosted the 2023 G20 Summit in New Delhi. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is New Delhi.",
+      "explanation_method_hi": "Fixed fact याद रखें: India ने 2023 G20 Summit New Delhi में host किया। अतः answer = New Delhi।",
+      "explanation_concept_hi": "India ने 2023 G20 Summit New Delhi में host किया। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer New Delhi है।"
+    },
+    {
+      "id": "gacurr-06",
+      "stem_en": "India's 2023 G20 theme was:",
+      "stem_hi": "India की 2023 G20 theme क्या थी?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "summits"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Make in India",
+          "text_hi": "Make in India",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Make in India with One Earth, One Family, One Future; the clue in the question points specifically to One Earth, One Family, One Future.",
+          "trap_reason_hi": "Make in India को One Earth, One Family, One Future समझ लिया। Stem की clue specifically One Earth, One Family, One Future की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "One Earth, One Family, One Future",
+          "text_hi": "One Earth, One Family, One Future",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Digital First, Global Next",
+          "text_hi": "Digital First, Global Next",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Digital First, Global Next with One Earth, One Family, One Future; the clue in the question points specifically to One Earth, One Family, One Future.",
+          "trap_reason_hi": "Digital First, Global Next को One Earth, One Family, One Future समझ लिया। Stem की clue specifically One Earth, One Family, One Future की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Green India Mission",
+          "text_hi": "Green India Mission",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Green India Mission with One Earth, One Family, One Future; the clue in the question points specifically to One Earth, One Family, One Future.",
+          "trap_reason_hi": "Green India Mission को One Earth, One Family, One Future समझ लिया। Stem की clue specifically One Earth, One Family, One Future की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The 2023 G20 theme was One Earth, One Family, One Future. Therefore, answer = One Earth, One Family, One Future.",
+      "explanation_concept_en": "The 2023 G20 theme was One Earth, One Family, One Future. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is One Earth, One Family, One Future.",
+      "explanation_method_hi": "Fixed fact याद रखें: 2023 G20 theme One Earth, One Family, One Future थी। अतः answer = One Earth, One Family, One Future।",
+      "explanation_concept_hi": "2023 G20 theme One Earth, One Family, One Future थी। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer One Earth, One Family, One Future है।"
+    },
+    {
+      "id": "gacurr-07",
+      "stem_en": "The ICC Men's T20 World Cup 2024 was won by:",
+      "stem_hi": "ICC Men's T20 World Cup 2024 किसने जीता?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Australia",
+          "text_hi": "Australia",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Australia with India; the clue in the question points specifically to India.",
+          "trap_reason_hi": "Australia को India समझ लिया। Stem की clue specifically India की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "South Africa",
+          "text_hi": "South Africa",
+          "is_correct": false,
+          "trap_reason_en": "Confuses South Africa with India; the clue in the question points specifically to India.",
+          "trap_reason_hi": "South Africa को India समझ लिया। Stem की clue specifically India की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "India",
+          "text_hi": "India",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "England",
+          "text_hi": "England",
+          "is_correct": false,
+          "trap_reason_en": "Confuses England with India; the clue in the question points specifically to India.",
+          "trap_reason_hi": "England को India समझ लिया। Stem की clue specifically India की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: India won the 2024 ICC Men's T20 World Cup. Therefore, answer = India.",
+      "explanation_concept_en": "India won the 2024 ICC Men's T20 World Cup. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is India.",
+      "explanation_method_hi": "Fixed fact याद रखें: India ने 2024 ICC Men's T20 World Cup जीता। अतः answer = India।",
+      "explanation_concept_hi": "India ने 2024 ICC Men's T20 World Cup जीता। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer India है।"
+    },
+    {
+      "id": "gacurr-08",
+      "stem_en": "The Paris Olympics were held in:",
+      "stem_hi": "Paris Olympics किस year में हुए?",
+      "difficulty": "EASY",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2020",
+          "text_hi": "2020",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2020 with 2024; the clue in the question points specifically to 2024.",
+          "trap_reason_hi": "2020 को 2024 समझ लिया। Stem की clue specifically 2024 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2022",
+          "text_hi": "2022",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2022 with 2024; the clue in the question points specifically to 2024.",
+          "trap_reason_hi": "2022 को 2024 समझ लिया। Stem की clue specifically 2024 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "2026",
+          "text_hi": "2026",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2026 with 2024; the clue in the question points specifically to 2024.",
+          "trap_reason_hi": "2026 को 2024 समझ लिया। Stem की clue specifically 2024 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "2024",
+          "text_hi": "2024",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The Paris Olympics were held in 2024. Therefore, answer = 2024.",
+      "explanation_concept_en": "The Paris Olympics were held in 2024. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 2024.",
+      "explanation_method_hi": "Fixed fact याद रखें: Paris Olympics 2024 में हुए। अतः answer = 2024।",
+      "explanation_concept_hi": "Paris Olympics 2024 में हुए। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 2024 है।"
+    },
+    {
+      "id": "gacurr-09",
+      "stem_en": "Neeraj Chopra won which medal in men's javelin at Paris 2024?",
+      "stem_hi": "Paris 2024 men's javelin में Neeraj Chopra ने कौन-सा medal जीता?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "silver",
+          "text_hi": "silver",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "gold",
+          "text_hi": "gold",
+          "is_correct": false,
+          "trap_reason_en": "Confuses gold with silver; the clue in the question points specifically to silver.",
+          "trap_reason_hi": "gold को silver समझ लिया। Stem की clue specifically silver की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "bronze",
+          "text_hi": "bronze",
+          "is_correct": false,
+          "trap_reason_en": "Confuses bronze with silver; the clue in the question points specifically to silver.",
+          "trap_reason_hi": "bronze को silver समझ लिया। Stem की clue specifically silver की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "no medal",
+          "text_hi": "no medal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses no medal with silver; the clue in the question points specifically to silver.",
+          "trap_reason_hi": "no medal को silver समझ लिया। Stem की clue specifically silver की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Neeraj Chopra won silver at Paris 2024. Therefore, answer = silver.",
+      "explanation_concept_en": "Neeraj Chopra won silver at Paris 2024. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is silver.",
+      "explanation_method_hi": "Fixed fact याद रखें: Neeraj Chopra ने Paris 2024 में silver जीता। अतः answer = silver।",
+      "explanation_concept_hi": "Neeraj Chopra ने Paris 2024 में silver जीता। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer silver है।"
+    },
+    {
+      "id": "gacurr-10",
+      "stem_en": "The 2024 Nobel Peace Prize was awarded to:",
+      "stem_hi": "2024 Nobel Peace Prize किसे दिया गया?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "awards"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "World Food Programme",
+          "text_hi": "World Food Programme",
+          "is_correct": false,
+          "trap_reason_en": "Confuses World Food Programme with Nihon Hidankyo; the clue in the question points specifically to Nihon Hidankyo.",
+          "trap_reason_hi": "World Food Programme को Nihon Hidankyo समझ लिया। Stem की clue specifically Nihon Hidankyo की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Nihon Hidankyo",
+          "text_hi": "Nihon Hidankyo",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Narges Mohammadi",
+          "text_hi": "Narges Mohammadi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Narges Mohammadi with Nihon Hidankyo; the clue in the question points specifically to Nihon Hidankyo.",
+          "trap_reason_hi": "Narges Mohammadi को Nihon Hidankyo समझ लिया। Stem की clue specifically Nihon Hidankyo की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "ICAN",
+          "text_hi": "ICAN",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ICAN with Nihon Hidankyo; the clue in the question points specifically to Nihon Hidankyo.",
+          "trap_reason_hi": "ICAN को Nihon Hidankyo समझ लिया। Stem की clue specifically Nihon Hidankyo की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Nihon Hidankyo received the 2024 Nobel Peace Prize. Therefore, answer = Nihon Hidankyo.",
+      "explanation_concept_en": "Nihon Hidankyo received the 2024 Nobel Peace Prize. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Nihon Hidankyo.",
+      "explanation_method_hi": "Fixed fact याद रखें: Nihon Hidankyo को 2024 Nobel Peace Prize मिला। अतः answer = Nihon Hidankyo।",
+      "explanation_concept_hi": "Nihon Hidankyo को 2024 Nobel Peace Prize मिला। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Nihon Hidankyo है।"
+    },
+    {
+      "id": "gacurr-11",
+      "stem_en": "COP29 was hosted by:",
+      "stem_hi": "COP29 किसने host किया?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Brazil",
+          "text_hi": "Brazil",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Brazil with Azerbaijan; the clue in the question points specifically to Azerbaijan.",
+          "trap_reason_hi": "Brazil को Azerbaijan समझ लिया। Stem की clue specifically Azerbaijan की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "India",
+          "text_hi": "India",
+          "is_correct": false,
+          "trap_reason_en": "Confuses India with Azerbaijan; the clue in the question points specifically to Azerbaijan.",
+          "trap_reason_hi": "India को Azerbaijan समझ लिया। Stem की clue specifically Azerbaijan की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Azerbaijan",
+          "text_hi": "Azerbaijan",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "UAE",
+          "text_hi": "UAE",
+          "is_correct": false,
+          "trap_reason_en": "Confuses UAE with Azerbaijan; the clue in the question points specifically to Azerbaijan.",
+          "trap_reason_hi": "UAE को Azerbaijan समझ लिया। Stem की clue specifically Azerbaijan की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: COP29 was hosted in Baku, Azerbaijan. Therefore, answer = Azerbaijan.",
+      "explanation_concept_en": "COP29 was hosted in Baku, Azerbaijan. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Azerbaijan.",
+      "explanation_method_hi": "Fixed fact याद रखें: COP29 Baku, Azerbaijan में host हुआ। अतः answer = Azerbaijan।",
+      "explanation_concept_hi": "COP29 Baku, Azerbaijan में host हुआ। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Azerbaijan है।"
+    },
+    {
+      "id": "gacurr-12",
+      "stem_en": "COP30 was scheduled/hosted in:",
+      "stem_hi": "COP30 किस country में scheduled/hosted था?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Azerbaijan",
+          "text_hi": "Azerbaijan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Azerbaijan with Brazil; the clue in the question points specifically to Brazil.",
+          "trap_reason_hi": "Azerbaijan को Brazil समझ लिया। Stem की clue specifically Brazil की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Egypt",
+          "text_hi": "Egypt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Egypt with Brazil; the clue in the question points specifically to Brazil.",
+          "trap_reason_hi": "Egypt को Brazil समझ लिया। Stem की clue specifically Brazil की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "India",
+          "text_hi": "India",
+          "is_correct": false,
+          "trap_reason_en": "Confuses India with Brazil; the clue in the question points specifically to Brazil.",
+          "trap_reason_hi": "India को Brazil समझ लिया। Stem की clue specifically Brazil की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Brazil",
+          "text_hi": "Brazil",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: COP30 is associated with Brazil. Therefore, answer = Brazil.",
+      "explanation_concept_en": "COP30 is associated with Brazil. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Brazil.",
+      "explanation_method_hi": "Fixed fact याद रखें: COP30 Brazil से associated है। अतः answer = Brazil।",
+      "explanation_concept_hi": "COP30 Brazil से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Brazil है।"
+    },
+    {
+      "id": "gacurr-13",
+      "stem_en": "The Nari Shakti Vandan Adhiniyam is linked with:",
+      "stem_hi": "Nari Shakti Vandan Adhiniyam किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "polity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "women's reservation",
+          "text_hi": "women's reservation",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "GST",
+          "text_hi": "GST",
+          "is_correct": false,
+          "trap_reason_en": "Confuses GST with women's reservation; the clue in the question points specifically to women's reservation.",
+          "trap_reason_hi": "GST को women's reservation समझ लिया। Stem की clue specifically women's reservation की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "forest rights",
+          "text_hi": "forest rights",
+          "is_correct": false,
+          "trap_reason_en": "Confuses forest rights with women's reservation; the clue in the question points specifically to women's reservation.",
+          "trap_reason_hi": "forest rights को women's reservation समझ लिया। Stem की clue specifically women's reservation की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "railway safety",
+          "text_hi": "railway safety",
+          "is_correct": false,
+          "trap_reason_en": "Confuses railway safety with women's reservation; the clue in the question points specifically to women's reservation.",
+          "trap_reason_hi": "railway safety को women's reservation समझ लिया। Stem की clue specifically women's reservation की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Nari Shakti Vandan Adhiniyam is the women's reservation law. Therefore, answer = women's reservation.",
+      "explanation_concept_en": "Nari Shakti Vandan Adhiniyam is the women's reservation law. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is women's reservation.",
+      "explanation_method_hi": "Fixed fact याद रखें: Nari Shakti Vandan Adhiniyam women's reservation से linked है। अतः answer = women's reservation।",
+      "explanation_concept_hi": "Nari Shakti Vandan Adhiniyam women's reservation से linked है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer women's reservation है।"
+    },
+    {
+      "id": "gacurr-14",
+      "stem_en": "PM Surya Ghar: Muft Bijli Yojana is linked with:",
+      "stem_hi": "PM Surya Ghar: Muft Bijli Yojana किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rail freight",
+          "text_hi": "rail freight",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail freight with rooftop solar; the clue in the question points specifically to rooftop solar.",
+          "trap_reason_hi": "rail freight को rooftop solar समझ लिया। Stem की clue specifically rooftop solar की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "rooftop solar",
+          "text_hi": "rooftop solar",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "river linking",
+          "text_hi": "river linking",
+          "is_correct": false,
+          "trap_reason_en": "Confuses river linking with rooftop solar; the clue in the question points specifically to rooftop solar.",
+          "trap_reason_hi": "river linking को rooftop solar समझ लिया। Stem की clue specifically rooftop solar की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "crop MSP",
+          "text_hi": "crop MSP",
+          "is_correct": false,
+          "trap_reason_en": "Confuses crop MSP with rooftop solar; the clue in the question points specifically to rooftop solar.",
+          "trap_reason_hi": "crop MSP को rooftop solar समझ लिया। Stem की clue specifically rooftop solar की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: PM Surya Ghar is a rooftop solar scheme. Therefore, answer = rooftop solar.",
+      "explanation_concept_en": "PM Surya Ghar is a rooftop solar scheme. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is rooftop solar.",
+      "explanation_method_hi": "Fixed fact याद रखें: PM Surya Ghar rooftop solar scheme है। अतः answer = rooftop solar।",
+      "explanation_concept_hi": "PM Surya Ghar rooftop solar scheme है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer rooftop solar है।"
+    },
+    {
+      "id": "gacurr-15",
+      "stem_en": "Bharat Ratna 2024 recipient M. S. Swaminathan is associated with:",
+      "stem_hi": "Bharat Ratna 2024 recipient M. S. Swaminathan किससे associated हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "awards"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "White Revolution",
+          "text_hi": "White Revolution",
+          "is_correct": false,
+          "trap_reason_en": "Confuses White Revolution with Green Revolution; the clue in the question points specifically to Green Revolution.",
+          "trap_reason_hi": "White Revolution को Green Revolution समझ लिया। Stem की clue specifically Green Revolution की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Missile programme",
+          "text_hi": "Missile programme",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Missile programme with Green Revolution; the clue in the question points specifically to Green Revolution.",
+          "trap_reason_hi": "Missile programme को Green Revolution समझ लिया। Stem की clue specifically Green Revolution की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Green Revolution",
+          "text_hi": "Green Revolution",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Indian cinema",
+          "text_hi": "Indian cinema",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indian cinema with Green Revolution; the clue in the question points specifically to Green Revolution.",
+          "trap_reason_hi": "Indian cinema को Green Revolution समझ लिया। Stem की clue specifically Green Revolution की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: M. S. Swaminathan is associated with the Green Revolution. Therefore, answer = Green Revolution.",
+      "explanation_concept_en": "M. S. Swaminathan is associated with the Green Revolution. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Green Revolution.",
+      "explanation_method_hi": "Fixed fact याद रखें: M. S. Swaminathan Green Revolution से associated हैं। अतः answer = Green Revolution।",
+      "explanation_concept_hi": "M. S. Swaminathan Green Revolution से associated हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Green Revolution है।"
+    },
+    {
+      "id": "gacurr-16",
+      "stem_en": "Bharat Ratna 2024 recipient Karpoori Thakur was a former Chief Minister of:",
+      "stem_hi": "Bharat Ratna 2024 recipient Karpoori Thakur किस state के former Chief Minister थे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "awards"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Odisha को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Kerala को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Punjab को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Karpoori Thakur was a former Chief Minister of Bihar. Therefore, answer = Bihar.",
+      "explanation_concept_en": "Karpoori Thakur was a former Chief Minister of Bihar. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Bihar.",
+      "explanation_method_hi": "Fixed fact याद रखें: Karpoori Thakur Bihar के former Chief Minister थे। अतः answer = Bihar।",
+      "explanation_concept_hi": "Karpoori Thakur Bihar के former Chief Minister थे। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Bihar है।"
+    },
+    {
+      "id": "gacurr-17",
+      "stem_en": "The 2023 ICC Men's ODI World Cup was won by:",
+      "stem_hi": "2023 ICC Men's ODI World Cup किसने जीता?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Australia",
+          "text_hi": "Australia",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "India",
+          "text_hi": "India",
+          "is_correct": false,
+          "trap_reason_en": "Confuses India with Australia; the clue in the question points specifically to Australia.",
+          "trap_reason_hi": "India को Australia समझ लिया। Stem की clue specifically Australia की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "England",
+          "text_hi": "England",
+          "is_correct": false,
+          "trap_reason_en": "Confuses England with Australia; the clue in the question points specifically to Australia.",
+          "trap_reason_hi": "England को Australia समझ लिया। Stem की clue specifically Australia की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "New Zealand",
+          "text_hi": "New Zealand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses New Zealand with Australia; the clue in the question points specifically to Australia.",
+          "trap_reason_hi": "New Zealand को Australia समझ लिया। Stem की clue specifically Australia की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Australia won the 2023 ICC Men's ODI World Cup. Therefore, answer = Australia.",
+      "explanation_concept_en": "Australia won the 2023 ICC Men's ODI World Cup. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Australia.",
+      "explanation_method_hi": "Fixed fact याद रखें: Australia ने 2023 ICC Men's ODI World Cup जीता। अतः answer = Australia।",
+      "explanation_concept_hi": "Australia ने 2023 ICC Men's ODI World Cup जीता। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Australia है।"
+    },
+    {
+      "id": "gacurr-18",
+      "stem_en": "India crossed 100 medals at the Hangzhou Asian Games with a total of:",
+      "stem_hi": "Hangzhou Asian Games में India ने कितने medals जीते?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "97",
+          "text_hi": "97",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 97 with 107; the clue in the question points specifically to 107.",
+          "trap_reason_hi": "97 को 107 समझ लिया। Stem की clue specifically 107 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "107",
+          "text_hi": "107",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "117",
+          "text_hi": "117",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 117 with 107; the clue in the question points specifically to 107.",
+          "trap_reason_hi": "117 को 107 समझ लिया। Stem की clue specifically 107 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "87",
+          "text_hi": "87",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 87 with 107; the clue in the question points specifically to 107.",
+          "trap_reason_hi": "87 को 107 समझ लिया। Stem की clue specifically 107 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: India won 107 medals at the Hangzhou Asian Games. Therefore, answer = 107.",
+      "explanation_concept_en": "India won 107 medals at the Hangzhou Asian Games. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 107.",
+      "explanation_method_hi": "Fixed fact याद रखें: India ने Hangzhou Asian Games में 107 medals जीते। अतः answer = 107।",
+      "explanation_concept_hi": "India ने Hangzhou Asian Games में 107 medals जीते। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 107 है।"
+    },
+    {
+      "id": "gacurr-19",
+      "stem_en": "At the 2024 Chess Olympiad, India won gold in:",
+      "stem_hi": "2024 Chess Olympiad में India ने gold किसमें जीता?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "open section only",
+          "text_hi": "open section only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses open section only with both open and women's sections; the clue in the question points specifically to both open and women's sections.",
+          "trap_reason_hi": "open section only को both open and women's sections समझ लिया। Stem की clue specifically both open and women's sections की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "women's section only",
+          "text_hi": "women's section only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses women's section only with both open and women's sections; the clue in the question points specifically to both open and women's sections.",
+          "trap_reason_hi": "women's section only को both open and women's sections समझ लिया। Stem की clue specifically both open and women's sections की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "both open and women's sections",
+          "text_hi": "both open and women's sections",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "neither section",
+          "text_hi": "neither section",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neither section with both open and women's sections; the clue in the question points specifically to both open and women's sections.",
+          "trap_reason_hi": "neither section को both open and women's sections समझ लिया। Stem की clue specifically both open and women's sections की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: India won both open and women's team golds at the 2024 Chess Olympiad. Therefore, answer = both open and women's sections.",
+      "explanation_concept_en": "India won both open and women's team golds at the 2024 Chess Olympiad. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is both open and women's sections.",
+      "explanation_method_hi": "Fixed fact याद रखें: India ने 2024 Chess Olympiad में open और women's दोनों team gold जीते। अतः answer = both open and women's sections।",
+      "explanation_concept_hi": "India ने 2024 Chess Olympiad में open और women's दोनों team gold जीते। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer both open and women's sections है।"
+    },
+    {
+      "id": "gacurr-20",
+      "stem_en": "The 2024 Nobel Prize in Physics was associated with work foundational to:",
+      "stem_hi": "2024 Nobel Prize in Physics किस work से associated था?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "current-affairs",
+        "awards",
+        "science-tech"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "green revolution",
+          "text_hi": "green revolution",
+          "is_correct": false,
+          "trap_reason_en": "Confuses green revolution with machine learning; the clue in the question points specifically to machine learning.",
+          "trap_reason_hi": "green revolution को machine learning समझ लिया। Stem की clue specifically machine learning की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "DNA sequencing only",
+          "text_hi": "DNA sequencing only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses DNA sequencing only with machine learning; the clue in the question points specifically to machine learning.",
+          "trap_reason_hi": "DNA sequencing only को machine learning समझ लिया। Stem की clue specifically machine learning की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "black hole imaging only",
+          "text_hi": "black hole imaging only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses black hole imaging only with machine learning; the clue in the question points specifically to machine learning.",
+          "trap_reason_hi": "black hole imaging only को machine learning समझ लिया। Stem की clue specifically machine learning की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "machine learning",
+          "text_hi": "machine learning",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The 2024 Physics Nobel honoured foundational machine-learning work. Therefore, answer = machine learning.",
+      "explanation_concept_en": "The 2024 Physics Nobel honoured foundational machine-learning work. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is machine learning.",
+      "explanation_method_hi": "Fixed fact याद रखें: 2024 Physics Nobel foundational machine-learning work से associated था। अतः answer = machine learning।",
+      "explanation_concept_hi": "2024 Physics Nobel foundational machine-learning work से associated था। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer machine learning है।"
+    },
+    {
+      "id": "gacurr-21",
+      "stem_en": "The 2024 Nobel Prize in Chemistry included work on:",
+      "stem_hi": "2024 Nobel Prize in Chemistry किस work से associated था?",
+      "difficulty": "HARD",
+      "tags": [
+        "current-affairs",
+        "awards",
+        "science-tech"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "protein structure and design",
+          "text_hi": "protein structure and design",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "ozone hole discovery",
+          "text_hi": "ozone hole discovery",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ozone hole discovery with protein structure and design; the clue in the question points specifically to protein structure and design.",
+          "trap_reason_hi": "ozone hole discovery को protein structure and design समझ लिया। Stem की clue specifically protein structure and design की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "graphene only",
+          "text_hi": "graphene only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses graphene only with protein structure and design; the clue in the question points specifically to protein structure and design.",
+          "trap_reason_hi": "graphene only को protein structure and design समझ लिया। Stem की clue specifically protein structure and design की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "radioactivity discovery",
+          "text_hi": "radioactivity discovery",
+          "is_correct": false,
+          "trap_reason_en": "Confuses radioactivity discovery with protein structure and design; the clue in the question points specifically to protein structure and design.",
+          "trap_reason_hi": "radioactivity discovery को protein structure and design समझ लिया। Stem की clue specifically protein structure and design की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The 2024 Chemistry Nobel was linked with protein structure and design. Therefore, answer = protein structure and design.",
+      "explanation_concept_en": "The 2024 Chemistry Nobel was linked with protein structure and design. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is protein structure and design.",
+      "explanation_method_hi": "Fixed fact याद रखें: 2024 Chemistry Nobel protein structure और design से linked था। अतः answer = protein structure and design।",
+      "explanation_concept_hi": "2024 Chemistry Nobel protein structure और design से linked था। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer protein structure and design है।"
+    },
+    {
+      "id": "gacurr-22",
+      "stem_en": "India's new Parliament building was inaugurated in:",
+      "stem_hi": "India का new Parliament building किस year में inaugurated हुआ?",
+      "difficulty": "HARD",
+      "tags": [
+        "current-affairs",
+        "polity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2019",
+          "text_hi": "2019",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2019 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2019 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2023",
+          "text_hi": "2023",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "2021",
+          "text_hi": "2021",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2021 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2021 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "2025",
+          "text_hi": "2025",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2025 with 2023; the clue in the question points specifically to 2023.",
+          "trap_reason_hi": "2025 को 2023 समझ लिया। Stem की clue specifically 2023 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The new Parliament building was inaugurated in 2023. Therefore, answer = 2023.",
+      "explanation_concept_en": "The new Parliament building was inaugurated in 2023. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 2023.",
+      "explanation_method_hi": "Fixed fact याद रखें: New Parliament building 2023 में inaugurated हुआ। अतः answer = 2023।",
+      "explanation_concept_hi": "New Parliament building 2023 में inaugurated हुआ। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 2023 है।"
+    },
+    {
+      "id": "gacurr-23",
+      "stem_en": "The Chandrayaan-3 mission was led by:",
+      "stem_hi": "Chandrayaan-3 mission किस organization ने lead किया?",
+      "difficulty": "HARD",
+      "tags": [
+        "current-affairs",
+        "science-tech",
+        "space"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "DRDO",
+          "text_hi": "DRDO",
+          "is_correct": false,
+          "trap_reason_en": "Confuses DRDO with ISRO; the clue in the question points specifically to ISRO.",
+          "trap_reason_hi": "DRDO को ISRO समझ लिया। Stem की clue specifically ISRO की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "BARC",
+          "text_hi": "BARC",
+          "is_correct": false,
+          "trap_reason_en": "Confuses BARC with ISRO; the clue in the question points specifically to ISRO.",
+          "trap_reason_hi": "BARC को ISRO समझ लिया। Stem की clue specifically ISRO की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "ISRO",
+          "text_hi": "ISRO",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "CSIR",
+          "text_hi": "CSIR",
+          "is_correct": false,
+          "trap_reason_en": "Confuses CSIR with ISRO; the clue in the question points specifically to ISRO.",
+          "trap_reason_hi": "CSIR को ISRO समझ लिया। Stem की clue specifically ISRO की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Chandrayaan-3 was an ISRO mission. Therefore, answer = ISRO.",
+      "explanation_concept_en": "Chandrayaan-3 was an ISRO mission. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is ISRO.",
+      "explanation_method_hi": "Fixed fact याद रखें: Chandrayaan-3 ISRO mission था। अतः answer = ISRO।",
+      "explanation_concept_hi": "Chandrayaan-3 ISRO mission था। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer ISRO है।"
+    },
+    {
+      "id": "gacurr-24",
+      "stem_en": "The 2024 T20 World Cup final was played against:",
+      "stem_hi": "2024 T20 World Cup final India ने किसके against खेला?",
+      "difficulty": "HARD",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Australia",
+          "text_hi": "Australia",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Australia with South Africa; the clue in the question points specifically to South Africa.",
+          "trap_reason_hi": "Australia को South Africa समझ लिया। Stem की clue specifically South Africa की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "England",
+          "text_hi": "England",
+          "is_correct": false,
+          "trap_reason_en": "Confuses England with South Africa; the clue in the question points specifically to South Africa.",
+          "trap_reason_hi": "England को South Africa समझ लिया। Stem की clue specifically South Africa की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Pakistan",
+          "text_hi": "Pakistan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Pakistan with South Africa; the clue in the question points specifically to South Africa.",
+          "trap_reason_hi": "Pakistan को South Africa समझ लिया। Stem की clue specifically South Africa की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "South Africa",
+          "text_hi": "South Africa",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: India defeated South Africa in the 2024 T20 World Cup final. Therefore, answer = South Africa.",
+      "explanation_concept_en": "India defeated South Africa in the 2024 T20 World Cup final. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is South Africa.",
+      "explanation_method_hi": "Fixed fact याद रखें: India ने 2024 T20 World Cup final में South Africa को हराया। अतः answer = South Africa।",
+      "explanation_concept_hi": "India ने 2024 T20 World Cup final में South Africa को हराया। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer South Africa है।"
+    },
+    {
+      "id": "gacurr-25",
+      "stem_en": "Arshad Nadeem's Paris 2024 gold medal was in:",
+      "stem_hi": "Arshad Nadeem का Paris 2024 gold medal किस event में था?",
+      "difficulty": "HARD",
+      "tags": [
+        "current-affairs",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "javelin throw",
+          "text_hi": "javelin throw",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "long jump",
+          "text_hi": "long jump",
+          "is_correct": false,
+          "trap_reason_en": "Confuses long jump with javelin throw; the clue in the question points specifically to javelin throw.",
+          "trap_reason_hi": "long jump को javelin throw समझ लिया। Stem की clue specifically javelin throw की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "shot put",
+          "text_hi": "shot put",
+          "is_correct": false,
+          "trap_reason_en": "Confuses shot put with javelin throw; the clue in the question points specifically to javelin throw.",
+          "trap_reason_hi": "shot put को javelin throw समझ लिया। Stem की clue specifically javelin throw की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "discus throw",
+          "text_hi": "discus throw",
+          "is_correct": false,
+          "trap_reason_en": "Confuses discus throw with javelin throw; the clue in the question points specifically to javelin throw.",
+          "trap_reason_hi": "discus throw को javelin throw समझ लिया। Stem की clue specifically javelin throw की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Arshad Nadeem won javelin throw gold at Paris 2024. Therefore, answer = javelin throw.",
+      "explanation_concept_en": "Arshad Nadeem won javelin throw gold at Paris 2024. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is javelin throw.",
+      "explanation_method_hi": "Fixed fact याद रखें: Arshad Nadeem ने Paris 2024 में javelin throw gold जीता। अतः answer = javelin throw।",
+      "explanation_concept_hi": "Arshad Nadeem ने Paris 2024 में javelin throw gold जीता। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer javelin throw है।"
+    }
+  ]
+}

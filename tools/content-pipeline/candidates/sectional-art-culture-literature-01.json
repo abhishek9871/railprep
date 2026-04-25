@@ -1,0 +1,1264 @@
+{
+  "_doc": "Coverage sectional — Art, Culture & Literature. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-art-culture-literature-01",
+  "title_en": "Art, Culture & Literature — Sectional",
+  "title_hi": "Art, Culture & Literature — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Art, Culture & Literature",
+    "title_hi": "Art, Culture & Literature",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gaculture-01",
+      "stem_en": "Bharatanatyam is a classical dance form of:",
+      "stem_hi": "Bharatanatyam किस state का classical dance है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "dance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Tamil Nadu",
+          "text_hi": "Tamil Nadu",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Kerala को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Assam को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Odisha को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Bharatanatyam is associated with Tamil Nadu. Therefore, answer = Tamil Nadu.",
+      "explanation_concept_en": "Bharatanatyam is associated with Tamil Nadu. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Tamil Nadu.",
+      "explanation_method_hi": "Fixed fact याद रखें: Bharatanatyam Tamil Nadu से associated है। अतः answer = Tamil Nadu।",
+      "explanation_concept_hi": "Bharatanatyam Tamil Nadu से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Tamil Nadu है।"
+    },
+    {
+      "id": "gaculture-02",
+      "stem_en": "Kathakali is a classical dance-drama from:",
+      "stem_hi": "Kathakali किस state से है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "dance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Punjab को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rajasthan with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Rajasthan को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Bihar को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Kathakali is associated with Kerala. Therefore, answer = Kerala.",
+      "explanation_concept_en": "Kathakali is associated with Kerala. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Kerala.",
+      "explanation_method_hi": "Fixed fact याद रखें: Kathakali Kerala से associated है। अतः answer = Kerala।",
+      "explanation_concept_hi": "Kathakali Kerala से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Kerala है।"
+    },
+    {
+      "id": "gaculture-03",
+      "stem_en": "Sattriya dance is associated with:",
+      "stem_hi": "Sattriya dance किस state से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "dance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Gujarat को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Tamil Nadu",
+          "text_hi": "Tamil Nadu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tamil Nadu with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Tamil Nadu को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Maharashtra with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Maharashtra को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Sattriya is associated with Assam. Therefore, answer = Assam.",
+      "explanation_concept_en": "Sattriya is associated with Assam. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Assam.",
+      "explanation_method_hi": "Fixed fact याद रखें: Sattriya Assam से associated है। अतः answer = Assam।",
+      "explanation_concept_hi": "Sattriya Assam से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Assam है।"
+    },
+    {
+      "id": "gaculture-04",
+      "stem_en": "Odissi dance is associated with:",
+      "stem_hi": "Odissi dance किस state से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "dance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Kerala को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Punjab को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Goa",
+          "text_hi": "Goa",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Goa with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Goa को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Odissi is associated with Odisha. Therefore, answer = Odisha.",
+      "explanation_concept_en": "Odissi is associated with Odisha. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Odisha.",
+      "explanation_method_hi": "Fixed fact याद रखें: Odissi Odisha से associated है। अतः answer = Odisha।",
+      "explanation_concept_hi": "Odissi Odisha से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Odisha है।"
+    },
+    {
+      "id": "gaculture-05",
+      "stem_en": "Kuchipudi is associated with:",
+      "stem_hi": "Kuchipudi किस state से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "dance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Andhra Pradesh",
+          "text_hi": "Andhra Pradesh",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Andhra Pradesh; the clue in the question points specifically to Andhra Pradesh.",
+          "trap_reason_hi": "Assam को Andhra Pradesh समझ लिया। Stem की clue specifically Andhra Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Haryana",
+          "text_hi": "Haryana",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Haryana with Andhra Pradesh; the clue in the question points specifically to Andhra Pradesh.",
+          "trap_reason_hi": "Haryana को Andhra Pradesh समझ लिया। Stem की clue specifically Andhra Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Jharkhand",
+          "text_hi": "Jharkhand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jharkhand with Andhra Pradesh; the clue in the question points specifically to Andhra Pradesh.",
+          "trap_reason_hi": "Jharkhand को Andhra Pradesh समझ लिया। Stem की clue specifically Andhra Pradesh की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Kuchipudi is associated with Andhra Pradesh. Therefore, answer = Andhra Pradesh.",
+      "explanation_concept_en": "Kuchipudi is associated with Andhra Pradesh. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Andhra Pradesh.",
+      "explanation_method_hi": "Fixed fact याद रखें: Kuchipudi Andhra Pradesh से associated है। अतः answer = Andhra Pradesh।",
+      "explanation_concept_hi": "Kuchipudi Andhra Pradesh से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Andhra Pradesh है।"
+    },
+    {
+      "id": "gaculture-06",
+      "stem_en": "Bihu is a major folk festival of:",
+      "stem_hi": "Bihu किस state का major folk festival है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "festivals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Kerala को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Punjab को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Tamil Nadu",
+          "text_hi": "Tamil Nadu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tamil Nadu with Assam; the clue in the question points specifically to Assam.",
+          "trap_reason_hi": "Tamil Nadu को Assam समझ लिया। Stem की clue specifically Assam की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Bihu is associated with Assam. Therefore, answer = Assam.",
+      "explanation_concept_en": "Bihu is associated with Assam. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Assam.",
+      "explanation_method_hi": "Fixed fact याद रखें: Bihu Assam से associated है। अतः answer = Assam।",
+      "explanation_concept_hi": "Bihu Assam से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Assam है।"
+    },
+    {
+      "id": "gaculture-07",
+      "stem_en": "Pongal is mainly celebrated in:",
+      "stem_hi": "Pongal mainly कहाँ celebrate होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "festivals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Punjab को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Bihar को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Tamil Nadu",
+          "text_hi": "Tamil Nadu",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rajasthan with Tamil Nadu; the clue in the question points specifically to Tamil Nadu.",
+          "trap_reason_hi": "Rajasthan को Tamil Nadu समझ लिया। Stem की clue specifically Tamil Nadu की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Pongal is a major Tamil Nadu harvest festival. Therefore, answer = Tamil Nadu.",
+      "explanation_concept_en": "Pongal is a major Tamil Nadu harvest festival. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Tamil Nadu.",
+      "explanation_method_hi": "Fixed fact याद रखें: Pongal Tamil Nadu का harvest festival है। अतः answer = Tamil Nadu।",
+      "explanation_concept_hi": "Pongal Tamil Nadu का harvest festival है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Tamil Nadu है।"
+    },
+    {
+      "id": "gaculture-08",
+      "stem_en": "Onam is mainly celebrated in:",
+      "stem_hi": "Onam mainly कहाँ celebrate होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "art-culture",
+        "festivals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Assam को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Himachal Pradesh",
+          "text_hi": "Himachal Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Himachal Pradesh with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Himachal Pradesh को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Madhya Pradesh",
+          "text_hi": "Madhya Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Madhya Pradesh with Kerala; the clue in the question points specifically to Kerala.",
+          "trap_reason_hi": "Madhya Pradesh को Kerala समझ लिया। Stem की clue specifically Kerala की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Onam is associated with Kerala. Therefore, answer = Kerala.",
+      "explanation_concept_en": "Onam is associated with Kerala. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Kerala.",
+      "explanation_method_hi": "Fixed fact याद रखें: Onam Kerala से associated है। अतः answer = Kerala।",
+      "explanation_concept_hi": "Onam Kerala से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Kerala है।"
+    },
+    {
+      "id": "gaculture-09",
+      "stem_en": "Lohri is mainly associated with:",
+      "stem_hi": "Lohri mainly किस region/state से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "festivals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Punjab; the clue in the question points specifically to Punjab.",
+          "trap_reason_hi": "Kerala को Punjab समझ लिया। Stem की clue specifically Punjab की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Punjab; the clue in the question points specifically to Punjab.",
+          "trap_reason_hi": "Odisha को Punjab समझ लिया। Stem की clue specifically Punjab की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Manipur",
+          "text_hi": "Manipur",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Manipur with Punjab; the clue in the question points specifically to Punjab.",
+          "trap_reason_hi": "Manipur को Punjab समझ लिया। Stem की clue specifically Punjab की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Lohri is strongly associated with Punjab. Therefore, answer = Punjab.",
+      "explanation_concept_en": "Lohri is strongly associated with Punjab. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Punjab.",
+      "explanation_method_hi": "Fixed fact याद रखें: Lohri Punjab से strongly associated है। अतः answer = Punjab।",
+      "explanation_concept_hi": "Lohri Punjab से strongly associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Punjab है।"
+    },
+    {
+      "id": "gaculture-10",
+      "stem_en": "Madhubani painting is associated with:",
+      "stem_hi": "Madhubani painting किस state से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "painting"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Goa",
+          "text_hi": "Goa",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Goa with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Goa को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Nagaland",
+          "text_hi": "Nagaland",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Nagaland with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Nagaland को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Haryana",
+          "text_hi": "Haryana",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Haryana with Bihar; the clue in the question points specifically to Bihar.",
+          "trap_reason_hi": "Haryana को Bihar समझ लिया। Stem की clue specifically Bihar की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Madhubani painting is associated with Bihar. Therefore, answer = Bihar.",
+      "explanation_concept_en": "Madhubani painting is associated with Bihar. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Bihar.",
+      "explanation_method_hi": "Fixed fact याद रखें: Madhubani painting Bihar से associated है। अतः answer = Bihar।",
+      "explanation_concept_hi": "Madhubani painting Bihar से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Bihar है।"
+    },
+    {
+      "id": "gaculture-11",
+      "stem_en": "Warli painting is associated with:",
+      "stem_hi": "Warli painting किस state से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "painting"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Punjab को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Assam को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Kerala को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Warli painting is associated with Maharashtra. Therefore, answer = Maharashtra.",
+      "explanation_concept_en": "Warli painting is associated with Maharashtra. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Maharashtra.",
+      "explanation_method_hi": "Fixed fact याद रखें: Warli painting Maharashtra से associated है। अतः answer = Maharashtra।",
+      "explanation_concept_hi": "Warli painting Maharashtra से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Maharashtra है।"
+    },
+    {
+      "id": "gaculture-12",
+      "stem_en": "Pattachitra painting is associated with:",
+      "stem_hi": "Pattachitra painting किस state से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "painting"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Gujarat को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Uttarakhand",
+          "text_hi": "Uttarakhand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Uttarakhand with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Uttarakhand को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Bihar को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Pattachitra is associated with Odisha. Therefore, answer = Odisha.",
+      "explanation_concept_en": "Pattachitra is associated with Odisha. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Odisha.",
+      "explanation_method_hi": "Fixed fact याद रखें: Pattachitra Odisha से associated है। अतः answer = Odisha।",
+      "explanation_concept_hi": "Pattachitra Odisha से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Odisha है।"
+    },
+    {
+      "id": "gaculture-13",
+      "stem_en": "The author of Gitanjali was:",
+      "stem_hi": "Gitanjali के author कौन थे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "literature",
+        "indian-literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Rabindranath Tagore",
+          "text_hi": "Rabindranath Tagore",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Premchand",
+          "text_hi": "Premchand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Premchand with Rabindranath Tagore; the clue in the question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "Premchand को Rabindranath Tagore समझ लिया। Stem की clue specifically Rabindranath Tagore की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "R. K. Narayan",
+          "text_hi": "R. K. Narayan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses R. K. Narayan with Rabindranath Tagore; the clue in the question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "R. K. Narayan को Rabindranath Tagore समझ लिया। Stem की clue specifically Rabindranath Tagore की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bankim Chandra Chatterjee",
+          "text_hi": "Bankim Chandra Chatterjee",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bankim Chandra Chatterjee with Rabindranath Tagore; the clue in the question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "Bankim Chandra Chatterjee को Rabindranath Tagore समझ लिया। Stem की clue specifically Rabindranath Tagore की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Gitanjali was written by Rabindranath Tagore. Therefore, answer = Rabindranath Tagore.",
+      "explanation_concept_en": "Gitanjali was written by Rabindranath Tagore. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Rabindranath Tagore.",
+      "explanation_method_hi": "Fixed fact याद रखें: Gitanjali Rabindranath Tagore ने लिखी। अतः answer = Rabindranath Tagore।",
+      "explanation_concept_hi": "Gitanjali Rabindranath Tagore ने लिखी। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Rabindranath Tagore है।"
+    },
+    {
+      "id": "gaculture-14",
+      "stem_en": "Godan was written by:",
+      "stem_hi": "Godan किसने लिखी?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "literature",
+        "indian-literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mahadevi Verma",
+          "text_hi": "Mahadevi Verma",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mahadevi Verma with Premchand; the clue in the question points specifically to Premchand.",
+          "trap_reason_hi": "Mahadevi Verma को Premchand समझ लिया। Stem की clue specifically Premchand की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Premchand",
+          "text_hi": "Premchand",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Harivansh Rai Bachchan",
+          "text_hi": "Harivansh Rai Bachchan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Harivansh Rai Bachchan with Premchand; the clue in the question points specifically to Premchand.",
+          "trap_reason_hi": "Harivansh Rai Bachchan को Premchand समझ लिया। Stem की clue specifically Premchand की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Mulk Raj Anand",
+          "text_hi": "Mulk Raj Anand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mulk Raj Anand with Premchand; the clue in the question points specifically to Premchand.",
+          "trap_reason_hi": "Mulk Raj Anand को Premchand समझ लिया। Stem की clue specifically Premchand की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Godan is a novel by Premchand. Therefore, answer = Premchand.",
+      "explanation_concept_en": "Godan is a novel by Premchand. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Premchand.",
+      "explanation_method_hi": "Fixed fact याद रखें: Godan Premchand का novel है। अतः answer = Premchand।",
+      "explanation_concept_hi": "Godan Premchand का novel है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Premchand है।"
+    },
+    {
+      "id": "gaculture-15",
+      "stem_en": "Anandamath was written by:",
+      "stem_hi": "Anandamath किसने लिखी?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "literature",
+        "indian-literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Rabindranath Tagore",
+          "text_hi": "Rabindranath Tagore",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rabindranath Tagore with Bankim Chandra Chatterjee; the clue in the question points specifically to Bankim Chandra Chatterjee.",
+          "trap_reason_hi": "Rabindranath Tagore को Bankim Chandra Chatterjee समझ लिया। Stem की clue specifically Bankim Chandra Chatterjee की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sarojini Naidu",
+          "text_hi": "Sarojini Naidu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sarojini Naidu with Bankim Chandra Chatterjee; the clue in the question points specifically to Bankim Chandra Chatterjee.",
+          "trap_reason_hi": "Sarojini Naidu को Bankim Chandra Chatterjee समझ लिया। Stem की clue specifically Bankim Chandra Chatterjee की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bankim Chandra Chatterjee",
+          "text_hi": "Bankim Chandra Chatterjee",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Premchand",
+          "text_hi": "Premchand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Premchand with Bankim Chandra Chatterjee; the clue in the question points specifically to Bankim Chandra Chatterjee.",
+          "trap_reason_hi": "Premchand को Bankim Chandra Chatterjee समझ लिया। Stem की clue specifically Bankim Chandra Chatterjee की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Anandamath was written by Bankim Chandra Chatterjee. Therefore, answer = Bankim Chandra Chatterjee.",
+      "explanation_concept_en": "Anandamath was written by Bankim Chandra Chatterjee. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Bankim Chandra Chatterjee.",
+      "explanation_method_hi": "Fixed fact याद रखें: Anandamath Bankim Chandra Chatterjee ने लिखी। अतः answer = Bankim Chandra Chatterjee।",
+      "explanation_concept_hi": "Anandamath Bankim Chandra Chatterjee ने लिखी। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Bankim Chandra Chatterjee है।"
+    },
+    {
+      "id": "gaculture-16",
+      "stem_en": "The Discovery of India was written by:",
+      "stem_hi": "The Discovery of India किसने लिखी?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "literature",
+        "indian-literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mahatma Gandhi",
+          "text_hi": "Mahatma Gandhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mahatma Gandhi with Jawaharlal Nehru; the clue in the question points specifically to Jawaharlal Nehru.",
+          "trap_reason_hi": "Mahatma Gandhi को Jawaharlal Nehru समझ लिया। Stem की clue specifically Jawaharlal Nehru की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "B. R. Ambedkar",
+          "text_hi": "B. R. Ambedkar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses B. R. Ambedkar with Jawaharlal Nehru; the clue in the question points specifically to Jawaharlal Nehru.",
+          "trap_reason_hi": "B. R. Ambedkar को Jawaharlal Nehru समझ लिया। Stem की clue specifically Jawaharlal Nehru की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sardar Patel",
+          "text_hi": "Sardar Patel",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sardar Patel with Jawaharlal Nehru; the clue in the question points specifically to Jawaharlal Nehru.",
+          "trap_reason_hi": "Sardar Patel को Jawaharlal Nehru समझ लिया। Stem की clue specifically Jawaharlal Nehru की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Jawaharlal Nehru",
+          "text_hi": "Jawaharlal Nehru",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The Discovery of India was written by Jawaharlal Nehru. Therefore, answer = Jawaharlal Nehru.",
+      "explanation_concept_en": "The Discovery of India was written by Jawaharlal Nehru. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Jawaharlal Nehru.",
+      "explanation_method_hi": "Fixed fact याद रखें: The Discovery of India Jawaharlal Nehru ने लिखी। अतः answer = Jawaharlal Nehru।",
+      "explanation_concept_hi": "The Discovery of India Jawaharlal Nehru ने लिखी। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Jawaharlal Nehru है।"
+    },
+    {
+      "id": "gaculture-17",
+      "stem_en": "Wings of Fire is associated with:",
+      "stem_hi": "Wings of Fire किससे associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "literature",
+        "indian-literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "A. P. J. Abdul Kalam",
+          "text_hi": "A. P. J. Abdul Kalam",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "C. V. Raman",
+          "text_hi": "C. V. Raman",
+          "is_correct": false,
+          "trap_reason_en": "Confuses C. V. Raman with A. P. J. Abdul Kalam; the clue in the question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "C. V. Raman को A. P. J. Abdul Kalam समझ लिया। Stem की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Vikram Sarabhai",
+          "text_hi": "Vikram Sarabhai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vikram Sarabhai with A. P. J. Abdul Kalam; the clue in the question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "Vikram Sarabhai को A. P. J. Abdul Kalam समझ लिया। Stem की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Homi Bhabha",
+          "text_hi": "Homi Bhabha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Homi Bhabha with A. P. J. Abdul Kalam; the clue in the question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "Homi Bhabha को A. P. J. Abdul Kalam समझ लिया। Stem की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Wings of Fire is associated with A. P. J. Abdul Kalam. Therefore, answer = A. P. J. Abdul Kalam.",
+      "explanation_concept_en": "Wings of Fire is associated with A. P. J. Abdul Kalam. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is A. P. J. Abdul Kalam.",
+      "explanation_method_hi": "Fixed fact याद रखें: Wings of Fire A. P. J. Abdul Kalam से associated है। अतः answer = A. P. J. Abdul Kalam।",
+      "explanation_concept_hi": "Wings of Fire A. P. J. Abdul Kalam से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer A. P. J. Abdul Kalam है।"
+    },
+    {
+      "id": "gaculture-18",
+      "stem_en": "The Sanchi Stupa is located in:",
+      "stem_hi": "Sanchi Stupa किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Bihar को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Madhya Pradesh",
+          "text_hi": "Madhya Pradesh",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Odisha को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Gujarat को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Sanchi Stupa is in Madhya Pradesh. Therefore, answer = Madhya Pradesh.",
+      "explanation_concept_en": "Sanchi Stupa is in Madhya Pradesh. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Madhya Pradesh.",
+      "explanation_method_hi": "Fixed fact याद रखें: Sanchi Stupa Madhya Pradesh में है। अतः answer = Madhya Pradesh।",
+      "explanation_concept_hi": "Sanchi Stupa Madhya Pradesh में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Madhya Pradesh है।"
+    },
+    {
+      "id": "gaculture-19",
+      "stem_en": "The Sun Temple at Konark is in:",
+      "stem_hi": "Konark Sun Temple किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Gujarat को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Tamil Nadu",
+          "text_hi": "Tamil Nadu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tamil Nadu with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Tamil Nadu को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rajasthan with Odisha; the clue in the question points specifically to Odisha.",
+          "trap_reason_hi": "Rajasthan को Odisha समझ लिया। Stem की clue specifically Odisha की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Konark Sun Temple is in Odisha. Therefore, answer = Odisha.",
+      "explanation_concept_en": "Konark Sun Temple is in Odisha. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Odisha.",
+      "explanation_method_hi": "Fixed fact याद रखें: Konark Sun Temple Odisha में है। अतः answer = Odisha।",
+      "explanation_concept_hi": "Konark Sun Temple Odisha में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Odisha है।"
+    },
+    {
+      "id": "gaculture-20",
+      "stem_en": "Hampi is located in:",
+      "stem_hi": "Hampi किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Karnataka; the clue in the question points specifically to Karnataka.",
+          "trap_reason_hi": "Kerala को Karnataka समझ लिया। Stem की clue specifically Karnataka की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Karnataka; the clue in the question points specifically to Karnataka.",
+          "trap_reason_hi": "Punjab को Karnataka समझ लिया। Stem की clue specifically Karnataka की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Karnataka; the clue in the question points specifically to Karnataka.",
+          "trap_reason_hi": "Bihar को Karnataka समझ लिया। Stem की clue specifically Karnataka की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Karnataka",
+          "text_hi": "Karnataka",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Hampi is in Karnataka. Therefore, answer = Karnataka.",
+      "explanation_concept_en": "Hampi is in Karnataka. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Karnataka.",
+      "explanation_method_hi": "Fixed fact याद रखें: Hampi Karnataka में है। अतः answer = Karnataka।",
+      "explanation_concept_hi": "Hampi Karnataka में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Karnataka है।"
+    },
+    {
+      "id": "gaculture-21",
+      "stem_en": "Khajuraho temples are in:",
+      "stem_hi": "Khajuraho temples किस state में हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Madhya Pradesh",
+          "text_hi": "Madhya Pradesh",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rajasthan with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Rajasthan को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Maharashtra with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Maharashtra को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Madhya Pradesh; the clue in the question points specifically to Madhya Pradesh.",
+          "trap_reason_hi": "Assam को Madhya Pradesh समझ लिया। Stem की clue specifically Madhya Pradesh की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Khajuraho temples are in Madhya Pradesh. Therefore, answer = Madhya Pradesh.",
+      "explanation_concept_en": "Khajuraho temples are in Madhya Pradesh. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Madhya Pradesh.",
+      "explanation_method_hi": "Fixed fact याद रखें: Khajuraho temples Madhya Pradesh में हैं। अतः answer = Madhya Pradesh।",
+      "explanation_concept_hi": "Khajuraho temples Madhya Pradesh में हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Madhya Pradesh है।"
+    },
+    {
+      "id": "gaculture-22",
+      "stem_en": "The Ajanta caves are famous mainly for:",
+      "stem_hi": "Ajanta caves mainly किसके लिए famous हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "modern glass towers",
+          "text_hi": "modern glass towers",
+          "is_correct": false,
+          "trap_reason_en": "Confuses modern glass towers with paintings; the clue in the question points specifically to paintings.",
+          "trap_reason_hi": "modern glass towers को paintings समझ लिया। Stem की clue specifically paintings की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "paintings",
+          "text_hi": "paintings",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "rail bridges",
+          "text_hi": "rail bridges",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail bridges with paintings; the clue in the question points specifically to paintings.",
+          "trap_reason_hi": "rail bridges को paintings समझ लिया। Stem की clue specifically paintings की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "desert forts only",
+          "text_hi": "desert forts only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses desert forts only with paintings; the clue in the question points specifically to paintings.",
+          "trap_reason_hi": "desert forts only को paintings समझ लिया। Stem की clue specifically paintings की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Ajanta caves are famous for ancient paintings. Therefore, answer = paintings.",
+      "explanation_concept_en": "Ajanta caves are famous for ancient paintings. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is paintings.",
+      "explanation_method_hi": "Fixed fact याद रखें: Ajanta caves ancient paintings के लिए famous हैं। अतः answer = paintings।",
+      "explanation_concept_hi": "Ajanta caves ancient paintings के लिए famous हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer paintings है।"
+    },
+    {
+      "id": "gaculture-23",
+      "stem_en": "The language of the earliest Buddhist texts is mainly:",
+      "stem_hi": "Earliest Buddhist texts की main language कौन-सी है?",
+      "difficulty": "HARD",
+      "tags": [
+        "art-culture",
+        "literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Persian",
+          "text_hi": "Persian",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Persian with Pali; the clue in the question points specifically to Pali.",
+          "trap_reason_hi": "Persian को Pali समझ लिया। Stem की clue specifically Pali की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Tamil only",
+          "text_hi": "Tamil only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tamil only with Pali; the clue in the question points specifically to Pali.",
+          "trap_reason_hi": "Tamil only को Pali समझ लिया। Stem की clue specifically Pali की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Pali",
+          "text_hi": "Pali",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "English",
+          "text_hi": "English",
+          "is_correct": false,
+          "trap_reason_en": "Confuses English with Pali; the clue in the question points specifically to Pali.",
+          "trap_reason_hi": "English को Pali समझ लिया। Stem की clue specifically Pali की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Early Buddhist texts are mainly in Pali. Therefore, answer = Pali.",
+      "explanation_concept_en": "Early Buddhist texts are mainly in Pali. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Pali.",
+      "explanation_method_hi": "Fixed fact याद रखें: Early Buddhist texts mainly Pali में हैं। अतः answer = Pali।",
+      "explanation_concept_hi": "Early Buddhist texts mainly Pali में हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Pali है।"
+    },
+    {
+      "id": "gaculture-24",
+      "stem_en": "The Sangam literature is associated with:",
+      "stem_hi": "Sangam literature किस language से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "art-culture",
+        "literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Pali",
+          "text_hi": "Pali",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Pali with Tamil; the clue in the question points specifically to Tamil.",
+          "trap_reason_hi": "Pali को Tamil समझ लिया। Stem की clue specifically Tamil की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Persian",
+          "text_hi": "Persian",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Persian with Tamil; the clue in the question points specifically to Tamil.",
+          "trap_reason_hi": "Persian को Tamil समझ लिया। Stem की clue specifically Tamil की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Urdu only",
+          "text_hi": "Urdu only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Urdu only with Tamil; the clue in the question points specifically to Tamil.",
+          "trap_reason_hi": "Urdu only को Tamil समझ लिया। Stem की clue specifically Tamil की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Tamil",
+          "text_hi": "Tamil",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Sangam literature is associated with Tamil. Therefore, answer = Tamil.",
+      "explanation_concept_en": "Sangam literature is associated with Tamil. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Tamil.",
+      "explanation_method_hi": "Fixed fact याद रखें: Sangam literature Tamil से associated है। अतः answer = Tamil।",
+      "explanation_concept_hi": "Sangam literature Tamil से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Tamil है।"
+    },
+    {
+      "id": "gaculture-25",
+      "stem_en": "The Ellora caves are located in:",
+      "stem_hi": "Ellora caves कहाँ located हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "art-culture",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Bihar को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Kerala को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Maharashtra; the clue in the question points specifically to Maharashtra.",
+          "trap_reason_hi": "Punjab को Maharashtra समझ लिया। Stem की clue specifically Maharashtra की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Ellora caves are in Maharashtra. Therefore, answer = Maharashtra.",
+      "explanation_concept_en": "Ellora caves are in Maharashtra. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Maharashtra.",
+      "explanation_method_hi": "Fixed fact याद रखें: Ellora caves Maharashtra में हैं। अतः answer = Maharashtra।",
+      "explanation_concept_hi": "Ellora caves Maharashtra में हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Maharashtra है।"
+    }
+  ]
+}

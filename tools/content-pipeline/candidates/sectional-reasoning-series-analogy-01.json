@@ -1,0 +1,1264 @@
+{
+  "_doc": "Coverage sectional — Series & Analogy. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-reasoning-series-analogy-01",
+  "title_en": "Series & Analogy — Sectional",
+  "title_hi": "Series & Analogy — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Series & Analogy",
+    "title_hi": "Series & Analogy",
+    "subject_hint": "reason"
+  },
+  "questions": [
+    {
+      "id": "rseries-01",
+      "stem_en": "Find the next term: 3, 7, 13, 21, 31, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 3, 7, 13, 21, 31, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "43",
+          "text_hi": "43",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "41",
+          "text_hi": "41",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 10 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 10 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "39",
+          "text_hi": "39",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 8 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 8 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "33",
+          "text_hi": "33",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 4, 6, 8, 10; next difference = 12. Therefore, answer = 43.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 43.",
+      "explanation_method_hi": "Differences 4, 6, 8, 10 हैं; next difference = 12। अतः answer = 43।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 43 है।"
+    },
+    {
+      "id": "rseries-02",
+      "stem_en": "Find the next term: 5, 11, 19, 29, 41, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 5, 11, 19, 29, 41, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "53",
+          "text_hi": "53",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 12 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 12 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 10 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 10 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "43",
+          "text_hi": "43",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 6, 8, 10, 12; next difference = 14. Therefore, answer = 55.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 55.",
+      "explanation_method_hi": "Differences 6, 8, 10, 12 हैं; next difference = 14। अतः answer = 55।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 55 है।"
+    },
+    {
+      "id": "rseries-03",
+      "stem_en": "Find the next term: 2, 6, 12, 20, 30, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 2, 6, 12, 20, 30, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 10 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 10 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "38",
+          "text_hi": "38",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 8 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 8 use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 4, 6, 8, 10; next difference = 12. Therefore, answer = 42.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 42.",
+      "explanation_method_hi": "Differences 4, 6, 8, 10 हैं; next difference = 12। अतः answer = 42।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 42 है।"
+    },
+    {
+      "id": "rseries-04",
+      "stem_en": "Find the next term: 4, 9, 16, 25, 36, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 4, 9, 16, 25, 36, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "47",
+          "text_hi": "47",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 11 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 11 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "45",
+          "text_hi": "45",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 9 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 9 use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "38",
+          "text_hi": "38",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "49",
+          "text_hi": "49",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Differences are 5, 7, 9, 11; next difference = 13. Therefore, answer = 49.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 49.",
+      "explanation_method_hi": "Differences 5, 7, 9, 11 हैं; next difference = 13। अतः answer = 49।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 49 है।"
+    },
+    {
+      "id": "rseries-05",
+      "stem_en": "Find the next term: 10, 20, 35, 55, 80, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 10, 20, 35, 55, 80, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "110",
+          "text_hi": "110",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "105",
+          "text_hi": "105",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 25 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 25 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "100",
+          "text_hi": "100",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 20 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 20 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "85",
+          "text_hi": "85",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 5, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 5 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 10, 15, 20, 25; next difference = 30. Therefore, answer = 110.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 110.",
+      "explanation_method_hi": "Differences 10, 15, 20, 25 हैं; next difference = 30। अतः answer = 110।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 110 है।"
+    },
+    {
+      "id": "rseries-06",
+      "stem_en": "Find the next term: 1, 4, 9, 16, 25, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 1, 4, 9, 16, 25, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "34",
+          "text_hi": "34",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 9 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 9 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "36",
+          "text_hi": "36",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 7 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 7 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "27",
+          "text_hi": "27",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 3, 5, 7, 9; next difference = 11. Therefore, answer = 36.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 36.",
+      "explanation_method_hi": "Differences 3, 5, 7, 9 हैं; next difference = 11। अतः answer = 36।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 36 है।"
+    },
+    {
+      "id": "rseries-07",
+      "stem_en": "Find the next term: 2, 8, 18, 32, 50, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 2, 8, 18, 32, 50, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "68",
+          "text_hi": "68",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 18 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 18 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 14 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 14 use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "54",
+          "text_hi": "54",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 4, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 4 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 6, 10, 14, 18; next difference = 22. Therefore, answer = 72.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 72.",
+      "explanation_method_hi": "Differences 6, 10, 14, 18 हैं; next difference = 22। अतः answer = 72।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 72 है।"
+    },
+    {
+      "id": "rseries-08",
+      "stem_en": "Find the next term: 8, 15, 24, 35, 48, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 8, 15, 24, 35, 48, ?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 13 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 13 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "59",
+          "text_hi": "59",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 11 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 11 use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "50",
+          "text_hi": "50",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "63",
+          "text_hi": "63",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Differences are 7, 9, 11, 13; next difference = 15. Therefore, answer = 63.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 63.",
+      "explanation_method_hi": "Differences 7, 9, 11, 13 हैं; next difference = 15। अतः answer = 63।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 63 है।"
+    },
+    {
+      "id": "rseries-09",
+      "stem_en": "Find the next term: 11, 22, 36, 53, 73, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 11, 22, 36, 53, 73, ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "96",
+          "text_hi": "96",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "93",
+          "text_hi": "93",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 20 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 20 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 17 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 17 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "76",
+          "text_hi": "76",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 3, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 3 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 11, 14, 17, 20; next difference = 23. Therefore, answer = 96.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 96.",
+      "explanation_method_hi": "Differences 11, 14, 17, 20 हैं; next difference = 23। अतः answer = 96।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 96 है।"
+    },
+    {
+      "id": "rseries-10",
+      "stem_en": "Find the next term: 6, 13, 22, 33, 46, ?",
+      "stem_hi": "Next term ज्ञात कीजिए: 6, 13, 22, 33, 46, ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "series"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "59",
+          "text_hi": "59",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the previous difference 13 and missed the change in differences.",
+          "trap_reason_hi": "Previous difference 13 repeat कर दिया और differences का change miss किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "57",
+          "text_hi": "57",
+          "is_correct": false,
+          "trap_reason_en": "Used the older difference 11 instead of the next expected difference.",
+          "trap_reason_hi": "Next expected difference की जगह older difference 11 use किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": false,
+          "trap_reason_en": "Added only the increment in differences 2, not the full next difference.",
+          "trap_reason_hi": "सिर्फ difference increment 2 add किया, full next difference नहीं।"
+        }
+      ],
+      "explanation_method_en": "Differences are 7, 9, 11, 13; next difference = 15. Therefore, answer = 61.",
+      "explanation_concept_en": "Number series questions are solved by checking first differences, ratios, or square/cube patterns before guessing a term. Final answer is 61.",
+      "explanation_method_hi": "Differences 7, 9, 11, 13 हैं; next difference = 15। अतः answer = 61।",
+      "explanation_concept_hi": "Number series में first differences, ratios या square/cube pattern check करके next term चुनते हैं। Final answer 61 है।"
+    },
+    {
+      "id": "rseries-11",
+      "stem_en": "Doctor is related to Hospital in the same way as Teacher is related to:",
+      "stem_hi": "Doctor, Hospital से related है उसी तरह Teacher किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Hospital",
+          "text_hi": "Hospital",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Teacher.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Teacher पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Doctor",
+          "text_hi": "Doctor",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "School",
+          "text_hi": "School",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Teacher",
+          "text_hi": "Teacher",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Doctor -> Hospital; applying the same relation gives Teacher -> School. Therefore, answer = School.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is School.",
+      "explanation_method_hi": "Doctor -> Hospital relation पहचानें; same relation लगाने पर Teacher -> School मिलता है। अतः answer = School।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer School है।"
+    },
+    {
+      "id": "rseries-12",
+      "stem_en": "Pen is related to Write in the same way as Knife is related to:",
+      "stem_hi": "Pen, Write से related है उसी तरह Knife किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Write",
+          "text_hi": "Write",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Knife.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Knife पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Pen",
+          "text_hi": "Pen",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Knife",
+          "text_hi": "Knife",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        },
+        {
+          "label": "D",
+          "text_en": "Cut",
+          "text_hi": "Cut",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Identify the relation Pen -> Write; applying the same relation gives Knife -> Cut. Therefore, answer = Cut.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Cut.",
+      "explanation_method_hi": "Pen -> Write relation पहचानें; same relation लगाने पर Knife -> Cut मिलता है। अतः answer = Cut।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Cut है।"
+    },
+    {
+      "id": "rseries-13",
+      "stem_en": "Bird is related to Nest in the same way as Bee is related to:",
+      "stem_hi": "Bird, Nest से related है उसी तरह Bee किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Hive",
+          "text_hi": "Hive",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Nest",
+          "text_hi": "Nest",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Bee.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Bee पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bird",
+          "text_hi": "Bird",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bee",
+          "text_hi": "Bee",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Bird -> Nest; applying the same relation gives Bee -> Hive. Therefore, answer = Hive.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Hive.",
+      "explanation_method_hi": "Bird -> Nest relation पहचानें; same relation लगाने पर Bee -> Hive मिलता है। अतः answer = Hive।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Hive है।"
+    },
+    {
+      "id": "rseries-14",
+      "stem_en": "Author is related to Book in the same way as Painter is related to:",
+      "stem_hi": "Author, Book से related है उसी तरह Painter किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Book",
+          "text_hi": "Book",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Painter.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Painter पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Painting",
+          "text_hi": "Painting",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Author",
+          "text_hi": "Author",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Painter",
+          "text_hi": "Painter",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Author -> Book; applying the same relation gives Painter -> Painting. Therefore, answer = Painting.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Painting.",
+      "explanation_method_hi": "Author -> Book relation पहचानें; same relation लगाने पर Painter -> Painting मिलता है। अतः answer = Painting।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Painting है।"
+    },
+    {
+      "id": "rseries-15",
+      "stem_en": "Clock is related to Time in the same way as Thermometer is related to:",
+      "stem_hi": "Clock, Time से related है उसी तरह Thermometer किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Time",
+          "text_hi": "Time",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Thermometer.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Thermometer पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Clock",
+          "text_hi": "Clock",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Temperature",
+          "text_hi": "Temperature",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Thermometer",
+          "text_hi": "Thermometer",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Clock -> Time; applying the same relation gives Thermometer -> Temperature. Therefore, answer = Temperature.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Temperature.",
+      "explanation_method_hi": "Clock -> Time relation पहचानें; same relation लगाने पर Thermometer -> Temperature मिलता है। अतः answer = Temperature।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Temperature है।"
+    },
+    {
+      "id": "rseries-16",
+      "stem_en": "Seed is related to Plant in the same way as Egg is related to:",
+      "stem_hi": "Seed, Plant से related है उसी तरह Egg किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Plant",
+          "text_hi": "Plant",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Egg.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Egg पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Seed",
+          "text_hi": "Seed",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Egg",
+          "text_hi": "Egg",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bird",
+          "text_hi": "Bird",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Identify the relation Seed -> Plant; applying the same relation gives Egg -> Bird. Therefore, answer = Bird.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Bird.",
+      "explanation_method_hi": "Seed -> Plant relation पहचानें; same relation लगाने पर Egg -> Bird मिलता है। अतः answer = Bird।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Bird है।"
+    },
+    {
+      "id": "rseries-17",
+      "stem_en": "Carpenter is related to Wood in the same way as Mason is related to:",
+      "stem_hi": "Carpenter, Wood से related है उसी तरह Mason किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Brick",
+          "text_hi": "Brick",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Wood",
+          "text_hi": "Wood",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Mason.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Mason पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Carpenter",
+          "text_hi": "Carpenter",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Mason",
+          "text_hi": "Mason",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Carpenter -> Wood; applying the same relation gives Mason -> Brick. Therefore, answer = Brick.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Brick.",
+      "explanation_method_hi": "Carpenter -> Wood relation पहचानें; same relation लगाने पर Mason -> Brick मिलता है। अतः answer = Brick।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Brick है।"
+    },
+    {
+      "id": "rseries-18",
+      "stem_en": "Eye is related to See in the same way as Ear is related to:",
+      "stem_hi": "Eye, See से related है उसी तरह Ear किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "See",
+          "text_hi": "See",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Ear.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Ear पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Hear",
+          "text_hi": "Hear",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Eye",
+          "text_hi": "Eye",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Ear",
+          "text_hi": "Ear",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Eye -> See; applying the same relation gives Ear -> Hear. Therefore, answer = Hear.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Hear.",
+      "explanation_method_hi": "Eye -> See relation पहचानें; same relation लगाने पर Ear -> Hear मिलता है। अतः answer = Hear।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Hear है।"
+    },
+    {
+      "id": "rseries-19",
+      "stem_en": "Oxygen is related to Breathing in the same way as Food is related to:",
+      "stem_hi": "Oxygen, Breathing से related है उसी तरह Food किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Breathing",
+          "text_hi": "Breathing",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Food.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Food पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Oxygen",
+          "text_hi": "Oxygen",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Eating",
+          "text_hi": "Eating",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Food",
+          "text_hi": "Food",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Oxygen -> Breathing; applying the same relation gives Food -> Eating. Therefore, answer = Eating.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Eating.",
+      "explanation_method_hi": "Oxygen -> Breathing relation पहचानें; same relation लगाने पर Food -> Eating मिलता है। अतः answer = Eating।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Eating है।"
+    },
+    {
+      "id": "rseries-20",
+      "stem_en": "Library is related to Books in the same way as Museum is related to:",
+      "stem_hi": "Library, Books से related है उसी तरह Museum किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Books",
+          "text_hi": "Books",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Museum.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Museum पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Library",
+          "text_hi": "Library",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Museum",
+          "text_hi": "Museum",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        },
+        {
+          "label": "D",
+          "text_en": "Artifacts",
+          "text_hi": "Artifacts",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Identify the relation Library -> Books; applying the same relation gives Museum -> Artifacts. Therefore, answer = Artifacts.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Artifacts.",
+      "explanation_method_hi": "Library -> Books relation पहचानें; same relation लगाने पर Museum -> Artifacts मिलता है। अतः answer = Artifacts।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Artifacts है।"
+    },
+    {
+      "id": "rseries-21",
+      "stem_en": "Compass is related to Direction in the same way as Scale is related to:",
+      "stem_hi": "Compass, Direction से related है उसी तरह Scale किससे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Length",
+          "text_hi": "Length",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Direction",
+          "text_hi": "Direction",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Scale.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Scale पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Compass",
+          "text_hi": "Compass",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Scale",
+          "text_hi": "Scale",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Compass -> Direction; applying the same relation gives Scale -> Length. Therefore, answer = Length.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Length.",
+      "explanation_method_hi": "Compass -> Direction relation पहचानें; same relation लगाने पर Scale -> Length मिलता है। अतः answer = Length।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Length है।"
+    },
+    {
+      "id": "rseries-22",
+      "stem_en": "Farmer is related to Field in the same way as Fisherman is related to:",
+      "stem_hi": "Farmer, Field से related है उसी तरह Fisherman किससे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Field",
+          "text_hi": "Field",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Fisherman.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Fisherman पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sea",
+          "text_hi": "Sea",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Farmer",
+          "text_hi": "Farmer",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Fisherman",
+          "text_hi": "Fisherman",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Farmer -> Field; applying the same relation gives Fisherman -> Sea. Therefore, answer = Sea.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Sea.",
+      "explanation_method_hi": "Farmer -> Field relation पहचानें; same relation लगाने पर Fisherman -> Sea मिलता है। अतः answer = Sea।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Sea है।"
+    },
+    {
+      "id": "rseries-23",
+      "stem_en": "Pilot is related to Aircraft in the same way as Driver is related to:",
+      "stem_hi": "Pilot, Aircraft से related है उसी तरह Driver किससे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Aircraft",
+          "text_hi": "Aircraft",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Driver.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Driver पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Pilot",
+          "text_hi": "Pilot",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Bus",
+          "text_hi": "Bus",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Driver",
+          "text_hi": "Driver",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Pilot -> Aircraft; applying the same relation gives Driver -> Bus. Therefore, answer = Bus.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Bus.",
+      "explanation_method_hi": "Pilot -> Aircraft relation पहचानें; same relation लगाने पर Driver -> Bus मिलता है। अतः answer = Bus।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Bus है।"
+    },
+    {
+      "id": "rseries-24",
+      "stem_en": "Tailor is related to Cloth in the same way as Cobbler is related to:",
+      "stem_hi": "Tailor, Cloth से related है उसी तरह Cobbler किससे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Cloth",
+          "text_hi": "Cloth",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Cobbler.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Cobbler पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Tailor",
+          "text_hi": "Tailor",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Cobbler",
+          "text_hi": "Cobbler",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        },
+        {
+          "label": "D",
+          "text_en": "Leather",
+          "text_hi": "Leather",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Identify the relation Tailor -> Cloth; applying the same relation gives Cobbler -> Leather. Therefore, answer = Leather.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Leather.",
+      "explanation_method_hi": "Tailor -> Cloth relation पहचानें; same relation लगाने पर Cobbler -> Leather मिलता है। अतः answer = Leather।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Leather है।"
+    },
+    {
+      "id": "rseries-25",
+      "stem_en": "Judge is related to Court in the same way as Doctor is related to:",
+      "stem_hi": "Judge, Court से related है उसी तरह Doctor किससे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "analogy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Clinic",
+          "text_hi": "Clinic",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Court",
+          "text_hi": "Court",
+          "is_correct": false,
+          "trap_reason_en": "Copied the first pair's second term instead of applying the same relation to Doctor.",
+          "trap_reason_hi": "First pair का second term copy कर दिया, Doctor पर same relation apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Judge",
+          "text_hi": "Judge",
+          "is_correct": false,
+          "trap_reason_en": "Picked the first pair's first term and broke the analogy relation.",
+          "trap_reason_hi": "First pair का first term चुन लिया और analogy relation टूट गया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Doctor",
+          "text_hi": "Doctor",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given third term instead of finding its related object/action/place.",
+          "trap_reason_hi": "Given third term repeat कर दिया, उसका related object/action/place नहीं निकाला।"
+        }
+      ],
+      "explanation_method_en": "Identify the relation Judge -> Court; applying the same relation gives Doctor -> Clinic. Therefore, answer = Clinic.",
+      "explanation_concept_en": "Analogy questions test relation transfer. The word pair relation must remain identical in the second pair. Final answer is Clinic.",
+      "explanation_method_hi": "Judge -> Court relation पहचानें; same relation लगाने पर Doctor -> Clinic मिलता है। अतः answer = Clinic।",
+      "explanation_concept_hi": "Analogy questions relation transfer test करते हैं। Second pair में relation same रहना चाहिए। Final answer Clinic है।"
+    }
+  ]
+}

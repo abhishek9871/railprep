@@ -1,0 +1,1264 @@
+{
+  "_doc": "Coverage sectional — Operations & Data Sufficiency. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-reasoning-operations-data-sufficiency-01",
+  "title_en": "Operations & Data Sufficiency — Sectional",
+  "title_hi": "Operations & Data Sufficiency — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Operations & Data Sufficiency",
+    "title_hi": "Operations & Data Sufficiency",
+    "subject_hint": "reason"
+  },
+  "questions": [
+    {
+      "id": "rops-01",
+      "stem_en": "If A # B means A x B + 3, find 4 # 5.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 3 है, तो 4 # 5 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "23",
+          "text_hi": "23",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 4+5+3; # requires multiplication before adding 3.",
+          "trap_reason_hi": "A और B add कर दिए: 4+5+3; # में पहले multiplication फिर 3 add होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": false,
+          "trap_reason_en": "Added 3 to B before multiplication: 4 x (5+3).",
+          "trap_reason_hi": "3 को B में add करके multiplication किया: 4 x (5+3)।"
+        },
+        {
+          "label": "D",
+          "text_en": "17",
+          "text_hi": "17",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 3 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 3 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "4 # 5 = 4 x 5 + 3 = 23. Therefore, answer = 23.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 23.",
+      "explanation_method_hi": "4 # 5 = 4 x 5 + 3 = 23। अतः answer = 23।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 23 है।"
+    },
+    {
+      "id": "rops-02",
+      "stem_en": "If A # B means A x B + 7, find 6 # 2.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 7 है, तो 6 # 2 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "15",
+          "text_hi": "15",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 6+2+7; # requires multiplication before adding 7.",
+          "trap_reason_hi": "A और B add कर दिए: 6+2+7; # में पहले multiplication फिर 7 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "19",
+          "text_hi": "19",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "54",
+          "text_hi": "54",
+          "is_correct": false,
+          "trap_reason_en": "Added 7 to B before multiplication: 6 x (2+7).",
+          "trap_reason_hi": "7 को B में add करके multiplication किया: 6 x (2+7)।"
+        },
+        {
+          "label": "D",
+          "text_en": "5",
+          "text_hi": "5",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 7 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 7 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "6 # 2 = 6 x 2 + 7 = 19. Therefore, answer = 19.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 19.",
+      "explanation_method_hi": "6 # 2 = 6 x 2 + 7 = 19। अतः answer = 19।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 19 है।"
+    },
+    {
+      "id": "rops-03",
+      "stem_en": "If A # B means A x B + 5, find 8 # 3.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 5 है, तो 8 # 3 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 8+3+5; # requires multiplication before adding 5.",
+          "trap_reason_hi": "A और B add कर दिए: 8+3+5; # में पहले multiplication फिर 5 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Added 5 to B before multiplication: 8 x (3+5).",
+          "trap_reason_hi": "5 को B में add करके multiplication किया: 8 x (3+5)।"
+        },
+        {
+          "label": "C",
+          "text_en": "29",
+          "text_hi": "29",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "19",
+          "text_hi": "19",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 5 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 5 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "8 # 3 = 8 x 3 + 5 = 29. Therefore, answer = 29.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 29.",
+      "explanation_method_hi": "8 # 3 = 8 x 3 + 5 = 29। अतः answer = 29।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 29 है।"
+    },
+    {
+      "id": "rops-04",
+      "stem_en": "If A # B means A x B + 2, find 9 # 4.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 2 है, तो 9 # 4 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "15",
+          "text_hi": "15",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 9+4+2; # requires multiplication before adding 2.",
+          "trap_reason_hi": "A और B add कर दिए: 9+4+2; # में पहले multiplication फिर 2 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "54",
+          "text_hi": "54",
+          "is_correct": false,
+          "trap_reason_en": "Added 2 to B before multiplication: 9 x (4+2).",
+          "trap_reason_hi": "2 को B में add करके multiplication किया: 9 x (4+2)।"
+        },
+        {
+          "label": "C",
+          "text_en": "34",
+          "text_hi": "34",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 2 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 2 add करने की जगह subtract कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "38",
+          "text_hi": "38",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "9 # 4 = 9 x 4 + 2 = 38. Therefore, answer = 38.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 38.",
+      "explanation_method_hi": "9 # 4 = 9 x 4 + 2 = 38। अतः answer = 38।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 38 है।"
+    },
+    {
+      "id": "rops-05",
+      "stem_en": "If A # B means A x B + 3, find 7 # 6.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 3 है, तो 7 # 6 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "45",
+          "text_hi": "45",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 7+6+3; # requires multiplication before adding 3.",
+          "trap_reason_hi": "A और B add कर दिए: 7+6+3; # में पहले multiplication फिर 3 add होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "63",
+          "text_hi": "63",
+          "is_correct": false,
+          "trap_reason_en": "Added 3 to B before multiplication: 7 x (6+3).",
+          "trap_reason_hi": "3 को B में add करके multiplication किया: 7 x (6+3)।"
+        },
+        {
+          "label": "D",
+          "text_en": "39",
+          "text_hi": "39",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 3 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 3 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "7 # 6 = 7 x 6 + 3 = 45. Therefore, answer = 45.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 45.",
+      "explanation_method_hi": "7 # 6 = 7 x 6 + 3 = 45। अतः answer = 45।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 45 है।"
+    },
+    {
+      "id": "rops-06",
+      "stem_en": "If A # B means A x B + 4, find 5 # 8.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 4 है, तो 5 # 8 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "17",
+          "text_hi": "17",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 5+8+4; # requires multiplication before adding 4.",
+          "trap_reason_hi": "A और B add कर दिए: 5+8+4; # में पहले multiplication फिर 4 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "44",
+          "text_hi": "44",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Added 4 to B before multiplication: 5 x (8+4).",
+          "trap_reason_hi": "4 को B में add करके multiplication किया: 5 x (8+4)।"
+        },
+        {
+          "label": "D",
+          "text_en": "36",
+          "text_hi": "36",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 4 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 4 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "5 # 8 = 5 x 8 + 4 = 44. Therefore, answer = 44.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 44.",
+      "explanation_method_hi": "5 # 8 = 5 x 8 + 4 = 44। अतः answer = 44।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 44 है।"
+    },
+    {
+      "id": "rops-07",
+      "stem_en": "If A # B means A x B + 6, find 12 # 3.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 6 है, तो 12 # 3 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "21",
+          "text_hi": "21",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 12+3+6; # requires multiplication before adding 6.",
+          "trap_reason_hi": "A और B add कर दिए: 12+3+6; # में पहले multiplication फिर 6 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "108",
+          "text_hi": "108",
+          "is_correct": false,
+          "trap_reason_en": "Added 6 to B before multiplication: 12 x (3+6).",
+          "trap_reason_hi": "6 को B में add करके multiplication किया: 12 x (3+6)।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "30",
+          "text_hi": "30",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 6 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 6 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "12 # 3 = 12 x 3 + 6 = 42. Therefore, answer = 42.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 42.",
+      "explanation_method_hi": "12 # 3 = 12 x 3 + 6 = 42। अतः answer = 42।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 42 है।"
+    },
+    {
+      "id": "rops-08",
+      "stem_en": "If A # B means A x B + 2, find 10 # 7.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 2 है, तो 10 # 7 ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "19",
+          "text_hi": "19",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 10+7+2; # requires multiplication before adding 2.",
+          "trap_reason_hi": "A और B add कर दिए: 10+7+2; # में पहले multiplication फिर 2 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": false,
+          "trap_reason_en": "Added 2 to B before multiplication: 10 x (7+2).",
+          "trap_reason_hi": "2 को B में add करके multiplication किया: 10 x (7+2)।"
+        },
+        {
+          "label": "C",
+          "text_en": "68",
+          "text_hi": "68",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 2 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 2 add करने की जगह subtract कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "10 # 7 = 10 x 7 + 2 = 72. Therefore, answer = 72.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 72.",
+      "explanation_method_hi": "10 # 7 = 10 x 7 + 2 = 72। अतः answer = 72।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 72 है।"
+    },
+    {
+      "id": "rops-09",
+      "stem_en": "If A # B means A x B + 9, find 11 # 2.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 9 है, तो 11 # 2 ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "31",
+          "text_hi": "31",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "22",
+          "text_hi": "22",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 11+2+9; # requires multiplication before adding 9.",
+          "trap_reason_hi": "A और B add कर दिए: 11+2+9; # में पहले multiplication फिर 9 add होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "121",
+          "text_hi": "121",
+          "is_correct": false,
+          "trap_reason_en": "Added 9 to B before multiplication: 11 x (2+9).",
+          "trap_reason_hi": "9 को B में add करके multiplication किया: 11 x (2+9)।"
+        },
+        {
+          "label": "D",
+          "text_en": "13",
+          "text_hi": "13",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 9 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 9 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "11 # 2 = 11 x 2 + 9 = 31. Therefore, answer = 31.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 31.",
+      "explanation_method_hi": "11 # 2 = 11 x 2 + 9 = 31। अतः answer = 31।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 31 है।"
+    },
+    {
+      "id": "rops-10",
+      "stem_en": "If A # B means A x B + 4, find 13 # 5.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 4 है, तो 13 # 5 ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "22",
+          "text_hi": "22",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 13+5+4; # requires multiplication before adding 4.",
+          "trap_reason_hi": "A और B add कर दिए: 13+5+4; # में पहले multiplication फिर 4 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "69",
+          "text_hi": "69",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "117",
+          "text_hi": "117",
+          "is_correct": false,
+          "trap_reason_en": "Added 4 to B before multiplication: 13 x (5+4).",
+          "trap_reason_hi": "4 को B में add करके multiplication किया: 13 x (5+4)।"
+        },
+        {
+          "label": "D",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 4 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 4 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "13 # 5 = 13 x 5 + 4 = 69. Therefore, answer = 69.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 69.",
+      "explanation_method_hi": "13 # 5 = 13 x 5 + 4 = 69। अतः answer = 69।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 69 है।"
+    },
+    {
+      "id": "rops-11",
+      "stem_en": "If A # B means A x B + 3, find 14 # 6.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 3 है, तो 14 # 6 ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "23",
+          "text_hi": "23",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 14+6+3; # requires multiplication before adding 3.",
+          "trap_reason_hi": "A और B add कर दिए: 14+6+3; # में पहले multiplication फिर 3 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "126",
+          "text_hi": "126",
+          "is_correct": false,
+          "trap_reason_en": "Added 3 to B before multiplication: 14 x (6+3).",
+          "trap_reason_hi": "3 को B में add करके multiplication किया: 14 x (6+3)।"
+        },
+        {
+          "label": "C",
+          "text_en": "87",
+          "text_hi": "87",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "81",
+          "text_hi": "81",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 3 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 3 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "14 # 6 = 14 x 6 + 3 = 87. Therefore, answer = 87.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 87.",
+      "explanation_method_hi": "14 # 6 = 14 x 6 + 3 = 87। अतः answer = 87।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 87 है।"
+    },
+    {
+      "id": "rops-12",
+      "stem_en": "If A # B means A x B + 5, find 15 # 2.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 5 है, तो 15 # 2 ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "22",
+          "text_hi": "22",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 15+2+5; # requires multiplication before adding 5.",
+          "trap_reason_hi": "A और B add कर दिए: 15+2+5; # में पहले multiplication फिर 5 add होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "105",
+          "text_hi": "105",
+          "is_correct": false,
+          "trap_reason_en": "Added 5 to B before multiplication: 15 x (2+5).",
+          "trap_reason_hi": "5 को B में add करके multiplication किया: 15 x (2+5)।"
+        },
+        {
+          "label": "C",
+          "text_en": "25",
+          "text_hi": "25",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 5 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 5 add करने की जगह subtract कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "35",
+          "text_hi": "35",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "15 # 2 = 15 x 2 + 5 = 35. Therefore, answer = 35.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 35.",
+      "explanation_method_hi": "15 # 2 = 15 x 2 + 5 = 35। अतः answer = 35।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 35 है।"
+    },
+    {
+      "id": "rops-13",
+      "stem_en": "If A # B means A x B + 7, find 16 # 4.",
+      "stem_hi": "यदि A # B का अर्थ A x B + 7 है, तो 16 # 4 ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "mathematical-operations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "71",
+          "text_hi": "71",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "27",
+          "text_hi": "27",
+          "is_correct": false,
+          "trap_reason_en": "Added A and B first: 16+4+7; # requires multiplication before adding 7.",
+          "trap_reason_hi": "A और B add कर दिए: 16+4+7; # में पहले multiplication फिर 7 add होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "176",
+          "text_hi": "176",
+          "is_correct": false,
+          "trap_reason_en": "Added 7 to B before multiplication: 16 x (4+7).",
+          "trap_reason_hi": "7 को B में add करके multiplication किया: 16 x (4+7)।"
+        },
+        {
+          "label": "D",
+          "text_en": "57",
+          "text_hi": "57",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted 7 after multiplication instead of adding it.",
+          "trap_reason_hi": "Multiplication के बाद 7 add करने की जगह subtract कर दिया।"
+        }
+      ],
+      "explanation_method_en": "16 # 4 = 16 x 4 + 7 = 71. Therefore, answer = 71.",
+      "explanation_concept_en": "For coded mathematical operations, replace the symbol with its defined operation exactly and follow the stated order. Final answer is 71.",
+      "explanation_method_hi": "16 # 4 = 16 x 4 + 7 = 71। अतः answer = 71।",
+      "explanation_concept_hi": "Coded mathematical operations में symbol को exact defined operation से replace करें और stated order follow करें। Final answer 71 है।"
+    },
+    {
+      "id": "rops-14",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 12. Statement II: x = 8.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 12. Statement II: x = 8.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=12; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=12 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=8 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=8 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=12 with x=8 gives y=4.",
+          "trap_reason_hi": "यह miss किया कि x+y=12 और x=8 combine करने पर y=4 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 12 - 8 = 4. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 12 - 8 = 4। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-15",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 15. Statement II: x = 9.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 15. Statement II: x = 9.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=15; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=15 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=9 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=9 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=15 with x=9 gives y=6.",
+          "trap_reason_hi": "यह miss किया कि x+y=15 और x=9 combine करने पर y=6 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 15 - 9 = 6. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 15 - 9 = 6। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-16",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 20. Statement II: x = 13.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 20. Statement II: x = 13.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=20; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=20 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=13 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=13 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=20 with x=13 gives y=7.",
+          "trap_reason_hi": "यह miss किया कि x+y=20 और x=13 combine करने पर y=7 मिलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Together: y = 20 - 13 = 7. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 20 - 13 = 7। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-17",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 18. Statement II: x = 11.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 18. Statement II: x = 11.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=18; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=18 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=11 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=11 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=18 with x=11 gives y=7.",
+          "trap_reason_hi": "यह miss किया कि x+y=18 और x=11 combine करने पर y=7 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 18 - 11 = 7. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 18 - 11 = 7। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-18",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 25. Statement II: x = 17.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 25. Statement II: x = 17.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=25; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=25 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=17 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=17 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=25 with x=17 gives y=8.",
+          "trap_reason_hi": "यह miss किया कि x+y=25 और x=17 combine करने पर y=8 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 25 - 17 = 8. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 25 - 17 = 8। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-19",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 30. Statement II: x = 19.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 30. Statement II: x = 19.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=30; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=30 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=19 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=19 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=30 with x=19 gives y=11.",
+          "trap_reason_hi": "यह miss किया कि x+y=30 और x=19 combine करने पर y=11 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 30 - 19 = 11. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 30 - 19 = 11। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-20",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 24. Statement II: x = 14.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 24. Statement II: x = 14.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=24; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=24 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=14 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=14 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=24 with x=14 gives y=10.",
+          "trap_reason_hi": "यह miss किया कि x+y=24 और x=14 combine करने पर y=10 मिलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Together: y = 24 - 14 = 10. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 24 - 14 = 10। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-21",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 16. Statement II: x = 7.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 16. Statement II: x = 7.",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=16; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=16 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=7 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=7 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=16 with x=7 gives y=9.",
+          "trap_reason_hi": "यह miss किया कि x+y=16 और x=7 combine करने पर y=9 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 16 - 7 = 9. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 16 - 7 = 9। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-22",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 28. Statement II: x = 21.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 28. Statement II: x = 21.",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=28; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=28 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=21 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=21 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=28 with x=21 gives y=7.",
+          "trap_reason_hi": "यह miss किया कि x+y=28 और x=21 combine करने पर y=7 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 28 - 21 = 7. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 28 - 21 = 7। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-23",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 35. Statement II: x = 26.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 35. Statement II: x = 26.",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=35; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=35 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=26 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=26 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=35 with x=26 gives y=9.",
+          "trap_reason_hi": "यह miss किया कि x+y=35 और x=26 combine करने पर y=9 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 35 - 26 = 9. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 35 - 26 = 9। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-24",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 40. Statement II: x = 31.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 40. Statement II: x = 31.",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=40; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=40 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "B",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=31 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=31 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=40 with x=31 gives y=9.",
+          "trap_reason_hi": "यह miss किया कि x+y=40 और x=31 combine करने पर y=9 मिलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Together: y = 40 - 31 = 9. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 40 - 31 = 9। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    },
+    {
+      "id": "rops-25",
+      "stem_en": "Data Sufficiency: Find y. Statement I: x + y = 22. Statement II: x = 15.",
+      "stem_hi": "Data Sufficiency: y ज्ञात करें। Statement I: x + y = 22. Statement II: x = 15.",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "data-sufficiency"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Both statements together are sufficient",
+          "text_hi": "Both statements together are sufficient",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Statement I alone is sufficient",
+          "text_hi": "Statement I alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement I gives only x+y=22; y cannot be fixed without x.",
+          "trap_reason_hi": "Statement I सिर्फ x+y=22 देता है; x के बिना y fixed नहीं होता।"
+        },
+        {
+          "label": "C",
+          "text_en": "Statement II alone is sufficient",
+          "text_hi": "Statement II alone is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Statement II gives x=15 but says nothing about y by itself.",
+          "trap_reason_hi": "Statement II x=15 देता है पर y के बारे में अकेले कुछ नहीं बताता।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither statement is sufficient",
+          "text_hi": "Neither statement is sufficient",
+          "is_correct": false,
+          "trap_reason_en": "Missed that combining x+y=22 with x=15 gives y=7.",
+          "trap_reason_hi": "यह miss किया कि x+y=22 और x=15 combine करने पर y=7 मिलता है।"
+        }
+      ],
+      "explanation_method_en": "Together: y = 22 - 15 = 7. Therefore, answer = Both statements together are sufficient.",
+      "explanation_concept_en": "Data sufficiency asks whether the data can uniquely answer the question, not whether the final answer is immediately written in one statement. Final answer is Both statements together are sufficient.",
+      "explanation_method_hi": "Together: y = 22 - 15 = 7। अतः answer = Both statements together are sufficient।",
+      "explanation_concept_hi": "Data sufficiency में पूछा जाता है कि data uniquely answer दे सकता है या नहीं, final answer statement में directly लिखा है या नहीं। Final answer Both statements together are sufficient है।"
+    }
+  ]
+}

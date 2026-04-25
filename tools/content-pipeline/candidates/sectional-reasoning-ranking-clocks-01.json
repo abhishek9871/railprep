@@ -1,0 +1,1264 @@
+{
+  "_doc": "Coverage sectional — Ranking & Clocks. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-reasoning-ranking-clocks-01",
+  "title_en": "Ranking & Clocks — Sectional",
+  "title_hi": "Ranking & Clocks — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Ranking & Clocks",
+    "title_hi": "Ranking & Clocks",
+    "subject_hint": "reason"
+  },
+  "questions": [
+    {
+      "id": "rrank-01",
+      "stem_en": "In a row of 40 candidates, Ravi is 12th from the left. What is his rank from the right?",
+      "stem_hi": "40 candidates की row में Ravi left से 12th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "29",
+          "text_hi": "29",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "28",
+          "text_hi": "28",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "C",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "52",
+          "text_hi": "52",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 40 - 12 + 1 = 29. Therefore, answer = 29.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 29.",
+      "explanation_method_hi": "Right rank = 40 - 12 + 1 = 29। अतः answer = 29।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 29 है।"
+    },
+    {
+      "id": "rrank-02",
+      "stem_en": "In a row of 55 candidates, Ravi is 18th from the left. What is his rank from the right?",
+      "stem_hi": "55 candidates की row में Ravi left से 18th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "37",
+          "text_hi": "37",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "38",
+          "text_hi": "38",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "18",
+          "text_hi": "18",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "73",
+          "text_hi": "73",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 55 - 18 + 1 = 38. Therefore, answer = 38.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 38.",
+      "explanation_method_hi": "Right rank = 55 - 18 + 1 = 38। अतः answer = 38।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 38 है।"
+    },
+    {
+      "id": "rrank-03",
+      "stem_en": "In a row of 63 candidates, Ravi is 21th from the left. What is his rank from the right?",
+      "stem_hi": "63 candidates की row में Ravi left से 21th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "21",
+          "text_hi": "21",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "43",
+          "text_hi": "43",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "84",
+          "text_hi": "84",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 63 - 21 + 1 = 43. Therefore, answer = 43.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 43.",
+      "explanation_method_hi": "Right rank = 63 - 21 + 1 = 43। अतः answer = 43।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 43 है।"
+    },
+    {
+      "id": "rrank-04",
+      "stem_en": "In a row of 72 candidates, Ravi is 25th from the left. What is his rank from the right?",
+      "stem_hi": "72 candidates की row में Ravi left से 25th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "47",
+          "text_hi": "47",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "25",
+          "text_hi": "25",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "97",
+          "text_hi": "97",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Right rank = 72 - 25 + 1 = 48. Therefore, answer = 48.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 48.",
+      "explanation_method_hi": "Right rank = 72 - 25 + 1 = 48। अतः answer = 48।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 48 है।"
+    },
+    {
+      "id": "rrank-05",
+      "stem_en": "In a row of 50 candidates, Ravi is 9th from the left. What is his rank from the right?",
+      "stem_hi": "50 candidates की row में Ravi left से 9th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "41",
+          "text_hi": "41",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "C",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "59",
+          "text_hi": "59",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 50 - 9 + 1 = 42. Therefore, answer = 42.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 42.",
+      "explanation_method_hi": "Right rank = 50 - 9 + 1 = 42। अतः answer = 42।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 42 है।"
+    },
+    {
+      "id": "rrank-06",
+      "stem_en": "In a row of 48 candidates, Ravi is 16th from the left. What is his rank from the right?",
+      "stem_hi": "48 candidates की row में Ravi left से 16th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "33",
+          "text_hi": "33",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 48 - 16 + 1 = 33. Therefore, answer = 33.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 33.",
+      "explanation_method_hi": "Right rank = 48 - 16 + 1 = 33। अतः answer = 33।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 33 है।"
+    },
+    {
+      "id": "rrank-07",
+      "stem_en": "In a row of 81 candidates, Ravi is 30th from the left. What is his rank from the right?",
+      "stem_hi": "81 candidates की row में Ravi left से 30th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "30",
+          "text_hi": "30",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "52",
+          "text_hi": "52",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "111",
+          "text_hi": "111",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 81 - 30 + 1 = 52. Therefore, answer = 52.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 52.",
+      "explanation_method_hi": "Right rank = 81 - 30 + 1 = 52। अतः answer = 52।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 52 है।"
+    },
+    {
+      "id": "rrank-08",
+      "stem_en": "In a row of 36 candidates, Ravi is 11th from the left. What is his rank from the right?",
+      "stem_hi": "36 candidates की row में Ravi left से 11th है। Right से उसका rank क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "25",
+          "text_hi": "25",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "47",
+          "text_hi": "47",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "26",
+          "text_hi": "26",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Right rank = 36 - 11 + 1 = 26. Therefore, answer = 26.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 26.",
+      "explanation_method_hi": "Right rank = 36 - 11 + 1 = 26। अतः answer = 26।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 26 है।"
+    },
+    {
+      "id": "rrank-09",
+      "stem_en": "In a row of 90 candidates, Ravi is 42th from the left. What is his rank from the right?",
+      "stem_hi": "90 candidates की row में Ravi left से 42th है। Right से उसका rank क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "49",
+          "text_hi": "49",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "132",
+          "text_hi": "132",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 90 - 42 + 1 = 49. Therefore, answer = 49.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 49.",
+      "explanation_method_hi": "Right rank = 90 - 42 + 1 = 49। अतः answer = 49।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 49 है।"
+    },
+    {
+      "id": "rrank-10",
+      "stem_en": "In a row of 67 candidates, Ravi is 28th from the left. What is his rank from the right?",
+      "stem_hi": "67 candidates की row में Ravi left से 28th है। Right से उसका rank क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "39",
+          "text_hi": "39",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "28",
+          "text_hi": "28",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "95",
+          "text_hi": "95",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 67 - 28 + 1 = 40. Therefore, answer = 40.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 40.",
+      "explanation_method_hi": "Right rank = 67 - 28 + 1 = 40। अतः answer = 40।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 40 है।"
+    },
+    {
+      "id": "rrank-11",
+      "stem_en": "In a row of 75 candidates, Ravi is 34th from the left. What is his rank from the right?",
+      "stem_hi": "75 candidates की row में Ravi left से 34th है। Right से उसका rank क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "41",
+          "text_hi": "41",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "34",
+          "text_hi": "34",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "109",
+          "text_hi": "109",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        }
+      ],
+      "explanation_method_en": "Right rank = 75 - 34 + 1 = 42. Therefore, answer = 42.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 42.",
+      "explanation_method_hi": "Right rank = 75 - 34 + 1 = 42। अतः answer = 42।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 42 है।"
+    },
+    {
+      "id": "rrank-12",
+      "stem_en": "In a row of 44 candidates, Ravi is 13th from the left. What is his rank from the right?",
+      "stem_hi": "44 candidates की row में Ravi left से 13th है। Right से उसका rank क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "ranking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "31",
+          "text_hi": "31",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to add 1 in opposite rank: right rank = total - left rank + 1.",
+          "trap_reason_hi": "Opposite rank में +1 भूल गए: right rank = total - left rank + 1।"
+        },
+        {
+          "label": "B",
+          "text_en": "13",
+          "text_hi": "13",
+          "is_correct": false,
+          "trap_reason_en": "Copied the left rank as right rank without converting sides.",
+          "trap_reason_hi": "Left rank को right rank में convert किए बिना copy कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "57",
+          "text_hi": "57",
+          "is_correct": false,
+          "trap_reason_en": "Added total and rank, which gives a count beyond the row size.",
+          "trap_reason_hi": "Total और rank add कर दिए, जिससे row size से बाहर count आता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Right rank = 44 - 13 + 1 = 32. Therefore, answer = 32.",
+      "explanation_concept_en": "For rank from the opposite side, the person's position is counted in both directions, so add 1 after subtracting from total. Final answer is 32.",
+      "explanation_method_hi": "Right rank = 44 - 13 + 1 = 32। अतः answer = 32।",
+      "explanation_concept_hi": "Opposite-side rank में person दोनों sides की counting में शामिल होता है, इसलिए total से subtract करके +1 करते हैं। Final answer 32 है।"
+    },
+    {
+      "id": "rrank-13",
+      "stem_en": "Find the smaller angle between clock hands at 3:10.",
+      "stem_hi": "3:10 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "35°",
+          "text_hi": "35°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 10 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 10 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "C",
+          "text_en": "325°",
+          "text_hi": "325°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 95°, minute hand = 60°, smaller difference = 35°. Therefore, answer = 35°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 35°.",
+      "explanation_method_hi": "Hour hand = 95°, minute hand = 60°, smaller difference = 35°। अतः answer = 35°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 35° है।"
+    },
+    {
+      "id": "rrank-14",
+      "stem_en": "Find the smaller angle between clock hands at 6:20.",
+      "stem_hi": "6:20 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 20 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 20 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "70°",
+          "text_hi": "70°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "290°",
+          "text_hi": "290°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 190°, minute hand = 120°, smaller difference = 70°. Therefore, answer = 70°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 70°.",
+      "explanation_method_hi": "Hour hand = 190°, minute hand = 120°, smaller difference = 70°। अतः answer = 70°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 70° है।"
+    },
+    {
+      "id": "rrank-15",
+      "stem_en": "Find the smaller angle between clock hands at 2:30.",
+      "stem_hi": "2:30 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 30 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 30 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "255°",
+          "text_hi": "255°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "105°",
+          "text_hi": "105°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "180°",
+          "text_hi": "180°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 75°, minute hand = 180°, smaller difference = 105°. Therefore, answer = 105°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 105°.",
+      "explanation_method_hi": "Hour hand = 75°, minute hand = 180°, smaller difference = 105°। अतः answer = 105°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 105° है।"
+    },
+    {
+      "id": "rrank-16",
+      "stem_en": "Find the smaller angle between clock hands at 4:30.",
+      "stem_hi": "4:30 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 30 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 30 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "315°",
+          "text_hi": "315°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "180°",
+          "text_hi": "180°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "45°",
+          "text_hi": "45°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Hour hand = 135°, minute hand = 180°, smaller difference = 45°. Therefore, answer = 45°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 45°.",
+      "explanation_method_hi": "Hour hand = 135°, minute hand = 180°, smaller difference = 45°। अतः answer = 45°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 45° है।"
+    },
+    {
+      "id": "rrank-17",
+      "stem_en": "Find the smaller angle between clock hands at 5:20.",
+      "stem_hi": "5:20 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "40°",
+          "text_hi": "40°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 20 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 20 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "C",
+          "text_en": "320°",
+          "text_hi": "320°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 160°, minute hand = 120°, smaller difference = 40°. Therefore, answer = 40°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 40°.",
+      "explanation_method_hi": "Hour hand = 160°, minute hand = 120°, smaller difference = 40°। अतः answer = 40°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 40° है।"
+    },
+    {
+      "id": "rrank-18",
+      "stem_en": "Find the smaller angle between clock hands at 7:20.",
+      "stem_hi": "7:20 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "90°",
+          "text_hi": "90°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 20 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 20 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "100°",
+          "text_hi": "100°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "260°",
+          "text_hi": "260°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 220°, minute hand = 120°, smaller difference = 100°. Therefore, answer = 100°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 100°.",
+      "explanation_method_hi": "Hour hand = 220°, minute hand = 120°, smaller difference = 100°। अतः answer = 100°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 100° है।"
+    },
+    {
+      "id": "rrank-19",
+      "stem_en": "Find the smaller angle between clock hands at 8:40.",
+      "stem_hi": "8:40 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "0°",
+          "text_hi": "0°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 40 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 40 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "340°",
+          "text_hi": "340°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "20°",
+          "text_hi": "20°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 260°, minute hand = 240°, smaller difference = 20°. Therefore, answer = 20°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 20°.",
+      "explanation_method_hi": "Hour hand = 260°, minute hand = 240°, smaller difference = 20°। अतः answer = 20°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 20° है।"
+    },
+    {
+      "id": "rrank-20",
+      "stem_en": "Find the smaller angle between clock hands at 10:10.",
+      "stem_hi": "10:10 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 10 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 10 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "245°",
+          "text_hi": "245°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "115°",
+          "text_hi": "115°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Hour hand = 305°, minute hand = 60°, smaller difference = 115°. Therefore, answer = 115°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 115°.",
+      "explanation_method_hi": "Hour hand = 305°, minute hand = 60°, smaller difference = 115°। अतः answer = 115°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 115° है।"
+    },
+    {
+      "id": "rrank-21",
+      "stem_en": "Find the smaller angle between clock hands at 9:15.",
+      "stem_hi": "9:15 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "172.5°",
+          "text_hi": "172.5°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "180°",
+          "text_hi": "180°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 15 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 15 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "C",
+          "text_en": "187.5°",
+          "text_hi": "187.5°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "90°",
+          "text_hi": "90°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 277.5°, minute hand = 90°, smaller difference = 172.5°. Therefore, answer = 172.5°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 172.5°.",
+      "explanation_method_hi": "Hour hand = 277.5°, minute hand = 90°, smaller difference = 172.5°। अतः answer = 172.5°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 172.5° है।"
+    },
+    {
+      "id": "rrank-22",
+      "stem_en": "Find the smaller angle between clock hands at 1:50.",
+      "stem_hi": "1:50 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "270°",
+          "text_hi": "270°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 50 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 50 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "115°",
+          "text_hi": "115°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "245°",
+          "text_hi": "245°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "300°",
+          "text_hi": "300°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 55°, minute hand = 300°, smaller difference = 115°. Therefore, answer = 115°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 115°.",
+      "explanation_method_hi": "Hour hand = 55°, minute hand = 300°, smaller difference = 115°। अतः answer = 115°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 115° है।"
+    },
+    {
+      "id": "rrank-23",
+      "stem_en": "Find the smaller angle between clock hands at 11:05.",
+      "stem_hi": "11:05 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "300°",
+          "text_hi": "300°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 5 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 5 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "302.5°",
+          "text_hi": "302.5°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "57.5°",
+          "text_hi": "57.5°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 332.5°, minute hand = 30°, smaller difference = 57.5°. Therefore, answer = 57.5°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 57.5°.",
+      "explanation_method_hi": "Hour hand = 332.5°, minute hand = 30°, smaller difference = 57.5°। अतः answer = 57.5°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 57.5° है।"
+    },
+    {
+      "id": "rrank-24",
+      "stem_en": "Find the smaller angle between clock hands at 12:25.",
+      "stem_hi": "12:25 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "150°",
+          "text_hi": "150°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 25 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 25 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "B",
+          "text_en": "222.5°",
+          "text_hi": "222.5°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "12.5°",
+          "text_hi": "12.5°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the hour hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Hour hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "137.5°",
+          "text_hi": "137.5°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Hour hand = 12.5°, minute hand = 150°, smaller difference = 137.5°. Therefore, answer = 137.5°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 137.5°.",
+      "explanation_method_hi": "Hour hand = 12.5°, minute hand = 150°, smaller difference = 137.5°। अतः answer = 137.5°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 137.5° है।"
+    },
+    {
+      "id": "rrank-25",
+      "stem_en": "Find the smaller angle between clock hands at 3:40.",
+      "stem_hi": "3:40 पर clock hands के बीच smaller angle ज्ञात करें।",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "clock"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "130°",
+          "text_hi": "130°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "150°",
+          "text_hi": "150°",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the hour hand's 40 minutes movement after the hour.",
+          "trap_reason_hi": "Hour hand की 40 minutes वाली movement ignore कर दी।"
+        },
+        {
+          "label": "C",
+          "text_en": "230°",
+          "text_hi": "230°",
+          "is_correct": false,
+          "trap_reason_en": "Used the larger reflex angle instead of the smaller angle.",
+          "trap_reason_hi": "Smaller angle की जगह larger reflex angle ले लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Reported the minute hand's angle from 12, not the angle between both hands.",
+          "trap_reason_hi": "Minute hand का 12 से angle दे दिया, दोनों hands के बीच angle नहीं।"
+        }
+      ],
+      "explanation_method_en": "Hour hand = 110°, minute hand = 240°, smaller difference = 130°. Therefore, answer = 130°.",
+      "explanation_concept_en": "Clock-angle questions require both hands' positions. The hour hand moves 0.5° per minute, so it is not fixed at the hour mark after minutes pass. Final answer is 130°.",
+      "explanation_method_hi": "Hour hand = 110°, minute hand = 240°, smaller difference = 130°। अतः answer = 130°।",
+      "explanation_concept_hi": "Clock-angle में दोनों hands की position चाहिए। Hour hand 0.5° per minute चलता है, इसलिए minutes pass होने पर hour mark पर fixed नहीं रहता। Final answer 130° है।"
+    }
+  ]
+}

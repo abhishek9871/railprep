@@ -1,0 +1,1264 @@
+{
+  "_doc": "Coverage sectional — Sports, Awards & Organizations. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-sports-awards-organizations-01",
+  "title_en": "Sports, Awards & Organizations — Sectional",
+  "title_hi": "Sports, Awards & Organizations — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Sports, Awards & Organizations",
+    "title_hi": "Sports, Awards & Organizations",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gasports-01",
+      "stem_en": "The headquarters of the United Nations is in:",
+      "stem_hi": "United Nations headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "New York",
+          "text_hi": "New York",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with New York; the clue in the question points specifically to New York.",
+          "trap_reason_hi": "Geneva को New York समझ लिया। Stem की clue specifically New York की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Paris",
+          "text_hi": "Paris",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Paris with New York; the clue in the question points specifically to New York.",
+          "trap_reason_hi": "Paris को New York समझ लिया। Stem की clue specifically New York की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Rome",
+          "text_hi": "Rome",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rome with New York; the clue in the question points specifically to New York.",
+          "trap_reason_hi": "Rome को New York समझ लिया। Stem की clue specifically New York की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: UN headquarters is in New York. Therefore, answer = New York.",
+      "explanation_concept_en": "UN headquarters is in New York. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is New York.",
+      "explanation_method_hi": "Fixed fact याद रखें: UN headquarters New York में है। अतः answer = New York।",
+      "explanation_concept_hi": "UN headquarters New York में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer New York है।"
+    },
+    {
+      "id": "gasports-02",
+      "stem_en": "The headquarters of the International Court of Justice is in:",
+      "stem_hi": "International Court of Justice headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with The Hague; the clue in the question points specifically to The Hague.",
+          "trap_reason_hi": "Geneva को The Hague समझ लिया। Stem की clue specifically The Hague की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "The Hague",
+          "text_hi": "The Hague",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Paris",
+          "text_hi": "Paris",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Paris with The Hague; the clue in the question points specifically to The Hague.",
+          "trap_reason_hi": "Paris को The Hague समझ लिया। Stem की clue specifically The Hague की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "London",
+          "text_hi": "London",
+          "is_correct": false,
+          "trap_reason_en": "Confuses London with The Hague; the clue in the question points specifically to The Hague.",
+          "trap_reason_hi": "London को The Hague समझ लिया। Stem की clue specifically The Hague की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: ICJ is headquartered at The Hague. Therefore, answer = The Hague.",
+      "explanation_concept_en": "ICJ is headquartered at The Hague. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is The Hague.",
+      "explanation_method_hi": "Fixed fact याद रखें: ICJ headquarters The Hague में है। अतः answer = The Hague।",
+      "explanation_concept_hi": "ICJ headquarters The Hague में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer The Hague है।"
+    },
+    {
+      "id": "gasports-03",
+      "stem_en": "The headquarters of FAO is in:",
+      "stem_hi": "FAO headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with Rome; the clue in the question points specifically to Rome.",
+          "trap_reason_hi": "Geneva को Rome समझ लिया। Stem की clue specifically Rome की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "New York",
+          "text_hi": "New York",
+          "is_correct": false,
+          "trap_reason_en": "Confuses New York with Rome; the clue in the question points specifically to Rome.",
+          "trap_reason_hi": "New York को Rome समझ लिया। Stem की clue specifically Rome की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Rome",
+          "text_hi": "Rome",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Vienna",
+          "text_hi": "Vienna",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vienna with Rome; the clue in the question points specifically to Rome.",
+          "trap_reason_hi": "Vienna को Rome समझ लिया। Stem की clue specifically Rome की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: FAO is headquartered in Rome. Therefore, answer = Rome.",
+      "explanation_concept_en": "FAO is headquartered in Rome. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Rome.",
+      "explanation_method_hi": "Fixed fact याद रखें: FAO headquarters Rome में है। अतः answer = Rome।",
+      "explanation_concept_hi": "FAO headquarters Rome में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Rome है।"
+    },
+    {
+      "id": "gasports-04",
+      "stem_en": "The headquarters of IMF is in:",
+      "stem_hi": "IMF headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Paris",
+          "text_hi": "Paris",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Paris with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Paris को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Geneva को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Kathmandu",
+          "text_hi": "Kathmandu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kathmandu with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Kathmandu को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Washington DC",
+          "text_hi": "Washington DC",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: IMF headquarters is in Washington DC. Therefore, answer = Washington DC.",
+      "explanation_concept_en": "IMF headquarters is in Washington DC. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Washington DC.",
+      "explanation_method_hi": "Fixed fact याद रखें: IMF headquarters Washington DC में है। अतः answer = Washington DC।",
+      "explanation_concept_hi": "IMF headquarters Washington DC में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Washington DC है।"
+    },
+    {
+      "id": "gasports-05",
+      "stem_en": "The headquarters of World Bank is in:",
+      "stem_hi": "World Bank headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Washington DC",
+          "text_hi": "Washington DC",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Geneva को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Rome",
+          "text_hi": "Rome",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rome with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Rome को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Brussels",
+          "text_hi": "Brussels",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Brussels with Washington DC; the clue in the question points specifically to Washington DC.",
+          "trap_reason_hi": "Brussels को Washington DC समझ लिया। Stem की clue specifically Washington DC की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: World Bank headquarters is in Washington DC. Therefore, answer = Washington DC.",
+      "explanation_concept_en": "World Bank headquarters is in Washington DC. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is Washington DC.",
+      "explanation_method_hi": "Fixed fact याद रखें: World Bank headquarters Washington DC में है। अतः answer = Washington DC।",
+      "explanation_concept_hi": "World Bank headquarters Washington DC में है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer Washington DC है।"
+    },
+    {
+      "id": "gasports-06",
+      "stem_en": "Olympic Games are held every:",
+      "stem_hi": "Olympic Games कितने years में होते हैं?",
+      "difficulty": "EASY",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2 years",
+          "text_hi": "2 years",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2 years with 4 years; the clue in the question points specifically to 4 years.",
+          "trap_reason_hi": "2 years को 4 years समझ लिया। Stem की clue specifically 4 years की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "4 years",
+          "text_hi": "4 years",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "3 years",
+          "text_hi": "3 years",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 3 years with 4 years; the clue in the question points specifically to 4 years.",
+          "trap_reason_hi": "3 years को 4 years समझ लिया। Stem की clue specifically 4 years की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "5 years",
+          "text_hi": "5 years",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 5 years with 4 years; the clue in the question points specifically to 4 years.",
+          "trap_reason_hi": "5 years को 4 years समझ लिया। Stem की clue specifically 4 years की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Summer Olympics are held every 4 years. Therefore, answer = 4 years.",
+      "explanation_concept_en": "Summer Olympics are held every 4 years. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 4 years.",
+      "explanation_method_hi": "Fixed fact याद रखें: Summer Olympics 4 years में होते हैं। अतः answer = 4 years।",
+      "explanation_concept_hi": "Summer Olympics 4 years में होते हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 4 years है।"
+    },
+    {
+      "id": "gasports-07",
+      "stem_en": "The term 'Grand Slam' is associated with:",
+      "stem_hi": "Grand Slam term किस sport से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "hockey को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "kabaddi",
+          "text_hi": "kabaddi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses kabaddi with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "kabaddi को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "chess",
+          "text_hi": "chess",
+          "is_correct": false,
+          "trap_reason_en": "Confuses chess with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "chess को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Grand Slam is a tennis term. Therefore, answer = tennis.",
+      "explanation_concept_en": "Grand Slam is a tennis term. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is tennis.",
+      "explanation_method_hi": "Fixed fact याद रखें: Grand Slam tennis term है। अतः answer = tennis।",
+      "explanation_concept_hi": "Grand Slam tennis term है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer tennis है।"
+    },
+    {
+      "id": "gasports-08",
+      "stem_en": "Thomas Cup is associated with:",
+      "stem_hi": "Thomas Cup किस sport से associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": false,
+          "trap_reason_en": "Confuses football with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "football को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "cricket को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "boxing",
+          "text_hi": "boxing",
+          "is_correct": false,
+          "trap_reason_en": "Confuses boxing with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "boxing को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Thomas Cup is associated with badminton. Therefore, answer = badminton.",
+      "explanation_concept_en": "Thomas Cup is associated with badminton. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is badminton.",
+      "explanation_method_hi": "Fixed fact याद रखें: Thomas Cup badminton से associated है। अतः answer = badminton।",
+      "explanation_concept_hi": "Thomas Cup badminton से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer badminton है।"
+    },
+    {
+      "id": "gasports-09",
+      "stem_en": "Uber Cup is associated with:",
+      "stem_hi": "Uber Cup किस sport से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tennis with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "tennis को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "hockey को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "athletics",
+          "text_hi": "athletics",
+          "is_correct": false,
+          "trap_reason_en": "Confuses athletics with badminton; the clue in the question points specifically to badminton.",
+          "trap_reason_hi": "athletics को badminton समझ लिया। Stem की clue specifically badminton की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Uber Cup is associated with badminton. Therefore, answer = badminton.",
+      "explanation_concept_en": "Uber Cup is associated with badminton. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is badminton.",
+      "explanation_method_hi": "Fixed fact याद रखें: Uber Cup badminton से associated है। अतः answer = badminton।",
+      "explanation_concept_hi": "Uber Cup badminton से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer badminton है।"
+    },
+    {
+      "id": "gasports-10",
+      "stem_en": "Davis Cup is associated with:",
+      "stem_hi": "Davis Cup किस sport से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "cricket को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": false,
+          "trap_reason_en": "Confuses football with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "football को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses badminton with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "badminton को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Davis Cup is associated with tennis. Therefore, answer = tennis.",
+      "explanation_concept_en": "Davis Cup is associated with tennis. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is tennis.",
+      "explanation_method_hi": "Fixed fact याद रखें: Davis Cup tennis से associated है। अतः answer = tennis।",
+      "explanation_concept_hi": "Davis Cup tennis से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer tennis है।"
+    },
+    {
+      "id": "gasports-11",
+      "stem_en": "The Dronacharya Award is given for:",
+      "stem_hi": "Dronacharya Award किसके लिए दिया जाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "awards",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "literature",
+          "text_hi": "literature",
+          "is_correct": false,
+          "trap_reason_en": "Confuses literature with coaching in sports; the clue in the question points specifically to coaching in sports.",
+          "trap_reason_hi": "literature को coaching in sports समझ लिया। Stem की clue specifically coaching in sports की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "civil service",
+          "text_hi": "civil service",
+          "is_correct": false,
+          "trap_reason_en": "Confuses civil service with coaching in sports; the clue in the question points specifically to coaching in sports.",
+          "trap_reason_hi": "civil service को coaching in sports समझ लिया। Stem की clue specifically coaching in sports की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "coaching in sports",
+          "text_hi": "coaching in sports",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "film direction",
+          "text_hi": "film direction",
+          "is_correct": false,
+          "trap_reason_en": "Confuses film direction with coaching in sports; the clue in the question points specifically to coaching in sports.",
+          "trap_reason_hi": "film direction को coaching in sports समझ लिया। Stem की clue specifically coaching in sports की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Dronacharya Award recognises sports coaching. Therefore, answer = coaching in sports.",
+      "explanation_concept_en": "Dronacharya Award recognises sports coaching. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is coaching in sports.",
+      "explanation_method_hi": "Fixed fact याद रखें: Dronacharya Award sports coaching के लिए है। अतः answer = coaching in sports।",
+      "explanation_concept_hi": "Dronacharya Award sports coaching के लिए है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer coaching in sports है।"
+    },
+    {
+      "id": "gasports-12",
+      "stem_en": "The Arjuna Award is related to:",
+      "stem_hi": "Arjuna Award किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "awards",
+        "sports"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "science research",
+          "text_hi": "science research",
+          "is_correct": false,
+          "trap_reason_en": "Confuses science research with sports performance; the clue in the question points specifically to sports performance.",
+          "trap_reason_hi": "science research को sports performance समझ लिया। Stem की clue specifically sports performance की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "literature",
+          "text_hi": "literature",
+          "is_correct": false,
+          "trap_reason_en": "Confuses literature with sports performance; the clue in the question points specifically to sports performance.",
+          "trap_reason_hi": "literature को sports performance समझ लिया। Stem की clue specifically sports performance की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "public administration",
+          "text_hi": "public administration",
+          "is_correct": false,
+          "trap_reason_en": "Confuses public administration with sports performance; the clue in the question points specifically to sports performance.",
+          "trap_reason_hi": "public administration को sports performance समझ लिया। Stem की clue specifically sports performance की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "sports performance",
+          "text_hi": "sports performance",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Arjuna Award recognises sports performance. Therefore, answer = sports performance.",
+      "explanation_concept_en": "Arjuna Award recognises sports performance. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is sports performance.",
+      "explanation_method_hi": "Fixed fact याद रखें: Arjuna Award sports performance को recognise करता है। अतः answer = sports performance।",
+      "explanation_concept_hi": "Arjuna Award sports performance को recognise करता है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer sports performance है।"
+    },
+    {
+      "id": "gasports-13",
+      "stem_en": "The Jnanpith Award is given for:",
+      "stem_hi": "Jnanpith Award किस field के लिए है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "awards",
+        "literature"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "literature",
+          "text_hi": "literature",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "sports",
+          "text_hi": "sports",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sports with literature; the clue in the question points specifically to literature.",
+          "trap_reason_hi": "sports को literature समझ लिया। Stem की clue specifically literature की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "science only",
+          "text_hi": "science only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses science only with literature; the clue in the question points specifically to literature.",
+          "trap_reason_hi": "science only को literature समझ लिया। Stem की clue specifically literature की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "cinema music only",
+          "text_hi": "cinema music only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cinema music only with literature; the clue in the question points specifically to literature.",
+          "trap_reason_hi": "cinema music only को literature समझ लिया। Stem की clue specifically literature की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Jnanpith is a major literary award. Therefore, answer = literature.",
+      "explanation_concept_en": "Jnanpith is a major literary award. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is literature.",
+      "explanation_method_hi": "Fixed fact याद रखें: Jnanpith major literary award है। अतः answer = literature।",
+      "explanation_concept_hi": "Jnanpith major literary award है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer literature है।"
+    },
+    {
+      "id": "gasports-14",
+      "stem_en": "The Dadasaheb Phalke Award is linked with:",
+      "stem_hi": "Dadasaheb Phalke Award किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "awards",
+        "cinema"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "sports",
+          "text_hi": "sports",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sports with cinema; the clue in the question points specifically to cinema.",
+          "trap_reason_hi": "sports को cinema समझ लिया। Stem की clue specifically cinema की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "cinema",
+          "text_hi": "cinema",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "agriculture",
+          "text_hi": "agriculture",
+          "is_correct": false,
+          "trap_reason_en": "Confuses agriculture with cinema; the clue in the question points specifically to cinema.",
+          "trap_reason_hi": "agriculture को cinema समझ लिया। Stem की clue specifically cinema की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "rail safety",
+          "text_hi": "rail safety",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail safety with cinema; the clue in the question points specifically to cinema.",
+          "trap_reason_hi": "rail safety को cinema समझ लिया। Stem की clue specifically cinema की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Dadasaheb Phalke Award is India's highest cinema award. Therefore, answer = cinema.",
+      "explanation_concept_en": "Dadasaheb Phalke Award is India's highest cinema award. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is cinema.",
+      "explanation_method_hi": "Fixed fact याद रखें: Dadasaheb Phalke Award cinema से linked है। अतः answer = cinema।",
+      "explanation_concept_hi": "Dadasaheb Phalke Award cinema से linked है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer cinema है।"
+    },
+    {
+      "id": "gasports-15",
+      "stem_en": "The Shanti Swarup Bhatnagar Prize is given for:",
+      "stem_hi": "Shanti Swarup Bhatnagar Prize किसके लिए दिया जाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "awards",
+        "science-tech"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "sports",
+          "text_hi": "sports",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sports with science and technology; the clue in the question points specifically to science and technology.",
+          "trap_reason_hi": "sports को science and technology समझ लिया। Stem की clue specifically science and technology की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "classical dance only",
+          "text_hi": "classical dance only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses classical dance only with science and technology; the clue in the question points specifically to science and technology.",
+          "trap_reason_hi": "classical dance only को science and technology समझ लिया। Stem की clue specifically science and technology की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "science and technology",
+          "text_hi": "science and technology",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "railway service",
+          "text_hi": "railway service",
+          "is_correct": false,
+          "trap_reason_en": "Confuses railway service with science and technology; the clue in the question points specifically to science and technology.",
+          "trap_reason_hi": "railway service को science and technology समझ लिया। Stem की clue specifically science and technology की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: The prize recognises science and technology work. Therefore, answer = science and technology.",
+      "explanation_concept_en": "The prize recognises science and technology work. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is science and technology.",
+      "explanation_method_hi": "Fixed fact याद रखें: यह prize science और technology work के लिए है। अतः answer = science and technology।",
+      "explanation_concept_hi": "यह prize science और technology work के लिए है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer science and technology है।"
+    },
+    {
+      "id": "gasports-16",
+      "stem_en": "Hockey uses how many players per side on the field?",
+      "stem_hi": "Hockey में field पर each side में कितने players होते हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 7 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "7 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 9 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "9 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 12 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "12 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Field hockey uses 11 players per side. Therefore, answer = 11.",
+      "explanation_concept_en": "Field hockey uses 11 players per side. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 11.",
+      "explanation_method_hi": "Fixed fact याद रखें: Field hockey में each side 11 players होते हैं। अतः answer = 11।",
+      "explanation_concept_hi": "Field hockey में each side 11 players होते हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 11 है।"
+    },
+    {
+      "id": "gasports-17",
+      "stem_en": "Football uses how many players per side on the field?",
+      "stem_hi": "Football में each side कितने players होते हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 9 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "9 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "10",
+          "text_hi": "10",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 10 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "10 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 12 with 11; the clue in the question points specifically to 11.",
+          "trap_reason_hi": "12 को 11 समझ लिया। Stem की clue specifically 11 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Football has 11 players per side. Therefore, answer = 11.",
+      "explanation_concept_en": "Football has 11 players per side. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 11.",
+      "explanation_method_hi": "Fixed fact याद रखें: Football में each side 11 players होते हैं। अतः answer = 11।",
+      "explanation_concept_hi": "Football में each side 11 players होते हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 11 है।"
+    },
+    {
+      "id": "gasports-18",
+      "stem_en": "Kabaddi has how many players on court per side?",
+      "stem_hi": "Kabaddi में court पर each side कितने players होते हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "static-gk"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5",
+          "text_hi": "5",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 5 with 7; the clue in the question points specifically to 7.",
+          "trap_reason_hi": "5 को 7 समझ लिया। Stem की clue specifically 7 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 9 with 7; the clue in the question points specifically to 7.",
+          "trap_reason_hi": "9 को 7 समझ लिया। Stem की clue specifically 7 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 11 with 7; the clue in the question points specifically to 7.",
+          "trap_reason_hi": "11 को 7 समझ लिया। Stem की clue specifically 7 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Kabaddi has 7 players per side on court. Therefore, answer = 7.",
+      "explanation_concept_en": "Kabaddi has 7 players per side on court. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is 7.",
+      "explanation_method_hi": "Fixed fact याद रखें: Kabaddi में court पर each side 7 players होते हैं। अतः answer = 7।",
+      "explanation_concept_hi": "Kabaddi में court पर each side 7 players होते हैं। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer 7 है।"
+    },
+    {
+      "id": "gasports-19",
+      "stem_en": "The Ranji Trophy is associated with:",
+      "stem_hi": "Ranji Trophy किस sport से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "cricket"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": false,
+          "trap_reason_en": "Confuses football with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "football को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "hockey को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tennis with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "tennis को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Ranji Trophy is a domestic cricket tournament. Therefore, answer = cricket.",
+      "explanation_concept_en": "Ranji Trophy is a domestic cricket tournament. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is cricket.",
+      "explanation_method_hi": "Fixed fact याद रखें: Ranji Trophy domestic cricket tournament है। अतः answer = cricket।",
+      "explanation_concept_hi": "Ranji Trophy domestic cricket tournament है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer cricket है।"
+    },
+    {
+      "id": "gasports-20",
+      "stem_en": "The Santosh Trophy is associated with:",
+      "stem_hi": "Santosh Trophy किस sport से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "sports",
+        "football"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "cricket को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses badminton with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "badminton को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tennis with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "tennis को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Santosh Trophy is associated with football. Therefore, answer = football.",
+      "explanation_concept_en": "Santosh Trophy is associated with football. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is football.",
+      "explanation_method_hi": "Fixed fact याद रखें: Santosh Trophy football से associated है। अतः answer = football।",
+      "explanation_concept_hi": "Santosh Trophy football से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer football है।"
+    },
+    {
+      "id": "gasports-21",
+      "stem_en": "The Sultan Azlan Shah Cup is associated with:",
+      "stem_hi": "Sultan Azlan Shah Cup किस sport से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "sports",
+        "hockey"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with hockey; the clue in the question points specifically to hockey.",
+          "trap_reason_hi": "cricket को hockey समझ लिया। Stem की clue specifically hockey की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tennis with hockey; the clue in the question points specifically to hockey.",
+          "trap_reason_hi": "tennis को hockey समझ लिया। Stem की clue specifically hockey की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "wrestling",
+          "text_hi": "wrestling",
+          "is_correct": false,
+          "trap_reason_en": "Confuses wrestling with hockey; the clue in the question points specifically to hockey.",
+          "trap_reason_hi": "wrestling को hockey समझ लिया। Stem की clue specifically hockey की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Sultan Azlan Shah Cup is a hockey tournament. Therefore, answer = hockey.",
+      "explanation_concept_en": "Sultan Azlan Shah Cup is a hockey tournament. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is hockey.",
+      "explanation_method_hi": "Fixed fact याद रखें: Sultan Azlan Shah Cup hockey tournament है। अतः answer = hockey।",
+      "explanation_concept_hi": "Sultan Azlan Shah Cup hockey tournament है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer hockey है।"
+    },
+    {
+      "id": "gasports-22",
+      "stem_en": "The Durand Cup is associated with:",
+      "stem_hi": "Durand Cup किस sport से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "sports",
+        "football"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "cricket को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "hockey को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "chess",
+          "text_hi": "chess",
+          "is_correct": false,
+          "trap_reason_en": "Confuses chess with football; the clue in the question points specifically to football.",
+          "trap_reason_hi": "chess को football समझ लिया। Stem की clue specifically football की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Durand Cup is associated with football. Therefore, answer = football.",
+      "explanation_concept_en": "Durand Cup is associated with football. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is football.",
+      "explanation_method_hi": "Fixed fact याद रखें: Durand Cup football से associated है। अतः answer = football।",
+      "explanation_concept_hi": "Durand Cup football से associated है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer football है।"
+    },
+    {
+      "id": "gasports-23",
+      "stem_en": "The term 'checkmate' is associated with:",
+      "stem_hi": "Checkmate term किस game से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "sports",
+        "chess"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "kabaddi",
+          "text_hi": "kabaddi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses kabaddi with chess; the clue in the question points specifically to chess.",
+          "trap_reason_hi": "kabaddi को chess समझ लिया। Stem की clue specifically chess की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with chess; the clue in the question points specifically to chess.",
+          "trap_reason_hi": "hockey को chess समझ लिया। Stem की clue specifically chess की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "chess",
+          "text_hi": "chess",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses badminton with chess; the clue in the question points specifically to chess.",
+          "trap_reason_hi": "badminton को chess समझ लिया। Stem की clue specifically chess की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Checkmate is a chess term. Therefore, answer = chess.",
+      "explanation_concept_en": "Checkmate is a chess term. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is chess.",
+      "explanation_method_hi": "Fixed fact याद रखें: Checkmate chess term है। अतः answer = chess।",
+      "explanation_concept_hi": "Checkmate chess term है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer chess है।"
+    },
+    {
+      "id": "gasports-24",
+      "stem_en": "The term 'deuce' is used in:",
+      "stem_hi": "Deuce term किस sport में used होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "sports",
+        "tennis"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": false,
+          "trap_reason_en": "Confuses football with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "football को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "hockey",
+          "text_hi": "hockey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hockey with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "hockey को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cricket with tennis; the clue in the question points specifically to tennis.",
+          "trap_reason_hi": "cricket को tennis समझ लिया। Stem की clue specifically tennis की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "tennis",
+          "text_hi": "tennis",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: Deuce is a tennis scoring term. Therefore, answer = tennis.",
+      "explanation_concept_en": "Deuce is a tennis scoring term. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is tennis.",
+      "explanation_method_hi": "Fixed fact याद रखें: Deuce tennis scoring term है। अतः answer = tennis।",
+      "explanation_concept_hi": "Deuce tennis scoring term है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer tennis है।"
+    },
+    {
+      "id": "gasports-25",
+      "stem_en": "The term 'LBW' is associated with:",
+      "stem_hi": "LBW term किस sport से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "sports",
+        "cricket"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "cricket",
+          "text_hi": "cricket",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "football",
+          "text_hi": "football",
+          "is_correct": false,
+          "trap_reason_en": "Confuses football with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "football को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "chess",
+          "text_hi": "chess",
+          "is_correct": false,
+          "trap_reason_en": "Confuses chess with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "chess को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "badminton",
+          "text_hi": "badminton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses badminton with cricket; the clue in the question points specifically to cricket.",
+          "trap_reason_hi": "badminton को cricket समझ लिया। Stem की clue specifically cricket की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the fixed fact: LBW is a cricket dismissal term. Therefore, answer = cricket.",
+      "explanation_concept_en": "LBW is a cricket dismissal term. This is a stable RRB NTPC General Awareness fact; match the keyword in the stem before eliminating distractors. Final answer is cricket.",
+      "explanation_method_hi": "Fixed fact याद रखें: LBW cricket dismissal term है। अतः answer = cricket।",
+      "explanation_concept_hi": "LBW cricket dismissal term है। यह stable RRB NTPC General Awareness fact है; distractors हटाने से पहले stem keyword match करें। Final answer cricket है।"
+    }
+  ]
+}

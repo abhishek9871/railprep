@@ -1,0 +1,1289 @@
+{
+  "_doc": "Coverage sectional — Puzzles & Maps. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-reasoning-puzzles-maps-01",
+  "title_en": "Puzzles & Maps — Sectional",
+  "title_hi": "Puzzles & Maps — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Puzzles & Maps",
+    "title_hi": "Puzzles & Maps",
+    "subject_hint": "reason"
+  },
+  "questions": [
+    {
+      "id": "rmap-01",
+      "stem_en": "A sits in the middle. B is at the left end. D sits between B and A. E sits to the right of A. Who sits at the right end?",
+      "stem_hi": "A middle में बैठा है। B left end पर है। D, B और A के बीच है। E, A के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "C",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "A",
+          "text_hi": "A",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is B - D - A - E - C; right end is C. Therefore, answer = C.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is C.",
+      "explanation_method_hi": "Final order B - D - A - E - C है; right end C है। अतः answer = C।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer C है।"
+    },
+    {
+      "id": "rmap-02",
+      "stem_en": "P sits in the middle. Q is at the left end. S sits between Q and P. T sits to the right of P. Who sits at the right end?",
+      "stem_hi": "P middle में बैठा है। Q left end पर है। S, Q और P के बीच है। T, P के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is Q - S - P - T - R; right end is R. Therefore, answer = R.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is R.",
+      "explanation_method_hi": "Final order Q - S - P - T - R है; right end R है। अतः answer = R।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer R है।"
+    },
+    {
+      "id": "rmap-03",
+      "stem_en": "L sits in the middle. M is at the left end. O sits between M and L. P sits to the right of L. Who sits at the right end?",
+      "stem_hi": "L middle में बैठा है। M left end पर है। O, M और L के बीच है। P, L के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "N",
+          "text_hi": "N",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is M - O - L - P - N; right end is N. Therefore, answer = N.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is N.",
+      "explanation_method_hi": "Final order M - O - L - P - N है; right end N है। अतः answer = N।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer N है।"
+    },
+    {
+      "id": "rmap-04",
+      "stem_en": "V sits in the middle. W is at the left end. Y sits between W and V. Z sits to the right of V. Who sits at the right end?",
+      "stem_hi": "V middle में बैठा है। W left end पर है। Y, W और V के बीच है। Z, V के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "X",
+          "text_hi": "X",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order is W - Y - V - Z - X; right end is X. Therefore, answer = X.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is X.",
+      "explanation_method_hi": "Final order W - Y - V - Z - X है; right end X है। अतः answer = X।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer X है।"
+    },
+    {
+      "id": "rmap-05",
+      "stem_en": "Ravi sits in the middle. Sita is at the left end. Geeta sits between Sita and Ravi. Kabir sits to the right of Ravi. Who sits at the right end?",
+      "stem_hi": "Ravi middle में बैठा है। Sita left end पर है। Geeta, Sita और Ravi के बीच है। Kabir, Ravi के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mohan",
+          "text_hi": "Mohan",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Kabir",
+          "text_hi": "Kabir",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sita",
+          "text_hi": "Sita",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Ravi",
+          "text_hi": "Ravi",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is Sita - Geeta - Ravi - Kabir - Mohan; right end is Mohan. Therefore, answer = Mohan.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is Mohan.",
+      "explanation_method_hi": "Final order Sita - Geeta - Ravi - Kabir - Mohan है; right end Mohan है। अतः answer = Mohan।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer Mohan है।"
+    },
+    {
+      "id": "rmap-06",
+      "stem_en": "Anu sits in the middle. Bina is at the left end. Dev sits between Bina and Anu. Esha sits to the right of Anu. Who sits at the right end?",
+      "stem_hi": "Anu middle में बैठा है। Bina left end पर है। Dev, Bina और Anu के बीच है। Esha, Anu के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Esha",
+          "text_hi": "Esha",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "Chirag",
+          "text_hi": "Chirag",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Bina",
+          "text_hi": "Bina",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Anu",
+          "text_hi": "Anu",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is Bina - Dev - Anu - Esha - Chirag; right end is Chirag. Therefore, answer = Chirag.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is Chirag.",
+      "explanation_method_hi": "Final order Bina - Dev - Anu - Esha - Chirag है; right end Chirag है। अतः answer = Chirag।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer Chirag है।"
+    },
+    {
+      "id": "rmap-07",
+      "stem_en": "Farah sits in the middle. Gopal is at the left end. Irfan sits between Gopal and Farah. Jaya sits to the right of Farah. Who sits at the right end?",
+      "stem_hi": "Farah middle में बैठा है। Gopal left end पर है। Irfan, Gopal और Farah के बीच है। Jaya, Farah के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Jaya",
+          "text_hi": "Jaya",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "Gopal",
+          "text_hi": "Gopal",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Hina",
+          "text_hi": "Hina",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Farah",
+          "text_hi": "Farah",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is Gopal - Irfan - Farah - Jaya - Hina; right end is Hina. Therefore, answer = Hina.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is Hina.",
+      "explanation_method_hi": "Final order Gopal - Irfan - Farah - Jaya - Hina है; right end Hina है। अतः answer = Hina।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer Hina है।"
+    },
+    {
+      "id": "rmap-08",
+      "stem_en": "K sits in the middle. L is at the left end. N sits between L and K. O sits to the right of K. Who sits at the right end?",
+      "stem_hi": "K middle में बैठा है। L left end पर है। N, L और K के बीच है। O, K के right में है। Right end पर कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order is L - N - K - O - M; right end is M. Therefore, answer = M.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is M.",
+      "explanation_method_hi": "Final order L - N - K - O - M है; right end M है। अतः answer = M।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer M है।"
+    },
+    {
+      "id": "rmap-09",
+      "stem_en": "U sits in the middle. V is at the left end. X sits between V and U. Y sits to the right of U. Who sits at the right end?",
+      "stem_hi": "U middle में बैठा है। V left end पर है। X, V और U के बीच है। Y, U के right में है। Right end पर कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "C",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "U",
+          "text_hi": "U",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is V - X - U - Y - W; right end is W. Therefore, answer = W.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is W.",
+      "explanation_method_hi": "Final order V - X - U - Y - W है; right end W है। अतः answer = W।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer W है।"
+    },
+    {
+      "id": "rmap-10",
+      "stem_en": "Amit sits in the middle. Bala is at the left end. Deep sits between Bala and Amit. Eina sits to the right of Amit. Who sits at the right end?",
+      "stem_hi": "Amit middle में बैठा है। Bala left end पर है। Deep, Bala और Amit के बीच है। Eina, Amit के right में है। Right end पर कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "puzzle",
+        "seating-arrangement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Eina",
+          "text_hi": "Eina",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the person immediately right of the middle, not the right end.",
+          "trap_reason_hi": "Middle के immediate right वाले person पर रुक गए, right end नहीं देखा।"
+        },
+        {
+          "label": "B",
+          "text_en": "Charu",
+          "text_hi": "Charu",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Bala",
+          "text_hi": "Bala",
+          "is_correct": false,
+          "trap_reason_en": "Picked the left end even though the question asks for the right end.",
+          "trap_reason_hi": "Question right end पूछता है लेकिन left end चुन लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Amit",
+          "text_hi": "Amit",
+          "is_correct": false,
+          "trap_reason_en": "Picked the middle person instead of completing the row.",
+          "trap_reason_hi": "Row complete करने की जगह middle person चुन लिया।"
+        }
+      ],
+      "explanation_method_en": "Final order is Bala - Deep - Amit - Eina - Charu; right end is Charu. Therefore, answer = Charu.",
+      "explanation_concept_en": "Linear puzzle clues should be converted into a final row before answering. End positions and immediate-neighbour clues are common traps. Final answer is Charu.",
+      "explanation_method_hi": "Final order Bala - Deep - Amit - Eina - Charu है; right end Charu है। अतः answer = Charu।",
+      "explanation_concept_hi": "Linear puzzle clues को final row में convert करें। End positions और immediate-neighbour clues common traps हैं। Final answer Charu है।"
+    },
+    {
+      "id": "rmap-11",
+      "stem_en": "A map shows a point 6 km east and 8 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 6 km east और 8 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "14 km",
+          "text_hi": "14 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "6 km",
+          "text_hi": "6 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "10 km",
+          "text_hi": "10 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "8 km",
+          "text_hi": "8 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(6^2 + 8^2) = 10 km. Therefore, answer = 10 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 10 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(6^2 + 8^2) = 10 km। अतः answer = 10 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 10 km है।"
+    },
+    {
+      "id": "rmap-12",
+      "stem_en": "A map shows a point 8 km east and 15 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 8 km east और 15 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "23 km",
+          "text_hi": "23 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "8 km",
+          "text_hi": "8 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "15 km",
+          "text_hi": "15 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "17 km",
+          "text_hi": "17 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(8^2 + 15^2) = 17 km. Therefore, answer = 17 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 17 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(8^2 + 15^2) = 17 km। अतः answer = 17 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 17 km है।"
+    },
+    {
+      "id": "rmap-13",
+      "stem_en": "A map shows a point 5 km east and 12 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 5 km east और 12 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "13 km",
+          "text_hi": "13 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "17 km",
+          "text_hi": "17 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "5 km",
+          "text_hi": "5 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "12 km",
+          "text_hi": "12 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(5^2 + 12^2) = 13 km. Therefore, answer = 13 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 13 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(5^2 + 12^2) = 13 km। अतः answer = 13 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 13 km है।"
+    },
+    {
+      "id": "rmap-14",
+      "stem_en": "A map shows a point 12 km east and 16 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 12 km east और 16 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "28 km",
+          "text_hi": "28 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "20 km",
+          "text_hi": "20 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "12 km",
+          "text_hi": "12 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "16 km",
+          "text_hi": "16 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(12^2 + 16^2) = 20 km. Therefore, answer = 20 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 20 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(12^2 + 16^2) = 20 km। अतः answer = 20 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 20 km है।"
+    },
+    {
+      "id": "rmap-15",
+      "stem_en": "A map shows a point 9 km east and 12 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 9 km east और 12 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "21 km",
+          "text_hi": "21 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "9 km",
+          "text_hi": "9 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "15 km",
+          "text_hi": "15 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "12 km",
+          "text_hi": "12 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(9^2 + 12^2) = 15 km. Therefore, answer = 15 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 15 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(9^2 + 12^2) = 15 km। अतः answer = 15 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 15 km है।"
+    },
+    {
+      "id": "rmap-16",
+      "stem_en": "A map shows a point 7 km east and 24 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 7 km east और 24 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "31 km",
+          "text_hi": "31 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "7 km",
+          "text_hi": "7 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "24 km",
+          "text_hi": "24 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "25 km",
+          "text_hi": "25 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(7^2 + 24^2) = 25 km. Therefore, answer = 25 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 25 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(7^2 + 24^2) = 25 km। अतः answer = 25 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 25 km है।"
+    },
+    {
+      "id": "rmap-17",
+      "stem_en": "A map shows a point 15 km east and 20 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 15 km east और 20 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "25 km",
+          "text_hi": "25 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "35 km",
+          "text_hi": "35 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "15 km",
+          "text_hi": "15 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "20 km",
+          "text_hi": "20 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(15^2 + 20^2) = 25 km. Therefore, answer = 25 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 25 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(15^2 + 20^2) = 25 km। अतः answer = 25 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 25 km है।"
+    },
+    {
+      "id": "rmap-18",
+      "stem_en": "A map shows a point 10 km east and 24 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 10 km east और 24 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "34 km",
+          "text_hi": "34 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "26 km",
+          "text_hi": "26 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "10 km",
+          "text_hi": "10 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "24 km",
+          "text_hi": "24 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(10^2 + 24^2) = 26 km. Therefore, answer = 26 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 26 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(10^2 + 24^2) = 26 km। अतः answer = 26 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 26 km है।"
+    },
+    {
+      "id": "rmap-19",
+      "stem_en": "A map shows a point 20 km east and 21 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 20 km east और 21 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "41 km",
+          "text_hi": "41 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "20 km",
+          "text_hi": "20 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "29 km",
+          "text_hi": "29 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "21 km",
+          "text_hi": "21 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(20^2 + 21^2) = 29 km. Therefore, answer = 29 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 29 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(20^2 + 21^2) = 29 km। अतः answer = 29 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 29 km है।"
+    },
+    {
+      "id": "rmap-20",
+      "stem_en": "A map shows a point 16 km east and 30 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 16 km east और 30 km north है। Start से shortest distance क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "46 km",
+          "text_hi": "46 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "16 km",
+          "text_hi": "16 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "30 km",
+          "text_hi": "30 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "34 km",
+          "text_hi": "34 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(16^2 + 30^2) = 34 km. Therefore, answer = 34 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 34 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(16^2 + 30^2) = 34 km। अतः answer = 34 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 34 km है।"
+    },
+    {
+      "id": "rmap-21",
+      "stem_en": "A map shows a point 24 km east and 32 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 24 km east और 32 km north है। Start से shortest distance क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "40 km",
+          "text_hi": "40 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "56 km",
+          "text_hi": "56 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "24 km",
+          "text_hi": "24 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "32 km",
+          "text_hi": "32 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(24^2 + 32^2) = 40 km. Therefore, answer = 40 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 40 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(24^2 + 32^2) = 40 km। अतः answer = 40 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 40 km है।"
+    },
+    {
+      "id": "rmap-22",
+      "stem_en": "A map shows a point 18 km east and 24 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 18 km east और 24 km north है। Start से shortest distance क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "42 km",
+          "text_hi": "42 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "30 km",
+          "text_hi": "30 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "18 km",
+          "text_hi": "18 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "24 km",
+          "text_hi": "24 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(18^2 + 24^2) = 30 km. Therefore, answer = 30 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 30 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(18^2 + 24^2) = 30 km। अतः answer = 30 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 30 km है।"
+    },
+    {
+      "id": "rmap-23",
+      "stem_en": "A map shows a point 21 km east and 28 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 21 km east और 28 km north है। Start से shortest distance क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "49 km",
+          "text_hi": "49 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "21 km",
+          "text_hi": "21 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "35 km",
+          "text_hi": "35 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "28 km",
+          "text_hi": "28 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(21^2 + 28^2) = 35 km. Therefore, answer = 35 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 35 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(21^2 + 28^2) = 35 km। अतः answer = 35 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 35 km है।"
+    },
+    {
+      "id": "rmap-24",
+      "stem_en": "A map shows a point 30 km east and 40 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 30 km east और 40 km north है। Start से shortest distance क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "70 km",
+          "text_hi": "70 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "30 km",
+          "text_hi": "30 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "40 km",
+          "text_hi": "40 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "50 km",
+          "text_hi": "50 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(30^2 + 40^2) = 50 km. Therefore, answer = 50 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 50 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(30^2 + 40^2) = 50 km। अतः answer = 50 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 50 km है।"
+    },
+    {
+      "id": "rmap-25",
+      "stem_en": "A map shows a point 12 km east and 35 km north from the start. What is the shortest distance from the start?",
+      "stem_hi": "Map में एक point start से 12 km east और 35 km north है। Start से shortest distance क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "maps",
+        "direction-sense"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "37 km",
+          "text_hi": "37 km",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "47 km",
+          "text_hi": "47 km",
+          "is_correct": false,
+          "trap_reason_en": "Added path components and reported route length, not straight-line distance.",
+          "trap_reason_hi": "Components add करके route length दे दी, straight-line distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 km",
+          "text_hi": "12 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only east displacement and ignored north displacement.",
+          "trap_reason_hi": "सिर्फ east displacement लिया, north ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "35 km",
+          "text_hi": "35 km",
+          "is_correct": false,
+          "trap_reason_en": "Used only north displacement and ignored east displacement.",
+          "trap_reason_hi": "सिर्फ north displacement लिया, east ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Shortest distance = sqrt(12^2 + 35^2) = 37 km. Therefore, answer = 37 km.",
+      "explanation_concept_en": "Map distance between perpendicular directions is a Pythagoras problem. The direct distance is the hypotenuse, not the sum of the legs. Final answer is 37 km.",
+      "explanation_method_hi": "Shortest distance = sqrt(12^2 + 35^2) = 37 km। अतः answer = 37 km।",
+      "explanation_concept_hi": "Perpendicular directions का map distance Pythagoras problem है। Direct distance hypotenuse होता है, legs का sum नहीं। Final answer 37 km है।"
+    }
+  ]
+}

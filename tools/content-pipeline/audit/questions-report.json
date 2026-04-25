@@ -1,5 +1,5 @@
 {
-  "stamp": "2026-04-25T16:27:53.049Z",
+  "stamp": "2026-04-25T17:05:55.055Z",
   "fileSummaries": [
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-01.json",
@@ -38,6 +38,12 @@
       "warnings": 0
     },
     {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-art-culture-literature-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-averages.json",
       "count": 25,
       "errors": 0,
@@ -69,6 +75,12 @@
     },
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-computers-railways-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-current-affairs-science-tech-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
@@ -152,6 +164,36 @@
       "warnings": 0
     },
     {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-reasoning-operations-data-sufficiency-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-reasoning-puzzles-maps-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-reasoning-ranking-clocks-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-reasoning-series-analogy-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-reasoning-venn-statements-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-seating-01.json",
       "count": 25,
       "errors": 0,
@@ -165,6 +207,12 @@
     },
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-simplification-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-sports-awards-organizations-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0

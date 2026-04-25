@@ -1,0 +1,1274 @@
+{
+  "_doc": "Coverage sectional — Venn & Statement Conclusions. Original rows for official RRB NTPC syllabus coverage.",
+  "slug": "sectional-reasoning-venn-statements-01",
+  "title_en": "Venn & Statement Conclusions — Sectional",
+  "title_hi": "Venn & Statement Conclusions — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Venn & Statement Conclusions",
+    "title_hi": "Venn & Statement Conclusions",
+    "subject_hint": "reason"
+  },
+  "questions": [
+    {
+      "id": "rvenn-01",
+      "stem_en": "Statements: All trains are vehicles. Some vehicles are electric. Conclusions: I. Some trains may be electric. II. No train is electric. Which follows?",
+      "stem_hi": "Statements: All trains are vehicles. Some vehicles are electric. Conclusions: I. Some trains may be electric. II. No train is electric. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only possibility follows",
+          "text_hi": "Only possibility follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only possibility follows. Therefore, answer = Only possibility follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only possibility follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only possibility follows। अतः answer = Only possibility follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only possibility follows है।"
+    },
+    {
+      "id": "rvenn-02",
+      "stem_en": "Statements: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses may fade quickly. II. All flowers are roses. Which follows?",
+      "stem_hi": "Statements: All roses are flowers. Some flowers fade quickly. Conclusions: I. Some roses may fade quickly. II. All flowers are roses. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Only possibility follows",
+          "text_hi": "Only possibility follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only possibility follows. Therefore, answer = Only possibility follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only possibility follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only possibility follows। अतः answer = Only possibility follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only possibility follows है।"
+    },
+    {
+      "id": "rvenn-03",
+      "stem_en": "Statements: No pens are pencils. All pencils are stationery. Conclusions: I. Some stationery are not pens. II. All stationery are pens. Which follows?",
+      "stem_hi": "Statements: No pens are pencils. All pencils are stationery. Conclusions: I. Some stationery are not pens. II. All stationery are pens. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-04",
+      "stem_en": "Statements: All rivers are water bodies. No water body is a desert. Conclusions: I. No river is a desert. II. Some deserts are rivers. Which follows?",
+      "stem_hi": "Statements: All rivers are water bodies. No water body is a desert. Conclusions: I. No river is a desert. II. Some deserts are rivers. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-05",
+      "stem_en": "Statements: Some books are novels. All novels are stories. Conclusions: I. Some books are stories. II. All stories are books. Which follows?",
+      "stem_hi": "Statements: Some books are novels. All novels are stories. Conclusions: I. Some books are stories. II. All stories are books. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-06",
+      "stem_en": "Statements: All doctors are graduates. Some graduates are teachers. Conclusions: I. Some doctors may be teachers. II. All teachers are doctors. Which follows?",
+      "stem_hi": "Statements: All doctors are graduates. Some graduates are teachers. Conclusions: I. Some doctors may be teachers. II. All teachers are doctors. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Only possibility follows",
+          "text_hi": "Only possibility follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only possibility follows. Therefore, answer = Only possibility follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only possibility follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only possibility follows। अतः answer = Only possibility follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only possibility follows है।"
+    },
+    {
+      "id": "rvenn-07",
+      "stem_en": "Statements: No metals are gases. Some gases are elements. Conclusions: I. Some elements are not metals. II. All elements are metals. Which follows?",
+      "stem_hi": "Statements: No metals are gases. Some gases are elements. Conclusions: I. Some elements are not metals. II. All elements are metals. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-08",
+      "stem_en": "Statements: All squares are rectangles. All rectangles are quadrilaterals. Conclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares. Which follows?",
+      "stem_hi": "Statements: All squares are rectangles. All rectangles are quadrilaterals. Conclusions: I. All squares are quadrilaterals. II. All quadrilaterals are squares. कौन follow करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-09",
+      "stem_en": "Statements: Some apps are tools. All tools are useful. Conclusions: I. Some apps are useful. II. All useful things are apps. Which follows?",
+      "stem_hi": "Statements: Some apps are tools. All tools are useful. Conclusions: I. Some apps are useful. II. All useful things are apps. कौन follow करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-10",
+      "stem_en": "Statements: No birds are mammals. All bats are mammals. Conclusions: I. No bats are birds. II. Some bats are birds. Which follows?",
+      "stem_hi": "Statements: No birds are mammals. All bats are mammals. Conclusions: I. No bats are birds. II. Some bats are birds. कौन follow करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "statement-conclusion",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Only II follows",
+          "text_hi": "Only II follows",
+          "is_correct": false,
+          "trap_reason_en": "Accepted conclusion II even though it reverses or overstates the given class relation.",
+          "trap_reason_hi": "Conclusion II accept कर लिया जबकि यह given class relation को reverse/overstate करता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Only I follows",
+          "text_hi": "Only I follows",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Both I and II follow",
+          "text_hi": "Both I and II follow",
+          "is_correct": false,
+          "trap_reason_en": "Treated the invalid reversed conclusion as valid along with the valid one.",
+          "trap_reason_hi": "Invalid reversed conclusion को valid conclusion के साथ सही मान लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Neither follows",
+          "text_hi": "Neither follows",
+          "is_correct": false,
+          "trap_reason_en": "Rejected the direct Venn implication from the two statements.",
+          "trap_reason_hi": "दो statements से निकले direct Venn implication को reject कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Draw the Venn relation from the two statements; Only I follows. Therefore, answer = Only I follows.",
+      "explanation_concept_en": "In statement-conclusion reasoning, do not reverse an all/some relation unless the statement permits it. Possibility conclusions are valid only when not contradicted. Final answer is Only I follows.",
+      "explanation_method_hi": "दो statements से Venn relation बनाइए; Only I follows। अतः answer = Only I follows।",
+      "explanation_concept_hi": "Statement-conclusion में all/some relation को reverse नहीं करते जब तक statement allow न करे। Possibility conclusion contradiction न हो तभी valid है। Final answer Only I follows है।"
+    },
+    {
+      "id": "rvenn-11",
+      "stem_en": "In a Venn diagram, Students is fully inside Readers, and Singers partly overlaps Readers. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Students, Readers के अंदर है और Singers, Readers को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Singers are Readers",
+          "text_hi": "All Singers are Readers",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Singers and Readers into full inclusion.",
+          "trap_reason_hi": "Singers और Readers के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Students are Singers",
+          "text_hi": "No Students are Singers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Students and Singers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Students और Singers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Students are Readers",
+          "text_hi": "All Students are Readers",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "All Readers are Students",
+          "text_hi": "All Readers are Students",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Students inside Readers means all Students are Readers, not all Readers are Students.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Students, Readers के अंदर है मतलब all Students are Readers, all Readers are Students नहीं।"
+        }
+      ],
+      "explanation_method_en": "Students lies completely within Readers, so every Students is Readers. Therefore, answer = All Students are Readers.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Students are Readers.",
+      "explanation_method_hi": "Students पूरी तरह Readers के अंदर है, इसलिए every Students, Readers है। अतः answer = All Students are Readers।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Students are Readers है।"
+    },
+    {
+      "id": "rvenn-12",
+      "stem_en": "In a Venn diagram, Engineers is fully inside Graduates, and Artists partly overlaps Graduates. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Engineers, Graduates के अंदर है और Artists, Graduates को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Artists are Graduates",
+          "text_hi": "All Artists are Graduates",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Artists and Graduates into full inclusion.",
+          "trap_reason_hi": "Artists और Graduates के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Engineers are Artists",
+          "text_hi": "No Engineers are Artists",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Engineers and Artists; the diagram does not guarantee that.",
+          "trap_reason_hi": "Engineers और Artists को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Graduates are Engineers",
+          "text_hi": "All Graduates are Engineers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Engineers inside Graduates means all Engineers are Graduates, not all Graduates are Engineers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Engineers, Graduates के अंदर है मतलब all Engineers are Graduates, all Graduates are Engineers नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Engineers are Graduates",
+          "text_hi": "All Engineers are Graduates",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Engineers lies completely within Graduates, so every Engineers is Graduates. Therefore, answer = All Engineers are Graduates.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Engineers are Graduates.",
+      "explanation_method_hi": "Engineers पूरी तरह Graduates के अंदर है, इसलिए every Engineers, Graduates है। अतः answer = All Engineers are Graduates।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Engineers are Graduates है।"
+    },
+    {
+      "id": "rvenn-13",
+      "stem_en": "In a Venn diagram, Farmers is fully inside Workers, and Players partly overlaps Workers. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Farmers, Workers के अंदर है और Players, Workers को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Farmers are Workers",
+          "text_hi": "All Farmers are Workers",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "All Players are Workers",
+          "text_hi": "All Players are Workers",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Players and Workers into full inclusion.",
+          "trap_reason_hi": "Players और Workers के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "No Farmers are Players",
+          "text_hi": "No Farmers are Players",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Farmers and Players; the diagram does not guarantee that.",
+          "trap_reason_hi": "Farmers और Players को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Workers are Farmers",
+          "text_hi": "All Workers are Farmers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Farmers inside Workers means all Farmers are Workers, not all Workers are Farmers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Farmers, Workers के अंदर है मतलब all Farmers are Workers, all Workers are Farmers नहीं।"
+        }
+      ],
+      "explanation_method_en": "Farmers lies completely within Workers, so every Farmers is Workers. Therefore, answer = All Farmers are Workers.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Farmers are Workers.",
+      "explanation_method_hi": "Farmers पूरी तरह Workers के अंदर है, इसलिए every Farmers, Workers है। अतः answer = All Farmers are Workers।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Farmers are Workers है।"
+    },
+    {
+      "id": "rvenn-14",
+      "stem_en": "In a Venn diagram, Teachers is fully inside Employees, and Writers partly overlaps Employees. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Teachers, Employees के अंदर है और Writers, Employees को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Writers are Employees",
+          "text_hi": "All Writers are Employees",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Writers and Employees into full inclusion.",
+          "trap_reason_hi": "Writers और Employees के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "All Teachers are Employees",
+          "text_hi": "All Teachers are Employees",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "No Teachers are Writers",
+          "text_hi": "No Teachers are Writers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Teachers and Writers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Teachers और Writers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Employees are Teachers",
+          "text_hi": "All Employees are Teachers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Teachers inside Employees means all Teachers are Employees, not all Employees are Teachers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Teachers, Employees के अंदर है मतलब all Teachers are Employees, all Employees are Teachers नहीं।"
+        }
+      ],
+      "explanation_method_en": "Teachers lies completely within Employees, so every Teachers is Employees. Therefore, answer = All Teachers are Employees.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Teachers are Employees.",
+      "explanation_method_hi": "Teachers पूरी तरह Employees के अंदर है, इसलिए every Teachers, Employees है। अतः answer = All Teachers are Employees।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Teachers are Employees है।"
+    },
+    {
+      "id": "rvenn-15",
+      "stem_en": "In a Venn diagram, Drivers is fully inside Adults, and Cyclists partly overlaps Adults. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Drivers, Adults के अंदर है और Cyclists, Adults को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Cyclists are Adults",
+          "text_hi": "All Cyclists are Adults",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Cyclists and Adults into full inclusion.",
+          "trap_reason_hi": "Cyclists और Adults के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Drivers are Cyclists",
+          "text_hi": "No Drivers are Cyclists",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Drivers and Cyclists; the diagram does not guarantee that.",
+          "trap_reason_hi": "Drivers और Cyclists को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Drivers are Adults",
+          "text_hi": "All Drivers are Adults",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "All Adults are Drivers",
+          "text_hi": "All Adults are Drivers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Drivers inside Adults means all Drivers are Adults, not all Adults are Drivers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Drivers, Adults के अंदर है मतलब all Drivers are Adults, all Adults are Drivers नहीं।"
+        }
+      ],
+      "explanation_method_en": "Drivers lies completely within Adults, so every Drivers is Adults. Therefore, answer = All Drivers are Adults.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Drivers are Adults.",
+      "explanation_method_hi": "Drivers पूरी तरह Adults के अंदर है, इसलिए every Drivers, Adults है। अतः answer = All Drivers are Adults।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Drivers are Adults है।"
+    },
+    {
+      "id": "rvenn-16",
+      "stem_en": "In a Venn diagram, Doctors is fully inside Professionals, and Poets partly overlaps Professionals. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Doctors, Professionals के अंदर है और Poets, Professionals को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Poets are Professionals",
+          "text_hi": "All Poets are Professionals",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Poets and Professionals into full inclusion.",
+          "trap_reason_hi": "Poets और Professionals के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Doctors are Poets",
+          "text_hi": "No Doctors are Poets",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Doctors and Poets; the diagram does not guarantee that.",
+          "trap_reason_hi": "Doctors और Poets को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Professionals are Doctors",
+          "text_hi": "All Professionals are Doctors",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Doctors inside Professionals means all Doctors are Professionals, not all Professionals are Doctors.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Doctors, Professionals के अंदर है मतलब all Doctors are Professionals, all Professionals are Doctors नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Doctors are Professionals",
+          "text_hi": "All Doctors are Professionals",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Doctors lies completely within Professionals, so every Doctors is Professionals. Therefore, answer = All Doctors are Professionals.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Doctors are Professionals.",
+      "explanation_method_hi": "Doctors पूरी तरह Professionals के अंदर है, इसलिए every Doctors, Professionals है। अतः answer = All Doctors are Professionals।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Doctors are Professionals है।"
+    },
+    {
+      "id": "rvenn-17",
+      "stem_en": "In a Venn diagram, Athletes is fully inside Fit persons, and Musicians partly overlaps Fit persons. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Athletes, Fit persons के अंदर है और Musicians, Fit persons को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Athletes are Fit persons",
+          "text_hi": "All Athletes are Fit persons",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "All Musicians are Fit persons",
+          "text_hi": "All Musicians are Fit persons",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Musicians and Fit persons into full inclusion.",
+          "trap_reason_hi": "Musicians और Fit persons के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "No Athletes are Musicians",
+          "text_hi": "No Athletes are Musicians",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Athletes and Musicians; the diagram does not guarantee that.",
+          "trap_reason_hi": "Athletes और Musicians को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Fit persons are Athletes",
+          "text_hi": "All Fit persons are Athletes",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Athletes inside Fit persons means all Athletes are Fit persons, not all Fit persons are Athletes.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Athletes, Fit persons के अंदर है मतलब all Athletes are Fit persons, all Fit persons are Athletes नहीं।"
+        }
+      ],
+      "explanation_method_en": "Athletes lies completely within Fit persons, so every Athletes is Fit persons. Therefore, answer = All Athletes are Fit persons.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Athletes are Fit persons.",
+      "explanation_method_hi": "Athletes पूरी तरह Fit persons के अंदर है, इसलिए every Athletes, Fit persons है। अतः answer = All Athletes are Fit persons।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Athletes are Fit persons है।"
+    },
+    {
+      "id": "rvenn-18",
+      "stem_en": "In a Venn diagram, Dancers is fully inside Artists, and Teachers partly overlaps Artists. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Dancers, Artists के अंदर है और Teachers, Artists को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Teachers are Artists",
+          "text_hi": "All Teachers are Artists",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Teachers and Artists into full inclusion.",
+          "trap_reason_hi": "Teachers और Artists के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "All Dancers are Artists",
+          "text_hi": "All Dancers are Artists",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "No Dancers are Teachers",
+          "text_hi": "No Dancers are Teachers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Dancers and Teachers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Dancers और Teachers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Artists are Dancers",
+          "text_hi": "All Artists are Dancers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Dancers inside Artists means all Dancers are Artists, not all Artists are Dancers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Dancers, Artists के अंदर है मतलब all Dancers are Artists, all Artists are Dancers नहीं।"
+        }
+      ],
+      "explanation_method_en": "Dancers lies completely within Artists, so every Dancers is Artists. Therefore, answer = All Dancers are Artists.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Dancers are Artists.",
+      "explanation_method_hi": "Dancers पूरी तरह Artists के अंदर है, इसलिए every Dancers, Artists है। अतः answer = All Dancers are Artists।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Dancers are Artists है।"
+    },
+    {
+      "id": "rvenn-19",
+      "stem_en": "In a Venn diagram, Coders is fully inside Employees, and Gamers partly overlaps Employees. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Coders, Employees के अंदर है और Gamers, Employees को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Gamers are Employees",
+          "text_hi": "All Gamers are Employees",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Gamers and Employees into full inclusion.",
+          "trap_reason_hi": "Gamers और Employees के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Coders are Gamers",
+          "text_hi": "No Coders are Gamers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Coders and Gamers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Coders और Gamers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Coders are Employees",
+          "text_hi": "All Coders are Employees",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "All Employees are Coders",
+          "text_hi": "All Employees are Coders",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Coders inside Employees means all Coders are Employees, not all Employees are Coders.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Coders, Employees के अंदर है मतलब all Coders are Employees, all Employees are Coders नहीं।"
+        }
+      ],
+      "explanation_method_en": "Coders lies completely within Employees, so every Coders is Employees. Therefore, answer = All Coders are Employees.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Coders are Employees.",
+      "explanation_method_hi": "Coders पूरी तरह Employees के अंदर है, इसलिए every Coders, Employees है। अतः answer = All Coders are Employees।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Coders are Employees है।"
+    },
+    {
+      "id": "rvenn-20",
+      "stem_en": "In a Venn diagram, Voters is fully inside Adults, and Taxpayers partly overlaps Adults. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Voters, Adults के अंदर है और Taxpayers, Adults को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Taxpayers are Adults",
+          "text_hi": "All Taxpayers are Adults",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Taxpayers and Adults into full inclusion.",
+          "trap_reason_hi": "Taxpayers और Adults के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Voters are Taxpayers",
+          "text_hi": "No Voters are Taxpayers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Voters and Taxpayers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Voters और Taxpayers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Adults are Voters",
+          "text_hi": "All Adults are Voters",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Voters inside Adults means all Voters are Adults, not all Adults are Voters.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Voters, Adults के अंदर है मतलब all Voters are Adults, all Adults are Voters नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Voters are Adults",
+          "text_hi": "All Voters are Adults",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Voters lies completely within Adults, so every Voters is Adults. Therefore, answer = All Voters are Adults.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Voters are Adults.",
+      "explanation_method_hi": "Voters पूरी तरह Adults के अंदर है, इसलिए every Voters, Adults है। अतः answer = All Voters are Adults।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Voters are Adults है।"
+    },
+    {
+      "id": "rvenn-21",
+      "stem_en": "In a Venn diagram, Parents is fully inside Adults, and Doctors partly overlaps Adults. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Parents, Adults के अंदर है और Doctors, Adults को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Parents are Adults",
+          "text_hi": "All Parents are Adults",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "All Doctors are Adults",
+          "text_hi": "All Doctors are Adults",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Doctors and Adults into full inclusion.",
+          "trap_reason_hi": "Doctors और Adults के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "No Parents are Doctors",
+          "text_hi": "No Parents are Doctors",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Parents and Doctors; the diagram does not guarantee that.",
+          "trap_reason_hi": "Parents और Doctors को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Adults are Parents",
+          "text_hi": "All Adults are Parents",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Parents inside Adults means all Parents are Adults, not all Adults are Parents.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Parents, Adults के अंदर है मतलब all Parents are Adults, all Adults are Parents नहीं।"
+        }
+      ],
+      "explanation_method_en": "Parents lies completely within Adults, so every Parents is Adults. Therefore, answer = All Parents are Adults.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Parents are Adults.",
+      "explanation_method_hi": "Parents पूरी तरह Adults के अंदर है, इसलिए every Parents, Adults है। अतः answer = All Parents are Adults।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Parents are Adults है।"
+    },
+    {
+      "id": "rvenn-22",
+      "stem_en": "In a Venn diagram, Painters is fully inside Artists, and Students partly overlaps Artists. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Painters, Artists के अंदर है और Students, Artists को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Students are Artists",
+          "text_hi": "All Students are Artists",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Students and Artists into full inclusion.",
+          "trap_reason_hi": "Students और Artists के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "All Painters are Artists",
+          "text_hi": "All Painters are Artists",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "No Painters are Students",
+          "text_hi": "No Painters are Students",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Painters and Students; the diagram does not guarantee that.",
+          "trap_reason_hi": "Painters और Students को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Artists are Painters",
+          "text_hi": "All Artists are Painters",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Painters inside Artists means all Painters are Artists, not all Artists are Painters.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Painters, Artists के अंदर है मतलब all Painters are Artists, all Artists are Painters नहीं।"
+        }
+      ],
+      "explanation_method_en": "Painters lies completely within Artists, so every Painters is Artists. Therefore, answer = All Painters are Artists.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Painters are Artists.",
+      "explanation_method_hi": "Painters पूरी तरह Artists के अंदर है, इसलिए every Painters, Artists है। अतः answer = All Painters are Artists।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Painters are Artists है।"
+    },
+    {
+      "id": "rvenn-23",
+      "stem_en": "In a Venn diagram, Swimmers is fully inside Sportspersons, and Readers partly overlaps Sportspersons. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Swimmers, Sportspersons के अंदर है और Readers, Sportspersons को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Readers are Sportspersons",
+          "text_hi": "All Readers are Sportspersons",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Readers and Sportspersons into full inclusion.",
+          "trap_reason_hi": "Readers और Sportspersons के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Swimmers are Readers",
+          "text_hi": "No Swimmers are Readers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Swimmers and Readers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Swimmers और Readers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Swimmers are Sportspersons",
+          "text_hi": "All Swimmers are Sportspersons",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "All Sportspersons are Swimmers",
+          "text_hi": "All Sportspersons are Swimmers",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Swimmers inside Sportspersons means all Swimmers are Sportspersons, not all Sportspersons are Swimmers.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Swimmers, Sportspersons के अंदर है मतलब all Swimmers are Sportspersons, all Sportspersons are Swimmers नहीं।"
+        }
+      ],
+      "explanation_method_en": "Swimmers lies completely within Sportspersons, so every Swimmers is Sportspersons. Therefore, answer = All Swimmers are Sportspersons.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Swimmers are Sportspersons.",
+      "explanation_method_hi": "Swimmers पूरी तरह Sportspersons के अंदर है, इसलिए every Swimmers, Sportspersons है। अतः answer = All Swimmers are Sportspersons।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Swimmers are Sportspersons है।"
+    },
+    {
+      "id": "rvenn-24",
+      "stem_en": "In a Venn diagram, Pilots is fully inside Employees, and Authors partly overlaps Employees. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Pilots, Employees के अंदर है और Authors, Employees को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Authors are Employees",
+          "text_hi": "All Authors are Employees",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Authors and Employees into full inclusion.",
+          "trap_reason_hi": "Authors और Employees के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "No Pilots are Authors",
+          "text_hi": "No Pilots are Authors",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Pilots and Authors; the diagram does not guarantee that.",
+          "trap_reason_hi": "Pilots और Authors को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "C",
+          "text_en": "All Employees are Pilots",
+          "text_hi": "All Employees are Pilots",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Pilots inside Employees means all Pilots are Employees, not all Employees are Pilots.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Pilots, Employees के अंदर है मतलब all Pilots are Employees, all Employees are Pilots नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Pilots are Employees",
+          "text_hi": "All Pilots are Employees",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Pilots lies completely within Employees, so every Pilots is Employees. Therefore, answer = All Pilots are Employees.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Pilots are Employees.",
+      "explanation_method_hi": "Pilots पूरी तरह Employees के अंदर है, इसलिए every Pilots, Employees है। अतः answer = All Pilots are Employees।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Pilots are Employees है।"
+    },
+    {
+      "id": "rvenn-25",
+      "stem_en": "In a Venn diagram, Nurses is fully inside Professionals, and Singers partly overlaps Professionals. Which statement is definitely true?",
+      "stem_hi": "Venn diagram में Nurses, Professionals के अंदर है और Singers, Professionals को partly overlap करता है। Definitely true statement कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "reasoning",
+        "venn-diagram"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "All Nurses are Professionals",
+          "text_hi": "All Nurses are Professionals",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "All Singers are Professionals",
+          "text_hi": "All Singers are Professionals",
+          "is_correct": false,
+          "trap_reason_en": "Converted a partial overlap between Singers and Professionals into full inclusion.",
+          "trap_reason_hi": "Singers और Professionals के partial overlap को full inclusion मान लिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "No Nurses are Singers",
+          "text_hi": "No Nurses are Singers",
+          "is_correct": false,
+          "trap_reason_en": "Assumed separation between Nurses and Singers; the diagram does not guarantee that.",
+          "trap_reason_hi": "Nurses और Singers को separate मान लिया; diagram यह guarantee नहीं करता।"
+        },
+        {
+          "label": "D",
+          "text_en": "All Professionals are Nurses",
+          "text_hi": "All Professionals are Nurses",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the inclusion. Nurses inside Professionals means all Nurses are Professionals, not all Professionals are Nurses.",
+          "trap_reason_hi": "Inclusion reverse कर दिया। Nurses, Professionals के अंदर है मतलब all Nurses are Professionals, all Professionals are Nurses नहीं।"
+        }
+      ],
+      "explanation_method_en": "Nurses lies completely within Professionals, so every Nurses is Professionals. Therefore, answer = All Nurses are Professionals.",
+      "explanation_concept_en": "A Venn diagram only gives guaranteed relations shown by full containment, separation, or overlap. Do not infer more than the diagram states. Final answer is All Nurses are Professionals.",
+      "explanation_method_hi": "Nurses पूरी तरह Professionals के अंदर है, इसलिए every Nurses, Professionals है। अतः answer = All Nurses are Professionals।",
+      "explanation_concept_hi": "Venn diagram सिर्फ वही guaranteed relation देता है जो full containment, separation या overlap से दिखता है। Extra inference न करें। Final answer All Nurses are Professionals है।"
+    }
+  ]
+}
