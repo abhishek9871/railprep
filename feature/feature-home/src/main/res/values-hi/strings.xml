@@ -3,6 +3,7 @@
     <string name="nav_home">होम</string>
     <string name="nav_tests">टेस्ट</string>
     <string name="nav_feed">फ़ीड</string>
+    <string name="nav_pyq">PYQ</string>
     <string name="nav_profile">प्रोफ़ाइल</string>
 
     <string name="home_welcome_fmt">नमस्ते, %1$s</string>

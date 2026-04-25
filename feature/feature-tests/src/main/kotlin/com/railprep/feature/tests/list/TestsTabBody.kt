@@ -53,43 +53,52 @@ import com.railprep.domain.model.Test
 import com.railprep.domain.model.TestKind
 import com.railprep.feature.tests.R
 
+enum class TestsTabMode { PRACTICE, PYQ_LIBRARY }
+
 @Composable
 fun TestsTabBody(
     onOpenInstructions: (testId: String) -> Unit,
     onOpenPyqPaper: (testId: String) -> Unit = {},
     onOpenPro: () -> Unit = {},
+    mode: TestsTabMode = TestsTabMode.PRACTICE,
     viewModel: TestsListViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    val filtered = state.tests.filteredFor(state.filter)
+    val filtered = state.tests.filteredFor(mode, state.filter)
     var proDialogTest by remember { mutableStateOf<Test?>(null) }
 
     Column(Modifier.fillMaxSize()) {
         Column(modifier = Modifier.padding(horizontal = Spacing.Lg, vertical = Spacing.Md)) {
             Text(
-                text = stringResource(R.string.tests_list_title),
+                text = stringResource(
+                    if (mode == TestsTabMode.PYQ_LIBRARY) R.string.tests_pyq_title else R.string.tests_list_title,
+                ),
                 style = MaterialTheme.typography.displaySmall,
                 color = MaterialTheme.colorScheme.onBackground,
             )
             Text(
-                text = stringResource(R.string.tests_list_subtitle),
+                text = stringResource(
+                    if (mode == TestsTabMode.PYQ_LIBRARY) R.string.tests_pyq_subtitle else R.string.tests_list_subtitle,
+                ),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = Spacing.Xs),
             )
-            OutlinedTextField(
-                value = state.searchQuery,
-                onValueChange = { viewModel.setSearchQuery(it) },
-                leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
-                placeholder = { Text(stringResource(R.string.tests_search_hint)) },
-                singleLine = true,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(top = Spacing.Md),
-            )
+            if (mode == TestsTabMode.PRACTICE) {
+                OutlinedTextField(
+                    value = state.searchQuery,
+                    onValueChange = { viewModel.setSearchQuery(it) },
+                    leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
+                    placeholder = { Text(stringResource(R.string.tests_search_hint)) },
+                    singleLine = true,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = Spacing.Md),
+                )
+            }
         }
 
-        if (state.searchQuery.isBlank()) {
+        if (mode == TestsTabMode.PRACTICE && state.searchQuery.isBlank()) {
             FilterChipsRow(
                 filter = state.filter,
                 onChange = { viewModel.setFilter(it) },
@@ -98,7 +107,7 @@ fun TestsTabBody(
 
         when {
             state.loading -> Box(Modifier.fillMaxSize(), Alignment.Center) { CircularProgressIndicator() }
-            state.searchQuery.isNotBlank() -> SearchResultsPane(
+            mode == TestsTabMode.PRACTICE && state.searchQuery.isNotBlank() -> SearchResultsPane(
                 loading = state.searchLoading,
                 results = state.searchResults,
                 error = state.searchError,
@@ -111,7 +120,14 @@ fun TestsTabBody(
             filtered.isEmpty() -> Box(
                 Modifier.fillMaxSize().padding(Spacing.Lg),
                 Alignment.Center,
-            ) { Text(stringResource(R.string.tests_list_empty)) }
+            ) {
+                Text(
+                    stringResource(
+                        if (mode == TestsTabMode.PYQ_LIBRARY) R.string.tests_pyq_empty
+                        else R.string.tests_list_empty,
+                    ),
+                )
+            }
             else -> LazyColumn(
                 modifier = Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(
@@ -277,9 +293,7 @@ private fun FilterChipsRow(
         Chip(TestsFilter.ALL, filter, stringResource(R.string.tests_filter_all), onChange)
         Chip(TestsFilter.CBT1, filter, stringResource(R.string.tests_filter_cbt1), onChange)
         Chip(TestsFilter.CBT2, filter, stringResource(R.string.tests_filter_cbt2), onChange)
-        Chip(TestsFilter.PYQ, filter, stringResource(R.string.tests_filter_pyq), onChange)
         Chip(TestsFilter.SECTIONAL, filter, stringResource(R.string.tests_filter_sectional), onChange)
-        Chip(TestsFilter.PYQ_LIBRARY, filter, stringResource(R.string.tests_filter_pyq_library), onChange)
     }
 }
 

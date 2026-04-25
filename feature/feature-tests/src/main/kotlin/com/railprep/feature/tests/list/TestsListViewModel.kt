@@ -126,13 +126,19 @@ class TestsListViewModel @Inject constructor(
     }
 }
 
-fun List<Test>.filteredFor(filter: TestsFilter): List<Test> = when (filter) {
-    // ALL hides PYQ_LINK rows from the default tab; there are many of them and they'd
-    // drown out the interactive tests. Users find them via the PYQ_LIBRARY filter chip.
-    TestsFilter.ALL -> filter { it.kind != TestKind.PYQ_LINK }
-    TestsFilter.CBT1 -> filter { it.examTarget == ExamTarget.NtpcCbt1 && it.kind == TestKind.CBT1_FULL }
-    TestsFilter.CBT2 -> filter { it.examTarget == ExamTarget.NtpcCbt2 && it.kind == TestKind.CBT2_FULL }
-    TestsFilter.PYQ -> filter { it.kind == TestKind.PYQ }
-    TestsFilter.SECTIONAL -> filter { it.kind == TestKind.SECTIONAL }
-    TestsFilter.PYQ_LIBRARY -> filter { it.kind == TestKind.PYQ_LINK }
+fun List<Test>.filteredFor(mode: TestsTabMode, filter: TestsFilter): List<Test> = when (mode) {
+    TestsTabMode.PYQ_LIBRARY -> filter { it.kind == TestKind.PYQ_LINK }
+    TestsTabMode.PRACTICE -> when (filter) {
+        TestsFilter.ALL -> filter {
+            it.kind == TestKind.CBT1_FULL ||
+                it.kind == TestKind.CBT2_FULL ||
+                it.kind == TestKind.SECTIONAL ||
+                it.kind == TestKind.PYQ
+        }
+        TestsFilter.CBT1 -> filter { it.examTarget == ExamTarget.NtpcCbt1 && it.kind == TestKind.CBT1_FULL }
+        TestsFilter.CBT2 -> filter { it.examTarget == ExamTarget.NtpcCbt2 && it.kind == TestKind.CBT2_FULL }
+        TestsFilter.PYQ -> filter { it.kind == TestKind.PYQ }
+        TestsFilter.SECTIONAL -> filter { it.kind == TestKind.SECTIONAL }
+        TestsFilter.PYQ_LIBRARY -> emptyList()
+    }
 }

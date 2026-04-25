@@ -48,6 +48,9 @@ fun NavGraphBuilder.homeGraph(
         onOpenPyqPaper: (String) -> Unit,
         onOpenPro: () -> Unit,
     ) -> Unit = { _, _, _ -> },
+    pyqTabContent: @androidx.compose.runtime.Composable (
+        onOpenPyqPaper: (String) -> Unit,
+    ) -> Unit = { _ -> },
     dailyHomeCard: @androidx.compose.runtime.Composable () -> Unit = {},
 ) {
     composable<HomeRoute.Home> {
@@ -65,6 +68,7 @@ fun NavGraphBuilder.homeGraph(
             onOpenTestInstructions = onNavigateToTestInstructions,
             onOpenPyqPaper = onNavigateToPyqPaper,
             testsTabContent = testsTabContent,
+            pyqTabContent = pyqTabContent,
             dailyHomeCard = dailyHomeCard,
         )
     }

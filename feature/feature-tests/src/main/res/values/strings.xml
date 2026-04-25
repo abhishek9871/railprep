@@ -3,6 +3,8 @@
     <!-- Tests list (tab body) -->
     <string name="tests_list_title">Mock tests</string>
     <string name="tests_list_subtitle">CBT-pattern practice with timed sections + negative marking.</string>
+    <string name="tests_pyq_title">PYQ papers</string>
+    <string name="tests_pyq_subtitle">Original RRB NTPC papers open as PDFs. Use these for paper reading; timed mocks stay under Tests.</string>
     <string name="tests_filter_all">All</string>
     <string name="tests_filter_cbt1">CBT-1</string>
     <string name="tests_filter_cbt2">CBT-2</string>
@@ -17,6 +19,7 @@
     <string name="tests_card_pro">PRO</string>
     <string name="tests_load_error">Couldn\'t load tests. Pull to retry.</string>
     <string name="tests_list_empty">No tests available yet — try another filter.</string>
+    <string name="tests_pyq_empty">No PYQ papers are available right now.</string>
     <string name="tests_pull_to_refresh">Pull to refresh</string>
     <string name="tests_card_not_attempted">Not attempted yet</string>
     <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>

@@ -3,6 +3,8 @@
     <!-- Tests list (tab body) -->
     <string name="tests_list_title">मॉक टेस्ट</string>
     <string name="tests_list_subtitle">CBT पैटर्न प्रैक्टिस — section timing + negative marking के साथ।</string>
+    <string name="tests_pyq_title">PYQ पेपर</string>
+    <string name="tests_pyq_subtitle">Original RRB NTPC papers PDF में खुलते हैं। Timed mocks टेस्ट tab में हैं।</string>
     <string name="tests_filter_all">सभी</string>
     <string name="tests_filter_cbt1">CBT-1</string>
     <string name="tests_filter_cbt2">CBT-2</string>
@@ -17,6 +19,7 @@
     <string name="tests_card_pro">PRO</string>
     <string name="tests_load_error">टेस्ट लोड नहीं हो सके। pull to retry।</string>
     <string name="tests_list_empty">इस filter के लिए कोई टेस्ट उपलब्ध नहीं है।</string>
+    <string name="tests_pyq_empty">अभी कोई PYQ paper उपलब्ध नहीं है।</string>
     <string name="tests_pull_to_refresh">Refresh के लिए pull करें</string>
     <string name="tests_card_not_attempted">अभी तक attempt नहीं किया</string>
     <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>

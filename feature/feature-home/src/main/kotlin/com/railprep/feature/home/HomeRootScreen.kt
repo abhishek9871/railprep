@@ -27,7 +27,7 @@ import com.railprep.feature.home.placeholder.FeedTab
 import com.railprep.feature.home.placeholder.TestsTab
 import com.railprep.feature.home.profile.ProfileTab
 
-private enum class Tab { HOME, TESTS, FEED, PROFILE }
+private enum class Tab { HOME, TESTS, PYQ, PROFILE }
 
 @Composable
 fun HomeRootScreen(
@@ -50,6 +50,9 @@ fun HomeRootScreen(
         onOpenPyqPaper: (String) -> Unit,
         onOpenPro: () -> Unit,
     ) -> Unit = { _, _, _ -> TestsTab() },
+    pyqTabContent: @Composable (
+        onOpenPyqPaper: (String) -> Unit,
+    ) -> Unit = { _ -> FeedTab() },
     /** Slot filled by the app nav graph with feature-daily's DailyHomeCard. Default empty. */
     dailyHomeCard: @Composable () -> Unit = {},
 ) {
@@ -72,10 +75,10 @@ fun HomeRootScreen(
                     label = { Text(stringResource(R.string.nav_tests)) },
                 )
                 NavigationBarItem(
-                    selected = tab == Tab.FEED,
-                    onClick = { tab = Tab.FEED },
+                    selected = tab == Tab.PYQ,
+                    onClick = { tab = Tab.PYQ },
                     icon = { Icon(Icons.AutoMirrored.Filled.Article, null) },
-                    label = { Text(stringResource(R.string.nav_feed)) },
+                    label = { Text(stringResource(R.string.nav_pyq)) },
                 )
                 NavigationBarItem(
                     selected = tab == Tab.PROFILE,
@@ -94,7 +97,7 @@ fun HomeRootScreen(
                     dailyHomeCard = dailyHomeCard,
                 )
                 Tab.TESTS -> testsTabContent(onOpenTestInstructions, onOpenPyqPaper, onOpenPro)
-                Tab.FEED -> FeedTab()
+                Tab.PYQ -> pyqTabContent(onOpenPyqPaper)
                 Tab.PROFILE -> ProfileTab(
                     onSignedOut = onSignedOut,
                     onOpenEdit = onOpenProfileEdit,

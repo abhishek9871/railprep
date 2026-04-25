@@ -16,6 +16,7 @@ import com.railprep.feature.learn.navigation.LearnRoute
 import com.railprep.feature.learn.navigation.learnGraph
 import com.railprep.feature.paywall.PaywallScreen
 import com.railprep.feature.tests.list.TestsTabBody
+import com.railprep.feature.tests.list.TestsTabMode
 import com.railprep.feature.tests.navigation.TestsRoute
 import com.railprep.feature.tests.navigation.testsGraph
 
@@ -63,6 +64,15 @@ fun RailPrepNavGraph(navController: NavHostController) {
                     onOpenInstructions = onOpenInstructions,
                     onOpenPyqPaper = onOpenPyqPaper,
                     onOpenPro = onOpenPro,
+                    mode = TestsTabMode.PRACTICE,
+                )
+            },
+            pyqTabContent = { onOpenPyqPaper ->
+                TestsTabBody(
+                    onOpenInstructions = { },
+                    onOpenPyqPaper = onOpenPyqPaper,
+                    onOpenPro = { navController.navigate(AppRoute.Paywall) },
+                    mode = TestsTabMode.PYQ_LIBRARY,
                 )
             },
             dailyHomeCard = {
