@@ -247,9 +247,9 @@
         { "label": "C", "text_en": "40%",         "text_hi": "40%",         "is_correct": false, "trap_reason_en": "This is the original girls% — but absent girls reduced it.",                                  "trap_reason_hi": "मूल girls% यही है — पर absent ने इसे कम कर दिया।" },
         { "label": "D", "text_en": "32%",         "text_hi": "32%",         "is_correct": false, "trap_reason_en": "Used 12/(50−8) but rounded the calculation in the wrong direction.",                          "trap_reason_hi": "12/(50−8) लगाया पर round wrong direction में किया।" }
       ],
-      "explanation_method_en": "Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 − 8 = 42. % = 12/42 × 100 ≈ 28.57%.",
+      "explanation_method_en": "Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 − 8 = 42. % = 12/42 × 100 ≈ 28.57%. Rounded to one decimal, this is 28.6%.",
       "explanation_concept_en": "When the population's composition changes (here through absences), recompute the relevant base. The 'percent present girls' takes 'present girls' as the numerator and 'present total' (not original total) as the denominator. The boys count stays at 30 because no boys are absent.",
-      "explanation_method_hi": "total = 50, लड़के = 30, लड़कियाँ = 20। absent लड़कियाँ = 8 ⇒ present लड़कियाँ = 12। present class = 50 − 8 = 42। % = 12/42 × 100 ≈ 28.57%।",
+      "explanation_method_hi": "total = 50, लड़के = 30, लड़कियाँ = 20। absent लड़कियाँ = 8 ⇒ present लड़कियाँ = 12। present class = 50 − 8 = 42। % = 12/42 × 100 ≈ 28.57%। एक decimal तक round करने पर यह 28.6% है।",
       "explanation_concept_hi": "जब population का composition बदले (यहाँ absences से), तो relevant base फिर से निकालें। 'percent present girls' का numerator 'present girls' और denominator 'present total' (मूल total नहीं) है। लड़के 30 वही रहे क्योंकि कोई लड़का absent नहीं।"
     },
     {

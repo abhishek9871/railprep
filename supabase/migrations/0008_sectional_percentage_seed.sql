@@ -202,9 +202,9 @@ begin
   -- Q13
   insert into public.questions (section_id, display_order, stem_en, stem_hi, explanation_method_en, explanation_concept_en, explanation_method_hi, explanation_concept_hi, difficulty, tags, source, license, status)
   values (v_section_id, 12, 'In a class of 50 students, 60% are boys. If 8 girls are absent on a particular day, what percent of the class present is girls?', '50 छात्रों की class में 60% लड़के हैं। एक दिन 8 लड़कियाँ absent हैं — present class में लड़कियाँ कितने प्रतिशत हैं?',
-    'Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 - 8 = 42. % = 12/42 × 100 ≈ 28.57%.',
+    'Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 - 8 = 42. % = 12/42 × 100 ≈ 28.57%. Rounded to one decimal, this is 28.6%.',
     'When the population composition changes (here through absences), recompute the relevant base. The percent present girls takes present girls as the numerator and present total (not original total) as the denominator.',
-    'total = 50, लड़के = 30, लड़कियाँ = 20। absent लड़कियाँ = 8 ⇒ present लड़कियाँ = 12। present class = 50 - 8 = 42। % = 12/42 × 100 ≈ 28.57%।',
+    'total = 50, लड़के = 30, लड़कियाँ = 20। absent लड़कियाँ = 8 ⇒ present लड़कियाँ = 12। present class = 50 - 8 = 42। % = 12/42 × 100 ≈ 28.57%। एक decimal तक round करने पर यह 28.6% है।',
     'जब composition बदले, तो relevant base फिर से निकालें। numerator और denominator दोनों present पर आधारित हों।',
     'MEDIUM', array['percentage','ratio-percentage','absenteeism']::text[], 'Original', 'ORIGINAL', 'active')
   returning id into v_q_id;

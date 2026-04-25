@@ -122,23 +122,22 @@
     },
     {
       "id": "avg-07",
-      "stem_en": "The average weight of 50 students in a class is 50 kg. The average weight of the first 25 is 48 kg, and that of the last 24 is 52 kg. Find the weight of the 25th student.",
-      "stem_hi": "50 छात्रों का average weight 50 kg है। पहले 25 का average 48 kg और अंतिम 24 का 52 kg है। 25वें छात्र का weight क्या है?",
+      "stem_en": "The average weight of 50 students in a class is 50 kg. The average weight of the first 25 is 48 kg, and that of the last 24 is 52 kg. Find the weight of the 26th student.",
+      "stem_hi": "50 छात्रों का average weight 50 kg है। पहले 25 का average 48 kg और अंतिम 24 का 52 kg है। 26वें छात्र का weight क्या है?",
       "difficulty": "MEDIUM",
       "tags": ["average", "overlap", "weight-problem"],
       "source": "Original",
       "license": "ORIGINAL",
       "options": [
         { "label": "A", "text_en": "52 kg", "text_hi": "52 kg", "is_correct": true,  "trap_reason_en": null, "trap_reason_hi": null },
-        { "label": "B", "text_en": "50 kg", "text_hi": "50 kg", "is_correct": false, "trap_reason_en": "Reported the overall average (50) as the 25th student's weight. The 25th is the overlap; compute via sum inclusion–exclusion.", "trap_reason_hi": "Overall average (50) को 25वें का weight कह दिया। 25वें overlap है — sum inclusion–exclusion से निकलेगा।" },
-        { "label": "C", "text_en": "48 kg", "text_hi": "48 kg", "is_correct": false, "trap_reason_en": "Reported the first-25 average (48) as the 25th student's weight. That is the GROUP average, not any specific student.", "trap_reason_hi": "First-25 average (48) को 25वें का weight कह दिया। यह GROUP average है, specifically किसी एक का नहीं।" },
-        { "label": "D", "text_en": "100 kg","text_hi": "100 kg","is_correct": false, "trap_reason_en": "Doubled the overall average (50 × 2 = 100) thinking 'overlap counts double'. The overlap formula gives the actual value, not 2× the average.", "trap_reason_hi": "Overall average × 2 = 100 लगाया ('overlap double counts' सोचकर)। Overlap formula से actual value निकलती है, 2 × average नहीं।" }
+        { "label": "B", "text_en": "50 kg", "text_hi": "50 kg", "is_correct": false, "trap_reason_en": "Reported the overall average (50) as the 26th student's weight. The 26th is omitted by the two groups; compute total sum minus covered sums.", "trap_reason_hi": "Overall average (50) को 26वें का weight मान लिया। 26वाँ दोनों groups से omitted है; total sum − covered sums करें।" },
+        { "label": "C", "text_en": "48 kg", "text_hi": "48 kg", "is_correct": false, "trap_reason_en": "Reported the first-25 average (48) as the 26th student's weight. The 26th is not in the first-25 group; use the missing-student sum gap.", "trap_reason_hi": "First-25 average (48) को 26वें का weight मान लिया। 26वाँ first-25 group में नहीं है; missing-student sum gap निकालें।" },
+        { "label": "D", "text_en": "100 kg","text_hi": "100 kg","is_correct": false, "trap_reason_en": "Doubled the overall average (50 × 2 = 100) instead of subtracting covered sums from total. There is no doubling step in this method.", "trap_reason_hi": "Overall average को double करके 50 × 2 = 100 कर दिया। इस method में doubling step नहीं है; total से covered sums घटते हैं।" }
       ],
-      "explanation_method_en": "Total sum = 50 × 50 = 2500. First-25 sum = 25 × 48 = 1200. Last-24 sum = 24 × 52 = 1248. Sum of group sums = 2448. The 25th student is in the first-25 only (not in the last-24 of 49 distinct students; here 25+24 = 49 means the 25th student is the unique shared one if we're talking '25th counted from the start' overlapping the 'last 24 starting from 27th'). Wait: first-25 + last-24 = 49 students, total = 50, so one student is missing from both groups. That is the 25th student? No — actually if first-25 covers 1-25 and last-24 covers 27-50, then student 26 is missing. Hmm let me recount: total 50, first 25 (1-25), last 24 (27-50), gap at 26. So 25 + 24 = 49 students covered, missing the 26th. The 25th would be in first-25.",
-      "explanation_concept_en": "When two groups don't overlap (first-25 and last-24 of 50 leave one student uncounted), the group sums add to (total sum − missing). The arithmetic identifies which student is missing from both groups based on group ordering.",
-      "explanation_method_hi": "Total sum = 50 × 50 = 2500। First-25 sum = 25 × 48 = 1200। Last-24 sum = 24 × 52 = 1248। Group sums का sum = 2448। 25वें छात्र first-25 में है। Missing student (#26) का weight = 2500 − 2448 = 52 kg। Question 25वें का पूछ रहा है — मगर actual missing 26 है, और 26वाँ exactly 52 kg निकलता है। Re-reading: question intends the 25th = the student NOT in either group, which by ordering convention is meant to be #26 here. Reported = 52 kg ★.",
-      "explanation_method_hi_alt": "Confirmed: the 'middle' student (between groups) weighs 52 kg by sum subtraction.",
-      "explanation_concept_hi": "जब दो groups बीच में gap छोड़ते हैं (पहले 25 + अंतिम 24 कुल 49 ⇒ एक छात्र missing), तो group sums total से कम होंगे; missing student का weight = total − sum of group sums।"
+      "explanation_method_en": "Total sum = 50 × 50 = 2500. First-25 sum = 25 × 48 = 1200. Last-24 sum = 24 × 52 = 1248. Covered sum = 1200 + 1248 = 2448. These groups cover students 1-25 and 27-50, so student 26 is missing. Weight of the 26th student = 2500 − 2448 = 52 kg.",
+      "explanation_concept_en": "When two non-overlapping groups leave one student outside both groups, add the group sums and subtract from the total class sum. Here first 25 plus last 24 covers 49 students; the omitted 26th student's weight is 52 kg.",
+      "explanation_method_hi": "Total sum = 50 × 50 = 2500। First-25 sum = 25 × 48 = 1200। Last-24 sum = 24 × 52 = 1248। Covered sum = 1200 + 1248 = 2448। ये groups students 1-25 और 27-50 को cover करते हैं, इसलिए 26वाँ छात्र missing है। 26वें छात्र का weight = 2500 − 2448 = 52 kg।",
+      "explanation_concept_hi": "जब दो non-overlapping groups एक छात्र को बाहर छोड़ दें, तो group sums जोड़कर total class sum से घटाएँ। यहाँ first 25 + last 24 = 49 छात्र cover होते हैं; omitted 26वें छात्र का weight 52 kg है।"
     },
     {
       "id": "avg-08",

@@ -32,6 +32,7 @@ const VALID_LICENSE = new Set(["ORIGINAL", "PYQ_PUBLIC", "CC_BY_SA"]);
 const VALID_OPTION_LABELS = ["A", "B", "C", "D"];
 const SOURCE_RE = /^(Original|PYQ_\d{4}_S[1-9]+_\d{2}-\d{2}|NCERT_[a-z0-9]+_(Ch)?\d+(-\d+)?)$/;
 const KEBAB_TAG_RE = /^[a-z][a-z0-9-]*$/;
+const NUMERIC_TOKEN_RE = /(?:\d+\.?\d*|\d*\.\d+)/g;
 
 // Filler-trap pattern: vibes instead of misconceptions. A trap_reason must name the SPECIFIC
 // arithmetic step or conceptual error that produces the wrong option's exact value. "Rough
@@ -39,6 +40,23 @@ const KEBAB_TAG_RE = /^[a-z][a-z0-9-]*$/;
 // they computed — which means they don't teach. Emits warnings (not errors) so authors can
 // override with a tactical justification, but surfaces the pattern automatically.
 const FILLER_TRAP_RE = /\b(rough estimate|gut feel|estimated|approximation|rounded|guessed)\b/i;
+
+function numericTokens(text) {
+  return [...String(text ?? "").matchAll(NUMERIC_TOKEN_RE)].map((m) => m[0]);
+}
+
+function firstNumericToken(text) {
+  return numericTokens(text)[0] ?? null;
+}
+
+function lastNumericToken(text) {
+  const tokens = numericTokens(text);
+  return tokens.at(-1) ?? null;
+}
+
+function tail(text, chars) {
+  return String(text ?? "").slice(-chars);
+}
 
 function check(question, idx, errors, warnings) {
   const tag = `Q[${idx}] (${question.id ?? "no-id"})`;
@@ -98,6 +116,31 @@ function check(question, idx, errors, warnings) {
     }
     if (expConceptHi.length < 50) {
       errors.push(`${tag}: explanation_concept_hi too short (${expConceptHi.length} chars; min 50)`);
+    }
+  }
+  // Warning-level explanation-answer consistency heuristic.
+  // Numeric MCQ answers should usually appear near the end of either the 40-second method
+  // or the full concept explanation. This catches marked-correct numeric options whose
+  // explanations derive a different final value (for example, correct option 17 but the
+  // derivation ends at 19). Known limits: textual-answer options are skipped, and this can
+  // false-positive when an explanation is a derivation that implies the answer without
+  // restating it in the final 200 chars. Rows with no numeric token in either English
+  // explanation are skipped here; the explanation length checks already cover missing text.
+  const correctOption = correct[0];
+  const correctValue = firstNumericToken(correctOption?.text_en ?? correctOption?.text_hi ?? "");
+  if (correctValue) {
+    const methodEnd200 = tail(expMethodEn, 200);
+    const conceptEnd200 = tail(expConceptEn, 200);
+    const methodLastNumber = lastNumericToken(expMethodEn);
+    const conceptLastNumber = lastNumericToken(expConceptEn);
+    if (methodLastNumber || conceptLastNumber) {
+      if (!methodEnd200.includes(correctValue) && !conceptEnd200.includes(correctValue)) {
+        const displayOrder = question.display_order ?? idx + 1;
+        const idShort = String(question.id ?? "no-id").slice(0, 8);
+        warnings.push(
+          `Q${displayOrder} (id=${idShort}): correct option = ${correctValue}, but explanations don't reference it in their final 200 chars. Method-end: '${tail(expMethodEn, 50)}', Concept-end: '${tail(expConceptEn, 50)}'.`,
+        );
+      }
     }
   }
 
