@@ -1,38 +1,80 @@
 {
-  "stamp": "2026-04-25T11:30:17.174Z",
+  "stamp": "2026-04-25T15:47:09.245Z",
   "fileSummaries": [
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-averages.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-number-system-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-percentage.json",
-      "count": 15,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-profit-loss.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-simplification-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-ratio.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-si-ci-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-syllogism.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-algebra-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-tsd.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-geometry-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-mensuration-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-di-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-calendar-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-time-work-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-coding-decoding-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-blood-relations-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-seating-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-direction-sense-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0

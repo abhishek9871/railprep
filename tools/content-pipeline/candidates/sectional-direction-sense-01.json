@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Direction Sense. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-direction-sense-01",
+  "title_en": "Direction Sense — Sectional",
+  "title_hi": "Direction Sense — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Direction Sense",
+    "title_hi": "Direction Sense",
+    "subject_hint": "reasoning"
+  },
+  "questions": [
+    {
+      "id": "dir-01",
+      "stem_en": "A person walks 8 km North, then 6 km East, then 3 km South. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 8 km North, then 6 km East, then 3 km South चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "11 km by path, North-East",
+          "text_hi": "11 km by path, North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "17 km",
+          "text_hi": "17 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "6 km East/West",
+          "text_hi": "6 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "5 km North/South",
+          "text_hi": "5 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 6; net north-south displacement = 5. Combine them to get 11 km by path, North-East. Therefore, answer = 11 km by path, North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 11 km by path, North-East.",
+      "explanation_method_hi": "Net east-west displacement = 6; net north-south displacement = 5। इन्हें combine करने पर 11 km by path, North-East मिलता है। अतः answer = 11 km by path, North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 11 km by path, North-East है।"
+    },
+    {
+      "id": "dir-02",
+      "stem_en": "A person walks 12 km North, then 5 km West, then 4 km South. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 12 km North, then 5 km West, then 4 km South चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "21 km",
+          "text_hi": "21 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "13 km by path, North-West",
+          "text_hi": "13 km by path, North-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "5 km East/West",
+          "text_hi": "5 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -5; net north-south displacement = 8. Combine them to get 13 km by path, North-West. Therefore, answer = 13 km by path, North-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 13 km by path, North-West.",
+      "explanation_method_hi": "Net east-west displacement = -5; net north-south displacement = 8। इन्हें combine करने पर 13 km by path, North-West मिलता है। अतः answer = 13 km by path, North-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 13 km by path, North-West है।"
+    },
+    {
+      "id": "dir-03",
+      "stem_en": "A person walks 9 km East, then 12 km North, then 4 km West. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 9 km East, then 12 km North, then 4 km West चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "25 km",
+          "text_hi": "25 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "5 km East/West",
+          "text_hi": "5 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "13 km North-East",
+          "text_hi": "13 km North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "12 km North/South",
+          "text_hi": "12 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 5; net north-south displacement = 12. Combine them to get 13 km North-East. Therefore, answer = 13 km North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 13 km North-East.",
+      "explanation_method_hi": "Net east-west displacement = 5; net north-south displacement = 12। इन्हें combine करने पर 13 km North-East मिलता है। अतः answer = 13 km North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 13 km North-East है।"
+    },
+    {
+      "id": "dir-04",
+      "stem_en": "A person walks 7 km West, then 24 km North, then 7 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 7 km West, then 24 km North, then 7 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "38 km",
+          "text_hi": "38 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "0 km East/West",
+          "text_hi": "0 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "24 km North/South",
+          "text_hi": "24 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "24 km North",
+          "text_hi": "24 km North",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 0; net north-south displacement = 24. Combine them to get 24 km North. Therefore, answer = 24 km North.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 24 km North.",
+      "explanation_method_hi": "Net east-west displacement = 0; net north-south displacement = 24। इन्हें combine करने पर 24 km North मिलता है। अतः answer = 24 km North।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 24 km North है।"
+    },
+    {
+      "id": "dir-05",
+      "stem_en": "A person walks 10 km South, then 15 km East, then 2 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 10 km South, then 15 km East, then 2 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "17 km South-East",
+          "text_hi": "17 km South-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "27 km",
+          "text_hi": "27 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "15 km East/West",
+          "text_hi": "15 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 15; net north-south displacement = -8. Combine them to get 17 km South-East. Therefore, answer = 17 km South-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 17 km South-East.",
+      "explanation_method_hi": "Net east-west displacement = 15; net north-south displacement = -8। इन्हें combine करने पर 17 km South-East मिलता है। अतः answer = 17 km South-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 17 km South-East है।"
+    },
+    {
+      "id": "dir-06",
+      "stem_en": "A person walks 20 km East, then 21 km South, then 8 km West. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 20 km East, then 21 km South, then 8 km West चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "49 km",
+          "text_hi": "49 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "33 km by path, South-East",
+          "text_hi": "33 km by path, South-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "12 km East/West",
+          "text_hi": "12 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "21 km North/South",
+          "text_hi": "21 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 12; net north-south displacement = -21. Combine them to get 33 km by path, South-East. Therefore, answer = 33 km by path, South-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 33 km by path, South-East.",
+      "explanation_method_hi": "Net east-west displacement = 12; net north-south displacement = -21। इन्हें combine करने पर 33 km by path, South-East मिलता है। अतः answer = 33 km by path, South-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 33 km by path, South-East है।"
+    },
+    {
+      "id": "dir-07",
+      "stem_en": "A person walks 15 km North, then 8 km East, then 6 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 15 km North, then 8 km East, then 6 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "29 km",
+          "text_hi": "29 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "8 km East/West",
+          "text_hi": "8 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "29 km by path, North-East",
+          "text_hi": "29 km by path, North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "21 km North/South",
+          "text_hi": "21 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 8; net north-south displacement = 21. Combine them to get 29 km by path, North-East. Therefore, answer = 29 km by path, North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 29 km by path, North-East.",
+      "explanation_method_hi": "Net east-west displacement = 8; net north-south displacement = 21। इन्हें combine करने पर 29 km by path, North-East मिलता है। अतः answer = 29 km by path, North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 29 km by path, North-East है।"
+    },
+    {
+      "id": "dir-08",
+      "stem_en": "A person walks 12 km West, then 5 km South, then 3 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 12 km West, then 5 km South, then 3 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "20 km",
+          "text_hi": "20 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "9 km East/West",
+          "text_hi": "9 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "5 km North/South",
+          "text_hi": "5 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "14 km by path, South-West",
+          "text_hi": "14 km by path, South-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -9; net north-south displacement = -5. Combine them to get 14 km by path, South-West. Therefore, answer = 14 km by path, South-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 14 km by path, South-West.",
+      "explanation_method_hi": "Net east-west displacement = -9; net north-south displacement = -5। इन्हें combine करने पर 14 km by path, South-West मिलता है। अतः answer = 14 km by path, South-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 14 km by path, South-West है।"
+    },
+    {
+      "id": "dir-09",
+      "stem_en": "A person walks 6 km East, then 8 km North, then 6 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 6 km East, then 8 km North, then 6 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "20 km by path, North-East",
+          "text_hi": "20 km by path, North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "20 km",
+          "text_hi": "20 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 km East/West",
+          "text_hi": "12 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 12; net north-south displacement = 8. Combine them to get 20 km by path, North-East. Therefore, answer = 20 km by path, North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 20 km by path, North-East.",
+      "explanation_method_hi": "Net east-west displacement = 12; net north-south displacement = 8। इन्हें combine करने पर 20 km by path, North-East मिलता है। अतः answer = 20 km by path, North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 20 km by path, North-East है।"
+    },
+    {
+      "id": "dir-10",
+      "stem_en": "A person walks 9 km North, then 12 km West, then 7 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 9 km North, then 12 km West, then 7 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "28 km",
+          "text_hi": "28 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "20 km North-West",
+          "text_hi": "20 km North-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "12 km East/West",
+          "text_hi": "12 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "16 km North/South",
+          "text_hi": "16 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -12; net north-south displacement = 16. Combine them to get 20 km North-West. Therefore, answer = 20 km North-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 20 km North-West.",
+      "explanation_method_hi": "Net east-west displacement = -12; net north-south displacement = 16। इन्हें combine करने पर 20 km North-West मिलता है। अतः answer = 20 km North-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 20 km North-West है।"
+    },
+    {
+      "id": "dir-11",
+      "stem_en": "A person walks 10 km East, then 10 km North, then 10 km West. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 10 km East, then 10 km North, then 10 km West चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "30 km",
+          "text_hi": "30 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "0 km East/West",
+          "text_hi": "0 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "10 km North",
+          "text_hi": "10 km North",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "10 km North/South",
+          "text_hi": "10 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 0; net north-south displacement = 10. Combine them to get 10 km North. Therefore, answer = 10 km North.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 10 km North.",
+      "explanation_method_hi": "Net east-west displacement = 0; net north-south displacement = 10। इन्हें combine करने पर 10 km North मिलता है। अतः answer = 10 km North।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 10 km North है।"
+    },
+    {
+      "id": "dir-12",
+      "stem_en": "A person walks 14 km South, then 6 km West, then 6 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 14 km South, then 6 km West, then 6 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26 km",
+          "text_hi": "26 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "6 km East/West",
+          "text_hi": "6 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "10 km South-West",
+          "text_hi": "10 km South-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -6; net north-south displacement = -8. Combine them to get 10 km South-West. Therefore, answer = 10 km South-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 10 km South-West.",
+      "explanation_method_hi": "Net east-west displacement = -6; net north-south displacement = -8। इन्हें combine करने पर 10 km South-West मिलता है। अतः answer = 10 km South-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 10 km South-West है।"
+    },
+    {
+      "id": "dir-13",
+      "stem_en": "A person walks 5 km East, then 12 km North, then 9 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 5 km East, then 12 km North, then 9 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26 km by path, North-East",
+          "text_hi": "26 km by path, North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "26 km",
+          "text_hi": "26 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "14 km East/West",
+          "text_hi": "14 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "12 km North/South",
+          "text_hi": "12 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 14; net north-south displacement = 12. Combine them to get 26 km by path, North-East. Therefore, answer = 26 km by path, North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 26 km by path, North-East.",
+      "explanation_method_hi": "Net east-west displacement = 14; net north-south displacement = 12। इन्हें combine करने पर 26 km by path, North-East मिलता है। अतः answer = 26 km by path, North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 26 km by path, North-East है।"
+    },
+    {
+      "id": "dir-14",
+      "stem_en": "A person walks 16 km North, then 12 km East, then 16 km South. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 16 km North, then 12 km East, then 16 km South चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "44 km",
+          "text_hi": "44 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "12 km East",
+          "text_hi": "12 km East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "12 km East/West",
+          "text_hi": "12 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "0 km North/South",
+          "text_hi": "0 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 12; net north-south displacement = 0. Combine them to get 12 km East. Therefore, answer = 12 km East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 12 km East.",
+      "explanation_method_hi": "Net east-west displacement = 12; net north-south displacement = 0। इन्हें combine करने पर 12 km East मिलता है। अतः answer = 12 km East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 12 km East है।"
+    },
+    {
+      "id": "dir-15",
+      "stem_en": "A person walks 9 km West, then 12 km North, then 9 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 9 km West, then 12 km North, then 9 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "30 km",
+          "text_hi": "30 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "0 km East/West",
+          "text_hi": "0 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 km North",
+          "text_hi": "12 km North",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "12 km North/South",
+          "text_hi": "12 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 0; net north-south displacement = 12. Combine them to get 12 km North. Therefore, answer = 12 km North.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 12 km North.",
+      "explanation_method_hi": "Net east-west displacement = 0; net north-south displacement = 12। इन्हें combine करने पर 12 km North मिलता है। अतः answer = 12 km North।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 12 km North है।"
+    },
+    {
+      "id": "dir-16",
+      "stem_en": "A person walks 20 km North, then 15 km East, then 8 km South. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 20 km North, then 15 km East, then 8 km South चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "43 km",
+          "text_hi": "43 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "15 km East/West",
+          "text_hi": "15 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 km North/South",
+          "text_hi": "12 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "27 km by path, North-East",
+          "text_hi": "27 km by path, North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 15; net north-south displacement = 12. Combine them to get 27 km by path, North-East. Therefore, answer = 27 km by path, North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 27 km by path, North-East.",
+      "explanation_method_hi": "Net east-west displacement = 15; net north-south displacement = 12। इन्हें combine करने पर 27 km by path, North-East मिलता है। अतः answer = 27 km by path, North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 27 km by path, North-East है।"
+    },
+    {
+      "id": "dir-17",
+      "stem_en": "A person walks 7 km East, then 24 km South, then 7 km West. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 7 km East, then 24 km South, then 7 km West चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "24 km South",
+          "text_hi": "24 km South",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "38 km",
+          "text_hi": "38 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "0 km East/West",
+          "text_hi": "0 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "24 km North/South",
+          "text_hi": "24 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 0; net north-south displacement = -24. Combine them to get 24 km South. Therefore, answer = 24 km South.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 24 km South.",
+      "explanation_method_hi": "Net east-west displacement = 0; net north-south displacement = -24। इन्हें combine करने पर 24 km South मिलता है। अतः answer = 24 km South।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 24 km South है।"
+    },
+    {
+      "id": "dir-18",
+      "stem_en": "A person walks 18 km South, then 24 km East, then 10 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 18 km South, then 24 km East, then 10 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "52 km",
+          "text_hi": "52 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "32 km by path, South-East",
+          "text_hi": "32 km by path, South-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "24 km East/West",
+          "text_hi": "24 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 24; net north-south displacement = -8. Combine them to get 32 km by path, South-East. Therefore, answer = 32 km by path, South-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 32 km by path, South-East.",
+      "explanation_method_hi": "Net east-west displacement = 24; net north-south displacement = -8। इन्हें combine करने पर 32 km by path, South-East मिलता है। अतः answer = 32 km by path, South-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 32 km by path, South-East है।"
+    },
+    {
+      "id": "dir-19",
+      "stem_en": "A person walks 15 km West, then 8 km North, then 6 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 15 km West, then 8 km North, then 6 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "29 km",
+          "text_hi": "29 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "9 km East/West",
+          "text_hi": "9 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "17 km by path, North-West",
+          "text_hi": "17 km by path, North-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "8 km North/South",
+          "text_hi": "8 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -9; net north-south displacement = 8. Combine them to get 17 km by path, North-West. Therefore, answer = 17 km by path, North-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 17 km by path, North-West.",
+      "explanation_method_hi": "Net east-west displacement = -9; net north-south displacement = 8। इन्हें combine करने पर 17 km by path, North-West मिलता है। अतः answer = 17 km by path, North-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 17 km by path, North-West है।"
+    },
+    {
+      "id": "dir-20",
+      "stem_en": "A person walks 11 km North, then 60 km East, then 11 km South. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 11 km North, then 60 km East, then 11 km South चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "82 km",
+          "text_hi": "82 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "60 km East/West",
+          "text_hi": "60 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "0 km North/South",
+          "text_hi": "0 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "60 km East",
+          "text_hi": "60 km East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 60; net north-south displacement = 0. Combine them to get 60 km East. Therefore, answer = 60 km East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 60 km East.",
+      "explanation_method_hi": "Net east-west displacement = 60; net north-south displacement = 0। इन्हें combine करने पर 60 km East मिलता है। अतः answer = 60 km East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 60 km East है।"
+    },
+    {
+      "id": "dir-21",
+      "stem_en": "A person walks 13 km East, then 84 km North, then 13 km West. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 13 km East, then 84 km North, then 13 km West चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "84 km North",
+          "text_hi": "84 km North",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "110 km",
+          "text_hi": "110 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "0 km East/West",
+          "text_hi": "0 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "84 km North/South",
+          "text_hi": "84 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 0; net north-south displacement = 84. Combine them to get 84 km North. Therefore, answer = 84 km North.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 84 km North.",
+      "explanation_method_hi": "Net east-west displacement = 0; net north-south displacement = 84। इन्हें combine करने पर 84 km North मिलता है। अतः answer = 84 km North।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 84 km North है।"
+    },
+    {
+      "id": "dir-22",
+      "stem_en": "A person walks 30 km North, then 40 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 30 km North, then 40 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "70 km",
+          "text_hi": "70 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "50 km North-East",
+          "text_hi": "50 km North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "40 km East/West",
+          "text_hi": "40 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "30 km North/South",
+          "text_hi": "30 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 40; net north-south displacement = 30. Combine them to get 50 km North-East. Therefore, answer = 50 km North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 50 km North-East.",
+      "explanation_method_hi": "Net east-west displacement = 40; net north-south displacement = 30। इन्हें combine करने पर 50 km North-East मिलता है। अतः answer = 50 km North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 50 km North-East है।"
+    },
+    {
+      "id": "dir-23",
+      "stem_en": "A person walks 20 km West, then 21 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 20 km West, then 21 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "41 km",
+          "text_hi": "41 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "20 km East/West",
+          "text_hi": "20 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "29 km North-West",
+          "text_hi": "29 km North-West",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "21 km North/South",
+          "text_hi": "21 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = -20; net north-south displacement = 21. Combine them to get 29 km North-West. Therefore, answer = 29 km North-West.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 29 km North-West.",
+      "explanation_method_hi": "Net east-west displacement = -20; net north-south displacement = 21। इन्हें combine करने पर 29 km North-West मिलता है। अतः answer = 29 km North-West।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 29 km North-West है।"
+    },
+    {
+      "id": "dir-24",
+      "stem_en": "A person walks 35 km South, then 12 km East. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 35 km South, then 12 km East चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "47 km",
+          "text_hi": "47 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "12 km East/West",
+          "text_hi": "12 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "35 km North/South",
+          "text_hi": "35 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "37 km South-East",
+          "text_hi": "37 km South-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 12; net north-south displacement = -35. Combine them to get 37 km South-East. Therefore, answer = 37 km South-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 37 km South-East.",
+      "explanation_method_hi": "Net east-west displacement = 12; net north-south displacement = -35। इन्हें combine करने पर 37 km South-East मिलता है। अतः answer = 37 km South-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 37 km South-East है।"
+    },
+    {
+      "id": "dir-25",
+      "stem_en": "A person walks 16 km East, then 63 km North. What is the final displacement from the starting point?",
+      "stem_hi": "एक व्यक्ति 16 km East, then 63 km North चलता है। Starting point से final displacement क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "direction-sense",
+        "displacement"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "65 km North-East",
+          "text_hi": "65 km North-East",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "79 km",
+          "text_hi": "79 km",
+          "is_correct": false,
+          "trap_reason_en": "Reported total path length, not final displacement from the start.",
+          "trap_reason_hi": "Total path length दे दिया, starting point से displacement नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "16 km East/West",
+          "text_hi": "16 km East/West",
+          "is_correct": false,
+          "trap_reason_en": "Used only horizontal displacement and ignored vertical displacement.",
+          "trap_reason_hi": "सिर्फ horizontal displacement लिया, vertical ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "63 km North/South",
+          "text_hi": "63 km North/South",
+          "is_correct": false,
+          "trap_reason_en": "Used only vertical displacement and ignored horizontal displacement.",
+          "trap_reason_hi": "सिर्फ vertical displacement लिया, horizontal ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Net east-west displacement = 16; net north-south displacement = 63. Combine them to get 65 km North-East. Therefore, answer = 65 km North-East.",
+      "explanation_concept_en": "Direction problems are coordinate problems. Opposite directions cancel; perpendicular components combine to give final displacement and direction. Final answer is 65 km North-East.",
+      "explanation_method_hi": "Net east-west displacement = 16; net north-south displacement = 63। इन्हें combine करने पर 65 km North-East मिलता है। अतः answer = 65 km North-East।",
+      "explanation_concept_hi": "Direction problems coordinate problems हैं। Opposite directions cancel होते हैं; perpendicular components final displacement देते हैं। Final answer 65 km North-East है।"
+    }
+  ]
+}

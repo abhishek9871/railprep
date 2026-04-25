@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Coding-Decoding. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-coding-decoding-01",
+  "title_en": "Coding-Decoding — Sectional",
+  "title_hi": "Coding-Decoding — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Coding-Decoding",
+    "title_hi": "Coding-Decoding",
+    "subject_hint": "reasoning"
+  },
+  "questions": [
+    {
+      "id": "code-01",
+      "stem_en": "In a code, each letter is shifted 1 places forward. How is TRAIN coded?",
+      "stem_hi": "एक code में हर letter 1 places आगे shift होता है। TRAIN को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "USBJO",
+          "text_hi": "USBJO",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "SQZHM",
+          "text_hi": "SQZHM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 1 places backward instead of forward.",
+          "trap_reason_hi": "1 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "NIART",
+          "text_hi": "NIART",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "OJBSU",
+          "text_hi": "OJBSU",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of TRAIN forward by 1: TRAIN becomes USBJO. Therefore, answer = USBJO.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is USBJO.",
+      "explanation_method_hi": "TRAIN के हर letter को 1 आगे करें: TRAIN का code USBJO होगा। अतः answer = USBJO।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer USBJO है।"
+    },
+    {
+      "id": "code-02",
+      "stem_en": "In a code, each letter is shifted 2 places forward. How is PLANT coded?",
+      "stem_hi": "एक code में हर letter 2 places आगे shift होता है। PLANT को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "NJYLR",
+          "text_hi": "NJYLR",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 2 places backward instead of forward.",
+          "trap_reason_hi": "2 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "RNCPV",
+          "text_hi": "RNCPV",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "TNALP",
+          "text_hi": "TNALP",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "VPCNR",
+          "text_hi": "VPCNR",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of PLANT forward by 2: PLANT becomes RNCPV. Therefore, answer = RNCPV.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is RNCPV.",
+      "explanation_method_hi": "PLANT के हर letter को 2 आगे करें: PLANT का code RNCPV होगा। अतः answer = RNCPV।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer RNCPV है।"
+    },
+    {
+      "id": "code-03",
+      "stem_en": "In a code, each letter is shifted 3 places forward. How is BOARD coded?",
+      "stem_hi": "एक code में हर letter 3 places आगे shift होता है। BOARD को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "YLXOA",
+          "text_hi": "YLXOA",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 3 places backward instead of forward.",
+          "trap_reason_hi": "3 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "DRAOB",
+          "text_hi": "DRAOB",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "ERDUG",
+          "text_hi": "ERDUG",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "GUDRE",
+          "text_hi": "GUDRE",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of BOARD forward by 3: BOARD becomes ERDUG. Therefore, answer = ERDUG.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is ERDUG.",
+      "explanation_method_hi": "BOARD के हर letter को 3 आगे करें: BOARD का code ERDUG होगा। अतः answer = ERDUG।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer ERDUG है।"
+    },
+    {
+      "id": "code-04",
+      "stem_en": "In a code, each letter is shifted 4 places forward. How is CLOCK coded?",
+      "stem_hi": "एक code में हर letter 4 places आगे shift होता है। CLOCK को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "YHKYG",
+          "text_hi": "YHKYG",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 4 places backward instead of forward.",
+          "trap_reason_hi": "4 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "KCOLC",
+          "text_hi": "KCOLC",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "OGSPG",
+          "text_hi": "OGSPG",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "GPSGO",
+          "text_hi": "GPSGO",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Move every letter of CLOCK forward by 4: CLOCK becomes GPSGO. Therefore, answer = GPSGO.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is GPSGO.",
+      "explanation_method_hi": "CLOCK के हर letter को 4 आगे करें: CLOCK का code GPSGO होगा। अतः answer = GPSGO।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer GPSGO है।"
+    },
+    {
+      "id": "code-05",
+      "stem_en": "In a code, each letter is shifted 5 places forward. How is RIVER coded?",
+      "stem_hi": "एक code में हर letter 5 places आगे shift होता है। RIVER को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "WNAJW",
+          "text_hi": "WNAJW",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "MDQZM",
+          "text_hi": "MDQZM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 5 places backward instead of forward.",
+          "trap_reason_hi": "5 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "REVIR",
+          "text_hi": "REVIR",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "WJANW",
+          "text_hi": "WJANW",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of RIVER forward by 5: RIVER becomes WNAJW. Therefore, answer = WNAJW.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is WNAJW.",
+      "explanation_method_hi": "RIVER के हर letter को 5 आगे करें: RIVER का code WNAJW होगा। अतः answer = WNAJW।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer WNAJW है।"
+    },
+    {
+      "id": "code-06",
+      "stem_en": "In a code, each letter is shifted 1 places forward. How is TRACK coded?",
+      "stem_hi": "एक code में हर letter 1 places आगे shift होता है। TRACK को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "SQZBJ",
+          "text_hi": "SQZBJ",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 1 places backward instead of forward.",
+          "trap_reason_hi": "1 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "USBDL",
+          "text_hi": "USBDL",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "KCART",
+          "text_hi": "KCART",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "LDBSU",
+          "text_hi": "LDBSU",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of TRACK forward by 1: TRACK becomes USBDL. Therefore, answer = USBDL.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is USBDL.",
+      "explanation_method_hi": "TRACK के हर letter को 1 आगे करें: TRACK का code USBDL होगा। अतः answer = USBDL।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer USBDL है।"
+    },
+    {
+      "id": "code-07",
+      "stem_en": "In a code, each letter is shifted 2 places forward. How is METRO coded?",
+      "stem_hi": "एक code में हर letter 2 places आगे shift होता है। METRO को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "KCRPM",
+          "text_hi": "KCRPM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 2 places backward instead of forward.",
+          "trap_reason_hi": "2 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "ORTEM",
+          "text_hi": "ORTEM",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "OGVTQ",
+          "text_hi": "OGVTQ",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "QTVGO",
+          "text_hi": "QTVGO",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of METRO forward by 2: METRO becomes OGVTQ. Therefore, answer = OGVTQ.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is OGVTQ.",
+      "explanation_method_hi": "METRO के हर letter को 2 आगे करें: METRO का code OGVTQ होगा। अतः answer = OGVTQ।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer OGVTQ है।"
+    },
+    {
+      "id": "code-08",
+      "stem_en": "In a code, each letter is shifted 3 places forward. How is SIGNAL coded?",
+      "stem_hi": "एक code में हर letter 3 places आगे shift होता है। SIGNAL को कैसे code करेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "PFDKXI",
+          "text_hi": "PFDKXI",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 3 places backward instead of forward.",
+          "trap_reason_hi": "3 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "LANGIS",
+          "text_hi": "LANGIS",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "ODQJLV",
+          "text_hi": "ODQJLV",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "VLJQDO",
+          "text_hi": "VLJQDO",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Move every letter of SIGNAL forward by 3: SIGNAL becomes VLJQDO. Therefore, answer = VLJQDO.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is VLJQDO.",
+      "explanation_method_hi": "SIGNAL के हर letter को 3 आगे करें: SIGNAL का code VLJQDO होगा। अतः answer = VLJQDO।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer VLJQDO है।"
+    },
+    {
+      "id": "code-09",
+      "stem_en": "In a code, each letter is shifted 4 places forward. How is TICKET coded?",
+      "stem_hi": "एक code में हर letter 4 places आगे shift होता है। TICKET को कैसे code करेंगे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "XMGOIX",
+          "text_hi": "XMGOIX",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "PEYGAP",
+          "text_hi": "PEYGAP",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 4 places backward instead of forward.",
+          "trap_reason_hi": "4 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "TEKCIT",
+          "text_hi": "TEKCIT",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "XIOGMX",
+          "text_hi": "XIOGMX",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of TICKET forward by 4: TICKET becomes XMGOIX. Therefore, answer = XMGOIX.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is XMGOIX.",
+      "explanation_method_hi": "TICKET के हर letter को 4 आगे करें: TICKET का code XMGOIX होगा। अतः answer = XMGOIX।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer XMGOIX है।"
+    },
+    {
+      "id": "code-10",
+      "stem_en": "In a code, each letter is shifted 5 places forward. How is ENGINE coded?",
+      "stem_hi": "एक code में हर letter 5 places आगे shift होता है। ENGINE को कैसे code करेंगे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "ZIBDIZ",
+          "text_hi": "ZIBDIZ",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 5 places backward instead of forward.",
+          "trap_reason_hi": "5 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "JSLNSJ",
+          "text_hi": "JSLNSJ",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "ENIGNE",
+          "text_hi": "ENIGNE",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "JSNLSJ",
+          "text_hi": "JSNLSJ",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of ENGINE forward by 5: ENGINE becomes JSLNSJ. Therefore, answer = JSLNSJ.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is JSLNSJ.",
+      "explanation_method_hi": "ENGINE के हर letter को 5 आगे करें: ENGINE का code JSLNSJ होगा। अतः answer = JSLNSJ।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer JSLNSJ है।"
+    },
+    {
+      "id": "code-11",
+      "stem_en": "In a code, each letter is shifted 1 places forward. How is STATION coded?",
+      "stem_hi": "एक code में हर letter 1 places आगे shift होता है। STATION को कैसे code करेंगे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "RSZSHNM",
+          "text_hi": "RSZSHNM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 1 places backward instead of forward.",
+          "trap_reason_hi": "1 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "NOITATS",
+          "text_hi": "NOITATS",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "TUBUJPO",
+          "text_hi": "TUBUJPO",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "OPJUBUT",
+          "text_hi": "OPJUBUT",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of STATION forward by 1: STATION becomes TUBUJPO. Therefore, answer = TUBUJPO.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is TUBUJPO.",
+      "explanation_method_hi": "STATION के हर letter को 1 आगे करें: STATION का code TUBUJPO होगा। अतः answer = TUBUJPO।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer TUBUJPO है।"
+    },
+    {
+      "id": "code-12",
+      "stem_en": "In a code, each letter is shifted 2 places forward. How is WAGON coded?",
+      "stem_hi": "एक code में हर letter 2 places आगे shift होता है। WAGON को कैसे code करेंगे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "UYEML",
+          "text_hi": "UYEML",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 2 places backward instead of forward.",
+          "trap_reason_hi": "2 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "NOGAW",
+          "text_hi": "NOGAW",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "PQICY",
+          "text_hi": "PQICY",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "YCIQP",
+          "text_hi": "YCIQP",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Move every letter of WAGON forward by 2: WAGON becomes YCIQP. Therefore, answer = YCIQP.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is YCIQP.",
+      "explanation_method_hi": "WAGON के हर letter को 2 आगे करें: WAGON का code YCIQP होगा। अतः answer = YCIQP।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer YCIQP है।"
+    },
+    {
+      "id": "code-13",
+      "stem_en": "In a code, each letter is shifted 3 places forward. How is BRIDGE coded?",
+      "stem_hi": "एक code में हर letter 3 places आगे shift होता है। BRIDGE को कैसे code करेंगे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "letter-shift"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "EULGJH",
+          "text_hi": "EULGJH",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "YOFADB",
+          "text_hi": "YOFADB",
+          "is_correct": false,
+          "trap_reason_en": "Shifted 3 places backward instead of forward.",
+          "trap_reason_hi": "3 places forward की जगह backward shift किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "EGDIRB",
+          "text_hi": "EGDIRB",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the word but did not apply the letter shift.",
+          "trap_reason_hi": "Word reverse किया पर letter shift apply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "HJGLUE",
+          "text_hi": "HJGLUE",
+          "is_correct": false,
+          "trap_reason_en": "Applied the shift but also reversed the result, which the rule never says.",
+          "trap_reason_hi": "Shift apply करके result reverse भी कर दिया, जबकि rule में reverse नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Move every letter of BRIDGE forward by 3: BRIDGE becomes EULGJH. Therefore, answer = EULGJH.",
+      "explanation_concept_en": "Letter-shift coding uses alphabet positions. Apply the same displacement to each character and wrap after Z if needed. Final answer is EULGJH.",
+      "explanation_method_hi": "BRIDGE के हर letter को 3 आगे करें: BRIDGE का code EULGJH होगा। अतः answer = EULGJH।",
+      "explanation_concept_hi": "Letter-shift coding में alphabet positions use होते हैं। हर character पर same displacement लगाएँ। Final answer EULGJH है।"
+    },
+    {
+      "id": "code-14",
+      "stem_en": "If words are coded by reversing their letters, how is RAIL coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो RAIL का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "RAIL",
+          "text_hi": "RAIL",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "LIAR",
+          "text_hi": "LIAR",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "SBJM",
+          "text_hi": "SBJM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "IARL",
+          "text_hi": "IARL",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in RAIL: LIAR. Therefore, answer = LIAR.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is LIAR.",
+      "explanation_method_hi": "RAIL के letters का order reverse करें: LIAR। अतः answer = LIAR।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer LIAR है।"
+    },
+    {
+      "id": "code-15",
+      "stem_en": "If words are coded by reversing their letters, how is TRAIN coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो TRAIN का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "TRAIN",
+          "text_hi": "TRAIN",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "USBJO",
+          "text_hi": "USBJO",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "NIART",
+          "text_hi": "NIART",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "IARTN",
+          "text_hi": "IARTN",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in TRAIN: NIART. Therefore, answer = NIART.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is NIART.",
+      "explanation_method_hi": "TRAIN के letters का order reverse करें: NIART। अतः answer = NIART।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer NIART है।"
+    },
+    {
+      "id": "code-16",
+      "stem_en": "If words are coded by reversing their letters, how is TICKET coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो TICKET का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "TICKET",
+          "text_hi": "TICKET",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "UJDLFU",
+          "text_hi": "UJDLFU",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "EKCITT",
+          "text_hi": "EKCITT",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "TEKCIT",
+          "text_hi": "TEKCIT",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in TICKET: TEKCIT. Therefore, answer = TEKCIT.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is TEKCIT.",
+      "explanation_method_hi": "TICKET के letters का order reverse करें: TEKCIT। अतः answer = TEKCIT।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer TEKCIT है।"
+    },
+    {
+      "id": "code-17",
+      "stem_en": "If words are coded by reversing their letters, how is SIGNAL coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो SIGNAL का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "LANGIS",
+          "text_hi": "LANGIS",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "SIGNAL",
+          "text_hi": "SIGNAL",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "TJHOBM",
+          "text_hi": "TJHOBM",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "ANGISL",
+          "text_hi": "ANGISL",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in SIGNAL: LANGIS. Therefore, answer = LANGIS.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is LANGIS.",
+      "explanation_method_hi": "SIGNAL के letters का order reverse करें: LANGIS। अतः answer = LANGIS।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer LANGIS है।"
+    },
+    {
+      "id": "code-18",
+      "stem_en": "If words are coded by reversing their letters, how is ENGINE coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो ENGINE का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "ENGINE",
+          "text_hi": "ENGINE",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "ENIGNE",
+          "text_hi": "ENIGNE",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "FOHJOF",
+          "text_hi": "FOHJOF",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "NIGNEE",
+          "text_hi": "NIGNEE",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in ENGINE: ENIGNE. Therefore, answer = ENIGNE.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is ENIGNE.",
+      "explanation_method_hi": "ENGINE के letters का order reverse करें: ENIGNE। अतः answer = ENIGNE।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer ENIGNE है।"
+    },
+    {
+      "id": "code-19",
+      "stem_en": "If words are coded by reversing their letters, how is PLATFORM coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो PLATFORM का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "PLATFORM",
+          "text_hi": "PLATFORM",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "QMBUGPSN",
+          "text_hi": "QMBUGPSN",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "MROFTALP",
+          "text_hi": "MROFTALP",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "ROFTALPM",
+          "text_hi": "ROFTALPM",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in PLATFORM: MROFTALP. Therefore, answer = MROFTALP.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is MROFTALP.",
+      "explanation_method_hi": "PLATFORM के letters का order reverse करें: MROFTALP। अतः answer = MROFTALP।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer MROFTALP है।"
+    },
+    {
+      "id": "code-20",
+      "stem_en": "If words are coded by reversing their letters, how is WAGON coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो WAGON का code क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "WAGON",
+          "text_hi": "WAGON",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "XBHPO",
+          "text_hi": "XBHPO",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "OGAWN",
+          "text_hi": "OGAWN",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "NOGAW",
+          "text_hi": "NOGAW",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in WAGON: NOGAW. Therefore, answer = NOGAW.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is NOGAW.",
+      "explanation_method_hi": "WAGON के letters का order reverse करें: NOGAW। अतः answer = NOGAW।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer NOGAW है।"
+    },
+    {
+      "id": "code-21",
+      "stem_en": "If words are coded by reversing their letters, how is TRACK coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो TRACK का code क्या होगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "KCART",
+          "text_hi": "KCART",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "TRACK",
+          "text_hi": "TRACK",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "USBDL",
+          "text_hi": "USBDL",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "CARTK",
+          "text_hi": "CARTK",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in TRACK: KCART. Therefore, answer = KCART.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is KCART.",
+      "explanation_method_hi": "TRACK के letters का order reverse करें: KCART। अतः answer = KCART।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer KCART है।"
+    },
+    {
+      "id": "code-22",
+      "stem_en": "If words are coded by reversing their letters, how is POINT coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो POINT का code क्या होगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "POINT",
+          "text_hi": "POINT",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "TNIOP",
+          "text_hi": "TNIOP",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "QPJOU",
+          "text_hi": "QPJOU",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "NIOPT",
+          "text_hi": "NIOPT",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in POINT: TNIOP. Therefore, answer = TNIOP.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is TNIOP.",
+      "explanation_method_hi": "POINT के letters का order reverse करें: TNIOP। अतः answer = TNIOP।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer TNIOP है।"
+    },
+    {
+      "id": "code-23",
+      "stem_en": "If words are coded by reversing their letters, how is CABIN coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो CABIN का code क्या होगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "CABIN",
+          "text_hi": "CABIN",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "DBCJO",
+          "text_hi": "DBCJO",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "NIBAC",
+          "text_hi": "NIBAC",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "IBACN",
+          "text_hi": "IBACN",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in CABIN: NIBAC. Therefore, answer = NIBAC.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is NIBAC.",
+      "explanation_method_hi": "CABIN के letters का order reverse करें: NIBAC। अतः answer = NIBAC।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer NIBAC है।"
+    },
+    {
+      "id": "code-24",
+      "stem_en": "If words are coded by reversing their letters, how is ROUTE coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो ROUTE का code क्या होगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "ROUTE",
+          "text_hi": "ROUTE",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "SPVUF",
+          "text_hi": "SPVUF",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "TUORE",
+          "text_hi": "TUORE",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "ETUOR",
+          "text_hi": "ETUOR",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in ROUTE: ETUOR. Therefore, answer = ETUOR.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is ETUOR.",
+      "explanation_method_hi": "ROUTE के letters का order reverse करें: ETUOR। अतः answer = ETUOR।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer ETUOR है।"
+    },
+    {
+      "id": "code-25",
+      "stem_en": "If words are coded by reversing their letters, how is BRAKE coded?",
+      "stem_hi": "यदि words को letters reverse करके code किया जाता है, तो BRAKE का code क्या होगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "coding-decoding",
+        "reverse-coding"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "EKARB",
+          "text_hi": "EKARB",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "BRAKE",
+          "text_hi": "BRAKE",
+          "is_correct": false,
+          "trap_reason_en": "Left the word unchanged and missed the reverse rule.",
+          "trap_reason_hi": "Word unchanged छोड़ दिया और reverse rule miss कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "CSBLF",
+          "text_hi": "CSBLF",
+          "is_correct": false,
+          "trap_reason_en": "Shifted letters by +1 instead of reversing their order.",
+          "trap_reason_hi": "Order reverse करने की जगह letters +1 shift कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "KARBE",
+          "text_hi": "KARBE",
+          "is_correct": false,
+          "trap_reason_en": "Reversed first but then rotated one letter, which is not part of the rule.",
+          "trap_reason_hi": "पहले reverse किया फिर one-letter rotation कर दिया, rule में rotation नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Reverse the order of letters in BRAKE: EKARB. Therefore, answer = EKARB.",
+      "explanation_concept_en": "In reverse coding, letter identities stay unchanged; only their positions are mirrored from end to start. Final answer is EKARB.",
+      "explanation_method_hi": "BRAKE के letters का order reverse करें: EKARB। अतः answer = EKARB।",
+      "explanation_concept_hi": "Reverse coding में letters वही रहते हैं; सिर्फ positions end से start तक mirror होती हैं। Final answer EKARB है।"
+    }
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Number System. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-number-system-01",
+  "title_en": "Number System — Sectional",
+  "title_hi": "Number System — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Number System",
+    "title_hi": "Number System",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "ns-01",
+      "stem_en": "Find the LCM of 18 and 24.",
+      "stem_hi": "18 और 24 का LCM ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Reported HCF 6 instead of LCM. LCM is the least common multiple, not the greatest common factor.",
+          "trap_reason_hi": "HCF 6 को LCM मान लिया। LCM least common multiple होता है, greatest factor नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": false,
+          "trap_reason_en": "Added the numbers: 18+24=42. LCM is found from prime powers, not addition.",
+          "trap_reason_hi": "संख्याएँ जोड़ दीं: 18+24=42। LCM prime powers से निकलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "24",
+          "text_hi": "24",
+          "is_correct": false,
+          "trap_reason_en": "Picked the larger number 24. It is not divisible by both numbers in this pair.",
+          "trap_reason_hi": "बड़ी संख्या 24 चुन ली। यह दोनों numbers से divisible नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Use LCM × HCF = product. HCF(18,24) = 6. LCM = 18×24/6 = 72. Therefore, answer = 72.",
+      "explanation_concept_en": "For two positive integers, HCF captures the common part and LCM captures each prime factor at its maximum power. Their product equals the product of the two numbers. Final answer is 72.",
+      "explanation_method_hi": "LCM × HCF = product लगाएँ। HCF(18,24) = 6। LCM = 18×24/6 = 72। अतः answer = 72।",
+      "explanation_concept_hi": "दो positive integers में HCF common part लेता है और LCM हर prime factor की maximum power लेता है। इसलिए LCM × HCF = product। Final answer 72 है।"
+    },
+    {
+      "id": "ns-02",
+      "stem_en": "Find the LCM of 28 and 42.",
+      "stem_hi": "28 और 42 का LCM ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "14",
+          "text_hi": "14",
+          "is_correct": false,
+          "trap_reason_en": "Reported HCF 14 instead of LCM. LCM is the least common multiple, not the greatest common factor.",
+          "trap_reason_hi": "HCF 14 को LCM मान लिया। LCM least common multiple होता है, greatest factor नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "84",
+          "text_hi": "84",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "70",
+          "text_hi": "70",
+          "is_correct": false,
+          "trap_reason_en": "Added the numbers: 28+42=70. LCM is found from prime powers, not addition.",
+          "trap_reason_hi": "संख्याएँ जोड़ दीं: 28+42=70। LCM prime powers से निकलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": false,
+          "trap_reason_en": "Picked the larger number 42. It is not divisible by both numbers in this pair.",
+          "trap_reason_hi": "बड़ी संख्या 42 चुन ली। यह दोनों numbers से divisible नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Use LCM × HCF = product. HCF(28,42) = 14. LCM = 28×42/14 = 84. Therefore, answer = 84.",
+      "explanation_concept_en": "For two positive integers, HCF captures the common part and LCM captures each prime factor at its maximum power. Their product equals the product of the two numbers. Final answer is 84.",
+      "explanation_method_hi": "LCM × HCF = product लगाएँ। HCF(28,42) = 14। LCM = 28×42/14 = 84। अतः answer = 84।",
+      "explanation_concept_hi": "दो positive integers में HCF common part लेता है और LCM हर prime factor की maximum power लेता है। इसलिए LCM × HCF = product। Final answer 84 है।"
+    },
+    {
+      "id": "ns-03",
+      "stem_en": "Find the LCM of 36 and 60.",
+      "stem_hi": "36 और 60 का LCM ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": false,
+          "trap_reason_en": "Reported HCF 12 instead of LCM. LCM is the least common multiple, not the greatest common factor.",
+          "trap_reason_hi": "HCF 12 को LCM मान लिया। LCM least common multiple होता है, greatest factor नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "96",
+          "text_hi": "96",
+          "is_correct": false,
+          "trap_reason_en": "Added the numbers: 36+60=96. LCM is found from prime powers, not addition.",
+          "trap_reason_hi": "संख्याएँ जोड़ दीं: 36+60=96। LCM prime powers से निकलता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "180",
+          "text_hi": "180",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Picked the larger number 60. It is not divisible by both numbers in this pair.",
+          "trap_reason_hi": "बड़ी संख्या 60 चुन ली। यह दोनों numbers से divisible नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Use LCM × HCF = product. HCF(36,60) = 12. LCM = 36×60/12 = 180. Therefore, answer = 180.",
+      "explanation_concept_en": "For two positive integers, HCF captures the common part and LCM captures each prime factor at its maximum power. Their product equals the product of the two numbers. Final answer is 180.",
+      "explanation_method_hi": "LCM × HCF = product लगाएँ। HCF(36,60) = 12। LCM = 36×60/12 = 180। अतः answer = 180।",
+      "explanation_concept_hi": "दो positive integers में HCF common part लेता है और LCM हर prime factor की maximum power लेता है। इसलिए LCM × HCF = product। Final answer 180 है।"
+    },
+    {
+      "id": "ns-04",
+      "stem_en": "Find the LCM of 45 and 75.",
+      "stem_hi": "45 और 75 का LCM ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "15",
+          "text_hi": "15",
+          "is_correct": false,
+          "trap_reason_en": "Reported HCF 15 instead of LCM. LCM is the least common multiple, not the greatest common factor.",
+          "trap_reason_hi": "HCF 15 को LCM मान लिया। LCM least common multiple होता है, greatest factor नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Added the numbers: 45+75=120. LCM is found from prime powers, not addition.",
+          "trap_reason_hi": "संख्याएँ जोड़ दीं: 45+75=120। LCM prime powers से निकलता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "75",
+          "text_hi": "75",
+          "is_correct": false,
+          "trap_reason_en": "Picked the larger number 75. It is not divisible by both numbers in this pair.",
+          "trap_reason_hi": "बड़ी संख्या 75 चुन ली। यह दोनों numbers से divisible नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "225",
+          "text_hi": "225",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Use LCM × HCF = product. HCF(45,75) = 15. LCM = 45×75/15 = 225. Therefore, answer = 225.",
+      "explanation_concept_en": "For two positive integers, HCF captures the common part and LCM captures each prime factor at its maximum power. Their product equals the product of the two numbers. Final answer is 225.",
+      "explanation_method_hi": "LCM × HCF = product लगाएँ। HCF(45,75) = 15। LCM = 45×75/15 = 225। अतः answer = 225।",
+      "explanation_concept_hi": "दो positive integers में HCF common part लेता है और LCM हर prime factor की maximum power लेता है। इसलिए LCM × HCF = product। Final answer 225 है।"
+    },
+    {
+      "id": "ns-05",
+      "stem_en": "Find the LCM of 32 and 48.",
+      "stem_hi": "32 और 48 का LCM ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "96",
+          "text_hi": "96",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Reported HCF 16 instead of LCM. LCM is the least common multiple, not the greatest common factor.",
+          "trap_reason_hi": "HCF 16 को LCM मान लिया। LCM least common multiple होता है, greatest factor नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "80",
+          "text_hi": "80",
+          "is_correct": false,
+          "trap_reason_en": "Added the numbers: 32+48=80. LCM is found from prime powers, not addition.",
+          "trap_reason_hi": "संख्याएँ जोड़ दीं: 32+48=80। LCM prime powers से निकलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": false,
+          "trap_reason_en": "Picked the larger number 48. It is not divisible by both numbers in this pair.",
+          "trap_reason_hi": "बड़ी संख्या 48 चुन ली। यह दोनों numbers से divisible नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Use LCM × HCF = product. HCF(32,48) = 16. LCM = 32×48/16 = 96. Therefore, answer = 96.",
+      "explanation_concept_en": "For two positive integers, HCF captures the common part and LCM captures each prime factor at its maximum power. Their product equals the product of the two numbers. Final answer is 96.",
+      "explanation_method_hi": "LCM × HCF = product लगाएँ। HCF(32,48) = 16। LCM = 32×48/16 = 96। अतः answer = 96।",
+      "explanation_concept_hi": "दो positive integers में HCF common part लेता है और LCM हर prime factor की maximum power लेता है। इसलिए LCM × HCF = product। Final answer 96 है।"
+    },
+    {
+      "id": "ns-06",
+      "stem_en": "Find the HCF of 84 and 132.",
+      "stem_hi": "84 और 132 का HCF ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "924",
+          "text_hi": "924",
+          "is_correct": false,
+          "trap_reason_en": "Computed LCM 924 instead of HCF. The question asks for the greatest common factor.",
+          "trap_reason_hi": "LCM 924 निकाल दिया। Question HCF यानी greatest common factor पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": false,
+          "trap_reason_en": "Used difference 48 as HCF. Difference can help Euclid's algorithm, but it is not automatically the HCF.",
+          "trap_reason_hi": "Difference 48 को HCF मान लिया। Difference Euclid में मदद करता है, HCF अपने-आप नहीं होता।"
+        },
+        {
+          "label": "D",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Stopped one common factor early at 6. Both numbers are still divisible by 12.",
+          "trap_reason_hi": "6 पर रुक गए। दोनों numbers 12 से भी divisible हैं।"
+        }
+      ],
+      "explanation_method_en": "Euclid method: repeatedly subtract/reduce common parts; HCF(84,132) = 12. Therefore, answer = 12.",
+      "explanation_concept_en": "HCF is the largest number that divides both given numbers exactly. Prime factorisation or Euclid's algorithm both isolate this common divisor. Final answer is 12.",
+      "explanation_method_hi": "Euclid method से common divisor निकालें; HCF(84,132) = 12। अतः answer = 12।",
+      "explanation_concept_hi": "HCF सबसे बड़ी संख्या है जो दोनों numbers को exactly divide करती है। Prime factorisation या Euclid method दोनों same common divisor देते हैं। Final answer 12 है।"
+    },
+    {
+      "id": "ns-07",
+      "stem_en": "Find the HCF of 96 and 160.",
+      "stem_hi": "96 और 160 का HCF ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "480",
+          "text_hi": "480",
+          "is_correct": false,
+          "trap_reason_en": "Computed LCM 480 instead of HCF. The question asks for the greatest common factor.",
+          "trap_reason_hi": "LCM 480 निकाल दिया। Question HCF यानी greatest common factor पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Used difference 64 as HCF. Difference can help Euclid's algorithm, but it is not automatically the HCF.",
+          "trap_reason_hi": "Difference 64 को HCF मान लिया। Difference Euclid में मदद करता है, HCF अपने-आप नहीं होता।"
+        },
+        {
+          "label": "C",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Stopped one common factor early at 16. Both numbers are still divisible by 32.",
+          "trap_reason_hi": "16 पर रुक गए। दोनों numbers 32 से भी divisible हैं।"
+        }
+      ],
+      "explanation_method_en": "Euclid method: repeatedly subtract/reduce common parts; HCF(96,160) = 32. Therefore, answer = 32.",
+      "explanation_concept_en": "HCF is the largest number that divides both given numbers exactly. Prime factorisation or Euclid's algorithm both isolate this common divisor. Final answer is 32.",
+      "explanation_method_hi": "Euclid method से common divisor निकालें; HCF(96,160) = 32। अतः answer = 32।",
+      "explanation_concept_hi": "HCF सबसे बड़ी संख्या है जो दोनों numbers को exactly divide करती है। Prime factorisation या Euclid method दोनों same common divisor देते हैं। Final answer 32 है।"
+    },
+    {
+      "id": "ns-08",
+      "stem_en": "Find the HCF of 108 and 180.",
+      "stem_hi": "108 और 180 का HCF ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "540",
+          "text_hi": "540",
+          "is_correct": false,
+          "trap_reason_en": "Computed LCM 540 instead of HCF. The question asks for the greatest common factor.",
+          "trap_reason_hi": "LCM 540 निकाल दिया। Question HCF यानी greatest common factor पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": false,
+          "trap_reason_en": "Used difference 72 as HCF. Difference can help Euclid's algorithm, but it is not automatically the HCF.",
+          "trap_reason_hi": "Difference 72 को HCF मान लिया। Difference Euclid में मदद करता है, HCF अपने-आप नहीं होता।"
+        },
+        {
+          "label": "C",
+          "text_en": "18",
+          "text_hi": "18",
+          "is_correct": false,
+          "trap_reason_en": "Stopped one common factor early at 18. Both numbers are still divisible by 36.",
+          "trap_reason_hi": "18 पर रुक गए। दोनों numbers 36 से भी divisible हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "36",
+          "text_hi": "36",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Euclid method: repeatedly subtract/reduce common parts; HCF(108,180) = 36. Therefore, answer = 36.",
+      "explanation_concept_en": "HCF is the largest number that divides both given numbers exactly. Prime factorisation or Euclid's algorithm both isolate this common divisor. Final answer is 36.",
+      "explanation_method_hi": "Euclid method से common divisor निकालें; HCF(108,180) = 36। अतः answer = 36।",
+      "explanation_concept_hi": "HCF सबसे बड़ी संख्या है जो दोनों numbers को exactly divide करती है। Prime factorisation या Euclid method दोनों same common divisor देते हैं। Final answer 36 है।"
+    },
+    {
+      "id": "ns-09",
+      "stem_en": "Find the HCF of 132 and 204.",
+      "stem_hi": "132 और 204 का HCF ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12",
+          "text_hi": "12",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "2244",
+          "text_hi": "2244",
+          "is_correct": false,
+          "trap_reason_en": "Computed LCM 2244 instead of HCF. The question asks for the greatest common factor.",
+          "trap_reason_hi": "LCM 2244 निकाल दिया। Question HCF यानी greatest common factor पूछता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": false,
+          "trap_reason_en": "Used difference 72 as HCF. Difference can help Euclid's algorithm, but it is not automatically the HCF.",
+          "trap_reason_hi": "Difference 72 को HCF मान लिया। Difference Euclid में मदद करता है, HCF अपने-आप नहीं होता।"
+        },
+        {
+          "label": "D",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Stopped one common factor early at 6. Both numbers are still divisible by 12.",
+          "trap_reason_hi": "6 पर रुक गए। दोनों numbers 12 से भी divisible हैं।"
+        }
+      ],
+      "explanation_method_en": "Euclid method: repeatedly subtract/reduce common parts; HCF(132,204) = 12. Therefore, answer = 12.",
+      "explanation_concept_en": "HCF is the largest number that divides both given numbers exactly. Prime factorisation or Euclid's algorithm both isolate this common divisor. Final answer is 12.",
+      "explanation_method_hi": "Euclid method से common divisor निकालें; HCF(132,204) = 12। अतः answer = 12।",
+      "explanation_concept_hi": "HCF सबसे बड़ी संख्या है जो दोनों numbers को exactly divide करती है। Prime factorisation या Euclid method दोनों same common divisor देते हैं। Final answer 12 है।"
+    },
+    {
+      "id": "ns-10",
+      "stem_en": "Find the HCF of 156 and 260.",
+      "stem_hi": "156 और 260 का HCF ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "lcm-hcf"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "780",
+          "text_hi": "780",
+          "is_correct": false,
+          "trap_reason_en": "Computed LCM 780 instead of HCF. The question asks for the greatest common factor.",
+          "trap_reason_hi": "LCM 780 निकाल दिया। Question HCF यानी greatest common factor पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "52",
+          "text_hi": "52",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "104",
+          "text_hi": "104",
+          "is_correct": false,
+          "trap_reason_en": "Used difference 104 as HCF. Difference can help Euclid's algorithm, but it is not automatically the HCF.",
+          "trap_reason_hi": "Difference 104 को HCF मान लिया। Difference Euclid में मदद करता है, HCF अपने-आप नहीं होता।"
+        },
+        {
+          "label": "D",
+          "text_en": "26",
+          "text_hi": "26",
+          "is_correct": false,
+          "trap_reason_en": "Stopped one common factor early at 26. Both numbers are still divisible by 52.",
+          "trap_reason_hi": "26 पर रुक गए। दोनों numbers 52 से भी divisible हैं।"
+        }
+      ],
+      "explanation_method_en": "Euclid method: repeatedly subtract/reduce common parts; HCF(156,260) = 52. Therefore, answer = 52.",
+      "explanation_concept_en": "HCF is the largest number that divides both given numbers exactly. Prime factorisation or Euclid's algorithm both isolate this common divisor. Final answer is 52.",
+      "explanation_method_hi": "Euclid method से common divisor निकालें; HCF(156,260) = 52। अतः answer = 52।",
+      "explanation_concept_hi": "HCF सबसे बड़ी संख्या है जो दोनों numbers को exactly divide करती है। Prime factorisation या Euclid method दोनों same common divisor देते हैं। Final answer 52 है।"
+    },
+    {
+      "id": "ns-11",
+      "stem_en": "What is the remainder when 347 is divided by 9?",
+      "stem_hi": "347 को 9 से divide करने पर remainder क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "remainders"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "38",
+          "text_hi": "38",
+          "is_correct": false,
+          "trap_reason_en": "Reported quotient 38 instead of remainder. Remainder is the leftover after full groups of 9.",
+          "trap_reason_hi": "Quotient 38 को remainder लिख दिया। Remainder 9 के full groups के बाद बचा हिस्सा है।"
+        },
+        {
+          "label": "B",
+          "text_en": "4",
+          "text_hi": "4",
+          "is_correct": false,
+          "trap_reason_en": "Used complement 9-5=4. The asked remainder is 5, not its distance from the divisor.",
+          "trap_reason_hi": "Complement 9-5=4 ले लिया। Remainder 5 है, divisor से distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "5",
+          "text_hi": "5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Assumed exact divisibility. 9×38=342, leaving 5.",
+          "trap_reason_hi": "Exact divisibility मान ली। 9×38=342, इसलिए 5 बचता है।"
+        }
+      ],
+      "explanation_method_en": "9 × 38 = 342. 347 - 342 = 5. Therefore, answer = 5.",
+      "explanation_concept_en": "Division means dividend = divisor × quotient + remainder, with remainder smaller than the divisor. Here the leftover is the required value. Final answer is 5.",
+      "explanation_method_hi": "9 × 38 = 342। 347 - 342 = 5। अतः answer = 5।",
+      "explanation_concept_hi": "Division में dividend = divisor × quotient + remainder होता है, और remainder divisor से छोटा होता है। यहाँ बचा हुआ हिस्सा answer है। Final answer 5 है।"
+    },
+    {
+      "id": "ns-12",
+      "stem_en": "What is the remainder when 829 is divided by 11?",
+      "stem_hi": "829 को 11 से divide करने पर remainder क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "remainders"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "75",
+          "text_hi": "75",
+          "is_correct": false,
+          "trap_reason_en": "Reported quotient 75 instead of remainder. Remainder is the leftover after full groups of 11.",
+          "trap_reason_hi": "Quotient 75 को remainder लिख दिया। Remainder 11 के full groups के बाद बचा हिस्सा है।"
+        },
+        {
+          "label": "B",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Used complement 11-4=7. The asked remainder is 4, not its distance from the divisor.",
+          "trap_reason_hi": "Complement 11-4=7 ले लिया। Remainder 4 है, divisor से distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Assumed exact divisibility. 11×75=825, leaving 4.",
+          "trap_reason_hi": "Exact divisibility मान ली। 11×75=825, इसलिए 4 बचता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "4",
+          "text_hi": "4",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "11 × 75 = 825. 829 - 825 = 4. Therefore, answer = 4.",
+      "explanation_concept_en": "Division means dividend = divisor × quotient + remainder, with remainder smaller than the divisor. Here the leftover is the required value. Final answer is 4.",
+      "explanation_method_hi": "11 × 75 = 825। 829 - 825 = 4। अतः answer = 4।",
+      "explanation_concept_hi": "Division में dividend = divisor × quotient + remainder होता है, और remainder divisor से छोटा होता है। यहाँ बचा हुआ हिस्सा answer है। Final answer 4 है।"
+    },
+    {
+      "id": "ns-13",
+      "stem_en": "What is the remainder when 1257 is divided by 7?",
+      "stem_hi": "1257 को 7 से divide करने पर remainder क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "remainders"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "4",
+          "text_hi": "4",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "179",
+          "text_hi": "179",
+          "is_correct": false,
+          "trap_reason_en": "Reported quotient 179 instead of remainder. Remainder is the leftover after full groups of 7.",
+          "trap_reason_hi": "Quotient 179 को remainder लिख दिया। Remainder 7 के full groups के बाद बचा हिस्सा है।"
+        },
+        {
+          "label": "C",
+          "text_en": "3",
+          "text_hi": "3",
+          "is_correct": false,
+          "trap_reason_en": "Used complement 7-4=3. The asked remainder is 4, not its distance from the divisor.",
+          "trap_reason_hi": "Complement 7-4=3 ले लिया। Remainder 4 है, divisor से distance नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Assumed exact divisibility. 7×179=1253, leaving 4.",
+          "trap_reason_hi": "Exact divisibility मान ली। 7×179=1253, इसलिए 4 बचता है।"
+        }
+      ],
+      "explanation_method_en": "7 × 179 = 1253. 1257 - 1253 = 4. Therefore, answer = 4.",
+      "explanation_concept_en": "Division means dividend = divisor × quotient + remainder, with remainder smaller than the divisor. Here the leftover is the required value. Final answer is 4.",
+      "explanation_method_hi": "7 × 179 = 1253। 1257 - 1253 = 4। अतः answer = 4।",
+      "explanation_concept_hi": "Division में dividend = divisor × quotient + remainder होता है, और remainder divisor से छोटा होता है। यहाँ बचा हुआ हिस्सा answer है। Final answer 4 है।"
+    },
+    {
+      "id": "ns-14",
+      "stem_en": "What is the remainder when 999 is divided by 13?",
+      "stem_hi": "999 को 13 से divide करने पर remainder क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "remainders"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "76",
+          "text_hi": "76",
+          "is_correct": false,
+          "trap_reason_en": "Reported quotient 76 instead of remainder. Remainder is the leftover after full groups of 13.",
+          "trap_reason_hi": "Quotient 76 को remainder लिख दिया। Remainder 13 के full groups के बाद बचा हिस्सा है।"
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "2",
+          "text_hi": "2",
+          "is_correct": false,
+          "trap_reason_en": "Used complement 13-11=2. The asked remainder is 11, not its distance from the divisor.",
+          "trap_reason_hi": "Complement 13-11=2 ले लिया। Remainder 11 है, divisor से distance नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Assumed exact divisibility. 13×76=988, leaving 11.",
+          "trap_reason_hi": "Exact divisibility मान ली। 13×76=988, इसलिए 11 बचता है।"
+        }
+      ],
+      "explanation_method_en": "13 × 76 = 988. 999 - 988 = 11. Therefore, answer = 11.",
+      "explanation_concept_en": "Division means dividend = divisor × quotient + remainder, with remainder smaller than the divisor. Here the leftover is the required value. Final answer is 11.",
+      "explanation_method_hi": "13 × 76 = 988। 999 - 988 = 11। अतः answer = 11।",
+      "explanation_concept_hi": "Division में dividend = divisor × quotient + remainder होता है, और remainder divisor से छोटा होता है। यहाँ बचा हुआ हिस्सा answer है। Final answer 11 है।"
+    },
+    {
+      "id": "ns-15",
+      "stem_en": "What is the remainder when 2026 is divided by 8?",
+      "stem_hi": "2026 को 8 से divide करने पर remainder क्या होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "remainders"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "253",
+          "text_hi": "253",
+          "is_correct": false,
+          "trap_reason_en": "Reported quotient 253 instead of remainder. Remainder is the leftover after full groups of 8.",
+          "trap_reason_hi": "Quotient 253 को remainder लिख दिया। Remainder 8 के full groups के बाद बचा हिस्सा है।"
+        },
+        {
+          "label": "B",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Used complement 8-2=6. The asked remainder is 2, not its distance from the divisor.",
+          "trap_reason_hi": "Complement 8-2=6 ले लिया। Remainder 2 है, divisor से distance नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "2",
+          "text_hi": "2",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Assumed exact divisibility. 8×253=2024, leaving 2.",
+          "trap_reason_hi": "Exact divisibility मान ली। 8×253=2024, इसलिए 2 बचता है।"
+        }
+      ],
+      "explanation_method_en": "8 × 253 = 2024. 2026 - 2024 = 2. Therefore, answer = 2.",
+      "explanation_concept_en": "Division means dividend = divisor × quotient + remainder, with remainder smaller than the divisor. Here the leftover is the required value. Final answer is 2.",
+      "explanation_method_hi": "8 × 253 = 2024। 2026 - 2024 = 2। अतः answer = 2।",
+      "explanation_concept_hi": "Division में dividend = divisor × quotient + remainder होता है, और remainder divisor से छोटा होता है। यहाँ बचा हुआ हिस्सा answer है। Final answer 2 है।"
+    },
+    {
+      "id": "ns-16",
+      "stem_en": "Find the unit digit of 7^42.",
+      "stem_hi": "7^42 का unit digit ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "unit-digit"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Used the base unit digit 7 without applying the power cycle. Unit digits repeat in cycles.",
+          "trap_reason_hi": "Base unit digit 7 सीधे ले लिया। Powers में unit digit cycle repeat होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2",
+          "text_hi": "2",
+          "is_correct": false,
+          "trap_reason_en": "Used the exponent's unit digit 2. The exponent chooses the cycle position; it is not itself the answer.",
+          "trap_reason_hi": "Exponent का unit digit 2 ले लिया। Exponent cycle position बताता है, answer नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "1",
+          "text_hi": "1",
+          "is_correct": false,
+          "trap_reason_en": "Shifted to the wrong cycle position. The exponent 42 must be reduced by the cycle length, not by 10 alone.",
+          "trap_reason_hi": "गलत cycle position ले ली। Exponent 42 को cycle length से reduce करना होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Unit digits of powers of 7 repeat cyclically. Put exponent 42 into that cycle; the selected unit digit is 9. Therefore, answer = 9.",
+      "explanation_concept_en": "Only the last digit matters for a unit digit problem. Multiplying last digits repeatedly creates a short repeating cycle, so large powers reduce to a cycle position. Final answer is 9.",
+      "explanation_method_hi": "7 की powers का unit digit cycle में repeat होता है। Exponent 42 को cycle में रखकर unit digit 9 मिलता है। अतः answer = 9।",
+      "explanation_concept_hi": "Unit digit problem में सिर्फ last digit matter करता है। Last digits multiply करते हुए छोटा repeating cycle बनाते हैं। Final answer 9 है।"
+    },
+    {
+      "id": "ns-17",
+      "stem_en": "Find the unit digit of 3^58.",
+      "stem_hi": "3^58 का unit digit ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "unit-digit"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "3",
+          "text_hi": "3",
+          "is_correct": false,
+          "trap_reason_en": "Used the base unit digit 3 without applying the power cycle. Unit digits repeat in cycles.",
+          "trap_reason_hi": "Base unit digit 3 सीधे ले लिया। Powers में unit digit cycle repeat होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": false,
+          "trap_reason_en": "Used the exponent's unit digit 8. The exponent chooses the cycle position; it is not itself the answer.",
+          "trap_reason_hi": "Exponent का unit digit 8 ले लिया। Exponent cycle position बताता है, answer नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "1",
+          "text_hi": "1",
+          "is_correct": false,
+          "trap_reason_en": "Shifted to the wrong cycle position. The exponent 58 must be reduced by the cycle length, not by 10 alone.",
+          "trap_reason_hi": "गलत cycle position ले ली। Exponent 58 को cycle length से reduce करना होता है।"
+        }
+      ],
+      "explanation_method_en": "Unit digits of powers of 3 repeat cyclically. Put exponent 58 into that cycle; the selected unit digit is 9. Therefore, answer = 9.",
+      "explanation_concept_en": "Only the last digit matters for a unit digit problem. Multiplying last digits repeatedly creates a short repeating cycle, so large powers reduce to a cycle position. Final answer is 9.",
+      "explanation_method_hi": "3 की powers का unit digit cycle में repeat होता है। Exponent 58 को cycle में रखकर unit digit 9 मिलता है। अतः answer = 9।",
+      "explanation_concept_hi": "Unit digit problem में सिर्फ last digit matter करता है। Last digits multiply करते हुए छोटा repeating cycle बनाते हैं। Final answer 9 है।"
+    },
+    {
+      "id": "ns-18",
+      "stem_en": "Find the unit digit of 9^38.",
+      "stem_hi": "9^38 का unit digit ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "unit-digit"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Used the base unit digit 9 without applying the power cycle. Unit digits repeat in cycles.",
+          "trap_reason_hi": "Base unit digit 9 सीधे ले लिया। Powers में unit digit cycle repeat होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1",
+          "text_hi": "1",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": false,
+          "trap_reason_en": "Used the exponent's unit digit 8. The exponent chooses the cycle position; it is not itself the answer.",
+          "trap_reason_hi": "Exponent का unit digit 8 ले लिया। Exponent cycle position बताता है, answer नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "3",
+          "text_hi": "3",
+          "is_correct": false,
+          "trap_reason_en": "Shifted to the wrong cycle position. The exponent 38 must be reduced by the cycle length, not by 10 alone.",
+          "trap_reason_hi": "गलत cycle position ले ली। Exponent 38 को cycle length से reduce करना होता है।"
+        }
+      ],
+      "explanation_method_en": "Unit digits of powers of 9 repeat cyclically. Put exponent 38 into that cycle; the selected unit digit is 1. Therefore, answer = 1.",
+      "explanation_concept_en": "Only the last digit matters for a unit digit problem. Multiplying last digits repeatedly creates a short repeating cycle, so large powers reduce to a cycle position. Final answer is 1.",
+      "explanation_method_hi": "9 की powers का unit digit cycle में repeat होता है। Exponent 38 को cycle में रखकर unit digit 1 मिलता है। अतः answer = 1।",
+      "explanation_concept_hi": "Unit digit problem में सिर्फ last digit matter करता है। Last digits multiply करते हुए छोटा repeating cycle बनाते हैं। Final answer 1 है।"
+    },
+    {
+      "id": "ns-19",
+      "stem_en": "Find the unit digit of 8^62.",
+      "stem_hi": "8^62 का unit digit ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "unit-digit"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": false,
+          "trap_reason_en": "Used the base unit digit 8 without applying the power cycle. Unit digits repeat in cycles.",
+          "trap_reason_hi": "Base unit digit 8 सीधे ले लिया। Powers में unit digit cycle repeat होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2",
+          "text_hi": "2",
+          "is_correct": false,
+          "trap_reason_en": "Used the exponent's unit digit 2. The exponent chooses the cycle position; it is not itself the answer.",
+          "trap_reason_hi": "Exponent का unit digit 2 ले लिया। Exponent cycle position बताता है, answer नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "4",
+          "text_hi": "4",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Shifted to the wrong cycle position. The exponent 62 must be reduced by the cycle length, not by 10 alone.",
+          "trap_reason_hi": "गलत cycle position ले ली। Exponent 62 को cycle length से reduce करना होता है।"
+        }
+      ],
+      "explanation_method_en": "Unit digits of powers of 8 repeat cyclically. Put exponent 62 into that cycle; the selected unit digit is 4. Therefore, answer = 4.",
+      "explanation_concept_en": "Only the last digit matters for a unit digit problem. Multiplying last digits repeatedly creates a short repeating cycle, so large powers reduce to a cycle position. Final answer is 4.",
+      "explanation_method_hi": "8 की powers का unit digit cycle में repeat होता है। Exponent 62 को cycle में रखकर unit digit 4 मिलता है। अतः answer = 4।",
+      "explanation_concept_hi": "Unit digit problem में सिर्फ last digit matter करता है। Last digits multiply करते हुए छोटा repeating cycle बनाते हैं। Final answer 4 है।"
+    },
+    {
+      "id": "ns-20",
+      "stem_en": "Find the unit digit of 4^52.",
+      "stem_hi": "4^52 का unit digit ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "number-system",
+        "unit-digit"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "4",
+          "text_hi": "4",
+          "is_correct": false,
+          "trap_reason_en": "Used the base unit digit 4 without applying the power cycle. Unit digits repeat in cycles.",
+          "trap_reason_hi": "Base unit digit 4 सीधे ले लिया। Powers में unit digit cycle repeat होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2",
+          "text_hi": "2",
+          "is_correct": false,
+          "trap_reason_en": "Used the exponent's unit digit 2. The exponent chooses the cycle position; it is not itself the answer.",
+          "trap_reason_hi": "Exponent का unit digit 2 ले लिया। Exponent cycle position बताता है, answer नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": false,
+          "trap_reason_en": "Shifted to the wrong cycle position. The exponent 52 must be reduced by the cycle length, not by 10 alone.",
+          "trap_reason_hi": "गलत cycle position ले ली। Exponent 52 को cycle length से reduce करना होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Unit digits of powers of 4 repeat cyclically. Put exponent 52 into that cycle; the selected unit digit is 6. Therefore, answer = 6.",
+      "explanation_concept_en": "Only the last digit matters for a unit digit problem. Multiplying last digits repeatedly creates a short repeating cycle, so large powers reduce to a cycle position. Final answer is 6.",
+      "explanation_method_hi": "4 की powers का unit digit cycle में repeat होता है। Exponent 52 को cycle में रखकर unit digit 6 मिलता है। अतः answer = 6।",
+      "explanation_concept_hi": "Unit digit problem में सिर्फ last digit matter करता है। Last digits multiply करते हुए छोटा repeating cycle बनाते हैं। Final answer 6 है।"
+    },
+    {
+      "id": "ns-21",
+      "stem_en": "The first part of a quantity is 420, and it is 7 times the second part. Find the second part.",
+      "stem_hi": "किसी quantity का पहला भाग 420 है और यह दूसरे भाग का 7 गुना है। दूसरा भाग ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "number-system",
+        "ratio-basics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "420",
+          "text_hi": "420",
+          "is_correct": false,
+          "trap_reason_en": "Reported the given first part 420. The question asks for the second part.",
+          "trap_reason_hi": "दिया हुआ पहला भाग 420 लिख दिया। Question दूसरा भाग पूछता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Reported the multiplier 7 as the part. The multiplier is not the value of the part.",
+          "trap_reason_hi": "Multiplier 7 को ही part मान लिया। Multiplier value नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "52",
+          "text_hi": "52",
+          "is_correct": false,
+          "trap_reason_en": "Treated 420 as the total and divided by 8. Here 420 is already the first part, so second part = 420/7.",
+          "trap_reason_hi": "420 को total मानकर 8 से divide किया। यहाँ 420 पहला भाग है, इसलिए दूसरा भाग = 420/7।"
+        }
+      ],
+      "explanation_method_en": "Let the second part be x. First part = 7x = 420; so x = 420/7 = 60. Therefore, answer = 60.",
+      "explanation_concept_en": "When one quantity is described as a multiple of another, assign the smaller unknown as x and translate the sentence into an equation before choosing the asked part. Final answer is 60.",
+      "explanation_method_hi": "दूसरा भाग x मानें। पहला भाग = 7x = 420; इसलिए x = 420/7 = 60। अतः answer = 60।",
+      "explanation_concept_hi": "जब एक quantity दूसरी की multiple हो, smaller unknown को x मानकर equation बनाते हैं और पूछा गया part निकालते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "ns-22",
+      "stem_en": "The first part of a quantity is 630, and it is 9 times the second part. Find the second part.",
+      "stem_hi": "किसी quantity का पहला भाग 630 है और यह दूसरे भाग का 9 गुना है। दूसरा भाग ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "number-system",
+        "ratio-basics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "630",
+          "text_hi": "630",
+          "is_correct": false,
+          "trap_reason_en": "Reported the given first part 630. The question asks for the second part.",
+          "trap_reason_hi": "दिया हुआ पहला भाग 630 लिख दिया। Question दूसरा भाग पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "70",
+          "text_hi": "70",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Reported the multiplier 9 as the part. The multiplier is not the value of the part.",
+          "trap_reason_hi": "Multiplier 9 को ही part मान लिया। Multiplier value नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "63",
+          "text_hi": "63",
+          "is_correct": false,
+          "trap_reason_en": "Treated 630 as the total and divided by 10. Here 630 is already the first part, so second part = 630/9.",
+          "trap_reason_hi": "630 को total मानकर 10 से divide किया। यहाँ 630 पहला भाग है, इसलिए दूसरा भाग = 630/9।"
+        }
+      ],
+      "explanation_method_en": "Let the second part be x. First part = 9x = 630; so x = 630/9 = 70. Therefore, answer = 70.",
+      "explanation_concept_en": "When one quantity is described as a multiple of another, assign the smaller unknown as x and translate the sentence into an equation before choosing the asked part. Final answer is 70.",
+      "explanation_method_hi": "दूसरा भाग x मानें। पहला भाग = 9x = 630; इसलिए x = 630/9 = 70। अतः answer = 70।",
+      "explanation_concept_hi": "जब एक quantity दूसरी की multiple हो, smaller unknown को x मानकर equation बनाते हैं और पूछा गया part निकालते हैं। Final answer 70 है।"
+    },
+    {
+      "id": "ns-23",
+      "stem_en": "The first part of a quantity is 780, and it is 13 times the second part. Find the second part.",
+      "stem_hi": "किसी quantity का पहला भाग 780 है और यह दूसरे भाग का 13 गुना है। दूसरा भाग ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "number-system",
+        "ratio-basics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "780",
+          "text_hi": "780",
+          "is_correct": false,
+          "trap_reason_en": "Reported the given first part 780. The question asks for the second part.",
+          "trap_reason_hi": "दिया हुआ पहला भाग 780 लिख दिया। Question दूसरा भाग पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "13",
+          "text_hi": "13",
+          "is_correct": false,
+          "trap_reason_en": "Reported the multiplier 13 as the part. The multiplier is not the value of the part.",
+          "trap_reason_hi": "Multiplier 13 को ही part मान लिया। Multiplier value नहीं है।"
+        },
+        {
+          "label": "C",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Treated 780 as the total and divided by 14. Here 780 is already the first part, so second part = 780/13.",
+          "trap_reason_hi": "780 को total मानकर 14 से divide किया। यहाँ 780 पहला भाग है, इसलिए दूसरा भाग = 780/13।"
+        }
+      ],
+      "explanation_method_en": "Let the second part be x. First part = 13x = 780; so x = 780/13 = 60. Therefore, answer = 60.",
+      "explanation_concept_en": "When one quantity is described as a multiple of another, assign the smaller unknown as x and translate the sentence into an equation before choosing the asked part. Final answer is 60.",
+      "explanation_method_hi": "दूसरा भाग x मानें। पहला भाग = 13x = 780; इसलिए x = 780/13 = 60। अतः answer = 60।",
+      "explanation_concept_hi": "जब एक quantity दूसरी की multiple हो, smaller unknown को x मानकर equation बनाते हैं और पूछा गया part निकालते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "ns-24",
+      "stem_en": "The first part of a quantity is 990, and it is 11 times the second part. Find the second part.",
+      "stem_hi": "किसी quantity का पहला भाग 990 है और यह दूसरे भाग का 11 गुना है। दूसरा भाग ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "number-system",
+        "ratio-basics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "990",
+          "text_hi": "990",
+          "is_correct": false,
+          "trap_reason_en": "Reported the given first part 990. The question asks for the second part.",
+          "trap_reason_hi": "दिया हुआ पहला भाग 990 लिख दिया। Question दूसरा भाग पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": false,
+          "trap_reason_en": "Reported the multiplier 11 as the part. The multiplier is not the value of the part.",
+          "trap_reason_hi": "Multiplier 11 को ही part मान लिया। Multiplier value नहीं है।"
+        },
+        {
+          "label": "C",
+          "text_en": "82",
+          "text_hi": "82",
+          "is_correct": false,
+          "trap_reason_en": "Treated 990 as the total and divided by 12. Here 990 is already the first part, so second part = 990/11.",
+          "trap_reason_hi": "990 को total मानकर 12 से divide किया। यहाँ 990 पहला भाग है, इसलिए दूसरा भाग = 990/11।"
+        },
+        {
+          "label": "D",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Let the second part be x. First part = 11x = 990; so x = 990/11 = 90. Therefore, answer = 90.",
+      "explanation_concept_en": "When one quantity is described as a multiple of another, assign the smaller unknown as x and translate the sentence into an equation before choosing the asked part. Final answer is 90.",
+      "explanation_method_hi": "दूसरा भाग x मानें। पहला भाग = 11x = 990; इसलिए x = 990/11 = 90। अतः answer = 90।",
+      "explanation_concept_hi": "जब एक quantity दूसरी की multiple हो, smaller unknown को x मानकर equation बनाते हैं और पूछा गया part निकालते हैं। Final answer 90 है।"
+    },
+    {
+      "id": "ns-25",
+      "stem_en": "The first part of a quantity is 1260, and it is 15 times the second part. Find the second part.",
+      "stem_hi": "किसी quantity का पहला भाग 1260 है और यह दूसरे भाग का 15 गुना है। दूसरा भाग ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "number-system",
+        "ratio-basics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "84",
+          "text_hi": "84",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1260",
+          "text_hi": "1260",
+          "is_correct": false,
+          "trap_reason_en": "Reported the given first part 1260. The question asks for the second part.",
+          "trap_reason_hi": "दिया हुआ पहला भाग 1260 लिख दिया। Question दूसरा भाग पूछता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "15",
+          "text_hi": "15",
+          "is_correct": false,
+          "trap_reason_en": "Reported the multiplier 15 as the part. The multiplier is not the value of the part.",
+          "trap_reason_hi": "Multiplier 15 को ही part मान लिया। Multiplier value नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "78",
+          "text_hi": "78",
+          "is_correct": false,
+          "trap_reason_en": "Treated 1260 as the total and divided by 16. Here 1260 is already the first part, so second part = 1260/15.",
+          "trap_reason_hi": "1260 को total मानकर 16 से divide किया। यहाँ 1260 पहला भाग है, इसलिए दूसरा भाग = 1260/15।"
+        }
+      ],
+      "explanation_method_en": "Let the second part be x. First part = 15x = 1260; so x = 1260/15 = 84. Therefore, answer = 84.",
+      "explanation_concept_en": "When one quantity is described as a multiple of another, assign the smaller unknown as x and translate the sentence into an equation before choosing the asked part. Final answer is 84.",
+      "explanation_method_hi": "दूसरा भाग x मानें। पहला भाग = 15x = 1260; इसलिए x = 1260/15 = 84। अतः answer = 84।",
+      "explanation_concept_hi": "जब एक quantity दूसरी की multiple हो, smaller unknown को x मानकर equation बनाते हैं और पूछा गया part निकालते हैं। Final answer 84 है।"
+    }
+  ]
+}

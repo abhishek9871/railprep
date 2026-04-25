@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Algebra. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-algebra-01",
+  "title_en": "Algebra — Sectional",
+  "title_hi": "Algebra — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Algebra",
+    "title_hi": "Algebra",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "alg-01",
+      "stem_en": "Solve for x: 3x + 7 = 34.",
+      "stem_hi": "x ज्ञात कीजिए: 3x + 7 = 34.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "11.333333333333334",
+          "text_hi": "11.333333333333334",
+          "is_correct": false,
+          "trap_reason_en": "Divided 34 by 3 before subtracting 7. The constant 7 must move first.",
+          "trap_reason_hi": "7 घटाने से पहले 34/3 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "13.666666666666666",
+          "text_hi": "13.666666666666666",
+          "is_correct": false,
+          "trap_reason_en": "Added 7 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 7 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "27",
+          "text_hi": "27",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 34-7=27 and forgot to divide by coefficient 3.",
+          "trap_reason_hi": "34-7=27 पर रुक गए; coefficient 3 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "3x = 34-7 = 27. Divide by 3: x = 9. Therefore, answer = 9.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 9.",
+      "explanation_method_hi": "3x = 34-7 = 27। 3 से divide करें: x = 9। अतः answer = 9।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 9 है।"
+    },
+    {
+      "id": "alg-02",
+      "stem_en": "Solve for x: 5x + 9 = 64.",
+      "stem_hi": "x ज्ञात कीजिए: 5x + 9 = 64.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12.8",
+          "text_hi": "12.8",
+          "is_correct": false,
+          "trap_reason_en": "Divided 64 by 5 before subtracting 9. The constant 9 must move first.",
+          "trap_reason_hi": "9 घटाने से पहले 64/5 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "14.6",
+          "text_hi": "14.6",
+          "is_correct": false,
+          "trap_reason_en": "Added 9 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 9 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 64-9=55 and forgot to divide by coefficient 5.",
+          "trap_reason_hi": "64-9=55 पर रुक गए; coefficient 5 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "5x = 64-9 = 55. Divide by 5: x = 11. Therefore, answer = 11.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 11.",
+      "explanation_method_hi": "5x = 64-9 = 55। 5 से divide करें: x = 11। अतः answer = 11।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 11 है।"
+    },
+    {
+      "id": "alg-03",
+      "stem_en": "Solve for x: 4x + 11 = 51.",
+      "stem_hi": "x ज्ञात कीजिए: 4x + 11 = 51.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12.75",
+          "text_hi": "12.75",
+          "is_correct": false,
+          "trap_reason_en": "Divided 51 by 4 before subtracting 11. The constant 11 must move first.",
+          "trap_reason_hi": "11 घटाने से पहले 51/4 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "15.5",
+          "text_hi": "15.5",
+          "is_correct": false,
+          "trap_reason_en": "Added 11 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 11 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "10",
+          "text_hi": "10",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 51-11=40 and forgot to divide by coefficient 4.",
+          "trap_reason_hi": "51-11=40 पर रुक गए; coefficient 4 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "4x = 51-11 = 40. Divide by 4: x = 10. Therefore, answer = 10.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 10.",
+      "explanation_method_hi": "4x = 51-11 = 40। 4 से divide करें: x = 10। अतः answer = 10।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 10 है।"
+    },
+    {
+      "id": "alg-04",
+      "stem_en": "Solve for x: 7x + 5 = 68.",
+      "stem_hi": "x ज्ञात कीजिए: 7x + 5 = 68.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9.714285714285714",
+          "text_hi": "9.714285714285714",
+          "is_correct": false,
+          "trap_reason_en": "Divided 68 by 7 before subtracting 5. The constant 5 must move first.",
+          "trap_reason_hi": "5 घटाने से पहले 68/7 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "10.428571428571429",
+          "text_hi": "10.428571428571429",
+          "is_correct": false,
+          "trap_reason_en": "Added 5 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 5 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "63",
+          "text_hi": "63",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 68-5=63 and forgot to divide by coefficient 7.",
+          "trap_reason_hi": "68-5=63 पर रुक गए; coefficient 7 से divide नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "7x = 68-5 = 63. Divide by 7: x = 9. Therefore, answer = 9.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 9.",
+      "explanation_method_hi": "7x = 68-5 = 63। 7 से divide करें: x = 9। अतः answer = 9।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 9 है।"
+    },
+    {
+      "id": "alg-05",
+      "stem_en": "Solve for x: 6x + 13 = 79.",
+      "stem_hi": "x ज्ञात कीजिए: 6x + 13 = 79.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "13.166666666666666",
+          "text_hi": "13.166666666666666",
+          "is_correct": false,
+          "trap_reason_en": "Divided 79 by 6 before subtracting 13. The constant 13 must move first.",
+          "trap_reason_hi": "13 घटाने से पहले 79/6 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "15.333333333333334",
+          "text_hi": "15.333333333333334",
+          "is_correct": false,
+          "trap_reason_en": "Added 13 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 13 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "66",
+          "text_hi": "66",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 79-13=66 and forgot to divide by coefficient 6.",
+          "trap_reason_hi": "79-13=66 पर रुक गए; coefficient 6 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "6x = 79-13 = 66. Divide by 6: x = 11. Therefore, answer = 11.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 11.",
+      "explanation_method_hi": "6x = 79-13 = 66। 6 से divide करें: x = 11। अतः answer = 11।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 11 है।"
+    },
+    {
+      "id": "alg-06",
+      "stem_en": "Solve for x: 8x + 17 = 105.",
+      "stem_hi": "x ज्ञात कीजिए: 8x + 17 = 105.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "13.125",
+          "text_hi": "13.125",
+          "is_correct": false,
+          "trap_reason_en": "Divided 105 by 8 before subtracting 17. The constant 17 must move first.",
+          "trap_reason_hi": "17 घटाने से पहले 105/8 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "15.25",
+          "text_hi": "15.25",
+          "is_correct": false,
+          "trap_reason_en": "Added 17 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 17 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "88",
+          "text_hi": "88",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 105-17=88 and forgot to divide by coefficient 8.",
+          "trap_reason_hi": "105-17=88 पर रुक गए; coefficient 8 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "8x = 105-17 = 88. Divide by 8: x = 11. Therefore, answer = 11.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 11.",
+      "explanation_method_hi": "8x = 105-17 = 88। 8 से divide करें: x = 11। अतः answer = 11।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 11 है।"
+    },
+    {
+      "id": "alg-07",
+      "stem_en": "Solve for x: 9x + 4 = 76.",
+      "stem_hi": "x ज्ञात कीजिए: 9x + 4 = 76.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "8.444444444444445",
+          "text_hi": "8.444444444444445",
+          "is_correct": false,
+          "trap_reason_en": "Divided 76 by 9 before subtracting 4. The constant 4 must move first.",
+          "trap_reason_hi": "4 घटाने से पहले 76/9 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "8.88888888888889",
+          "text_hi": "8.88888888888889",
+          "is_correct": false,
+          "trap_reason_en": "Added 4 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 4 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "72",
+          "text_hi": "72",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 76-4=72 and forgot to divide by coefficient 9.",
+          "trap_reason_hi": "76-4=72 पर रुक गए; coefficient 9 से divide नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "9x = 76-4 = 72. Divide by 9: x = 8. Therefore, answer = 8.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 8.",
+      "explanation_method_hi": "9x = 76-4 = 72। 9 से divide करें: x = 8। अतः answer = 8।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 8 है।"
+    },
+    {
+      "id": "alg-08",
+      "stem_en": "Solve for x: 11x + 6 = 94.",
+      "stem_hi": "x ज्ञात कीजिए: 11x + 6 = 94.",
+      "difficulty": "EASY",
+      "tags": [
+        "algebra",
+        "linear-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "8.545454545454545",
+          "text_hi": "8.545454545454545",
+          "is_correct": false,
+          "trap_reason_en": "Divided 94 by 11 before subtracting 6. The constant 6 must move first.",
+          "trap_reason_hi": "6 घटाने से पहले 94/11 कर दिया। Constant पहले shift होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "9.090909090909092",
+          "text_hi": "9.090909090909092",
+          "is_correct": false,
+          "trap_reason_en": "Added 6 instead of subtracting it when moving across the equals sign.",
+          "trap_reason_hi": "Equals sign cross करते समय 6 subtract की जगह add कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "88",
+          "text_hi": "88",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at 94-6=88 and forgot to divide by coefficient 11.",
+          "trap_reason_hi": "94-6=88 पर रुक गए; coefficient 11 से divide नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "11x = 94-6 = 88. Divide by 11: x = 8. Therefore, answer = 8.",
+      "explanation_concept_en": "A linear equation is solved by undoing operations in reverse order: remove the constant, then remove the coefficient of x. Final answer is 8.",
+      "explanation_method_hi": "11x = 94-6 = 88। 11 से divide करें: x = 8। अतः answer = 8।",
+      "explanation_concept_hi": "Linear equation में operations reverse order में undo होते हैं: पहले constant हटाएँ, फिर x का coefficient हटाएँ। Final answer 8 है।"
+    },
+    {
+      "id": "alg-09",
+      "stem_en": "If x + y = 18 and x - y = 12, find x.",
+      "stem_hi": "यदि x + y = 18 और x - y = 12, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "15",
+          "text_hi": "15",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "3",
+          "text_hi": "3",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (18-12)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (18-12)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "30",
+          "text_hi": "30",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=30.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=30।"
+        },
+        {
+          "label": "D",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 18+12 = 30. Hence x = 15. Therefore, answer = 15.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 15.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 18+12 = 30। इसलिए x = 15। अतः answer = 15।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 15 है।"
+    },
+    {
+      "id": "alg-10",
+      "stem_en": "If x + y = 25 and x - y = 15, find x.",
+      "stem_hi": "यदि x + y = 25 और x - y = 15, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5",
+          "text_hi": "5",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (25-15)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (25-15)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "20",
+          "text_hi": "20",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=40.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=40।"
+        },
+        {
+          "label": "D",
+          "text_en": "10",
+          "text_hi": "10",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 25+15 = 40. Hence x = 20. Therefore, answer = 20.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 20.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 25+15 = 40। इसलिए x = 20। अतः answer = 20।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 20 है।"
+    },
+    {
+      "id": "alg-11",
+      "stem_en": "If x + y = 32 and x - y = 18, find x.",
+      "stem_hi": "यदि x + y = 32 और x - y = 18, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (32-18)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (32-18)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "50",
+          "text_hi": "50",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=50.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=50।"
+        },
+        {
+          "label": "C",
+          "text_en": "25",
+          "text_hi": "25",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "14",
+          "text_hi": "14",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 32+18 = 50. Hence x = 25. Therefore, answer = 25.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 25.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 32+18 = 50। इसलिए x = 25। अतः answer = 25।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 25 है।"
+    },
+    {
+      "id": "alg-12",
+      "stem_en": "If x + y = 41 and x - y = 23, find x.",
+      "stem_hi": "यदि x + y = 41 और x - y = 23, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9",
+          "text_hi": "9",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (41-23)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (41-23)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=64.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=64।"
+        },
+        {
+          "label": "C",
+          "text_en": "18",
+          "text_hi": "18",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "32",
+          "text_hi": "32",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 41+23 = 64. Hence x = 32. Therefore, answer = 32.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 32.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 41+23 = 64। इसलिए x = 32। अतः answer = 32।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 32 है।"
+    },
+    {
+      "id": "alg-13",
+      "stem_en": "If x + y = 56 and x - y = 34, find x.",
+      "stem_hi": "यदि x + y = 56 और x - y = 34, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "45",
+          "text_hi": "45",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "11",
+          "text_hi": "11",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (56-34)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (56-34)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=90.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=90।"
+        },
+        {
+          "label": "D",
+          "text_en": "22",
+          "text_hi": "22",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 56+34 = 90. Hence x = 45. Therefore, answer = 45.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 45.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 56+34 = 90। इसलिए x = 45। अतः answer = 45।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 45 है।"
+    },
+    {
+      "id": "alg-14",
+      "stem_en": "If x + y = 63 and x - y = 27, find x.",
+      "stem_hi": "यदि x + y = 63 और x - y = 27, तो x ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "simultaneous-equations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "18",
+          "text_hi": "18",
+          "is_correct": false,
+          "trap_reason_en": "Found y = (63-27)/2 instead of x. The question asks for x.",
+          "trap_reason_hi": "y = (63-27)/2 निकाल दिया। Question x पूछता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "45",
+          "text_hi": "45",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": false,
+          "trap_reason_en": "Added equations but forgot to divide by 2: 2x=90.",
+          "trap_reason_hi": "Equations add करके 2 से divide नहीं किया: 2x=90।"
+        },
+        {
+          "label": "D",
+          "text_en": "36",
+          "text_hi": "36",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted equations and got 2y, not x.",
+          "trap_reason_hi": "Equations subtract करके 2y मिला, x नहीं।"
+        }
+      ],
+      "explanation_method_en": "Add both equations: 2x = 63+27 = 90. Hence x = 45. Therefore, answer = 45.",
+      "explanation_concept_en": "Adding x+y and x-y cancels y and leaves 2x, so the target variable is isolated directly. Final answer is 45.",
+      "explanation_method_hi": "दोनों equations add करें: 2x = 63+27 = 90। इसलिए x = 45। अतः answer = 45।",
+      "explanation_concept_hi": "x+y और x-y add करने पर y cancel होता है और 2x बचता है। Final answer 45 है।"
+    },
+    {
+      "id": "alg-15",
+      "stem_en": "Evaluate 21² - 9² using identity.",
+      "stem_hi": "Identity से 21² - 9² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "144",
+          "text_hi": "144",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "522",
+          "text_hi": "522",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "360",
+          "text_hi": "360",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "108",
+          "text_hi": "108",
+          "is_correct": false,
+          "trap_reason_en": "Used 9 as the second factor instead of a+b=30.",
+          "trap_reason_hi": "दूसरे factor में a+b=30 की जगह 9 लिया।"
+        }
+      ],
+      "explanation_method_en": "21²-9²=(21-9)(21+9)=12×30=360. Therefore, answer = 360.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 360.",
+      "explanation_method_hi": "21²-9²=(21-9)(21+9)=12×30=360। अतः answer = 360।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 360 है।"
+    },
+    {
+      "id": "alg-16",
+      "stem_en": "Evaluate 34² - 16² using identity.",
+      "stem_hi": "Identity से 34² - 16² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "324",
+          "text_hi": "324",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1412",
+          "text_hi": "1412",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "288",
+          "text_hi": "288",
+          "is_correct": false,
+          "trap_reason_en": "Used 16 as the second factor instead of a+b=50.",
+          "trap_reason_hi": "दूसरे factor में a+b=50 की जगह 16 लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "900",
+          "text_hi": "900",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "34²-16²=(34-16)(34+16)=18×50=900. Therefore, answer = 900.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 900.",
+      "explanation_method_hi": "34²-16²=(34-16)(34+16)=18×50=900। अतः answer = 900।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 900 है।"
+    },
+    {
+      "id": "alg-17",
+      "stem_en": "Evaluate 45² - 25² using identity.",
+      "stem_hi": "Identity से 45² - 25² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1400",
+          "text_hi": "1400",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "400",
+          "text_hi": "400",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "C",
+          "text_en": "2650",
+          "text_hi": "2650",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "500",
+          "text_hi": "500",
+          "is_correct": false,
+          "trap_reason_en": "Used 25 as the second factor instead of a+b=70.",
+          "trap_reason_hi": "दूसरे factor में a+b=70 की जगह 25 लिया।"
+        }
+      ],
+      "explanation_method_en": "45²-25²=(45-25)(45+25)=20×70=1400. Therefore, answer = 1400.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 1400.",
+      "explanation_method_hi": "45²-25²=(45-25)(45+25)=20×70=1400। अतः answer = 1400।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 1400 है।"
+    },
+    {
+      "id": "alg-18",
+      "stem_en": "Evaluate 52² - 18² using identity.",
+      "stem_hi": "Identity से 52² - 18² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1156",
+          "text_hi": "1156",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2380",
+          "text_hi": "2380",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "3028",
+          "text_hi": "3028",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "612",
+          "text_hi": "612",
+          "is_correct": false,
+          "trap_reason_en": "Used 18 as the second factor instead of a+b=70.",
+          "trap_reason_hi": "दूसरे factor में a+b=70 की जगह 18 लिया।"
+        }
+      ],
+      "explanation_method_en": "52²-18²=(52-18)(52+18)=34×70=2380. Therefore, answer = 2380.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 2380.",
+      "explanation_method_hi": "52²-18²=(52-18)(52+18)=34×70=2380। अतः answer = 2380।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 2380 है।"
+    },
+    {
+      "id": "alg-19",
+      "stem_en": "Evaluate 67² - 33² using identity.",
+      "stem_hi": "Identity से 67² - 33² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1156",
+          "text_hi": "1156",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "5578",
+          "text_hi": "5578",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "3400",
+          "text_hi": "3400",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1122",
+          "text_hi": "1122",
+          "is_correct": false,
+          "trap_reason_en": "Used 33 as the second factor instead of a+b=100.",
+          "trap_reason_hi": "दूसरे factor में a+b=100 की जगह 33 लिया।"
+        }
+      ],
+      "explanation_method_en": "67²-33²=(67-33)(67+33)=34×100=3400. Therefore, answer = 3400.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 3400.",
+      "explanation_method_hi": "67²-33²=(67-33)(67+33)=34×100=3400। अतः answer = 3400।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 3400 है।"
+    },
+    {
+      "id": "alg-20",
+      "stem_en": "Evaluate 83² - 17² using identity.",
+      "stem_hi": "Identity से 83² - 17² evaluate कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "4356",
+          "text_hi": "4356",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² लगा दिया, जबकि सही (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "7178",
+          "text_hi": "7178",
+          "is_correct": false,
+          "trap_reason_en": "Added squares rather than subtracting them.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "1122",
+          "text_hi": "1122",
+          "is_correct": false,
+          "trap_reason_en": "Used 17 as the second factor instead of a+b=100.",
+          "trap_reason_hi": "दूसरे factor में a+b=100 की जगह 17 लिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "6600",
+          "text_hi": "6600",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "83²-17²=(83-17)(83+17)=66×100=6600. Therefore, answer = 6600.",
+      "explanation_concept_en": "The identity for difference of squares converts two square calculations into one product of sum and difference. Final answer is 6600.",
+      "explanation_method_hi": "83²-17²=(83-17)(83+17)=66×100=6600। अतः answer = 6600।",
+      "explanation_concept_hi": "Difference of squares identity square calculations को sum और difference के product में बदल देती है। Final answer 6600 है।"
+    },
+    {
+      "id": "alg-21",
+      "stem_en": "Using identity, find (12+8)².",
+      "stem_hi": "Identity से (12+8)² ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "400",
+          "text_hi": "400",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "208",
+          "text_hi": "208",
+          "is_correct": false,
+          "trap_reason_en": "Used a²+b² only and missed 2ab=192.",
+          "trap_reason_hi": "सिर्फ a²+b² लिया और 2ab=192 छोड़ दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the sum: 2(12+8). Squaring means multiplying the sum by itself.",
+          "trap_reason_hi": "Sum को double कर दिया: 2(12+8)। Square में sum अपने-आप से multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a+b)².",
+          "trap_reason_hi": "(a+b)² की जगह (a-b)² लगाया।"
+        }
+      ],
+      "explanation_method_en": "(12+8)² = 12² + 2×12×8 + 8² = 400. Therefore, answer = 400.",
+      "explanation_concept_en": "The middle term 2ab represents the two cross-products that appear when (a+b) is multiplied by itself. Final answer is 400.",
+      "explanation_method_hi": "(12+8)² = 12² + 2×12×8 + 8² = 400। अतः answer = 400।",
+      "explanation_concept_hi": "Middle term 2ab, (a+b) को अपने-आप से multiply करने पर आने वाले two cross-products को represent करता है। Final answer 400 है।"
+    },
+    {
+      "id": "alg-22",
+      "stem_en": "Using identity, find (15+5)².",
+      "stem_hi": "Identity से (15+5)² ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "250",
+          "text_hi": "250",
+          "is_correct": false,
+          "trap_reason_en": "Used a²+b² only and missed 2ab=150.",
+          "trap_reason_hi": "सिर्फ a²+b² लिया और 2ab=150 छोड़ दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "400",
+          "text_hi": "400",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "40",
+          "text_hi": "40",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the sum: 2(15+5). Squaring means multiplying the sum by itself.",
+          "trap_reason_hi": "Sum को double कर दिया: 2(15+5)। Square में sum अपने-आप से multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "100",
+          "text_hi": "100",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a+b)².",
+          "trap_reason_hi": "(a+b)² की जगह (a-b)² लगाया।"
+        }
+      ],
+      "explanation_method_en": "(15+5)² = 15² + 2×15×5 + 5² = 400. Therefore, answer = 400.",
+      "explanation_concept_en": "The middle term 2ab represents the two cross-products that appear when (a+b) is multiplied by itself. Final answer is 400.",
+      "explanation_method_hi": "(15+5)² = 15² + 2×15×5 + 5² = 400। अतः answer = 400।",
+      "explanation_concept_hi": "Middle term 2ab, (a+b) को अपने-आप से multiply करने पर आने वाले two cross-products को represent करता है। Final answer 400 है।"
+    },
+    {
+      "id": "alg-23",
+      "stem_en": "Using identity, find (18+7)².",
+      "stem_hi": "Identity से (18+7)² ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "373",
+          "text_hi": "373",
+          "is_correct": false,
+          "trap_reason_en": "Used a²+b² only and missed 2ab=252.",
+          "trap_reason_hi": "सिर्फ a²+b² लिया और 2ab=252 छोड़ दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "50",
+          "text_hi": "50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the sum: 2(18+7). Squaring means multiplying the sum by itself.",
+          "trap_reason_hi": "Sum को double कर दिया: 2(18+7)। Square में sum अपने-आप से multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "625",
+          "text_hi": "625",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "121",
+          "text_hi": "121",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a+b)².",
+          "trap_reason_hi": "(a+b)² की जगह (a-b)² लगाया।"
+        }
+      ],
+      "explanation_method_en": "(18+7)² = 18² + 2×18×7 + 7² = 625. Therefore, answer = 625.",
+      "explanation_concept_en": "The middle term 2ab represents the two cross-products that appear when (a+b) is multiplied by itself. Final answer is 625.",
+      "explanation_method_hi": "(18+7)² = 18² + 2×18×7 + 7² = 625। अतः answer = 625।",
+      "explanation_concept_hi": "Middle term 2ab, (a+b) को अपने-आप से multiply करने पर आने वाले two cross-products को represent करता है। Final answer 625 है।"
+    },
+    {
+      "id": "alg-24",
+      "stem_en": "Using identity, find (20+10)².",
+      "stem_hi": "Identity से (20+10)² ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "500",
+          "text_hi": "500",
+          "is_correct": false,
+          "trap_reason_en": "Used a²+b² only and missed 2ab=400.",
+          "trap_reason_hi": "सिर्फ a²+b² लिया और 2ab=400 छोड़ दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the sum: 2(20+10). Squaring means multiplying the sum by itself.",
+          "trap_reason_hi": "Sum को double कर दिया: 2(20+10)। Square में sum अपने-आप से multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "100",
+          "text_hi": "100",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a+b)².",
+          "trap_reason_hi": "(a+b)² की जगह (a-b)² लगाया।"
+        },
+        {
+          "label": "D",
+          "text_en": "900",
+          "text_hi": "900",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "(20+10)² = 20² + 2×20×10 + 10² = 900. Therefore, answer = 900.",
+      "explanation_concept_en": "The middle term 2ab represents the two cross-products that appear when (a+b) is multiplied by itself. Final answer is 900.",
+      "explanation_method_hi": "(20+10)² = 20² + 2×20×10 + 10² = 900। अतः answer = 900।",
+      "explanation_concept_hi": "Middle term 2ab, (a+b) को अपने-आप से multiply करने पर आने वाले two cross-products को represent करता है। Final answer 900 है।"
+    },
+    {
+      "id": "alg-25",
+      "stem_en": "Using identity, find (24+6)².",
+      "stem_hi": "Identity से (24+6)² ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "algebra",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "900",
+          "text_hi": "900",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "612",
+          "text_hi": "612",
+          "is_correct": false,
+          "trap_reason_en": "Used a²+b² only and missed 2ab=288.",
+          "trap_reason_hi": "सिर्फ a²+b² लिया और 2ab=288 छोड़ दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the sum: 2(24+6). Squaring means multiplying the sum by itself.",
+          "trap_reason_hi": "Sum को double कर दिया: 2(24+6)। Square में sum अपने-आप से multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "324",
+          "text_hi": "324",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² instead of (a+b)².",
+          "trap_reason_hi": "(a+b)² की जगह (a-b)² लगाया।"
+        }
+      ],
+      "explanation_method_en": "(24+6)² = 24² + 2×24×6 + 6² = 900. Therefore, answer = 900.",
+      "explanation_concept_en": "The middle term 2ab represents the two cross-products that appear when (a+b) is multiplied by itself. Final answer is 900.",
+      "explanation_method_hi": "(24+6)² = 24² + 2×24×6 + 6² = 900। अतः answer = 900।",
+      "explanation_concept_hi": "Middle term 2ab, (a+b) को अपने-आप से multiply करने पर आने वाले two cross-products को represent करता है। Final answer 900 है।"
+    }
+  ]
+}

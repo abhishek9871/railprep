@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Blood Relations. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-blood-relations-01",
+  "title_en": "Blood Relations — Sectional",
+  "title_hi": "Blood Relations — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Blood Relations",
+    "title_hi": "Blood Relations",
+    "subject_hint": "reasoning"
+  },
+  "questions": [
+    {
+      "id": "blood-01",
+      "stem_en": "A is the father of B. B is the sister of C. How is A related to C?",
+      "stem_hi": "A, B का father है। B, C की sister है। A, C से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is sibling of B, so A is parent of both; A is stated as father. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "C is sibling of B, so A is parent of both; A is stated as father. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-02",
+      "stem_en": "P is the mother of Q. Q is the brother of R. How is P related to R?",
+      "stem_hi": "P, Q की mother है। Q, R का brother है। P, R से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Q and R are siblings; P is Q's mother, so P is R's mother. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Mother.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Mother.",
+      "explanation_method_hi": "Q and R are siblings; P is Q's mother, so P is R's mother. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Mother।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Mother है।"
+    },
+    {
+      "id": "blood-03",
+      "stem_en": "M is the son of N. N is the sister of O. How is O related to M?",
+      "stem_hi": "M, N का son है। N, O की sister है। O, M से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Cousin",
+          "text_hi": "Cousin",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "O is sibling of M's mother N, so O is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "O is sibling of M's mother N, so O is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-04",
+      "stem_en": "R is the daughter of S. S is the brother of T. How is T related to R?",
+      "stem_hi": "R, S की daughter है। S, T का brother है। T, R से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "T is sibling of R's father S, so T is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "T is sibling of R's father S, so T is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-05",
+      "stem_en": "X is the husband of Y. Y is the mother of Z. How is X related to Z?",
+      "stem_hi": "X, Y का husband है। Y, Z की mother है। X, Z से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle",
+          "text_hi": "Uncle",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Son",
+          "text_hi": "Son",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Husband of the mother is the father in this family relation chain. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "Husband of the mother is the father in this family relation chain. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-06",
+      "stem_en": "A is the daughter of B. B is the son of C. How is C related to A?",
+      "stem_hi": "A, B की daughter है। B, C का son है। C, A से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Grandparent",
+          "text_hi": "Grandparent",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is parent of B and B is parent of A, so C is grandparent. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Grandparent.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Grandparent.",
+      "explanation_method_hi": "C is parent of B and B is parent of A, so C is grandparent. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Grandparent।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Grandparent है।"
+    },
+    {
+      "id": "blood-07",
+      "stem_en": "K is the brother of L. L is the mother of M. How is K related to M?",
+      "stem_hi": "K, L का brother है। L, M की mother है। K, M से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Maternal uncle",
+          "text_hi": "Maternal uncle",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Grandfather",
+          "text_hi": "Grandfather",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Mother's brother is maternal uncle. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Maternal uncle.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Maternal uncle.",
+      "explanation_method_hi": "Mother's brother is maternal uncle. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Maternal uncle।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Maternal uncle है।"
+    },
+    {
+      "id": "blood-08",
+      "stem_en": "D is the sister of E. E is the father of F. How is D related to F?",
+      "stem_hi": "D, E की sister है। E, F का father है। D, F से कैसे related है?",
+      "difficulty": "EASY",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Aunt",
+          "text_hi": "Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Father's sister is aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Aunt.",
+      "explanation_method_hi": "Father's sister is aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Aunt है।"
+    },
+    {
+      "id": "blood-09",
+      "stem_en": "A is the father of B. B is the sister of C. How is A related to C?",
+      "stem_hi": "A, B का father है। B, C की sister है। A, C से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is sibling of B, so A is parent of both; A is stated as father. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "C is sibling of B, so A is parent of both; A is stated as father. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-10",
+      "stem_en": "P is the mother of Q. Q is the brother of R. How is P related to R?",
+      "stem_hi": "P, Q की mother है। Q, R का brother है। P, R से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Q and R are siblings; P is Q's mother, so P is R's mother. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Mother.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Mother.",
+      "explanation_method_hi": "Q and R are siblings; P is Q's mother, so P is R's mother. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Mother।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Mother है।"
+    },
+    {
+      "id": "blood-11",
+      "stem_en": "M is the son of N. N is the sister of O. How is O related to M?",
+      "stem_hi": "M, N का son है। N, O की sister है। O, M से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Cousin",
+          "text_hi": "Cousin",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "O is sibling of M's mother N, so O is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "O is sibling of M's mother N, so O is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-12",
+      "stem_en": "R is the daughter of S. S is the brother of T. How is T related to R?",
+      "stem_hi": "R, S की daughter है। S, T का brother है। T, R से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "T is sibling of R's father S, so T is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "T is sibling of R's father S, so T is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-13",
+      "stem_en": "X is the husband of Y. Y is the mother of Z. How is X related to Z?",
+      "stem_hi": "X, Y का husband है। Y, Z की mother है। X, Z से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle",
+          "text_hi": "Uncle",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Son",
+          "text_hi": "Son",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Husband of the mother is the father in this family relation chain. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "Husband of the mother is the father in this family relation chain. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-14",
+      "stem_en": "A is the daughter of B. B is the son of C. How is C related to A?",
+      "stem_hi": "A, B की daughter है। B, C का son है। C, A से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Grandparent",
+          "text_hi": "Grandparent",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is parent of B and B is parent of A, so C is grandparent. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Grandparent.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Grandparent.",
+      "explanation_method_hi": "C is parent of B and B is parent of A, so C is grandparent. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Grandparent।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Grandparent है।"
+    },
+    {
+      "id": "blood-15",
+      "stem_en": "K is the brother of L. L is the mother of M. How is K related to M?",
+      "stem_hi": "K, L का brother है। L, M की mother है। K, M से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Maternal uncle",
+          "text_hi": "Maternal uncle",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Grandfather",
+          "text_hi": "Grandfather",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Mother's brother is maternal uncle. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Maternal uncle.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Maternal uncle.",
+      "explanation_method_hi": "Mother's brother is maternal uncle. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Maternal uncle।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Maternal uncle है।"
+    },
+    {
+      "id": "blood-16",
+      "stem_en": "D is the sister of E. E is the father of F. How is D related to F?",
+      "stem_hi": "D, E की sister है। E, F का father है। D, F से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Aunt",
+          "text_hi": "Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Father's sister is aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Aunt.",
+      "explanation_method_hi": "Father's sister is aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Aunt है।"
+    },
+    {
+      "id": "blood-17",
+      "stem_en": "A is the father of B. B is the sister of C. How is A related to C?",
+      "stem_hi": "A, B का father है। B, C की sister है। A, C से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is sibling of B, so A is parent of both; A is stated as father. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "C is sibling of B, so A is parent of both; A is stated as father. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-18",
+      "stem_en": "P is the mother of Q. Q is the brother of R. How is P related to R?",
+      "stem_hi": "P, Q की mother है। Q, R का brother है। P, R से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Q and R are siblings; P is Q's mother, so P is R's mother. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Mother.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Mother.",
+      "explanation_method_hi": "Q and R are siblings; P is Q's mother, so P is R's mother. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Mother।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Mother है।"
+    },
+    {
+      "id": "blood-19",
+      "stem_en": "M is the son of N. N is the sister of O. How is O related to M?",
+      "stem_hi": "M, N का son है। N, O की sister है। O, M से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Cousin",
+          "text_hi": "Cousin",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "O is sibling of M's mother N, so O is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "O is sibling of M's mother N, so O is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-20",
+      "stem_en": "R is the daughter of S. S is the brother of T. How is T related to R?",
+      "stem_hi": "R, S की daughter है। S, T का brother है। T, R से कैसे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Uncle/Aunt",
+          "text_hi": "Uncle/Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "T is sibling of R's father S, so T is uncle/aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Uncle/Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Uncle/Aunt.",
+      "explanation_method_hi": "T is sibling of R's father S, so T is uncle/aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Uncle/Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Uncle/Aunt है।"
+    },
+    {
+      "id": "blood-21",
+      "stem_en": "X is the husband of Y. Y is the mother of Z. How is X related to Z?",
+      "stem_hi": "X, Y का husband है। Y, Z की mother है। X, Z से कैसे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uncle",
+          "text_hi": "Uncle",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Son",
+          "text_hi": "Son",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Husband of the mother is the father in this family relation chain. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "Husband of the mother is the father in this family relation chain. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    },
+    {
+      "id": "blood-22",
+      "stem_en": "A is the daughter of B. B is the son of C. How is C related to A?",
+      "stem_hi": "A, B की daughter है। B, C का son है। C, A से कैसे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Grandparent",
+          "text_hi": "Grandparent",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is parent of B and B is parent of A, so C is grandparent. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Grandparent.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Grandparent.",
+      "explanation_method_hi": "C is parent of B and B is parent of A, so C is grandparent. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Grandparent।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Grandparent है।"
+    },
+    {
+      "id": "blood-23",
+      "stem_en": "K is the brother of L. L is the mother of M. How is K related to M?",
+      "stem_hi": "K, L का brother है। L, M की mother है। K, M से कैसे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Maternal uncle",
+          "text_hi": "Maternal uncle",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Grandfather",
+          "text_hi": "Grandfather",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "Mother's brother is maternal uncle. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Maternal uncle.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Maternal uncle.",
+      "explanation_method_hi": "Mother's brother is maternal uncle. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Maternal uncle।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Maternal uncle है।"
+    },
+    {
+      "id": "blood-24",
+      "stem_en": "D is the sister of E. E is the father of F. How is D related to F?",
+      "stem_hi": "D, E की sister है। E, F का father है। D, F से कैसे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Daughter",
+          "text_hi": "Daughter",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        },
+        {
+          "label": "D",
+          "text_en": "Aunt",
+          "text_hi": "Aunt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Father's sister is aunt. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Aunt.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Aunt.",
+      "explanation_method_hi": "Father's sister is aunt. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Aunt।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Aunt है।"
+    },
+    {
+      "id": "blood-25",
+      "stem_en": "A is the father of B. B is the sister of C. How is A related to C?",
+      "stem_hi": "A, B का father है। B, C की sister है। A, C से कैसे related है?",
+      "difficulty": "HARD",
+      "tags": [
+        "blood-relations",
+        "family-tree"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Father",
+          "text_hi": "Father",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Mother",
+          "text_hi": "Mother",
+          "is_correct": false,
+          "trap_reason_en": "Changed the stated gender or parent role while tracing the relation.",
+          "trap_reason_hi": "Relation trace करते समय stated gender/parent role बदल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Brother",
+          "text_hi": "Brother",
+          "is_correct": false,
+          "trap_reason_en": "Stopped at the sibling link and ignored the parent-child step.",
+          "trap_reason_hi": "Sibling link पर रुक गए और parent-child step ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sister",
+          "text_hi": "Sister",
+          "is_correct": false,
+          "trap_reason_en": "Reversed the direction of relation from child-to-parent to parent-to-child.",
+          "trap_reason_hi": "Relation की direction उलटी कर दी: child-to-parent की जगह parent-to-child।"
+        }
+      ],
+      "explanation_method_en": "C is sibling of B, so A is parent of both; A is stated as father. Trace one link at a time and answer from the asked person's viewpoint. Therefore, answer = Father.",
+      "explanation_concept_en": "Blood relation questions are solved by drawing a small family chain. Keep gender and direction fixed; most wrong answers reverse the viewpoint. Final answer is Father.",
+      "explanation_method_hi": "C is sibling of B, so A is parent of both; A is stated as father. एक-एक link trace करें और asked person के viewpoint से relation दें। अतः answer = Father।",
+      "explanation_concept_hi": "Blood relation questions में छोटा family chain बनता है। Gender और direction fix रखें; ज़्यादातर errors viewpoint reverse करने से होते हैं। Final answer Father है।"
+    }
+  ]
+}

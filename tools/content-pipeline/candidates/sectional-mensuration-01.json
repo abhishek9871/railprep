@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Mensuration. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-mensuration-01",
+  "title_en": "Mensuration — Sectional",
+  "title_hi": "Mensuration — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Mensuration",
+    "title_hi": "Mensuration",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "mens-01",
+      "stem_en": "Find the area of a rectangle of length 12 cm and breadth 8 cm.",
+      "stem_hi": "Length 12 cm और breadth 8 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "96 cm²",
+          "text_hi": "96 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "40 cm",
+          "text_hi": "40 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=40 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=40 निकाला।"
+        },
+        {
+          "label": "C",
+          "text_en": "20 cm²",
+          "text_hi": "20 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "192 cm²",
+          "text_hi": "192 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 12×8 = 96 cm². Therefore, answer = 96 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 96 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 12×8 = 96 cm²। अतः answer = 96 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 96 cm² है।"
+    },
+    {
+      "id": "mens-02",
+      "stem_en": "Find the area of a rectangle of length 15 cm and breadth 9 cm.",
+      "stem_hi": "Length 15 cm और breadth 9 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "48 cm",
+          "text_hi": "48 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=48 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=48 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "135 cm²",
+          "text_hi": "135 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "24 cm²",
+          "text_hi": "24 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "270 cm²",
+          "text_hi": "270 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 15×9 = 135 cm². Therefore, answer = 135 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 135 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 15×9 = 135 cm²। अतः answer = 135 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 135 cm² है।"
+    },
+    {
+      "id": "mens-03",
+      "stem_en": "Find the area of a rectangle of length 18 cm and breadth 11 cm.",
+      "stem_hi": "Length 18 cm और breadth 11 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "58 cm",
+          "text_hi": "58 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=58 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=58 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "29 cm²",
+          "text_hi": "29 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "198 cm²",
+          "text_hi": "198 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "396 cm²",
+          "text_hi": "396 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 18×11 = 198 cm². Therefore, answer = 198 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 198 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 18×11 = 198 cm²। अतः answer = 198 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 198 cm² है।"
+    },
+    {
+      "id": "mens-04",
+      "stem_en": "Find the area of a rectangle of length 20 cm and breadth 14 cm.",
+      "stem_hi": "Length 20 cm और breadth 14 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "68 cm",
+          "text_hi": "68 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=68 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=68 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "34 cm²",
+          "text_hi": "34 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "560 cm²",
+          "text_hi": "560 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "280 cm²",
+          "text_hi": "280 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 20×14 = 280 cm². Therefore, answer = 280 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 280 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 20×14 = 280 cm²। अतः answer = 280 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 280 cm² है।"
+    },
+    {
+      "id": "mens-05",
+      "stem_en": "Find the area of a rectangle of length 25 cm and breadth 16 cm.",
+      "stem_hi": "Length 25 cm और breadth 16 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "400 cm²",
+          "text_hi": "400 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "82 cm",
+          "text_hi": "82 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=82 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=82 निकाला।"
+        },
+        {
+          "label": "C",
+          "text_en": "41 cm²",
+          "text_hi": "41 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "800 cm²",
+          "text_hi": "800 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 25×16 = 400 cm². Therefore, answer = 400 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 400 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 25×16 = 400 cm²। अतः answer = 400 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 400 cm² है।"
+    },
+    {
+      "id": "mens-06",
+      "stem_en": "Find the area of a rectangle of length 30 cm and breadth 18 cm.",
+      "stem_hi": "Length 30 cm और breadth 18 cm वाले rectangle का area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "rectangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "96 cm",
+          "text_hi": "96 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 2(l+b)=96 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 2(l+b)=96 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "540 cm²",
+          "text_hi": "540 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "48 cm²",
+          "text_hi": "48 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Added length and breadth. Area requires multiplication l×b.",
+          "trap_reason_hi": "Length और breadth add कर दिए। Area में l×b multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1080 cm²",
+          "text_hi": "1080 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the area. Rectangle area is l×b, not 2lb.",
+          "trap_reason_hi": "Area double कर दिया। Rectangle area l×b है, 2lb नहीं।"
+        }
+      ],
+      "explanation_method_en": "Rectangle area = l×b = 30×18 = 540 cm². Therefore, answer = 540 cm².",
+      "explanation_concept_en": "Area counts square units covering the surface. A rectangle has l rows of b unit squares, so l×b squares are needed. Final answer is 540 cm².",
+      "explanation_method_hi": "Rectangle area = l×b = 30×18 = 540 cm²। अतः answer = 540 cm²।",
+      "explanation_concept_hi": "Area surface को cover करने वाले square units count करता है। Rectangle में l×b unit squares होते हैं। Final answer 540 cm² है।"
+    },
+    {
+      "id": "mens-07",
+      "stem_en": "Find the total surface area of a cube of side 6 cm.",
+      "stem_hi": "Side 6 cm वाले cube का total surface area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "cube"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "216 cm³",
+          "text_hi": "216 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Found volume a³=216 instead of surface area.",
+          "trap_reason_hi": "Surface area की जगह volume a³=216 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "36 cm²",
+          "text_hi": "36 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area of one face only. A cube has 6 faces.",
+          "trap_reason_hi": "सिर्फ एक face का area निकाला। Cube में 6 faces होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "216 cm²",
+          "text_hi": "216 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "144 cm²",
+          "text_hi": "144 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Counted only 4 faces, missing top and bottom faces.",
+          "trap_reason_hi": "सिर्फ 4 faces गिने, top और bottom छोड़ दिए।"
+        }
+      ],
+      "explanation_method_en": "TSA of cube = 6a² = 6×6² = 216 cm². Therefore, answer = 216 cm².",
+      "explanation_concept_en": "A cube has six equal square faces. Total surface area is the area of one face multiplied by six. Final answer is 216 cm².",
+      "explanation_method_hi": "Cube का TSA = 6a² = 6×6² = 216 cm²। अतः answer = 216 cm²।",
+      "explanation_concept_hi": "Cube में 6 equal square faces होते हैं। Total surface area = one face area × 6। Final answer 216 cm² है।"
+    },
+    {
+      "id": "mens-08",
+      "stem_en": "Find the total surface area of a cube of side 8 cm.",
+      "stem_hi": "Side 8 cm वाले cube का total surface area ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "mensuration",
+        "cube"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "512 cm³",
+          "text_hi": "512 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Found volume a³=512 instead of surface area.",
+          "trap_reason_hi": "Surface area की जगह volume a³=512 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "64 cm²",
+          "text_hi": "64 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area of one face only. A cube has 6 faces.",
+          "trap_reason_hi": "सिर्फ एक face का area निकाला। Cube में 6 faces होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "256 cm²",
+          "text_hi": "256 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Counted only 4 faces, missing top and bottom faces.",
+          "trap_reason_hi": "सिर्फ 4 faces गिने, top और bottom छोड़ दिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "384 cm²",
+          "text_hi": "384 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "TSA of cube = 6a² = 6×8² = 384 cm². Therefore, answer = 384 cm².",
+      "explanation_concept_en": "A cube has six equal square faces. Total surface area is the area of one face multiplied by six. Final answer is 384 cm².",
+      "explanation_method_hi": "Cube का TSA = 6a² = 6×8² = 384 cm²। अतः answer = 384 cm²।",
+      "explanation_concept_hi": "Cube में 6 equal square faces होते हैं। Total surface area = one face area × 6। Final answer 384 cm² है।"
+    },
+    {
+      "id": "mens-09",
+      "stem_en": "Find the total surface area of a cube of side 10 cm.",
+      "stem_hi": "Side 10 cm वाले cube का total surface area ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cube"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "600 cm²",
+          "text_hi": "600 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1000 cm³",
+          "text_hi": "1000 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Found volume a³=1000 instead of surface area.",
+          "trap_reason_hi": "Surface area की जगह volume a³=1000 निकाला।"
+        },
+        {
+          "label": "C",
+          "text_en": "100 cm²",
+          "text_hi": "100 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area of one face only. A cube has 6 faces.",
+          "trap_reason_hi": "सिर्फ एक face का area निकाला। Cube में 6 faces होते हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "400 cm²",
+          "text_hi": "400 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Counted only 4 faces, missing top and bottom faces.",
+          "trap_reason_hi": "सिर्फ 4 faces गिने, top और bottom छोड़ दिए।"
+        }
+      ],
+      "explanation_method_en": "TSA of cube = 6a² = 6×10² = 600 cm². Therefore, answer = 600 cm².",
+      "explanation_concept_en": "A cube has six equal square faces. Total surface area is the area of one face multiplied by six. Final answer is 600 cm².",
+      "explanation_method_hi": "Cube का TSA = 6a² = 6×10² = 600 cm²। अतः answer = 600 cm²।",
+      "explanation_concept_hi": "Cube में 6 equal square faces होते हैं। Total surface area = one face area × 6। Final answer 600 cm² है।"
+    },
+    {
+      "id": "mens-10",
+      "stem_en": "Find the total surface area of a cube of side 12 cm.",
+      "stem_hi": "Side 12 cm वाले cube का total surface area ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cube"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1728 cm³",
+          "text_hi": "1728 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Found volume a³=1728 instead of surface area.",
+          "trap_reason_hi": "Surface area की जगह volume a³=1728 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "864 cm²",
+          "text_hi": "864 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "144 cm²",
+          "text_hi": "144 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area of one face only. A cube has 6 faces.",
+          "trap_reason_hi": "सिर्फ एक face का area निकाला। Cube में 6 faces होते हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "576 cm²",
+          "text_hi": "576 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Counted only 4 faces, missing top and bottom faces.",
+          "trap_reason_hi": "सिर्फ 4 faces गिने, top और bottom छोड़ दिए।"
+        }
+      ],
+      "explanation_method_en": "TSA of cube = 6a² = 6×12² = 864 cm². Therefore, answer = 864 cm².",
+      "explanation_concept_en": "A cube has six equal square faces. Total surface area is the area of one face multiplied by six. Final answer is 864 cm².",
+      "explanation_method_hi": "Cube का TSA = 6a² = 6×12² = 864 cm²। अतः answer = 864 cm²।",
+      "explanation_concept_hi": "Cube में 6 equal square faces होते हैं। Total surface area = one face area × 6। Final answer 864 cm² है।"
+    },
+    {
+      "id": "mens-11",
+      "stem_en": "Find the total surface area of a cube of side 15 cm.",
+      "stem_hi": "Side 15 cm वाले cube का total surface area ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cube"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "3375 cm³",
+          "text_hi": "3375 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Found volume a³=3375 instead of surface area.",
+          "trap_reason_hi": "Surface area की जगह volume a³=3375 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "225 cm²",
+          "text_hi": "225 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area of one face only. A cube has 6 faces.",
+          "trap_reason_hi": "सिर्फ एक face का area निकाला। Cube में 6 faces होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "1350 cm²",
+          "text_hi": "1350 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "900 cm²",
+          "text_hi": "900 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Counted only 4 faces, missing top and bottom faces.",
+          "trap_reason_hi": "सिर्फ 4 faces गिने, top और bottom छोड़ दिए।"
+        }
+      ],
+      "explanation_method_en": "TSA of cube = 6a² = 6×15² = 1350 cm². Therefore, answer = 1350 cm².",
+      "explanation_concept_en": "A cube has six equal square faces. Total surface area is the area of one face multiplied by six. Final answer is 1350 cm².",
+      "explanation_method_hi": "Cube का TSA = 6a² = 6×15² = 1350 cm²। अतः answer = 1350 cm²।",
+      "explanation_concept_hi": "Cube में 6 equal square faces होते हैं। Total surface area = one face area × 6। Final answer 1350 cm² है।"
+    },
+    {
+      "id": "mens-12",
+      "stem_en": "Find the volume of a cylinder with radius 7 cm and height 10 cm. Use π = 22/7.",
+      "stem_hi": "Radius 7 cm और height 10 cm वाले cylinder का volume ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cylinder"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "440 cm²",
+          "text_hi": "440 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used curved surface area 2πrh instead of volume πr²h.",
+          "trap_reason_hi": "Volume πr²h की जगह curved surface area 2πrh निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "154 cm²",
+          "text_hi": "154 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found base area πr² and forgot to multiply by height 10.",
+          "trap_reason_hi": "Base area πr² निकाला, height 10 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "220 cm³",
+          "text_hi": "220 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Used πrh and missed one radius factor.",
+          "trap_reason_hi": "πrh लगाया और r का एक factor छोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "1540 cm³",
+          "text_hi": "1540 cm³",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Cylinder volume = πr²h = 22/7×7²×10 = 1540 cm³. Therefore, answer = 1540 cm³.",
+      "explanation_concept_en": "A cylinder stacks identical circular bases through its height. Volume equals base area multiplied by height. Final answer is 1540 cm³.",
+      "explanation_method_hi": "Cylinder volume = πr²h = 22/7×7²×10 = 1540 cm³। अतः answer = 1540 cm³।",
+      "explanation_concept_hi": "Cylinder में circular base height तक stack होता है। Volume = base area × height। Final answer 1540 cm³ है।"
+    },
+    {
+      "id": "mens-13",
+      "stem_en": "Find the volume of a cylinder with radius 14 cm and height 5 cm. Use π = 22/7.",
+      "stem_hi": "Radius 14 cm और height 5 cm वाले cylinder का volume ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cylinder"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "3080 cm³",
+          "text_hi": "3080 cm³",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "440 cm²",
+          "text_hi": "440 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used curved surface area 2πrh instead of volume πr²h.",
+          "trap_reason_hi": "Volume πr²h की जगह curved surface area 2πrh निकाला।"
+        },
+        {
+          "label": "C",
+          "text_en": "616 cm²",
+          "text_hi": "616 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found base area πr² and forgot to multiply by height 5.",
+          "trap_reason_hi": "Base area πr² निकाला, height 5 से multiply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "220 cm³",
+          "text_hi": "220 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Used πrh and missed one radius factor.",
+          "trap_reason_hi": "πrh लगाया और r का एक factor छोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "Cylinder volume = πr²h = 22/7×14²×5 = 3080 cm³. Therefore, answer = 3080 cm³.",
+      "explanation_concept_en": "A cylinder stacks identical circular bases through its height. Volume equals base area multiplied by height. Final answer is 3080 cm³.",
+      "explanation_method_hi": "Cylinder volume = πr²h = 22/7×14²×5 = 3080 cm³। अतः answer = 3080 cm³।",
+      "explanation_concept_hi": "Cylinder में circular base height तक stack होता है। Volume = base area × height। Final answer 3080 cm³ है।"
+    },
+    {
+      "id": "mens-14",
+      "stem_en": "Find the volume of a cylinder with radius 21 cm and height 8 cm. Use π = 22/7.",
+      "stem_hi": "Radius 21 cm और height 8 cm वाले cylinder का volume ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cylinder"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1056 cm²",
+          "text_hi": "1056 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used curved surface area 2πrh instead of volume πr²h.",
+          "trap_reason_hi": "Volume πr²h की जगह curved surface area 2πrh निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "11088 cm³",
+          "text_hi": "11088 cm³",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "1386 cm²",
+          "text_hi": "1386 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found base area πr² and forgot to multiply by height 8.",
+          "trap_reason_hi": "Base area πr² निकाला, height 8 से multiply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "528 cm³",
+          "text_hi": "528 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Used πrh and missed one radius factor.",
+          "trap_reason_hi": "πrh लगाया और r का एक factor छोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "Cylinder volume = πr²h = 22/7×21²×8 = 11088 cm³. Therefore, answer = 11088 cm³.",
+      "explanation_concept_en": "A cylinder stacks identical circular bases through its height. Volume equals base area multiplied by height. Final answer is 11088 cm³.",
+      "explanation_method_hi": "Cylinder volume = πr²h = 22/7×21²×8 = 11088 cm³। अतः answer = 11088 cm³।",
+      "explanation_concept_hi": "Cylinder में circular base height तक stack होता है। Volume = base area × height। Final answer 11088 cm³ है।"
+    },
+    {
+      "id": "mens-15",
+      "stem_en": "Find the volume of a cylinder with radius 28 cm and height 6 cm. Use π = 22/7.",
+      "stem_hi": "Radius 28 cm और height 6 cm वाले cylinder का volume ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cylinder"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1056 cm²",
+          "text_hi": "1056 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used curved surface area 2πrh instead of volume πr²h.",
+          "trap_reason_hi": "Volume πr²h की जगह curved surface area 2πrh निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "2464 cm²",
+          "text_hi": "2464 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found base area πr² and forgot to multiply by height 6.",
+          "trap_reason_hi": "Base area πr² निकाला, height 6 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "14784 cm³",
+          "text_hi": "14784 cm³",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "528 cm³",
+          "text_hi": "528 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Used πrh and missed one radius factor.",
+          "trap_reason_hi": "πrh लगाया और r का एक factor छोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "Cylinder volume = πr²h = 22/7×28²×6 = 14784 cm³. Therefore, answer = 14784 cm³.",
+      "explanation_concept_en": "A cylinder stacks identical circular bases through its height. Volume equals base area multiplied by height. Final answer is 14784 cm³.",
+      "explanation_method_hi": "Cylinder volume = πr²h = 22/7×28²×6 = 14784 cm³। अतः answer = 14784 cm³।",
+      "explanation_concept_hi": "Cylinder में circular base height तक stack होता है। Volume = base area × height। Final answer 14784 cm³ है।"
+    },
+    {
+      "id": "mens-16",
+      "stem_en": "Find the volume of a cylinder with radius 35 cm and height 4 cm. Use π = 22/7.",
+      "stem_hi": "Radius 35 cm और height 4 cm वाले cylinder का volume ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "mensuration",
+        "cylinder"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "880 cm²",
+          "text_hi": "880 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used curved surface area 2πrh instead of volume πr²h.",
+          "trap_reason_hi": "Volume πr²h की जगह curved surface area 2πrh निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "3850 cm²",
+          "text_hi": "3850 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found base area πr² and forgot to multiply by height 4.",
+          "trap_reason_hi": "Base area πr² निकाला, height 4 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "440 cm³",
+          "text_hi": "440 cm³",
+          "is_correct": false,
+          "trap_reason_en": "Used πrh and missed one radius factor.",
+          "trap_reason_hi": "πrh लगाया और r का एक factor छोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "15400 cm³",
+          "text_hi": "15400 cm³",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Cylinder volume = πr²h = 22/7×35²×4 = 15400 cm³. Therefore, answer = 15400 cm³.",
+      "explanation_concept_en": "A cylinder stacks identical circular bases through its height. Volume equals base area multiplied by height. Final answer is 15400 cm³.",
+      "explanation_method_hi": "Cylinder volume = πr²h = 22/7×35²×4 = 15400 cm³। अतः answer = 15400 cm³।",
+      "explanation_concept_hi": "Cylinder में circular base height तक stack होता है। Volume = base area × height। Final answer 15400 cm³ है।"
+    },
+    {
+      "id": "mens-17",
+      "stem_en": "Find the area of a triangle with base 12 m and height 8 m.",
+      "stem_hi": "Base 12 m और height 8 m वाले triangle का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "triangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "48 m²",
+          "text_hi": "48 m²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "96 m²",
+          "text_hi": "96 m²",
+          "is_correct": false,
+          "trap_reason_en": "Used rectangle area bh and missed the 1/2 factor for a triangle.",
+          "trap_reason_hi": "Rectangle area bh लगा दिया; triangle में 1/2 factor होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "20 m²",
+          "text_hi": "20 m²",
+          "is_correct": false,
+          "trap_reason_en": "Added base and height instead of multiplying and halving.",
+          "trap_reason_hi": "Base और height add कर दिए, multiply करके half नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "10 m²",
+          "text_hi": "10 m²",
+          "is_correct": false,
+          "trap_reason_en": "Averaged base and height. Area is not average of dimensions.",
+          "trap_reason_hi": "Base और height का average ले लिया। Area dimensions का average नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Triangle area = 1/2 × base × height = 1/2×12×8 = 48 m². Therefore, answer = 48 m².",
+      "explanation_concept_en": "A triangle with the same base and height occupies exactly half of the corresponding rectangle. Final answer is 48 m².",
+      "explanation_method_hi": "Triangle area = 1/2 × base × height = 1/2×12×8 = 48 m²। अतः answer = 48 m²।",
+      "explanation_concept_hi": "Same base और height वाला triangle corresponding rectangle का आधा area लेता है। Final answer 48 m² है।"
+    },
+    {
+      "id": "mens-18",
+      "stem_en": "Find the area of a triangle with base 15 m and height 10 m.",
+      "stem_hi": "Base 15 m और height 10 m वाले triangle का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "triangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "150 m²",
+          "text_hi": "150 m²",
+          "is_correct": false,
+          "trap_reason_en": "Used rectangle area bh and missed the 1/2 factor for a triangle.",
+          "trap_reason_hi": "Rectangle area bh लगा दिया; triangle में 1/2 factor होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "75 m²",
+          "text_hi": "75 m²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "25 m²",
+          "text_hi": "25 m²",
+          "is_correct": false,
+          "trap_reason_en": "Added base and height instead of multiplying and halving.",
+          "trap_reason_hi": "Base और height add कर दिए, multiply करके half नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "12.5 m²",
+          "text_hi": "12.5 m²",
+          "is_correct": false,
+          "trap_reason_en": "Averaged base and height. Area is not average of dimensions.",
+          "trap_reason_hi": "Base और height का average ले लिया। Area dimensions का average नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Triangle area = 1/2 × base × height = 1/2×15×10 = 75 m². Therefore, answer = 75 m².",
+      "explanation_concept_en": "A triangle with the same base and height occupies exactly half of the corresponding rectangle. Final answer is 75 m².",
+      "explanation_method_hi": "Triangle area = 1/2 × base × height = 1/2×15×10 = 75 m²। अतः answer = 75 m²।",
+      "explanation_concept_hi": "Same base और height वाला triangle corresponding rectangle का आधा area लेता है। Final answer 75 m² है।"
+    },
+    {
+      "id": "mens-19",
+      "stem_en": "Find the area of a triangle with base 20 m and height 14 m.",
+      "stem_hi": "Base 20 m और height 14 m वाले triangle का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "triangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "280 m²",
+          "text_hi": "280 m²",
+          "is_correct": false,
+          "trap_reason_en": "Used rectangle area bh and missed the 1/2 factor for a triangle.",
+          "trap_reason_hi": "Rectangle area bh लगा दिया; triangle में 1/2 factor होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "34 m²",
+          "text_hi": "34 m²",
+          "is_correct": false,
+          "trap_reason_en": "Added base and height instead of multiplying and halving.",
+          "trap_reason_hi": "Base और height add कर दिए, multiply करके half नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "140 m²",
+          "text_hi": "140 m²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "17 m²",
+          "text_hi": "17 m²",
+          "is_correct": false,
+          "trap_reason_en": "Averaged base and height. Area is not average of dimensions.",
+          "trap_reason_hi": "Base और height का average ले लिया। Area dimensions का average नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Triangle area = 1/2 × base × height = 1/2×20×14 = 140 m². Therefore, answer = 140 m².",
+      "explanation_concept_en": "A triangle with the same base and height occupies exactly half of the corresponding rectangle. Final answer is 140 m².",
+      "explanation_method_hi": "Triangle area = 1/2 × base × height = 1/2×20×14 = 140 m²। अतः answer = 140 m²।",
+      "explanation_concept_hi": "Same base और height वाला triangle corresponding rectangle का आधा area लेता है। Final answer 140 m² है।"
+    },
+    {
+      "id": "mens-20",
+      "stem_en": "Find the area of a triangle with base 18 m and height 16 m.",
+      "stem_hi": "Base 18 m और height 16 m वाले triangle का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "triangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "288 m²",
+          "text_hi": "288 m²",
+          "is_correct": false,
+          "trap_reason_en": "Used rectangle area bh and missed the 1/2 factor for a triangle.",
+          "trap_reason_hi": "Rectangle area bh लगा दिया; triangle में 1/2 factor होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "34 m²",
+          "text_hi": "34 m²",
+          "is_correct": false,
+          "trap_reason_en": "Added base and height instead of multiplying and halving.",
+          "trap_reason_hi": "Base और height add कर दिए, multiply करके half नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "17 m²",
+          "text_hi": "17 m²",
+          "is_correct": false,
+          "trap_reason_en": "Averaged base and height. Area is not average of dimensions.",
+          "trap_reason_hi": "Base और height का average ले लिया। Area dimensions का average नहीं है।"
+        },
+        {
+          "label": "D",
+          "text_en": "144 m²",
+          "text_hi": "144 m²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Triangle area = 1/2 × base × height = 1/2×18×16 = 144 m². Therefore, answer = 144 m².",
+      "explanation_concept_en": "A triangle with the same base and height occupies exactly half of the corresponding rectangle. Final answer is 144 m².",
+      "explanation_method_hi": "Triangle area = 1/2 × base × height = 1/2×18×16 = 144 m²। अतः answer = 144 m²।",
+      "explanation_concept_hi": "Same base और height वाला triangle corresponding rectangle का आधा area लेता है। Final answer 144 m² है।"
+    },
+    {
+      "id": "mens-21",
+      "stem_en": "Find the area of a triangle with base 24 m and height 9 m.",
+      "stem_hi": "Base 24 m और height 9 m वाले triangle का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "triangle-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "108 m²",
+          "text_hi": "108 m²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "216 m²",
+          "text_hi": "216 m²",
+          "is_correct": false,
+          "trap_reason_en": "Used rectangle area bh and missed the 1/2 factor for a triangle.",
+          "trap_reason_hi": "Rectangle area bh लगा दिया; triangle में 1/2 factor होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "33 m²",
+          "text_hi": "33 m²",
+          "is_correct": false,
+          "trap_reason_en": "Added base and height instead of multiplying and halving.",
+          "trap_reason_hi": "Base और height add कर दिए, multiply करके half नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "16.5 m²",
+          "text_hi": "16.5 m²",
+          "is_correct": false,
+          "trap_reason_en": "Averaged base and height. Area is not average of dimensions.",
+          "trap_reason_hi": "Base और height का average ले लिया। Area dimensions का average नहीं है।"
+        }
+      ],
+      "explanation_method_en": "Triangle area = 1/2 × base × height = 1/2×24×9 = 108 m². Therefore, answer = 108 m².",
+      "explanation_concept_en": "A triangle with the same base and height occupies exactly half of the corresponding rectangle. Final answer is 108 m².",
+      "explanation_method_hi": "Triangle area = 1/2 × base × height = 1/2×24×9 = 108 m²। अतः answer = 108 m²।",
+      "explanation_concept_hi": "Same base और height वाला triangle corresponding rectangle का आधा area लेता है। Final answer 108 m² है।"
+    },
+    {
+      "id": "mens-22",
+      "stem_en": "Find the area of a square of side 9 cm.",
+      "stem_hi": "Side 9 cm वाले square का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "square-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "36 cm",
+          "text_hi": "36 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 4a=36 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 4a=36 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "81 cm²",
+          "text_hi": "81 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "18 cm²",
+          "text_hi": "18 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the side instead of squaring it.",
+          "trap_reason_hi": "Side को square करने की जगह double कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "36 cm²",
+          "text_hi": "36 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used the perimeter number 4a=36 but wrote square units. Area uses side × side.",
+          "trap_reason_hi": "Perimeter number 4a=36 लिया और square units लिख दिए। Area side × side होता है।"
+        }
+      ],
+      "explanation_method_en": "Square area = side² = 9² = 81 cm². Therefore, answer = 81 cm².",
+      "explanation_concept_en": "A square has equal length and breadth, so its area is side multiplied by itself. Final answer is 81 cm².",
+      "explanation_method_hi": "Square area = side² = 9² = 81 cm²। अतः answer = 81 cm²।",
+      "explanation_concept_hi": "Square में length और breadth equal होते हैं, इसलिए area side × side है। Final answer 81 cm² है।"
+    },
+    {
+      "id": "mens-23",
+      "stem_en": "Find the area of a square of side 11 cm.",
+      "stem_hi": "Side 11 cm वाले square का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "square-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "44 cm",
+          "text_hi": "44 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 4a=44 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 4a=44 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "22 cm²",
+          "text_hi": "22 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the side instead of squaring it.",
+          "trap_reason_hi": "Side को square करने की जगह double कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "121 cm²",
+          "text_hi": "121 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "44 cm²",
+          "text_hi": "44 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used the perimeter number 4a=44 but wrote square units. Area uses side × side.",
+          "trap_reason_hi": "Perimeter number 4a=44 लिया और square units लिख दिए। Area side × side होता है।"
+        }
+      ],
+      "explanation_method_en": "Square area = side² = 11² = 121 cm². Therefore, answer = 121 cm².",
+      "explanation_concept_en": "A square has equal length and breadth, so its area is side multiplied by itself. Final answer is 121 cm².",
+      "explanation_method_hi": "Square area = side² = 11² = 121 cm²। अतः answer = 121 cm²।",
+      "explanation_concept_hi": "Square में length और breadth equal होते हैं, इसलिए area side × side है। Final answer 121 cm² है।"
+    },
+    {
+      "id": "mens-24",
+      "stem_en": "Find the area of a square of side 13 cm.",
+      "stem_hi": "Side 13 cm वाले square का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "square-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "52 cm",
+          "text_hi": "52 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 4a=52 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 4a=52 निकाला।"
+        },
+        {
+          "label": "B",
+          "text_en": "26 cm²",
+          "text_hi": "26 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the side instead of squaring it.",
+          "trap_reason_hi": "Side को square करने की जगह double कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "52 cm²",
+          "text_hi": "52 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used the perimeter number 4a=52 but wrote square units. Area uses side × side.",
+          "trap_reason_hi": "Perimeter number 4a=52 लिया और square units लिख दिए। Area side × side होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "169 cm²",
+          "text_hi": "169 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Square area = side² = 13² = 169 cm². Therefore, answer = 169 cm².",
+      "explanation_concept_en": "A square has equal length and breadth, so its area is side multiplied by itself. Final answer is 169 cm².",
+      "explanation_method_hi": "Square area = side² = 13² = 169 cm²। अतः answer = 169 cm²।",
+      "explanation_concept_hi": "Square में length और breadth equal होते हैं, इसलिए area side × side है। Final answer 169 cm² है।"
+    },
+    {
+      "id": "mens-25",
+      "stem_en": "Find the area of a square of side 16 cm.",
+      "stem_hi": "Side 16 cm वाले square का area ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "mensuration",
+        "square-area"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "256 cm²",
+          "text_hi": "256 cm²",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "64 cm",
+          "text_hi": "64 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found perimeter 4a=64 instead of area.",
+          "trap_reason_hi": "Area की जगह perimeter 4a=64 निकाला।"
+        },
+        {
+          "label": "C",
+          "text_en": "32 cm²",
+          "text_hi": "32 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the side instead of squaring it.",
+          "trap_reason_hi": "Side को square करने की जगह double कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "64 cm²",
+          "text_hi": "64 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Used the perimeter number 4a=64 but wrote square units. Area uses side × side.",
+          "trap_reason_hi": "Perimeter number 4a=64 लिया और square units लिख दिए। Area side × side होता है।"
+        }
+      ],
+      "explanation_method_en": "Square area = side² = 16² = 256 cm². Therefore, answer = 256 cm².",
+      "explanation_concept_en": "A square has equal length and breadth, so its area is side multiplied by itself. Final answer is 256 cm².",
+      "explanation_method_hi": "Square area = side² = 16² = 256 cm²। अतः answer = 256 cm²।",
+      "explanation_concept_hi": "Square में length और breadth equal होते हैं, इसलिए area side × side है। Final answer 256 cm² है।"
+    }
+  ]
+}

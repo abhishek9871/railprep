@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Simplification. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-simplification-01",
+  "title_en": "Simplification — Sectional",
+  "title_hi": "Simplification — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Simplification",
+    "title_hi": "Simplification",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "simp-01",
+      "stem_en": "Simplify: 18 ÷ 6 + 4 × 7.",
+      "stem_hi": "Simplify कीजिए: 18 ÷ 6 + 4 × 7.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "31",
+          "text_hi": "31",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "49",
+          "text_hi": "49",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (18÷6+4)×7 = 49. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (18÷6+4)×7 = 49। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "C",
+          "text_en": "12.6",
+          "text_hi": "12.6",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 6+4. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 6+4 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "14",
+          "text_hi": "14",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 4×7 into addition 4+7.",
+          "trap_reason_hi": "Multiplication 4×7 को addition 4+7 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 18÷6=3, 4×7=28. Add: 3+28=31. Therefore, answer = 31.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 31.",
+      "explanation_method_hi": "पहले divide और multiply: 18÷6=3, 4×7=28। Add करें: 3+28=31। अतः answer = 31।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 31 है।"
+    },
+    {
+      "id": "simp-02",
+      "stem_en": "Simplify: 25 ÷ 5 + 9 × 11.",
+      "stem_hi": "Simplify कीजिए: 25 ÷ 5 + 9 × 11.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "154",
+          "text_hi": "154",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (25÷5+9)×11 = 154. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (25÷5+9)×11 = 154। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "104",
+          "text_hi": "104",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "19.642857142857142",
+          "text_hi": "19.642857142857142",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 5+9. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 5+9 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "25",
+          "text_hi": "25",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 9×11 into addition 9+11.",
+          "trap_reason_hi": "Multiplication 9×11 को addition 9+11 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 25÷5=5, 9×11=99. Add: 5+99=104. Therefore, answer = 104.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 104.",
+      "explanation_method_hi": "पहले divide और multiply: 25÷5=5, 9×11=99। Add करें: 5+99=104। अतः answer = 104।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 104 है।"
+    },
+    {
+      "id": "simp-03",
+      "stem_en": "Simplify: 42 ÷ 7 + 8 × 13.",
+      "stem_hi": "Simplify कीजिए: 42 ÷ 7 + 8 × 13.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "182",
+          "text_hi": "182",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (42÷7+8)×13 = 182. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (42÷7+8)×13 = 182। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "36.4",
+          "text_hi": "36.4",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 7+8. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 7+8 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "110",
+          "text_hi": "110",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "27",
+          "text_hi": "27",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 8×13 into addition 8+13.",
+          "trap_reason_hi": "Multiplication 8×13 को addition 8+13 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 42÷7=6, 8×13=104. Add: 6+104=110. Therefore, answer = 110.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 110.",
+      "explanation_method_hi": "पहले divide और multiply: 42÷7=6, 8×13=104। Add करें: 6+104=110। अतः answer = 110।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 110 है।"
+    },
+    {
+      "id": "simp-04",
+      "stem_en": "Simplify: 64 ÷ 8 + 6 × 15.",
+      "stem_hi": "Simplify कीजिए: 64 ÷ 8 + 6 × 15.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "210",
+          "text_hi": "210",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (64÷8+6)×15 = 210. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (64÷8+6)×15 = 210। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "68.57142857142857",
+          "text_hi": "68.57142857142857",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 8+6. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 8+6 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "29",
+          "text_hi": "29",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 6×15 into addition 6+15.",
+          "trap_reason_hi": "Multiplication 6×15 को addition 6+15 बना दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "98",
+          "text_hi": "98",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 64÷8=8, 6×15=90. Add: 8+90=98. Therefore, answer = 98.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 98.",
+      "explanation_method_hi": "पहले divide और multiply: 64÷8=8, 6×15=90। Add करें: 8+90=98। अतः answer = 98।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 98 है।"
+    },
+    {
+      "id": "simp-05",
+      "stem_en": "Simplify: 81 ÷ 9 + 5 × 22.",
+      "stem_hi": "Simplify कीजिए: 81 ÷ 9 + 5 × 22.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "119",
+          "text_hi": "119",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "308",
+          "text_hi": "308",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (81÷9+5)×22 = 308. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (81÷9+5)×22 = 308। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "C",
+          "text_en": "127.28571428571428",
+          "text_hi": "127.28571428571428",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 9+5. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 9+5 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "36",
+          "text_hi": "36",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 5×22 into addition 5+22.",
+          "trap_reason_hi": "Multiplication 5×22 को addition 5+22 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 81÷9=9, 5×22=110. Add: 9+110=119. Therefore, answer = 119.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 119.",
+      "explanation_method_hi": "पहले divide और multiply: 81÷9=9, 5×22=110। Add करें: 9+110=119। अतः answer = 119।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 119 है।"
+    },
+    {
+      "id": "simp-06",
+      "stem_en": "Simplify: 120 ÷ 4 + 6 × 18.",
+      "stem_hi": "Simplify कीजिए: 120 ÷ 4 + 6 × 18.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "648",
+          "text_hi": "648",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (120÷4+6)×18 = 648. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (120÷4+6)×18 = 648। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "138",
+          "text_hi": "138",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "216",
+          "text_hi": "216",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 4+6. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 4+6 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "54",
+          "text_hi": "54",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 6×18 into addition 6+18.",
+          "trap_reason_hi": "Multiplication 6×18 को addition 6+18 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 120÷4=30, 6×18=108. Add: 30+108=138. Therefore, answer = 138.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 138.",
+      "explanation_method_hi": "पहले divide और multiply: 120÷4=30, 6×18=108। Add करें: 30+108=138। अतः answer = 138।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 138 है।"
+    },
+    {
+      "id": "simp-07",
+      "stem_en": "Simplify: 144 ÷ 12 + 7 × 31.",
+      "stem_hi": "Simplify कीजिए: 144 ÷ 12 + 7 × 31.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "589",
+          "text_hi": "589",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (144÷12+7)×31 = 589. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (144÷12+7)×31 = 589। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "234.94736842105263",
+          "text_hi": "234.94736842105263",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 12+7. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 12+7 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "229",
+          "text_hi": "229",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "50",
+          "text_hi": "50",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 7×31 into addition 7+31.",
+          "trap_reason_hi": "Multiplication 7×31 को addition 7+31 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 144÷12=12, 7×31=217. Add: 12+217=229. Therefore, answer = 229.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 229.",
+      "explanation_method_hi": "पहले divide और multiply: 144÷12=12, 7×31=217। Add करें: 12+217=229। अतः answer = 229।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 229 है।"
+    },
+    {
+      "id": "simp-08",
+      "stem_en": "Simplify: 96 ÷ 6 + 5 × 40.",
+      "stem_hi": "Simplify कीजिए: 96 ÷ 6 + 5 × 40.",
+      "difficulty": "EASY",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "840",
+          "text_hi": "840",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (96÷6+5)×40 = 840. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (96÷6+5)×40 = 840। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "349.09090909090907",
+          "text_hi": "349.09090909090907",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 6+5. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 6+5 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 5×40 into addition 5+40.",
+          "trap_reason_hi": "Multiplication 5×40 को addition 5+40 बना दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "216",
+          "text_hi": "216",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 96÷6=16, 5×40=200. Add: 16+200=216. Therefore, answer = 216.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 216.",
+      "explanation_method_hi": "पहले divide और multiply: 96÷6=16, 5×40=200। Add करें: 16+200=216। अतः answer = 216।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 216 है।"
+    },
+    {
+      "id": "simp-09",
+      "stem_en": "Simplify: 75 ÷ 3 + 8 × 50.",
+      "stem_hi": "Simplify कीजिए: 75 ÷ 3 + 8 × 50.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "425",
+          "text_hi": "425",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1650",
+          "text_hi": "1650",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (75÷3+8)×50 = 1650. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (75÷3+8)×50 = 1650। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "C",
+          "text_en": "340.90909090909093",
+          "text_hi": "340.90909090909093",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 3+8. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 3+8 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "83",
+          "text_hi": "83",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 8×50 into addition 8+50.",
+          "trap_reason_hi": "Multiplication 8×50 को addition 8+50 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 75÷3=25, 8×50=400. Add: 25+400=425. Therefore, answer = 425.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 425.",
+      "explanation_method_hi": "पहले divide और multiply: 75÷3=25, 8×50=400। Add करें: 25+400=425। अतः answer = 425।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 425 है।"
+    },
+    {
+      "id": "simp-10",
+      "stem_en": "Simplify: 110 ÷ 5 + 4 × 29.",
+      "stem_hi": "Simplify कीजिए: 110 ÷ 5 + 4 × 29.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "bodmas"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "754",
+          "text_hi": "754",
+          "is_correct": false,
+          "trap_reason_en": "Did addition before multiplication: (110÷5+4)×29 = 754. BODMAS requires multiplication before addition.",
+          "trap_reason_hi": "Multiplication से पहले addition किया: (110÷5+4)×29 = 754। BODMAS में multiplication पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "138",
+          "text_hi": "138",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "354.4444444444444",
+          "text_hi": "354.4444444444444",
+          "is_correct": false,
+          "trap_reason_en": "Grouped denominator wrongly as 5+4. The expression has separate division and multiplication operations.",
+          "trap_reason_hi": "Denominator को 5+4 group कर दिया। Expression में division और multiplication अलग operations हैं।"
+        },
+        {
+          "label": "D",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication 4×29 into addition 4+29.",
+          "trap_reason_hi": "Multiplication 4×29 को addition 4+29 बना दिया।"
+        }
+      ],
+      "explanation_method_en": "First divide and multiply: 110÷5=22, 4×29=116. Add: 22+116=138. Therefore, answer = 138.",
+      "explanation_concept_en": "BODMAS fixes operation order. Division and multiplication are handled before addition, moving left-to-right among same-priority operations. Final answer is 138.",
+      "explanation_method_hi": "पहले divide और multiply: 110÷5=22, 4×29=116। Add करें: 22+116=138। अतः answer = 138।",
+      "explanation_concept_hi": "BODMAS operation order तय करता है। Division और multiplication addition से पहले होते हैं। Final answer 138 है।"
+    },
+    {
+      "id": "simp-11",
+      "stem_en": "Simplify: 2/5 of 150 + 18.",
+      "stem_hi": "Simplify करें: 150 का 2/5 + 18.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "fractions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Found 2/5 of 150 = 60 but forgot to add 18.",
+          "trap_reason_hi": "150 का 2/5 = 60 निकाला, पर 18 add नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "48",
+          "text_hi": "48",
+          "is_correct": false,
+          "trap_reason_en": "Used only 1/5 of 150, missing multiplication by numerator 2.",
+          "trap_reason_hi": "सिर्फ 1/5 of 150 लिया, numerator 2 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "78",
+          "text_hi": "78",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "67.2",
+          "text_hi": "67.2",
+          "is_correct": false,
+          "trap_reason_en": "Applied the fraction to 150+18. The '+ 18' is outside the 'of' part.",
+          "trap_reason_hi": "Fraction को 150+18 पर लगा दिया। '+ 18' 'of' part के बाहर है।"
+        }
+      ],
+      "explanation_method_en": "2/5 of 150 = 150 ÷ 5 × 2 = 60. Then 60+18=78. Therefore, answer = 78.",
+      "explanation_concept_en": "'Of' means multiplication. Compute the fraction of the given number first, then apply the outside addition. Final answer is 78.",
+      "explanation_method_hi": "150 का 2/5 = 150 ÷ 5 × 2 = 60। फिर 60+18=78। अतः answer = 78।",
+      "explanation_concept_hi": "'of' का मतलब multiplication है। पहले fraction of number निकालें, फिर बाहर वाला addition करें। Final answer 78 है।"
+    },
+    {
+      "id": "simp-12",
+      "stem_en": "Simplify: 3/8 of 240 + 15.",
+      "stem_hi": "Simplify करें: 240 का 3/8 + 15.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "fractions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "90",
+          "text_hi": "90",
+          "is_correct": false,
+          "trap_reason_en": "Found 3/8 of 240 = 90 but forgot to add 15.",
+          "trap_reason_hi": "240 का 3/8 = 90 निकाला, पर 15 add नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "45",
+          "text_hi": "45",
+          "is_correct": false,
+          "trap_reason_en": "Used only 1/8 of 240, missing multiplication by numerator 3.",
+          "trap_reason_hi": "सिर्फ 1/8 of 240 लिया, numerator 3 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "95.625",
+          "text_hi": "95.625",
+          "is_correct": false,
+          "trap_reason_en": "Applied the fraction to 240+15. The '+ 15' is outside the 'of' part.",
+          "trap_reason_hi": "Fraction को 240+15 पर लगा दिया। '+ 15' 'of' part के बाहर है।"
+        },
+        {
+          "label": "D",
+          "text_en": "105",
+          "text_hi": "105",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "3/8 of 240 = 240 ÷ 8 × 3 = 90. Then 90+15=105. Therefore, answer = 105.",
+      "explanation_concept_en": "'Of' means multiplication. Compute the fraction of the given number first, then apply the outside addition. Final answer is 105.",
+      "explanation_method_hi": "240 का 3/8 = 240 ÷ 8 × 3 = 90। फिर 90+15=105। अतः answer = 105।",
+      "explanation_concept_hi": "'of' का मतलब multiplication है। पहले fraction of number निकालें, फिर बाहर वाला addition करें। Final answer 105 है।"
+    },
+    {
+      "id": "simp-13",
+      "stem_en": "Simplify: 5/6 of 180 + 25.",
+      "stem_hi": "Simplify करें: 180 का 5/6 + 25.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "fractions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "175",
+          "text_hi": "175",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Found 5/6 of 180 = 150 but forgot to add 25.",
+          "trap_reason_hi": "180 का 5/6 = 150 निकाला, पर 25 add नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Used only 1/6 of 180, missing multiplication by numerator 5.",
+          "trap_reason_hi": "सिर्फ 1/6 of 180 लिया, numerator 5 से multiply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "170.83333333333334",
+          "text_hi": "170.83333333333334",
+          "is_correct": false,
+          "trap_reason_en": "Applied the fraction to 180+25. The '+ 25' is outside the 'of' part.",
+          "trap_reason_hi": "Fraction को 180+25 पर लगा दिया। '+ 25' 'of' part के बाहर है।"
+        }
+      ],
+      "explanation_method_en": "5/6 of 180 = 180 ÷ 6 × 5 = 150. Then 150+25=175. Therefore, answer = 175.",
+      "explanation_concept_en": "'Of' means multiplication. Compute the fraction of the given number first, then apply the outside addition. Final answer is 175.",
+      "explanation_method_hi": "180 का 5/6 = 180 ÷ 6 × 5 = 150। फिर 150+25=175। अतः answer = 175।",
+      "explanation_concept_hi": "'of' का मतलब multiplication है। पहले fraction of number निकालें, फिर बाहर वाला addition करें। Final answer 175 है।"
+    },
+    {
+      "id": "simp-14",
+      "stem_en": "Simplify: 7/10 of 350 + 12.",
+      "stem_hi": "Simplify करें: 350 का 7/10 + 12.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "fractions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "245",
+          "text_hi": "245",
+          "is_correct": false,
+          "trap_reason_en": "Found 7/10 of 350 = 245 but forgot to add 12.",
+          "trap_reason_hi": "350 का 7/10 = 245 निकाला, पर 12 add नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "257",
+          "text_hi": "257",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "47",
+          "text_hi": "47",
+          "is_correct": false,
+          "trap_reason_en": "Used only 1/10 of 350, missing multiplication by numerator 7.",
+          "trap_reason_hi": "सिर्फ 1/10 of 350 लिया, numerator 7 से multiply नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "253.39999999999998",
+          "text_hi": "253.39999999999998",
+          "is_correct": false,
+          "trap_reason_en": "Applied the fraction to 350+12. The '+ 12' is outside the 'of' part.",
+          "trap_reason_hi": "Fraction को 350+12 पर लगा दिया। '+ 12' 'of' part के बाहर है।"
+        }
+      ],
+      "explanation_method_en": "7/10 of 350 = 350 ÷ 10 × 7 = 245. Then 245+12=257. Therefore, answer = 257.",
+      "explanation_concept_en": "'Of' means multiplication. Compute the fraction of the given number first, then apply the outside addition. Final answer is 257.",
+      "explanation_method_hi": "350 का 7/10 = 350 ÷ 10 × 7 = 245। फिर 245+12=257। अतः answer = 257।",
+      "explanation_concept_hi": "'of' का मतलब multiplication है। पहले fraction of number निकालें, फिर बाहर वाला addition करें। Final answer 257 है।"
+    },
+    {
+      "id": "simp-15",
+      "stem_en": "Simplify: 4/9 of 270 + 30.",
+      "stem_hi": "Simplify करें: 270 का 4/9 + 30.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "fractions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Found 4/9 of 270 = 120 but forgot to add 30.",
+          "trap_reason_hi": "270 का 4/9 = 120 निकाला, पर 30 add नहीं किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": false,
+          "trap_reason_en": "Used only 1/9 of 270, missing multiplication by numerator 4.",
+          "trap_reason_hi": "सिर्फ 1/9 of 270 लिया, numerator 4 से multiply नहीं किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "133.33333333333331",
+          "text_hi": "133.33333333333331",
+          "is_correct": false,
+          "trap_reason_en": "Applied the fraction to 270+30. The '+ 30' is outside the 'of' part.",
+          "trap_reason_hi": "Fraction को 270+30 पर लगा दिया। '+ 30' 'of' part के बाहर है।"
+        }
+      ],
+      "explanation_method_en": "4/9 of 270 = 270 ÷ 9 × 4 = 120. Then 120+30=150. Therefore, answer = 150.",
+      "explanation_concept_en": "'Of' means multiplication. Compute the fraction of the given number first, then apply the outside addition. Final answer is 150.",
+      "explanation_method_hi": "270 का 4/9 = 270 ÷ 9 × 4 = 120। फिर 120+30=150। अतः answer = 150।",
+      "explanation_concept_hi": "'of' का मतलब multiplication है। पहले fraction of number निकालें, फिर बाहर वाला addition करें। Final answer 150 है।"
+    },
+    {
+      "id": "simp-16",
+      "stem_en": "Simplify: 1.5 × 24 - 6.",
+      "stem_hi": "Simplify करें: 1.5 × 24 - 6.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "decimals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "27",
+          "text_hi": "27",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted first: 24-6, then multiplied by 1.5. Multiplication must be completed before subtraction.",
+          "trap_reason_hi": "पहले 24-6 घटाया, फिर 1.5 से multiply किया। Multiplication subtraction से पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "19.5",
+          "text_hi": "19.5",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication into addition: 1.5+24-6.",
+          "trap_reason_hi": "Multiplication को addition बना दिया: 1.5+24-6।"
+        },
+        {
+          "label": "C",
+          "text_en": "42",
+          "text_hi": "42",
+          "is_correct": false,
+          "trap_reason_en": "Added 6 instead of subtracting it after multiplication.",
+          "trap_reason_hi": "Multiplication के बाद 6 घटाने की जगह जोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "30",
+          "text_hi": "30",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "1.5×24=36. Now subtract 6: 36-6=30. Therefore, answer = 30.",
+      "explanation_concept_en": "Decimal multiplication follows the same operation order as integer arithmetic; only place value changes the product format. Final answer is 30.",
+      "explanation_method_hi": "1.5×24=36। अब 6 घटाएँ: 36-6=30। अतः answer = 30।",
+      "explanation_concept_hi": "Decimal multiplication में भी integer arithmetic जैसा operation order रहता है; बस place value product format बदलता है। Final answer 30 है।"
+    },
+    {
+      "id": "simp-17",
+      "stem_en": "Simplify: 2.25 × 40 - 10.",
+      "stem_hi": "Simplify करें: 2.25 × 40 - 10.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "decimals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "80",
+          "text_hi": "80",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "67.5",
+          "text_hi": "67.5",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted first: 40-10, then multiplied by 2.25. Multiplication must be completed before subtraction.",
+          "trap_reason_hi": "पहले 40-10 घटाया, फिर 2.25 से multiply किया। Multiplication subtraction से पहले है।"
+        },
+        {
+          "label": "C",
+          "text_en": "32.25",
+          "text_hi": "32.25",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication into addition: 2.25+40-10.",
+          "trap_reason_hi": "Multiplication को addition बना दिया: 2.25+40-10।"
+        },
+        {
+          "label": "D",
+          "text_en": "100",
+          "text_hi": "100",
+          "is_correct": false,
+          "trap_reason_en": "Added 10 instead of subtracting it after multiplication.",
+          "trap_reason_hi": "Multiplication के बाद 10 घटाने की जगह जोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "2.25×40=90. Now subtract 10: 90-10=80. Therefore, answer = 80.",
+      "explanation_concept_en": "Decimal multiplication follows the same operation order as integer arithmetic; only place value changes the product format. Final answer is 80.",
+      "explanation_method_hi": "2.25×40=90। अब 10 घटाएँ: 90-10=80। अतः answer = 80।",
+      "explanation_concept_hi": "Decimal multiplication में भी integer arithmetic जैसा operation order रहता है; बस place value product format बदलता है। Final answer 80 है।"
+    },
+    {
+      "id": "simp-18",
+      "stem_en": "Simplify: 3.5 × 18 - 12.",
+      "stem_hi": "Simplify करें: 3.5 × 18 - 12.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "decimals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "21",
+          "text_hi": "21",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted first: 18-12, then multiplied by 3.5. Multiplication must be completed before subtraction.",
+          "trap_reason_hi": "पहले 18-12 घटाया, फिर 3.5 से multiply किया। Multiplication subtraction से पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "9.5",
+          "text_hi": "9.5",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication into addition: 3.5+18-12.",
+          "trap_reason_hi": "Multiplication को addition बना दिया: 3.5+18-12।"
+        },
+        {
+          "label": "D",
+          "text_en": "75",
+          "text_hi": "75",
+          "is_correct": false,
+          "trap_reason_en": "Added 12 instead of subtracting it after multiplication.",
+          "trap_reason_hi": "Multiplication के बाद 12 घटाने की जगह जोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "3.5×18=63. Now subtract 12: 63-12=51. Therefore, answer = 51.",
+      "explanation_concept_en": "Decimal multiplication follows the same operation order as integer arithmetic; only place value changes the product format. Final answer is 51.",
+      "explanation_method_hi": "3.5×18=63। अब 12 घटाएँ: 63-12=51। अतः answer = 51।",
+      "explanation_concept_hi": "Decimal multiplication में भी integer arithmetic जैसा operation order रहता है; बस place value product format बदलता है। Final answer 51 है।"
+    },
+    {
+      "id": "simp-19",
+      "stem_en": "Simplify: 4.2 × 25 - 5.",
+      "stem_hi": "Simplify करें: 4.2 × 25 - 5.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "decimals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "84",
+          "text_hi": "84",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted first: 25-5, then multiplied by 4.2. Multiplication must be completed before subtraction.",
+          "trap_reason_hi": "पहले 25-5 घटाया, फिर 4.2 से multiply किया। Multiplication subtraction से पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "24.2",
+          "text_hi": "24.2",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication into addition: 4.2+25-5.",
+          "trap_reason_hi": "Multiplication को addition बना दिया: 4.2+25-5।"
+        },
+        {
+          "label": "C",
+          "text_en": "100",
+          "text_hi": "100",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "110",
+          "text_hi": "110",
+          "is_correct": false,
+          "trap_reason_en": "Added 5 instead of subtracting it after multiplication.",
+          "trap_reason_hi": "Multiplication के बाद 5 घटाने की जगह जोड़ दिया।"
+        }
+      ],
+      "explanation_method_en": "4.2×25=105. Now subtract 5: 105-5=100. Therefore, answer = 100.",
+      "explanation_concept_en": "Decimal multiplication follows the same operation order as integer arithmetic; only place value changes the product format. Final answer is 100.",
+      "explanation_method_hi": "4.2×25=105। अब 5 घटाएँ: 105-5=100। अतः answer = 100।",
+      "explanation_concept_hi": "Decimal multiplication में भी integer arithmetic जैसा operation order रहता है; बस place value product format बदलता है। Final answer 100 है।"
+    },
+    {
+      "id": "simp-20",
+      "stem_en": "Simplify: 6.5 × 12 - 8.",
+      "stem_hi": "Simplify करें: 6.5 × 12 - 8.",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simplification",
+        "decimals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26",
+          "text_hi": "26",
+          "is_correct": false,
+          "trap_reason_en": "Subtracted first: 12-8, then multiplied by 6.5. Multiplication must be completed before subtraction.",
+          "trap_reason_hi": "पहले 12-8 घटाया, फिर 6.5 से multiply किया। Multiplication subtraction से पहले है।"
+        },
+        {
+          "label": "B",
+          "text_en": "10.5",
+          "text_hi": "10.5",
+          "is_correct": false,
+          "trap_reason_en": "Changed multiplication into addition: 6.5+12-8.",
+          "trap_reason_hi": "Multiplication को addition बना दिया: 6.5+12-8।"
+        },
+        {
+          "label": "C",
+          "text_en": "86",
+          "text_hi": "86",
+          "is_correct": false,
+          "trap_reason_en": "Added 8 instead of subtracting it after multiplication.",
+          "trap_reason_hi": "Multiplication के बाद 8 घटाने की जगह जोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "70",
+          "text_hi": "70",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "6.5×12=78. Now subtract 8: 78-8=70. Therefore, answer = 70.",
+      "explanation_concept_en": "Decimal multiplication follows the same operation order as integer arithmetic; only place value changes the product format. Final answer is 70.",
+      "explanation_method_hi": "6.5×12=78। अब 8 घटाएँ: 78-8=70। अतः answer = 70।",
+      "explanation_concept_hi": "Decimal multiplication में भी integer arithmetic जैसा operation order रहता है; बस place value product format बदलता है। Final answer 70 है।"
+    },
+    {
+      "id": "simp-21",
+      "stem_en": "Simplify using identity: 14² - 6².",
+      "stem_hi": "Identity से simplify करें: 14² - 6².",
+      "difficulty": "HARD",
+      "tags": [
+        "simplification",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² = 64. But a²-b² = (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² = 64 लगा दिया। सही identity a²-b² = (a-b)(a+b) है।"
+        },
+        {
+          "label": "C",
+          "text_en": "232",
+          "text_hi": "232",
+          "is_correct": false,
+          "trap_reason_en": "Added the squares instead of subtracting: 196+36=232.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए: 196+36=232।"
+        },
+        {
+          "label": "D",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied only by 14 after taking difference 8; the second factor must be a+b=20.",
+          "trap_reason_hi": "Difference 8 के बाद सिर्फ 14 से multiply किया। दूसरा factor a+b=20 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "a²-b²=(a-b)(a+b)=(14-6)(14+6)=8×20=160. Therefore, answer = 160.",
+      "explanation_concept_en": "The difference of squares identity avoids large square calculations and is a standard simplification shortcut. Final answer is 160.",
+      "explanation_method_hi": "a²-b²=(a-b)(a+b)=(14-6)(14+6)=8×20=160। अतः answer = 160।",
+      "explanation_concept_hi": "Difference of squares identity बड़े square calculations बचाती है और simplification का standard shortcut है। Final answer 160 है।"
+    },
+    {
+      "id": "simp-22",
+      "stem_en": "Simplify using identity: 17² - 3².",
+      "stem_hi": "Identity से simplify करें: 17² - 3².",
+      "difficulty": "HARD",
+      "tags": [
+        "simplification",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "196",
+          "text_hi": "196",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² = 196. But a²-b² = (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² = 196 लगा दिया। सही identity a²-b² = (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "280",
+          "text_hi": "280",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "298",
+          "text_hi": "298",
+          "is_correct": false,
+          "trap_reason_en": "Added the squares instead of subtracting: 289+9=298.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए: 289+9=298।"
+        },
+        {
+          "label": "D",
+          "text_en": "238",
+          "text_hi": "238",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied only by 17 after taking difference 14; the second factor must be a+b=20.",
+          "trap_reason_hi": "Difference 14 के बाद सिर्फ 17 से multiply किया। दूसरा factor a+b=20 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "a²-b²=(a-b)(a+b)=(17-3)(17+3)=14×20=280. Therefore, answer = 280.",
+      "explanation_concept_en": "The difference of squares identity avoids large square calculations and is a standard simplification shortcut. Final answer is 280.",
+      "explanation_method_hi": "a²-b²=(a-b)(a+b)=(17-3)(17+3)=14×20=280। अतः answer = 280।",
+      "explanation_concept_hi": "Difference of squares identity बड़े square calculations बचाती है और simplification का standard shortcut है। Final answer 280 है।"
+    },
+    {
+      "id": "simp-23",
+      "stem_en": "Simplify using identity: 19² - 11².",
+      "stem_hi": "Identity से simplify करें: 19² - 11².",
+      "difficulty": "HARD",
+      "tags": [
+        "simplification",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "64",
+          "text_hi": "64",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² = 64. But a²-b² = (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² = 64 लगा दिया। सही identity a²-b² = (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "482",
+          "text_hi": "482",
+          "is_correct": false,
+          "trap_reason_en": "Added the squares instead of subtracting: 361+121=482.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए: 361+121=482।"
+        },
+        {
+          "label": "C",
+          "text_en": "240",
+          "text_hi": "240",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "152",
+          "text_hi": "152",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied only by 19 after taking difference 8; the second factor must be a+b=30.",
+          "trap_reason_hi": "Difference 8 के बाद सिर्फ 19 से multiply किया। दूसरा factor a+b=30 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "a²-b²=(a-b)(a+b)=(19-11)(19+11)=8×30=240. Therefore, answer = 240.",
+      "explanation_concept_en": "The difference of squares identity avoids large square calculations and is a standard simplification shortcut. Final answer is 240.",
+      "explanation_method_hi": "a²-b²=(a-b)(a+b)=(19-11)(19+11)=8×30=240। अतः answer = 240।",
+      "explanation_concept_hi": "Difference of squares identity बड़े square calculations बचाती है और simplification का standard shortcut है। Final answer 240 है।"
+    },
+    {
+      "id": "simp-24",
+      "stem_en": "Simplify using identity: 23² - 7².",
+      "stem_hi": "Identity से simplify करें: 23² - 7².",
+      "difficulty": "HARD",
+      "tags": [
+        "simplification",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "256",
+          "text_hi": "256",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² = 256. But a²-b² = (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² = 256 लगा दिया। सही identity a²-b² = (a-b)(a+b) है।"
+        },
+        {
+          "label": "B",
+          "text_en": "578",
+          "text_hi": "578",
+          "is_correct": false,
+          "trap_reason_en": "Added the squares instead of subtracting: 529+49=578.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए: 529+49=578।"
+        },
+        {
+          "label": "C",
+          "text_en": "368",
+          "text_hi": "368",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied only by 23 after taking difference 16; the second factor must be a+b=30.",
+          "trap_reason_hi": "Difference 16 के बाद सिर्फ 23 से multiply किया। दूसरा factor a+b=30 होना चाहिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "480",
+          "text_hi": "480",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "a²-b²=(a-b)(a+b)=(23-7)(23+7)=16×30=480. Therefore, answer = 480.",
+      "explanation_concept_en": "The difference of squares identity avoids large square calculations and is a standard simplification shortcut. Final answer is 480.",
+      "explanation_method_hi": "a²-b²=(a-b)(a+b)=(23-7)(23+7)=16×30=480। अतः answer = 480।",
+      "explanation_concept_hi": "Difference of squares identity बड़े square calculations बचाती है और simplification का standard shortcut है। Final answer 480 है।"
+    },
+    {
+      "id": "simp-25",
+      "stem_en": "Simplify using identity: 31² - 9².",
+      "stem_hi": "Identity से simplify करें: 31² - 9².",
+      "difficulty": "HARD",
+      "tags": [
+        "simplification",
+        "identities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "880",
+          "text_hi": "880",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "484",
+          "text_hi": "484",
+          "is_correct": false,
+          "trap_reason_en": "Used (a-b)² = 484. But a²-b² = (a-b)(a+b).",
+          "trap_reason_hi": "(a-b)² = 484 लगा दिया। सही identity a²-b² = (a-b)(a+b) है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1042",
+          "text_hi": "1042",
+          "is_correct": false,
+          "trap_reason_en": "Added the squares instead of subtracting: 961+81=1042.",
+          "trap_reason_hi": "Squares subtract करने की जगह add कर दिए: 961+81=1042।"
+        },
+        {
+          "label": "D",
+          "text_en": "682",
+          "text_hi": "682",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied only by 31 after taking difference 22; the second factor must be a+b=40.",
+          "trap_reason_hi": "Difference 22 के बाद सिर्फ 31 से multiply किया। दूसरा factor a+b=40 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "a²-b²=(a-b)(a+b)=(31-9)(31+9)=22×40=880. Therefore, answer = 880.",
+      "explanation_concept_en": "The difference of squares identity avoids large square calculations and is a standard simplification shortcut. Final answer is 880.",
+      "explanation_method_hi": "a²-b²=(a-b)(a+b)=(31-9)(31+9)=22×40=880। अतः answer = 880।",
+      "explanation_concept_hi": "Difference of squares identity बड़े square calculations बचाती है और simplification का standard shortcut है। Final answer 880 है।"
+    }
+  ]
+}

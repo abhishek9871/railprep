@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Time & Work. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-time-work-01",
+  "title_en": "Time & Work — Sectional",
+  "title_hi": "Time & Work — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Time & Work",
+    "title_hi": "Time & Work",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "tw-01",
+      "stem_en": "A can finish a work in 12 days and B in 18 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 12 days में और B 18 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "7.2 days",
+          "text_hi": "7.2 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "15 days",
+          "text_hi": "15 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "30 days",
+          "text_hi": "30 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 12+18. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "12 days",
+          "text_hi": "12 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/12+1/18 = (30)/216. Time = 216/30 = 7.2 days. Therefore, answer = 7.2 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 7.2 days.",
+      "explanation_method_hi": "Combined rate = 1/12+1/18 = (30)/216। Time = 216/30 = 7.2 days। अतः answer = 7.2 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 7.2 days है।"
+    },
+    {
+      "id": "tw-02",
+      "stem_en": "A can finish a work in 10 days and B in 15 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 10 days में और B 15 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12.5 days",
+          "text_hi": "12.5 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "6 days",
+          "text_hi": "6 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "25 days",
+          "text_hi": "25 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 10+15. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "10 days",
+          "text_hi": "10 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/10+1/15 = (25)/150. Time = 150/25 = 6 days. Therefore, answer = 6 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 6 days.",
+      "explanation_method_hi": "Combined rate = 1/10+1/15 = (25)/150। Time = 150/25 = 6 days। अतः answer = 6 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 6 days है।"
+    },
+    {
+      "id": "tw-03",
+      "stem_en": "A can finish a work in 20 days and B in 30 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 20 days में और B 30 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "25 days",
+          "text_hi": "25 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "50 days",
+          "text_hi": "50 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 20+30. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 days",
+          "text_hi": "12 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "20 days",
+          "text_hi": "20 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/20+1/30 = (50)/600. Time = 600/50 = 12 days. Therefore, answer = 12 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 12 days.",
+      "explanation_method_hi": "Combined rate = 1/20+1/30 = (50)/600। Time = 600/50 = 12 days। अतः answer = 12 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 12 days है।"
+    },
+    {
+      "id": "tw-04",
+      "stem_en": "A can finish a work in 24 days and B in 36 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 24 days में और B 36 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "30 days",
+          "text_hi": "30 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "60 days",
+          "text_hi": "60 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 24+36. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "24 days",
+          "text_hi": "24 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        },
+        {
+          "label": "D",
+          "text_en": "14.4 days",
+          "text_hi": "14.4 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/24+1/36 = (60)/864. Time = 864/60 = 14.4 days. Therefore, answer = 14.4 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 14.4 days.",
+      "explanation_method_hi": "Combined rate = 1/24+1/36 = (60)/864। Time = 864/60 = 14.4 days। अतः answer = 14.4 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 14.4 days है।"
+    },
+    {
+      "id": "tw-05",
+      "stem_en": "A can finish a work in 16 days and B in 24 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 16 days में और B 24 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9.6 days",
+          "text_hi": "9.6 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "20 days",
+          "text_hi": "20 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "40 days",
+          "text_hi": "40 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 16+24. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "16 days",
+          "text_hi": "16 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/16+1/24 = (40)/384. Time = 384/40 = 9.6 days. Therefore, answer = 9.6 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 9.6 days.",
+      "explanation_method_hi": "Combined rate = 1/16+1/24 = (40)/384। Time = 384/40 = 9.6 days। अतः answer = 9.6 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 9.6 days है।"
+    },
+    {
+      "id": "tw-06",
+      "stem_en": "A can finish a work in 8 days and B in 12 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 8 days में और B 12 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "10 days",
+          "text_hi": "10 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "4.8 days",
+          "text_hi": "4.8 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "20 days",
+          "text_hi": "20 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 8+12. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "8 days",
+          "text_hi": "8 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/8+1/12 = (20)/96. Time = 96/20 = 4.8 days. Therefore, answer = 4.8 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 4.8 days.",
+      "explanation_method_hi": "Combined rate = 1/8+1/12 = (20)/96। Time = 96/20 = 4.8 days। अतः answer = 4.8 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 4.8 days है।"
+    },
+    {
+      "id": "tw-07",
+      "stem_en": "A can finish a work in 25 days and B in 50 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 25 days में और B 50 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "37.5 days",
+          "text_hi": "37.5 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "75 days",
+          "text_hi": "75 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 25+50. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "16.67 days",
+          "text_hi": "16.67 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "25 days",
+          "text_hi": "25 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/25+1/50 = (75)/1250. Time = 1250/75 = 16.67 days. Therefore, answer = 16.67 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 16.67 days.",
+      "explanation_method_hi": "Combined rate = 1/25+1/50 = (75)/1250। Time = 1250/75 = 16.67 days। अतः answer = 16.67 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 16.67 days है।"
+    },
+    {
+      "id": "tw-08",
+      "stem_en": "A can finish a work in 30 days and B in 45 days. Working together, how many days will they take?",
+      "stem_hi": "A कोई work 30 days में और B 45 days में करता है। साथ में कितने days लगेंगे?",
+      "difficulty": "EASY",
+      "tags": [
+        "time-work",
+        "combined-work"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "37.5 days",
+          "text_hi": "37.5 days",
+          "is_correct": false,
+          "trap_reason_en": "Averaged the individual times. Work rates add; times do not average.",
+          "trap_reason_hi": "Individual times का average लिया। Work rates add होते हैं, times नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "75 days",
+          "text_hi": "75 days",
+          "is_correct": false,
+          "trap_reason_en": "Added the two times 30+45. Together they must take less time than either alone.",
+          "trap_reason_hi": "दोनों times add कर दिए। साथ काम करने पर time अकेले से कम होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "30 days",
+          "text_hi": "30 days",
+          "is_correct": false,
+          "trap_reason_en": "Picked the faster worker's time. Adding B's rate reduces the time further.",
+          "trap_reason_hi": "Faster worker का time दे दिया। B की rate add होने से time और कम होगा।"
+        },
+        {
+          "label": "D",
+          "text_en": "18 days",
+          "text_hi": "18 days",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Combined rate = 1/30+1/45 = (75)/1350. Time = 1350/75 = 18 days. Therefore, answer = 18 days.",
+      "explanation_concept_en": "In work problems, rate is work per day. Workers together add rates, and total time is reciprocal of total rate. Final answer is 18 days.",
+      "explanation_method_hi": "Combined rate = 1/30+1/45 = (75)/1350। Time = 1350/75 = 18 days। अतः answer = 18 days।",
+      "explanation_concept_hi": "Work problems में rate = work per day। साथ काम करने पर rates add होते हैं और time total rate का reciprocal होता है। Final answer 18 days है।"
+    },
+    {
+      "id": "tw-09",
+      "stem_en": "A can finish a work in 12 days. What fraction of work is done by A in 3 days?",
+      "stem_hi": "A कोई work 12 days में करता है। 3 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "3/12",
+          "text_hi": "3/12",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "12/3",
+          "text_hi": "12/3",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "9/12",
+          "text_hi": "9/12",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "3/9",
+          "text_hi": "3/9",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 12.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 12 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/12. In 3 days, work = 3×1/12 = 3/12. Therefore, answer = 3/12.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 3/12.",
+      "explanation_method_hi": "One-day work = 1/12। 3 days में work = 3×1/12 = 3/12। अतः answer = 3/12।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 12 days में complete करने वाला worker रोज 1/12 करता है। Final answer 3/12 है।"
+    },
+    {
+      "id": "tw-10",
+      "stem_en": "A can finish a work in 15 days. What fraction of work is done by A in 5 days?",
+      "stem_hi": "A कोई work 15 days में करता है। 5 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "15/5",
+          "text_hi": "15/5",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "5/15",
+          "text_hi": "5/15",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "10/15",
+          "text_hi": "10/15",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "5/10",
+          "text_hi": "5/10",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 15.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 15 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/15. In 5 days, work = 5×1/15 = 5/15. Therefore, answer = 5/15.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 5/15.",
+      "explanation_method_hi": "One-day work = 1/15। 5 days में work = 5×1/15 = 5/15। अतः answer = 5/15।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 15 days में complete करने वाला worker रोज 1/15 करता है। Final answer 5/15 है।"
+    },
+    {
+      "id": "tw-11",
+      "stem_en": "A can finish a work in 20 days. What fraction of work is done by A in 4 days?",
+      "stem_hi": "A कोई work 20 days में करता है। 4 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "20/4",
+          "text_hi": "20/4",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "16/20",
+          "text_hi": "16/20",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "4/20",
+          "text_hi": "4/20",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "4/16",
+          "text_hi": "4/16",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 20.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 20 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/20. In 4 days, work = 4×1/20 = 4/20. Therefore, answer = 4/20.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 4/20.",
+      "explanation_method_hi": "One-day work = 1/20। 4 days में work = 4×1/20 = 4/20। अतः answer = 4/20।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 20 days में complete करने वाला worker रोज 1/20 करता है। Final answer 4/20 है।"
+    },
+    {
+      "id": "tw-12",
+      "stem_en": "A can finish a work in 24 days. What fraction of work is done by A in 6 days?",
+      "stem_hi": "A कोई work 24 days में करता है। 6 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "24/6",
+          "text_hi": "24/6",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "18/24",
+          "text_hi": "18/24",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "6/18",
+          "text_hi": "6/18",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 24.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 24 होना चाहिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "6/24",
+          "text_hi": "6/24",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/24. In 6 days, work = 6×1/24 = 6/24. Therefore, answer = 6/24.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 6/24.",
+      "explanation_method_hi": "One-day work = 1/24। 6 days में work = 6×1/24 = 6/24। अतः answer = 6/24।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 24 days में complete करने वाला worker रोज 1/24 करता है। Final answer 6/24 है।"
+    },
+    {
+      "id": "tw-13",
+      "stem_en": "A can finish a work in 30 days. What fraction of work is done by A in 10 days?",
+      "stem_hi": "A कोई work 30 days में करता है। 10 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "10/30",
+          "text_hi": "10/30",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "30/10",
+          "text_hi": "30/10",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "20/30",
+          "text_hi": "20/30",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "10/20",
+          "text_hi": "10/20",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 30.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 30 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/30. In 10 days, work = 10×1/30 = 10/30. Therefore, answer = 10/30.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 10/30.",
+      "explanation_method_hi": "One-day work = 1/30। 10 days में work = 10×1/30 = 10/30। अतः answer = 10/30।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 30 days में complete करने वाला worker रोज 1/30 करता है। Final answer 10/30 है।"
+    },
+    {
+      "id": "tw-14",
+      "stem_en": "A can finish a work in 18 days. What fraction of work is done by A in 6 days?",
+      "stem_hi": "A कोई work 18 days में करता है। 6 days में कितना fraction work होगा?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "time-work",
+        "work-fraction"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "18/6",
+          "text_hi": "18/6",
+          "is_correct": false,
+          "trap_reason_en": "Inverted the fraction. Work done = days worked / total days.",
+          "trap_reason_hi": "Fraction उल्टा कर दिया। Work done = days worked / total days होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "6/18",
+          "text_hi": "6/18",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "12/18",
+          "text_hi": "12/18",
+          "is_correct": false,
+          "trap_reason_en": "Reported remaining work instead of completed work.",
+          "trap_reason_hi": "Completed work की जगह remaining work दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "6/12",
+          "text_hi": "6/12",
+          "is_correct": false,
+          "trap_reason_en": "Used remaining days as denominator. Denominator must be total days 18.",
+          "trap_reason_hi": "Denominator में remaining days ले लिए। Denominator total days 18 होना चाहिए।"
+        }
+      ],
+      "explanation_method_en": "One-day work = 1/18. In 6 days, work = 6×1/18 = 6/18. Therefore, answer = 6/18.",
+      "explanation_concept_en": "If total work is 1 unit, a worker completing it in a days does 1/a per day. Multiplying by days worked gives completed fraction. Final answer is 6/18.",
+      "explanation_method_hi": "One-day work = 1/18। 6 days में work = 6×1/18 = 6/18। अतः answer = 6/18।",
+      "explanation_concept_hi": "Total work को 1 unit मानें। 18 days में complete करने वाला worker रोज 1/18 करता है। Final answer 6/18 है।"
+    },
+    {
+      "id": "tw-15",
+      "stem_en": "A and B can finish a work in 10 and 15 days respectively. They earn ₹2500 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 10 और 15 days में करते हैं। कुल wage ₹2500 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1250",
+          "text_hi": "₹1250",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹1000",
+          "text_hi": "₹1000",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹1500",
+          "text_hi": "₹1500",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹3750",
+          "text_hi": "₹3750",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 15/10. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 15/10 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/10:1/15 = 15:10. A's share = 2500×15/(10+15) = 1500. Therefore, answer = ₹1500.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹1500.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/10:1/15 = 15:10। A share = 2500×15/(10+15) = 1500। अतः answer = ₹1500।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹1500 है।"
+    },
+    {
+      "id": "tw-16",
+      "stem_en": "A and B can finish a work in 12 and 18 days respectively. They earn ₹3000 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 12 और 18 days में करते हैं। कुल wage ₹3000 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1500",
+          "text_hi": "₹1500",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹1200",
+          "text_hi": "₹1200",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹4500",
+          "text_hi": "₹4500",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 18/12. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 18/12 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹1800",
+          "text_hi": "₹1800",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/12:1/18 = 18:12. A's share = 3000×18/(12+18) = 1800. Therefore, answer = ₹1800.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹1800.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/12:1/18 = 18:12। A share = 3000×18/(12+18) = 1800। अतः answer = ₹1800।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹1800 है।"
+    },
+    {
+      "id": "tw-17",
+      "stem_en": "A and B can finish a work in 20 and 30 days respectively. They earn ₹5000 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 20 और 30 days में करते हैं। कुल wage ₹5000 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹3000",
+          "text_hi": "₹3000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹2500",
+          "text_hi": "₹2500",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹2000",
+          "text_hi": "₹2000",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹7500",
+          "text_hi": "₹7500",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 30/20. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 30/20 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/20:1/30 = 30:20. A's share = 5000×30/(20+30) = 3000. Therefore, answer = ₹3000.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹3000.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/20:1/30 = 30:20। A share = 5000×30/(20+30) = 3000। अतः answer = ₹3000।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹3000 है।"
+    },
+    {
+      "id": "tw-18",
+      "stem_en": "A and B can finish a work in 16 and 24 days respectively. They earn ₹4000 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 16 और 24 days में करते हैं। कुल wage ₹4000 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹2000",
+          "text_hi": "₹2000",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹2400",
+          "text_hi": "₹2400",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "₹1600",
+          "text_hi": "₹1600",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹6000",
+          "text_hi": "₹6000",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 24/16. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 24/16 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/16:1/24 = 24:16. A's share = 4000×24/(16+24) = 2400. Therefore, answer = ₹2400.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹2400.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/16:1/24 = 24:16। A share = 4000×24/(16+24) = 2400। अतः answer = ₹2400।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹2400 है।"
+    },
+    {
+      "id": "tw-19",
+      "stem_en": "A and B can finish a work in 25 and 50 days respectively. They earn ₹6000 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 25 और 50 days में करते हैं। कुल wage ₹6000 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹3000",
+          "text_hi": "₹3000",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹2000",
+          "text_hi": "₹2000",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹4000",
+          "text_hi": "₹4000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹12000",
+          "text_hi": "₹12000",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 50/25. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 50/25 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/25:1/50 = 50:25. A's share = 6000×50/(25+50) = 4000. Therefore, answer = ₹4000.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹4000.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/25:1/50 = 50:25। A share = 6000×50/(25+50) = 4000। अतः answer = ₹4000।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹4000 है।"
+    },
+    {
+      "id": "tw-20",
+      "stem_en": "A and B can finish a work in 30 and 45 days respectively. They earn ₹7500 together. Find A's share.",
+      "stem_hi": "A और B work को क्रमशः 30 और 45 days में करते हैं। कुल wage ₹7500 है। A का share ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "wages"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹3750",
+          "text_hi": "₹3750",
+          "is_correct": false,
+          "trap_reason_en": "Divided wages equally. Wages should be proportional to work rates, not headcount.",
+          "trap_reason_hi": "Wages बराबर बाँट दिए। Wages work rates के proportional होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹3000",
+          "text_hi": "₹3000",
+          "is_correct": false,
+          "trap_reason_en": "Reported B's share instead of A's share.",
+          "trap_reason_hi": "A की जगह B का share दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹11250",
+          "text_hi": "₹11250",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied total wage by the inverse raw time ratio 45/30. Wage split must use the normalized work-rate ratio.",
+          "trap_reason_hi": "Total wage को inverse raw time ratio 45/30 से multiply किया। Wage split normalized work-rate ratio से होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹4500",
+          "text_hi": "₹4500",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Work-rate ratio A:B = 1/30:1/45 = 45:30. A's share = 7500×45/(30+45) = 4500. Therefore, answer = ₹4500.",
+      "explanation_concept_en": "Payment follows contribution. Contribution per day is work rate, so the faster worker has the larger share. Final answer is ₹4500.",
+      "explanation_method_hi": "Work-rate ratio A:B = 1/30:1/45 = 45:30। A share = 7500×45/(30+45) = 4500। अतः answer = ₹4500।",
+      "explanation_concept_hi": "Payment contribution के हिसाब से होता है। Contribution per day work rate है, इसलिए faster worker का share ज़्यादा होता है। Final answer ₹4500 है।"
+    },
+    {
+      "id": "tw-21",
+      "stem_en": "Pipe A fills a tank in 6 hours and pipe B empties it in 12 hours. If both are opened, when will the tank fill?",
+      "stem_hi": "Pipe A tank को 6 hours में भरता है और pipe B 12 hours में खाली करता है। दोनों open हों तो tank कब भरेगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "pipes-cisterns"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "12 hours",
+          "text_hi": "12 hours",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "4 hours",
+          "text_hi": "4 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added filling and emptying rates as if both filled. Emptying rate must subtract.",
+          "trap_reason_hi": "Filling और emptying rates को add कर दिया। Emptying rate subtract होती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "6 hours",
+          "text_hi": "6 hours",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the leak/emptying pipe B.",
+          "trap_reason_hi": "Emptying pipe B ignore कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "18 hours",
+          "text_hi": "18 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added the separate pipe times 6+12. Net time must come from rates, not time addition.",
+          "trap_reason_hi": "Separate pipe times 6+12 add कर दिए। Net time rates से निकलता है, time addition से नहीं।"
+        }
+      ],
+      "explanation_method_en": "Net rate = 1/6 - 1/12 = (6)/72. Time = 72/6 = 12 hours. Therefore, answer = 12 hours.",
+      "explanation_concept_en": "When one pipe empties, its rate opposes the filling pipe. Net work rate is the difference of rates. Final answer is 12 hours.",
+      "explanation_method_hi": "Net rate = 1/6 - 1/12 = (6)/72। Time = 72/6 = 12 hours। अतः answer = 12 hours।",
+      "explanation_concept_hi": "Emptying pipe filling pipe के opposite काम करता है। Net work rate rates का difference है। Final answer 12 hours है।"
+    },
+    {
+      "id": "tw-22",
+      "stem_en": "Pipe A fills a tank in 8 hours and pipe B empties it in 24 hours. If both are opened, when will the tank fill?",
+      "stem_hi": "Pipe A tank को 8 hours में भरता है और pipe B 24 hours में खाली करता है। दोनों open हों तो tank कब भरेगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "pipes-cisterns"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "6 hours",
+          "text_hi": "6 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added filling and emptying rates as if both filled. Emptying rate must subtract.",
+          "trap_reason_hi": "Filling और emptying rates को add कर दिया। Emptying rate subtract होती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "12 hours",
+          "text_hi": "12 hours",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "8 hours",
+          "text_hi": "8 hours",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the leak/emptying pipe B.",
+          "trap_reason_hi": "Emptying pipe B ignore कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "32 hours",
+          "text_hi": "32 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added the separate pipe times 8+24. Net time must come from rates, not time addition.",
+          "trap_reason_hi": "Separate pipe times 8+24 add कर दिए। Net time rates से निकलता है, time addition से नहीं।"
+        }
+      ],
+      "explanation_method_en": "Net rate = 1/8 - 1/24 = (16)/192. Time = 192/16 = 12 hours. Therefore, answer = 12 hours.",
+      "explanation_concept_en": "When one pipe empties, its rate opposes the filling pipe. Net work rate is the difference of rates. Final answer is 12 hours.",
+      "explanation_method_hi": "Net rate = 1/8 - 1/24 = (16)/192। Time = 192/16 = 12 hours। अतः answer = 12 hours।",
+      "explanation_concept_hi": "Emptying pipe filling pipe के opposite काम करता है। Net work rate rates का difference है। Final answer 12 hours है।"
+    },
+    {
+      "id": "tw-23",
+      "stem_en": "Pipe A fills a tank in 10 hours and pipe B empties it in 15 hours. If both are opened, when will the tank fill?",
+      "stem_hi": "Pipe A tank को 10 hours में भरता है और pipe B 15 hours में खाली करता है। दोनों open हों तो tank कब भरेगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "pipes-cisterns"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "6 hours",
+          "text_hi": "6 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added filling and emptying rates as if both filled. Emptying rate must subtract.",
+          "trap_reason_hi": "Filling और emptying rates को add कर दिया। Emptying rate subtract होती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "10 hours",
+          "text_hi": "10 hours",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the leak/emptying pipe B.",
+          "trap_reason_hi": "Emptying pipe B ignore कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "30 hours",
+          "text_hi": "30 hours",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "25 hours",
+          "text_hi": "25 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added the separate pipe times 10+15. Net time must come from rates, not time addition.",
+          "trap_reason_hi": "Separate pipe times 10+15 add कर दिए। Net time rates से निकलता है, time addition से नहीं।"
+        }
+      ],
+      "explanation_method_en": "Net rate = 1/10 - 1/15 = (5)/150. Time = 150/5 = 30 hours. Therefore, answer = 30 hours.",
+      "explanation_concept_en": "When one pipe empties, its rate opposes the filling pipe. Net work rate is the difference of rates. Final answer is 30 hours.",
+      "explanation_method_hi": "Net rate = 1/10 - 1/15 = (5)/150। Time = 150/5 = 30 hours। अतः answer = 30 hours।",
+      "explanation_concept_hi": "Emptying pipe filling pipe के opposite काम करता है। Net work rate rates का difference है। Final answer 30 hours है।"
+    },
+    {
+      "id": "tw-24",
+      "stem_en": "Pipe A fills a tank in 9 hours and pipe B empties it in 18 hours. If both are opened, when will the tank fill?",
+      "stem_hi": "Pipe A tank को 9 hours में भरता है और pipe B 18 hours में खाली करता है। दोनों open हों तो tank कब भरेगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "pipes-cisterns"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "6 hours",
+          "text_hi": "6 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added filling and emptying rates as if both filled. Emptying rate must subtract.",
+          "trap_reason_hi": "Filling और emptying rates को add कर दिया। Emptying rate subtract होती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "9 hours",
+          "text_hi": "9 hours",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the leak/emptying pipe B.",
+          "trap_reason_hi": "Emptying pipe B ignore कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "27 hours",
+          "text_hi": "27 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added the separate pipe times 9+18. Net time must come from rates, not time addition.",
+          "trap_reason_hi": "Separate pipe times 9+18 add कर दिए। Net time rates से निकलता है, time addition से नहीं।"
+        },
+        {
+          "label": "D",
+          "text_en": "18 hours",
+          "text_hi": "18 hours",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Net rate = 1/9 - 1/18 = (9)/162. Time = 162/9 = 18 hours. Therefore, answer = 18 hours.",
+      "explanation_concept_en": "When one pipe empties, its rate opposes the filling pipe. Net work rate is the difference of rates. Final answer is 18 hours.",
+      "explanation_method_hi": "Net rate = 1/9 - 1/18 = (9)/162। Time = 162/9 = 18 hours। अतः answer = 18 hours।",
+      "explanation_concept_hi": "Emptying pipe filling pipe के opposite काम करता है। Net work rate rates का difference है। Final answer 18 hours है।"
+    },
+    {
+      "id": "tw-25",
+      "stem_en": "Pipe A fills a tank in 12 hours and pipe B empties it in 20 hours. If both are opened, when will the tank fill?",
+      "stem_hi": "Pipe A tank को 12 hours में भरता है और pipe B 20 hours में खाली करता है। दोनों open हों तो tank कब भरेगा?",
+      "difficulty": "HARD",
+      "tags": [
+        "time-work",
+        "pipes-cisterns"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "30 hours",
+          "text_hi": "30 hours",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "7.5 hours",
+          "text_hi": "7.5 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added filling and emptying rates as if both filled. Emptying rate must subtract.",
+          "trap_reason_hi": "Filling और emptying rates को add कर दिया। Emptying rate subtract होती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "12 hours",
+          "text_hi": "12 hours",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the leak/emptying pipe B.",
+          "trap_reason_hi": "Emptying pipe B ignore कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "32 hours",
+          "text_hi": "32 hours",
+          "is_correct": false,
+          "trap_reason_en": "Added the separate pipe times 12+20. Net time must come from rates, not time addition.",
+          "trap_reason_hi": "Separate pipe times 12+20 add कर दिए। Net time rates से निकलता है, time addition से नहीं।"
+        }
+      ],
+      "explanation_method_en": "Net rate = 1/12 - 1/20 = (8)/240. Time = 240/8 = 30 hours. Therefore, answer = 30 hours.",
+      "explanation_concept_en": "When one pipe empties, its rate opposes the filling pipe. Net work rate is the difference of rates. Final answer is 30 hours.",
+      "explanation_method_hi": "Net rate = 1/12 - 1/20 = (8)/240। Time = 240/8 = 30 hours। अतः answer = 30 hours।",
+      "explanation_concept_hi": "Emptying pipe filling pipe के opposite काम करता है। Net work rate rates का difference है। Final answer 30 hours है।"
+    }
+  ]
+}

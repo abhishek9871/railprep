@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Data Interpretation. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-di-01",
+  "title_en": "Data Interpretation — Sectional",
+  "title_hi": "Data Interpretation — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Data Interpretation",
+    "title_hi": "Data Interpretation",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "di-01",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the total marks of student C.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. C के total marks ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "table-totals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "155",
+          "text_hi": "155",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "310",
+          "text_hi": "310",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 155. Therefore, answer = 155.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 155.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 155 है। अतः answer = 155।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 155 है।"
+    },
+    {
+      "id": "di-02",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the difference between total marks of E and A.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E और A के total marks का difference ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "table-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "65",
+          "text_hi": "65",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 60. Therefore, answer = 60.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 60.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 60 है। अतः answer = 60।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "di-03",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the average Math marks of all five students.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. सभी पाँच students के Math marks का average ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "average"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "56",
+          "text_hi": "56",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 56. Therefore, answer = 56.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 56.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 56 है। अतः answer = 56।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 56 है।"
+    },
+    {
+      "id": "di-04",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the ratio of B's Reasoning marks to D's Reasoning marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. B और D के Reasoning marks का ratio ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "ratio"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "4:5",
+          "text_hi": "4:5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 4:5. Therefore, answer = 4:5.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 4:5.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 4:5 है। अतः answer = 4:5।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 4:5 है।"
+    },
+    {
+      "id": "di-05",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the percentage by which E's GA marks exceed C's GA marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E के GA marks, C से कितने percent अधिक हैं ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "percentage"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "50%",
+          "text_hi": "50%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 50%. Therefore, answer = 50%.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 50%.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 50% है। अतः answer = 50%।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 50% है।"
+    },
+    {
+      "id": "di-06",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the total marks of student C.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. C के total marks ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "table-totals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "155",
+          "text_hi": "155",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "310",
+          "text_hi": "310",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 155. Therefore, answer = 155.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 155.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 155 है। अतः answer = 155।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 155 है।"
+    },
+    {
+      "id": "di-07",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the difference between total marks of E and A.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E और A के total marks का difference ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "table-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "65",
+          "text_hi": "65",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 60. Therefore, answer = 60.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 60.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 60 है। अतः answer = 60।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "di-08",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the average Math marks of all five students.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. सभी पाँच students के Math marks का average ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "data-interpretation",
+        "average"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "56",
+          "text_hi": "56",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 56. Therefore, answer = 56.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 56.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 56 है। अतः answer = 56।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 56 है।"
+    },
+    {
+      "id": "di-09",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the ratio of B's Reasoning marks to D's Reasoning marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. B और D के Reasoning marks का ratio ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "ratio"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "4:5",
+          "text_hi": "4:5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 4:5. Therefore, answer = 4:5.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 4:5.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 4:5 है। अतः answer = 4:5।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 4:5 है।"
+    },
+    {
+      "id": "di-10",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the percentage by which E's GA marks exceed C's GA marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E के GA marks, C से कितने percent अधिक हैं ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "percentage"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "50%",
+          "text_hi": "50%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 50%. Therefore, answer = 50%.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 50%.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 50% है। अतः answer = 50%।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 50% है।"
+    },
+    {
+      "id": "di-11",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the total marks of student C.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. C के total marks ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "table-totals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "155",
+          "text_hi": "155",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "310",
+          "text_hi": "310",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 155. Therefore, answer = 155.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 155.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 155 है। अतः answer = 155।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 155 है।"
+    },
+    {
+      "id": "di-12",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the difference between total marks of E and A.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E और A के total marks का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "table-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "65",
+          "text_hi": "65",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 60. Therefore, answer = 60.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 60.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 60 है। अतः answer = 60।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "di-13",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the average Math marks of all five students.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. सभी पाँच students के Math marks का average ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "average"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "56",
+          "text_hi": "56",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 56. Therefore, answer = 56.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 56.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 56 है। अतः answer = 56।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 56 है।"
+    },
+    {
+      "id": "di-14",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the ratio of B's Reasoning marks to D's Reasoning marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. B और D के Reasoning marks का ratio ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "ratio"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "4:5",
+          "text_hi": "4:5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 4:5. Therefore, answer = 4:5.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 4:5.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 4:5 है। अतः answer = 4:5।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 4:5 है।"
+    },
+    {
+      "id": "di-15",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the percentage by which E's GA marks exceed C's GA marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E के GA marks, C से कितने percent अधिक हैं ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "percentage"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "50%",
+          "text_hi": "50%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 50%. Therefore, answer = 50%.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 50%.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 50% है। अतः answer = 50%।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 50% है।"
+    },
+    {
+      "id": "di-16",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the total marks of student C.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. C के total marks ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "table-totals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "310",
+          "text_hi": "310",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "155",
+          "text_hi": "155",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 155. Therefore, answer = 155.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 155.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 155 है। अतः answer = 155।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 155 है।"
+    },
+    {
+      "id": "di-17",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the difference between total marks of E and A.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E और A के total marks का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "table-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "65",
+          "text_hi": "65",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 60. Therefore, answer = 60.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 60.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 60 है। अतः answer = 60।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "di-18",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the average Math marks of all five students.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. सभी पाँच students के Math marks का average ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "average"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "56",
+          "text_hi": "56",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 56. Therefore, answer = 56.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 56.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 56 है। अतः answer = 56।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 56 है।"
+    },
+    {
+      "id": "di-19",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the ratio of B's Reasoning marks to D's Reasoning marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. B और D के Reasoning marks का ratio ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "ratio"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "4:5",
+          "text_hi": "4:5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 4:5. Therefore, answer = 4:5.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 4:5.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 4:5 है। अतः answer = 4:5।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 4:5 है।"
+    },
+    {
+      "id": "di-20",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the percentage by which E's GA marks exceed C's GA marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E के GA marks, C से कितने percent अधिक हैं ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "data-interpretation",
+        "percentage"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "50%",
+          "text_hi": "50%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 50%. Therefore, answer = 50%.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 50%.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 50% है। अतः answer = 50%।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 50% है।"
+    },
+    {
+      "id": "di-21",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the total marks of student C.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. C के total marks ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "data-interpretation",
+        "table-totals"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "155",
+          "text_hi": "155",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "160",
+          "text_hi": "160",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "150",
+          "text_hi": "150",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "310",
+          "text_hi": "310",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 155. Therefore, answer = 155.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 155.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 155 है। अतः answer = 155।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 155 है।"
+    },
+    {
+      "id": "di-22",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the difference between total marks of E and A.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E और A के total marks का difference ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "data-interpretation",
+        "table-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "65",
+          "text_hi": "65",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "60",
+          "text_hi": "60",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "55",
+          "text_hi": "55",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "120",
+          "text_hi": "120",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 60. Therefore, answer = 60.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 60.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 60 है। अतः answer = 60।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 60 है।"
+    },
+    {
+      "id": "di-23",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the average Math marks of all five students.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. सभी पाँच students के Math marks का average ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "data-interpretation",
+        "average"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "61",
+          "text_hi": "61",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "51",
+          "text_hi": "51",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "56",
+          "text_hi": "56",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "112",
+          "text_hi": "112",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 56. Therefore, answer = 56.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 56.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 56 है। अतः answer = 56।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 56 है।"
+    },
+    {
+      "id": "di-24",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the ratio of B's Reasoning marks to D's Reasoning marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. B और D के Reasoning marks का ratio ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "data-interpretation",
+        "ratio"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "B",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "C",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "4:5",
+          "text_hi": "4:5",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 4:5. Therefore, answer = 4:5.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 4:5.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 4:5 है। अतः answer = 4:5।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 4:5 है।"
+    },
+    {
+      "id": "di-25",
+      "stem_en": "Table: students and marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75) for Math, Reasoning, GA respectively. Find the percentage by which E's GA marks exceed C's GA marks.",
+      "stem_hi": "Table: students और marks — A(45,35,60), B(50,40,55), C(60,45,50), D(55,50,65), E(70,55,75), क्रम Math, Reasoning, GA. E के GA marks, C से कितने percent अधिक हैं ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "data-interpretation",
+        "percentage"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "50%",
+          "text_hi": "50%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "5:4",
+          "text_hi": "5:4",
+          "is_correct": false,
+          "trap_reason_en": "Used the adjacent row or reversed comparison, producing this distractor instead of the asked table value.",
+          "trap_reason_hi": "Adjacent row या reversed comparison use किया, इसलिए यह distractor आया।"
+        },
+        {
+          "label": "C",
+          "text_en": "9:10",
+          "text_hi": "9:10",
+          "is_correct": false,
+          "trap_reason_en": "Missed one table entry by 5 marks while adding/comparing the required cells.",
+          "trap_reason_hi": "Required cells add/compare करते समय 5 marks की एक entry छूट गई।"
+        },
+        {
+          "label": "D",
+          "text_en": "45:50",
+          "text_hi": "45:50",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the required value or used raw marks without reducing the relation.",
+          "trap_reason_hi": "Required value double कर दी या raw marks को reduce नहीं किया।"
+        }
+      ],
+      "explanation_method_en": "Read only the requested cells from the table and compute the requested total/difference/average/ratio/percentage. The computed value is 50%. Therefore, answer = 50%.",
+      "explanation_concept_en": "Data interpretation questions first require selecting the correct row and column. Most errors come from reading a neighbouring row or applying the wrong operation to the right data. Final answer is 50%.",
+      "explanation_method_hi": "Table से सिर्फ required cells पढ़ें और total/difference/average/ratio/percentage compute करें। Computed value 50% है। अतः answer = 50%।",
+      "explanation_concept_hi": "DI questions में पहले सही row और column select करना होता है। ज़्यादातर errors neighbouring row पढ़ने या wrong operation लगाने से आते हैं। Final answer 50% है।"
+    }
+  ]
+}

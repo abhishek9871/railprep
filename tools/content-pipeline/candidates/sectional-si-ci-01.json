@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Simple & Compound Interest. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-si-ci-01",
+  "title_en": "Simple & Compound Interest — Sectional",
+  "title_hi": "SI/CI — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Simple & Compound Interest",
+    "title_hi": "SI/CI",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "sici-01",
+      "stem_en": "Find the simple interest on ₹5000 at 8% per annum for 3 years.",
+      "stem_hi": "₹5000 पर 8% वार्षिक दर से 3 वर्ष का simple interest ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "si-ci"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1200",
+          "text_hi": "₹1200",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹400",
+          "text_hi": "₹400",
+          "is_correct": false,
+          "trap_reason_en": "Calculated one year's interest only: 5000×8/100=400, missing 3 years.",
+          "trap_reason_hi": "सिर्फ 1 साल का interest निकाला: 5000×8/100=400; 3 years छूट गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹6200",
+          "text_hi": "₹6200",
+          "is_correct": false,
+          "trap_reason_en": "Reported amount 5000+1200=6200 instead of interest.",
+          "trap_reason_hi": "Interest की जगह amount 5000+1200=6200 दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹24",
+          "text_hi": "₹24",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied rate and time only: 8×3; principal was ignored.",
+          "trap_reason_hi": "सिर्फ rate × time = 24 किया; principal ignore हुआ।"
+        }
+      ],
+      "explanation_method_en": "SI = PRT/100 = 5000×8×3/100 = 1200. Therefore, answer = ₹1200.",
+      "explanation_concept_en": "Simple interest charges the same interest on the original principal every year, so the formula is linear in P, R, and T. Final answer is ₹1200.",
+      "explanation_method_hi": "SI = PRT/100 = 5000×8×3/100 = 1200। अतः answer = ₹1200।",
+      "explanation_concept_hi": "Simple interest में हर साल original principal पर same interest लगता है, इसलिए formula P, R, T में linear है। Final answer ₹1200 है।"
+    },
+    {
+      "id": "sici-02",
+      "stem_en": "Find the simple interest on ₹7200 at 5% per annum for 4 years.",
+      "stem_hi": "₹7200 पर 5% वार्षिक दर से 4 वर्ष का simple interest ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "si-ci"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹360",
+          "text_hi": "₹360",
+          "is_correct": false,
+          "trap_reason_en": "Calculated one year's interest only: 7200×5/100=360, missing 4 years.",
+          "trap_reason_hi": "सिर्फ 1 साल का interest निकाला: 7200×5/100=360; 4 years छूट गए।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹1440",
+          "text_hi": "₹1440",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "₹8640",
+          "text_hi": "₹8640",
+          "is_correct": false,
+          "trap_reason_en": "Reported amount 7200+1440=8640 instead of interest.",
+          "trap_reason_hi": "Interest की जगह amount 7200+1440=8640 दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹20",
+          "text_hi": "₹20",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied rate and time only: 5×4; principal was ignored.",
+          "trap_reason_hi": "सिर्फ rate × time = 20 किया; principal ignore हुआ।"
+        }
+      ],
+      "explanation_method_en": "SI = PRT/100 = 7200×5×4/100 = 1440. Therefore, answer = ₹1440.",
+      "explanation_concept_en": "Simple interest charges the same interest on the original principal every year, so the formula is linear in P, R, and T. Final answer is ₹1440.",
+      "explanation_method_hi": "SI = PRT/100 = 7200×5×4/100 = 1440। अतः answer = ₹1440।",
+      "explanation_concept_hi": "Simple interest में हर साल original principal पर same interest लगता है, इसलिए formula P, R, T में linear है। Final answer ₹1440 है।"
+    },
+    {
+      "id": "sici-03",
+      "stem_en": "Find the simple interest on ₹9000 at 6% per annum for 2 years.",
+      "stem_hi": "₹9000 पर 6% वार्षिक दर से 2 वर्ष का simple interest ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "si-ci"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹540",
+          "text_hi": "₹540",
+          "is_correct": false,
+          "trap_reason_en": "Calculated one year's interest only: 9000×6/100=540, missing 2 years.",
+          "trap_reason_hi": "सिर्फ 1 साल का interest निकाला: 9000×6/100=540; 2 years छूट गए।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹10080",
+          "text_hi": "₹10080",
+          "is_correct": false,
+          "trap_reason_en": "Reported amount 9000+1080=10080 instead of interest.",
+          "trap_reason_hi": "Interest की जगह amount 9000+1080=10080 दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹1080",
+          "text_hi": "₹1080",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹12",
+          "text_hi": "₹12",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied rate and time only: 6×2; principal was ignored.",
+          "trap_reason_hi": "सिर्फ rate × time = 12 किया; principal ignore हुआ।"
+        }
+      ],
+      "explanation_method_en": "SI = PRT/100 = 9000×6×2/100 = 1080. Therefore, answer = ₹1080.",
+      "explanation_concept_en": "Simple interest charges the same interest on the original principal every year, so the formula is linear in P, R, and T. Final answer is ₹1080.",
+      "explanation_method_hi": "SI = PRT/100 = 9000×6×2/100 = 1080। अतः answer = ₹1080।",
+      "explanation_concept_hi": "Simple interest में हर साल original principal पर same interest लगता है, इसलिए formula P, R, T में linear है। Final answer ₹1080 है।"
+    },
+    {
+      "id": "sici-04",
+      "stem_en": "Find the simple interest on ₹12000 at 7% per annum for 5 years.",
+      "stem_hi": "₹12000 पर 7% वार्षिक दर से 5 वर्ष का simple interest ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "si-ci"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹840",
+          "text_hi": "₹840",
+          "is_correct": false,
+          "trap_reason_en": "Calculated one year's interest only: 12000×7/100=840, missing 5 years.",
+          "trap_reason_hi": "सिर्फ 1 साल का interest निकाला: 12000×7/100=840; 5 years छूट गए।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹16200",
+          "text_hi": "₹16200",
+          "is_correct": false,
+          "trap_reason_en": "Reported amount 12000+4200=16200 instead of interest.",
+          "trap_reason_hi": "Interest की जगह amount 12000+4200=16200 दे दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹35",
+          "text_hi": "₹35",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied rate and time only: 7×5; principal was ignored.",
+          "trap_reason_hi": "सिर्फ rate × time = 35 किया; principal ignore हुआ।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹4200",
+          "text_hi": "₹4200",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "SI = PRT/100 = 12000×7×5/100 = 4200. Therefore, answer = ₹4200.",
+      "explanation_concept_en": "Simple interest charges the same interest on the original principal every year, so the formula is linear in P, R, and T. Final answer is ₹4200.",
+      "explanation_method_hi": "SI = PRT/100 = 12000×7×5/100 = 4200। अतः answer = ₹4200।",
+      "explanation_concept_hi": "Simple interest में हर साल original principal पर same interest लगता है, इसलिए formula P, R, T में linear है। Final answer ₹4200 है।"
+    },
+    {
+      "id": "sici-05",
+      "stem_en": "Find the simple interest on ₹6400 at 12% per annum for 2 years.",
+      "stem_hi": "₹6400 पर 12% वार्षिक दर से 2 वर्ष का simple interest ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "si-ci"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1536",
+          "text_hi": "₹1536",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹768",
+          "text_hi": "₹768",
+          "is_correct": false,
+          "trap_reason_en": "Calculated one year's interest only: 6400×12/100=768, missing 2 years.",
+          "trap_reason_hi": "सिर्फ 1 साल का interest निकाला: 6400×12/100=768; 2 years छूट गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹7936",
+          "text_hi": "₹7936",
+          "is_correct": false,
+          "trap_reason_en": "Reported amount 6400+1536=7936 instead of interest.",
+          "trap_reason_hi": "Interest की जगह amount 6400+1536=7936 दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹24",
+          "text_hi": "₹24",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied rate and time only: 12×2; principal was ignored.",
+          "trap_reason_hi": "सिर्फ rate × time = 24 किया; principal ignore हुआ।"
+        }
+      ],
+      "explanation_method_en": "SI = PRT/100 = 6400×12×2/100 = 1536. Therefore, answer = ₹1536.",
+      "explanation_concept_en": "Simple interest charges the same interest on the original principal every year, so the formula is linear in P, R, and T. Final answer is ₹1536.",
+      "explanation_method_hi": "SI = PRT/100 = 6400×12×2/100 = 1536। अतः answer = ₹1536।",
+      "explanation_concept_hi": "Simple interest में हर साल original principal पर same interest लगता है, इसलिए formula P, R, T में linear है। Final answer ₹1536 है।"
+    },
+    {
+      "id": "sici-06",
+      "stem_en": "At what annual rate will ₹6000 earn ₹1440 simple interest in 4 years?",
+      "stem_hi": "₹6000 पर 4 वर्ष में ₹1440 simple interest पाने के लिए annual rate क्या होगी?",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "rate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "24%",
+          "text_hi": "24%",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time: 1440×100/6000=24%.",
+          "trap_reason_hi": "Time से divide नहीं किया: 1440×100/6000=24%।"
+        },
+        {
+          "label": "B",
+          "text_en": "6%",
+          "text_hi": "6%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "360%",
+          "text_hi": "360%",
+          "is_correct": false,
+          "trap_reason_en": "Divided interest by years but did not convert against principal into a rate.",
+          "trap_reason_hi": "Interest को years से divide किया पर principal के against rate नहीं निकाली।"
+        },
+        {
+          "label": "D",
+          "text_en": "0.07%",
+          "text_hi": "0.07%",
+          "is_correct": false,
+          "trap_reason_en": "Used time in place of interest in the rate formula.",
+          "trap_reason_hi": "Rate formula में interest की जगह time रख दिया।"
+        }
+      ],
+      "explanation_method_en": "R = SI×100/(P×T) = 1440×100/(6000×4) = 6%. Therefore, answer = 6%.",
+      "explanation_concept_en": "Rearrange SI = PRT/100. The rate is the annual percentage of principal that produces the given interest over the stated time. Final answer is 6%.",
+      "explanation_method_hi": "R = SI×100/(P×T) = 1440×100/(6000×4) = 6%। अतः answer = 6%।",
+      "explanation_concept_hi": "SI = PRT/100 को rearrange करें। Rate principal का annual percentage है जिससे given interest बनता है। Final answer 6% है।"
+    },
+    {
+      "id": "sici-07",
+      "stem_en": "At what annual rate will ₹8000 earn ₹1920 simple interest in 3 years?",
+      "stem_hi": "₹8000 पर 3 वर्ष में ₹1920 simple interest पाने के लिए annual rate क्या होगी?",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "rate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "24%",
+          "text_hi": "24%",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time: 1920×100/8000=24%.",
+          "trap_reason_hi": "Time से divide नहीं किया: 1920×100/8000=24%।"
+        },
+        {
+          "label": "B",
+          "text_en": "640%",
+          "text_hi": "640%",
+          "is_correct": false,
+          "trap_reason_en": "Divided interest by years but did not convert against principal into a rate.",
+          "trap_reason_hi": "Interest को years से divide किया पर principal के against rate नहीं निकाली।"
+        },
+        {
+          "label": "C",
+          "text_en": "8%",
+          "text_hi": "8%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "0.04%",
+          "text_hi": "0.04%",
+          "is_correct": false,
+          "trap_reason_en": "Used time in place of interest in the rate formula.",
+          "trap_reason_hi": "Rate formula में interest की जगह time रख दिया।"
+        }
+      ],
+      "explanation_method_en": "R = SI×100/(P×T) = 1920×100/(8000×3) = 8%. Therefore, answer = 8%.",
+      "explanation_concept_en": "Rearrange SI = PRT/100. The rate is the annual percentage of principal that produces the given interest over the stated time. Final answer is 8%.",
+      "explanation_method_hi": "R = SI×100/(P×T) = 1920×100/(8000×3) = 8%। अतः answer = 8%।",
+      "explanation_concept_hi": "SI = PRT/100 को rearrange करें। Rate principal का annual percentage है जिससे given interest बनता है। Final answer 8% है।"
+    },
+    {
+      "id": "sici-08",
+      "stem_en": "At what annual rate will ₹7500 earn ₹2250 simple interest in 5 years?",
+      "stem_hi": "₹7500 पर 5 वर्ष में ₹2250 simple interest पाने के लिए annual rate क्या होगी?",
+      "difficulty": "EASY",
+      "tags": [
+        "simple-interest",
+        "rate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "30%",
+          "text_hi": "30%",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time: 2250×100/7500=30%.",
+          "trap_reason_hi": "Time से divide नहीं किया: 2250×100/7500=30%।"
+        },
+        {
+          "label": "B",
+          "text_en": "450%",
+          "text_hi": "450%",
+          "is_correct": false,
+          "trap_reason_en": "Divided interest by years but did not convert against principal into a rate.",
+          "trap_reason_hi": "Interest को years से divide किया पर principal के against rate नहीं निकाली।"
+        },
+        {
+          "label": "C",
+          "text_en": "0.07%",
+          "text_hi": "0.07%",
+          "is_correct": false,
+          "trap_reason_en": "Used time in place of interest in the rate formula.",
+          "trap_reason_hi": "Rate formula में interest की जगह time रख दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "6%",
+          "text_hi": "6%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "R = SI×100/(P×T) = 2250×100/(7500×5) = 6%. Therefore, answer = 6%.",
+      "explanation_concept_en": "Rearrange SI = PRT/100. The rate is the annual percentage of principal that produces the given interest over the stated time. Final answer is 6%.",
+      "explanation_method_hi": "R = SI×100/(P×T) = 2250×100/(7500×5) = 6%। अतः answer = 6%।",
+      "explanation_concept_hi": "SI = PRT/100 को rearrange करें। Rate principal का annual percentage है जिससे given interest बनता है। Final answer 6% है।"
+    },
+    {
+      "id": "sici-09",
+      "stem_en": "At what annual rate will ₹10000 earn ₹1800 simple interest in 2 years?",
+      "stem_hi": "₹10000 पर 2 वर्ष में ₹1800 simple interest पाने के लिए annual rate क्या होगी?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simple-interest",
+        "rate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "9%",
+          "text_hi": "9%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "18%",
+          "text_hi": "18%",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time: 1800×100/10000=18%.",
+          "trap_reason_hi": "Time से divide नहीं किया: 1800×100/10000=18%।"
+        },
+        {
+          "label": "C",
+          "text_en": "900%",
+          "text_hi": "900%",
+          "is_correct": false,
+          "trap_reason_en": "Divided interest by years but did not convert against principal into a rate.",
+          "trap_reason_hi": "Interest को years से divide किया पर principal के against rate नहीं निकाली।"
+        },
+        {
+          "label": "D",
+          "text_en": "0.02%",
+          "text_hi": "0.02%",
+          "is_correct": false,
+          "trap_reason_en": "Used time in place of interest in the rate formula.",
+          "trap_reason_hi": "Rate formula में interest की जगह time रख दिया।"
+        }
+      ],
+      "explanation_method_en": "R = SI×100/(P×T) = 1800×100/(10000×2) = 9%. Therefore, answer = 9%.",
+      "explanation_concept_en": "Rearrange SI = PRT/100. The rate is the annual percentage of principal that produces the given interest over the stated time. Final answer is 9%.",
+      "explanation_method_hi": "R = SI×100/(P×T) = 1800×100/(10000×2) = 9%। अतः answer = 9%।",
+      "explanation_concept_hi": "SI = PRT/100 को rearrange करें। Rate principal का annual percentage है जिससे given interest बनता है। Final answer 9% है।"
+    },
+    {
+      "id": "sici-10",
+      "stem_en": "At what annual rate will ₹9600 earn ₹2304 simple interest in 4 years?",
+      "stem_hi": "₹9600 पर 4 वर्ष में ₹2304 simple interest पाने के लिए annual rate क्या होगी?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "simple-interest",
+        "rate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "24%",
+          "text_hi": "24%",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time: 2304×100/9600=24%.",
+          "trap_reason_hi": "Time से divide नहीं किया: 2304×100/9600=24%।"
+        },
+        {
+          "label": "B",
+          "text_en": "6%",
+          "text_hi": "6%",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "576%",
+          "text_hi": "576%",
+          "is_correct": false,
+          "trap_reason_en": "Divided interest by years but did not convert against principal into a rate.",
+          "trap_reason_hi": "Interest को years से divide किया पर principal के against rate नहीं निकाली।"
+        },
+        {
+          "label": "D",
+          "text_en": "0.04%",
+          "text_hi": "0.04%",
+          "is_correct": false,
+          "trap_reason_en": "Used time in place of interest in the rate formula.",
+          "trap_reason_hi": "Rate formula में interest की जगह time रख दिया।"
+        }
+      ],
+      "explanation_method_en": "R = SI×100/(P×T) = 2304×100/(9600×4) = 6%. Therefore, answer = 6%.",
+      "explanation_concept_en": "Rearrange SI = PRT/100. The rate is the annual percentage of principal that produces the given interest over the stated time. Final answer is 6%.",
+      "explanation_method_hi": "R = SI×100/(P×T) = 2304×100/(9600×4) = 6%। अतः answer = 6%।",
+      "explanation_concept_hi": "SI = PRT/100 को rearrange करें। Rate principal का annual percentage है जिससे given interest बनता है। Final answer 6% है।"
+    },
+    {
+      "id": "sici-11",
+      "stem_en": "Find the difference between compound interest and simple interest on ₹10000 at 10% for 2 years.",
+      "stem_hi": "₹10000 पर 10% दर से 2 वर्ष के लिए CI और SI का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "compound-interest",
+        "ci-si-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹2000",
+          "text_hi": "₹2000",
+          "is_correct": false,
+          "trap_reason_en": "Reported 2-year SI 10000×10×2/100=2000, not CI-SI difference.",
+          "trap_reason_hi": "2-year SI 2000 दे दिया, CI-SI difference नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹1000",
+          "text_hi": "₹1000",
+          "is_correct": false,
+          "trap_reason_en": "Reported one year's interest 1000; the difference is interest on first year's interest.",
+          "trap_reason_hi": "1-year interest 1000 दे दिया। Difference पहले साल के interest पर interest है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹100",
+          "text_hi": "₹100",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹200",
+          "text_hi": "₹200",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the two-year difference. For 2 years, CI-SI difference is exactly P(r/100)².",
+          "trap_reason_hi": "2-year difference को double कर दिया। 2 years के लिए CI-SI = P(r/100)² होता है।"
+        }
+      ],
+      "explanation_method_en": "For 2 years, CI-SI = P(r/100)² = 10000×(10/100)² = 100. Therefore, answer = ₹100.",
+      "explanation_concept_en": "In compound interest, the second year earns interest on the first year's interest. That extra interest over SI is P(r/100)^2 for 2 years. Final answer is ₹100.",
+      "explanation_method_hi": "2 years के लिए CI-SI = P(r/100)² = 10000×(10/100)² = 100। अतः answer = ₹100।",
+      "explanation_concept_hi": "CI में दूसरे साल पहले साल के interest पर भी interest लगता है। यही SI से extra amount है। Final answer ₹100 है।"
+    },
+    {
+      "id": "sici-12",
+      "stem_en": "Find the difference between compound interest and simple interest on ₹8000 at 5% for 2 years.",
+      "stem_hi": "₹8000 पर 5% दर से 2 वर्ष के लिए CI और SI का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "compound-interest",
+        "ci-si-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹800",
+          "text_hi": "₹800",
+          "is_correct": false,
+          "trap_reason_en": "Reported 2-year SI 8000×5×2/100=800, not CI-SI difference.",
+          "trap_reason_hi": "2-year SI 800 दे दिया, CI-SI difference नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹400",
+          "text_hi": "₹400",
+          "is_correct": false,
+          "trap_reason_en": "Reported one year's interest 400; the difference is interest on first year's interest.",
+          "trap_reason_hi": "1-year interest 400 दे दिया। Difference पहले साल के interest पर interest है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹40",
+          "text_hi": "₹40",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the two-year difference. For 2 years, CI-SI difference is exactly P(r/100)².",
+          "trap_reason_hi": "2-year difference को double कर दिया। 2 years के लिए CI-SI = P(r/100)² होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹20",
+          "text_hi": "₹20",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "For 2 years, CI-SI = P(r/100)² = 8000×(5/100)² = 20. Therefore, answer = ₹20.",
+      "explanation_concept_en": "In compound interest, the second year earns interest on the first year's interest. That extra interest over SI is P(r/100)^2 for 2 years. Final answer is ₹20.",
+      "explanation_method_hi": "2 years के लिए CI-SI = P(r/100)² = 8000×(5/100)² = 20। अतः answer = ₹20।",
+      "explanation_concept_hi": "CI में दूसरे साल पहले साल के interest पर भी interest लगता है। यही SI से extra amount है। Final answer ₹20 है।"
+    },
+    {
+      "id": "sici-13",
+      "stem_en": "Find the difference between compound interest and simple interest on ₹12000 at 8% for 2 years.",
+      "stem_hi": "₹12000 पर 8% दर से 2 वर्ष के लिए CI और SI का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "compound-interest",
+        "ci-si-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹76.8",
+          "text_hi": "₹76.8",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹1920",
+          "text_hi": "₹1920",
+          "is_correct": false,
+          "trap_reason_en": "Reported 2-year SI 12000×8×2/100=1920, not CI-SI difference.",
+          "trap_reason_hi": "2-year SI 1920 दे दिया, CI-SI difference नहीं।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹960",
+          "text_hi": "₹960",
+          "is_correct": false,
+          "trap_reason_en": "Reported one year's interest 960; the difference is interest on first year's interest.",
+          "trap_reason_hi": "1-year interest 960 दे दिया। Difference पहले साल के interest पर interest है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹153.6",
+          "text_hi": "₹153.6",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the two-year difference. For 2 years, CI-SI difference is exactly P(r/100)².",
+          "trap_reason_hi": "2-year difference को double कर दिया। 2 years के लिए CI-SI = P(r/100)² होता है।"
+        }
+      ],
+      "explanation_method_en": "For 2 years, CI-SI = P(r/100)² = 12000×(8/100)² = 76.8. Therefore, answer = ₹76.8.",
+      "explanation_concept_en": "In compound interest, the second year earns interest on the first year's interest. That extra interest over SI is P(r/100)^2 for 2 years. Final answer is ₹76.8.",
+      "explanation_method_hi": "2 years के लिए CI-SI = P(r/100)² = 12000×(8/100)² = 76.8। अतः answer = ₹76.8।",
+      "explanation_concept_hi": "CI में दूसरे साल पहले साल के interest पर भी interest लगता है। यही SI से extra amount है। Final answer ₹76.8 है।"
+    },
+    {
+      "id": "sici-14",
+      "stem_en": "Find the difference between compound interest and simple interest on ₹15000 at 6% for 2 years.",
+      "stem_hi": "₹15000 पर 6% दर से 2 वर्ष के लिए CI और SI का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "compound-interest",
+        "ci-si-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1800",
+          "text_hi": "₹1800",
+          "is_correct": false,
+          "trap_reason_en": "Reported 2-year SI 15000×6×2/100=1800, not CI-SI difference.",
+          "trap_reason_hi": "2-year SI 1800 दे दिया, CI-SI difference नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹54",
+          "text_hi": "₹54",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "₹900",
+          "text_hi": "₹900",
+          "is_correct": false,
+          "trap_reason_en": "Reported one year's interest 900; the difference is interest on first year's interest.",
+          "trap_reason_hi": "1-year interest 900 दे दिया। Difference पहले साल के interest पर interest है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹108",
+          "text_hi": "₹108",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the two-year difference. For 2 years, CI-SI difference is exactly P(r/100)².",
+          "trap_reason_hi": "2-year difference को double कर दिया। 2 years के लिए CI-SI = P(r/100)² होता है।"
+        }
+      ],
+      "explanation_method_en": "For 2 years, CI-SI = P(r/100)² = 15000×(6/100)² = 54. Therefore, answer = ₹54.",
+      "explanation_concept_en": "In compound interest, the second year earns interest on the first year's interest. That extra interest over SI is P(r/100)^2 for 2 years. Final answer is ₹54.",
+      "explanation_method_hi": "2 years के लिए CI-SI = P(r/100)² = 15000×(6/100)² = 54। अतः answer = ₹54।",
+      "explanation_concept_hi": "CI में दूसरे साल पहले साल के interest पर भी interest लगता है। यही SI से extra amount है। Final answer ₹54 है।"
+    },
+    {
+      "id": "sici-15",
+      "stem_en": "Find the difference between compound interest and simple interest on ₹20000 at 4% for 2 years.",
+      "stem_hi": "₹20000 पर 4% दर से 2 वर्ष के लिए CI और SI का difference ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "compound-interest",
+        "ci-si-difference"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1600",
+          "text_hi": "₹1600",
+          "is_correct": false,
+          "trap_reason_en": "Reported 2-year SI 20000×4×2/100=1600, not CI-SI difference.",
+          "trap_reason_hi": "2-year SI 1600 दे दिया, CI-SI difference नहीं।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹800",
+          "text_hi": "₹800",
+          "is_correct": false,
+          "trap_reason_en": "Reported one year's interest 800; the difference is interest on first year's interest.",
+          "trap_reason_hi": "1-year interest 800 दे दिया। Difference पहले साल के interest पर interest है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹32",
+          "text_hi": "₹32",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹64",
+          "text_hi": "₹64",
+          "is_correct": false,
+          "trap_reason_en": "Doubled the two-year difference. For 2 years, CI-SI difference is exactly P(r/100)².",
+          "trap_reason_hi": "2-year difference को double कर दिया। 2 years के लिए CI-SI = P(r/100)² होता है।"
+        }
+      ],
+      "explanation_method_en": "For 2 years, CI-SI = P(r/100)² = 20000×(4/100)² = 32. Therefore, answer = ₹32.",
+      "explanation_concept_en": "In compound interest, the second year earns interest on the first year's interest. That extra interest over SI is P(r/100)^2 for 2 years. Final answer is ₹32.",
+      "explanation_method_hi": "2 years के लिए CI-SI = P(r/100)² = 20000×(4/100)² = 32। अतः answer = ₹32।",
+      "explanation_concept_hi": "CI में दूसरे साल पहले साल के interest पर भी interest लगता है। यही SI से extra amount है। Final answer ₹32 है।"
+    },
+    {
+      "id": "sici-16",
+      "stem_en": "Find the compound amount on ₹4000 at 10% per annum for 2 years, compounded annually.",
+      "stem_hi": "₹4000 पर 10% वार्षिक दर से 2 वर्ष का compound amount ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "compound-interest",
+        "amount"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹800",
+          "text_hi": "₹800",
+          "is_correct": false,
+          "trap_reason_en": "Reported CI as if it were simple interest, and also omitted principal from amount.",
+          "trap_reason_hi": "Simple interest जैसा calculate किया और amount में principal भी नहीं जोड़ा।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹4800",
+          "text_hi": "₹4800",
+          "is_correct": false,
+          "trap_reason_en": "Used simple amount 4000+800; compounding requires multiplying by (1+r/100)^2.",
+          "trap_reason_hi": "Simple amount 4800 लिया। Compounding में (1+r/100)^2 multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹4400",
+          "text_hi": "₹4400",
+          "is_correct": false,
+          "trap_reason_en": "Compounded for only 1 year: 4000×1.1. Time is 2 years.",
+          "trap_reason_hi": "सिर्फ 1 साल compound किया। Time 2 years है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹4840",
+          "text_hi": "₹4840",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Amount = P(1+r/100)^t = 4000(1+10/100)^2 = 4840. Therefore, answer = ₹4840.",
+      "explanation_concept_en": "Compound amount grows on the updated balance each year, so the annual multiplier is applied repeatedly for t years. Final answer is ₹4840.",
+      "explanation_method_hi": "Amount = P(1+r/100)^t = 4000(1+10/100)^2 = 4840। अतः answer = ₹4840।",
+      "explanation_concept_hi": "Compound amount हर साल updated balance पर बढ़ता है, इसलिए annual multiplier t years तक repeat होता है। Final answer ₹4840 है।"
+    },
+    {
+      "id": "sici-17",
+      "stem_en": "Find the compound amount on ₹5000 at 20% per annum for 2 years, compounded annually.",
+      "stem_hi": "₹5000 पर 20% वार्षिक दर से 2 वर्ष का compound amount ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "compound-interest",
+        "amount"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹7200",
+          "text_hi": "₹7200",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹2000",
+          "text_hi": "₹2000",
+          "is_correct": false,
+          "trap_reason_en": "Reported CI as if it were simple interest, and also omitted principal from amount.",
+          "trap_reason_hi": "Simple interest जैसा calculate किया और amount में principal भी नहीं जोड़ा।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹7000",
+          "text_hi": "₹7000",
+          "is_correct": false,
+          "trap_reason_en": "Used simple amount 5000+2000; compounding requires multiplying by (1+r/100)^2.",
+          "trap_reason_hi": "Simple amount 7000 लिया। Compounding में (1+r/100)^2 multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹6000",
+          "text_hi": "₹6000",
+          "is_correct": false,
+          "trap_reason_en": "Compounded for only 1 year: 5000×1.2. Time is 2 years.",
+          "trap_reason_hi": "सिर्फ 1 साल compound किया। Time 2 years है।"
+        }
+      ],
+      "explanation_method_en": "Amount = P(1+r/100)^t = 5000(1+20/100)^2 = 7200. Therefore, answer = ₹7200.",
+      "explanation_concept_en": "Compound amount grows on the updated balance each year, so the annual multiplier is applied repeatedly for t years. Final answer is ₹7200.",
+      "explanation_method_hi": "Amount = P(1+r/100)^t = 5000(1+20/100)^2 = 7200। अतः answer = ₹7200।",
+      "explanation_concept_hi": "Compound amount हर साल updated balance पर बढ़ता है, इसलिए annual multiplier t years तक repeat होता है। Final answer ₹7200 है।"
+    },
+    {
+      "id": "sici-18",
+      "stem_en": "Find the compound amount on ₹6250 at 8% per annum for 2 years, compounded annually.",
+      "stem_hi": "₹6250 पर 8% वार्षिक दर से 2 वर्ष का compound amount ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "compound-interest",
+        "amount"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1000",
+          "text_hi": "₹1000",
+          "is_correct": false,
+          "trap_reason_en": "Reported CI as if it were simple interest, and also omitted principal from amount.",
+          "trap_reason_hi": "Simple interest जैसा calculate किया और amount में principal भी नहीं जोड़ा।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹7290",
+          "text_hi": "₹7290",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "₹7250",
+          "text_hi": "₹7250",
+          "is_correct": false,
+          "trap_reason_en": "Used simple amount 6250+1000; compounding requires multiplying by (1+r/100)^2.",
+          "trap_reason_hi": "Simple amount 7250 लिया। Compounding में (1+r/100)^2 multiply होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹6750",
+          "text_hi": "₹6750",
+          "is_correct": false,
+          "trap_reason_en": "Compounded for only 1 year: 6250×1.08. Time is 2 years.",
+          "trap_reason_hi": "सिर्फ 1 साल compound किया। Time 2 years है।"
+        }
+      ],
+      "explanation_method_en": "Amount = P(1+r/100)^t = 6250(1+8/100)^2 = 7290. Therefore, answer = ₹7290.",
+      "explanation_concept_en": "Compound amount grows on the updated balance each year, so the annual multiplier is applied repeatedly for t years. Final answer is ₹7290.",
+      "explanation_method_hi": "Amount = P(1+r/100)^t = 6250(1+8/100)^2 = 7290। अतः answer = ₹7290।",
+      "explanation_concept_hi": "Compound amount हर साल updated balance पर बढ़ता है, इसलिए annual multiplier t years तक repeat होता है। Final answer ₹7290 है।"
+    },
+    {
+      "id": "sici-19",
+      "stem_en": "Find the compound amount on ₹10000 at 5% per annum for 3 years, compounded annually.",
+      "stem_hi": "₹10000 पर 5% वार्षिक दर से 3 वर्ष का compound amount ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "compound-interest",
+        "amount"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹1500",
+          "text_hi": "₹1500",
+          "is_correct": false,
+          "trap_reason_en": "Reported CI as if it were simple interest, and also omitted principal from amount.",
+          "trap_reason_hi": "Simple interest जैसा calculate किया और amount में principal भी नहीं जोड़ा।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹11500",
+          "text_hi": "₹11500",
+          "is_correct": false,
+          "trap_reason_en": "Used simple amount 10000+1500; compounding requires multiplying by (1+r/100)^3.",
+          "trap_reason_hi": "Simple amount 11500 लिया। Compounding में (1+r/100)^3 multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹11576.25",
+          "text_hi": "₹11576.25",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹10500",
+          "text_hi": "₹10500",
+          "is_correct": false,
+          "trap_reason_en": "Compounded for only 1 year: 10000×1.05. Time is 3 years.",
+          "trap_reason_hi": "सिर्फ 1 साल compound किया। Time 3 years है।"
+        }
+      ],
+      "explanation_method_en": "Amount = P(1+r/100)^t = 10000(1+5/100)^3 = 11576.25. Therefore, answer = ₹11576.25.",
+      "explanation_concept_en": "Compound amount grows on the updated balance each year, so the annual multiplier is applied repeatedly for t years. Final answer is ₹11576.25.",
+      "explanation_method_hi": "Amount = P(1+r/100)^t = 10000(1+5/100)^3 = 11576.25। अतः answer = ₹11576.25।",
+      "explanation_concept_hi": "Compound amount हर साल updated balance पर बढ़ता है, इसलिए annual multiplier t years तक repeat होता है। Final answer ₹11576.25 है।"
+    },
+    {
+      "id": "sici-20",
+      "stem_en": "Find the compound amount on ₹8000 at 10% per annum for 3 years, compounded annually.",
+      "stem_hi": "₹8000 पर 10% वार्षिक दर से 3 वर्ष का compound amount ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "compound-interest",
+        "amount"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹2400",
+          "text_hi": "₹2400",
+          "is_correct": false,
+          "trap_reason_en": "Reported CI as if it were simple interest, and also omitted principal from amount.",
+          "trap_reason_hi": "Simple interest जैसा calculate किया और amount में principal भी नहीं जोड़ा।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹10400",
+          "text_hi": "₹10400",
+          "is_correct": false,
+          "trap_reason_en": "Used simple amount 8000+2400; compounding requires multiplying by (1+r/100)^3.",
+          "trap_reason_hi": "Simple amount 10400 लिया। Compounding में (1+r/100)^3 multiply होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹8800",
+          "text_hi": "₹8800",
+          "is_correct": false,
+          "trap_reason_en": "Compounded for only 1 year: 8000×1.1. Time is 3 years.",
+          "trap_reason_hi": "सिर्फ 1 साल compound किया। Time 3 years है।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹10648",
+          "text_hi": "₹10648",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Amount = P(1+r/100)^t = 8000(1+10/100)^3 = 10648. Therefore, answer = ₹10648.",
+      "explanation_concept_en": "Compound amount grows on the updated balance each year, so the annual multiplier is applied repeatedly for t years. Final answer is ₹10648.",
+      "explanation_method_hi": "Amount = P(1+r/100)^t = 8000(1+10/100)^3 = 10648। अतः answer = ₹10648।",
+      "explanation_concept_hi": "Compound amount हर साल updated balance पर बढ़ता है, इसलिए annual multiplier t years तक repeat होता है। Final answer ₹10648 है।"
+    },
+    {
+      "id": "sici-21",
+      "stem_en": "₹960 simple interest is earned at 8% per annum in 3 years. Find the principal.",
+      "stem_hi": "8% वार्षिक दर पर 3 वर्ष में ₹960 simple interest मिला। Principal ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "simple-interest",
+        "principal"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹4000",
+          "text_hi": "₹4000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹12000",
+          "text_hi": "₹12000",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time 3; this gives the principal for one year only.",
+          "trap_reason_hi": "Time 3 से divide नहीं किया; यह सिर्फ 1 year वाला principal देता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹2880",
+          "text_hi": "₹2880",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied interest by years instead of rearranging SI = PRT/100.",
+          "trap_reason_hi": "SI = PRT/100 rearrange करने की जगह interest को years से multiply किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹230.4",
+          "text_hi": "₹230.4",
+          "is_correct": false,
+          "trap_reason_en": "Applied the SI formula forward to the interest amount itself instead of solving for principal.",
+          "trap_reason_hi": "Principal निकालने की जगह interest amount पर ही SI formula लगा दिया।"
+        }
+      ],
+      "explanation_method_en": "From SI = PRT/100, P = SI×100/(R×T) = 960×100/(8×3) = 4000. Therefore, answer = ₹4000.",
+      "explanation_concept_en": "Principal is the base amount. When interest, rate, and time are known, reverse the simple-interest formula to isolate P. Final answer is ₹4000.",
+      "explanation_method_hi": "SI = PRT/100 से P = SI×100/(R×T) = 960×100/(8×3) = 4000। अतः answer = ₹4000।",
+      "explanation_concept_hi": "Principal base amount है। Interest, rate और time दिए हों तो SI formula reverse करके P निकालते हैं। Final answer ₹4000 है।"
+    },
+    {
+      "id": "sici-22",
+      "stem_en": "₹1500 simple interest is earned at 10% per annum in 3 years. Find the principal.",
+      "stem_hi": "10% वार्षिक दर पर 3 वर्ष में ₹1500 simple interest मिला। Principal ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "simple-interest",
+        "principal"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹15000",
+          "text_hi": "₹15000",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time 3; this gives the principal for one year only.",
+          "trap_reason_hi": "Time 3 से divide नहीं किया; यह सिर्फ 1 year वाला principal देता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹5000",
+          "text_hi": "₹5000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "₹4500",
+          "text_hi": "₹4500",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied interest by years instead of rearranging SI = PRT/100.",
+          "trap_reason_hi": "SI = PRT/100 rearrange करने की जगह interest को years से multiply किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹450",
+          "text_hi": "₹450",
+          "is_correct": false,
+          "trap_reason_en": "Applied the SI formula forward to the interest amount itself instead of solving for principal.",
+          "trap_reason_hi": "Principal निकालने की जगह interest amount पर ही SI formula लगा दिया।"
+        }
+      ],
+      "explanation_method_en": "From SI = PRT/100, P = SI×100/(R×T) = 1500×100/(10×3) = 5000. Therefore, answer = ₹5000.",
+      "explanation_concept_en": "Principal is the base amount. When interest, rate, and time are known, reverse the simple-interest formula to isolate P. Final answer is ₹5000.",
+      "explanation_method_hi": "SI = PRT/100 से P = SI×100/(R×T) = 1500×100/(10×3) = 5000। अतः answer = ₹5000।",
+      "explanation_concept_hi": "Principal base amount है। Interest, rate और time दिए हों तो SI formula reverse करके P निकालते हैं। Final answer ₹5000 है।"
+    },
+    {
+      "id": "sici-23",
+      "stem_en": "₹2160 simple interest is earned at 12% per annum in 3 years. Find the principal.",
+      "stem_hi": "12% वार्षिक दर पर 3 वर्ष में ₹2160 simple interest मिला। Principal ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "simple-interest",
+        "principal"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹18000",
+          "text_hi": "₹18000",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time 3; this gives the principal for one year only.",
+          "trap_reason_hi": "Time 3 से divide नहीं किया; यह सिर्फ 1 year वाला principal देता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹6480",
+          "text_hi": "₹6480",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied interest by years instead of rearranging SI = PRT/100.",
+          "trap_reason_hi": "SI = PRT/100 rearrange करने की जगह interest को years से multiply किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹6000",
+          "text_hi": "₹6000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "₹777.6",
+          "text_hi": "₹777.6",
+          "is_correct": false,
+          "trap_reason_en": "Applied the SI formula forward to the interest amount itself instead of solving for principal.",
+          "trap_reason_hi": "Principal निकालने की जगह interest amount पर ही SI formula लगा दिया।"
+        }
+      ],
+      "explanation_method_en": "From SI = PRT/100, P = SI×100/(R×T) = 2160×100/(12×3) = 6000. Therefore, answer = ₹6000.",
+      "explanation_concept_en": "Principal is the base amount. When interest, rate, and time are known, reverse the simple-interest formula to isolate P. Final answer is ₹6000.",
+      "explanation_method_hi": "SI = PRT/100 से P = SI×100/(R×T) = 2160×100/(12×3) = 6000। अतः answer = ₹6000।",
+      "explanation_concept_hi": "Principal base amount है। Interest, rate और time दिए हों तो SI formula reverse करके P निकालते हैं। Final answer ₹6000 है।"
+    },
+    {
+      "id": "sici-24",
+      "stem_en": "₹2520 simple interest is earned at 7% per annum in 4 years. Find the principal.",
+      "stem_hi": "7% वार्षिक दर पर 4 वर्ष में ₹2520 simple interest मिला। Principal ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "simple-interest",
+        "principal"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹36000",
+          "text_hi": "₹36000",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time 4; this gives the principal for one year only.",
+          "trap_reason_hi": "Time 4 से divide नहीं किया; यह सिर्फ 1 year वाला principal देता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "₹10080",
+          "text_hi": "₹10080",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied interest by years instead of rearranging SI = PRT/100.",
+          "trap_reason_hi": "SI = PRT/100 rearrange करने की जगह interest को years से multiply किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹705.6",
+          "text_hi": "₹705.6",
+          "is_correct": false,
+          "trap_reason_en": "Applied the SI formula forward to the interest amount itself instead of solving for principal.",
+          "trap_reason_hi": "Principal निकालने की जगह interest amount पर ही SI formula लगा दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹9000",
+          "text_hi": "₹9000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "From SI = PRT/100, P = SI×100/(R×T) = 2520×100/(7×4) = 9000. Therefore, answer = ₹9000.",
+      "explanation_concept_en": "Principal is the base amount. When interest, rate, and time are known, reverse the simple-interest formula to isolate P. Final answer is ₹9000.",
+      "explanation_method_hi": "SI = PRT/100 से P = SI×100/(R×T) = 2520×100/(7×4) = 9000। अतः answer = ₹9000।",
+      "explanation_concept_hi": "Principal base amount है। Interest, rate और time दिए हों तो SI formula reverse करके P निकालते हैं। Final answer ₹9000 है।"
+    },
+    {
+      "id": "sici-25",
+      "stem_en": "₹3840 simple interest is earned at 8% per annum in 6 years. Find the principal.",
+      "stem_hi": "8% वार्षिक दर पर 6 वर्ष में ₹3840 simple interest मिला। Principal ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "simple-interest",
+        "principal"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "₹8000",
+          "text_hi": "₹8000",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "₹48000",
+          "text_hi": "₹48000",
+          "is_correct": false,
+          "trap_reason_en": "Forgot to divide by time 6; this gives the principal for one year only.",
+          "trap_reason_hi": "Time 6 से divide नहीं किया; यह सिर्फ 1 year वाला principal देता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "₹23040",
+          "text_hi": "₹23040",
+          "is_correct": false,
+          "trap_reason_en": "Multiplied interest by years instead of rearranging SI = PRT/100.",
+          "trap_reason_hi": "SI = PRT/100 rearrange करने की जगह interest को years से multiply किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "₹1843.2",
+          "text_hi": "₹1843.2",
+          "is_correct": false,
+          "trap_reason_en": "Applied the SI formula forward to the interest amount itself instead of solving for principal.",
+          "trap_reason_hi": "Principal निकालने की जगह interest amount पर ही SI formula लगा दिया।"
+        }
+      ],
+      "explanation_method_en": "From SI = PRT/100, P = SI×100/(R×T) = 3840×100/(8×6) = 8000. Therefore, answer = ₹8000.",
+      "explanation_concept_en": "Principal is the base amount. When interest, rate, and time are known, reverse the simple-interest formula to isolate P. Final answer is ₹8000.",
+      "explanation_method_hi": "SI = PRT/100 से P = SI×100/(R×T) = 3840×100/(8×6) = 8000। अतः answer = ₹8000।",
+      "explanation_concept_hi": "Principal base amount है। Interest, rate और time दिए हों तो SI formula reverse करके P निकालते हैं। Final answer ₹8000 है।"
+    }
+  ]
+}

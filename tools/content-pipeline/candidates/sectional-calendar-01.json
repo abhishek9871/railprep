@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Calendar. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-calendar-01",
+  "title_en": "Calendar — Sectional",
+  "title_hi": "Calendar — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Calendar",
+    "title_hi": "Calendar",
+    "subject_hint": "reasoning"
+  },
+  "questions": [
+    {
+      "id": "cal-01",
+      "stem_en": "If today is Monday, what day will it be after 45 days?",
+      "stem_hi": "यदि आज Monday है, तो 45 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 45 days means add 45 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 45 days बाद का मतलब 45 mod 7 add करना है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 45 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "45 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 45 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "45 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "45 mod 7 = 3. Move 3 days from Monday; the day is Thursday. Therefore, answer = Thursday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Thursday.",
+      "explanation_method_hi": "45 mod 7 = 3। Monday से 3 days आगे बढ़ें; day Thursday होगा। अतः answer = Thursday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Thursday है।"
+    },
+    {
+      "id": "cal-02",
+      "stem_en": "If today is Wednesday, what day will it be after 31 days?",
+      "stem_hi": "यदि आज Wednesday है, तो 31 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 31 days means add 31 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 31 days बाद का मतलब 31 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 31 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "31 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Wednesday",
+          "text_hi": "Wednesday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 31 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "31 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "31 mod 7 = 3. Move 3 days from Wednesday; the day is Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Saturday.",
+      "explanation_method_hi": "31 mod 7 = 3। Wednesday से 3 days आगे बढ़ें; day Saturday होगा। अतः answer = Saturday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-03",
+      "stem_en": "If today is Friday, what day will it be after 64 days?",
+      "stem_hi": "यदि आज Friday है, तो 64 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 64 days means add 64 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 64 days बाद का मतलब 64 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 64 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "64 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 64 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "64 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "64 mod 7 = 1. Move 1 days from Friday; the day is Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Saturday.",
+      "explanation_method_hi": "64 mod 7 = 1। Friday से 1 days आगे बढ़ें; day Saturday होगा। अतः answer = Saturday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-04",
+      "stem_en": "If today is Sunday, what day will it be after 100 days?",
+      "stem_hi": "यदि आज Sunday है, तो 100 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Wednesday",
+          "text_hi": "Wednesday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 100 days means add 100 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 100 days बाद का मतलब 100 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 100 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "100 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 100 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "100 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        },
+        {
+          "label": "D",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "100 mod 7 = 2. Move 2 days from Sunday; the day is Tuesday. Therefore, answer = Tuesday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Tuesday.",
+      "explanation_method_hi": "100 mod 7 = 2। Sunday से 2 days आगे बढ़ें; day Tuesday होगा। अतः answer = Tuesday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Tuesday है।"
+    },
+    {
+      "id": "cal-05",
+      "stem_en": "If today is Tuesday, what day will it be after 17 days?",
+      "stem_hi": "यदि आज Tuesday है, तो 17 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 17 days means add 17 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 17 days बाद का मतलब 17 mod 7 add करना है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 17 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "17 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 17 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "17 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "17 mod 7 = 3. Move 3 days from Tuesday; the day is Friday. Therefore, answer = Friday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Friday.",
+      "explanation_method_hi": "17 mod 7 = 3। Tuesday से 3 days आगे बढ़ें; day Friday होगा। अतः answer = Friday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Friday है।"
+    },
+    {
+      "id": "cal-06",
+      "stem_en": "If today is Thursday, what day will it be after 52 days?",
+      "stem_hi": "यदि आज Thursday है, तो 52 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 52 days means add 52 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 52 days बाद का मतलब 52 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 52 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "52 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 52 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "52 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "52 mod 7 = 3. Move 3 days from Thursday; the day is Sunday. Therefore, answer = Sunday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Sunday.",
+      "explanation_method_hi": "52 mod 7 = 3। Thursday से 3 days आगे बढ़ें; day Sunday होगा। अतः answer = Sunday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Sunday है।"
+    },
+    {
+      "id": "cal-07",
+      "stem_en": "If today is Saturday, what day will it be after 73 days?",
+      "stem_hi": "यदि आज Saturday है, तो 73 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Wednesday",
+          "text_hi": "Wednesday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 73 days means add 73 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 73 days बाद का मतलब 73 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 73 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "73 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 73 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "73 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        }
+      ],
+      "explanation_method_en": "73 mod 7 = 3. Move 3 days from Saturday; the day is Tuesday. Therefore, answer = Tuesday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Tuesday.",
+      "explanation_method_hi": "73 mod 7 = 3। Saturday से 3 days आगे बढ़ें; day Tuesday होगा। अतः answer = Tuesday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Tuesday है।"
+    },
+    {
+      "id": "cal-08",
+      "stem_en": "If today is Monday, what day will it be after 87 days?",
+      "stem_hi": "यदि आज Monday है, तो 87 days बाद कौन सा day होगा?",
+      "difficulty": "EASY",
+      "tags": [
+        "calendar",
+        "odd-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Counted today as day 1 and shifted one extra day. After 87 days means add 87 mod 7.",
+          "trap_reason_hi": "आज को day 1 count करके एक extra day shift कर दिया। 87 days बाद का मतलब 87 mod 7 add करना है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Reduced 87 by 7 incorrectly and moved two days too far.",
+          "trap_reason_hi": "87 को 7 से गलत reduce किया और two days आगे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Assumed the same day repeats without checking 87 mod 7. Same day occurs only if remainder is 0.",
+          "trap_reason_hi": "87 mod 7 check किए बिना same day मान लिया। Same day तभी होगा जब remainder 0 हो।"
+        },
+        {
+          "label": "D",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "87 mod 7 = 3. Move 3 days from Monday; the day is Thursday. Therefore, answer = Thursday.",
+      "explanation_concept_en": "Calendar days repeat every 7 days. The remainder on division by 7 gives the effective shift from the starting day. Final answer is Thursday.",
+      "explanation_method_hi": "87 mod 7 = 3। Monday से 3 days आगे बढ़ें; day Thursday होगा। अतः answer = Thursday।",
+      "explanation_concept_hi": "Calendar days हर 7 days में repeat होते हैं। 7 से remainder effective shift बताता है। Final answer Thursday है।"
+    },
+    {
+      "id": "cal-09",
+      "stem_en": "Is 2024 a leap year?",
+      "stem_hi": "क्या 2024 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "2024 is not a century year, so check divisibility by 4: remainder 0. Result: Leap year. Therefore, answer = Leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Leap year.",
+      "explanation_method_hi": "2024 century year नहीं है, इसलिए 4 से divisibility check करें: remainder 0. Result: Leap year. अतः answer = Leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Leap year है।"
+    },
+    {
+      "id": "cal-10",
+      "stem_en": "Is 1900 a leap year?",
+      "stem_hi": "क्या 1900 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "1900 is a century year, so check divisibility by 400: remainder 300. Result: Not a leap year. Therefore, answer = Not a leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Not a leap year.",
+      "explanation_method_hi": "1900 century year है, इसलिए 400 से divisibility check करें: remainder 300. Result: Not a leap year. अतः answer = Not a leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Not a leap year है।"
+    },
+    {
+      "id": "cal-11",
+      "stem_en": "Is 2000 a leap year?",
+      "stem_hi": "क्या 2000 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "2000 is a century year, so check divisibility by 400: remainder 0. Result: Leap year. Therefore, answer = Leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Leap year.",
+      "explanation_method_hi": "2000 century year है, इसलिए 400 से divisibility check करें: remainder 0. Result: Leap year. अतः answer = Leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Leap year है।"
+    },
+    {
+      "id": "cal-12",
+      "stem_en": "Is 2100 a leap year?",
+      "stem_hi": "क्या 2100 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "2100 is a century year, so check divisibility by 400: remainder 100. Result: Not a leap year. Therefore, answer = Not a leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Not a leap year.",
+      "explanation_method_hi": "2100 century year है, इसलिए 400 से divisibility check करें: remainder 100. Result: Not a leap year. अतः answer = Not a leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Not a leap year है।"
+    },
+    {
+      "id": "cal-13",
+      "stem_en": "Is 2026 a leap year?",
+      "stem_hi": "क्या 2026 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "2026 is not a century year, so check divisibility by 4: remainder 2. Result: Not a leap year. Therefore, answer = Not a leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Not a leap year.",
+      "explanation_method_hi": "2026 century year नहीं है, इसलिए 4 से divisibility check करें: remainder 2. Result: Not a leap year. अतः answer = Not a leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Not a leap year है।"
+    },
+    {
+      "id": "cal-14",
+      "stem_en": "Is 2400 a leap year?",
+      "stem_hi": "क्या 2400 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "2400 is a century year, so check divisibility by 400: remainder 0. Result: Leap year. Therefore, answer = Leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Leap year.",
+      "explanation_method_hi": "2400 century year है, इसलिए 400 से divisibility check करें: remainder 0. Result: Leap year. अतः answer = Leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Leap year है।"
+    },
+    {
+      "id": "cal-15",
+      "stem_en": "Is 1800 a leap year?",
+      "stem_hi": "क्या 1800 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "1800 is a century year, so check divisibility by 400: remainder 200. Result: Not a leap year. Therefore, answer = Not a leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Not a leap year.",
+      "explanation_method_hi": "1800 century year है, इसलिए 400 से divisibility check करें: remainder 200. Result: Not a leap year. अतः answer = Not a leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Not a leap year है।"
+    },
+    {
+      "id": "cal-16",
+      "stem_en": "Is 1996 a leap year?",
+      "stem_hi": "क्या 1996 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "B",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "1996 is not a century year, so check divisibility by 4: remainder 0. Result: Leap year. Therefore, answer = Leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Leap year.",
+      "explanation_method_hi": "1996 century year नहीं है, इसलिए 4 से divisibility check करें: remainder 0. Result: Leap year. अतः answer = Leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Leap year है।"
+    },
+    {
+      "id": "cal-17",
+      "stem_en": "Is 2028 a leap year?",
+      "stem_hi": "क्या 2028 leap year है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "calendar",
+        "leap-year"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Leap year",
+          "text_hi": "Leap year",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Not a leap year",
+          "text_hi": "Not a leap year",
+          "is_correct": false,
+          "trap_reason_en": "Ignored the century rule. Century years must be divisible by 400; other years divisible by 4 are leap years.",
+          "trap_reason_hi": "Century rule ignore किया। Century years 400 से divisible होने चाहिए; बाकी 4 से divisible years leap होते हैं।"
+        },
+        {
+          "label": "C",
+          "text_en": "Cannot be decided",
+          "text_hi": "Cannot be decided",
+          "is_correct": false,
+          "trap_reason_en": "Treated a standard Gregorian leap-year rule as missing data. The year alone is sufficient.",
+          "trap_reason_hi": "Gregorian leap-year rule के लिए extra data माँगा। Year alone sufficient है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Only if February has 29 days in the given calendar",
+          "text_hi": "Only if February has 29 days in the given calendar",
+          "is_correct": false,
+          "trap_reason_en": "Restated the consequence instead of applying the divisibility rule.",
+          "trap_reason_hi": "Rule apply करने की जगह consequence बोल दिया।"
+        }
+      ],
+      "explanation_method_en": "2028 is not a century year, so check divisibility by 4: remainder 0. Result: Leap year. Therefore, answer = Leap year.",
+      "explanation_concept_en": "In the Gregorian calendar, leap years are divisible by 4, but century years must be divisible by 400. This exception removes three leap days every 400 years. Final answer is Leap year.",
+      "explanation_method_hi": "2028 century year नहीं है, इसलिए 4 से divisibility check करें: remainder 0. Result: Leap year. अतः answer = Leap year।",
+      "explanation_concept_hi": "Gregorian calendar में leap year 4 से divisible होता है, लेकिन century year को 400 से divisible होना चाहिए। Final answer Leap year है।"
+    },
+    {
+      "id": "cal-18",
+      "stem_en": "What was the day of the week on 25-04-2026?",
+      "stem_hi": "25-04-2026 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 25; reducing the total modulo 7 gives Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Saturday.",
+      "explanation_method_hi": "Completed years, months और date 25 के odd days जोड़ें; total को mod 7 करने पर Saturday मिलता है। अतः answer = Saturday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-19",
+      "stem_en": "What was the day of the week on 15-08-2025?",
+      "stem_hi": "15-08-2025 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 15; reducing the total modulo 7 gives Friday. Therefore, answer = Friday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Friday.",
+      "explanation_method_hi": "Completed years, months और date 15 के odd days जोड़ें; total को mod 7 करने पर Friday मिलता है। अतः answer = Friday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Friday है।"
+    },
+    {
+      "id": "cal-20",
+      "stem_en": "What was the day of the week on 26-01-2024?",
+      "stem_hi": "26-01-2024 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 26; reducing the total modulo 7 gives Friday. Therefore, answer = Friday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Friday.",
+      "explanation_method_hi": "Completed years, months और date 26 के odd days जोड़ें; total को mod 7 करने पर Friday मिलता है। अतः answer = Friday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Friday है।"
+    },
+    {
+      "id": "cal-21",
+      "stem_en": "What was the day of the week on 02-10-2023?",
+      "stem_hi": "02-10-2023 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Wednesday",
+          "text_hi": "Wednesday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 2; reducing the total modulo 7 gives Monday. Therefore, answer = Monday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Monday.",
+      "explanation_method_hi": "Completed years, months और date 2 के odd days जोड़ें; total को mod 7 करने पर Monday मिलता है। अतः answer = Monday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Monday है।"
+    },
+    {
+      "id": "cal-22",
+      "stem_en": "What was the day of the week on 01-01-2022?",
+      "stem_hi": "01-01-2022 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 1; reducing the total modulo 7 gives Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Saturday.",
+      "explanation_method_hi": "Completed years, months और date 1 के odd days जोड़ें; total को mod 7 करने पर Saturday मिलता है। अतः answer = Saturday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-23",
+      "stem_en": "What was the day of the week on 25-12-2021?",
+      "stem_hi": "25-12-2021 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 25; reducing the total modulo 7 gives Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Saturday.",
+      "explanation_method_hi": "Completed years, months और date 25 के odd days जोड़ें; total को mod 7 करने पर Saturday मिलता है। अतः answer = Saturday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-24",
+      "stem_en": "What was the day of the week on 29-02-2020?",
+      "stem_hi": "29-02-2020 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sunday",
+          "text_hi": "Sunday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "B",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "C",
+          "text_en": "Monday",
+          "text_hi": "Monday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Saturday",
+          "text_hi": "Saturday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 29; reducing the total modulo 7 gives Saturday. Therefore, answer = Saturday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Saturday.",
+      "explanation_method_hi": "Completed years, months और date 29 के odd days जोड़ें; total को mod 7 करने पर Saturday मिलता है। अतः answer = Saturday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Saturday है।"
+    },
+    {
+      "id": "cal-25",
+      "stem_en": "What was the day of the week on 05-06-2019?",
+      "stem_hi": "05-06-2019 को कौन सा day था?",
+      "difficulty": "HARD",
+      "tags": [
+        "calendar",
+        "weekday"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Wednesday",
+          "text_hi": "Wednesday",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Thursday",
+          "text_hi": "Thursday",
+          "is_correct": false,
+          "trap_reason_en": "Made an off-by-one shift while counting odd days.",
+          "trap_reason_hi": "Odd days count करते समय one-day extra shift हो गया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Tuesday",
+          "text_hi": "Tuesday",
+          "is_correct": false,
+          "trap_reason_en": "Moved one day backward due to excluding the target date.",
+          "trap_reason_hi": "Target date exclude करने से one day पीछे चले गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Friday",
+          "text_hi": "Friday",
+          "is_correct": false,
+          "trap_reason_en": "Miscounted month odd days by two.",
+          "trap_reason_hi": "Month odd days दो से गलत count हुए।"
+        }
+      ],
+      "explanation_method_en": "Use odd days for completed years, completed months, and date 5; reducing the total modulo 7 gives Wednesday. Therefore, answer = Wednesday.",
+      "explanation_concept_en": "Every block of seven days returns to the same weekday. Calendar questions reduce the total elapsed odd days modulo seven. Final answer is Wednesday.",
+      "explanation_method_hi": "Completed years, months और date 5 के odd days जोड़ें; total को mod 7 करने पर Wednesday मिलता है। अतः answer = Wednesday।",
+      "explanation_concept_hi": "हर 7 days के बाद same weekday आता है। Calendar questions elapsed odd days को modulo 7 reduce करते हैं। Final answer Wednesday है।"
+    }
+  ]
+}

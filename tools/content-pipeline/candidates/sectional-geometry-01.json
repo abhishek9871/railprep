@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Geometry. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-geometry-01",
+  "title_en": "Geometry — Sectional",
+  "title_hi": "Geometry — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Geometry",
+    "title_hi": "Geometry",
+    "subject_hint": "math"
+  },
+  "questions": [
+    {
+      "id": "geo-01",
+      "stem_en": "Two angles of a triangle are 50° and 60°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 50° और 60° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "70°",
+          "text_hi": "70°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "110°",
+          "text_hi": "110°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 110°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 110° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "250°",
+          "text_hi": "250°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "10°",
+          "text_hi": "10°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-50-60 = 70°. Therefore, answer = 70°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 70°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-50-60 = 70°। अतः answer = 70°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 70° है।"
+    },
+    {
+      "id": "geo-02",
+      "stem_en": "Two angles of a triangle are 45° and 75°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 45° और 75° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 120°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 120° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-45-75 = 60°. Therefore, answer = 60°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 60°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-45-75 = 60°। अतः answer = 60°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 60° है।"
+    },
+    {
+      "id": "geo-03",
+      "stem_en": "Two angles of a triangle are 35° and 85°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 35° और 85° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 120°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 120° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "50°",
+          "text_hi": "50°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-35-85 = 60°. Therefore, answer = 60°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 60°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-35-85 = 60°। अतः answer = 60°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 60° है।"
+    },
+    {
+      "id": "geo-04",
+      "stem_en": "Two angles of a triangle are 70° and 40°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 70° और 40° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "110°",
+          "text_hi": "110°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 110°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 110° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "250°",
+          "text_hi": "250°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "70°",
+          "text_hi": "70°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-70-40 = 70°. Therefore, answer = 70°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 70°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-70-40 = 70°। अतः answer = 70°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 70° है।"
+    },
+    {
+      "id": "geo-05",
+      "stem_en": "Two angles of a triangle are 55° and 65°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 55° और 65° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 120°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 120° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "10°",
+          "text_hi": "10°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-55-65 = 60°. Therefore, answer = 60°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 60°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-55-65 = 60°। अतः answer = 60°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 60° है।"
+    },
+    {
+      "id": "geo-06",
+      "stem_en": "Two angles of a triangle are 80° and 30°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 80° और 30° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "110°",
+          "text_hi": "110°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 110°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 110° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "70°",
+          "text_hi": "70°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "250°",
+          "text_hi": "250°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "50°",
+          "text_hi": "50°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-80-30 = 70°. Therefore, answer = 70°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 70°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-80-30 = 70°। अतः answer = 70°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 70° है।"
+    },
+    {
+      "id": "geo-07",
+      "stem_en": "Two angles of a triangle are 38° and 72°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 38° और 72° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "110°",
+          "text_hi": "110°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 110°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 110° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "250°",
+          "text_hi": "250°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "70°",
+          "text_hi": "70°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "34°",
+          "text_hi": "34°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-38-72 = 70°. Therefore, answer = 70°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 70°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-38-72 = 70°। अतः answer = 70°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 70° है।"
+    },
+    {
+      "id": "geo-08",
+      "stem_en": "Two angles of a triangle are 64° and 56°. Find the third angle.",
+      "stem_hi": "एक triangle के दो angles 64° और 56° हैं। तीसरा angle ज्ञात कीजिए।",
+      "difficulty": "EASY",
+      "tags": [
+        "geometry",
+        "triangles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Added the two given angles and reported 120°. Triangle angles must sum to 180°.",
+          "trap_reason_hi": "दो दिए angles add करके 120° लिख दिया। Triangle angles का sum 180° होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "240°",
+          "text_hi": "240°",
+          "is_correct": false,
+          "trap_reason_en": "Used 360° as if it were a quadrilateral or full circle. A triangle uses 180°.",
+          "trap_reason_hi": "360° use किया जैसे quadrilateral/full circle हो। Triangle में 180° use होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "8°",
+          "text_hi": "8°",
+          "is_correct": false,
+          "trap_reason_en": "Took the difference of the two angles. The third angle is found from the total sum, not the difference.",
+          "trap_reason_hi": "दो angles का difference लिया। Third angle total sum से निकलता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Triangle angle sum = 180°. Third angle = 180-64-56 = 60°. Therefore, answer = 60°.",
+      "explanation_concept_en": "The interior angles of every Euclidean triangle add to 180 degrees, so any missing angle is the remainder after subtracting known angles. Final answer is 60°.",
+      "explanation_method_hi": "Triangle angle sum = 180°। Third angle = 180-64-56 = 60°। अतः answer = 60°।",
+      "explanation_concept_hi": "हर Euclidean triangle के interior angles का sum 180° होता है। Missing angle known angles घटाकर मिलता है। Final answer 60° है।"
+    },
+    {
+      "id": "geo-09",
+      "stem_en": "Find the sum of interior angles of a 5-sided polygon.",
+      "stem_hi": "5-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "540°",
+          "text_hi": "540°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "900°",
+          "text_hi": "900°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "720°",
+          "text_hi": "720°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (5-2)×180 = 540°. Therefore, answer = 540°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 540°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (5-2)×180 = 540°। अतः answer = 540°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 540° है।"
+    },
+    {
+      "id": "geo-10",
+      "stem_en": "Find the sum of interior angles of a 6-sided polygon.",
+      "stem_hi": "6-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1080°",
+          "text_hi": "1080°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "720°",
+          "text_hi": "720°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "900°",
+          "text_hi": "900°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (6-2)×180 = 720°. Therefore, answer = 720°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 720°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (6-2)×180 = 720°। अतः answer = 720°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 720° है।"
+    },
+    {
+      "id": "geo-11",
+      "stem_en": "Find the sum of interior angles of a 8-sided polygon.",
+      "stem_hi": "8-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1440°",
+          "text_hi": "1440°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1260°",
+          "text_hi": "1260°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "1080°",
+          "text_hi": "1080°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (8-2)×180 = 1080°. Therefore, answer = 1080°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 1080°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (8-2)×180 = 1080°। अतः answer = 1080°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 1080° है।"
+    },
+    {
+      "id": "geo-12",
+      "stem_en": "Find the sum of interior angles of a 9-sided polygon.",
+      "stem_hi": "9-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1620°",
+          "text_hi": "1620°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1440°",
+          "text_hi": "1440°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "C",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "1260°",
+          "text_hi": "1260°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (9-2)×180 = 1260°. Therefore, answer = 1260°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 1260°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (9-2)×180 = 1260°। अतः answer = 1260°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 1260° है।"
+    },
+    {
+      "id": "geo-13",
+      "stem_en": "Find the sum of interior angles of a 10-sided polygon.",
+      "stem_hi": "10-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1440°",
+          "text_hi": "1440°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1800°",
+          "text_hi": "1800°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1620°",
+          "text_hi": "1620°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (10-2)×180 = 1440°. Therefore, answer = 1440°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 1440°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (10-2)×180 = 1440°। अतः answer = 1440°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 1440° है।"
+    },
+    {
+      "id": "geo-14",
+      "stem_en": "Find the sum of interior angles of a 12-sided polygon.",
+      "stem_hi": "12-sided polygon के interior angles का sum ज्ञात कीजिए।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "polygons"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2160°",
+          "text_hi": "2160°",
+          "is_correct": false,
+          "trap_reason_en": "Used n×180 and forgot that a polygon divides into n-2 triangles.",
+          "trap_reason_hi": "n×180 लगा दिया; polygon n-2 triangles में divide होता है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1800°",
+          "text_hi": "1800°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "1980°",
+          "text_hi": "1980°",
+          "is_correct": false,
+          "trap_reason_en": "Used n-1 triangles instead of n-2 triangles.",
+          "trap_reason_hi": "n-2 की जगह n-1 triangles मान लिए।"
+        },
+        {
+          "label": "D",
+          "text_en": "360°",
+          "text_hi": "360°",
+          "is_correct": false,
+          "trap_reason_en": "Used exterior angle sum 360° instead of interior angle sum.",
+          "trap_reason_hi": "Interior sum की जगह exterior angle sum 360° दे दिया।"
+        }
+      ],
+      "explanation_method_en": "Interior angle sum = (n-2)×180 = (12-2)×180 = 1800°. Therefore, answer = 1800°.",
+      "explanation_concept_en": "Joining one vertex to non-adjacent vertices partitions an n-sided polygon into n-2 triangles. Each triangle contributes 180 degrees. Final answer is 1800°.",
+      "explanation_method_hi": "Interior angle sum = (n-2)×180 = (12-2)×180 = 1800°। अतः answer = 1800°।",
+      "explanation_concept_hi": "एक vertex से diagonals खींचने पर n-sided polygon n-2 triangles में बँटता है। हर triangle 180° देता है। Final answer 1800° है।"
+    },
+    {
+      "id": "geo-15",
+      "stem_en": "Find the circumference of a circle of radius 7 cm. Use π = 22/7.",
+      "stem_hi": "Radius 7 cm वाले circle की circumference ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "circles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "154 cm²",
+          "text_hi": "154 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area πr² instead of circumference 2πr.",
+          "trap_reason_hi": "Circumference 2πr की जगह area πr² निकाल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "22 cm",
+          "text_hi": "22 cm",
+          "is_correct": false,
+          "trap_reason_en": "Used πr and missed the factor 2 in circumference.",
+          "trap_reason_hi": "πr लिया और circumference का factor 2 छोड़ दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "44 cm",
+          "text_hi": "44 cm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "14 cm",
+          "text_hi": "14 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found diameter 2r only and ignored π.",
+          "trap_reason_hi": "सिर्फ diameter 2r निकाला, π ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Circumference = 2πr = 2×22/7×7 = 44 cm. Therefore, answer = 44 cm.",
+      "explanation_concept_en": "Circumference is the boundary length of the circle; it is proportional to radius through the constant 2π. Final answer is 44 cm.",
+      "explanation_method_hi": "Circumference = 2πr = 2×22/7×7 = 44 cm। अतः answer = 44 cm।",
+      "explanation_concept_hi": "Circumference circle की boundary length है; यह radius के साथ 2π multiplier से proportional है। Final answer 44 cm है।"
+    },
+    {
+      "id": "geo-16",
+      "stem_en": "Find the circumference of a circle of radius 14 cm. Use π = 22/7.",
+      "stem_hi": "Radius 14 cm वाले circle की circumference ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "circles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "616 cm²",
+          "text_hi": "616 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area πr² instead of circumference 2πr.",
+          "trap_reason_hi": "Circumference 2πr की जगह area πr² निकाल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "44 cm",
+          "text_hi": "44 cm",
+          "is_correct": false,
+          "trap_reason_en": "Used πr and missed the factor 2 in circumference.",
+          "trap_reason_hi": "πr लिया और circumference का factor 2 छोड़ दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "28 cm",
+          "text_hi": "28 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found diameter 2r only and ignored π.",
+          "trap_reason_hi": "सिर्फ diameter 2r निकाला, π ignore किया।"
+        },
+        {
+          "label": "D",
+          "text_en": "88 cm",
+          "text_hi": "88 cm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Circumference = 2πr = 2×22/7×14 = 88 cm. Therefore, answer = 88 cm.",
+      "explanation_concept_en": "Circumference is the boundary length of the circle; it is proportional to radius through the constant 2π. Final answer is 88 cm.",
+      "explanation_method_hi": "Circumference = 2πr = 2×22/7×14 = 88 cm। अतः answer = 88 cm।",
+      "explanation_concept_hi": "Circumference circle की boundary length है; यह radius के साथ 2π multiplier से proportional है। Final answer 88 cm है।"
+    },
+    {
+      "id": "geo-17",
+      "stem_en": "Find the circumference of a circle of radius 21 cm. Use π = 22/7.",
+      "stem_hi": "Radius 21 cm वाले circle की circumference ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "circles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "132 cm",
+          "text_hi": "132 cm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1386 cm²",
+          "text_hi": "1386 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area πr² instead of circumference 2πr.",
+          "trap_reason_hi": "Circumference 2πr की जगह area πr² निकाल दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "66 cm",
+          "text_hi": "66 cm",
+          "is_correct": false,
+          "trap_reason_en": "Used πr and missed the factor 2 in circumference.",
+          "trap_reason_hi": "πr लिया और circumference का factor 2 छोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "42 cm",
+          "text_hi": "42 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found diameter 2r only and ignored π.",
+          "trap_reason_hi": "सिर्फ diameter 2r निकाला, π ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Circumference = 2πr = 2×22/7×21 = 132 cm. Therefore, answer = 132 cm.",
+      "explanation_concept_en": "Circumference is the boundary length of the circle; it is proportional to radius through the constant 2π. Final answer is 132 cm.",
+      "explanation_method_hi": "Circumference = 2πr = 2×22/7×21 = 132 cm। अतः answer = 132 cm।",
+      "explanation_concept_hi": "Circumference circle की boundary length है; यह radius के साथ 2π multiplier से proportional है। Final answer 132 cm है।"
+    },
+    {
+      "id": "geo-18",
+      "stem_en": "Find the circumference of a circle of radius 28 cm. Use π = 22/7.",
+      "stem_hi": "Radius 28 cm वाले circle की circumference ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "circles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "2464 cm²",
+          "text_hi": "2464 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area πr² instead of circumference 2πr.",
+          "trap_reason_hi": "Circumference 2πr की जगह area πr² निकाल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "176 cm",
+          "text_hi": "176 cm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "88 cm",
+          "text_hi": "88 cm",
+          "is_correct": false,
+          "trap_reason_en": "Used πr and missed the factor 2 in circumference.",
+          "trap_reason_hi": "πr लिया और circumference का factor 2 छोड़ दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "56 cm",
+          "text_hi": "56 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found diameter 2r only and ignored π.",
+          "trap_reason_hi": "सिर्फ diameter 2r निकाला, π ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Circumference = 2πr = 2×22/7×28 = 176 cm. Therefore, answer = 176 cm.",
+      "explanation_concept_en": "Circumference is the boundary length of the circle; it is proportional to radius through the constant 2π. Final answer is 176 cm.",
+      "explanation_method_hi": "Circumference = 2πr = 2×22/7×28 = 176 cm। अतः answer = 176 cm।",
+      "explanation_concept_hi": "Circumference circle की boundary length है; यह radius के साथ 2π multiplier से proportional है। Final answer 176 cm है।"
+    },
+    {
+      "id": "geo-19",
+      "stem_en": "Find the circumference of a circle of radius 35 cm. Use π = 22/7.",
+      "stem_hi": "Radius 35 cm वाले circle की circumference ज्ञात कीजिए। π = 22/7 लें।",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geometry",
+        "circles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "3850 cm²",
+          "text_hi": "3850 cm²",
+          "is_correct": false,
+          "trap_reason_en": "Found area πr² instead of circumference 2πr.",
+          "trap_reason_hi": "Circumference 2πr की जगह area πr² निकाल दिया।"
+        },
+        {
+          "label": "B",
+          "text_en": "110 cm",
+          "text_hi": "110 cm",
+          "is_correct": false,
+          "trap_reason_en": "Used πr and missed the factor 2 in circumference.",
+          "trap_reason_hi": "πr लिया और circumference का factor 2 छोड़ दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "220 cm",
+          "text_hi": "220 cm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "70 cm",
+          "text_hi": "70 cm",
+          "is_correct": false,
+          "trap_reason_en": "Found diameter 2r only and ignored π.",
+          "trap_reason_hi": "सिर्फ diameter 2r निकाला, π ignore किया।"
+        }
+      ],
+      "explanation_method_en": "Circumference = 2πr = 2×22/7×35 = 220 cm. Therefore, answer = 220 cm.",
+      "explanation_concept_en": "Circumference is the boundary length of the circle; it is proportional to radius through the constant 2π. Final answer is 220 cm.",
+      "explanation_method_hi": "Circumference = 2πr = 2×22/7×35 = 220 cm। अतः answer = 220 cm।",
+      "explanation_concept_hi": "Circumference circle की boundary length है; यह radius के साथ 2π multiplier से proportional है। Final answer 220 cm है।"
+    },
+    {
+      "id": "geo-20",
+      "stem_en": "Two angles are complementary. If one angle is 30°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 30° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "150°",
+          "text_hi": "150°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "30°",
+          "text_hi": "30°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "120°",
+          "text_hi": "120°",
+          "is_correct": false,
+          "trap_reason_en": "Added 30 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 30 add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "60°",
+          "text_hi": "60°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-30 = 60°. Therefore, answer = 60°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 60°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-30 = 60°। अतः answer = 60°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 60° है।"
+    },
+    {
+      "id": "geo-21",
+      "stem_en": "Two angles are complementary. If one angle is 40°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 40° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "50°",
+          "text_hi": "50°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "140°",
+          "text_hi": "140°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "40°",
+          "text_hi": "40°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "130°",
+          "text_hi": "130°",
+          "is_correct": false,
+          "trap_reason_en": "Added 40 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 40 add कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-40 = 50°. Therefore, answer = 50°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 50°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-40 = 50°। अतः answer = 50°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 50° है।"
+    },
+    {
+      "id": "geo-22",
+      "stem_en": "Two angles are complementary. If one angle is 55°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 55° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "125°",
+          "text_hi": "125°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "35°",
+          "text_hi": "35°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "55°",
+          "text_hi": "55°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "145°",
+          "text_hi": "145°",
+          "is_correct": false,
+          "trap_reason_en": "Added 55 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 55 add कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-55 = 35°. Therefore, answer = 35°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 35°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-55 = 35°। अतः answer = 35°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 35° है।"
+    },
+    {
+      "id": "geo-23",
+      "stem_en": "Two angles are complementary. If one angle is 65°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 65° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "115°",
+          "text_hi": "115°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "65°",
+          "text_hi": "65°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "25°",
+          "text_hi": "25°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "155°",
+          "text_hi": "155°",
+          "is_correct": false,
+          "trap_reason_en": "Added 65 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 65 add कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-65 = 25°. Therefore, answer = 25°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 25°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-65 = 25°। अतः answer = 25°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 25° है।"
+    },
+    {
+      "id": "geo-24",
+      "stem_en": "Two angles are complementary. If one angle is 75°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 75° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "105°",
+          "text_hi": "105°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "B",
+          "text_en": "75°",
+          "text_hi": "75°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "C",
+          "text_en": "165°",
+          "text_hi": "165°",
+          "is_correct": false,
+          "trap_reason_en": "Added 75 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 75 add कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "15°",
+          "text_hi": "15°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-75 = 15°. Therefore, answer = 15°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 15°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-75 = 15°। अतः answer = 15°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 15° है।"
+    },
+    {
+      "id": "geo-25",
+      "stem_en": "Two angles are complementary. If one angle is 85°, find the other.",
+      "stem_hi": "दो angles complementary हैं। एक angle 85° है, दूसरा ज्ञात कीजिए।",
+      "difficulty": "HARD",
+      "tags": [
+        "geometry",
+        "angles"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5°",
+          "text_hi": "5°",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "95°",
+          "text_hi": "95°",
+          "is_correct": false,
+          "trap_reason_en": "Used supplementary sum 180° instead of complementary sum 90°.",
+          "trap_reason_hi": "Complementary 90° की जगह supplementary 180° use किया।"
+        },
+        {
+          "label": "C",
+          "text_en": "85°",
+          "text_hi": "85°",
+          "is_correct": false,
+          "trap_reason_en": "Repeated the given angle. Complementary angles add to 90°, so the other must be the remainder.",
+          "trap_reason_hi": "Given angle ही repeat कर दिया। Complementary angles का sum 90° होता है।"
+        },
+        {
+          "label": "D",
+          "text_en": "175°",
+          "text_hi": "175°",
+          "is_correct": false,
+          "trap_reason_en": "Added 85 to 90 instead of subtracting from 90.",
+          "trap_reason_hi": "90 से subtract करने की जगह 85 add कर दिया।"
+        }
+      ],
+      "explanation_method_en": "Complementary angles add to 90°. Other angle = 90-85 = 5°. Therefore, answer = 5°.",
+      "explanation_concept_en": "Complementary is a fixed-pair relation with total 90 degrees; the missing angle is the balance from 90. Final answer is 5°.",
+      "explanation_method_hi": "Complementary angles का sum 90°। दूसरा angle = 90-85 = 5°। अतः answer = 5°।",
+      "explanation_concept_hi": "Complementary relation में total 90° fixed होता है; missing angle 90 से balance है। Final answer 5° है।"
+    }
+  ]
+}

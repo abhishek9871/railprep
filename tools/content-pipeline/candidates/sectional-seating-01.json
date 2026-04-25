@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original sectional — Seating Arrangement. Generated from computed templates; no competitor question text copied.",
+  "slug": "sectional-seating-01",
+  "title_en": "Seating Arrangement — Sectional",
+  "title_hi": "Seating Arrangement — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Seating Arrangement",
+    "title_hi": "Seating Arrangement",
+    "subject_hint": "reasoning"
+  },
+  "questions": [
+    {
+      "id": "seat-01",
+      "stem_en": "Five persons A, B, C, D, E sit in a row facing north. D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Who sits in the middle?",
+      "stem_hi": "पाँच व्यक्ति A, B, C, D, E north-facing row में बैठे हैं। D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Middle में कौन बैठा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "D",
+          "text_hi": "D",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is D-A-B-C-E; middle seat is B. Therefore, answer = B.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is B.",
+      "explanation_method_hi": "Final order left-to-right is D-A-B-C-E; middle seat is B. अतः answer = B।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer B है।"
+    },
+    {
+      "id": "seat-02",
+      "stem_en": "Five persons P, Q, R, S, T sit in a row facing north. P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Who sits at the left end?",
+      "stem_hi": "पाँच व्यक्ति P, Q, R, S, T north-facing row में बैठे हैं। P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Left end पर कौन बैठा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is P-R-Q-S-T; left end is P. Therefore, answer = P.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is P.",
+      "explanation_method_hi": "Final order left-to-right is P-R-Q-S-T; left end is P. अतः answer = P।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer P है।"
+    },
+    {
+      "id": "seat-03",
+      "stem_en": "Five persons M, N, O, P, Q sit in a row facing north. M is at the left end. O sits second from left. N sits in the middle. Q sits second from right. P is at the right end. Who sits immediately left of N?",
+      "stem_hi": "पाँच व्यक्ति M, N, O, P, Q north-facing row में बैठे हैं। N के immediately left कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. Therefore, answer = O.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is O.",
+      "explanation_method_hi": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. अतः answer = O।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer O है।"
+    },
+    {
+      "id": "seat-04",
+      "stem_en": "Five persons V, W, X, Y, Z sit in a row facing north. V, W, X, Y and Z sit from left to right in alphabetical order. Who sits immediately right of X?",
+      "stem_hi": "पाँच व्यक्ति V, W, X, Y, Z north-facing row में बैठे हैं। X के immediately right कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. Therefore, answer = Y.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is Y.",
+      "explanation_method_hi": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. अतः answer = Y।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer Y है।"
+    },
+    {
+      "id": "seat-05",
+      "stem_en": "Five persons H, I, J, K, L sit in a row facing north. H is left end, J is to H's right, I is in the middle, K is to I's right, and L is right end. Who sits at the right end?",
+      "stem_hi": "पाँच व्यक्ति H, I, J, K, L north-facing row में बैठे हैं। Right end पर कौन बैठा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "H",
+          "text_hi": "H",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is H-J-I-K-L; right end is L. Therefore, answer = L.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is L.",
+      "explanation_method_hi": "Final order left-to-right is H-J-I-K-L; right end is L. अतः answer = L।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer L है।"
+    },
+    {
+      "id": "seat-06",
+      "stem_en": "Five persons A, B, C, D, E sit in a row facing north. D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Who sits in the middle?",
+      "stem_hi": "पाँच व्यक्ति A, B, C, D, E north-facing row में बैठे हैं। D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Middle में कौन बैठा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "D",
+          "text_hi": "D",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is D-A-B-C-E; middle seat is B. Therefore, answer = B.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is B.",
+      "explanation_method_hi": "Final order left-to-right is D-A-B-C-E; middle seat is B. अतः answer = B।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer B है।"
+    },
+    {
+      "id": "seat-07",
+      "stem_en": "Five persons P, Q, R, S, T sit in a row facing north. P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Who sits at the left end?",
+      "stem_hi": "पाँच व्यक्ति P, Q, R, S, T north-facing row में बैठे हैं। P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Left end पर कौन बैठा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is P-R-Q-S-T; left end is P. Therefore, answer = P.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is P.",
+      "explanation_method_hi": "Final order left-to-right is P-R-Q-S-T; left end is P. अतः answer = P।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer P है।"
+    },
+    {
+      "id": "seat-08",
+      "stem_en": "Five persons M, N, O, P, Q sit in a row facing north. M is at the left end. O sits second from left. N sits in the middle. Q sits second from right. P is at the right end. Who sits immediately left of N?",
+      "stem_hi": "पाँच व्यक्ति M, N, O, P, Q north-facing row में बैठे हैं। N के immediately left कौन है?",
+      "difficulty": "EASY",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. Therefore, answer = O.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is O.",
+      "explanation_method_hi": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. अतः answer = O।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer O है।"
+    },
+    {
+      "id": "seat-09",
+      "stem_en": "Five persons V, W, X, Y, Z sit in a row facing north. V, W, X, Y and Z sit from left to right in alphabetical order. Who sits immediately right of X?",
+      "stem_hi": "पाँच व्यक्ति V, W, X, Y, Z north-facing row में बैठे हैं। X के immediately right कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. Therefore, answer = Y.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is Y.",
+      "explanation_method_hi": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. अतः answer = Y।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer Y है।"
+    },
+    {
+      "id": "seat-10",
+      "stem_en": "Five persons H, I, J, K, L sit in a row facing north. H is left end, J is to H's right, I is in the middle, K is to I's right, and L is right end. Who sits at the right end?",
+      "stem_hi": "पाँच व्यक्ति H, I, J, K, L north-facing row में बैठे हैं। Right end पर कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "H",
+          "text_hi": "H",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is H-J-I-K-L; right end is L. Therefore, answer = L.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is L.",
+      "explanation_method_hi": "Final order left-to-right is H-J-I-K-L; right end is L. अतः answer = L।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer L है।"
+    },
+    {
+      "id": "seat-11",
+      "stem_en": "Five persons A, B, C, D, E sit in a row facing north. D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Who sits in the middle?",
+      "stem_hi": "पाँच व्यक्ति A, B, C, D, E north-facing row में बैठे हैं। D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Middle में कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "D",
+          "text_hi": "D",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is D-A-B-C-E; middle seat is B. Therefore, answer = B.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is B.",
+      "explanation_method_hi": "Final order left-to-right is D-A-B-C-E; middle seat is B. अतः answer = B।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer B है।"
+    },
+    {
+      "id": "seat-12",
+      "stem_en": "Five persons P, Q, R, S, T sit in a row facing north. P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Who sits at the left end?",
+      "stem_hi": "पाँच व्यक्ति P, Q, R, S, T north-facing row में बैठे हैं। P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Left end पर कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is P-R-Q-S-T; left end is P. Therefore, answer = P.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is P.",
+      "explanation_method_hi": "Final order left-to-right is P-R-Q-S-T; left end is P. अतः answer = P।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer P है।"
+    },
+    {
+      "id": "seat-13",
+      "stem_en": "Five persons M, N, O, P, Q sit in a row facing north. M is at the left end. O sits second from left. N sits in the middle. Q sits second from right. P is at the right end. Who sits immediately left of N?",
+      "stem_hi": "पाँच व्यक्ति M, N, O, P, Q north-facing row में बैठे हैं। N के immediately left कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. Therefore, answer = O.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is O.",
+      "explanation_method_hi": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. अतः answer = O।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer O है।"
+    },
+    {
+      "id": "seat-14",
+      "stem_en": "Five persons V, W, X, Y, Z sit in a row facing north. V, W, X, Y and Z sit from left to right in alphabetical order. Who sits immediately right of X?",
+      "stem_hi": "पाँच व्यक्ति V, W, X, Y, Z north-facing row में बैठे हैं। X के immediately right कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. Therefore, answer = Y.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is Y.",
+      "explanation_method_hi": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. अतः answer = Y।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer Y है।"
+    },
+    {
+      "id": "seat-15",
+      "stem_en": "Five persons H, I, J, K, L sit in a row facing north. H is left end, J is to H's right, I is in the middle, K is to I's right, and L is right end. Who sits at the right end?",
+      "stem_hi": "पाँच व्यक्ति H, I, J, K, L north-facing row में बैठे हैं। Right end पर कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "H",
+          "text_hi": "H",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is H-J-I-K-L; right end is L. Therefore, answer = L.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is L.",
+      "explanation_method_hi": "Final order left-to-right is H-J-I-K-L; right end is L. अतः answer = L।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer L है।"
+    },
+    {
+      "id": "seat-16",
+      "stem_en": "Five persons A, B, C, D, E sit in a row facing north. D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Who sits in the middle?",
+      "stem_hi": "पाँच व्यक्ति A, B, C, D, E north-facing row में बैठे हैं। D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Middle में कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "D",
+          "text_hi": "D",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is D-A-B-C-E; middle seat is B. Therefore, answer = B.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is B.",
+      "explanation_method_hi": "Final order left-to-right is D-A-B-C-E; middle seat is B. अतः answer = B।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer B है।"
+    },
+    {
+      "id": "seat-17",
+      "stem_en": "Five persons P, Q, R, S, T sit in a row facing north. P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Who sits at the left end?",
+      "stem_hi": "पाँच व्यक्ति P, Q, R, S, T north-facing row में बैठे हैं। P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Left end पर कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is P-R-Q-S-T; left end is P. Therefore, answer = P.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is P.",
+      "explanation_method_hi": "Final order left-to-right is P-R-Q-S-T; left end is P. अतः answer = P।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer P है।"
+    },
+    {
+      "id": "seat-18",
+      "stem_en": "Five persons M, N, O, P, Q sit in a row facing north. M is at the left end. O sits second from left. N sits in the middle. Q sits second from right. P is at the right end. Who sits immediately left of N?",
+      "stem_hi": "पाँच व्यक्ति M, N, O, P, Q north-facing row में बैठे हैं। N के immediately left कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. Therefore, answer = O.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is O.",
+      "explanation_method_hi": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. अतः answer = O।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer O है।"
+    },
+    {
+      "id": "seat-19",
+      "stem_en": "Five persons V, W, X, Y, Z sit in a row facing north. V, W, X, Y and Z sit from left to right in alphabetical order. Who sits immediately right of X?",
+      "stem_hi": "पाँच व्यक्ति V, W, X, Y, Z north-facing row में बैठे हैं। X के immediately right कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. Therefore, answer = Y.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is Y.",
+      "explanation_method_hi": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. अतः answer = Y।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer Y है।"
+    },
+    {
+      "id": "seat-20",
+      "stem_en": "Five persons H, I, J, K, L sit in a row facing north. H is left end, J is to H's right, I is in the middle, K is to I's right, and L is right end. Who sits at the right end?",
+      "stem_hi": "पाँच व्यक्ति H, I, J, K, L north-facing row में बैठे हैं। Right end पर कौन बैठा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "H",
+          "text_hi": "H",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is H-J-I-K-L; right end is L. Therefore, answer = L.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is L.",
+      "explanation_method_hi": "Final order left-to-right is H-J-I-K-L; right end is L. अतः answer = L।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer L है।"
+    },
+    {
+      "id": "seat-21",
+      "stem_en": "Five persons A, B, C, D, E sit in a row facing north. D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Who sits in the middle?",
+      "stem_hi": "पाँच व्यक्ति A, B, C, D, E north-facing row में बैठे हैं। D sits at the left end. A sits immediately right of D. B sits immediately right of A. C sits immediately right of B. E sits at the right end. Middle में कौन बैठा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "B",
+          "text_hi": "B",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "D",
+          "text_hi": "D",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "E",
+          "text_hi": "E",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "C",
+          "text_hi": "C",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is D-A-B-C-E; middle seat is B. Therefore, answer = B.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is B.",
+      "explanation_method_hi": "Final order left-to-right is D-A-B-C-E; middle seat is B. अतः answer = B।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer B है।"
+    },
+    {
+      "id": "seat-22",
+      "stem_en": "Five persons P, Q, R, S, T sit in a row facing north. P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Who sits at the left end?",
+      "stem_hi": "पाँच व्यक्ति P, Q, R, S, T north-facing row में बैठे हैं। P is at the left end. R is immediately right of P. Q is immediately right of R. S is immediately right of Q. T is at the right end. Left end पर कौन बैठा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "T",
+          "text_hi": "T",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "R",
+          "text_hi": "R",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is P-R-Q-S-T; left end is P. Therefore, answer = P.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is P.",
+      "explanation_method_hi": "Final order left-to-right is P-R-Q-S-T; left end is P. अतः answer = P।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer P है।"
+    },
+    {
+      "id": "seat-23",
+      "stem_en": "Five persons M, N, O, P, Q sit in a row facing north. M is at the left end. O sits second from left. N sits in the middle. Q sits second from right. P is at the right end. Who sits immediately left of N?",
+      "stem_hi": "पाँच व्यक्ति M, N, O, P, Q north-facing row में बैठे हैं। N के immediately left कौन है?",
+      "difficulty": "HARD",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Q",
+          "text_hi": "Q",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "M",
+          "text_hi": "M",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "O",
+          "text_hi": "O",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "P",
+          "text_hi": "P",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. Therefore, answer = O.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is O.",
+      "explanation_method_hi": "Final order left-to-right is M-O-N-Q-P; immediately left of N is O. अतः answer = O।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer O है।"
+    },
+    {
+      "id": "seat-24",
+      "stem_en": "Five persons V, W, X, Y, Z sit in a row facing north. V, W, X, Y and Z sit from left to right in alphabetical order. Who sits immediately right of X?",
+      "stem_hi": "पाँच व्यक्ति V, W, X, Y, Z north-facing row में बैठे हैं। X के immediately right कौन है?",
+      "difficulty": "HARD",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "W",
+          "text_hi": "W",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "B",
+          "text_en": "V",
+          "text_hi": "V",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "C",
+          "text_en": "Z",
+          "text_hi": "Z",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        },
+        {
+          "label": "D",
+          "text_en": "Y",
+          "text_hi": "Y",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. Therefore, answer = Y.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is Y.",
+      "explanation_method_hi": "Final order left-to-right is V-W-X-Y-Z; immediately right of X is Y. अतः answer = Y।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer Y है।"
+    },
+    {
+      "id": "seat-25",
+      "stem_en": "Five persons H, I, J, K, L sit in a row facing north. H is left end, J is to H's right, I is in the middle, K is to I's right, and L is right end. Who sits at the right end?",
+      "stem_hi": "पाँच व्यक्ति H, I, J, K, L north-facing row में बैठे हैं। Right end पर कौन बैठा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "seating-arrangement",
+        "linear-seating"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "L",
+          "text_hi": "L",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "H",
+          "text_hi": "H",
+          "is_correct": false,
+          "trap_reason_en": "Picked a neighbouring position from the final row instead of the asked seat.",
+          "trap_reason_hi": "Asked seat की जगह final row की neighbouring position चुन ली।"
+        },
+        {
+          "label": "C",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Reversed left and right even though all persons face north.",
+          "trap_reason_hi": "सभी north face कर रहे हैं फिर भी left/right reverse कर दिया।"
+        },
+        {
+          "label": "D",
+          "text_en": "K",
+          "text_hi": "K",
+          "is_correct": false,
+          "trap_reason_en": "Used the clue order but stopped before placing all five persons.",
+          "trap_reason_hi": "Clue order use किया पर सभी पाँच persons place करने से पहले रुक गए।"
+        }
+      ],
+      "explanation_method_en": "Final order left-to-right is H-J-I-K-L; right end is L. Therefore, answer = L.",
+      "explanation_concept_en": "For row seating facing north, the reader's left and the persons' left are the same. Write the final order before answering position questions. Final answer is L.",
+      "explanation_method_hi": "Final order left-to-right is H-J-I-K-L; right end is L. अतः answer = L।",
+      "explanation_concept_hi": "North-facing row में reader का left और persons का left same होता है। Position answer देने से पहले final order लिखें। Final answer L है।"
+    }
+  ]
+}
