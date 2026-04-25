@@ -1,21 +1,33 @@
 {
-  "stamp": "2026-04-25T16:08:13.893Z",
+  "stamp": "2026-04-25T16:27:53.049Z",
   "fileSummaries": [
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-number-system-01.json",
-      "count": 25,
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-01.json",
+      "count": 100,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-simplification-01.json",
-      "count": 25,
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-02.json",
+      "count": 100,
       "errors": 0,
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-si-ci-01.json",
-      "count": 25,
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-03.json",
+      "count": 100,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-04.json",
+      "count": 100,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\ntpc-cbt1-full-mock-05.json",
+      "count": 100,
       "errors": 0,
       "warnings": 0
     },
@@ -26,37 +38,7 @@
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-geometry-01.json",
-      "count": 25,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-mensuration-01.json",
-      "count": 25,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-di-01.json",
-      "count": 25,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-calendar-01.json",
-      "count": 25,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-time-work-01.json",
-      "count": 25,
-      "errors": 0,
-      "warnings": 0
-    },
-    {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-coding-decoding-01.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-averages.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
@@ -68,13 +50,145 @@
       "warnings": 0
     },
     {
-      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-seating-01.json",
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-calendar-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-chemistry-biology-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-coding-decoding-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-computers-railways-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-di-01.json",
       "count": 25,
       "errors": 0,
       "warnings": 0
     },
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-direction-sense-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-economy-schemes-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-general-science-physics-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-geometry-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-indian-geography-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-indian-history-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-indian-polity-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-mensuration-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-number-system-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-percentage.json",
+      "count": 15,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-profit-loss.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-ratio.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-seating-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-si-ci-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-simplification-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-static-gk-environment-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-syllogism.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-time-work-01.json",
+      "count": 25,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-tsd.json",
       "count": 25,
       "errors": 0,
       "warnings": 0

@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original GA sectional — Computers & Railways. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-computers-railways-01",
+  "title_en": "Computers & Railways — Sectional",
+  "title_hi": "Computers & Railways — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Computers & Railways",
+    "title_hi": "Computers & Railways",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gacomp-01",
+      "stem_en": "CPU is often called the:",
+      "stem_hi": "CPU को अक्सर क्या कहा जाता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "basic-computers"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "brain of the computer",
+          "text_hi": "brain of the computer",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "printer of the computer",
+          "text_hi": "printer of the computer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses printer of the computer with brain of the computer; the clue in this question points specifically to brain of the computer.",
+          "trap_reason_hi": "printer of the computer को brain of the computer समझ लिया। इस question की clue specifically brain of the computer की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "screen of the computer",
+          "text_hi": "screen of the computer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses screen of the computer with brain of the computer; the clue in this question points specifically to brain of the computer.",
+          "trap_reason_hi": "screen of the computer को brain of the computer समझ लिया। इस question की clue specifically brain of the computer की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "battery only",
+          "text_hi": "battery only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses battery only with brain of the computer; the clue in this question points specifically to brain of the computer.",
+          "trap_reason_hi": "battery only को brain of the computer समझ लिया। इस question की clue specifically brain of the computer की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: CPU performs central processing and control. Therefore, answer = brain of the computer.",
+      "explanation_concept_en": "CPU performs central processing and control. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is brain of the computer.",
+      "explanation_method_hi": "Keyword याद रखें: CPU central processing और control करता है। अतः answer = brain of the computer।",
+      "explanation_concept_hi": "CPU central processing और control करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer brain of the computer है।"
+    },
+    {
+      "id": "gacomp-02",
+      "stem_en": "RAM is a type of:",
+      "stem_hi": "RAM किस type की memory है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "memory"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "non-volatile memory",
+          "text_hi": "non-volatile memory",
+          "is_correct": false,
+          "trap_reason_en": "Confuses non-volatile memory with volatile memory; the clue in this question points specifically to volatile memory.",
+          "trap_reason_hi": "non-volatile memory को volatile memory समझ लिया। इस question की clue specifically volatile memory की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "volatile memory",
+          "text_hi": "volatile memory",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "optical disc",
+          "text_hi": "optical disc",
+          "is_correct": false,
+          "trap_reason_en": "Confuses optical disc with volatile memory; the clue in this question points specifically to volatile memory.",
+          "trap_reason_hi": "optical disc को volatile memory समझ लिया। इस question की clue specifically volatile memory की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "printer",
+          "text_hi": "printer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses printer with volatile memory; the clue in this question points specifically to volatile memory.",
+          "trap_reason_hi": "printer को volatile memory समझ लिया। इस question की clue specifically volatile memory की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: RAM is volatile memory. Therefore, answer = volatile memory.",
+      "explanation_concept_en": "RAM is volatile memory. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is volatile memory.",
+      "explanation_method_hi": "Keyword याद रखें: RAM volatile memory होती है। अतः answer = volatile memory।",
+      "explanation_concept_hi": "RAM volatile memory होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer volatile memory है।"
+    },
+    {
+      "id": "gacomp-03",
+      "stem_en": "ROM is generally:",
+      "stem_hi": "ROM generally कैसी memory है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "memory"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "volatile memory",
+          "text_hi": "volatile memory",
+          "is_correct": false,
+          "trap_reason_en": "Confuses volatile memory with non-volatile memory; the clue in this question points specifically to non-volatile memory.",
+          "trap_reason_hi": "volatile memory को non-volatile memory समझ लिया। इस question की clue specifically non-volatile memory की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "temporary cache only",
+          "text_hi": "temporary cache only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses temporary cache only with non-volatile memory; the clue in this question points specifically to non-volatile memory.",
+          "trap_reason_hi": "temporary cache only को non-volatile memory समझ लिया। इस question की clue specifically non-volatile memory की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "non-volatile memory",
+          "text_hi": "non-volatile memory",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "input device",
+          "text_hi": "input device",
+          "is_correct": false,
+          "trap_reason_en": "Confuses input device with non-volatile memory; the clue in this question points specifically to non-volatile memory.",
+          "trap_reason_hi": "input device को non-volatile memory समझ लिया। इस question की clue specifically non-volatile memory की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: ROM is non-volatile memory. Therefore, answer = non-volatile memory.",
+      "explanation_concept_en": "ROM is non-volatile memory. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is non-volatile memory.",
+      "explanation_method_hi": "Keyword याद रखें: ROM non-volatile memory होती है। अतः answer = non-volatile memory।",
+      "explanation_concept_hi": "ROM non-volatile memory होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer non-volatile memory है।"
+    },
+    {
+      "id": "gacomp-04",
+      "stem_en": "URL stands for:",
+      "stem_hi": "URL का full form क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "internet"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Universal Record Link",
+          "text_hi": "Universal Record Link",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Universal Record Link with Uniform Resource Locator; the clue in this question points specifically to Uniform Resource Locator.",
+          "trap_reason_hi": "Universal Record Link को Uniform Resource Locator समझ लिया। इस question की clue specifically Uniform Resource Locator की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "User Readable Language",
+          "text_hi": "User Readable Language",
+          "is_correct": false,
+          "trap_reason_en": "Confuses User Readable Language with Uniform Resource Locator; the clue in this question points specifically to Uniform Resource Locator.",
+          "trap_reason_hi": "User Readable Language को Uniform Resource Locator समझ लिया। इस question की clue specifically Uniform Resource Locator की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Unit Register List",
+          "text_hi": "Unit Register List",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Unit Register List with Uniform Resource Locator; the clue in this question points specifically to Uniform Resource Locator.",
+          "trap_reason_hi": "Unit Register List को Uniform Resource Locator समझ लिया। इस question की clue specifically Uniform Resource Locator की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Uniform Resource Locator",
+          "text_hi": "Uniform Resource Locator",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: URL means Uniform Resource Locator. Therefore, answer = Uniform Resource Locator.",
+      "explanation_concept_en": "URL means Uniform Resource Locator. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Uniform Resource Locator.",
+      "explanation_method_hi": "Keyword याद रखें: URL का अर्थ Uniform Resource Locator है। अतः answer = Uniform Resource Locator।",
+      "explanation_concept_hi": "URL का अर्थ Uniform Resource Locator है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Uniform Resource Locator है।"
+    },
+    {
+      "id": "gacomp-05",
+      "stem_en": "An operating system mainly:",
+      "stem_hi": "Operating system mainly क्या करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "operating-system"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "manages hardware and software resources",
+          "text_hi": "manages hardware and software resources",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "prints only photos",
+          "text_hi": "prints only photos",
+          "is_correct": false,
+          "trap_reason_en": "Confuses prints only photos with manages hardware and software resources; the clue in this question points specifically to manages hardware and software resources.",
+          "trap_reason_hi": "prints only photos को manages hardware and software resources समझ लिया। इस question की clue specifically manages hardware and software resources की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "stores only passwords",
+          "text_hi": "stores only passwords",
+          "is_correct": false,
+          "trap_reason_en": "Confuses stores only passwords with manages hardware and software resources; the clue in this question points specifically to manages hardware and software resources.",
+          "trap_reason_hi": "stores only passwords को manages hardware and software resources समझ लिया। इस question की clue specifically manages hardware and software resources की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "cools the CPU physically",
+          "text_hi": "cools the CPU physically",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cools the CPU physically with manages hardware and software resources; the clue in this question points specifically to manages hardware and software resources.",
+          "trap_reason_hi": "cools the CPU physically को manages hardware and software resources समझ लिया। इस question की clue specifically manages hardware and software resources की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: An OS manages hardware and software resources. Therefore, answer = manages hardware and software resources.",
+      "explanation_concept_en": "An OS manages hardware and software resources. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is manages hardware and software resources.",
+      "explanation_method_hi": "Keyword याद रखें: OS hardware और software resources manage करता है। अतः answer = manages hardware and software resources।",
+      "explanation_concept_hi": "OS hardware और software resources manage करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer manages hardware and software resources है।"
+    },
+    {
+      "id": "gacomp-06",
+      "stem_en": "Spreadsheet software is used mainly for:",
+      "stem_hi": "Spreadsheet software mainly किसके लिए use होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "applications"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "image capture only",
+          "text_hi": "image capture only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses image capture only with tabular calculations; the clue in this question points specifically to tabular calculations.",
+          "trap_reason_hi": "image capture only को tabular calculations समझ लिया। इस question की clue specifically tabular calculations की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "tabular calculations",
+          "text_hi": "tabular calculations",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "virus removal only",
+          "text_hi": "virus removal only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses virus removal only with tabular calculations; the clue in this question points specifically to tabular calculations.",
+          "trap_reason_hi": "virus removal only को tabular calculations समझ लिया। इस question की clue specifically tabular calculations की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "speaker control",
+          "text_hi": "speaker control",
+          "is_correct": false,
+          "trap_reason_en": "Confuses speaker control with tabular calculations; the clue in this question points specifically to tabular calculations.",
+          "trap_reason_hi": "speaker control को tabular calculations समझ लिया। इस question की clue specifically tabular calculations की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Spreadsheets organise rows, columns and calculations. Therefore, answer = tabular calculations.",
+      "explanation_concept_en": "Spreadsheets organise rows, columns and calculations. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is tabular calculations.",
+      "explanation_method_hi": "Keyword याद रखें: Spreadsheet rows, columns और calculations organize करता है। अतः answer = tabular calculations।",
+      "explanation_concept_hi": "Spreadsheet rows, columns और calculations organize करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer tabular calculations है।"
+    },
+    {
+      "id": "gacomp-07",
+      "stem_en": "PDF stands for:",
+      "stem_hi": "PDF का full form क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "file-formats"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Printed Data File",
+          "text_hi": "Printed Data File",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Printed Data File with Portable Document Format; the clue in this question points specifically to Portable Document Format.",
+          "trap_reason_hi": "Printed Data File को Portable Document Format समझ लिया। इस question की clue specifically Portable Document Format की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Public Device Folder",
+          "text_hi": "Public Device Folder",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Public Device Folder with Portable Document Format; the clue in this question points specifically to Portable Document Format.",
+          "trap_reason_hi": "Public Device Folder को Portable Document Format समझ लिया। इस question की clue specifically Portable Document Format की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Portable Document Format",
+          "text_hi": "Portable Document Format",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Program Design Flow",
+          "text_hi": "Program Design Flow",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Program Design Flow with Portable Document Format; the clue in this question points specifically to Portable Document Format.",
+          "trap_reason_hi": "Program Design Flow को Portable Document Format समझ लिया। इस question की clue specifically Portable Document Format की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: PDF means Portable Document Format. Therefore, answer = Portable Document Format.",
+      "explanation_concept_en": "PDF means Portable Document Format. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Portable Document Format.",
+      "explanation_method_hi": "Keyword याद रखें: PDF का अर्थ Portable Document Format है। अतः answer = Portable Document Format।",
+      "explanation_concept_hi": "PDF का अर्थ Portable Document Format है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Portable Document Format है।"
+    },
+    {
+      "id": "gacomp-08",
+      "stem_en": "LAN stands for:",
+      "stem_hi": "LAN का full form क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "computers",
+        "networking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Large Access Number",
+          "text_hi": "Large Access Number",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Large Access Number with Local Area Network; the clue in this question points specifically to Local Area Network.",
+          "trap_reason_hi": "Large Access Number को Local Area Network समझ लिया। इस question की clue specifically Local Area Network की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Linked Archive Node",
+          "text_hi": "Linked Archive Node",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Linked Archive Node with Local Area Network; the clue in this question points specifically to Local Area Network.",
+          "trap_reason_hi": "Linked Archive Node को Local Area Network समझ लिया। इस question की clue specifically Local Area Network की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Long Audio Network",
+          "text_hi": "Long Audio Network",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Long Audio Network with Local Area Network; the clue in this question points specifically to Local Area Network.",
+          "trap_reason_hi": "Long Audio Network को Local Area Network समझ लिया। इस question की clue specifically Local Area Network की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Local Area Network",
+          "text_hi": "Local Area Network",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: LAN means Local Area Network. Therefore, answer = Local Area Network.",
+      "explanation_concept_en": "LAN means Local Area Network. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Local Area Network.",
+      "explanation_method_hi": "Keyword याद रखें: LAN का अर्थ Local Area Network है। अतः answer = Local Area Network।",
+      "explanation_concept_hi": "LAN का अर्थ Local Area Network है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Local Area Network है।"
+    },
+    {
+      "id": "gacomp-09",
+      "stem_en": "An IP address is used to:",
+      "stem_hi": "IP address किसके लिए use होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "networking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "identify a device on a network",
+          "text_hi": "identify a device on a network",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "increase battery capacity",
+          "text_hi": "increase battery capacity",
+          "is_correct": false,
+          "trap_reason_en": "Confuses increase battery capacity with identify a device on a network; the clue in this question points specifically to identify a device on a network.",
+          "trap_reason_hi": "increase battery capacity को identify a device on a network समझ लिया। इस question की clue specifically identify a device on a network की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "print colour pages",
+          "text_hi": "print colour pages",
+          "is_correct": false,
+          "trap_reason_en": "Confuses print colour pages with identify a device on a network; the clue in this question points specifically to identify a device on a network.",
+          "trap_reason_hi": "print colour pages को identify a device on a network समझ लिया। इस question की clue specifically identify a device on a network की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "measure rainfall",
+          "text_hi": "measure rainfall",
+          "is_correct": false,
+          "trap_reason_en": "Confuses measure rainfall with identify a device on a network; the clue in this question points specifically to identify a device on a network.",
+          "trap_reason_hi": "measure rainfall को identify a device on a network समझ लिया। इस question की clue specifically identify a device on a network की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: IP address identifies a networked device. Therefore, answer = identify a device on a network.",
+      "explanation_concept_en": "IP address identifies a networked device. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is identify a device on a network.",
+      "explanation_method_hi": "Keyword याद रखें: IP address networked device identify करता है। अतः answer = identify a device on a network।",
+      "explanation_concept_hi": "IP address networked device identify करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer identify a device on a network है।"
+    },
+    {
+      "id": "gacomp-10",
+      "stem_en": "Malware means:",
+      "stem_hi": "Malware का मतलब क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "cybersecurity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "manual hardware",
+          "text_hi": "manual hardware",
+          "is_correct": false,
+          "trap_reason_en": "Confuses manual hardware with malicious software; the clue in this question points specifically to malicious software.",
+          "trap_reason_hi": "manual hardware को malicious software समझ लिया। इस question की clue specifically malicious software की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "malicious software",
+          "text_hi": "malicious software",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "mail server",
+          "text_hi": "mail server",
+          "is_correct": false,
+          "trap_reason_en": "Confuses mail server with malicious software; the clue in this question points specifically to malicious software.",
+          "trap_reason_hi": "mail server को malicious software समझ लिया। इस question की clue specifically malicious software की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "memory address only",
+          "text_hi": "memory address only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses memory address only with malicious software; the clue in this question points specifically to malicious software.",
+          "trap_reason_hi": "memory address only को malicious software समझ लिया। इस question की clue specifically malicious software की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Malware is malicious software. Therefore, answer = malicious software.",
+      "explanation_concept_en": "Malware is malicious software. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is malicious software.",
+      "explanation_method_hi": "Keyword याद रखें: Malware malicious software होता है। अतः answer = malicious software।",
+      "explanation_concept_hi": "Malware malicious software होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer malicious software है।"
+    },
+    {
+      "id": "gacomp-11",
+      "stem_en": "A firewall is used for:",
+      "stem_hi": "Firewall किसके लिए use होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "cybersecurity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "water cooling",
+          "text_hi": "water cooling",
+          "is_correct": false,
+          "trap_reason_en": "Confuses water cooling with network security; the clue in this question points specifically to network security.",
+          "trap_reason_hi": "water cooling को network security समझ लिया। इस question की clue specifically network security की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "screen brightness",
+          "text_hi": "screen brightness",
+          "is_correct": false,
+          "trap_reason_en": "Confuses screen brightness with network security; the clue in this question points specifically to network security.",
+          "trap_reason_hi": "screen brightness को network security समझ लिया। इस question की clue specifically network security की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "network security",
+          "text_hi": "network security",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "typing speed",
+          "text_hi": "typing speed",
+          "is_correct": false,
+          "trap_reason_en": "Confuses typing speed with network security; the clue in this question points specifically to network security.",
+          "trap_reason_hi": "typing speed को network security समझ लिया। इस question की clue specifically network security की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A firewall helps protect network traffic. Therefore, answer = network security.",
+      "explanation_concept_en": "A firewall helps protect network traffic. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is network security.",
+      "explanation_method_hi": "Keyword याद रखें: Firewall network traffic protect करने में help करता है। अतः answer = network security।",
+      "explanation_concept_hi": "Firewall network traffic protect करने में help करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer network security है।"
+    },
+    {
+      "id": "gacomp-12",
+      "stem_en": "Phishing is a type of:",
+      "stem_hi": "Phishing किस type की activity है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "cybersecurity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "file compression",
+          "text_hi": "file compression",
+          "is_correct": false,
+          "trap_reason_en": "Confuses file compression with online fraud; the clue in this question points specifically to online fraud.",
+          "trap_reason_hi": "file compression को online fraud समझ लिया। इस question की clue specifically online fraud की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "screen display",
+          "text_hi": "screen display",
+          "is_correct": false,
+          "trap_reason_en": "Confuses screen display with online fraud; the clue in this question points specifically to online fraud.",
+          "trap_reason_hi": "screen display को online fraud समझ लिया। इस question की clue specifically online fraud की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "valid backup",
+          "text_hi": "valid backup",
+          "is_correct": false,
+          "trap_reason_en": "Confuses valid backup with online fraud; the clue in this question points specifically to online fraud.",
+          "trap_reason_hi": "valid backup को online fraud समझ लिया। इस question की clue specifically online fraud की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "online fraud",
+          "text_hi": "online fraud",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Phishing tricks users through fake communication. Therefore, answer = online fraud.",
+      "explanation_concept_en": "Phishing tricks users through fake communication. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is online fraud.",
+      "explanation_method_hi": "Keyword याद रखें: Phishing fake communication से users को trick करता है। अतः answer = online fraud।",
+      "explanation_concept_hi": "Phishing fake communication से users को trick करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer online fraud है।"
+    },
+    {
+      "id": "gacomp-13",
+      "stem_en": "Ctrl+C is commonly used for:",
+      "stem_hi": "Ctrl+C commonly किसके लिए use होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "shortcuts"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "copy",
+          "text_hi": "copy",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "paste",
+          "text_hi": "paste",
+          "is_correct": false,
+          "trap_reason_en": "Confuses paste with copy; the clue in this question points specifically to copy.",
+          "trap_reason_hi": "paste को copy समझ लिया। इस question की clue specifically copy की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "save",
+          "text_hi": "save",
+          "is_correct": false,
+          "trap_reason_en": "Confuses save with copy; the clue in this question points specifically to copy.",
+          "trap_reason_hi": "save को copy समझ लिया। इस question की clue specifically copy की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "print",
+          "text_hi": "print",
+          "is_correct": false,
+          "trap_reason_en": "Confuses print with copy; the clue in this question points specifically to copy.",
+          "trap_reason_hi": "print को copy समझ लिया। इस question की clue specifically copy की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ctrl+C is the copy shortcut. Therefore, answer = copy.",
+      "explanation_concept_en": "Ctrl+C is the copy shortcut. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is copy.",
+      "explanation_method_hi": "Keyword याद रखें: Ctrl+C copy shortcut है। अतः answer = copy।",
+      "explanation_concept_hi": "Ctrl+C copy shortcut है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer copy है।"
+    },
+    {
+      "id": "gacomp-14",
+      "stem_en": "Ctrl+V is commonly used for:",
+      "stem_hi": "Ctrl+V commonly किसके लिए use होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "shortcuts"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "copy",
+          "text_hi": "copy",
+          "is_correct": false,
+          "trap_reason_en": "Confuses copy with paste; the clue in this question points specifically to paste.",
+          "trap_reason_hi": "copy को paste समझ लिया। इस question की clue specifically paste की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "paste",
+          "text_hi": "paste",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "undo",
+          "text_hi": "undo",
+          "is_correct": false,
+          "trap_reason_en": "Confuses undo with paste; the clue in this question points specifically to paste.",
+          "trap_reason_hi": "undo को paste समझ लिया। इस question की clue specifically paste की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "select all",
+          "text_hi": "select all",
+          "is_correct": false,
+          "trap_reason_en": "Confuses select all with paste; the clue in this question points specifically to paste.",
+          "trap_reason_hi": "select all को paste समझ लिया। इस question की clue specifically paste की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ctrl+V is the paste shortcut. Therefore, answer = paste.",
+      "explanation_concept_en": "Ctrl+V is the paste shortcut. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is paste.",
+      "explanation_method_hi": "Keyword याद रखें: Ctrl+V paste shortcut है। अतः answer = paste।",
+      "explanation_concept_hi": "Ctrl+V paste shortcut है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer paste है।"
+    },
+    {
+      "id": "gacomp-15",
+      "stem_en": "The binary number system uses:",
+      "stem_hi": "Binary number system किन digits का use करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "computers",
+        "number-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1 and 2",
+          "text_hi": "1 and 2",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1 and 2 with 0 and 1; the clue in this question points specifically to 0 and 1.",
+          "trap_reason_hi": "1 and 2 को 0 and 1 समझ लिया। इस question की clue specifically 0 and 1 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "0 to 9",
+          "text_hi": "0 to 9",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 0 to 9 with 0 and 1; the clue in this question points specifically to 0 and 1.",
+          "trap_reason_hi": "0 to 9 को 0 and 1 समझ लिया। इस question की clue specifically 0 and 1 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "0 and 1",
+          "text_hi": "0 and 1",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "A to F only",
+          "text_hi": "A to F only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses A to F only with 0 and 1; the clue in this question points specifically to 0 and 1.",
+          "trap_reason_hi": "A to F only को 0 and 1 समझ लिया। इस question की clue specifically 0 and 1 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Binary uses only 0 and 1. Therefore, answer = 0 and 1.",
+      "explanation_concept_en": "Binary uses only 0 and 1. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 0 and 1.",
+      "explanation_method_hi": "Keyword याद रखें: Binary केवल 0 और 1 use करता है। अतः answer = 0 and 1।",
+      "explanation_concept_hi": "Binary केवल 0 और 1 use करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 0 and 1 है।"
+    },
+    {
+      "id": "gacomp-16",
+      "stem_en": "India's first passenger train ran in 1853 between:",
+      "stem_hi": "India की first passenger train 1853 में कहाँ चली?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Delhi and Agra",
+          "text_hi": "Delhi and Agra",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Delhi and Agra with Mumbai and Thane; the clue in this question points specifically to Mumbai and Thane.",
+          "trap_reason_hi": "Delhi and Agra को Mumbai and Thane समझ लिया। इस question की clue specifically Mumbai and Thane की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kolkata and Patna",
+          "text_hi": "Kolkata and Patna",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kolkata and Patna with Mumbai and Thane; the clue in this question points specifically to Mumbai and Thane.",
+          "trap_reason_hi": "Kolkata and Patna को Mumbai and Thane समझ लिया। इस question की clue specifically Mumbai and Thane की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Chennai and Bengaluru",
+          "text_hi": "Chennai and Bengaluru",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chennai and Bengaluru with Mumbai and Thane; the clue in this question points specifically to Mumbai and Thane.",
+          "trap_reason_hi": "Chennai and Bengaluru को Mumbai and Thane समझ लिया। इस question की clue specifically Mumbai and Thane की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Mumbai and Thane",
+          "text_hi": "Mumbai and Thane",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: India's first passenger train ran between Mumbai and Thane. Therefore, answer = Mumbai and Thane.",
+      "explanation_concept_en": "India's first passenger train ran between Mumbai and Thane. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Mumbai and Thane.",
+      "explanation_method_hi": "Keyword याद रखें: India की first passenger train Mumbai और Thane के बीच चली। अतः answer = Mumbai and Thane।",
+      "explanation_concept_hi": "India की first passenger train Mumbai और Thane के बीच चली। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Mumbai and Thane है।"
+    },
+    {
+      "id": "gacomp-17",
+      "stem_en": "The Railway Board was established in:",
+      "stem_hi": "Railway Board किस year में established हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1905",
+          "text_hi": "1905",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1853",
+          "text_hi": "1853",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1853 with 1905; the clue in this question points specifically to 1905.",
+          "trap_reason_hi": "1853 को 1905 समझ लिया। इस question की clue specifically 1905 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1947",
+          "text_hi": "1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1947 with 1905; the clue in this question points specifically to 1905.",
+          "trap_reason_hi": "1947 को 1905 समझ लिया। इस question की clue specifically 1905 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1950",
+          "text_hi": "1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1950 with 1905; the clue in this question points specifically to 1905.",
+          "trap_reason_hi": "1950 को 1905 समझ लिया। इस question की clue specifically 1905 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Railway Board was established in 1905. Therefore, answer = 1905.",
+      "explanation_concept_en": "The Railway Board was established in 1905. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1905.",
+      "explanation_method_hi": "Keyword याद रखें: Railway Board 1905 में established हुआ। अतः answer = 1905।",
+      "explanation_concept_hi": "Railway Board 1905 में established हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1905 है।"
+    },
+    {
+      "id": "gacomp-18",
+      "stem_en": "Rail Bhavan, associated with Indian Railways, is in:",
+      "stem_hi": "Indian Railways से associated Rail Bhavan कहाँ है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mumbai",
+          "text_hi": "Mumbai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mumbai with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Mumbai को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "New Delhi",
+          "text_hi": "New Delhi",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Kolkata",
+          "text_hi": "Kolkata",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kolkata with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Kolkata को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Chennai",
+          "text_hi": "Chennai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chennai with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Chennai को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Rail Bhavan is in New Delhi. Therefore, answer = New Delhi.",
+      "explanation_concept_en": "Rail Bhavan is in New Delhi. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is New Delhi.",
+      "explanation_method_hi": "Keyword याद रखें: Rail Bhavan New Delhi में है। अतः answer = New Delhi।",
+      "explanation_concept_hi": "Rail Bhavan New Delhi में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer New Delhi है।"
+    },
+    {
+      "id": "gacomp-19",
+      "stem_en": "Konkan Railway is associated with the:",
+      "stem_hi": "Konkan Railway किस region से associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Thar Desert",
+          "text_hi": "Thar Desert",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Thar Desert with western coastal belt; the clue in this question points specifically to western coastal belt.",
+          "trap_reason_hi": "Thar Desert को western coastal belt समझ लिया। इस question की clue specifically western coastal belt की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Ganga plain only",
+          "text_hi": "Ganga plain only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ganga plain only with western coastal belt; the clue in this question points specifically to western coastal belt.",
+          "trap_reason_hi": "Ganga plain only को western coastal belt समझ लिया। इस question की clue specifically western coastal belt की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "western coastal belt",
+          "text_hi": "western coastal belt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Himalayan glacier belt",
+          "text_hi": "Himalayan glacier belt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Himalayan glacier belt with western coastal belt; the clue in this question points specifically to western coastal belt.",
+          "trap_reason_hi": "Himalayan glacier belt को western coastal belt समझ लिया। इस question की clue specifically western coastal belt की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Konkan Railway serves the western coastal belt. Therefore, answer = western coastal belt.",
+      "explanation_concept_en": "Konkan Railway serves the western coastal belt. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is western coastal belt.",
+      "explanation_method_hi": "Keyword याद रखें: Konkan Railway western coastal belt से associated है। अतः answer = western coastal belt।",
+      "explanation_concept_hi": "Konkan Railway western coastal belt से associated है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer western coastal belt है।"
+    },
+    {
+      "id": "gacomp-20",
+      "stem_en": "Dedicated Freight Corridor is built mainly for:",
+      "stem_hi": "Dedicated Freight Corridor mainly किसके लिए built है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "tourist buses",
+          "text_hi": "tourist buses",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tourist buses with freight movement; the clue in this question points specifically to freight movement.",
+          "trap_reason_hi": "tourist buses को freight movement समझ लिया। इस question की clue specifically freight movement की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "air traffic",
+          "text_hi": "air traffic",
+          "is_correct": false,
+          "trap_reason_en": "Confuses air traffic with freight movement; the clue in this question points specifically to freight movement.",
+          "trap_reason_hi": "air traffic को freight movement समझ लिया। इस question की clue specifically freight movement की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "postal stamps",
+          "text_hi": "postal stamps",
+          "is_correct": false,
+          "trap_reason_en": "Confuses postal stamps with freight movement; the clue in this question points specifically to freight movement.",
+          "trap_reason_hi": "postal stamps को freight movement समझ लिया। इस question की clue specifically freight movement की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "freight movement",
+          "text_hi": "freight movement",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Dedicated Freight Corridors prioritise freight movement. Therefore, answer = freight movement.",
+      "explanation_concept_en": "Dedicated Freight Corridors prioritise freight movement. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is freight movement.",
+      "explanation_method_hi": "Keyword याद रखें: Dedicated Freight Corridor freight movement के लिए है। अतः answer = freight movement।",
+      "explanation_concept_hi": "Dedicated Freight Corridor freight movement के लिए है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer freight movement है।"
+    },
+    {
+      "id": "gacomp-21",
+      "stem_en": "IRCTC is mainly associated with:",
+      "stem_hi": "IRCTC mainly किससे associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rail ticketing and catering services",
+          "text_hi": "rail ticketing and catering services",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "space launch",
+          "text_hi": "space launch",
+          "is_correct": false,
+          "trap_reason_en": "Confuses space launch with rail ticketing and catering services; the clue in this question points specifically to rail ticketing and catering services.",
+          "trap_reason_hi": "space launch को rail ticketing and catering services समझ लिया। इस question की clue specifically rail ticketing and catering services की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "bank regulation",
+          "text_hi": "bank regulation",
+          "is_correct": false,
+          "trap_reason_en": "Confuses bank regulation with rail ticketing and catering services; the clue in this question points specifically to rail ticketing and catering services.",
+          "trap_reason_hi": "bank regulation को rail ticketing and catering services समझ लिया। इस question की clue specifically rail ticketing and catering services की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "weather forecast",
+          "text_hi": "weather forecast",
+          "is_correct": false,
+          "trap_reason_en": "Confuses weather forecast with rail ticketing and catering services; the clue in this question points specifically to rail ticketing and catering services.",
+          "trap_reason_hi": "weather forecast को rail ticketing and catering services समझ लिया। इस question की clue specifically rail ticketing and catering services की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: IRCTC is linked with rail ticketing, catering and tourism services. Therefore, answer = rail ticketing and catering services.",
+      "explanation_concept_en": "IRCTC is linked with rail ticketing, catering and tourism services. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is rail ticketing and catering services.",
+      "explanation_method_hi": "Keyword याद रखें: IRCTC rail ticketing, catering और tourism services से linked है। अतः answer = rail ticketing and catering services।",
+      "explanation_concept_hi": "IRCTC rail ticketing, catering और tourism services से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer rail ticketing and catering services है।"
+    },
+    {
+      "id": "gacomp-22",
+      "stem_en": "Vande Bharat Express is best described as a:",
+      "stem_hi": "Vande Bharat Express को best कैसे describe करेंगे?",
+      "difficulty": "HARD",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "steam locomotive only",
+          "text_hi": "steam locomotive only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses steam locomotive only with semi-high-speed trainset; the clue in this question points specifically to semi-high-speed trainset.",
+          "trap_reason_hi": "steam locomotive only को semi-high-speed trainset समझ लिया। इस question की clue specifically semi-high-speed trainset की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "semi-high-speed trainset",
+          "text_hi": "semi-high-speed trainset",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "freight wagon only",
+          "text_hi": "freight wagon only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses freight wagon only with semi-high-speed trainset; the clue in this question points specifically to semi-high-speed trainset.",
+          "trap_reason_hi": "freight wagon only को semi-high-speed trainset समझ लिया। इस question की clue specifically semi-high-speed trainset की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "metro station",
+          "text_hi": "metro station",
+          "is_correct": false,
+          "trap_reason_en": "Confuses metro station with semi-high-speed trainset; the clue in this question points specifically to semi-high-speed trainset.",
+          "trap_reason_hi": "metro station को semi-high-speed trainset समझ लिया। इस question की clue specifically semi-high-speed trainset की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Vande Bharat is a semi-high-speed trainset. Therefore, answer = semi-high-speed trainset.",
+      "explanation_concept_en": "Vande Bharat is a semi-high-speed trainset. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is semi-high-speed trainset.",
+      "explanation_method_hi": "Keyword याद रखें: Vande Bharat semi-high-speed trainset है। अतः answer = semi-high-speed trainset।",
+      "explanation_concept_hi": "Vande Bharat semi-high-speed trainset है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer semi-high-speed trainset है।"
+    },
+    {
+      "id": "gacomp-23",
+      "stem_en": "Metro rail is mainly a form of:",
+      "stem_hi": "Metro rail mainly किसका form है?",
+      "difficulty": "HARD",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "deep sea transport",
+          "text_hi": "deep sea transport",
+          "is_correct": false,
+          "trap_reason_en": "Confuses deep sea transport with urban mass transit; the clue in this question points specifically to urban mass transit.",
+          "trap_reason_hi": "deep sea transport को urban mass transit समझ लिया। इस question की clue specifically urban mass transit की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "rural irrigation",
+          "text_hi": "rural irrigation",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rural irrigation with urban mass transit; the clue in this question points specifically to urban mass transit.",
+          "trap_reason_hi": "rural irrigation को urban mass transit समझ लिया। इस question की clue specifically urban mass transit की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "urban mass transit",
+          "text_hi": "urban mass transit",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "space transport",
+          "text_hi": "space transport",
+          "is_correct": false,
+          "trap_reason_en": "Confuses space transport with urban mass transit; the clue in this question points specifically to urban mass transit.",
+          "trap_reason_hi": "space transport को urban mass transit समझ लिया। इस question की clue specifically urban mass transit की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Metro rail serves urban mass transit. Therefore, answer = urban mass transit.",
+      "explanation_concept_en": "Metro rail serves urban mass transit. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is urban mass transit.",
+      "explanation_method_hi": "Keyword याद रखें: Metro rail urban mass transit serve करती है। अतः answer = urban mass transit।",
+      "explanation_concept_hi": "Metro rail urban mass transit serve करती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer urban mass transit है।"
+    },
+    {
+      "id": "gacomp-24",
+      "stem_en": "Rail gauge means the:",
+      "stem_hi": "Rail gauge का मतलब क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "length of platform",
+          "text_hi": "length of platform",
+          "is_correct": false,
+          "trap_reason_en": "Confuses length of platform with distance between two rails; the clue in this question points specifically to distance between two rails.",
+          "trap_reason_hi": "length of platform को distance between two rails समझ लिया। इस question की clue specifically distance between two rails की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "height of signal",
+          "text_hi": "height of signal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses height of signal with distance between two rails; the clue in this question points specifically to distance between two rails.",
+          "trap_reason_hi": "height of signal को distance between two rails समझ लिया। इस question की clue specifically distance between two rails की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "weight of coach",
+          "text_hi": "weight of coach",
+          "is_correct": false,
+          "trap_reason_en": "Confuses weight of coach with distance between two rails; the clue in this question points specifically to distance between two rails.",
+          "trap_reason_hi": "weight of coach को distance between two rails समझ लिया। इस question की clue specifically distance between two rails की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "distance between two rails",
+          "text_hi": "distance between two rails",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Gauge is the distance between the two rails. Therefore, answer = distance between two rails.",
+      "explanation_concept_en": "Gauge is the distance between the two rails. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is distance between two rails.",
+      "explanation_method_hi": "Keyword याद रखें: Gauge दो rails के बीच की distance है। अतः answer = distance between two rails।",
+      "explanation_concept_hi": "Gauge दो rails के बीच की distance है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer distance between two rails है।"
+    },
+    {
+      "id": "gacomp-25",
+      "stem_en": "A loco pilot is responsible for:",
+      "stem_hi": "Loco pilot किसके लिए responsible होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "railways",
+        "transport-systems"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "driving the train",
+          "text_hi": "driving the train",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "selling tickets",
+          "text_hi": "selling tickets",
+          "is_correct": false,
+          "trap_reason_en": "Confuses selling tickets with driving the train; the clue in this question points specifically to driving the train.",
+          "trap_reason_hi": "selling tickets को driving the train समझ लिया। इस question की clue specifically driving the train की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "maintaining court records",
+          "text_hi": "maintaining court records",
+          "is_correct": false,
+          "trap_reason_en": "Confuses maintaining court records with driving the train; the clue in this question points specifically to driving the train.",
+          "trap_reason_hi": "maintaining court records को driving the train समझ लिया। इस question की clue specifically driving the train की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "printing timetables only",
+          "text_hi": "printing timetables only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses printing timetables only with driving the train; the clue in this question points specifically to driving the train.",
+          "trap_reason_hi": "printing timetables only को driving the train समझ लिया। इस question की clue specifically driving the train की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A loco pilot drives the train. Therefore, answer = driving the train.",
+      "explanation_concept_en": "A loco pilot drives the train. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is driving the train.",
+      "explanation_method_hi": "Keyword याद रखें: Loco pilot train drive करता है। अतः answer = driving the train।",
+      "explanation_concept_hi": "Loco pilot train drive करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer driving the train है।"
+    }
+  ]
+}

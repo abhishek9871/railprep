@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original GA sectional — Indian Geography. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-indian-geography-01",
+  "title_en": "Indian Geography — Sectional",
+  "title_hi": "Indian Geography — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Indian Geography",
+    "title_hi": "Indian Geography",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gageo-01",
+      "stem_en": "Which important latitude passes through India?",
+      "stem_hi": "India से कौन-सी important latitude गुजरती है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Tropic of Cancer",
+          "text_hi": "Tropic of Cancer",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Equator",
+          "text_hi": "Equator",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Equator with Tropic of Cancer; the clue in this question points specifically to Tropic of Cancer.",
+          "trap_reason_hi": "Equator को Tropic of Cancer समझ लिया। इस question की clue specifically Tropic of Cancer की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Tropic of Capricorn",
+          "text_hi": "Tropic of Capricorn",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tropic of Capricorn with Tropic of Cancer; the clue in this question points specifically to Tropic of Cancer.",
+          "trap_reason_hi": "Tropic of Capricorn को Tropic of Cancer समझ लिया। इस question की clue specifically Tropic of Cancer की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Arctic Circle",
+          "text_hi": "Arctic Circle",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Arctic Circle with Tropic of Cancer; the clue in this question points specifically to Tropic of Cancer.",
+          "trap_reason_hi": "Arctic Circle को Tropic of Cancer समझ लिया। इस question की clue specifically Tropic of Cancer की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Tropic of Cancer passes through India. Therefore, answer = Tropic of Cancer.",
+      "explanation_concept_en": "The Tropic of Cancer passes through India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Tropic of Cancer.",
+      "explanation_method_hi": "Keyword याद रखें: Tropic of Cancer India से गुजरती है। अतः answer = Tropic of Cancer।",
+      "explanation_concept_hi": "Tropic of Cancer India से गुजरती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Tropic of Cancer है।"
+    },
+    {
+      "id": "gageo-02",
+      "stem_en": "India's Standard Meridian is:",
+      "stem_hi": "India का Standard Meridian कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "68.7°E",
+          "text_hi": "68.7°E",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 68.7°E with 82.5°E; the clue in this question points specifically to 82.5°E.",
+          "trap_reason_hi": "68.7°E को 82.5°E समझ लिया। इस question की clue specifically 82.5°E की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "82.5°E",
+          "text_hi": "82.5°E",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "77.0°E",
+          "text_hi": "77.0°E",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 77.0°E with 82.5°E; the clue in this question points specifically to 82.5°E.",
+          "trap_reason_hi": "77.0°E को 82.5°E समझ लिया। इस question की clue specifically 82.5°E की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "90.0°E",
+          "text_hi": "90.0°E",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 90.0°E with 82.5°E; the clue in this question points specifically to 82.5°E.",
+          "trap_reason_hi": "90.0°E को 82.5°E समझ लिया। इस question की clue specifically 82.5°E की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: India uses 82.5°E as the Standard Meridian. Therefore, answer = 82.5°E.",
+      "explanation_concept_en": "India uses 82.5°E as the Standard Meridian. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 82.5°E.",
+      "explanation_method_hi": "Keyword याद रखें: India का Standard Meridian 82.5°E है। अतः answer = 82.5°E।",
+      "explanation_concept_hi": "India का Standard Meridian 82.5°E है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 82.5°E है।"
+    },
+    {
+      "id": "gageo-03",
+      "stem_en": "The largest Indian state by area is:",
+      "stem_hi": "Area के आधार पर India का largest state कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Madhya Pradesh",
+          "text_hi": "Madhya Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Madhya Pradesh with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Madhya Pradesh को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Maharashtra with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Maharashtra को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Uttar Pradesh",
+          "text_hi": "Uttar Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Uttar Pradesh with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Uttar Pradesh को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Rajasthan is the largest state by area. Therefore, answer = Rajasthan.",
+      "explanation_concept_en": "Rajasthan is the largest state by area. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Rajasthan.",
+      "explanation_method_hi": "Keyword याद रखें: Rajasthan area से largest state है। अतः answer = Rajasthan।",
+      "explanation_concept_hi": "Rajasthan area से largest state है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Rajasthan है।"
+    },
+    {
+      "id": "gageo-04",
+      "stem_en": "The smallest Indian state by area is:",
+      "stem_hi": "Area के आधार पर India का smallest state कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sikkim",
+          "text_hi": "Sikkim",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sikkim with Goa; the clue in this question points specifically to Goa.",
+          "trap_reason_hi": "Sikkim को Goa समझ लिया। इस question की clue specifically Goa की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Tripura",
+          "text_hi": "Tripura",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tripura with Goa; the clue in this question points specifically to Goa.",
+          "trap_reason_hi": "Tripura को Goa समझ लिया। इस question की clue specifically Goa की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Nagaland",
+          "text_hi": "Nagaland",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Nagaland with Goa; the clue in this question points specifically to Goa.",
+          "trap_reason_hi": "Nagaland को Goa समझ लिया। इस question की clue specifically Goa की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Goa",
+          "text_hi": "Goa",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Goa is the smallest state by area. Therefore, answer = Goa.",
+      "explanation_concept_en": "Goa is the smallest state by area. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Goa.",
+      "explanation_method_hi": "Keyword याद रखें: Goa area से smallest state है। अतः answer = Goa।",
+      "explanation_concept_hi": "Goa area से smallest state है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Goa है।"
+    },
+    {
+      "id": "gageo-05",
+      "stem_en": "The longest river within India is commonly identified as:",
+      "stem_hi": "India के भीतर longest river commonly किसे माना जाता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "rivers"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Ganga",
+          "text_hi": "Ganga",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Narmada",
+          "text_hi": "Narmada",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Narmada with Ganga; the clue in this question points specifically to Ganga.",
+          "trap_reason_hi": "Narmada को Ganga समझ लिया। इस question की clue specifically Ganga की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Tapi",
+          "text_hi": "Tapi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tapi with Ganga; the clue in this question points specifically to Ganga.",
+          "trap_reason_hi": "Tapi को Ganga समझ लिया। इस question की clue specifically Ganga की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Mahi",
+          "text_hi": "Mahi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mahi with Ganga; the clue in this question points specifically to Ganga.",
+          "trap_reason_hi": "Mahi को Ganga समझ लिया। इस question की clue specifically Ganga की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ganga is commonly identified as the longest river within India. Therefore, answer = Ganga.",
+      "explanation_concept_en": "Ganga is commonly identified as the longest river within India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Ganga.",
+      "explanation_method_hi": "Keyword याद रखें: India के भीतर Ganga को longest river माना जाता है। अतः answer = Ganga।",
+      "explanation_concept_hi": "India के भीतर Ganga को longest river माना जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Ganga है।"
+    },
+    {
+      "id": "gageo-06",
+      "stem_en": "The southernmost point of mainland India is:",
+      "stem_hi": "Mainland India का southernmost point कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Indira Point",
+          "text_hi": "Indira Point",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indira Point with Kanyakumari; the clue in this question points specifically to Kanyakumari.",
+          "trap_reason_hi": "Indira Point को Kanyakumari समझ लिया। इस question की clue specifically Kanyakumari की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kanyakumari",
+          "text_hi": "Kanyakumari",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Kochi",
+          "text_hi": "Kochi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kochi with Kanyakumari; the clue in this question points specifically to Kanyakumari.",
+          "trap_reason_hi": "Kochi को Kanyakumari समझ लिया। इस question की clue specifically Kanyakumari की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Rameswaram",
+          "text_hi": "Rameswaram",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rameswaram with Kanyakumari; the clue in this question points specifically to Kanyakumari.",
+          "trap_reason_hi": "Rameswaram को Kanyakumari समझ लिया। इस question की clue specifically Kanyakumari की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Kanyakumari is the southern tip of mainland India. Therefore, answer = Kanyakumari.",
+      "explanation_concept_en": "Kanyakumari is the southern tip of mainland India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Kanyakumari.",
+      "explanation_method_hi": "Keyword याद रखें: Mainland India का southern tip Kanyakumari है। अतः answer = Kanyakumari।",
+      "explanation_concept_hi": "Mainland India का southern tip Kanyakumari है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Kanyakumari है।"
+    },
+    {
+      "id": "gageo-07",
+      "stem_en": "The Western Ghats run roughly parallel to the:",
+      "stem_hi": "Western Ghats roughly किस coast के parallel हैं?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "physical-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "eastern coast",
+          "text_hi": "eastern coast",
+          "is_correct": false,
+          "trap_reason_en": "Confuses eastern coast with western coast; the clue in this question points specifically to western coast.",
+          "trap_reason_hi": "eastern coast को western coast समझ लिया। इस question की clue specifically western coast की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "northern plains",
+          "text_hi": "northern plains",
+          "is_correct": false,
+          "trap_reason_en": "Confuses northern plains with western coast; the clue in this question points specifically to western coast.",
+          "trap_reason_hi": "northern plains को western coast समझ लिया। इस question की clue specifically western coast की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "western coast",
+          "text_hi": "western coast",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Thar Desert",
+          "text_hi": "Thar Desert",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Thar Desert with western coast; the clue in this question points specifically to western coast.",
+          "trap_reason_hi": "Thar Desert को western coast समझ लिया। इस question की clue specifically western coast की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Western Ghats run along the western coast. Therefore, answer = western coast.",
+      "explanation_concept_en": "Western Ghats run along the western coast. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is western coast.",
+      "explanation_method_hi": "Keyword याद रखें: Western Ghats western coast के साथ चलते हैं। अतः answer = western coast।",
+      "explanation_concept_hi": "Western Ghats western coast के साथ चलते हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer western coast है।"
+    },
+    {
+      "id": "gageo-08",
+      "stem_en": "Black soil is especially suitable for:",
+      "stem_hi": "Black soil खास तौर पर किस crop के लिए suitable है?",
+      "difficulty": "EASY",
+      "tags": [
+        "geography",
+        "soils"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "tea",
+          "text_hi": "tea",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tea with cotton; the clue in this question points specifically to cotton.",
+          "trap_reason_hi": "tea को cotton समझ लिया। इस question की clue specifically cotton की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "jute",
+          "text_hi": "jute",
+          "is_correct": false,
+          "trap_reason_en": "Confuses jute with cotton; the clue in this question points specifically to cotton.",
+          "trap_reason_hi": "jute को cotton समझ लिया। इस question की clue specifically cotton की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "rubber",
+          "text_hi": "rubber",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rubber with cotton; the clue in this question points specifically to cotton.",
+          "trap_reason_hi": "rubber को cotton समझ लिया। इस question की clue specifically cotton की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "cotton",
+          "text_hi": "cotton",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Black soil is associated with cotton cultivation. Therefore, answer = cotton.",
+      "explanation_concept_en": "Black soil is associated with cotton cultivation. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is cotton.",
+      "explanation_method_hi": "Keyword याद रखें: Black soil cotton cultivation से associated है। अतः answer = cotton।",
+      "explanation_concept_hi": "Black soil cotton cultivation से associated है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer cotton है।"
+    },
+    {
+      "id": "gageo-09",
+      "stem_en": "Alluvial soil is dominant in the:",
+      "stem_hi": "Alluvial soil mainly कहाँ पाई जाती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "soils"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "northern plains",
+          "text_hi": "northern plains",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Thar Desert",
+          "text_hi": "Thar Desert",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Thar Desert with northern plains; the clue in this question points specifically to northern plains.",
+          "trap_reason_hi": "Thar Desert को northern plains समझ लिया। इस question की clue specifically northern plains की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Deccan traps only",
+          "text_hi": "Deccan traps only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Deccan traps only with northern plains; the clue in this question points specifically to northern plains.",
+          "trap_reason_hi": "Deccan traps only को northern plains समझ लिया। इस question की clue specifically northern plains की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Andaman islands",
+          "text_hi": "Andaman islands",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Andaman islands with northern plains; the clue in this question points specifically to northern plains.",
+          "trap_reason_hi": "Andaman islands को northern plains समझ लिया। इस question की clue specifically northern plains की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Northern plains have extensive alluvial soil. Therefore, answer = northern plains.",
+      "explanation_concept_en": "Northern plains have extensive alluvial soil. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is northern plains.",
+      "explanation_method_hi": "Keyword याद रखें: Northern plains में alluvial soil extensive है। अतः answer = northern plains।",
+      "explanation_concept_hi": "Northern plains में alluvial soil extensive है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer northern plains है।"
+    },
+    {
+      "id": "gageo-10",
+      "stem_en": "The Indian monsoon is mainly marked by:",
+      "stem_hi": "Indian monsoon mainly किससे marked होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "climate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "permanent west winds",
+          "text_hi": "permanent west winds",
+          "is_correct": false,
+          "trap_reason_en": "Confuses permanent west winds with seasonal reversal of winds; the clue in this question points specifically to seasonal reversal of winds.",
+          "trap_reason_hi": "permanent west winds को seasonal reversal of winds समझ लिया। इस question की clue specifically seasonal reversal of winds की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "seasonal reversal of winds",
+          "text_hi": "seasonal reversal of winds",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "no rainfall",
+          "text_hi": "no rainfall",
+          "is_correct": false,
+          "trap_reason_en": "Confuses no rainfall with seasonal reversal of winds; the clue in this question points specifically to seasonal reversal of winds.",
+          "trap_reason_hi": "no rainfall को seasonal reversal of winds समझ लिया। इस question की clue specifically seasonal reversal of winds की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "polar night",
+          "text_hi": "polar night",
+          "is_correct": false,
+          "trap_reason_en": "Confuses polar night with seasonal reversal of winds; the clue in this question points specifically to seasonal reversal of winds.",
+          "trap_reason_hi": "polar night को seasonal reversal of winds समझ लिया। इस question की clue specifically seasonal reversal of winds की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Monsoon involves seasonal reversal of winds. Therefore, answer = seasonal reversal of winds.",
+      "explanation_concept_en": "Monsoon involves seasonal reversal of winds. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is seasonal reversal of winds.",
+      "explanation_method_hi": "Keyword याद रखें: Monsoon में winds का seasonal reversal होता है। अतः answer = seasonal reversal of winds।",
+      "explanation_concept_hi": "Monsoon में winds का seasonal reversal होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer seasonal reversal of winds है।"
+    },
+    {
+      "id": "gageo-11",
+      "stem_en": "The Himalayas are examples of:",
+      "stem_hi": "Himalayas किसका example हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "physical-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "block mountains",
+          "text_hi": "block mountains",
+          "is_correct": false,
+          "trap_reason_en": "Confuses block mountains with young fold mountains; the clue in this question points specifically to young fold mountains.",
+          "trap_reason_hi": "block mountains को young fold mountains समझ लिया। इस question की clue specifically young fold mountains की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "volcanic islands",
+          "text_hi": "volcanic islands",
+          "is_correct": false,
+          "trap_reason_en": "Confuses volcanic islands with young fold mountains; the clue in this question points specifically to young fold mountains.",
+          "trap_reason_hi": "volcanic islands को young fold mountains समझ लिया। इस question की clue specifically young fold mountains की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "young fold mountains",
+          "text_hi": "young fold mountains",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "old plateaus",
+          "text_hi": "old plateaus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses old plateaus with young fold mountains; the clue in this question points specifically to young fold mountains.",
+          "trap_reason_hi": "old plateaus को young fold mountains समझ लिया। इस question की clue specifically young fold mountains की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Himalayas are young fold mountains. Therefore, answer = young fold mountains.",
+      "explanation_concept_en": "The Himalayas are young fold mountains. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is young fold mountains.",
+      "explanation_method_hi": "Keyword याद रखें: Himalayas young fold mountains हैं। अतः answer = young fold mountains।",
+      "explanation_concept_hi": "Himalayas young fold mountains हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer young fold mountains है।"
+    },
+    {
+      "id": "gageo-12",
+      "stem_en": "The Deccan Plateau is part of:",
+      "stem_hi": "Deccan Plateau किसका part है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "physical-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Northern Plains",
+          "text_hi": "Northern Plains",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Northern Plains with Peninsular India; the clue in this question points specifically to Peninsular India.",
+          "trap_reason_hi": "Northern Plains को Peninsular India समझ लिया। इस question की clue specifically Peninsular India की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Himalayan arc",
+          "text_hi": "Himalayan arc",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Himalayan arc with Peninsular India; the clue in this question points specifically to Peninsular India.",
+          "trap_reason_hi": "Himalayan arc को Peninsular India समझ लिया। इस question की clue specifically Peninsular India की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Ganga delta",
+          "text_hi": "Ganga delta",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ganga delta with Peninsular India; the clue in this question points specifically to Peninsular India.",
+          "trap_reason_hi": "Ganga delta को Peninsular India समझ लिया। इस question की clue specifically Peninsular India की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Peninsular India",
+          "text_hi": "Peninsular India",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Deccan Plateau is in Peninsular India. Therefore, answer = Peninsular India.",
+      "explanation_concept_en": "The Deccan Plateau is in Peninsular India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Peninsular India.",
+      "explanation_method_hi": "Keyword याद रखें: Deccan Plateau Peninsular India में है। अतः answer = Peninsular India।",
+      "explanation_concept_hi": "Deccan Plateau Peninsular India में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Peninsular India है।"
+    },
+    {
+      "id": "gageo-13",
+      "stem_en": "Chilika Lake is located in:",
+      "stem_hi": "Chilika Lake किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "lakes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Gujarat को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Kerala को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Punjab को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Chilika Lake is in Odisha. Therefore, answer = Odisha.",
+      "explanation_concept_en": "Chilika Lake is in Odisha. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Odisha.",
+      "explanation_method_hi": "Keyword याद रखें: Chilika Lake Odisha में है। अतः answer = Odisha।",
+      "explanation_concept_hi": "Chilika Lake Odisha में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Odisha है।"
+    },
+    {
+      "id": "gageo-14",
+      "stem_en": "The Sundarbans are associated with the delta of:",
+      "stem_hi": "Sundarbans किस delta से associated हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "rivers"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Narmada-Tapi",
+          "text_hi": "Narmada-Tapi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Narmada-Tapi with Ganga-Brahmaputra; the clue in this question points specifically to Ganga-Brahmaputra.",
+          "trap_reason_hi": "Narmada-Tapi को Ganga-Brahmaputra समझ लिया। इस question की clue specifically Ganga-Brahmaputra की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Ganga-Brahmaputra",
+          "text_hi": "Ganga-Brahmaputra",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Godavari-Krishna only",
+          "text_hi": "Godavari-Krishna only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Godavari-Krishna only with Ganga-Brahmaputra; the clue in this question points specifically to Ganga-Brahmaputra.",
+          "trap_reason_hi": "Godavari-Krishna only को Ganga-Brahmaputra समझ लिया। इस question की clue specifically Ganga-Brahmaputra की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Indus only",
+          "text_hi": "Indus only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indus only with Ganga-Brahmaputra; the clue in this question points specifically to Ganga-Brahmaputra.",
+          "trap_reason_hi": "Indus only को Ganga-Brahmaputra समझ लिया। इस question की clue specifically Ganga-Brahmaputra की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Sundarbans lie in the Ganga-Brahmaputra delta region. Therefore, answer = Ganga-Brahmaputra.",
+      "explanation_concept_en": "Sundarbans lie in the Ganga-Brahmaputra delta region. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Ganga-Brahmaputra.",
+      "explanation_method_hi": "Keyword याद रखें: Sundarbans Ganga-Brahmaputra delta region में हैं। अतः answer = Ganga-Brahmaputra।",
+      "explanation_concept_hi": "Sundarbans Ganga-Brahmaputra delta region में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Ganga-Brahmaputra है।"
+    },
+    {
+      "id": "gageo-15",
+      "stem_en": "The Thar Desert is mainly in:",
+      "stem_hi": "Thar Desert mainly कहाँ है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "physical-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Assam को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kerala",
+          "text_hi": "Kerala",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kerala with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Kerala को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Rajasthan",
+          "text_hi": "Rajasthan",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Bihar",
+          "text_hi": "Bihar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bihar with Rajasthan; the clue in this question points specifically to Rajasthan.",
+          "trap_reason_hi": "Bihar को Rajasthan समझ लिया। इस question की clue specifically Rajasthan की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Thar Desert is mainly in Rajasthan. Therefore, answer = Rajasthan.",
+      "explanation_concept_en": "The Thar Desert is mainly in Rajasthan. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Rajasthan.",
+      "explanation_method_hi": "Keyword याद रखें: Thar Desert mainly Rajasthan में है। अतः answer = Rajasthan।",
+      "explanation_concept_hi": "Thar Desert mainly Rajasthan में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Rajasthan है।"
+    },
+    {
+      "id": "gageo-16",
+      "stem_en": "The Narmada river flows into the:",
+      "stem_hi": "Narmada river किसमें गिरती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "rivers"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Bay of Bengal",
+          "text_hi": "Bay of Bengal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bay of Bengal with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Bay of Bengal को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Chilika Lake",
+          "text_hi": "Chilika Lake",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chilika Lake with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Chilika Lake को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Indian Ocean at Kanyakumari",
+          "text_hi": "Indian Ocean at Kanyakumari",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indian Ocean at Kanyakumari with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Indian Ocean at Kanyakumari को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Arabian Sea",
+          "text_hi": "Arabian Sea",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Narmada is a west-flowing river draining into the Arabian Sea. Therefore, answer = Arabian Sea.",
+      "explanation_concept_en": "Narmada is a west-flowing river draining into the Arabian Sea. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Arabian Sea.",
+      "explanation_method_hi": "Keyword याद रखें: Narmada west-flowing river है और Arabian Sea में गिरती है। अतः answer = Arabian Sea।",
+      "explanation_concept_hi": "Narmada west-flowing river है और Arabian Sea में गिरती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Arabian Sea है।"
+    },
+    {
+      "id": "gageo-17",
+      "stem_en": "Kaziranga National Park is in:",
+      "stem_hi": "Kaziranga National Park किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Assam; the clue in this question points specifically to Assam.",
+          "trap_reason_hi": "Gujarat को Assam समझ लिया। इस question की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Uttarakhand",
+          "text_hi": "Uttarakhand",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Uttarakhand with Assam; the clue in this question points specifically to Assam.",
+          "trap_reason_hi": "Uttarakhand को Assam समझ लिया। इस question की clue specifically Assam की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Madhya Pradesh",
+          "text_hi": "Madhya Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Madhya Pradesh with Assam; the clue in this question points specifically to Assam.",
+          "trap_reason_hi": "Madhya Pradesh को Assam समझ लिया। इस question की clue specifically Assam की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Kaziranga National Park is in Assam. Therefore, answer = Assam.",
+      "explanation_concept_en": "Kaziranga National Park is in Assam. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Assam.",
+      "explanation_method_hi": "Keyword याद रखें: Kaziranga National Park Assam में है। अतः answer = Assam।",
+      "explanation_concept_hi": "Kaziranga National Park Assam में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Assam है।"
+    },
+    {
+      "id": "gageo-18",
+      "stem_en": "Gir National Park is famous for:",
+      "stem_hi": "Gir National Park किसके लिए famous है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "one-horned rhinoceros",
+          "text_hi": "one-horned rhinoceros",
+          "is_correct": false,
+          "trap_reason_en": "Confuses one-horned rhinoceros with Asiatic lion; the clue in this question points specifically to Asiatic lion.",
+          "trap_reason_hi": "one-horned rhinoceros को Asiatic lion समझ लिया। इस question की clue specifically Asiatic lion की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Asiatic lion",
+          "text_hi": "Asiatic lion",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "snow leopard",
+          "text_hi": "snow leopard",
+          "is_correct": false,
+          "trap_reason_en": "Confuses snow leopard with Asiatic lion; the clue in this question points specifically to Asiatic lion.",
+          "trap_reason_hi": "snow leopard को Asiatic lion समझ लिया। इस question की clue specifically Asiatic lion की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "red panda",
+          "text_hi": "red panda",
+          "is_correct": false,
+          "trap_reason_en": "Confuses red panda with Asiatic lion; the clue in this question points specifically to Asiatic lion.",
+          "trap_reason_hi": "red panda को Asiatic lion समझ लिया। इस question की clue specifically Asiatic lion की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Gir is famous for the Asiatic lion. Therefore, answer = Asiatic lion.",
+      "explanation_concept_en": "Gir is famous for the Asiatic lion. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Asiatic lion.",
+      "explanation_method_hi": "Keyword याद रखें: Gir Asiatic lion के लिए famous है। अतः answer = Asiatic lion।",
+      "explanation_concept_hi": "Gir Asiatic lion के लिए famous है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Asiatic lion है।"
+    },
+    {
+      "id": "gageo-19",
+      "stem_en": "The Sundarbans are a major example of:",
+      "stem_hi": "Sundarbans किसका major example हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "tropical desert",
+          "text_hi": "tropical desert",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tropical desert with mangrove forest; the clue in this question points specifically to mangrove forest.",
+          "trap_reason_hi": "tropical desert को mangrove forest समझ लिया। इस question की clue specifically mangrove forest की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "alpine meadow",
+          "text_hi": "alpine meadow",
+          "is_correct": false,
+          "trap_reason_en": "Confuses alpine meadow with mangrove forest; the clue in this question points specifically to mangrove forest.",
+          "trap_reason_hi": "alpine meadow को mangrove forest समझ लिया। इस question की clue specifically mangrove forest की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "mangrove forest",
+          "text_hi": "mangrove forest",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "coral island",
+          "text_hi": "coral island",
+          "is_correct": false,
+          "trap_reason_en": "Confuses coral island with mangrove forest; the clue in this question points specifically to mangrove forest.",
+          "trap_reason_hi": "coral island को mangrove forest समझ लिया। इस question की clue specifically mangrove forest की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Sundarbans are mangrove forests. Therefore, answer = mangrove forest.",
+      "explanation_concept_en": "Sundarbans are mangrove forests. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is mangrove forest.",
+      "explanation_method_hi": "Keyword याद रखें: Sundarbans mangrove forests हैं। अतः answer = mangrove forest।",
+      "explanation_concept_hi": "Sundarbans mangrove forests हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer mangrove forest है।"
+    },
+    {
+      "id": "gageo-20",
+      "stem_en": "Jim Corbett National Park is in:",
+      "stem_hi": "Jim Corbett National Park किस state में है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "geography",
+        "environment"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Uttarakhand; the clue in this question points specifically to Uttarakhand.",
+          "trap_reason_hi": "Assam को Uttarakhand समझ लिया। इस question की clue specifically Uttarakhand की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Uttarakhand; the clue in this question points specifically to Uttarakhand.",
+          "trap_reason_hi": "Gujarat को Uttarakhand समझ लिया। इस question की clue specifically Uttarakhand की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Uttarakhand; the clue in this question points specifically to Uttarakhand.",
+          "trap_reason_hi": "Odisha को Uttarakhand समझ लिया। इस question की clue specifically Uttarakhand की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Uttarakhand",
+          "text_hi": "Uttarakhand",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Jim Corbett National Park is in Uttarakhand. Therefore, answer = Uttarakhand.",
+      "explanation_concept_en": "Jim Corbett National Park is in Uttarakhand. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Uttarakhand.",
+      "explanation_method_hi": "Keyword याद रखें: Jim Corbett National Park Uttarakhand में है। अतः answer = Uttarakhand।",
+      "explanation_concept_hi": "Jim Corbett National Park Uttarakhand में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Uttarakhand है।"
+    },
+    {
+      "id": "gageo-21",
+      "stem_en": "Andaman and Nicobar Islands are located in the:",
+      "stem_hi": "Andaman and Nicobar Islands किसमें located हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Bay of Bengal",
+          "text_hi": "Bay of Bengal",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Arabian Sea",
+          "text_hi": "Arabian Sea",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Arabian Sea with Bay of Bengal; the clue in this question points specifically to Bay of Bengal.",
+          "trap_reason_hi": "Arabian Sea को Bay of Bengal समझ लिया। इस question की clue specifically Bay of Bengal की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Palk Strait only",
+          "text_hi": "Palk Strait only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Palk Strait only with Bay of Bengal; the clue in this question points specifically to Bay of Bengal.",
+          "trap_reason_hi": "Palk Strait only को Bay of Bengal समझ लिया। इस question की clue specifically Bay of Bengal की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Gulf of Kutch",
+          "text_hi": "Gulf of Kutch",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gulf of Kutch with Bay of Bengal; the clue in this question points specifically to Bay of Bengal.",
+          "trap_reason_hi": "Gulf of Kutch को Bay of Bengal समझ लिया। इस question की clue specifically Bay of Bengal की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Andaman and Nicobar lie in the Bay of Bengal. Therefore, answer = Bay of Bengal.",
+      "explanation_concept_en": "Andaman and Nicobar lie in the Bay of Bengal. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Bay of Bengal.",
+      "explanation_method_hi": "Keyword याद रखें: Andaman and Nicobar Bay of Bengal में हैं। अतः answer = Bay of Bengal।",
+      "explanation_concept_hi": "Andaman and Nicobar Bay of Bengal में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Bay of Bengal है।"
+    },
+    {
+      "id": "gageo-22",
+      "stem_en": "Lakshadweep is located in the:",
+      "stem_hi": "Lakshadweep किसमें located है?",
+      "difficulty": "HARD",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Bay of Bengal",
+          "text_hi": "Bay of Bengal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bay of Bengal with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Bay of Bengal को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Arabian Sea",
+          "text_hi": "Arabian Sea",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Indian Ocean near Sri Lanka",
+          "text_hi": "Indian Ocean near Sri Lanka",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indian Ocean near Sri Lanka with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Indian Ocean near Sri Lanka को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Gulf of Mannar",
+          "text_hi": "Gulf of Mannar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gulf of Mannar with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Gulf of Mannar को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Lakshadweep lies in the Arabian Sea. Therefore, answer = Arabian Sea.",
+      "explanation_concept_en": "Lakshadweep lies in the Arabian Sea. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Arabian Sea.",
+      "explanation_method_hi": "Keyword याद रखें: Lakshadweep Arabian Sea में है। अतः answer = Arabian Sea।",
+      "explanation_concept_hi": "Lakshadweep Arabian Sea में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Arabian Sea है।"
+    },
+    {
+      "id": "gageo-23",
+      "stem_en": "Indian Standard Time is:",
+      "stem_hi": "Indian Standard Time क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "UTC",
+          "text_hi": "UTC",
+          "is_correct": false,
+          "trap_reason_en": "Confuses UTC with UTC+5:30; the clue in this question points specifically to UTC+5:30.",
+          "trap_reason_hi": "UTC को UTC+5:30 समझ लिया। इस question की clue specifically UTC+5:30 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "UTC+4:30",
+          "text_hi": "UTC+4:30",
+          "is_correct": false,
+          "trap_reason_en": "Confuses UTC+4:30 with UTC+5:30; the clue in this question points specifically to UTC+5:30.",
+          "trap_reason_hi": "UTC+4:30 को UTC+5:30 समझ लिया। इस question की clue specifically UTC+5:30 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "UTC+5:30",
+          "text_hi": "UTC+5:30",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "UTC+6:30",
+          "text_hi": "UTC+6:30",
+          "is_correct": false,
+          "trap_reason_en": "Confuses UTC+6:30 with UTC+5:30; the clue in this question points specifically to UTC+5:30.",
+          "trap_reason_hi": "UTC+6:30 को UTC+5:30 समझ लिया। इस question की clue specifically UTC+5:30 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Indian Standard Time is UTC+5:30. Therefore, answer = UTC+5:30.",
+      "explanation_concept_en": "Indian Standard Time is UTC+5:30. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is UTC+5:30.",
+      "explanation_method_hi": "Keyword याद रखें: Indian Standard Time UTC+5:30 है। अतः answer = UTC+5:30।",
+      "explanation_concept_hi": "Indian Standard Time UTC+5:30 है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer UTC+5:30 है।"
+    },
+    {
+      "id": "gageo-24",
+      "stem_en": "The Mahanadi delta is mainly associated with:",
+      "stem_hi": "Mahanadi delta mainly किस state से associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "geography",
+        "rivers"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Punjab को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Gujarat",
+          "text_hi": "Gujarat",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gujarat with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Gujarat को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Himachal Pradesh",
+          "text_hi": "Himachal Pradesh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Himachal Pradesh with Odisha; the clue in this question points specifically to Odisha.",
+          "trap_reason_hi": "Himachal Pradesh को Odisha समझ लिया। इस question की clue specifically Odisha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Mahanadi delta lies along Odisha's coast. Therefore, answer = Odisha.",
+      "explanation_concept_en": "The Mahanadi delta lies along Odisha's coast. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Odisha.",
+      "explanation_method_hi": "Keyword याद रखें: Mahanadi delta Odisha coast से associated है। अतः answer = Odisha।",
+      "explanation_concept_hi": "Mahanadi delta Odisha coast से associated है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Odisha है।"
+    },
+    {
+      "id": "gageo-25",
+      "stem_en": "The Konkan coast lies along the:",
+      "stem_hi": "Konkan coast किस sea के along है?",
+      "difficulty": "HARD",
+      "tags": [
+        "geography",
+        "india-geography"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Arabian Sea",
+          "text_hi": "Arabian Sea",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Bay of Bengal",
+          "text_hi": "Bay of Bengal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bay of Bengal with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Bay of Bengal को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Red Sea",
+          "text_hi": "Red Sea",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Red Sea with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Red Sea को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Caspian Sea",
+          "text_hi": "Caspian Sea",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Caspian Sea with Arabian Sea; the clue in this question points specifically to Arabian Sea.",
+          "trap_reason_hi": "Caspian Sea को Arabian Sea समझ लिया। इस question की clue specifically Arabian Sea की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Konkan is a west-coast belt along the Arabian Sea. Therefore, answer = Arabian Sea.",
+      "explanation_concept_en": "Konkan is a west-coast belt along the Arabian Sea. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Arabian Sea.",
+      "explanation_method_hi": "Keyword याद रखें: Konkan Arabian Sea के along west-coast belt है। अतः answer = Arabian Sea।",
+      "explanation_concept_hi": "Konkan Arabian Sea के along west-coast belt है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Arabian Sea है।"
+    }
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original GA sectional — Indian History. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-indian-history-01",
+  "title_en": "Indian History — Sectional",
+  "title_hi": "Indian History — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Indian History",
+    "title_hi": "Indian History",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gahis-01",
+      "stem_en": "Which is the oldest Veda?",
+      "stem_hi": "सबसे पुराना Veda कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Rigveda",
+          "text_hi": "Rigveda",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Samaveda",
+          "text_hi": "Samaveda",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Samaveda with Rigveda; the clue in this question points specifically to Rigveda.",
+          "trap_reason_hi": "Samaveda को Rigveda समझ लिया। इस question की clue specifically Rigveda की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Yajurveda",
+          "text_hi": "Yajurveda",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Yajurveda with Rigveda; the clue in this question points specifically to Rigveda.",
+          "trap_reason_hi": "Yajurveda को Rigveda समझ लिया। इस question की clue specifically Rigveda की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Atharvaveda",
+          "text_hi": "Atharvaveda",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Atharvaveda with Rigveda; the clue in this question points specifically to Rigveda.",
+          "trap_reason_hi": "Atharvaveda को Rigveda समझ लिया। इस question की clue specifically Rigveda की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Rigveda is regarded as the oldest Veda. Therefore, answer = Rigveda.",
+      "explanation_concept_en": "Rigveda is regarded as the oldest Veda. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Rigveda.",
+      "explanation_method_hi": "Keyword याद रखें: Rigveda को सबसे पुराना Veda माना जाता है। अतः answer = Rigveda।",
+      "explanation_concept_hi": "Rigveda को सबसे पुराना Veda माना जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Rigveda है।"
+    },
+    {
+      "id": "gahis-02",
+      "stem_en": "Gautama Buddha attained enlightenment at:",
+      "stem_hi": "Gautama Buddha को enlightenment कहाँ मिला?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sarnath",
+          "text_hi": "Sarnath",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sarnath with Bodh Gaya; the clue in this question points specifically to Bodh Gaya.",
+          "trap_reason_hi": "Sarnath को Bodh Gaya समझ लिया। इस question की clue specifically Bodh Gaya की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Bodh Gaya",
+          "text_hi": "Bodh Gaya",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Kushinagar",
+          "text_hi": "Kushinagar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kushinagar with Bodh Gaya; the clue in this question points specifically to Bodh Gaya.",
+          "trap_reason_hi": "Kushinagar को Bodh Gaya समझ लिया। इस question की clue specifically Bodh Gaya की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Lumbini",
+          "text_hi": "Lumbini",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Lumbini with Bodh Gaya; the clue in this question points specifically to Bodh Gaya.",
+          "trap_reason_hi": "Lumbini को Bodh Gaya समझ लिया। इस question की clue specifically Bodh Gaya की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Buddha attained enlightenment at Bodh Gaya. Therefore, answer = Bodh Gaya.",
+      "explanation_concept_en": "Buddha attained enlightenment at Bodh Gaya. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Bodh Gaya.",
+      "explanation_method_hi": "Keyword याद रखें: Buddha को Bodh Gaya में enlightenment मिला। अतः answer = Bodh Gaya।",
+      "explanation_concept_hi": "Buddha को Bodh Gaya में enlightenment मिला। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Bodh Gaya है।"
+    },
+    {
+      "id": "gahis-03",
+      "stem_en": "Mahavira is associated with which religion?",
+      "stem_hi": "Mahavira किस religion से associated हैं?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Buddhism",
+          "text_hi": "Buddhism",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Buddhism with Jainism; the clue in this question points specifically to Jainism.",
+          "trap_reason_hi": "Buddhism को Jainism समझ लिया। इस question की clue specifically Jainism की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Sikhism",
+          "text_hi": "Sikhism",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sikhism with Jainism; the clue in this question points specifically to Jainism.",
+          "trap_reason_hi": "Sikhism को Jainism समझ लिया। इस question की clue specifically Jainism की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Jainism",
+          "text_hi": "Jainism",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Zoroastrianism",
+          "text_hi": "Zoroastrianism",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Zoroastrianism with Jainism; the clue in this question points specifically to Jainism.",
+          "trap_reason_hi": "Zoroastrianism को Jainism समझ लिया। इस question की clue specifically Jainism की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Mahavira is the 24th Tirthankara of Jainism. Therefore, answer = Jainism.",
+      "explanation_concept_en": "Mahavira is the 24th Tirthankara of Jainism. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Jainism.",
+      "explanation_method_hi": "Keyword याद रखें: Mahavira Jainism के 24th Tirthankara हैं। अतः answer = Jainism।",
+      "explanation_concept_hi": "Mahavira Jainism के 24th Tirthankara हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Jainism है।"
+    },
+    {
+      "id": "gahis-04",
+      "stem_en": "Ashoka belonged to which dynasty?",
+      "stem_hi": "Ashoka किस dynasty से belong करते थे?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Gupta",
+          "text_hi": "Gupta",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gupta with Maurya; the clue in this question points specifically to Maurya.",
+          "trap_reason_hi": "Gupta को Maurya समझ लिया। इस question की clue specifically Maurya की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mughal",
+          "text_hi": "Mughal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mughal with Maurya; the clue in this question points specifically to Maurya.",
+          "trap_reason_hi": "Mughal को Maurya समझ लिया। इस question की clue specifically Maurya की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Chola",
+          "text_hi": "Chola",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chola with Maurya; the clue in this question points specifically to Maurya.",
+          "trap_reason_hi": "Chola को Maurya समझ लिया। इस question की clue specifically Maurya की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Maurya",
+          "text_hi": "Maurya",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ashoka was a Mauryan emperor. Therefore, answer = Maurya.",
+      "explanation_concept_en": "Ashoka was a Mauryan emperor. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Maurya.",
+      "explanation_method_hi": "Keyword याद रखें: Ashoka Maurya emperor थे। अतः answer = Maurya।",
+      "explanation_concept_hi": "Ashoka Maurya emperor थे। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Maurya है।"
+    },
+    {
+      "id": "gahis-05",
+      "stem_en": "Which war deeply changed Ashoka's policy?",
+      "stem_hi": "किस war ने Ashoka की policy को deeply change किया?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Kalinga War",
+          "text_hi": "Kalinga War",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Battle of Plassey",
+          "text_hi": "Battle of Plassey",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Battle of Plassey with Kalinga War; the clue in this question points specifically to Kalinga War.",
+          "trap_reason_hi": "Battle of Plassey को Kalinga War समझ लिया। इस question की clue specifically Kalinga War की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Battle of Buxar",
+          "text_hi": "Battle of Buxar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Battle of Buxar with Kalinga War; the clue in this question points specifically to Kalinga War.",
+          "trap_reason_hi": "Battle of Buxar को Kalinga War समझ लिया। इस question की clue specifically Kalinga War की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Panipat War",
+          "text_hi": "Panipat War",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Panipat War with Kalinga War; the clue in this question points specifically to Kalinga War.",
+          "trap_reason_hi": "Panipat War को Kalinga War समझ लिया। इस question की clue specifically Kalinga War की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Kalinga War transformed Ashoka's policy. Therefore, answer = Kalinga War.",
+      "explanation_concept_en": "The Kalinga War transformed Ashoka's policy. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Kalinga War.",
+      "explanation_method_hi": "Keyword याद रखें: Kalinga War ने Ashoka की policy बदल दी। अतः answer = Kalinga War।",
+      "explanation_concept_hi": "Kalinga War ने Ashoka की policy बदल दी। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Kalinga War है।"
+    },
+    {
+      "id": "gahis-06",
+      "stem_en": "The Gupta period is often called the:",
+      "stem_hi": "Gupta period को अक्सर क्या कहा जाता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Iron Age",
+          "text_hi": "Iron Age",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Iron Age with Golden Age; the clue in this question points specifically to Golden Age.",
+          "trap_reason_hi": "Iron Age को Golden Age समझ लिया। इस question की clue specifically Golden Age की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Golden Age",
+          "text_hi": "Golden Age",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Company Rule",
+          "text_hi": "Company Rule",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Company Rule with Golden Age; the clue in this question points specifically to Golden Age.",
+          "trap_reason_hi": "Company Rule को Golden Age समझ लिया। इस question की clue specifically Golden Age की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sultanate Age",
+          "text_hi": "Sultanate Age",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sultanate Age with Golden Age; the clue in this question points specifically to Golden Age.",
+          "trap_reason_hi": "Sultanate Age को Golden Age समझ लिया। इस question की clue specifically Golden Age की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Gupta period is often called the Golden Age. Therefore, answer = Golden Age.",
+      "explanation_concept_en": "The Gupta period is often called the Golden Age. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Golden Age.",
+      "explanation_method_hi": "Keyword याद रखें: Gupta period को Golden Age कहा जाता है। अतः answer = Golden Age।",
+      "explanation_concept_hi": "Gupta period को Golden Age कहा जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Golden Age है।"
+    },
+    {
+      "id": "gahis-07",
+      "stem_en": "Hiuen Tsang visited India during the reign of:",
+      "stem_hi": "Hiuen Tsang किसके reign में India आए?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "ancient-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Akbar",
+          "text_hi": "Akbar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Akbar with Harsha; the clue in this question points specifically to Harsha.",
+          "trap_reason_hi": "Akbar को Harsha समझ लिया। इस question की clue specifically Harsha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Ashoka",
+          "text_hi": "Ashoka",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ashoka with Harsha; the clue in this question points specifically to Harsha.",
+          "trap_reason_hi": "Ashoka को Harsha समझ लिया। इस question की clue specifically Harsha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Harsha",
+          "text_hi": "Harsha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Shivaji",
+          "text_hi": "Shivaji",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Shivaji with Harsha; the clue in this question points specifically to Harsha.",
+          "trap_reason_hi": "Shivaji को Harsha समझ लिया। इस question की clue specifically Harsha की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Hiuen Tsang visited during Harsha's time. Therefore, answer = Harsha.",
+      "explanation_concept_en": "Hiuen Tsang visited during Harsha's time. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Harsha.",
+      "explanation_method_hi": "Keyword याद रखें: Hiuen Tsang Harsha के समय आए। अतः answer = Harsha।",
+      "explanation_concept_hi": "Hiuen Tsang Harsha के समय आए। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Harsha है।"
+    },
+    {
+      "id": "gahis-08",
+      "stem_en": "Qutub Minar was begun by:",
+      "stem_hi": "Qutub Minar की शुरुआत किसने की?",
+      "difficulty": "EASY",
+      "tags": [
+        "history",
+        "medieval-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Iltutmish",
+          "text_hi": "Iltutmish",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Iltutmish with Qutb-ud-din Aibak; the clue in this question points specifically to Qutb-ud-din Aibak.",
+          "trap_reason_hi": "Iltutmish को Qutb-ud-din Aibak समझ लिया। इस question की clue specifically Qutb-ud-din Aibak की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Akbar",
+          "text_hi": "Akbar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Akbar with Qutb-ud-din Aibak; the clue in this question points specifically to Qutb-ud-din Aibak.",
+          "trap_reason_hi": "Akbar को Qutb-ud-din Aibak समझ लिया। इस question की clue specifically Qutb-ud-din Aibak की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Shah Jahan",
+          "text_hi": "Shah Jahan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Shah Jahan with Qutb-ud-din Aibak; the clue in this question points specifically to Qutb-ud-din Aibak.",
+          "trap_reason_hi": "Shah Jahan को Qutb-ud-din Aibak समझ लिया। इस question की clue specifically Qutb-ud-din Aibak की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Qutb-ud-din Aibak",
+          "text_hi": "Qutb-ud-din Aibak",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Qutb-ud-din Aibak began Qutub Minar. Therefore, answer = Qutb-ud-din Aibak.",
+      "explanation_concept_en": "Qutb-ud-din Aibak began Qutub Minar. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Qutb-ud-din Aibak.",
+      "explanation_method_hi": "Keyword याद रखें: Qutb-ud-din Aibak ने Qutub Minar शुरू कराया। अतः answer = Qutb-ud-din Aibak।",
+      "explanation_concept_hi": "Qutb-ud-din Aibak ने Qutub Minar शुरू कराया। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Qutb-ud-din Aibak है।"
+    },
+    {
+      "id": "gahis-09",
+      "stem_en": "The First Battle of Panipat was fought in:",
+      "stem_hi": "First Battle of Panipat किस year में हुई?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "medieval-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1526",
+          "text_hi": "1526",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1556",
+          "text_hi": "1556",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1556 with 1526; the clue in this question points specifically to 1526.",
+          "trap_reason_hi": "1556 को 1526 समझ लिया। इस question की clue specifically 1526 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1761",
+          "text_hi": "1761",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1761 with 1526; the clue in this question points specifically to 1526.",
+          "trap_reason_hi": "1761 को 1526 समझ लिया। इस question की clue specifically 1526 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1757",
+          "text_hi": "1757",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1757 with 1526; the clue in this question points specifically to 1526.",
+          "trap_reason_hi": "1757 को 1526 समझ लिया। इस question की clue specifically 1526 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The First Battle of Panipat was fought in 1526. Therefore, answer = 1526.",
+      "explanation_concept_en": "The First Battle of Panipat was fought in 1526. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1526.",
+      "explanation_method_hi": "Keyword याद रखें: First Battle of Panipat 1526 में हुई। अतः answer = 1526।",
+      "explanation_concept_hi": "First Battle of Panipat 1526 में हुई। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1526 है।"
+    },
+    {
+      "id": "gahis-10",
+      "stem_en": "Akbar's revenue minister was:",
+      "stem_hi": "Akbar के revenue minister कौन थे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "medieval-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Birbal",
+          "text_hi": "Birbal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Birbal with Todar Mal; the clue in this question points specifically to Todar Mal.",
+          "trap_reason_hi": "Birbal को Todar Mal समझ लिया। इस question की clue specifically Todar Mal की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Todar Mal",
+          "text_hi": "Todar Mal",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Tansen",
+          "text_hi": "Tansen",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tansen with Todar Mal; the clue in this question points specifically to Todar Mal.",
+          "trap_reason_hi": "Tansen को Todar Mal समझ लिया। इस question की clue specifically Todar Mal की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Raja Man Singh",
+          "text_hi": "Raja Man Singh",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Raja Man Singh with Todar Mal; the clue in this question points specifically to Todar Mal.",
+          "trap_reason_hi": "Raja Man Singh को Todar Mal समझ लिया। इस question की clue specifically Todar Mal की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Todar Mal is associated with Akbar's revenue system. Therefore, answer = Todar Mal.",
+      "explanation_concept_en": "Todar Mal is associated with Akbar's revenue system. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Todar Mal.",
+      "explanation_method_hi": "Keyword याद रखें: Todar Mal Akbar के revenue system से associated हैं। अतः answer = Todar Mal।",
+      "explanation_concept_hi": "Todar Mal Akbar के revenue system से associated हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Todar Mal है।"
+    },
+    {
+      "id": "gahis-11",
+      "stem_en": "Shivaji's coronation took place in:",
+      "stem_hi": "Shivaji का coronation किस year में हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "medieval-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1600",
+          "text_hi": "1600",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1600 with 1674; the clue in this question points specifically to 1674.",
+          "trap_reason_hi": "1600 को 1674 समझ लिया। इस question की clue specifically 1674 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1707",
+          "text_hi": "1707",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1707 with 1674; the clue in this question points specifically to 1674.",
+          "trap_reason_hi": "1707 को 1674 समझ लिया। इस question की clue specifically 1674 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1674",
+          "text_hi": "1674",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1764",
+          "text_hi": "1764",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1764 with 1674; the clue in this question points specifically to 1674.",
+          "trap_reason_hi": "1764 को 1674 समझ लिया। इस question की clue specifically 1674 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Shivaji was coronated in 1674. Therefore, answer = 1674.",
+      "explanation_concept_en": "Shivaji was coronated in 1674. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1674.",
+      "explanation_method_hi": "Keyword याद रखें: Shivaji का coronation 1674 में हुआ। अतः answer = 1674।",
+      "explanation_concept_hi": "Shivaji का coronation 1674 में हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1674 है।"
+    },
+    {
+      "id": "gahis-12",
+      "stem_en": "The Battle of Plassey was fought in:",
+      "stem_hi": "Battle of Plassey किस year में हुई?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "modern-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1764",
+          "text_hi": "1764",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1764 with 1757; the clue in this question points specifically to 1757.",
+          "trap_reason_hi": "1764 को 1757 समझ लिया। इस question की clue specifically 1757 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1857",
+          "text_hi": "1857",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1857 with 1757; the clue in this question points specifically to 1757.",
+          "trap_reason_hi": "1857 को 1757 समझ लिया। इस question की clue specifically 1757 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1526",
+          "text_hi": "1526",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1526 with 1757; the clue in this question points specifically to 1757.",
+          "trap_reason_hi": "1526 को 1757 समझ लिया। इस question की clue specifically 1757 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1757",
+          "text_hi": "1757",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Battle of Plassey was fought in 1757. Therefore, answer = 1757.",
+      "explanation_concept_en": "The Battle of Plassey was fought in 1757. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1757.",
+      "explanation_method_hi": "Keyword याद रखें: Battle of Plassey 1757 में हुई। अतः answer = 1757।",
+      "explanation_concept_hi": "Battle of Plassey 1757 में हुई। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1757 है।"
+    },
+    {
+      "id": "gahis-13",
+      "stem_en": "The Battle of Buxar was fought in:",
+      "stem_hi": "Battle of Buxar किस year में हुई?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "modern-india"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1764",
+          "text_hi": "1764",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1757",
+          "text_hi": "1757",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1757 with 1764; the clue in this question points specifically to 1764.",
+          "trap_reason_hi": "1757 को 1764 समझ लिया। इस question की clue specifically 1764 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1857",
+          "text_hi": "1857",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1857 with 1764; the clue in this question points specifically to 1764.",
+          "trap_reason_hi": "1857 को 1764 समझ लिया। इस question की clue specifically 1764 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1942 with 1764; the clue in this question points specifically to 1764.",
+          "trap_reason_hi": "1942 को 1764 समझ लिया। इस question की clue specifically 1764 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Battle of Buxar was fought in 1764. Therefore, answer = 1764.",
+      "explanation_concept_en": "The Battle of Buxar was fought in 1764. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1764.",
+      "explanation_method_hi": "Keyword याद रखें: Battle of Buxar 1764 में हुई। अतः answer = 1764।",
+      "explanation_concept_hi": "Battle of Buxar 1764 में हुई। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1764 है।"
+    },
+    {
+      "id": "gahis-14",
+      "stem_en": "The Revolt of 1857 began at:",
+      "stem_hi": "1857 का revolt कहाँ से शुरू हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Delhi",
+          "text_hi": "Delhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Delhi with Meerut; the clue in this question points specifically to Meerut.",
+          "trap_reason_hi": "Delhi को Meerut समझ लिया। इस question की clue specifically Meerut की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Meerut",
+          "text_hi": "Meerut",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Kanpur",
+          "text_hi": "Kanpur",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kanpur with Meerut; the clue in this question points specifically to Meerut.",
+          "trap_reason_hi": "Kanpur को Meerut समझ लिया। इस question की clue specifically Meerut की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Jhansi",
+          "text_hi": "Jhansi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jhansi with Meerut; the clue in this question points specifically to Meerut.",
+          "trap_reason_hi": "Jhansi को Meerut समझ लिया। इस question की clue specifically Meerut की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Revolt of 1857 began at Meerut. Therefore, answer = Meerut.",
+      "explanation_concept_en": "The Revolt of 1857 began at Meerut. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Meerut.",
+      "explanation_method_hi": "Keyword याद रखें: 1857 revolt Meerut से शुरू हुआ। अतः answer = Meerut।",
+      "explanation_concept_hi": "1857 revolt Meerut से शुरू हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Meerut है।"
+    },
+    {
+      "id": "gahis-15",
+      "stem_en": "The Indian National Congress was founded in:",
+      "stem_hi": "Indian National Congress किस year में founded हुई?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1905",
+          "text_hi": "1905",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1905 with 1885; the clue in this question points specifically to 1885.",
+          "trap_reason_hi": "1905 को 1885 समझ लिया। इस question की clue specifically 1885 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1919",
+          "text_hi": "1919",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1919 with 1885; the clue in this question points specifically to 1885.",
+          "trap_reason_hi": "1919 को 1885 समझ लिया। इस question की clue specifically 1885 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1885",
+          "text_hi": "1885",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1942 with 1885; the clue in this question points specifically to 1885.",
+          "trap_reason_hi": "1942 को 1885 समझ लिया। इस question की clue specifically 1885 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The INC was founded in 1885. Therefore, answer = 1885.",
+      "explanation_concept_en": "The INC was founded in 1885. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1885.",
+      "explanation_method_hi": "Keyword याद रखें: INC 1885 में founded हुई। अतः answer = 1885।",
+      "explanation_concept_hi": "INC 1885 में founded हुई। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1885 है।"
+    },
+    {
+      "id": "gahis-16",
+      "stem_en": "The Swadeshi Movement began after the partition of:",
+      "stem_hi": "Swadeshi Movement किस partition के बाद शुरू हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Bengal; the clue in this question points specifically to Bengal.",
+          "trap_reason_hi": "Punjab को Bengal समझ लिया। इस question की clue specifically Bengal की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Bombay",
+          "text_hi": "Bombay",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Bombay with Bengal; the clue in this question points specifically to Bengal.",
+          "trap_reason_hi": "Bombay को Bengal समझ लिया। इस question की clue specifically Bengal की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Madras",
+          "text_hi": "Madras",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Madras with Bengal; the clue in this question points specifically to Bengal.",
+          "trap_reason_hi": "Madras को Bengal समझ लिया। इस question की clue specifically Bengal की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bengal",
+          "text_hi": "Bengal",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Swadeshi Movement followed the 1905 Bengal partition. Therefore, answer = Bengal.",
+      "explanation_concept_en": "The Swadeshi Movement followed the 1905 Bengal partition. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Bengal.",
+      "explanation_method_hi": "Keyword याद रखें: Swadeshi Movement 1905 Bengal partition के बाद शुरू हुआ। अतः answer = Bengal।",
+      "explanation_concept_hi": "Swadeshi Movement 1905 Bengal partition के बाद शुरू हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Bengal है।"
+    },
+    {
+      "id": "gahis-17",
+      "stem_en": "Mahatma Gandhi returned to India from South Africa in:",
+      "stem_hi": "Mahatma Gandhi South Africa से India कब लौटे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1915",
+          "text_hi": "1915",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1905",
+          "text_hi": "1905",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1905 with 1915; the clue in this question points specifically to 1915.",
+          "trap_reason_hi": "1905 को 1915 समझ लिया। इस question की clue specifically 1915 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1919",
+          "text_hi": "1919",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1919 with 1915; the clue in this question points specifically to 1915.",
+          "trap_reason_hi": "1919 को 1915 समझ लिया। इस question की clue specifically 1915 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1930",
+          "text_hi": "1930",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1930 with 1915; the clue in this question points specifically to 1915.",
+          "trap_reason_hi": "1930 को 1915 समझ लिया। इस question की clue specifically 1915 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Gandhi returned to India in 1915. Therefore, answer = 1915.",
+      "explanation_concept_en": "Gandhi returned to India in 1915. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1915.",
+      "explanation_method_hi": "Keyword याद रखें: Gandhi 1915 में India लौटे। अतः answer = 1915।",
+      "explanation_concept_hi": "Gandhi 1915 में India लौटे। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1915 है।"
+    },
+    {
+      "id": "gahis-18",
+      "stem_en": "The Jallianwala Bagh massacre occurred in:",
+      "stem_hi": "Jallianwala Bagh massacre किस year में हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1905",
+          "text_hi": "1905",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1905 with 1919; the clue in this question points specifically to 1919.",
+          "trap_reason_hi": "1905 को 1919 समझ लिया। इस question की clue specifically 1919 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1919",
+          "text_hi": "1919",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "1920",
+          "text_hi": "1920",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1920 with 1919; the clue in this question points specifically to 1919.",
+          "trap_reason_hi": "1920 को 1919 समझ लिया। इस question की clue specifically 1919 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1930",
+          "text_hi": "1930",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1930 with 1919; the clue in this question points specifically to 1919.",
+          "trap_reason_hi": "1930 को 1919 समझ लिया। इस question की clue specifically 1919 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Jallianwala Bagh happened in 1919. Therefore, answer = 1919.",
+      "explanation_concept_en": "Jallianwala Bagh happened in 1919. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1919.",
+      "explanation_method_hi": "Keyword याद रखें: Jallianwala Bagh 1919 में हुआ। अतः answer = 1919।",
+      "explanation_concept_hi": "Jallianwala Bagh 1919 में हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1919 है।"
+    },
+    {
+      "id": "gahis-19",
+      "stem_en": "The Non-Cooperation Movement began in:",
+      "stem_hi": "Non-Cooperation Movement किस year में शुरू हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1915",
+          "text_hi": "1915",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1915 with 1920; the clue in this question points specifically to 1920.",
+          "trap_reason_hi": "1915 को 1920 समझ लिया। इस question की clue specifically 1920 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1930",
+          "text_hi": "1930",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1930 with 1920; the clue in this question points specifically to 1920.",
+          "trap_reason_hi": "1930 को 1920 समझ लिया। इस question की clue specifically 1920 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1920",
+          "text_hi": "1920",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1942 with 1920; the clue in this question points specifically to 1920.",
+          "trap_reason_hi": "1942 को 1920 समझ लिया। इस question की clue specifically 1920 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Non-Cooperation Movement began in 1920. Therefore, answer = 1920.",
+      "explanation_concept_en": "The Non-Cooperation Movement began in 1920. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1920.",
+      "explanation_method_hi": "Keyword याद रखें: Non-Cooperation Movement 1920 में शुरू हुआ। अतः answer = 1920।",
+      "explanation_concept_hi": "Non-Cooperation Movement 1920 में शुरू हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1920 है।"
+    },
+    {
+      "id": "gahis-20",
+      "stem_en": "The Dandi March took place in:",
+      "stem_hi": "Dandi March किस year में हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1920",
+          "text_hi": "1920",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1920 with 1930; the clue in this question points specifically to 1930.",
+          "trap_reason_hi": "1920 को 1930 समझ लिया। इस question की clue specifically 1930 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1942 with 1930; the clue in this question points specifically to 1930.",
+          "trap_reason_hi": "1942 को 1930 समझ लिया। इस question की clue specifically 1930 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1946",
+          "text_hi": "1946",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1946 with 1930; the clue in this question points specifically to 1930.",
+          "trap_reason_hi": "1946 को 1930 समझ लिया। इस question की clue specifically 1930 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1930",
+          "text_hi": "1930",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Dandi March took place in 1930. Therefore, answer = 1930.",
+      "explanation_concept_en": "The Dandi March took place in 1930. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1930.",
+      "explanation_method_hi": "Keyword याद रखें: Dandi March 1930 में हुआ। अतः answer = 1930।",
+      "explanation_concept_hi": "Dandi March 1930 में हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1930 है।"
+    },
+    {
+      "id": "gahis-21",
+      "stem_en": "The Quit India Movement was launched in:",
+      "stem_hi": "Quit India Movement किस year में launch हुआ?",
+      "difficulty": "HARD",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1930",
+          "text_hi": "1930",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1930 with 1942; the clue in this question points specifically to 1942.",
+          "trap_reason_hi": "1930 को 1942 समझ लिया। इस question की clue specifically 1942 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1946",
+          "text_hi": "1946",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1946 with 1942; the clue in this question points specifically to 1942.",
+          "trap_reason_hi": "1946 को 1942 समझ लिया। इस question की clue specifically 1942 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1950",
+          "text_hi": "1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1950 with 1942; the clue in this question points specifically to 1942.",
+          "trap_reason_hi": "1950 को 1942 समझ लिया। इस question की clue specifically 1942 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Quit India was launched in 1942. Therefore, answer = 1942.",
+      "explanation_concept_en": "Quit India was launched in 1942. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1942.",
+      "explanation_method_hi": "Keyword याद रखें: Quit India 1942 में launch हुआ। अतः answer = 1942।",
+      "explanation_concept_hi": "Quit India 1942 में launch हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1942 है।"
+    },
+    {
+      "id": "gahis-22",
+      "stem_en": "The Cabinet Mission came to India in:",
+      "stem_hi": "Cabinet Mission India कब आया?",
+      "difficulty": "HARD",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1942",
+          "text_hi": "1942",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1942 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1942 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1946",
+          "text_hi": "1946",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "1947",
+          "text_hi": "1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1947 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1947 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1950",
+          "text_hi": "1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1950 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1950 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Cabinet Mission came in 1946. Therefore, answer = 1946.",
+      "explanation_concept_en": "The Cabinet Mission came in 1946. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1946.",
+      "explanation_method_hi": "Keyword याद रखें: Cabinet Mission 1946 में आया। अतः answer = 1946।",
+      "explanation_concept_hi": "Cabinet Mission 1946 में आया। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1946 है।"
+    },
+    {
+      "id": "gahis-23",
+      "stem_en": "The Constituent Assembly first met in:",
+      "stem_hi": "Constituent Assembly पहली बार कब मिली?",
+      "difficulty": "HARD",
+      "tags": [
+        "history",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1947",
+          "text_hi": "1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1947 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1947 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "1949",
+          "text_hi": "1949",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1949 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1949 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1946",
+          "text_hi": "1946",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1950",
+          "text_hi": "1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1950 with 1946; the clue in this question points specifically to 1946.",
+          "trap_reason_hi": "1950 को 1946 समझ लिया। इस question की clue specifically 1946 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Constituent Assembly first met in 1946. Therefore, answer = 1946.",
+      "explanation_concept_en": "The Constituent Assembly first met in 1946. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1946.",
+      "explanation_method_hi": "Keyword याद रखें: Constituent Assembly पहली बार 1946 में मिली। अतः answer = 1946।",
+      "explanation_concept_hi": "Constituent Assembly पहली बार 1946 में मिली। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1946 है।"
+    },
+    {
+      "id": "gahis-24",
+      "stem_en": "India became independent on:",
+      "stem_hi": "India कब independent हुआ?",
+      "difficulty": "HARD",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26 January 1950",
+          "text_hi": "26 January 1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 26 January 1950 with 15 August 1947; the clue in this question points specifically to 15 August 1947.",
+          "trap_reason_hi": "26 January 1950 को 15 August 1947 समझ लिया। इस question की clue specifically 15 August 1947 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "2 October 1947",
+          "text_hi": "2 October 1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2 October 1947 with 15 August 1947; the clue in this question points specifically to 15 August 1947.",
+          "trap_reason_hi": "2 October 1947 को 15 August 1947 समझ लिया। इस question की clue specifically 15 August 1947 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "14 November 1947",
+          "text_hi": "14 November 1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 14 November 1947 with 15 August 1947; the clue in this question points specifically to 15 August 1947.",
+          "trap_reason_hi": "14 November 1947 को 15 August 1947 समझ लिया। इस question की clue specifically 15 August 1947 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "15 August 1947",
+          "text_hi": "15 August 1947",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: India became independent on 15 August 1947. Therefore, answer = 15 August 1947.",
+      "explanation_concept_en": "India became independent on 15 August 1947. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 15 August 1947.",
+      "explanation_method_hi": "Keyword याद रखें: India 15 August 1947 को independent हुआ। अतः answer = 15 August 1947।",
+      "explanation_concept_hi": "India 15 August 1947 को independent हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 15 August 1947 है।"
+    },
+    {
+      "id": "gahis-25",
+      "stem_en": "The slogan 'Do or Die' is linked with:",
+      "stem_hi": "'Do or Die' slogan किस movement से linked है?",
+      "difficulty": "HARD",
+      "tags": [
+        "history",
+        "freedom-struggle"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Quit India Movement",
+          "text_hi": "Quit India Movement",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Swadeshi Movement",
+          "text_hi": "Swadeshi Movement",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Swadeshi Movement with Quit India Movement; the clue in this question points specifically to Quit India Movement.",
+          "trap_reason_hi": "Swadeshi Movement को Quit India Movement समझ लिया। इस question की clue specifically Quit India Movement की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Dandi March",
+          "text_hi": "Dandi March",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Dandi March with Quit India Movement; the clue in this question points specifically to Quit India Movement.",
+          "trap_reason_hi": "Dandi March को Quit India Movement समझ लिया। इस question की clue specifically Quit India Movement की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Non-Cooperation Movement",
+          "text_hi": "Non-Cooperation Movement",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Non-Cooperation Movement with Quit India Movement; the clue in this question points specifically to Quit India Movement.",
+          "trap_reason_hi": "Non-Cooperation Movement को Quit India Movement समझ लिया। इस question की clue specifically Quit India Movement की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Do or Die was the call of Quit India Movement. Therefore, answer = Quit India Movement.",
+      "explanation_concept_en": "Do or Die was the call of Quit India Movement. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Quit India Movement.",
+      "explanation_method_hi": "Keyword याद रखें: Do or Die Quit India Movement का call था। अतः answer = Quit India Movement।",
+      "explanation_concept_hi": "Do or Die Quit India Movement का call था। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Quit India Movement है।"
+    }
+  ]
+}

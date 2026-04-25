@@ -1,0 +1,1272 @@
+{
+  "_doc": "Launch original GA sectional — General Science: Physics. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-general-science-physics-01",
+  "title_en": "General Science: Physics — Sectional",
+  "title_hi": "General Science: Physics — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "General Science: Physics",
+    "title_hi": "General Science: Physics",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gaphy-01",
+      "stem_en": "What is the SI unit of force?",
+      "stem_hi": "Force की SI unit क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "physics",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "newton",
+          "text_hi": "newton",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "joule",
+          "text_hi": "joule",
+          "is_correct": false,
+          "trap_reason_en": "Confuses joule with newton; the clue in this question points specifically to newton.",
+          "trap_reason_hi": "joule को newton समझ लिया। इस question की clue specifically newton की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "watt",
+          "text_hi": "watt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses watt with newton; the clue in this question points specifically to newton.",
+          "trap_reason_hi": "watt को newton समझ लिया। इस question की clue specifically newton की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "pascal",
+          "text_hi": "pascal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses pascal with newton; the clue in this question points specifically to newton.",
+          "trap_reason_hi": "pascal को newton समझ लिया। इस question की clue specifically newton की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Force is measured in newton. Therefore, answer = newton.",
+      "explanation_concept_en": "Force is measured in newton. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is newton.",
+      "explanation_method_hi": "Keyword याद रखें: Force की unit newton होती है। अतः answer = newton।",
+      "explanation_concept_hi": "Force की unit newton होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer newton है।"
+    },
+    {
+      "id": "gaphy-02",
+      "stem_en": "What is the SI unit of work?",
+      "stem_hi": "Work की SI unit क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "physics",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "newton",
+          "text_hi": "newton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses newton with joule; the clue in this question points specifically to joule.",
+          "trap_reason_hi": "newton को joule समझ लिया। इस question की clue specifically joule की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "joule",
+          "text_hi": "joule",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "watt",
+          "text_hi": "watt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses watt with joule; the clue in this question points specifically to joule.",
+          "trap_reason_hi": "watt को joule समझ लिया। इस question की clue specifically joule की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "volt",
+          "text_hi": "volt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses volt with joule; the clue in this question points specifically to joule.",
+          "trap_reason_hi": "volt को joule समझ लिया। इस question की clue specifically joule की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Work and energy are measured in joule. Therefore, answer = joule.",
+      "explanation_concept_en": "Work and energy are measured in joule. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is joule.",
+      "explanation_method_hi": "Keyword याद रखें: Work और energy की unit joule होती है। अतः answer = joule।",
+      "explanation_concept_hi": "Work और energy की unit joule होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer joule है।"
+    },
+    {
+      "id": "gaphy-03",
+      "stem_en": "What is the SI unit of power?",
+      "stem_hi": "Power की SI unit क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "physics",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "joule",
+          "text_hi": "joule",
+          "is_correct": false,
+          "trap_reason_en": "Confuses joule with watt; the clue in this question points specifically to watt.",
+          "trap_reason_hi": "joule को watt समझ लिया। इस question की clue specifically watt की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "ohm",
+          "text_hi": "ohm",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ohm with watt; the clue in this question points specifically to watt.",
+          "trap_reason_hi": "ohm को watt समझ लिया। इस question की clue specifically watt की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "watt",
+          "text_hi": "watt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "ampere",
+          "text_hi": "ampere",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ampere with watt; the clue in this question points specifically to watt.",
+          "trap_reason_hi": "ampere को watt समझ लिया। इस question की clue specifically watt की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Power is measured in watt. Therefore, answer = watt.",
+      "explanation_concept_en": "Power is measured in watt. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is watt.",
+      "explanation_method_hi": "Keyword याद रखें: Power की unit watt होती है। अतः answer = watt।",
+      "explanation_concept_hi": "Power की unit watt होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer watt है।"
+    },
+    {
+      "id": "gaphy-04",
+      "stem_en": "Electric current is measured in which SI unit?",
+      "stem_hi": "Electric current किस SI unit में measured होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "electricity",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "volt",
+          "text_hi": "volt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses volt with ampere; the clue in this question points specifically to ampere.",
+          "trap_reason_hi": "volt को ampere समझ लिया। इस question की clue specifically ampere की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "ohm",
+          "text_hi": "ohm",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ohm with ampere; the clue in this question points specifically to ampere.",
+          "trap_reason_hi": "ohm को ampere समझ लिया। इस question की clue specifically ampere की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "hertz",
+          "text_hi": "hertz",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hertz with ampere; the clue in this question points specifically to ampere.",
+          "trap_reason_hi": "hertz को ampere समझ लिया। इस question की clue specifically ampere की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "ampere",
+          "text_hi": "ampere",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Electric current is measured in ampere. Therefore, answer = ampere.",
+      "explanation_concept_en": "Electric current is measured in ampere. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is ampere.",
+      "explanation_method_hi": "Keyword याद रखें: Electric current की unit ampere है। अतः answer = ampere।",
+      "explanation_concept_hi": "Electric current की unit ampere है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer ampere है।"
+    },
+    {
+      "id": "gaphy-05",
+      "stem_en": "Potential difference is measured in which unit?",
+      "stem_hi": "Potential difference किस unit में measured होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "electricity",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "volt",
+          "text_hi": "volt",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "ampere",
+          "text_hi": "ampere",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ampere with volt; the clue in this question points specifically to volt.",
+          "trap_reason_hi": "ampere को volt समझ लिया। इस question की clue specifically volt की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "ohm",
+          "text_hi": "ohm",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ohm with volt; the clue in this question points specifically to volt.",
+          "trap_reason_hi": "ohm को volt समझ लिया। इस question की clue specifically volt की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "tesla",
+          "text_hi": "tesla",
+          "is_correct": false,
+          "trap_reason_en": "Confuses tesla with volt; the clue in this question points specifically to volt.",
+          "trap_reason_hi": "tesla को volt समझ लिया। इस question की clue specifically volt की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Potential difference is measured in volt. Therefore, answer = volt.",
+      "explanation_concept_en": "Potential difference is measured in volt. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is volt.",
+      "explanation_method_hi": "Keyword याद रखें: Potential difference की unit volt होती है। अतः answer = volt।",
+      "explanation_concept_hi": "Potential difference की unit volt होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer volt है।"
+    },
+    {
+      "id": "gaphy-06",
+      "stem_en": "Electrical resistance is measured in which unit?",
+      "stem_hi": "Electrical resistance की unit क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "electricity",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "volt",
+          "text_hi": "volt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses volt with ohm; the clue in this question points specifically to ohm.",
+          "trap_reason_hi": "volt को ohm समझ लिया। इस question की clue specifically ohm की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "ohm",
+          "text_hi": "ohm",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "ampere",
+          "text_hi": "ampere",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ampere with ohm; the clue in this question points specifically to ohm.",
+          "trap_reason_hi": "ampere को ohm समझ लिया। इस question की clue specifically ohm की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "coulomb",
+          "text_hi": "coulomb",
+          "is_correct": false,
+          "trap_reason_en": "Confuses coulomb with ohm; the clue in this question points specifically to ohm.",
+          "trap_reason_hi": "coulomb को ohm समझ लिया। इस question की clue specifically ohm की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Resistance is measured in ohm. Therefore, answer = ohm.",
+      "explanation_concept_en": "Resistance is measured in ohm. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is ohm.",
+      "explanation_method_hi": "Keyword याद रखें: Resistance की unit ohm है। अतः answer = ohm।",
+      "explanation_concept_hi": "Resistance की unit ohm है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer ohm है।"
+    },
+    {
+      "id": "gaphy-07",
+      "stem_en": "Frequency is measured in which SI unit?",
+      "stem_hi": "Frequency किस SI unit में measured होती है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "physics",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "watt",
+          "text_hi": "watt",
+          "is_correct": false,
+          "trap_reason_en": "Confuses watt with hertz; the clue in this question points specifically to hertz.",
+          "trap_reason_hi": "watt को hertz समझ लिया। इस question की clue specifically hertz की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "newton",
+          "text_hi": "newton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses newton with hertz; the clue in this question points specifically to hertz.",
+          "trap_reason_hi": "newton को hertz समझ लिया। इस question की clue specifically hertz की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "hertz",
+          "text_hi": "hertz",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "kelvin",
+          "text_hi": "kelvin",
+          "is_correct": false,
+          "trap_reason_en": "Confuses kelvin with hertz; the clue in this question points specifically to hertz.",
+          "trap_reason_hi": "kelvin को hertz समझ लिया। इस question की clue specifically hertz की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Frequency is measured in hertz. Therefore, answer = hertz.",
+      "explanation_concept_en": "Frequency is measured in hertz. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is hertz.",
+      "explanation_method_hi": "Keyword याद रखें: Frequency की unit hertz होती है। अतः answer = hertz।",
+      "explanation_concept_hi": "Frequency की unit hertz होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer hertz है।"
+    },
+    {
+      "id": "gaphy-08",
+      "stem_en": "The approximate speed of sound in air at room temperature is closest to:",
+      "stem_hi": "Room temperature पर air में sound की approximate speed किसके closest है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "sound"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "3 x 10^8 m/s",
+          "text_hi": "3 x 10^8 m/s",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 3 x 10^8 m/s with 340 m/s; the clue in this question points specifically to 340 m/s.",
+          "trap_reason_hi": "3 x 10^8 m/s को 340 m/s समझ लिया। इस question की clue specifically 340 m/s की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "30 m/s",
+          "text_hi": "30 m/s",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 30 m/s with 340 m/s; the clue in this question points specifically to 340 m/s.",
+          "trap_reason_hi": "30 m/s को 340 m/s समझ लिया। इस question की clue specifically 340 m/s की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1500 m/s",
+          "text_hi": "1500 m/s",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1500 m/s with 340 m/s; the clue in this question points specifically to 340 m/s.",
+          "trap_reason_hi": "1500 m/s को 340 m/s समझ लिया। इस question की clue specifically 340 m/s की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "340 m/s",
+          "text_hi": "340 m/s",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Sound in air travels at about 340 m/s. Therefore, answer = 340 m/s.",
+      "explanation_concept_en": "Sound in air travels at about 340 m/s. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 340 m/s.",
+      "explanation_method_hi": "Keyword याद रखें: Air में sound लगभग 340 m/s चलती है। अतः answer = 340 m/s।",
+      "explanation_concept_hi": "Air में sound लगभग 340 m/s चलती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 340 m/s है।"
+    },
+    {
+      "id": "gaphy-09",
+      "stem_en": "A plane mirror forms which type of image?",
+      "stem_hi": "Plane mirror किस type की image बनाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "light"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "virtual and same size",
+          "text_hi": "virtual and same size",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "real and inverted",
+          "text_hi": "real and inverted",
+          "is_correct": false,
+          "trap_reason_en": "Confuses real and inverted with virtual and same size; the clue in this question points specifically to virtual and same size.",
+          "trap_reason_hi": "real and inverted को virtual and same size समझ लिया। इस question की clue specifically virtual and same size की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "magnified and real",
+          "text_hi": "magnified and real",
+          "is_correct": false,
+          "trap_reason_en": "Confuses magnified and real with virtual and same size; the clue in this question points specifically to virtual and same size.",
+          "trap_reason_hi": "magnified and real को virtual and same size समझ लिया। इस question की clue specifically virtual and same size की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "diminished and real",
+          "text_hi": "diminished and real",
+          "is_correct": false,
+          "trap_reason_en": "Confuses diminished and real with virtual and same size; the clue in this question points specifically to virtual and same size.",
+          "trap_reason_hi": "diminished and real को virtual and same size समझ लिया। इस question की clue specifically virtual and same size की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A plane mirror forms a virtual image of the same size. Therefore, answer = virtual and same size.",
+      "explanation_concept_en": "A plane mirror forms a virtual image of the same size. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is virtual and same size.",
+      "explanation_method_hi": "Keyword याद रखें: Plane mirror same-size virtual image बनाता है। अतः answer = virtual and same size।",
+      "explanation_concept_hi": "Plane mirror same-size virtual image बनाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer virtual and same size है।"
+    },
+    {
+      "id": "gaphy-10",
+      "stem_en": "A concave lens is also called a:",
+      "stem_hi": "Concave lens को क्या कहा जाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "light"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "converging lens",
+          "text_hi": "converging lens",
+          "is_correct": false,
+          "trap_reason_en": "Confuses converging lens with diverging lens; the clue in this question points specifically to diverging lens.",
+          "trap_reason_hi": "converging lens को diverging lens समझ लिया। इस question की clue specifically diverging lens की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "diverging lens",
+          "text_hi": "diverging lens",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "plane mirror",
+          "text_hi": "plane mirror",
+          "is_correct": false,
+          "trap_reason_en": "Confuses plane mirror with diverging lens; the clue in this question points specifically to diverging lens.",
+          "trap_reason_hi": "plane mirror को diverging lens समझ लिया। इस question की clue specifically diverging lens की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "prism",
+          "text_hi": "prism",
+          "is_correct": false,
+          "trap_reason_en": "Confuses prism with diverging lens; the clue in this question points specifically to diverging lens.",
+          "trap_reason_hi": "prism को diverging lens समझ लिया। इस question की clue specifically diverging lens की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A concave lens diverges light rays. Therefore, answer = diverging lens.",
+      "explanation_concept_en": "A concave lens diverges light rays. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is diverging lens.",
+      "explanation_method_hi": "Keyword याद रखें: Concave lens light rays को diverge करता है। अतः answer = diverging lens।",
+      "explanation_concept_hi": "Concave lens light rays को diverge करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer diverging lens है।"
+    },
+    {
+      "id": "gaphy-11",
+      "stem_en": "A convex lens is also called a:",
+      "stem_hi": "Convex lens को क्या कहा जाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "light"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "diverging lens",
+          "text_hi": "diverging lens",
+          "is_correct": false,
+          "trap_reason_en": "Confuses diverging lens with converging lens; the clue in this question points specifically to converging lens.",
+          "trap_reason_hi": "diverging lens को converging lens समझ लिया। इस question की clue specifically converging lens की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "concave mirror",
+          "text_hi": "concave mirror",
+          "is_correct": false,
+          "trap_reason_en": "Confuses concave mirror with converging lens; the clue in this question points specifically to converging lens.",
+          "trap_reason_hi": "concave mirror को converging lens समझ लिया। इस question की clue specifically converging lens की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "converging lens",
+          "text_hi": "converging lens",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "flat lens",
+          "text_hi": "flat lens",
+          "is_correct": false,
+          "trap_reason_en": "Confuses flat lens with converging lens; the clue in this question points specifically to converging lens.",
+          "trap_reason_hi": "flat lens को converging lens समझ लिया। इस question की clue specifically converging lens की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A convex lens converges light rays. Therefore, answer = converging lens.",
+      "explanation_concept_en": "A convex lens converges light rays. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is converging lens.",
+      "explanation_method_hi": "Keyword याद रखें: Convex lens light rays को converge करता है। अतः answer = converging lens।",
+      "explanation_concept_hi": "Convex lens light rays को converge करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer converging lens है।"
+    },
+    {
+      "id": "gaphy-12",
+      "stem_en": "The value of acceleration due to gravity near Earth is approximately:",
+      "stem_hi": "Earth के पास acceleration due to gravity लगभग कितना है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1.6 m/s^2",
+          "text_hi": "1.6 m/s^2",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1.6 m/s^2 with 9.8 m/s^2; the clue in this question points specifically to 9.8 m/s^2.",
+          "trap_reason_hi": "1.6 m/s^2 को 9.8 m/s^2 समझ लिया। इस question की clue specifically 9.8 m/s^2 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "340 m/s",
+          "text_hi": "340 m/s",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 340 m/s with 9.8 m/s^2; the clue in this question points specifically to 9.8 m/s^2.",
+          "trap_reason_hi": "340 m/s को 9.8 m/s^2 समझ लिया। इस question की clue specifically 9.8 m/s^2 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "3 x 10^8 m/s",
+          "text_hi": "3 x 10^8 m/s",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 3 x 10^8 m/s with 9.8 m/s^2; the clue in this question points specifically to 9.8 m/s^2.",
+          "trap_reason_hi": "3 x 10^8 m/s को 9.8 m/s^2 समझ लिया। इस question की clue specifically 9.8 m/s^2 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "9.8 m/s^2",
+          "text_hi": "9.8 m/s^2",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Earth's gravitational acceleration is about 9.8 m/s^2. Therefore, answer = 9.8 m/s^2.",
+      "explanation_concept_en": "Earth's gravitational acceleration is about 9.8 m/s^2. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 9.8 m/s^2.",
+      "explanation_method_hi": "Keyword याद रखें: Earth पर g लगभग 9.8 m/s^2 होता है। अतः answer = 9.8 m/s^2।",
+      "explanation_concept_hi": "Earth पर g लगभग 9.8 m/s^2 होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 9.8 m/s^2 है।"
+    },
+    {
+      "id": "gaphy-13",
+      "stem_en": "Density is defined as:",
+      "stem_hi": "Density किसके बराबर होती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "mass/volume",
+          "text_hi": "mass/volume",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "force/area",
+          "text_hi": "force/area",
+          "is_correct": false,
+          "trap_reason_en": "Confuses force/area with mass/volume; the clue in this question points specifically to mass/volume.",
+          "trap_reason_hi": "force/area को mass/volume समझ लिया। इस question की clue specifically mass/volume की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "work/time",
+          "text_hi": "work/time",
+          "is_correct": false,
+          "trap_reason_en": "Confuses work/time with mass/volume; the clue in this question points specifically to mass/volume.",
+          "trap_reason_hi": "work/time को mass/volume समझ लिया। इस question की clue specifically mass/volume की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "distance/time",
+          "text_hi": "distance/time",
+          "is_correct": false,
+          "trap_reason_en": "Confuses distance/time with mass/volume; the clue in this question points specifically to mass/volume.",
+          "trap_reason_hi": "distance/time को mass/volume समझ लिया। इस question की clue specifically mass/volume की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Density equals mass divided by volume. Therefore, answer = mass/volume.",
+      "explanation_concept_en": "Density equals mass divided by volume. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is mass/volume.",
+      "explanation_method_hi": "Keyword याद रखें: Density = mass/volume होती है। अतः answer = mass/volume।",
+      "explanation_concept_hi": "Density = mass/volume होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer mass/volume है।"
+    },
+    {
+      "id": "gaphy-14",
+      "stem_en": "Pressure is defined as:",
+      "stem_hi": "Pressure किसके बराबर होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "mass/volume",
+          "text_hi": "mass/volume",
+          "is_correct": false,
+          "trap_reason_en": "Confuses mass/volume with force/area; the clue in this question points specifically to force/area.",
+          "trap_reason_hi": "mass/volume को force/area समझ लिया। इस question की clue specifically force/area की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "force/area",
+          "text_hi": "force/area",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "work/time",
+          "text_hi": "work/time",
+          "is_correct": false,
+          "trap_reason_en": "Confuses work/time with force/area; the clue in this question points specifically to force/area.",
+          "trap_reason_hi": "work/time को force/area समझ लिया। इस question की clue specifically force/area की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "charge/time",
+          "text_hi": "charge/time",
+          "is_correct": false,
+          "trap_reason_en": "Confuses charge/time with force/area; the clue in this question points specifically to force/area.",
+          "trap_reason_hi": "charge/time को force/area समझ लिया। इस question की clue specifically force/area की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Pressure equals force per unit area. Therefore, answer = force/area.",
+      "explanation_concept_en": "Pressure equals force per unit area. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is force/area.",
+      "explanation_method_hi": "Keyword याद रखें: Pressure = force/area होता है। अतः answer = force/area।",
+      "explanation_concept_hi": "Pressure = force/area होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer force/area है।"
+    },
+    {
+      "id": "gaphy-15",
+      "stem_en": "A transformer works on the principle of:",
+      "stem_hi": "Transformer किस principle पर काम करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "diffusion",
+          "text_hi": "diffusion",
+          "is_correct": false,
+          "trap_reason_en": "Confuses diffusion with electromagnetic induction; the clue in this question points specifically to electromagnetic induction.",
+          "trap_reason_hi": "diffusion को electromagnetic induction समझ लिया। इस question की clue specifically electromagnetic induction की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "evaporation",
+          "text_hi": "evaporation",
+          "is_correct": false,
+          "trap_reason_en": "Confuses evaporation with electromagnetic induction; the clue in this question points specifically to electromagnetic induction.",
+          "trap_reason_hi": "evaporation को electromagnetic induction समझ लिया। इस question की clue specifically electromagnetic induction की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "electromagnetic induction",
+          "text_hi": "electromagnetic induction",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "neutralization",
+          "text_hi": "neutralization",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neutralization with electromagnetic induction; the clue in this question points specifically to electromagnetic induction.",
+          "trap_reason_hi": "neutralization को electromagnetic induction समझ लिया। इस question की clue specifically electromagnetic induction की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A transformer uses electromagnetic induction. Therefore, answer = electromagnetic induction.",
+      "explanation_concept_en": "A transformer uses electromagnetic induction. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is electromagnetic induction.",
+      "explanation_method_hi": "Keyword याद रखें: Transformer electromagnetic induction पर work करता है। अतः answer = electromagnetic induction।",
+      "explanation_concept_hi": "Transformer electromagnetic induction पर work करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer electromagnetic induction है।"
+    },
+    {
+      "id": "gaphy-16",
+      "stem_en": "Fuse wire is chosen mainly because it has:",
+      "stem_hi": "Fuse wire mainly किस property के कारण चुनी जाती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "very high melting point",
+          "text_hi": "very high melting point",
+          "is_correct": false,
+          "trap_reason_en": "Confuses very high melting point with low melting point; the clue in this question points specifically to low melting point.",
+          "trap_reason_hi": "very high melting point को low melting point समझ लिया। इस question की clue specifically low melting point की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "zero resistance",
+          "text_hi": "zero resistance",
+          "is_correct": false,
+          "trap_reason_en": "Confuses zero resistance with low melting point; the clue in this question points specifically to low melting point.",
+          "trap_reason_hi": "zero resistance को low melting point समझ लिया। इस question की clue specifically low melting point की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "magnetic poles",
+          "text_hi": "magnetic poles",
+          "is_correct": false,
+          "trap_reason_en": "Confuses magnetic poles with low melting point; the clue in this question points specifically to low melting point.",
+          "trap_reason_hi": "magnetic poles को low melting point समझ लिया। इस question की clue specifically low melting point की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "low melting point",
+          "text_hi": "low melting point",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Fuse wire melts quickly when excess current flows. Therefore, answer = low melting point.",
+      "explanation_concept_en": "Fuse wire melts quickly when excess current flows. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is low melting point.",
+      "explanation_method_hi": "Keyword याद रखें: Excess current पर fuse wire जल्दी melt होती है। अतः answer = low melting point।",
+      "explanation_concept_hi": "Excess current पर fuse wire जल्दी melt होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer low melting point है।"
+    },
+    {
+      "id": "gaphy-17",
+      "stem_en": "An ammeter is connected in:",
+      "stem_hi": "Ammeter circuit में कैसे connect होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "series",
+          "text_hi": "series",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "parallel",
+          "text_hi": "parallel",
+          "is_correct": false,
+          "trap_reason_en": "Confuses parallel with series; the clue in this question points specifically to series.",
+          "trap_reason_hi": "parallel को series समझ लिया। इस question की clue specifically series की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "open circuit",
+          "text_hi": "open circuit",
+          "is_correct": false,
+          "trap_reason_en": "Confuses open circuit with series; the clue in this question points specifically to series.",
+          "trap_reason_hi": "open circuit को series समझ लिया। इस question की clue specifically series की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "earth only",
+          "text_hi": "earth only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses earth only with series; the clue in this question points specifically to series.",
+          "trap_reason_hi": "earth only को series समझ लिया। इस question की clue specifically series की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: An ammeter is connected in series to measure current. Therefore, answer = series.",
+      "explanation_concept_en": "An ammeter is connected in series to measure current. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is series.",
+      "explanation_method_hi": "Keyword याद रखें: Current measure करने के लिए ammeter series में लगता है। अतः answer = series।",
+      "explanation_concept_hi": "Current measure करने के लिए ammeter series में लगता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer series है।"
+    },
+    {
+      "id": "gaphy-18",
+      "stem_en": "A voltmeter is connected in:",
+      "stem_hi": "Voltmeter circuit में कैसे connect होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "series",
+          "text_hi": "series",
+          "is_correct": false,
+          "trap_reason_en": "Confuses series with parallel; the clue in this question points specifically to parallel.",
+          "trap_reason_hi": "series को parallel समझ लिया। इस question की clue specifically parallel की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "parallel",
+          "text_hi": "parallel",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "short circuit",
+          "text_hi": "short circuit",
+          "is_correct": false,
+          "trap_reason_en": "Confuses short circuit with parallel; the clue in this question points specifically to parallel.",
+          "trap_reason_hi": "short circuit को parallel समझ लिया। इस question की clue specifically parallel की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "earth only",
+          "text_hi": "earth only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses earth only with parallel; the clue in this question points specifically to parallel.",
+          "trap_reason_hi": "earth only को parallel समझ लिया। इस question की clue specifically parallel की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A voltmeter is connected in parallel across a component. Therefore, answer = parallel.",
+      "explanation_concept_en": "A voltmeter is connected in parallel across a component. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is parallel.",
+      "explanation_method_hi": "Keyword याद रखें: Potential difference measure करने के लिए voltmeter parallel लगता है। अतः answer = parallel।",
+      "explanation_concept_hi": "Potential difference measure करने के लिए voltmeter parallel लगता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer parallel है।"
+    },
+    {
+      "id": "gaphy-19",
+      "stem_en": "The SI unit of temperature is:",
+      "stem_hi": "Temperature की SI unit क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "physics",
+        "si-units"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "celsius",
+          "text_hi": "celsius",
+          "is_correct": false,
+          "trap_reason_en": "Confuses celsius with kelvin; the clue in this question points specifically to kelvin.",
+          "trap_reason_hi": "celsius को kelvin समझ लिया। इस question की clue specifically kelvin की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "fahrenheit",
+          "text_hi": "fahrenheit",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fahrenheit with kelvin; the clue in this question points specifically to kelvin.",
+          "trap_reason_hi": "fahrenheit को kelvin समझ लिया। इस question की clue specifically kelvin की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "kelvin",
+          "text_hi": "kelvin",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "calorie",
+          "text_hi": "calorie",
+          "is_correct": false,
+          "trap_reason_en": "Confuses calorie with kelvin; the clue in this question points specifically to kelvin.",
+          "trap_reason_hi": "calorie को kelvin समझ लिया। इस question की clue specifically kelvin की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The SI base unit of temperature is kelvin. Therefore, answer = kelvin.",
+      "explanation_concept_en": "The SI base unit of temperature is kelvin. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is kelvin.",
+      "explanation_method_hi": "Keyword याद रखें: Temperature की SI base unit kelvin है। अतः answer = kelvin।",
+      "explanation_concept_hi": "Temperature की SI base unit kelvin है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer kelvin है।"
+    },
+    {
+      "id": "gaphy-20",
+      "stem_en": "Which one is a scalar quantity?",
+      "stem_hi": "इनमें scalar quantity कौन-सी है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "velocity",
+          "text_hi": "velocity",
+          "is_correct": false,
+          "trap_reason_en": "Confuses velocity with speed; the clue in this question points specifically to speed.",
+          "trap_reason_hi": "velocity को speed समझ लिया। इस question की clue specifically speed की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "force",
+          "text_hi": "force",
+          "is_correct": false,
+          "trap_reason_en": "Confuses force with speed; the clue in this question points specifically to speed.",
+          "trap_reason_hi": "force को speed समझ लिया। इस question की clue specifically speed की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "acceleration",
+          "text_hi": "acceleration",
+          "is_correct": false,
+          "trap_reason_en": "Confuses acceleration with speed; the clue in this question points specifically to speed.",
+          "trap_reason_hi": "acceleration को speed समझ लिया। इस question की clue specifically speed की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "speed",
+          "text_hi": "speed",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Speed has magnitude only, so it is scalar. Therefore, answer = speed.",
+      "explanation_concept_en": "Speed has magnitude only, so it is scalar. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is speed.",
+      "explanation_method_hi": "Keyword याद रखें: Speed में सिर्फ magnitude होता है, इसलिए scalar है। अतः answer = speed।",
+      "explanation_concept_hi": "Speed में सिर्फ magnitude होता है, इसलिए scalar है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer speed है।"
+    },
+    {
+      "id": "gaphy-21",
+      "stem_en": "Which one is a vector quantity?",
+      "stem_hi": "इनमें vector quantity कौन-सी है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "velocity",
+          "text_hi": "velocity",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "speed",
+          "text_hi": "speed",
+          "is_correct": false,
+          "trap_reason_en": "Confuses speed with velocity; the clue in this question points specifically to velocity.",
+          "trap_reason_hi": "speed को velocity समझ लिया। इस question की clue specifically velocity की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "distance",
+          "text_hi": "distance",
+          "is_correct": false,
+          "trap_reason_en": "Confuses distance with velocity; the clue in this question points specifically to velocity.",
+          "trap_reason_hi": "distance को velocity समझ लिया। इस question की clue specifically velocity की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "mass",
+          "text_hi": "mass",
+          "is_correct": false,
+          "trap_reason_en": "Confuses mass with velocity; the clue in this question points specifically to velocity.",
+          "trap_reason_hi": "mass को velocity समझ लिया। इस question की clue specifically velocity की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Velocity has magnitude and direction. Therefore, answer = velocity.",
+      "explanation_concept_en": "Velocity has magnitude and direction. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is velocity.",
+      "explanation_method_hi": "Keyword याद रखें: Velocity में magnitude और direction दोनों होते हैं। अतः answer = velocity।",
+      "explanation_concept_hi": "Velocity में magnitude और direction दोनों होते हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer velocity है।"
+    },
+    {
+      "id": "gaphy-22",
+      "stem_en": "Sound cannot travel through:",
+      "stem_hi": "Sound किसमें travel नहीं कर सकती?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "sound"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "air",
+          "text_hi": "air",
+          "is_correct": false,
+          "trap_reason_en": "Confuses air with vacuum; the clue in this question points specifically to vacuum.",
+          "trap_reason_hi": "air को vacuum समझ लिया। इस question की clue specifically vacuum की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "vacuum",
+          "text_hi": "vacuum",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "water",
+          "text_hi": "water",
+          "is_correct": false,
+          "trap_reason_en": "Confuses water with vacuum; the clue in this question points specifically to vacuum.",
+          "trap_reason_hi": "water को vacuum समझ लिया। इस question की clue specifically vacuum की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "steel",
+          "text_hi": "steel",
+          "is_correct": false,
+          "trap_reason_en": "Confuses steel with vacuum; the clue in this question points specifically to vacuum.",
+          "trap_reason_hi": "steel को vacuum समझ लिया। इस question की clue specifically vacuum की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Sound needs a material medium and cannot travel in vacuum. Therefore, answer = vacuum.",
+      "explanation_concept_en": "Sound needs a material medium and cannot travel in vacuum. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is vacuum.",
+      "explanation_method_hi": "Keyword याद रखें: Sound को material medium चाहिए, इसलिए vacuum में travel नहीं करती। अतः answer = vacuum।",
+      "explanation_concept_hi": "Sound को material medium चाहिए, इसलिए vacuum में travel नहीं करती। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer vacuum है।"
+    },
+    {
+      "id": "gaphy-23",
+      "stem_en": "Friction generally acts:",
+      "stem_hi": "Friction generally किस direction में act करता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "physics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "same as motion",
+          "text_hi": "same as motion",
+          "is_correct": false,
+          "trap_reason_en": "Confuses same as motion with opposite to motion; the clue in this question points specifically to opposite to motion.",
+          "trap_reason_hi": "same as motion को opposite to motion समझ लिया। इस question की clue specifically opposite to motion की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "only upward",
+          "text_hi": "only upward",
+          "is_correct": false,
+          "trap_reason_en": "Confuses only upward with opposite to motion; the clue in this question points specifically to opposite to motion.",
+          "trap_reason_hi": "only upward को opposite to motion समझ लिया। इस question की clue specifically opposite to motion की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "opposite to motion",
+          "text_hi": "opposite to motion",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "only downward",
+          "text_hi": "only downward",
+          "is_correct": false,
+          "trap_reason_en": "Confuses only downward with opposite to motion; the clue in this question points specifically to opposite to motion.",
+          "trap_reason_hi": "only downward को opposite to motion समझ लिया। इस question की clue specifically opposite to motion की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Friction opposes relative motion. Therefore, answer = opposite to motion.",
+      "explanation_concept_en": "Friction opposes relative motion. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is opposite to motion.",
+      "explanation_method_hi": "Keyword याद रखें: Friction relative motion को oppose करता है। अतः answer = opposite to motion।",
+      "explanation_concept_hi": "Friction relative motion को oppose करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer opposite to motion है।"
+    },
+    {
+      "id": "gaphy-24",
+      "stem_en": "The device that converts mechanical energy into electrical energy is:",
+      "stem_hi": "Mechanical energy को electrical energy में convert करने वाला device कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "motor",
+          "text_hi": "motor",
+          "is_correct": false,
+          "trap_reason_en": "Confuses motor with generator; the clue in this question points specifically to generator.",
+          "trap_reason_hi": "motor को generator समझ लिया। इस question की clue specifically generator की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "transformer",
+          "text_hi": "transformer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses transformer with generator; the clue in this question points specifically to generator.",
+          "trap_reason_hi": "transformer को generator समझ लिया। इस question की clue specifically generator की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "fuse",
+          "text_hi": "fuse",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fuse with generator; the clue in this question points specifically to generator.",
+          "trap_reason_hi": "fuse को generator समझ लिया। इस question की clue specifically generator की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "generator",
+          "text_hi": "generator",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A generator converts mechanical energy into electrical energy. Therefore, answer = generator.",
+      "explanation_concept_en": "A generator converts mechanical energy into electrical energy. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is generator.",
+      "explanation_method_hi": "Keyword याद रखें: Generator mechanical energy को electrical energy में convert करता है। अतः answer = generator।",
+      "explanation_concept_hi": "Generator mechanical energy को electrical energy में convert करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer generator है।"
+    },
+    {
+      "id": "gaphy-25",
+      "stem_en": "The device that converts electrical energy into mechanical energy is:",
+      "stem_hi": "Electrical energy को mechanical energy में convert करने वाला device कौन-सा है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "electricity"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "motor",
+          "text_hi": "motor",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "generator",
+          "text_hi": "generator",
+          "is_correct": false,
+          "trap_reason_en": "Confuses generator with motor; the clue in this question points specifically to motor.",
+          "trap_reason_hi": "generator को motor समझ लिया। इस question की clue specifically motor की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "voltmeter",
+          "text_hi": "voltmeter",
+          "is_correct": false,
+          "trap_reason_en": "Confuses voltmeter with motor; the clue in this question points specifically to motor.",
+          "trap_reason_hi": "voltmeter को motor समझ लिया। इस question की clue specifically motor की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "resistor",
+          "text_hi": "resistor",
+          "is_correct": false,
+          "trap_reason_en": "Confuses resistor with motor; the clue in this question points specifically to motor.",
+          "trap_reason_hi": "resistor को motor समझ लिया। इस question की clue specifically motor की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: An electric motor converts electrical energy into mechanical energy. Therefore, answer = motor.",
+      "explanation_concept_en": "An electric motor converts electrical energy into mechanical energy. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is motor.",
+      "explanation_method_hi": "Keyword याद रखें: Motor electrical energy को mechanical energy में convert करता है। अतः answer = motor।",
+      "explanation_concept_hi": "Motor electrical energy को mechanical energy में convert करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer motor है।"
+    }
+  ]
+}

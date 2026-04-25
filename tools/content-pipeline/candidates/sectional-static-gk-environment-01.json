@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original GA sectional — Static GK & Environment. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-static-gk-environment-01",
+  "title_en": "Static GK & Environment — Sectional",
+  "title_hi": "Static GK & Environment — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Static GK & Environment",
+    "title_hi": "Static GK & Environment",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gastat-01",
+      "stem_en": "The United Nations was founded in:",
+      "stem_hi": "United Nations किस year में founded हुआ?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "1945",
+          "text_hi": "1945",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "1919",
+          "text_hi": "1919",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1919 with 1945; the clue in this question points specifically to 1945.",
+          "trap_reason_hi": "1919 को 1945 समझ लिया। इस question की clue specifically 1945 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "1950",
+          "text_hi": "1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1950 with 1945; the clue in this question points specifically to 1945.",
+          "trap_reason_hi": "1950 को 1945 समझ लिया। इस question की clue specifically 1945 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1965",
+          "text_hi": "1965",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1965 with 1945; the clue in this question points specifically to 1945.",
+          "trap_reason_hi": "1965 को 1945 समझ लिया। इस question की clue specifically 1945 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The UN was founded in 1945. Therefore, answer = 1945.",
+      "explanation_concept_en": "The UN was founded in 1945. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 1945.",
+      "explanation_method_hi": "Keyword याद रखें: UN 1945 में founded हुआ। अतः answer = 1945।",
+      "explanation_concept_hi": "UN 1945 में founded हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 1945 है।"
+    },
+    {
+      "id": "gastat-02",
+      "stem_en": "WHO headquarters is in:",
+      "stem_hi": "WHO headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Paris",
+          "text_hi": "Paris",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Paris with Geneva; the clue in this question points specifically to Geneva.",
+          "trap_reason_hi": "Paris को Geneva समझ लिया। इस question की clue specifically Geneva की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "New York",
+          "text_hi": "New York",
+          "is_correct": false,
+          "trap_reason_en": "Confuses New York with Geneva; the clue in this question points specifically to Geneva.",
+          "trap_reason_hi": "New York को Geneva समझ लिया। इस question की clue specifically Geneva की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Rome",
+          "text_hi": "Rome",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rome with Geneva; the clue in this question points specifically to Geneva.",
+          "trap_reason_hi": "Rome को Geneva समझ लिया। इस question की clue specifically Geneva की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: WHO is headquartered in Geneva. Therefore, answer = Geneva.",
+      "explanation_concept_en": "WHO is headquartered in Geneva. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Geneva.",
+      "explanation_method_hi": "Keyword याद रखें: WHO headquarters Geneva में है। अतः answer = Geneva।",
+      "explanation_concept_hi": "WHO headquarters Geneva में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Geneva है।"
+    },
+    {
+      "id": "gastat-03",
+      "stem_en": "UNESCO headquarters is in:",
+      "stem_hi": "UNESCO headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Geneva",
+          "text_hi": "Geneva",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Geneva with Paris; the clue in this question points specifically to Paris.",
+          "trap_reason_hi": "Geneva को Paris समझ लिया। इस question की clue specifically Paris की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Washington DC",
+          "text_hi": "Washington DC",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Washington DC with Paris; the clue in this question points specifically to Paris.",
+          "trap_reason_hi": "Washington DC को Paris समझ लिया। इस question की clue specifically Paris की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Paris",
+          "text_hi": "Paris",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Kathmandu",
+          "text_hi": "Kathmandu",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kathmandu with Paris; the clue in this question points specifically to Paris.",
+          "trap_reason_hi": "Kathmandu को Paris समझ लिया। इस question की clue specifically Paris की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: UNESCO is headquartered in Paris. Therefore, answer = Paris.",
+      "explanation_concept_en": "UNESCO is headquartered in Paris. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Paris.",
+      "explanation_method_hi": "Keyword याद रखें: UNESCO headquarters Paris में है। अतः answer = Paris।",
+      "explanation_concept_hi": "UNESCO headquarters Paris में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Paris है।"
+    },
+    {
+      "id": "gastat-04",
+      "stem_en": "SAARC headquarters is in:",
+      "stem_hi": "SAARC headquarters कहाँ है?",
+      "difficulty": "EASY",
+      "tags": [
+        "static-gk",
+        "world-organizations"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "New Delhi",
+          "text_hi": "New Delhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses New Delhi with Kathmandu; the clue in this question points specifically to Kathmandu.",
+          "trap_reason_hi": "New Delhi को Kathmandu समझ लिया। इस question की clue specifically Kathmandu की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Dhaka",
+          "text_hi": "Dhaka",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Dhaka with Kathmandu; the clue in this question points specifically to Kathmandu.",
+          "trap_reason_hi": "Dhaka को Kathmandu समझ लिया। इस question की clue specifically Kathmandu की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Colombo",
+          "text_hi": "Colombo",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Colombo with Kathmandu; the clue in this question points specifically to Kathmandu.",
+          "trap_reason_hi": "Colombo को Kathmandu समझ लिया। इस question की clue specifically Kathmandu की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Kathmandu",
+          "text_hi": "Kathmandu",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: SAARC headquarters is in Kathmandu. Therefore, answer = Kathmandu.",
+      "explanation_concept_en": "SAARC headquarters is in Kathmandu. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Kathmandu.",
+      "explanation_method_hi": "Keyword याद रखें: SAARC headquarters Kathmandu में है। अतः answer = Kathmandu।",
+      "explanation_concept_hi": "SAARC headquarters Kathmandu में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Kathmandu है।"
+    },
+    {
+      "id": "gastat-05",
+      "stem_en": "World Environment Day is observed on:",
+      "stem_hi": "World Environment Day कब observe होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "environment",
+        "important-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5 June",
+          "text_hi": "5 June",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "22 April",
+          "text_hi": "22 April",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 22 April with 5 June; the clue in this question points specifically to 5 June.",
+          "trap_reason_hi": "22 April को 5 June समझ लिया। इस question की clue specifically 5 June की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "16 September",
+          "text_hi": "16 September",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 16 September with 5 June; the clue in this question points specifically to 5 June.",
+          "trap_reason_hi": "16 September को 5 June समझ लिया। इस question की clue specifically 5 June की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "10 December",
+          "text_hi": "10 December",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 10 December with 5 June; the clue in this question points specifically to 5 June.",
+          "trap_reason_hi": "10 December को 5 June समझ लिया। इस question की clue specifically 5 June की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: World Environment Day is on 5 June. Therefore, answer = 5 June.",
+      "explanation_concept_en": "World Environment Day is on 5 June. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 5 June.",
+      "explanation_method_hi": "Keyword याद रखें: World Environment Day 5 June को होता है। अतः answer = 5 June।",
+      "explanation_concept_hi": "World Environment Day 5 June को होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 5 June है।"
+    },
+    {
+      "id": "gastat-06",
+      "stem_en": "World Ozone Day is observed on:",
+      "stem_hi": "World Ozone Day कब observe होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "environment",
+        "important-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5 June",
+          "text_hi": "5 June",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 5 June with 16 September; the clue in this question points specifically to 16 September.",
+          "trap_reason_hi": "5 June को 16 September समझ लिया। इस question की clue specifically 16 September की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "16 September",
+          "text_hi": "16 September",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "22 April",
+          "text_hi": "22 April",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 22 April with 16 September; the clue in this question points specifically to 16 September.",
+          "trap_reason_hi": "22 April को 16 September समझ लिया। इस question की clue specifically 16 September की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "2 October",
+          "text_hi": "2 October",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2 October with 16 September; the clue in this question points specifically to 16 September.",
+          "trap_reason_hi": "2 October को 16 September समझ लिया। इस question की clue specifically 16 September की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: World Ozone Day is on 16 September. Therefore, answer = 16 September.",
+      "explanation_concept_en": "World Ozone Day is on 16 September. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 16 September.",
+      "explanation_method_hi": "Keyword याद रखें: World Ozone Day 16 September को होता है। अतः answer = 16 September।",
+      "explanation_concept_hi": "World Ozone Day 16 September को होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 16 September है।"
+    },
+    {
+      "id": "gastat-07",
+      "stem_en": "Earth Day is observed on:",
+      "stem_hi": "Earth Day कब observe होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "environment",
+        "important-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "5 June",
+          "text_hi": "5 June",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 5 June with 22 April; the clue in this question points specifically to 22 April.",
+          "trap_reason_hi": "5 June को 22 April समझ लिया। इस question की clue specifically 22 April की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "16 September",
+          "text_hi": "16 September",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 16 September with 22 April; the clue in this question points specifically to 22 April.",
+          "trap_reason_hi": "16 September को 22 April समझ लिया। इस question की clue specifically 22 April की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "22 April",
+          "text_hi": "22 April",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "1 May",
+          "text_hi": "1 May",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1 May with 22 April; the clue in this question points specifically to 22 April.",
+          "trap_reason_hi": "1 May को 22 April समझ लिया। इस question की clue specifically 22 April की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Earth Day is on 22 April. Therefore, answer = 22 April.",
+      "explanation_concept_en": "Earth Day is on 22 April. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 22 April.",
+      "explanation_method_hi": "Keyword याद रखें: Earth Day 22 April को होता है। अतः answer = 22 April।",
+      "explanation_concept_hi": "Earth Day 22 April को होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 22 April है।"
+    },
+    {
+      "id": "gastat-08",
+      "stem_en": "International Day for Biological Diversity is observed on:",
+      "stem_hi": "International Day for Biological Diversity कब observe होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "environment",
+        "important-days"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "22 April",
+          "text_hi": "22 April",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 22 April with 22 May; the clue in this question points specifically to 22 May.",
+          "trap_reason_hi": "22 April को 22 May समझ लिया। इस question की clue specifically 22 May की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "5 June",
+          "text_hi": "5 June",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 5 June with 22 May; the clue in this question points specifically to 22 May.",
+          "trap_reason_hi": "5 June को 22 May समझ लिया। इस question की clue specifically 22 May की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "16 September",
+          "text_hi": "16 September",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 16 September with 22 May; the clue in this question points specifically to 22 May.",
+          "trap_reason_hi": "16 September को 22 May समझ लिया। इस question की clue specifically 22 May की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "22 May",
+          "text_hi": "22 May",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Biodiversity Day is on 22 May. Therefore, answer = 22 May.",
+      "explanation_concept_en": "Biodiversity Day is on 22 May. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 22 May.",
+      "explanation_method_hi": "Keyword याद रखें: Biodiversity Day 22 May को होता है। अतः answer = 22 May।",
+      "explanation_concept_hi": "Biodiversity Day 22 May को होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 22 May है।"
+    },
+    {
+      "id": "gastat-09",
+      "stem_en": "The Ramsar Convention is related to:",
+      "stem_hi": "Ramsar Convention किससे related है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "environment",
+        "conventions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "wetlands",
+          "text_hi": "wetlands",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "deserts",
+          "text_hi": "deserts",
+          "is_correct": false,
+          "trap_reason_en": "Confuses deserts with wetlands; the clue in this question points specifically to wetlands.",
+          "trap_reason_hi": "deserts को wetlands समझ लिया। इस question की clue specifically wetlands की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "nuclear weapons",
+          "text_hi": "nuclear weapons",
+          "is_correct": false,
+          "trap_reason_en": "Confuses nuclear weapons with wetlands; the clue in this question points specifically to wetlands.",
+          "trap_reason_hi": "nuclear weapons को wetlands समझ लिया। इस question की clue specifically wetlands की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "postal services",
+          "text_hi": "postal services",
+          "is_correct": false,
+          "trap_reason_en": "Confuses postal services with wetlands; the clue in this question points specifically to wetlands.",
+          "trap_reason_hi": "postal services को wetlands समझ लिया। इस question की clue specifically wetlands की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ramsar Convention concerns wetlands. Therefore, answer = wetlands.",
+      "explanation_concept_en": "Ramsar Convention concerns wetlands. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is wetlands.",
+      "explanation_method_hi": "Keyword याद रखें: Ramsar Convention wetlands से related है। अतः answer = wetlands।",
+      "explanation_concept_hi": "Ramsar Convention wetlands से related है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer wetlands है।"
+    },
+    {
+      "id": "gastat-10",
+      "stem_en": "A major greenhouse gas is:",
+      "stem_hi": "Major greenhouse gas कौन-सी है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "environment",
+        "climate"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "argon",
+          "text_hi": "argon",
+          "is_correct": false,
+          "trap_reason_en": "Confuses argon with carbon dioxide; the clue in this question points specifically to carbon dioxide.",
+          "trap_reason_hi": "argon को carbon dioxide समझ लिया। इस question की clue specifically carbon dioxide की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "carbon dioxide",
+          "text_hi": "carbon dioxide",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "helium",
+          "text_hi": "helium",
+          "is_correct": false,
+          "trap_reason_en": "Confuses helium with carbon dioxide; the clue in this question points specifically to carbon dioxide.",
+          "trap_reason_hi": "helium को carbon dioxide समझ लिया। इस question की clue specifically carbon dioxide की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "neon",
+          "text_hi": "neon",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neon with carbon dioxide; the clue in this question points specifically to carbon dioxide.",
+          "trap_reason_hi": "neon को carbon dioxide समझ लिया। इस question की clue specifically carbon dioxide की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Carbon dioxide is a major greenhouse gas. Therefore, answer = carbon dioxide.",
+      "explanation_concept_en": "Carbon dioxide is a major greenhouse gas. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is carbon dioxide.",
+      "explanation_method_hi": "Keyword याद रखें: Carbon dioxide major greenhouse gas है। अतः answer = carbon dioxide।",
+      "explanation_concept_hi": "Carbon dioxide major greenhouse gas है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer carbon dioxide है।"
+    },
+    {
+      "id": "gastat-11",
+      "stem_en": "India's national animal is the:",
+      "stem_hi": "India का national animal कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "national-symbols"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "lion",
+          "text_hi": "lion",
+          "is_correct": false,
+          "trap_reason_en": "Confuses lion with tiger; the clue in this question points specifically to tiger.",
+          "trap_reason_hi": "lion को tiger समझ लिया। इस question की clue specifically tiger की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "elephant",
+          "text_hi": "elephant",
+          "is_correct": false,
+          "trap_reason_en": "Confuses elephant with tiger; the clue in this question points specifically to tiger.",
+          "trap_reason_hi": "elephant को tiger समझ लिया। इस question की clue specifically tiger की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "tiger",
+          "text_hi": "tiger",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "deer",
+          "text_hi": "deer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses deer with tiger; the clue in this question points specifically to tiger.",
+          "trap_reason_hi": "deer को tiger समझ लिया। इस question की clue specifically tiger की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The tiger is India's national animal. Therefore, answer = tiger.",
+      "explanation_concept_en": "The tiger is India's national animal. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is tiger.",
+      "explanation_method_hi": "Keyword याद रखें: Tiger India का national animal है। अतः answer = tiger।",
+      "explanation_concept_hi": "Tiger India का national animal है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer tiger है।"
+    },
+    {
+      "id": "gastat-12",
+      "stem_en": "India's national bird is the:",
+      "stem_hi": "India का national bird कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "national-symbols"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "sparrow",
+          "text_hi": "sparrow",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sparrow with peacock; the clue in this question points specifically to peacock.",
+          "trap_reason_hi": "sparrow को peacock समझ लिया। इस question की clue specifically peacock की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "eagle",
+          "text_hi": "eagle",
+          "is_correct": false,
+          "trap_reason_en": "Confuses eagle with peacock; the clue in this question points specifically to peacock.",
+          "trap_reason_hi": "eagle को peacock समझ लिया। इस question की clue specifically peacock की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "swan",
+          "text_hi": "swan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses swan with peacock; the clue in this question points specifically to peacock.",
+          "trap_reason_hi": "swan को peacock समझ लिया। इस question की clue specifically peacock की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "peacock",
+          "text_hi": "peacock",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The peacock is India's national bird. Therefore, answer = peacock.",
+      "explanation_concept_en": "The peacock is India's national bird. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is peacock.",
+      "explanation_method_hi": "Keyword याद रखें: Peacock India का national bird है। अतः answer = peacock।",
+      "explanation_concept_hi": "Peacock India का national bird है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer peacock है।"
+    },
+    {
+      "id": "gastat-13",
+      "stem_en": "India's national aquatic animal is the:",
+      "stem_hi": "India का national aquatic animal कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "national-symbols"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Ganges river dolphin",
+          "text_hi": "Ganges river dolphin",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "blue whale",
+          "text_hi": "blue whale",
+          "is_correct": false,
+          "trap_reason_en": "Confuses blue whale with Ganges river dolphin; the clue in this question points specifically to Ganges river dolphin.",
+          "trap_reason_hi": "blue whale को Ganges river dolphin समझ लिया। इस question की clue specifically Ganges river dolphin की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "olive ridley turtle",
+          "text_hi": "olive ridley turtle",
+          "is_correct": false,
+          "trap_reason_en": "Confuses olive ridley turtle with Ganges river dolphin; the clue in this question points specifically to Ganges river dolphin.",
+          "trap_reason_hi": "olive ridley turtle को Ganges river dolphin समझ लिया। इस question की clue specifically Ganges river dolphin की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "mahseer",
+          "text_hi": "mahseer",
+          "is_correct": false,
+          "trap_reason_en": "Confuses mahseer with Ganges river dolphin; the clue in this question points specifically to Ganges river dolphin.",
+          "trap_reason_hi": "mahseer को Ganges river dolphin समझ लिया। इस question की clue specifically Ganges river dolphin की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Ganges river dolphin is India's national aquatic animal. Therefore, answer = Ganges river dolphin.",
+      "explanation_concept_en": "The Ganges river dolphin is India's national aquatic animal. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Ganges river dolphin.",
+      "explanation_method_hi": "Keyword याद रखें: Ganges river dolphin India का national aquatic animal है। अतः answer = Ganges river dolphin।",
+      "explanation_concept_hi": "Ganges river dolphin India का national aquatic animal है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Ganges river dolphin है।"
+    },
+    {
+      "id": "gastat-14",
+      "stem_en": "India's national song is:",
+      "stem_hi": "India का national song कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "national-symbols"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Jana Gana Mana",
+          "text_hi": "Jana Gana Mana",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jana Gana Mana with Vande Mataram; the clue in this question points specifically to Vande Mataram.",
+          "trap_reason_hi": "Jana Gana Mana को Vande Mataram समझ लिया। इस question की clue specifically Vande Mataram की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Vande Mataram",
+          "text_hi": "Vande Mataram",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Saare Jahan Se Achha",
+          "text_hi": "Saare Jahan Se Achha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Saare Jahan Se Achha with Vande Mataram; the clue in this question points specifically to Vande Mataram.",
+          "trap_reason_hi": "Saare Jahan Se Achha को Vande Mataram समझ लिया। इस question की clue specifically Vande Mataram की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Mile Sur Mera Tumhara",
+          "text_hi": "Mile Sur Mera Tumhara",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mile Sur Mera Tumhara with Vande Mataram; the clue in this question points specifically to Vande Mataram.",
+          "trap_reason_hi": "Mile Sur Mera Tumhara को Vande Mataram समझ लिया। इस question की clue specifically Vande Mataram की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Vande Mataram is India's national song. Therefore, answer = Vande Mataram.",
+      "explanation_concept_en": "Vande Mataram is India's national song. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Vande Mataram.",
+      "explanation_method_hi": "Keyword याद रखें: Vande Mataram India का national song है। अतः answer = Vande Mataram।",
+      "explanation_concept_hi": "Vande Mataram India का national song है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Vande Mataram है।"
+    },
+    {
+      "id": "gastat-15",
+      "stem_en": "India's national anthem is:",
+      "stem_hi": "India का national anthem कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "national-symbols"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Vande Mataram",
+          "text_hi": "Vande Mataram",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vande Mataram with Jana Gana Mana; the clue in this question points specifically to Jana Gana Mana.",
+          "trap_reason_hi": "Vande Mataram को Jana Gana Mana समझ लिया। इस question की clue specifically Jana Gana Mana की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Ae Mere Watan Ke Logon",
+          "text_hi": "Ae Mere Watan Ke Logon",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ae Mere Watan Ke Logon with Jana Gana Mana; the clue in this question points specifically to Jana Gana Mana.",
+          "trap_reason_hi": "Ae Mere Watan Ke Logon को Jana Gana Mana समझ लिया। इस question की clue specifically Jana Gana Mana की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Jana Gana Mana",
+          "text_hi": "Jana Gana Mana",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Sare Jahan Se Achha",
+          "text_hi": "Sare Jahan Se Achha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sare Jahan Se Achha with Jana Gana Mana; the clue in this question points specifically to Jana Gana Mana.",
+          "trap_reason_hi": "Sare Jahan Se Achha को Jana Gana Mana समझ लिया। इस question की clue specifically Jana Gana Mana की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Jana Gana Mana is India's national anthem. Therefore, answer = Jana Gana Mana.",
+      "explanation_concept_en": "Jana Gana Mana is India's national anthem. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Jana Gana Mana.",
+      "explanation_method_hi": "Keyword याद रखें: Jana Gana Mana India का national anthem है। अतः answer = Jana Gana Mana।",
+      "explanation_concept_hi": "Jana Gana Mana India का national anthem है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Jana Gana Mana है।"
+    },
+    {
+      "id": "gastat-16",
+      "stem_en": "The Father of the Indian Constitution is commonly called:",
+      "stem_hi": "Indian Constitution के Father commonly किसे कहा जाता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "famous-personalities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mahatma Gandhi",
+          "text_hi": "Mahatma Gandhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mahatma Gandhi with B. R. Ambedkar; the clue in this question points specifically to B. R. Ambedkar.",
+          "trap_reason_hi": "Mahatma Gandhi को B. R. Ambedkar समझ लिया। इस question की clue specifically B. R. Ambedkar की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Jawaharlal Nehru",
+          "text_hi": "Jawaharlal Nehru",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jawaharlal Nehru with B. R. Ambedkar; the clue in this question points specifically to B. R. Ambedkar.",
+          "trap_reason_hi": "Jawaharlal Nehru को B. R. Ambedkar समझ लिया। इस question की clue specifically B. R. Ambedkar की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Sardar Patel",
+          "text_hi": "Sardar Patel",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sardar Patel with B. R. Ambedkar; the clue in this question points specifically to B. R. Ambedkar.",
+          "trap_reason_hi": "Sardar Patel को B. R. Ambedkar समझ लिया। इस question की clue specifically B. R. Ambedkar की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "B. R. Ambedkar",
+          "text_hi": "B. R. Ambedkar",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: B. R. Ambedkar is called the Father of the Indian Constitution. Therefore, answer = B. R. Ambedkar.",
+      "explanation_concept_en": "B. R. Ambedkar is called the Father of the Indian Constitution. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is B. R. Ambedkar.",
+      "explanation_method_hi": "Keyword याद रखें: B. R. Ambedkar को Indian Constitution का Father कहा जाता है। अतः answer = B. R. Ambedkar।",
+      "explanation_concept_hi": "B. R. Ambedkar को Indian Constitution का Father कहा जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer B. R. Ambedkar है।"
+    },
+    {
+      "id": "gastat-17",
+      "stem_en": "The Iron Man of India is:",
+      "stem_hi": "Iron Man of India कौन हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "famous-personalities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Sardar Vallabhbhai Patel",
+          "text_hi": "Sardar Vallabhbhai Patel",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Subhas Chandra Bose",
+          "text_hi": "Subhas Chandra Bose",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Subhas Chandra Bose with Sardar Vallabhbhai Patel; the clue in this question points specifically to Sardar Vallabhbhai Patel.",
+          "trap_reason_hi": "Subhas Chandra Bose को Sardar Vallabhbhai Patel समझ लिया। इस question की clue specifically Sardar Vallabhbhai Patel की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "B. R. Ambedkar",
+          "text_hi": "B. R. Ambedkar",
+          "is_correct": false,
+          "trap_reason_en": "Confuses B. R. Ambedkar with Sardar Vallabhbhai Patel; the clue in this question points specifically to Sardar Vallabhbhai Patel.",
+          "trap_reason_hi": "B. R. Ambedkar को Sardar Vallabhbhai Patel समझ लिया। इस question की clue specifically Sardar Vallabhbhai Patel की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "C. V. Raman",
+          "text_hi": "C. V. Raman",
+          "is_correct": false,
+          "trap_reason_en": "Confuses C. V. Raman with Sardar Vallabhbhai Patel; the clue in this question points specifically to Sardar Vallabhbhai Patel.",
+          "trap_reason_hi": "C. V. Raman को Sardar Vallabhbhai Patel समझ लिया। इस question की clue specifically Sardar Vallabhbhai Patel की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Sardar Patel is called the Iron Man of India. Therefore, answer = Sardar Vallabhbhai Patel.",
+      "explanation_concept_en": "Sardar Patel is called the Iron Man of India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Sardar Vallabhbhai Patel.",
+      "explanation_method_hi": "Keyword याद रखें: Sardar Patel को Iron Man of India कहा जाता है। अतः answer = Sardar Vallabhbhai Patel।",
+      "explanation_concept_hi": "Sardar Patel को Iron Man of India कहा जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Sardar Vallabhbhai Patel है।"
+    },
+    {
+      "id": "gastat-18",
+      "stem_en": "The Missile Man of India is:",
+      "stem_hi": "Missile Man of India कौन हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "famous-personalities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Homi Bhabha",
+          "text_hi": "Homi Bhabha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Homi Bhabha with A. P. J. Abdul Kalam; the clue in this question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "Homi Bhabha को A. P. J. Abdul Kalam समझ लिया। इस question की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "A. P. J. Abdul Kalam",
+          "text_hi": "A. P. J. Abdul Kalam",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Vikram Sarabhai",
+          "text_hi": "Vikram Sarabhai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vikram Sarabhai with A. P. J. Abdul Kalam; the clue in this question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "Vikram Sarabhai को A. P. J. Abdul Kalam समझ लिया। इस question की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "C. V. Raman",
+          "text_hi": "C. V. Raman",
+          "is_correct": false,
+          "trap_reason_en": "Confuses C. V. Raman with A. P. J. Abdul Kalam; the clue in this question points specifically to A. P. J. Abdul Kalam.",
+          "trap_reason_hi": "C. V. Raman को A. P. J. Abdul Kalam समझ लिया। इस question की clue specifically A. P. J. Abdul Kalam की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A. P. J. Abdul Kalam is called the Missile Man of India. Therefore, answer = A. P. J. Abdul Kalam.",
+      "explanation_concept_en": "A. P. J. Abdul Kalam is called the Missile Man of India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is A. P. J. Abdul Kalam.",
+      "explanation_method_hi": "Keyword याद रखें: A. P. J. Abdul Kalam को Missile Man of India कहा जाता है। अतः answer = A. P. J. Abdul Kalam।",
+      "explanation_concept_hi": "A. P. J. Abdul Kalam को Missile Man of India कहा जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer A. P. J. Abdul Kalam है।"
+    },
+    {
+      "id": "gastat-19",
+      "stem_en": "The first Indian Nobel laureate in Literature was:",
+      "stem_hi": "Literature में first Indian Nobel laureate कौन थे?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "famous-personalities"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "C. V. Raman",
+          "text_hi": "C. V. Raman",
+          "is_correct": false,
+          "trap_reason_en": "Confuses C. V. Raman with Rabindranath Tagore; the clue in this question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "C. V. Raman को Rabindranath Tagore समझ लिया। इस question की clue specifically Rabindranath Tagore की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Amartya Sen",
+          "text_hi": "Amartya Sen",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Amartya Sen with Rabindranath Tagore; the clue in this question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "Amartya Sen को Rabindranath Tagore समझ लिया। इस question की clue specifically Rabindranath Tagore की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Rabindranath Tagore",
+          "text_hi": "Rabindranath Tagore",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Mother Teresa",
+          "text_hi": "Mother Teresa",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mother Teresa with Rabindranath Tagore; the clue in this question points specifically to Rabindranath Tagore.",
+          "trap_reason_hi": "Mother Teresa को Rabindranath Tagore समझ लिया। इस question की clue specifically Rabindranath Tagore की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Rabindranath Tagore won the Nobel Prize in Literature. Therefore, answer = Rabindranath Tagore.",
+      "explanation_concept_en": "Rabindranath Tagore won the Nobel Prize in Literature. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Rabindranath Tagore.",
+      "explanation_method_hi": "Keyword याद रखें: Rabindranath Tagore ने Literature में Nobel Prize जीता। अतः answer = Rabindranath Tagore।",
+      "explanation_concept_hi": "Rabindranath Tagore ने Literature में Nobel Prize जीता। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Rabindranath Tagore है।"
+    },
+    {
+      "id": "gastat-20",
+      "stem_en": "India's highest civilian award is:",
+      "stem_hi": "India का highest civilian award कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "static-gk",
+        "awards"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Padma Shri",
+          "text_hi": "Padma Shri",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Padma Shri with Bharat Ratna; the clue in this question points specifically to Bharat Ratna.",
+          "trap_reason_hi": "Padma Shri को Bharat Ratna समझ लिया। इस question की clue specifically Bharat Ratna की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Padma Bhushan",
+          "text_hi": "Padma Bhushan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Padma Bhushan with Bharat Ratna; the clue in this question points specifically to Bharat Ratna.",
+          "trap_reason_hi": "Padma Bhushan को Bharat Ratna समझ लिया। इस question की clue specifically Bharat Ratna की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Dronacharya Award",
+          "text_hi": "Dronacharya Award",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Dronacharya Award with Bharat Ratna; the clue in this question points specifically to Bharat Ratna.",
+          "trap_reason_hi": "Dronacharya Award को Bharat Ratna समझ लिया। इस question की clue specifically Bharat Ratna की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Bharat Ratna",
+          "text_hi": "Bharat Ratna",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Bharat Ratna is India's highest civilian award. Therefore, answer = Bharat Ratna.",
+      "explanation_concept_en": "Bharat Ratna is India's highest civilian award. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Bharat Ratna.",
+      "explanation_method_hi": "Keyword याद रखें: Bharat Ratna India का highest civilian award है। अतः answer = Bharat Ratna।",
+      "explanation_concept_hi": "Bharat Ratna India का highest civilian award है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Bharat Ratna है।"
+    },
+    {
+      "id": "gastat-21",
+      "stem_en": "Raj Ghat is associated with:",
+      "stem_hi": "Raj Ghat किससे associated है?",
+      "difficulty": "HARD",
+      "tags": [
+        "static-gk",
+        "places"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mahatma Gandhi",
+          "text_hi": "Mahatma Gandhi",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Jawaharlal Nehru",
+          "text_hi": "Jawaharlal Nehru",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jawaharlal Nehru with Mahatma Gandhi; the clue in this question points specifically to Mahatma Gandhi.",
+          "trap_reason_hi": "Jawaharlal Nehru को Mahatma Gandhi समझ लिया। इस question की clue specifically Mahatma Gandhi की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Indira Gandhi",
+          "text_hi": "Indira Gandhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Indira Gandhi with Mahatma Gandhi; the clue in this question points specifically to Mahatma Gandhi.",
+          "trap_reason_hi": "Indira Gandhi को Mahatma Gandhi समझ लिया। इस question की clue specifically Mahatma Gandhi की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Sardar Patel",
+          "text_hi": "Sardar Patel",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Sardar Patel with Mahatma Gandhi; the clue in this question points specifically to Mahatma Gandhi.",
+          "trap_reason_hi": "Sardar Patel को Mahatma Gandhi समझ लिया। इस question की clue specifically Mahatma Gandhi की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Raj Ghat is Mahatma Gandhi's memorial. Therefore, answer = Mahatma Gandhi.",
+      "explanation_concept_en": "Raj Ghat is Mahatma Gandhi's memorial. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Mahatma Gandhi.",
+      "explanation_method_hi": "Keyword याद रखें: Raj Ghat Mahatma Gandhi का memorial है। अतः answer = Mahatma Gandhi।",
+      "explanation_concept_hi": "Raj Ghat Mahatma Gandhi का memorial है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Mahatma Gandhi है।"
+    },
+    {
+      "id": "gastat-22",
+      "stem_en": "Gateway of India is located in:",
+      "stem_hi": "Gateway of India कहाँ located है?",
+      "difficulty": "HARD",
+      "tags": [
+        "static-gk",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Delhi",
+          "text_hi": "Delhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Delhi with Mumbai; the clue in this question points specifically to Mumbai.",
+          "trap_reason_hi": "Delhi को Mumbai समझ लिया। इस question की clue specifically Mumbai की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Mumbai",
+          "text_hi": "Mumbai",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Kolkata",
+          "text_hi": "Kolkata",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kolkata with Mumbai; the clue in this question points specifically to Mumbai.",
+          "trap_reason_hi": "Kolkata को Mumbai समझ लिया। इस question की clue specifically Mumbai की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Hyderabad",
+          "text_hi": "Hyderabad",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Hyderabad with Mumbai; the clue in this question points specifically to Mumbai.",
+          "trap_reason_hi": "Hyderabad को Mumbai समझ लिया। इस question की clue specifically Mumbai की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Gateway of India is in Mumbai. Therefore, answer = Mumbai.",
+      "explanation_concept_en": "Gateway of India is in Mumbai. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Mumbai.",
+      "explanation_method_hi": "Keyword याद रखें: Gateway of India Mumbai में है। अतः answer = Mumbai।",
+      "explanation_concept_hi": "Gateway of India Mumbai में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Mumbai है।"
+    },
+    {
+      "id": "gastat-23",
+      "stem_en": "Charminar is located in:",
+      "stem_hi": "Charminar कहाँ located है?",
+      "difficulty": "HARD",
+      "tags": [
+        "static-gk",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mumbai",
+          "text_hi": "Mumbai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mumbai with Hyderabad; the clue in this question points specifically to Hyderabad.",
+          "trap_reason_hi": "Mumbai को Hyderabad समझ लिया। इस question की clue specifically Hyderabad की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Delhi",
+          "text_hi": "Delhi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Delhi with Hyderabad; the clue in this question points specifically to Hyderabad.",
+          "trap_reason_hi": "Delhi को Hyderabad समझ लिया। इस question की clue specifically Hyderabad की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Hyderabad",
+          "text_hi": "Hyderabad",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Jaipur",
+          "text_hi": "Jaipur",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Jaipur with Hyderabad; the clue in this question points specifically to Hyderabad.",
+          "trap_reason_hi": "Jaipur को Hyderabad समझ लिया। इस question की clue specifically Hyderabad की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Charminar is in Hyderabad. Therefore, answer = Hyderabad.",
+      "explanation_concept_en": "Charminar is in Hyderabad. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Hyderabad.",
+      "explanation_method_hi": "Keyword याद रखें: Charminar Hyderabad में है। अतः answer = Hyderabad।",
+      "explanation_concept_hi": "Charminar Hyderabad में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Hyderabad है।"
+    },
+    {
+      "id": "gastat-24",
+      "stem_en": "India Gate is located in:",
+      "stem_hi": "India Gate कहाँ located है?",
+      "difficulty": "HARD",
+      "tags": [
+        "static-gk",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Mumbai",
+          "text_hi": "Mumbai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Mumbai with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Mumbai को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Kolkata",
+          "text_hi": "Kolkata",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Kolkata with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Kolkata को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Chennai",
+          "text_hi": "Chennai",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chennai with New Delhi; the clue in this question points specifically to New Delhi.",
+          "trap_reason_hi": "Chennai को New Delhi समझ लिया। इस question की clue specifically New Delhi की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "New Delhi",
+          "text_hi": "New Delhi",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: India Gate is in New Delhi. Therefore, answer = New Delhi.",
+      "explanation_concept_en": "India Gate is in New Delhi. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is New Delhi.",
+      "explanation_method_hi": "Keyword याद रखें: India Gate New Delhi में है। अतः answer = New Delhi।",
+      "explanation_concept_hi": "India Gate New Delhi में है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer New Delhi है।"
+    },
+    {
+      "id": "gastat-25",
+      "stem_en": "Ajanta Caves are located in:",
+      "stem_hi": "Ajanta Caves किस state में हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "static-gk",
+        "monuments"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Maharashtra",
+          "text_hi": "Maharashtra",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Odisha",
+          "text_hi": "Odisha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Odisha with Maharashtra; the clue in this question points specifically to Maharashtra.",
+          "trap_reason_hi": "Odisha को Maharashtra समझ लिया। इस question की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Punjab",
+          "text_hi": "Punjab",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Punjab with Maharashtra; the clue in this question points specifically to Maharashtra.",
+          "trap_reason_hi": "Punjab को Maharashtra समझ लिया। इस question की clue specifically Maharashtra की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Assam",
+          "text_hi": "Assam",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Assam with Maharashtra; the clue in this question points specifically to Maharashtra.",
+          "trap_reason_hi": "Assam को Maharashtra समझ लिया। इस question की clue specifically Maharashtra की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ajanta Caves are in Maharashtra. Therefore, answer = Maharashtra.",
+      "explanation_concept_en": "Ajanta Caves are in Maharashtra. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Maharashtra.",
+      "explanation_method_hi": "Keyword याद रखें: Ajanta Caves Maharashtra में हैं। अतः answer = Maharashtra।",
+      "explanation_concept_hi": "Ajanta Caves Maharashtra में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Maharashtra है।"
+    }
+  ]
+}

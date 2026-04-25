@@ -1,0 +1,1265 @@
+{
+  "_doc": "Launch original GA sectional — Indian Polity. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-indian-polity-01",
+  "title_en": "Indian Polity — Sectional",
+  "title_hi": "Indian Polity — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Indian Polity",
+    "title_hi": "Indian Polity",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gapol-01",
+      "stem_en": "The Constitution of India was adopted on:",
+      "stem_hi": "India का Constitution कब adopted हुआ?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26 November 1949",
+          "text_hi": "26 November 1949",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "26 January 1950",
+          "text_hi": "26 January 1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 26 January 1950 with 26 November 1949; the clue in this question points specifically to 26 November 1949.",
+          "trap_reason_hi": "26 January 1950 को 26 November 1949 समझ लिया। इस question की clue specifically 26 November 1949 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "15 August 1947",
+          "text_hi": "15 August 1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 15 August 1947 with 26 November 1949; the clue in this question points specifically to 26 November 1949.",
+          "trap_reason_hi": "15 August 1947 को 26 November 1949 समझ लिया। इस question की clue specifically 26 November 1949 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "2 October 1949",
+          "text_hi": "2 October 1949",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 2 October 1949 with 26 November 1949; the clue in this question points specifically to 26 November 1949.",
+          "trap_reason_hi": "2 October 1949 को 26 November 1949 समझ लिया। इस question की clue specifically 26 November 1949 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Constitution was adopted on 26 November 1949. Therefore, answer = 26 November 1949.",
+      "explanation_concept_en": "The Constitution was adopted on 26 November 1949. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 26 November 1949.",
+      "explanation_method_hi": "Keyword याद रखें: Constitution 26 November 1949 को adopted हुआ। अतः answer = 26 November 1949।",
+      "explanation_concept_hi": "Constitution 26 November 1949 को adopted हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 26 November 1949 है।"
+    },
+    {
+      "id": "gapol-02",
+      "stem_en": "The Constitution of India came into force on:",
+      "stem_hi": "India का Constitution कब enforce हुआ?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "26 November 1949",
+          "text_hi": "26 November 1949",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 26 November 1949 with 26 January 1950; the clue in this question points specifically to 26 January 1950.",
+          "trap_reason_hi": "26 November 1949 को 26 January 1950 समझ लिया। इस question की clue specifically 26 January 1950 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "26 January 1950",
+          "text_hi": "26 January 1950",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "15 August 1947",
+          "text_hi": "15 August 1947",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 15 August 1947 with 26 January 1950; the clue in this question points specifically to 26 January 1950.",
+          "trap_reason_hi": "15 August 1947 को 26 January 1950 समझ लिया। इस question की clue specifically 26 January 1950 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "30 January 1950",
+          "text_hi": "30 January 1950",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 30 January 1950 with 26 January 1950; the clue in this question points specifically to 26 January 1950.",
+          "trap_reason_hi": "30 January 1950 को 26 January 1950 समझ लिया। इस question की clue specifically 26 January 1950 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Constitution came into force on 26 January 1950. Therefore, answer = 26 January 1950.",
+      "explanation_concept_en": "The Constitution came into force on 26 January 1950. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 26 January 1950.",
+      "explanation_method_hi": "Keyword याद रखें: Constitution 26 January 1950 को enforce हुआ। अतः answer = 26 January 1950।",
+      "explanation_concept_hi": "Constitution 26 January 1950 को enforce हुआ। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 26 January 1950 है।"
+    },
+    {
+      "id": "gapol-03",
+      "stem_en": "The Preamble begins with:",
+      "stem_hi": "Preamble किस phrase से शुरू होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Satyameva Jayate",
+          "text_hi": "Satyameva Jayate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Satyameva Jayate with We, the People of India; the clue in this question points specifically to We, the People of India.",
+          "trap_reason_hi": "Satyameva Jayate को We, the People of India समझ लिया। इस question की clue specifically We, the People of India की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "In Parliament We Trust",
+          "text_hi": "In Parliament We Trust",
+          "is_correct": false,
+          "trap_reason_en": "Confuses In Parliament We Trust with We, the People of India; the clue in this question points specifically to We, the People of India.",
+          "trap_reason_hi": "In Parliament We Trust को We, the People of India समझ लिया। इस question की clue specifically We, the People of India की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "We, the People of India",
+          "text_hi": "We, the People of India",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Union of States only",
+          "text_hi": "Union of States only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Union of States only with We, the People of India; the clue in this question points specifically to We, the People of India.",
+          "trap_reason_hi": "Union of States only को We, the People of India समझ लिया। इस question की clue specifically We, the People of India की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Preamble starts with We, the People of India. Therefore, answer = We, the People of India.",
+      "explanation_concept_en": "The Preamble starts with We, the People of India. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is We, the People of India.",
+      "explanation_method_hi": "Keyword याद रखें: Preamble 'We, the People of India' से शुरू होता है। अतः answer = We, the People of India।",
+      "explanation_concept_hi": "Preamble 'We, the People of India' से शुरू होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer We, the People of India है।"
+    },
+    {
+      "id": "gapol-04",
+      "stem_en": "Article 14 mainly deals with:",
+      "stem_hi": "Article 14 mainly किससे deal करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "fundamental-rights"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "right to life",
+          "text_hi": "right to life",
+          "is_correct": false,
+          "trap_reason_en": "Confuses right to life with equality before law; the clue in this question points specifically to equality before law.",
+          "trap_reason_hi": "right to life को equality before law समझ लिया। इस question की clue specifically equality before law की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "constitutional remedies",
+          "text_hi": "constitutional remedies",
+          "is_correct": false,
+          "trap_reason_en": "Confuses constitutional remedies with equality before law; the clue in this question points specifically to equality before law.",
+          "trap_reason_hi": "constitutional remedies को equality before law समझ लिया। इस question की clue specifically equality before law की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "fundamental duties",
+          "text_hi": "fundamental duties",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fundamental duties with equality before law; the clue in this question points specifically to equality before law.",
+          "trap_reason_hi": "fundamental duties को equality before law समझ लिया। इस question की clue specifically equality before law की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "equality before law",
+          "text_hi": "equality before law",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 14 provides equality before law. Therefore, answer = equality before law.",
+      "explanation_concept_en": "Article 14 provides equality before law. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is equality before law.",
+      "explanation_method_hi": "Keyword याद रखें: Article 14 equality before law देता है। अतः answer = equality before law।",
+      "explanation_concept_hi": "Article 14 equality before law देता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer equality before law है।"
+    },
+    {
+      "id": "gapol-05",
+      "stem_en": "Article 19 is linked with:",
+      "stem_hi": "Article 19 किससे linked है?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "fundamental-rights"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "freedoms",
+          "text_hi": "freedoms",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "emergency",
+          "text_hi": "emergency",
+          "is_correct": false,
+          "trap_reason_en": "Confuses emergency with freedoms; the clue in this question points specifically to freedoms.",
+          "trap_reason_hi": "emergency को freedoms समझ लिया। इस question की clue specifically freedoms की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "GST",
+          "text_hi": "GST",
+          "is_correct": false,
+          "trap_reason_en": "Confuses GST with freedoms; the clue in this question points specifically to freedoms.",
+          "trap_reason_hi": "GST को freedoms समझ लिया। इस question की clue specifically freedoms की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "CAG",
+          "text_hi": "CAG",
+          "is_correct": false,
+          "trap_reason_en": "Confuses CAG with freedoms; the clue in this question points specifically to freedoms.",
+          "trap_reason_hi": "CAG को freedoms समझ लिया। इस question की clue specifically freedoms की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 19 protects certain freedoms. Therefore, answer = freedoms.",
+      "explanation_concept_en": "Article 19 protects certain freedoms. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is freedoms.",
+      "explanation_method_hi": "Keyword याद रखें: Article 19 certain freedoms protect करता है। अतः answer = freedoms।",
+      "explanation_concept_hi": "Article 19 certain freedoms protect करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer freedoms है।"
+    },
+    {
+      "id": "gapol-06",
+      "stem_en": "Article 21 protects:",
+      "stem_hi": "Article 21 क्या protect करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "fundamental-rights"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "right to property as fundamental right",
+          "text_hi": "right to property as fundamental right",
+          "is_correct": false,
+          "trap_reason_en": "Confuses right to property as fundamental right with life and personal liberty; the clue in this question points specifically to life and personal liberty.",
+          "trap_reason_hi": "right to property as fundamental right को life and personal liberty समझ लिया। इस question की clue specifically life and personal liberty की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "life and personal liberty",
+          "text_hi": "life and personal liberty",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "panchayats",
+          "text_hi": "panchayats",
+          "is_correct": false,
+          "trap_reason_en": "Confuses panchayats with life and personal liberty; the clue in this question points specifically to life and personal liberty.",
+          "trap_reason_hi": "panchayats को life and personal liberty समझ लिया। इस question की clue specifically life and personal liberty की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "money bill",
+          "text_hi": "money bill",
+          "is_correct": false,
+          "trap_reason_en": "Confuses money bill with life and personal liberty; the clue in this question points specifically to life and personal liberty.",
+          "trap_reason_hi": "money bill को life and personal liberty समझ लिया। इस question की clue specifically life and personal liberty की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 21 protects life and personal liberty. Therefore, answer = life and personal liberty.",
+      "explanation_concept_en": "Article 21 protects life and personal liberty. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is life and personal liberty.",
+      "explanation_method_hi": "Keyword याद रखें: Article 21 life और personal liberty protect करता है। अतः answer = life and personal liberty।",
+      "explanation_concept_hi": "Article 21 life और personal liberty protect करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer life and personal liberty है।"
+    },
+    {
+      "id": "gapol-07",
+      "stem_en": "Article 32 is associated with:",
+      "stem_hi": "Article 32 किससे associated है?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "fundamental-rights"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "state finance",
+          "text_hi": "state finance",
+          "is_correct": false,
+          "trap_reason_en": "Confuses state finance with constitutional remedies; the clue in this question points specifically to constitutional remedies.",
+          "trap_reason_hi": "state finance को constitutional remedies समझ लिया। इस question की clue specifically constitutional remedies की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "official language only",
+          "text_hi": "official language only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses official language only with constitutional remedies; the clue in this question points specifically to constitutional remedies.",
+          "trap_reason_hi": "official language only को constitutional remedies समझ लिया। इस question की clue specifically constitutional remedies की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "constitutional remedies",
+          "text_hi": "constitutional remedies",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "trade unions",
+          "text_hi": "trade unions",
+          "is_correct": false,
+          "trap_reason_en": "Confuses trade unions with constitutional remedies; the clue in this question points specifically to constitutional remedies.",
+          "trap_reason_hi": "trade unions को constitutional remedies समझ लिया। इस question की clue specifically constitutional remedies की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 32 gives the right to constitutional remedies. Therefore, answer = constitutional remedies.",
+      "explanation_concept_en": "Article 32 gives the right to constitutional remedies. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is constitutional remedies.",
+      "explanation_method_hi": "Keyword याद रखें: Article 32 constitutional remedies का right देता है। अतः answer = constitutional remedies।",
+      "explanation_concept_hi": "Article 32 constitutional remedies का right देता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer constitutional remedies है।"
+    },
+    {
+      "id": "gapol-08",
+      "stem_en": "Fundamental Duties are in:",
+      "stem_hi": "Fundamental Duties कहाँ हैं?",
+      "difficulty": "EASY",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Article 14",
+          "text_hi": "Article 14",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 14 with Article 51A; the clue in this question points specifically to Article 51A.",
+          "trap_reason_hi": "Article 14 को Article 51A समझ लिया। इस question की clue specifically Article 51A की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Article 21",
+          "text_hi": "Article 21",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 21 with Article 51A; the clue in this question points specifically to Article 51A.",
+          "trap_reason_hi": "Article 21 को Article 51A समझ लिया। इस question की clue specifically Article 51A की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Article 324",
+          "text_hi": "Article 324",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 324 with Article 51A; the clue in this question points specifically to Article 51A.",
+          "trap_reason_hi": "Article 324 को Article 51A समझ लिया। इस question की clue specifically Article 51A की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Article 51A",
+          "text_hi": "Article 51A",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Fundamental Duties are listed in Article 51A. Therefore, answer = Article 51A.",
+      "explanation_concept_en": "Fundamental Duties are listed in Article 51A. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Article 51A.",
+      "explanation_method_hi": "Keyword याद रखें: Fundamental Duties Article 51A में हैं। अतः answer = Article 51A।",
+      "explanation_concept_hi": "Fundamental Duties Article 51A में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Article 51A है।"
+    },
+    {
+      "id": "gapol-09",
+      "stem_en": "Directive Principles of State Policy are in:",
+      "stem_hi": "Directive Principles of State Policy कहाँ हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Part IV",
+          "text_hi": "Part IV",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Part III",
+          "text_hi": "Part III",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part III with Part IV; the clue in this question points specifically to Part IV.",
+          "trap_reason_hi": "Part III को Part IV समझ लिया। इस question की clue specifically Part IV की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Part IVA",
+          "text_hi": "Part IVA",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part IVA with Part IV; the clue in this question points specifically to Part IV.",
+          "trap_reason_hi": "Part IVA को Part IV समझ लिया। इस question की clue specifically Part IV की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Part XVIII",
+          "text_hi": "Part XVIII",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part XVIII with Part IV; the clue in this question points specifically to Part IV.",
+          "trap_reason_hi": "Part XVIII को Part IV समझ लिया। इस question की clue specifically Part IV की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: DPSP are placed in Part IV. Therefore, answer = Part IV.",
+      "explanation_concept_en": "DPSP are placed in Part IV. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Part IV.",
+      "explanation_method_hi": "Keyword याद रखें: DPSP Part IV में हैं। अतः answer = Part IV।",
+      "explanation_concept_hi": "DPSP Part IV में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Part IV है।"
+    },
+    {
+      "id": "gapol-10",
+      "stem_en": "The nominal head of the Union executive is the:",
+      "stem_hi": "Union executive का nominal head कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "union-executive"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Prime Minister",
+          "text_hi": "Prime Minister",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Prime Minister with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Prime Minister को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "President",
+          "text_hi": "President",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Speaker",
+          "text_hi": "Speaker",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Speaker with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Speaker को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Chief Justice",
+          "text_hi": "Chief Justice",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chief Justice with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Chief Justice को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The President is the nominal head of the Union executive. Therefore, answer = President.",
+      "explanation_concept_en": "The President is the nominal head of the Union executive. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is President.",
+      "explanation_method_hi": "Keyword याद रखें: President Union executive के nominal head हैं। अतः answer = President।",
+      "explanation_concept_hi": "President Union executive के nominal head हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer President है।"
+    },
+    {
+      "id": "gapol-11",
+      "stem_en": "The real head of the Council of Ministers is the:",
+      "stem_hi": "Council of Ministers का real head कौन है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "union-executive"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "President",
+          "text_hi": "President",
+          "is_correct": false,
+          "trap_reason_en": "Confuses President with Prime Minister; the clue in this question points specifically to Prime Minister.",
+          "trap_reason_hi": "President को Prime Minister समझ लिया। इस question की clue specifically Prime Minister की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Governor",
+          "text_hi": "Governor",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Governor with Prime Minister; the clue in this question points specifically to Prime Minister.",
+          "trap_reason_hi": "Governor को Prime Minister समझ लिया। इस question की clue specifically Prime Minister की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Prime Minister",
+          "text_hi": "Prime Minister",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Vice President",
+          "text_hi": "Vice President",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vice President with Prime Minister; the clue in this question points specifically to Prime Minister.",
+          "trap_reason_hi": "Vice President को Prime Minister समझ लिया। इस question की clue specifically Prime Minister की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Prime Minister heads the Council of Ministers. Therefore, answer = Prime Minister.",
+      "explanation_concept_en": "The Prime Minister heads the Council of Ministers. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Prime Minister.",
+      "explanation_method_hi": "Keyword याद रखें: Prime Minister Council of Ministers को head करते हैं। अतः answer = Prime Minister।",
+      "explanation_concept_hi": "Prime Minister Council of Ministers को head करते हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Prime Minister है।"
+    },
+    {
+      "id": "gapol-12",
+      "stem_en": "A Money Bill can be introduced only in the:",
+      "stem_hi": "Money Bill केवल कहाँ introduce किया जा सकता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "parliament"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Rajya Sabha",
+          "text_hi": "Rajya Sabha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rajya Sabha with Lok Sabha; the clue in this question points specifically to Lok Sabha.",
+          "trap_reason_hi": "Rajya Sabha को Lok Sabha समझ लिया। इस question की clue specifically Lok Sabha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Supreme Court",
+          "text_hi": "Supreme Court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Supreme Court with Lok Sabha; the clue in this question points specifically to Lok Sabha.",
+          "trap_reason_hi": "Supreme Court को Lok Sabha समझ लिया। इस question की clue specifically Lok Sabha की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "NITI Aayog",
+          "text_hi": "NITI Aayog",
+          "is_correct": false,
+          "trap_reason_en": "Confuses NITI Aayog with Lok Sabha; the clue in this question points specifically to Lok Sabha.",
+          "trap_reason_hi": "NITI Aayog को Lok Sabha समझ लिया। इस question की clue specifically Lok Sabha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Lok Sabha",
+          "text_hi": "Lok Sabha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A Money Bill is introduced only in Lok Sabha. Therefore, answer = Lok Sabha.",
+      "explanation_concept_en": "A Money Bill is introduced only in Lok Sabha. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Lok Sabha.",
+      "explanation_method_hi": "Keyword याद रखें: Money Bill केवल Lok Sabha में introduce होता है। अतः answer = Lok Sabha।",
+      "explanation_concept_hi": "Money Bill केवल Lok Sabha में introduce होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Lok Sabha है।"
+    },
+    {
+      "id": "gapol-13",
+      "stem_en": "The Rajya Sabha is a:",
+      "stem_hi": "Rajya Sabha कैसी house है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "parliament"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "permanent house",
+          "text_hi": "permanent house",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "dissolved every 5 years",
+          "text_hi": "dissolved every 5 years",
+          "is_correct": false,
+          "trap_reason_en": "Confuses dissolved every 5 years with permanent house; the clue in this question points specifically to permanent house.",
+          "trap_reason_hi": "dissolved every 5 years को permanent house समझ लिया। इस question की clue specifically permanent house की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "state court",
+          "text_hi": "state court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses state court with permanent house; the clue in this question points specifically to permanent house.",
+          "trap_reason_hi": "state court को permanent house समझ लिया। इस question की clue specifically permanent house की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "money bill committee",
+          "text_hi": "money bill committee",
+          "is_correct": false,
+          "trap_reason_en": "Confuses money bill committee with permanent house; the clue in this question points specifically to permanent house.",
+          "trap_reason_hi": "money bill committee को permanent house समझ लिया। इस question की clue specifically permanent house की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Rajya Sabha is not dissolved; it is permanent. Therefore, answer = permanent house.",
+      "explanation_concept_en": "Rajya Sabha is not dissolved; it is permanent. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is permanent house.",
+      "explanation_method_hi": "Keyword याद रखें: Rajya Sabha dissolve नहीं होती; यह permanent house है। अतः answer = permanent house।",
+      "explanation_concept_hi": "Rajya Sabha dissolve नहीं होती; यह permanent house है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer permanent house है।"
+    },
+    {
+      "id": "gapol-14",
+      "stem_en": "The highest court in India is the:",
+      "stem_hi": "India की highest court कौन-सी है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "judiciary"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "High Court",
+          "text_hi": "High Court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses High Court with Supreme Court; the clue in this question points specifically to Supreme Court.",
+          "trap_reason_hi": "High Court को Supreme Court समझ लिया। इस question की clue specifically Supreme Court की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Supreme Court",
+          "text_hi": "Supreme Court",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "District Court",
+          "text_hi": "District Court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses District Court with Supreme Court; the clue in this question points specifically to Supreme Court.",
+          "trap_reason_hi": "District Court को Supreme Court समझ लिया। इस question की clue specifically Supreme Court की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Tribunal",
+          "text_hi": "Tribunal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Tribunal with Supreme Court; the clue in this question points specifically to Supreme Court.",
+          "trap_reason_hi": "Tribunal को Supreme Court समझ लिया। इस question की clue specifically Supreme Court की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Supreme Court is India's highest court. Therefore, answer = Supreme Court.",
+      "explanation_concept_en": "The Supreme Court is India's highest court. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Supreme Court.",
+      "explanation_method_hi": "Keyword याद रखें: Supreme Court India की highest court है। अतः answer = Supreme Court।",
+      "explanation_concept_hi": "Supreme Court India की highest court है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Supreme Court है।"
+    },
+    {
+      "id": "gapol-15",
+      "stem_en": "The Election Commission of India is mentioned in:",
+      "stem_hi": "Election Commission of India किस Article में mentioned है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "constitutional-bodies"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Article 14",
+          "text_hi": "Article 14",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 14 with Article 324; the clue in this question points specifically to Article 324.",
+          "trap_reason_hi": "Article 14 को Article 324 समझ लिया। इस question की clue specifically Article 324 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Article 51A",
+          "text_hi": "Article 51A",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 51A with Article 324; the clue in this question points specifically to Article 324.",
+          "trap_reason_hi": "Article 51A को Article 324 समझ लिया। इस question की clue specifically Article 324 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Article 324",
+          "text_hi": "Article 324",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Article 76",
+          "text_hi": "Article 76",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 76 with Article 324; the clue in this question points specifically to Article 324.",
+          "trap_reason_hi": "Article 76 को Article 324 समझ लिया। इस question की clue specifically Article 324 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 324 deals with Election Commission. Therefore, answer = Article 324.",
+      "explanation_concept_en": "Article 324 deals with Election Commission. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Article 324.",
+      "explanation_method_hi": "Keyword याद रखें: Article 324 Election Commission से deal करता है। अतः answer = Article 324।",
+      "explanation_concept_hi": "Article 324 Election Commission से deal करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Article 324 है।"
+    },
+    {
+      "id": "gapol-16",
+      "stem_en": "The CAG of India is mentioned in:",
+      "stem_hi": "India के CAG का Article कौन-सा है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "constitutional-bodies"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Article 280",
+          "text_hi": "Article 280",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 280 with Article 148; the clue in this question points specifically to Article 148.",
+          "trap_reason_hi": "Article 280 को Article 148 समझ लिया। इस question की clue specifically Article 148 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Article 324",
+          "text_hi": "Article 324",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 324 with Article 148; the clue in this question points specifically to Article 148.",
+          "trap_reason_hi": "Article 324 को Article 148 समझ लिया। इस question की clue specifically Article 148 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Article 21",
+          "text_hi": "Article 21",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 21 with Article 148; the clue in this question points specifically to Article 148.",
+          "trap_reason_hi": "Article 21 को Article 148 समझ लिया। इस question की clue specifically Article 148 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Article 148",
+          "text_hi": "Article 148",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 148 deals with the CAG. Therefore, answer = Article 148.",
+      "explanation_concept_en": "Article 148 deals with the CAG. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Article 148.",
+      "explanation_method_hi": "Keyword याद रखें: Article 148 CAG से deal करता है। अतः answer = Article 148।",
+      "explanation_concept_hi": "Article 148 CAG से deal करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Article 148 है।"
+    },
+    {
+      "id": "gapol-17",
+      "stem_en": "Panchayats were constitutionalised by the:",
+      "stem_hi": "Panchayats को constitutional status किस amendment से मिला?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "local-government"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "73rd Amendment",
+          "text_hi": "73rd Amendment",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "74th Amendment",
+          "text_hi": "74th Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 74th Amendment with 73rd Amendment; the clue in this question points specifically to 73rd Amendment.",
+          "trap_reason_hi": "74th Amendment को 73rd Amendment समझ लिया। इस question की clue specifically 73rd Amendment की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "42nd Amendment",
+          "text_hi": "42nd Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 42nd Amendment with 73rd Amendment; the clue in this question points specifically to 73rd Amendment.",
+          "trap_reason_hi": "42nd Amendment को 73rd Amendment समझ लिया। इस question की clue specifically 73rd Amendment की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "101st Amendment",
+          "text_hi": "101st Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 101st Amendment with 73rd Amendment; the clue in this question points specifically to 73rd Amendment.",
+          "trap_reason_hi": "101st Amendment को 73rd Amendment समझ लिया। इस question की clue specifically 73rd Amendment की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The 73rd Amendment concerns Panchayats. Therefore, answer = 73rd Amendment.",
+      "explanation_concept_en": "The 73rd Amendment concerns Panchayats. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 73rd Amendment.",
+      "explanation_method_hi": "Keyword याद रखें: 73rd Amendment Panchayats से related है। अतः answer = 73rd Amendment।",
+      "explanation_concept_hi": "73rd Amendment Panchayats से related है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 73rd Amendment है।"
+    },
+    {
+      "id": "gapol-18",
+      "stem_en": "Municipalities were constitutionalised by the:",
+      "stem_hi": "Municipalities को constitutional status किस amendment से मिला?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "local-government"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "73rd Amendment",
+          "text_hi": "73rd Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 73rd Amendment with 74th Amendment; the clue in this question points specifically to 74th Amendment.",
+          "trap_reason_hi": "73rd Amendment को 74th Amendment समझ लिया। इस question की clue specifically 74th Amendment की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "74th Amendment",
+          "text_hi": "74th Amendment",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "44th Amendment",
+          "text_hi": "44th Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 44th Amendment with 74th Amendment; the clue in this question points specifically to 74th Amendment.",
+          "trap_reason_hi": "44th Amendment को 74th Amendment समझ लिया। इस question की clue specifically 74th Amendment की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "86th Amendment",
+          "text_hi": "86th Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 86th Amendment with 74th Amendment; the clue in this question points specifically to 74th Amendment.",
+          "trap_reason_hi": "86th Amendment को 74th Amendment समझ लिया। इस question की clue specifically 74th Amendment की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The 74th Amendment concerns Municipalities. Therefore, answer = 74th Amendment.",
+      "explanation_concept_en": "The 74th Amendment concerns Municipalities. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 74th Amendment.",
+      "explanation_method_hi": "Keyword याद रखें: 74th Amendment Municipalities से related है। अतः answer = 74th Amendment।",
+      "explanation_concept_hi": "74th Amendment Municipalities से related है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 74th Amendment है।"
+    },
+    {
+      "id": "gapol-19",
+      "stem_en": "GST was introduced through the:",
+      "stem_hi": "GST किस constitutional amendment से introduced हुआ?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "constitution",
+        "economy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "73rd Amendment",
+          "text_hi": "73rd Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 73rd Amendment with 101st Amendment; the clue in this question points specifically to 101st Amendment.",
+          "trap_reason_hi": "73rd Amendment को 101st Amendment समझ लिया। इस question की clue specifically 101st Amendment की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "42nd Amendment",
+          "text_hi": "42nd Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 42nd Amendment with 101st Amendment; the clue in this question points specifically to 101st Amendment.",
+          "trap_reason_hi": "42nd Amendment को 101st Amendment समझ लिया। इस question की clue specifically 101st Amendment की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "101st Amendment",
+          "text_hi": "101st Amendment",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "61st Amendment",
+          "text_hi": "61st Amendment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 61st Amendment with 101st Amendment; the clue in this question points specifically to 101st Amendment.",
+          "trap_reason_hi": "61st Amendment को 101st Amendment समझ लिया। इस question की clue specifically 101st Amendment की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: GST is linked to the 101st Amendment. Therefore, answer = 101st Amendment.",
+      "explanation_concept_en": "GST is linked to the 101st Amendment. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 101st Amendment.",
+      "explanation_method_hi": "Keyword याद रखें: GST 101st Amendment से linked है। अतः answer = 101st Amendment।",
+      "explanation_concept_hi": "GST 101st Amendment से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 101st Amendment है।"
+    },
+    {
+      "id": "gapol-20",
+      "stem_en": "Emergency provisions are mainly in:",
+      "stem_hi": "Emergency provisions mainly कहाँ हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Part III",
+          "text_hi": "Part III",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part III with Part XVIII; the clue in this question points specifically to Part XVIII.",
+          "trap_reason_hi": "Part III को Part XVIII समझ लिया। इस question की clue specifically Part XVIII की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Part IV",
+          "text_hi": "Part IV",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part IV with Part XVIII; the clue in this question points specifically to Part XVIII.",
+          "trap_reason_hi": "Part IV को Part XVIII समझ लिया। इस question की clue specifically Part XVIII की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Part IX",
+          "text_hi": "Part IX",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Part IX with Part XVIII; the clue in this question points specifically to Part XVIII.",
+          "trap_reason_hi": "Part IX को Part XVIII समझ लिया। इस question की clue specifically Part XVIII की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Part XVIII",
+          "text_hi": "Part XVIII",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Emergency provisions are in Part XVIII. Therefore, answer = Part XVIII.",
+      "explanation_concept_en": "Emergency provisions are in Part XVIII. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Part XVIII.",
+      "explanation_method_hi": "Keyword याद रखें: Emergency provisions Part XVIII में हैं। अतः answer = Part XVIII।",
+      "explanation_concept_hi": "Emergency provisions Part XVIII में हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Part XVIII है।"
+    },
+    {
+      "id": "gapol-21",
+      "stem_en": "A republic means the head of state is:",
+      "stem_hi": "Republic का मतलब head of state कैसा होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "elected",
+          "text_hi": "elected",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "hereditary monarch",
+          "text_hi": "hereditary monarch",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hereditary monarch with elected; the clue in this question points specifically to elected.",
+          "trap_reason_hi": "hereditary monarch को elected समझ लिया। इस question की clue specifically elected की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "appointed by UN",
+          "text_hi": "appointed by UN",
+          "is_correct": false,
+          "trap_reason_en": "Confuses appointed by UN with elected; the clue in this question points specifically to elected.",
+          "trap_reason_hi": "appointed by UN को elected समझ लिया। इस question की clue specifically elected की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "selected by court",
+          "text_hi": "selected by court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses selected by court with elected; the clue in this question points specifically to elected.",
+          "trap_reason_hi": "selected by court को elected समझ लिया। इस question की clue specifically elected की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: In a republic, the head of state is elected. Therefore, answer = elected.",
+      "explanation_concept_en": "In a republic, the head of state is elected. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is elected.",
+      "explanation_method_hi": "Keyword याद रखें: Republic में head of state elected होता है। अतः answer = elected।",
+      "explanation_concept_hi": "Republic में head of state elected होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer elected है।"
+    },
+    {
+      "id": "gapol-22",
+      "stem_en": "The Vice President of India is ex officio Chairman of the:",
+      "stem_hi": "Vice President India किसके ex officio Chairman हैं?",
+      "difficulty": "HARD",
+      "tags": [
+        "polity",
+        "parliament"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Lok Sabha",
+          "text_hi": "Lok Sabha",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Lok Sabha with Rajya Sabha; the clue in this question points specifically to Rajya Sabha.",
+          "trap_reason_hi": "Lok Sabha को Rajya Sabha समझ लिया। इस question की clue specifically Rajya Sabha की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Rajya Sabha",
+          "text_hi": "Rajya Sabha",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "NITI Aayog",
+          "text_hi": "NITI Aayog",
+          "is_correct": false,
+          "trap_reason_en": "Confuses NITI Aayog with Rajya Sabha; the clue in this question points specifically to Rajya Sabha.",
+          "trap_reason_hi": "NITI Aayog को Rajya Sabha समझ लिया। इस question की clue specifically Rajya Sabha की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Finance Commission",
+          "text_hi": "Finance Commission",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Finance Commission with Rajya Sabha; the clue in this question points specifically to Rajya Sabha.",
+          "trap_reason_hi": "Finance Commission को Rajya Sabha समझ लिया। इस question की clue specifically Rajya Sabha की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Vice President chairs the Rajya Sabha ex officio. Therefore, answer = Rajya Sabha.",
+      "explanation_concept_en": "The Vice President chairs the Rajya Sabha ex officio. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Rajya Sabha.",
+      "explanation_method_hi": "Keyword याद रखें: Vice President Rajya Sabha के ex officio Chairman हैं। अतः answer = Rajya Sabha।",
+      "explanation_concept_hi": "Vice President Rajya Sabha के ex officio Chairman हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Rajya Sabha है।"
+    },
+    {
+      "id": "gapol-23",
+      "stem_en": "A State Governor is appointed by the:",
+      "stem_hi": "State Governor किसके द्वारा appointed होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "polity",
+        "state-executive"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Prime Minister alone",
+          "text_hi": "Prime Minister alone",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Prime Minister alone with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Prime Minister alone को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Chief Minister",
+          "text_hi": "Chief Minister",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Chief Minister with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Chief Minister को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "President",
+          "text_hi": "President",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "Speaker",
+          "text_hi": "Speaker",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Speaker with President; the clue in this question points specifically to President.",
+          "trap_reason_hi": "Speaker को President समझ लिया। इस question की clue specifically President की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A Governor is appointed by the President. Therefore, answer = President.",
+      "explanation_concept_en": "A Governor is appointed by the President. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is President.",
+      "explanation_method_hi": "Keyword याद रखें: Governor President द्वारा appointed होता है। अतः answer = President।",
+      "explanation_concept_hi": "Governor President द्वारा appointed होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer President है।"
+    },
+    {
+      "id": "gapol-24",
+      "stem_en": "The Attorney General of India is mentioned in:",
+      "stem_hi": "Attorney General of India किस Article में mentioned है?",
+      "difficulty": "HARD",
+      "tags": [
+        "polity",
+        "constitutional-posts"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Article 32",
+          "text_hi": "Article 32",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 32 with Article 76; the clue in this question points specifically to Article 76.",
+          "trap_reason_hi": "Article 32 को Article 76 समझ लिया। इस question की clue specifically Article 76 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Article 148",
+          "text_hi": "Article 148",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 148 with Article 76; the clue in this question points specifically to Article 76.",
+          "trap_reason_hi": "Article 148 को Article 76 समझ लिया। इस question की clue specifically Article 76 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Article 280",
+          "text_hi": "Article 280",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Article 280 with Article 76; the clue in this question points specifically to Article 76.",
+          "trap_reason_hi": "Article 280 को Article 76 समझ लिया। इस question की clue specifically Article 76 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Article 76",
+          "text_hi": "Article 76",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 76 deals with the Attorney General. Therefore, answer = Article 76.",
+      "explanation_concept_en": "Article 76 deals with the Attorney General. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Article 76.",
+      "explanation_method_hi": "Keyword याद रखें: Article 76 Attorney General से deal करता है। अतः answer = Article 76।",
+      "explanation_concept_hi": "Article 76 Attorney General से deal करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Article 76 है।"
+    },
+    {
+      "id": "gapol-25",
+      "stem_en": "India is described in Article 1 as a:",
+      "stem_hi": "Article 1 में India को क्या describe किया गया है?",
+      "difficulty": "HARD",
+      "tags": [
+        "polity",
+        "constitution"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Union of States",
+          "text_hi": "Union of States",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Confederation only",
+          "text_hi": "Confederation only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Confederation only with Union of States; the clue in this question points specifically to Union of States.",
+          "trap_reason_hi": "Confederation only को Union of States समझ लिया। इस question की clue specifically Union of States की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Unitary kingdom",
+          "text_hi": "Unitary kingdom",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Unitary kingdom with Union of States; the clue in this question points specifically to Union of States.",
+          "trap_reason_hi": "Unitary kingdom को Union of States समझ लिया। इस question की clue specifically Union of States की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Municipal federation",
+          "text_hi": "Municipal federation",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Municipal federation with Union of States; the clue in this question points specifically to Union of States.",
+          "trap_reason_hi": "Municipal federation को Union of States समझ लिया। इस question की clue specifically Union of States की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Article 1 calls India a Union of States. Therefore, answer = Union of States.",
+      "explanation_concept_en": "Article 1 calls India a Union of States. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Union of States.",
+      "explanation_method_hi": "Keyword याद रखें: Article 1 India को Union of States कहता है। अतः answer = Union of States।",
+      "explanation_concept_hi": "Article 1 India को Union of States कहता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Union of States है।"
+    }
+  ]
+}

@@ -1,0 +1,1286 @@
+{
+  "_doc": "Launch original GA sectional — Chemistry & Biology. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-chemistry-biology-01",
+  "title_en": "Chemistry & Biology — Sectional",
+  "title_hi": "Chemistry & Biology — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Chemistry & Biology",
+    "title_hi": "Chemistry & Biology",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gacb-01",
+      "stem_en": "A solution with pH less than 7 is:",
+      "stem_hi": "pH 7 से कम वाला solution कैसा होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "acids-bases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "acidic",
+          "text_hi": "acidic",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "neutral",
+          "text_hi": "neutral",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neutral with acidic; the clue in this question points specifically to acidic.",
+          "trap_reason_hi": "neutral को acidic समझ लिया। इस question की clue specifically acidic की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "basic",
+          "text_hi": "basic",
+          "is_correct": false,
+          "trap_reason_en": "Confuses basic with acidic; the clue in this question points specifically to acidic.",
+          "trap_reason_hi": "basic को acidic समझ लिया। इस question की clue specifically acidic की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "saline only",
+          "text_hi": "saline only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses saline only with acidic; the clue in this question points specifically to acidic.",
+          "trap_reason_hi": "saline only को acidic समझ लिया। इस question की clue specifically acidic की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: pH below 7 indicates an acidic solution. Therefore, answer = acidic.",
+      "explanation_concept_en": "pH below 7 indicates an acidic solution. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is acidic.",
+      "explanation_method_hi": "Keyword याद रखें: pH 7 से कम acidic solution बताता है। अतः answer = acidic।",
+      "explanation_concept_hi": "pH 7 से कम acidic solution बताता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer acidic है।"
+    },
+    {
+      "id": "gacb-02",
+      "stem_en": "A neutral solution has pH:",
+      "stem_hi": "Neutral solution का pH कितना होता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "acids-bases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "0",
+          "text_hi": "0",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 0 with 7; the clue in this question points specifically to 7.",
+          "trap_reason_hi": "0 को 7 समझ लिया। इस question की clue specifically 7 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "14",
+          "text_hi": "14",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 14 with 7; the clue in this question points specifically to 7.",
+          "trap_reason_hi": "14 को 7 समझ लिया। इस question की clue specifically 7 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "1",
+          "text_hi": "1",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 1 with 7; the clue in this question points specifically to 7.",
+          "trap_reason_hi": "1 को 7 समझ लिया। इस question की clue specifically 7 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A neutral solution has pH 7. Therefore, answer = 7.",
+      "explanation_concept_en": "A neutral solution has pH 7. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 7.",
+      "explanation_method_hi": "Keyword याद रखें: Neutral solution का pH 7 होता है। अतः answer = 7।",
+      "explanation_concept_hi": "Neutral solution का pH 7 होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 7 है।"
+    },
+    {
+      "id": "gacb-03",
+      "stem_en": "The chemical name of common salt is:",
+      "stem_hi": "Common salt का chemical name क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "sodium bicarbonate",
+          "text_hi": "sodium bicarbonate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sodium bicarbonate with sodium chloride; the clue in this question points specifically to sodium chloride.",
+          "trap_reason_hi": "sodium bicarbonate को sodium chloride समझ लिया। इस question की clue specifically sodium chloride की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "calcium carbonate",
+          "text_hi": "calcium carbonate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses calcium carbonate with sodium chloride; the clue in this question points specifically to sodium chloride.",
+          "trap_reason_hi": "calcium carbonate को sodium chloride समझ लिया। इस question की clue specifically sodium chloride की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "sodium chloride",
+          "text_hi": "sodium chloride",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "potassium nitrate",
+          "text_hi": "potassium nitrate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses potassium nitrate with sodium chloride; the clue in this question points specifically to sodium chloride.",
+          "trap_reason_hi": "potassium nitrate को sodium chloride समझ लिया। इस question की clue specifically sodium chloride की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Common salt is sodium chloride. Therefore, answer = sodium chloride.",
+      "explanation_concept_en": "Common salt is sodium chloride. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is sodium chloride.",
+      "explanation_method_hi": "Keyword याद रखें: Common salt sodium chloride होता है। अतः answer = sodium chloride।",
+      "explanation_concept_hi": "Common salt sodium chloride होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer sodium chloride है।"
+    },
+    {
+      "id": "gacb-04",
+      "stem_en": "The chemical formula of baking soda is:",
+      "stem_hi": "Baking soda का chemical formula क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "NaCl",
+          "text_hi": "NaCl",
+          "is_correct": false,
+          "trap_reason_en": "Confuses NaCl with NaHCO3; the clue in this question points specifically to NaHCO3.",
+          "trap_reason_hi": "NaCl को NaHCO3 समझ लिया। इस question की clue specifically NaHCO3 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Na2CO3",
+          "text_hi": "Na2CO3",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Na2CO3 with NaHCO3; the clue in this question points specifically to NaHCO3.",
+          "trap_reason_hi": "Na2CO3 को NaHCO3 समझ लिया। इस question की clue specifically NaHCO3 की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "CaCO3",
+          "text_hi": "CaCO3",
+          "is_correct": false,
+          "trap_reason_en": "Confuses CaCO3 with NaHCO3; the clue in this question points specifically to NaHCO3.",
+          "trap_reason_hi": "CaCO3 को NaHCO3 समझ लिया। इस question की clue specifically NaHCO3 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "NaHCO3",
+          "text_hi": "NaHCO3",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Baking soda is sodium bicarbonate, NaHCO3. Therefore, answer = NaHCO3.",
+      "explanation_concept_en": "Baking soda is sodium bicarbonate, NaHCO3. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is NaHCO3.",
+      "explanation_method_hi": "Keyword याद रखें: Baking soda sodium bicarbonate यानी NaHCO3 है। अतः answer = NaHCO3।",
+      "explanation_concept_hi": "Baking soda sodium bicarbonate यानी NaHCO3 है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer NaHCO3 है।"
+    },
+    {
+      "id": "gacb-05",
+      "stem_en": "Washing soda is chemically:",
+      "stem_hi": "Washing soda chemically क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "sodium carbonate decahydrate",
+          "text_hi": "sodium carbonate decahydrate",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "sodium chloride",
+          "text_hi": "sodium chloride",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sodium chloride with sodium carbonate decahydrate; the clue in this question points specifically to sodium carbonate decahydrate.",
+          "trap_reason_hi": "sodium chloride को sodium carbonate decahydrate समझ लिया। इस question की clue specifically sodium carbonate decahydrate की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "calcium sulphate",
+          "text_hi": "calcium sulphate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses calcium sulphate with sodium carbonate decahydrate; the clue in this question points specifically to sodium carbonate decahydrate.",
+          "trap_reason_hi": "calcium sulphate को sodium carbonate decahydrate समझ लिया। इस question की clue specifically sodium carbonate decahydrate की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "sodium bicarbonate",
+          "text_hi": "sodium bicarbonate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sodium bicarbonate with sodium carbonate decahydrate; the clue in this question points specifically to sodium carbonate decahydrate.",
+          "trap_reason_hi": "sodium bicarbonate को sodium carbonate decahydrate समझ लिया। इस question की clue specifically sodium carbonate decahydrate की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Washing soda is sodium carbonate decahydrate. Therefore, answer = sodium carbonate decahydrate.",
+      "explanation_concept_en": "Washing soda is sodium carbonate decahydrate. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is sodium carbonate decahydrate.",
+      "explanation_method_hi": "Keyword याद रखें: Washing soda sodium carbonate decahydrate है। अतः answer = sodium carbonate decahydrate।",
+      "explanation_concept_hi": "Washing soda sodium carbonate decahydrate है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer sodium carbonate decahydrate है।"
+    },
+    {
+      "id": "gacb-06",
+      "stem_en": "An acid turns blue litmus:",
+      "stem_hi": "Acid blue litmus को क्या करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "acids-bases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "blue",
+          "text_hi": "blue",
+          "is_correct": false,
+          "trap_reason_en": "Confuses blue with red; the clue in this question points specifically to red.",
+          "trap_reason_hi": "blue को red समझ लिया। इस question की clue specifically red की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "red",
+          "text_hi": "red",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "green",
+          "text_hi": "green",
+          "is_correct": false,
+          "trap_reason_en": "Confuses green with red; the clue in this question points specifically to red.",
+          "trap_reason_hi": "green को red समझ लिया। इस question की clue specifically red की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "colourless",
+          "text_hi": "colourless",
+          "is_correct": false,
+          "trap_reason_en": "Confuses colourless with red; the clue in this question points specifically to red.",
+          "trap_reason_hi": "colourless को red समझ लिया। इस question की clue specifically red की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Acids turn blue litmus red. Therefore, answer = red.",
+      "explanation_concept_en": "Acids turn blue litmus red. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is red.",
+      "explanation_method_hi": "Keyword याद रखें: Acid blue litmus को red करता है। अतः answer = red।",
+      "explanation_concept_hi": "Acid blue litmus को red करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer red है।"
+    },
+    {
+      "id": "gacb-07",
+      "stem_en": "A base turns red litmus:",
+      "stem_hi": "Base red litmus को क्या करता है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "acids-bases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "red",
+          "text_hi": "red",
+          "is_correct": false,
+          "trap_reason_en": "Confuses red with blue; the clue in this question points specifically to blue.",
+          "trap_reason_hi": "red को blue समझ लिया। इस question की clue specifically blue की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "yellow",
+          "text_hi": "yellow",
+          "is_correct": false,
+          "trap_reason_en": "Confuses yellow with blue; the clue in this question points specifically to blue.",
+          "trap_reason_hi": "yellow को blue समझ लिया। इस question की clue specifically blue की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "blue",
+          "text_hi": "blue",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "colourless",
+          "text_hi": "colourless",
+          "is_correct": false,
+          "trap_reason_en": "Confuses colourless with blue; the clue in this question points specifically to blue.",
+          "trap_reason_hi": "colourless को blue समझ लिया। इस question की clue specifically blue की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Bases turn red litmus blue. Therefore, answer = blue.",
+      "explanation_concept_en": "Bases turn red litmus blue. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is blue.",
+      "explanation_method_hi": "Keyword याद रखें: Base red litmus को blue करता है। अतः answer = blue।",
+      "explanation_concept_hi": "Base red litmus को blue करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer blue है।"
+    },
+    {
+      "id": "gacb-08",
+      "stem_en": "The chemical symbol of gold is:",
+      "stem_hi": "Gold का chemical symbol क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "elements"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Ag",
+          "text_hi": "Ag",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ag with Au; the clue in this question points specifically to Au.",
+          "trap_reason_hi": "Ag को Au समझ लिया। इस question की clue specifically Au की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Fe",
+          "text_hi": "Fe",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Fe with Au; the clue in this question points specifically to Au.",
+          "trap_reason_hi": "Fe को Au समझ लिया। इस question की clue specifically Au की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Pb",
+          "text_hi": "Pb",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Pb with Au; the clue in this question points specifically to Au.",
+          "trap_reason_hi": "Pb को Au समझ लिया। इस question की clue specifically Au की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Au",
+          "text_hi": "Au",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Gold has the symbol Au. Therefore, answer = Au.",
+      "explanation_concept_en": "Gold has the symbol Au. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Au.",
+      "explanation_method_hi": "Keyword याद रखें: Gold का symbol Au है। अतः answer = Au।",
+      "explanation_concept_hi": "Gold का symbol Au है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Au है।"
+    },
+    {
+      "id": "gacb-09",
+      "stem_en": "The chemical symbol of iron is:",
+      "stem_hi": "Iron का chemical symbol क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "elements"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Fe",
+          "text_hi": "Fe",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Ir",
+          "text_hi": "Ir",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Ir with Fe; the clue in this question points specifically to Fe.",
+          "trap_reason_hi": "Ir को Fe समझ लिया। इस question की clue specifically Fe की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "I",
+          "text_hi": "I",
+          "is_correct": false,
+          "trap_reason_en": "Confuses I with Fe; the clue in this question points specifically to Fe.",
+          "trap_reason_hi": "I को Fe समझ लिया। इस question की clue specifically Fe की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "In",
+          "text_hi": "In",
+          "is_correct": false,
+          "trap_reason_en": "Confuses In with Fe; the clue in this question points specifically to Fe.",
+          "trap_reason_hi": "In को Fe समझ लिया। इस question की clue specifically Fe की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Iron has the symbol Fe. Therefore, answer = Fe.",
+      "explanation_concept_en": "Iron has the symbol Fe. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Fe.",
+      "explanation_method_hi": "Keyword याद रखें: Iron का symbol Fe है। अतः answer = Fe।",
+      "explanation_concept_hi": "Iron का symbol Fe है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Fe है।"
+    },
+    {
+      "id": "gacb-10",
+      "stem_en": "The atomic number of oxygen is:",
+      "stem_hi": "Oxygen का atomic number क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "chemistry",
+        "elements"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "6",
+          "text_hi": "6",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 6 with 8; the clue in this question points specifically to 8.",
+          "trap_reason_hi": "6 को 8 समझ लिया। इस question की clue specifically 8 की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "8",
+          "text_hi": "8",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "7",
+          "text_hi": "7",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 7 with 8; the clue in this question points specifically to 8.",
+          "trap_reason_hi": "7 को 8 समझ लिया। इस question की clue specifically 8 की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "16",
+          "text_hi": "16",
+          "is_correct": false,
+          "trap_reason_en": "Confuses 16 with 8; the clue in this question points specifically to 8.",
+          "trap_reason_hi": "16 को 8 समझ लिया। इस question की clue specifically 8 की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Oxygen has atomic number 8. Therefore, answer = 8.",
+      "explanation_concept_en": "Oxygen has atomic number 8. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is 8.",
+      "explanation_method_hi": "Keyword याद रखें: Oxygen का atomic number 8 है। अतः answer = 8।",
+      "explanation_concept_hi": "Oxygen का atomic number 8 है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer 8 है।"
+    },
+    {
+      "id": "gacb-11",
+      "stem_en": "Red blood cells mainly help in carrying:",
+      "stem_hi": "Red blood cells mainly क्या carry करती हैं?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "bile",
+          "text_hi": "bile",
+          "is_correct": false,
+          "trap_reason_en": "Confuses bile with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "bile को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "insulin",
+          "text_hi": "insulin",
+          "is_correct": false,
+          "trap_reason_en": "Confuses insulin with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "insulin को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "oxygen",
+          "text_hi": "oxygen",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "urine",
+          "text_hi": "urine",
+          "is_correct": false,
+          "trap_reason_en": "Confuses urine with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "urine को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: RBCs carry oxygen with the help of haemoglobin. Therefore, answer = oxygen.",
+      "explanation_concept_en": "RBCs carry oxygen with the help of haemoglobin. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is oxygen.",
+      "explanation_method_hi": "Keyword याद रखें: RBC haemoglobin की मदद से oxygen carry करती हैं। अतः answer = oxygen।",
+      "explanation_concept_hi": "RBC haemoglobin की मदद से oxygen carry करती हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer oxygen है।"
+    },
+    {
+      "id": "gacb-12",
+      "stem_en": "Haemoglobin contains which metal?",
+      "stem_hi": "Haemoglobin में कौन-सा metal होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "copper",
+          "text_hi": "copper",
+          "is_correct": false,
+          "trap_reason_en": "Confuses copper with iron; the clue in this question points specifically to iron.",
+          "trap_reason_hi": "copper को iron समझ लिया। इस question की clue specifically iron की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "zinc",
+          "text_hi": "zinc",
+          "is_correct": false,
+          "trap_reason_en": "Confuses zinc with iron; the clue in this question points specifically to iron.",
+          "trap_reason_hi": "zinc को iron समझ लिया। इस question की clue specifically iron की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "sodium",
+          "text_hi": "sodium",
+          "is_correct": false,
+          "trap_reason_en": "Confuses sodium with iron; the clue in this question points specifically to iron.",
+          "trap_reason_hi": "sodium को iron समझ लिया। इस question की clue specifically iron की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "iron",
+          "text_hi": "iron",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Haemoglobin contains iron. Therefore, answer = iron.",
+      "explanation_concept_en": "Haemoglobin contains iron. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is iron.",
+      "explanation_method_hi": "Keyword याद रखें: Haemoglobin में iron होता है। अतः answer = iron।",
+      "explanation_concept_hi": "Haemoglobin में iron होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer iron है।"
+    },
+    {
+      "id": "gacb-13",
+      "stem_en": "Most nutrient absorption in humans occurs in the:",
+      "stem_hi": "Humans में nutrients का major absorption कहाँ होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "small intestine",
+          "text_hi": "small intestine",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "stomach",
+          "text_hi": "stomach",
+          "is_correct": false,
+          "trap_reason_en": "Confuses stomach with small intestine; the clue in this question points specifically to small intestine.",
+          "trap_reason_hi": "stomach को small intestine समझ लिया। इस question की clue specifically small intestine की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "large intestine",
+          "text_hi": "large intestine",
+          "is_correct": false,
+          "trap_reason_en": "Confuses large intestine with small intestine; the clue in this question points specifically to small intestine.",
+          "trap_reason_hi": "large intestine को small intestine समझ लिया। इस question की clue specifically small intestine की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "mouth",
+          "text_hi": "mouth",
+          "is_correct": false,
+          "trap_reason_en": "Confuses mouth with small intestine; the clue in this question points specifically to small intestine.",
+          "trap_reason_hi": "mouth को small intestine समझ लिया। इस question की clue specifically small intestine की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The small intestine is the main site of nutrient absorption. Therefore, answer = small intestine.",
+      "explanation_concept_en": "The small intestine is the main site of nutrient absorption. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is small intestine.",
+      "explanation_method_hi": "Keyword याद रखें: Small intestine nutrients absorption की main site है। अतः answer = small intestine।",
+      "explanation_concept_hi": "Small intestine nutrients absorption की main site है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer small intestine है।"
+    },
+    {
+      "id": "gacb-14",
+      "stem_en": "Bile is secreted by the:",
+      "stem_hi": "Bile किस organ द्वारा secreted होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "pancreas",
+          "text_hi": "pancreas",
+          "is_correct": false,
+          "trap_reason_en": "Confuses pancreas with liver; the clue in this question points specifically to liver.",
+          "trap_reason_hi": "pancreas को liver समझ लिया। इस question की clue specifically liver की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "liver",
+          "text_hi": "liver",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "kidney",
+          "text_hi": "kidney",
+          "is_correct": false,
+          "trap_reason_en": "Confuses kidney with liver; the clue in this question points specifically to liver.",
+          "trap_reason_hi": "kidney को liver समझ लिया। इस question की clue specifically liver की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "heart",
+          "text_hi": "heart",
+          "is_correct": false,
+          "trap_reason_en": "Confuses heart with liver; the clue in this question points specifically to liver.",
+          "trap_reason_hi": "heart को liver समझ लिया। इस question की clue specifically liver की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The liver secretes bile. Therefore, answer = liver.",
+      "explanation_concept_en": "The liver secretes bile. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is liver.",
+      "explanation_method_hi": "Keyword याद रखें: Liver bile secret करता है। अतः answer = liver।",
+      "explanation_concept_hi": "Liver bile secret करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer liver है।"
+    },
+    {
+      "id": "gacb-15",
+      "stem_en": "Insulin is secreted by the:",
+      "stem_hi": "Insulin किस organ द्वारा secreted होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "liver",
+          "text_hi": "liver",
+          "is_correct": false,
+          "trap_reason_en": "Confuses liver with pancreas; the clue in this question points specifically to pancreas.",
+          "trap_reason_hi": "liver को pancreas समझ लिया। इस question की clue specifically pancreas की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "thyroid",
+          "text_hi": "thyroid",
+          "is_correct": false,
+          "trap_reason_en": "Confuses thyroid with pancreas; the clue in this question points specifically to pancreas.",
+          "trap_reason_hi": "thyroid को pancreas समझ लिया। इस question की clue specifically pancreas की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "pancreas",
+          "text_hi": "pancreas",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "kidney",
+          "text_hi": "kidney",
+          "is_correct": false,
+          "trap_reason_en": "Confuses kidney with pancreas; the clue in this question points specifically to pancreas.",
+          "trap_reason_hi": "kidney को pancreas समझ लिया। इस question की clue specifically pancreas की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The pancreas secretes insulin. Therefore, answer = pancreas.",
+      "explanation_concept_en": "The pancreas secretes insulin. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is pancreas.",
+      "explanation_method_hi": "Keyword याद रखें: Pancreas insulin secret करता है। अतः answer = pancreas।",
+      "explanation_concept_hi": "Pancreas insulin secret करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer pancreas है।"
+    },
+    {
+      "id": "gacb-16",
+      "stem_en": "Deficiency of vitamin C causes:",
+      "stem_hi": "Vitamin C की deficiency से क्या होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "vitamins"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rickets",
+          "text_hi": "rickets",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rickets with scurvy; the clue in this question points specifically to scurvy.",
+          "trap_reason_hi": "rickets को scurvy समझ लिया। इस question की clue specifically scurvy की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "goitre",
+          "text_hi": "goitre",
+          "is_correct": false,
+          "trap_reason_en": "Confuses goitre with scurvy; the clue in this question points specifically to scurvy.",
+          "trap_reason_hi": "goitre को scurvy समझ लिया। इस question की clue specifically scurvy की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "night blindness",
+          "text_hi": "night blindness",
+          "is_correct": false,
+          "trap_reason_en": "Confuses night blindness with scurvy; the clue in this question points specifically to scurvy.",
+          "trap_reason_hi": "night blindness को scurvy समझ लिया। इस question की clue specifically scurvy की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "scurvy",
+          "text_hi": "scurvy",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Vitamin C deficiency causes scurvy. Therefore, answer = scurvy.",
+      "explanation_concept_en": "Vitamin C deficiency causes scurvy. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is scurvy.",
+      "explanation_method_hi": "Keyword याद रखें: Vitamin C deficiency से scurvy होता है। अतः answer = scurvy।",
+      "explanation_concept_hi": "Vitamin C deficiency से scurvy होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer scurvy है।"
+    },
+    {
+      "id": "gacb-17",
+      "stem_en": "Deficiency of vitamin D causes:",
+      "stem_hi": "Vitamin D की deficiency से क्या होता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "vitamins"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rickets",
+          "text_hi": "rickets",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "scurvy",
+          "text_hi": "scurvy",
+          "is_correct": false,
+          "trap_reason_en": "Confuses scurvy with rickets; the clue in this question points specifically to rickets.",
+          "trap_reason_hi": "scurvy को rickets समझ लिया। इस question की clue specifically rickets की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "anaemia",
+          "text_hi": "anaemia",
+          "is_correct": false,
+          "trap_reason_en": "Confuses anaemia with rickets; the clue in this question points specifically to rickets.",
+          "trap_reason_hi": "anaemia को rickets समझ लिया। इस question की clue specifically rickets की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "beriberi",
+          "text_hi": "beriberi",
+          "is_correct": false,
+          "trap_reason_en": "Confuses beriberi with rickets; the clue in this question points specifically to rickets.",
+          "trap_reason_hi": "beriberi को rickets समझ लिया। इस question की clue specifically rickets की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Vitamin D deficiency causes rickets. Therefore, answer = rickets.",
+      "explanation_concept_en": "Vitamin D deficiency causes rickets. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is rickets.",
+      "explanation_method_hi": "Keyword याद रखें: Vitamin D deficiency से rickets होता है। अतः answer = rickets।",
+      "explanation_concept_hi": "Vitamin D deficiency से rickets होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer rickets है।"
+    },
+    {
+      "id": "gacb-18",
+      "stem_en": "Deficiency of iodine commonly causes:",
+      "stem_hi": "Iodine deficiency commonly क्या cause करती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "deficiency-diseases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "scurvy",
+          "text_hi": "scurvy",
+          "is_correct": false,
+          "trap_reason_en": "Confuses scurvy with goitre; the clue in this question points specifically to goitre.",
+          "trap_reason_hi": "scurvy को goitre समझ लिया। इस question की clue specifically goitre की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "goitre",
+          "text_hi": "goitre",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "rickets",
+          "text_hi": "rickets",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rickets with goitre; the clue in this question points specifically to goitre.",
+          "trap_reason_hi": "rickets को goitre समझ लिया। इस question की clue specifically goitre की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "malaria",
+          "text_hi": "malaria",
+          "is_correct": false,
+          "trap_reason_en": "Confuses malaria with goitre; the clue in this question points specifically to goitre.",
+          "trap_reason_hi": "malaria को goitre समझ लिया। इस question की clue specifically goitre की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Iodine deficiency can cause goitre. Therefore, answer = goitre.",
+      "explanation_concept_en": "Iodine deficiency can cause goitre. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is goitre.",
+      "explanation_method_hi": "Keyword याद रखें: Iodine deficiency से goitre हो सकता है। अतः answer = goitre।",
+      "explanation_concept_hi": "Iodine deficiency से goitre हो सकता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer goitre है।"
+    },
+    {
+      "id": "gacb-19",
+      "stem_en": "The basic unit of heredity is:",
+      "stem_hi": "Heredity की basic unit क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "genetics"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "neuron",
+          "text_hi": "neuron",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neuron with gene; the clue in this question points specifically to gene.",
+          "trap_reason_hi": "neuron को gene समझ लिया। इस question की clue specifically gene की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "nephron",
+          "text_hi": "nephron",
+          "is_correct": false,
+          "trap_reason_en": "Confuses nephron with gene; the clue in this question points specifically to gene.",
+          "trap_reason_hi": "nephron को gene समझ लिया। इस question की clue specifically gene की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "gene",
+          "text_hi": "gene",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "alveolus",
+          "text_hi": "alveolus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses alveolus with gene; the clue in this question points specifically to gene.",
+          "trap_reason_hi": "alveolus को gene समझ लिया। इस question की clue specifically gene की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A gene is the basic unit of heredity. Therefore, answer = gene.",
+      "explanation_concept_en": "A gene is the basic unit of heredity. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is gene.",
+      "explanation_method_hi": "Keyword याद रखें: Gene heredity की basic unit है। अतः answer = gene।",
+      "explanation_concept_hi": "Gene heredity की basic unit है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer gene है।"
+    },
+    {
+      "id": "gacb-20",
+      "stem_en": "Photosynthesis releases which gas?",
+      "stem_hi": "Photosynthesis में कौन-सी gas release होती है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "general-science",
+        "biology",
+        "plants"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "nitrogen",
+          "text_hi": "nitrogen",
+          "is_correct": false,
+          "trap_reason_en": "Confuses nitrogen with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "nitrogen को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "carbon monoxide",
+          "text_hi": "carbon monoxide",
+          "is_correct": false,
+          "trap_reason_en": "Confuses carbon monoxide with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "carbon monoxide को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "hydrogen",
+          "text_hi": "hydrogen",
+          "is_correct": false,
+          "trap_reason_en": "Confuses hydrogen with oxygen; the clue in this question points specifically to oxygen.",
+          "trap_reason_hi": "hydrogen को oxygen समझ लिया। इस question की clue specifically oxygen की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "oxygen",
+          "text_hi": "oxygen",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Photosynthesis releases oxygen. Therefore, answer = oxygen.",
+      "explanation_concept_en": "Photosynthesis releases oxygen. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is oxygen.",
+      "explanation_method_hi": "Keyword याद रखें: Photosynthesis oxygen release करता है। अतः answer = oxygen।",
+      "explanation_concept_hi": "Photosynthesis oxygen release करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer oxygen है।"
+    },
+    {
+      "id": "gacb-21",
+      "stem_en": "Gas exchange in leaves mainly occurs through:",
+      "stem_hi": "Leaves में gas exchange mainly किससे होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "biology",
+        "plants"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "stomata",
+          "text_hi": "stomata",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "xylem",
+          "text_hi": "xylem",
+          "is_correct": false,
+          "trap_reason_en": "Confuses xylem with stomata; the clue in this question points specifically to stomata.",
+          "trap_reason_hi": "xylem को stomata समझ लिया। इस question की clue specifically stomata की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "root hair",
+          "text_hi": "root hair",
+          "is_correct": false,
+          "trap_reason_en": "Confuses root hair with stomata; the clue in this question points specifically to stomata.",
+          "trap_reason_hi": "root hair को stomata समझ लिया। इस question की clue specifically stomata की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "petals",
+          "text_hi": "petals",
+          "is_correct": false,
+          "trap_reason_en": "Confuses petals with stomata; the clue in this question points specifically to stomata.",
+          "trap_reason_hi": "petals को stomata समझ लिया। इस question की clue specifically stomata की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Stomata regulate gas exchange in leaves. Therefore, answer = stomata.",
+      "explanation_concept_en": "Stomata regulate gas exchange in leaves. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is stomata.",
+      "explanation_method_hi": "Keyword याद रखें: Leaves में stomata gas exchange regulate करते हैं। अतः answer = stomata।",
+      "explanation_concept_hi": "Leaves में stomata gas exchange regulate करते हैं। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer stomata है।"
+    },
+    {
+      "id": "gacb-22",
+      "stem_en": "Malaria is caused by:",
+      "stem_hi": "Malaria किससे caused होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "biology",
+        "diseases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "HIV",
+          "text_hi": "HIV",
+          "is_correct": false,
+          "trap_reason_en": "Confuses HIV with Plasmodium; the clue in this question points specifically to Plasmodium.",
+          "trap_reason_hi": "HIV को Plasmodium समझ लिया। इस question की clue specifically Plasmodium की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Plasmodium",
+          "text_hi": "Plasmodium",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Vibrio cholerae",
+          "text_hi": "Vibrio cholerae",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Vibrio cholerae with Plasmodium; the clue in this question points specifically to Plasmodium.",
+          "trap_reason_hi": "Vibrio cholerae को Plasmodium समझ लिया। इस question की clue specifically Plasmodium की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Rhizobium",
+          "text_hi": "Rhizobium",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Rhizobium with Plasmodium; the clue in this question points specifically to Plasmodium.",
+          "trap_reason_hi": "Rhizobium को Plasmodium समझ लिया। इस question की clue specifically Plasmodium की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Malaria is caused by Plasmodium. Therefore, answer = Plasmodium.",
+      "explanation_concept_en": "Malaria is caused by Plasmodium. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Plasmodium.",
+      "explanation_method_hi": "Keyword याद रखें: Malaria Plasmodium से caused होता है। अतः answer = Plasmodium।",
+      "explanation_concept_hi": "Malaria Plasmodium से caused होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Plasmodium है।"
+    },
+    {
+      "id": "gacb-23",
+      "stem_en": "Tuberculosis is caused by a:",
+      "stem_hi": "Tuberculosis किस type के pathogen से caused होती है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "biology",
+        "diseases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "virus",
+          "text_hi": "virus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses virus with bacterium; the clue in this question points specifically to bacterium.",
+          "trap_reason_hi": "virus को bacterium समझ लिया। इस question की clue specifically bacterium की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "protozoan",
+          "text_hi": "protozoan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses protozoan with bacterium; the clue in this question points specifically to bacterium.",
+          "trap_reason_hi": "protozoan को bacterium समझ लिया। इस question की clue specifically bacterium की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "bacterium",
+          "text_hi": "bacterium",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "fungus only",
+          "text_hi": "fungus only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fungus only with bacterium; the clue in this question points specifically to bacterium.",
+          "trap_reason_hi": "fungus only को bacterium समझ लिया। इस question की clue specifically bacterium की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Tuberculosis is caused by bacteria. Therefore, answer = bacterium.",
+      "explanation_concept_en": "Tuberculosis is caused by bacteria. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is bacterium.",
+      "explanation_method_hi": "Keyword याद रखें: Tuberculosis bacteria से caused होती है। अतः answer = bacterium।",
+      "explanation_concept_hi": "Tuberculosis bacteria से caused होती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer bacterium है।"
+    },
+    {
+      "id": "gacb-24",
+      "stem_en": "AIDS is caused by:",
+      "stem_hi": "AIDS किससे caused होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "biology",
+        "diseases"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "HBV",
+          "text_hi": "HBV",
+          "is_correct": false,
+          "trap_reason_en": "Confuses HBV with HIV; the clue in this question points specifically to HIV.",
+          "trap_reason_hi": "HBV को HIV समझ लिया। इस question की clue specifically HIV की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Plasmodium",
+          "text_hi": "Plasmodium",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Plasmodium with HIV; the clue in this question points specifically to HIV.",
+          "trap_reason_hi": "Plasmodium को HIV समझ लिया। इस question की clue specifically HIV की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Salmonella",
+          "text_hi": "Salmonella",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Salmonella with HIV; the clue in this question points specifically to HIV.",
+          "trap_reason_hi": "Salmonella को HIV समझ लिया। इस question की clue specifically HIV की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "HIV",
+          "text_hi": "HIV",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: AIDS is caused by HIV. Therefore, answer = HIV.",
+      "explanation_concept_en": "AIDS is caused by HIV. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is HIV.",
+      "explanation_method_hi": "Keyword याद रखें: AIDS HIV से caused होता है। अतः answer = HIV।",
+      "explanation_concept_hi": "AIDS HIV से caused होता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer HIV है।"
+    },
+    {
+      "id": "gacb-25",
+      "stem_en": "The functional unit of the kidney is:",
+      "stem_hi": "Kidney की functional unit क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "general-science",
+        "biology",
+        "human-body"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "nephron",
+          "text_hi": "nephron",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "neuron",
+          "text_hi": "neuron",
+          "is_correct": false,
+          "trap_reason_en": "Confuses neuron with nephron; the clue in this question points specifically to nephron.",
+          "trap_reason_hi": "neuron को nephron समझ लिया। इस question की clue specifically nephron की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "alveolus",
+          "text_hi": "alveolus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses alveolus with nephron; the clue in this question points specifically to nephron.",
+          "trap_reason_hi": "alveolus को nephron समझ लिया। इस question की clue specifically nephron की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "villus",
+          "text_hi": "villus",
+          "is_correct": false,
+          "trap_reason_en": "Confuses villus with nephron; the clue in this question points specifically to nephron.",
+          "trap_reason_hi": "villus को nephron समझ लिया। इस question की clue specifically nephron की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: A nephron is the functional unit of the kidney. Therefore, answer = nephron.",
+      "explanation_concept_en": "A nephron is the functional unit of the kidney. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is nephron.",
+      "explanation_method_hi": "Keyword याद रखें: Nephron kidney की functional unit है। अतः answer = nephron।",
+      "explanation_concept_hi": "Nephron kidney की functional unit है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer nephron है।"
+    }
+  ]
+}

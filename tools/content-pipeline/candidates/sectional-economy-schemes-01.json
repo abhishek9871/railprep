@@ -1,0 +1,1264 @@
+{
+  "_doc": "Launch original GA sectional — Economy & Schemes. Stable syllabus facts, no competitor question text copied.",
+  "slug": "sectional-economy-schemes-01",
+  "title_en": "Economy & Schemes — Sectional",
+  "title_hi": "Economy & Schemes — Sectional",
+  "total_minutes": 25,
+  "section": {
+    "title_en": "Economy & Schemes",
+    "title_hi": "Economy & Schemes",
+    "subject_hint": "ga"
+  },
+  "questions": [
+    {
+      "id": "gaeco-01",
+      "stem_en": "GDP stands for:",
+      "stem_hi": "GDP का full form क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "basic-economy"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Gross Domestic Product",
+          "text_hi": "Gross Domestic Product",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "General Domestic Price",
+          "text_hi": "General Domestic Price",
+          "is_correct": false,
+          "trap_reason_en": "Confuses General Domestic Price with Gross Domestic Product; the clue in this question points specifically to Gross Domestic Product.",
+          "trap_reason_hi": "General Domestic Price को Gross Domestic Product समझ लिया। इस question की clue specifically Gross Domestic Product की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Gross Debt Product",
+          "text_hi": "Gross Debt Product",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Gross Debt Product with Gross Domestic Product; the clue in this question points specifically to Gross Domestic Product.",
+          "trap_reason_hi": "Gross Debt Product को Gross Domestic Product समझ लिया। इस question की clue specifically Gross Domestic Product की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Government Deposit Plan",
+          "text_hi": "Government Deposit Plan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Government Deposit Plan with Gross Domestic Product; the clue in this question points specifically to Gross Domestic Product.",
+          "trap_reason_hi": "Government Deposit Plan को Gross Domestic Product समझ लिया। इस question की clue specifically Gross Domestic Product की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: GDP means Gross Domestic Product. Therefore, answer = Gross Domestic Product.",
+      "explanation_concept_en": "GDP means Gross Domestic Product. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Gross Domestic Product.",
+      "explanation_method_hi": "Keyword याद रखें: GDP का अर्थ Gross Domestic Product है। अतः answer = Gross Domestic Product।",
+      "explanation_concept_hi": "GDP का अर्थ Gross Domestic Product है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Gross Domestic Product है।"
+    },
+    {
+      "id": "gaeco-02",
+      "stem_en": "India's central bank is the:",
+      "stem_hi": "India का central bank कौन-सा है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "banking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "State Bank of India",
+          "text_hi": "State Bank of India",
+          "is_correct": false,
+          "trap_reason_en": "Confuses State Bank of India with Reserve Bank of India; the clue in this question points specifically to Reserve Bank of India.",
+          "trap_reason_hi": "State Bank of India को Reserve Bank of India समझ लिया। इस question की clue specifically Reserve Bank of India की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Reserve Bank of India",
+          "text_hi": "Reserve Bank of India",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "NABARD",
+          "text_hi": "NABARD",
+          "is_correct": false,
+          "trap_reason_en": "Confuses NABARD with Reserve Bank of India; the clue in this question points specifically to Reserve Bank of India.",
+          "trap_reason_hi": "NABARD को Reserve Bank of India समझ लिया। इस question की clue specifically Reserve Bank of India की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "SEBI",
+          "text_hi": "SEBI",
+          "is_correct": false,
+          "trap_reason_en": "Confuses SEBI with Reserve Bank of India; the clue in this question points specifically to Reserve Bank of India.",
+          "trap_reason_hi": "SEBI को Reserve Bank of India समझ लिया। इस question की clue specifically Reserve Bank of India की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: RBI is India's central bank. Therefore, answer = Reserve Bank of India.",
+      "explanation_concept_en": "RBI is India's central bank. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Reserve Bank of India.",
+      "explanation_method_hi": "Keyword याद रखें: RBI India का central bank है। अतः answer = Reserve Bank of India।",
+      "explanation_concept_hi": "RBI India का central bank है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Reserve Bank of India है।"
+    },
+    {
+      "id": "gaeco-03",
+      "stem_en": "A fiscal deficit broadly means:",
+      "stem_hi": "Fiscal deficit broadly किसे कहते हैं?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "public-finance"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "exports exceed imports",
+          "text_hi": "exports exceed imports",
+          "is_correct": false,
+          "trap_reason_en": "Confuses exports exceed imports with government expenditure exceeds receipts excluding borrowings; the clue in this question points specifically to government expenditure exceeds receipts excluding borrowings.",
+          "trap_reason_hi": "exports exceed imports को government expenditure exceeds receipts excluding borrowings समझ लिया। इस question की clue specifically government expenditure exceeds receipts excluding borrowings की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "prices fall continuously",
+          "text_hi": "prices fall continuously",
+          "is_correct": false,
+          "trap_reason_en": "Confuses prices fall continuously with government expenditure exceeds receipts excluding borrowings; the clue in this question points specifically to government expenditure exceeds receipts excluding borrowings.",
+          "trap_reason_hi": "prices fall continuously को government expenditure exceeds receipts excluding borrowings समझ लिया। इस question की clue specifically government expenditure exceeds receipts excluding borrowings की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "government expenditure exceeds receipts excluding borrowings",
+          "text_hi": "government expenditure exceeds receipts excluding borrowings",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "bank deposits double",
+          "text_hi": "bank deposits double",
+          "is_correct": false,
+          "trap_reason_en": "Confuses bank deposits double with government expenditure exceeds receipts excluding borrowings; the clue in this question points specifically to government expenditure exceeds receipts excluding borrowings.",
+          "trap_reason_hi": "bank deposits double को government expenditure exceeds receipts excluding borrowings समझ लिया। इस question की clue specifically government expenditure exceeds receipts excluding borrowings की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Fiscal deficit is the gap funded by borrowings. Therefore, answer = government expenditure exceeds receipts excluding borrowings.",
+      "explanation_concept_en": "Fiscal deficit is the gap funded by borrowings. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is government expenditure exceeds receipts excluding borrowings.",
+      "explanation_method_hi": "Keyword याद रखें: Fiscal deficit वह gap है जिसे borrowing से fund किया जाता है। अतः answer = government expenditure exceeds receipts excluding borrowings।",
+      "explanation_concept_hi": "Fiscal deficit वह gap है जिसे borrowing से fund किया जाता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer government expenditure exceeds receipts excluding borrowings है।"
+    },
+    {
+      "id": "gaeco-04",
+      "stem_en": "Repo rate is the rate at which:",
+      "stem_hi": "Repo rate वह rate है जिस पर:",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "banking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "banks lend to RBI only",
+          "text_hi": "banks lend to RBI only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses banks lend to RBI only with RBI lends to banks; the clue in this question points specifically to RBI lends to banks.",
+          "trap_reason_hi": "banks lend to RBI only को RBI lends to banks समझ लिया। इस question की clue specifically RBI lends to banks की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "SEBI lists shares",
+          "text_hi": "SEBI lists shares",
+          "is_correct": false,
+          "trap_reason_en": "Confuses SEBI lists shares with RBI lends to banks; the clue in this question points specifically to RBI lends to banks.",
+          "trap_reason_hi": "SEBI lists shares को RBI lends to banks समझ लिया। इस question की clue specifically RBI lends to banks की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "government pays salary",
+          "text_hi": "government pays salary",
+          "is_correct": false,
+          "trap_reason_en": "Confuses government pays salary with RBI lends to banks; the clue in this question points specifically to RBI lends to banks.",
+          "trap_reason_hi": "government pays salary को RBI lends to banks समझ लिया। इस question की clue specifically RBI lends to banks की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "RBI lends to banks",
+          "text_hi": "RBI lends to banks",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Repo rate is RBI's short-term lending rate to banks. Therefore, answer = RBI lends to banks.",
+      "explanation_concept_en": "Repo rate is RBI's short-term lending rate to banks. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is RBI lends to banks.",
+      "explanation_method_hi": "Keyword याद रखें: Repo rate RBI का banks को lending rate है। अतः answer = RBI lends to banks।",
+      "explanation_concept_hi": "Repo rate RBI का banks को lending rate है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer RBI lends to banks है।"
+    },
+    {
+      "id": "gaeco-05",
+      "stem_en": "CRR stands for:",
+      "stem_hi": "CRR का full form क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "banking"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Cash Reserve Ratio",
+          "text_hi": "Cash Reserve Ratio",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "Current Repo Rate",
+          "text_hi": "Current Repo Rate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Current Repo Rate with Cash Reserve Ratio; the clue in this question points specifically to Cash Reserve Ratio.",
+          "trap_reason_hi": "Current Repo Rate को Cash Reserve Ratio समझ लिया। इस question की clue specifically Cash Reserve Ratio की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Credit Relief Rule",
+          "text_hi": "Credit Relief Rule",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Credit Relief Rule with Cash Reserve Ratio; the clue in this question points specifically to Cash Reserve Ratio.",
+          "trap_reason_hi": "Credit Relief Rule को Cash Reserve Ratio समझ लिया। इस question की clue specifically Cash Reserve Ratio की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Capital Receipt Register",
+          "text_hi": "Capital Receipt Register",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Capital Receipt Register with Cash Reserve Ratio; the clue in this question points specifically to Cash Reserve Ratio.",
+          "trap_reason_hi": "Capital Receipt Register को Cash Reserve Ratio समझ लिया। इस question की clue specifically Cash Reserve Ratio की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: CRR means Cash Reserve Ratio. Therefore, answer = Cash Reserve Ratio.",
+      "explanation_concept_en": "CRR means Cash Reserve Ratio. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Cash Reserve Ratio.",
+      "explanation_method_hi": "Keyword याद रखें: CRR का अर्थ Cash Reserve Ratio है। अतः answer = Cash Reserve Ratio।",
+      "explanation_concept_hi": "CRR का अर्थ Cash Reserve Ratio है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Cash Reserve Ratio है।"
+    },
+    {
+      "id": "gaeco-06",
+      "stem_en": "Inflation means:",
+      "stem_hi": "Inflation का मतलब क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "inflation"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "fall in population",
+          "text_hi": "fall in population",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fall in population with rise in general price level; the clue in this question points specifically to rise in general price level.",
+          "trap_reason_hi": "fall in population को rise in general price level समझ लिया। इस question की clue specifically rise in general price level की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "rise in general price level",
+          "text_hi": "rise in general price level",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "fixed bank rate",
+          "text_hi": "fixed bank rate",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fixed bank rate with rise in general price level; the clue in this question points specifically to rise in general price level.",
+          "trap_reason_hi": "fixed bank rate को rise in general price level समझ लिया। इस question की clue specifically rise in general price level की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "increase in rainfall",
+          "text_hi": "increase in rainfall",
+          "is_correct": false,
+          "trap_reason_en": "Confuses increase in rainfall with rise in general price level; the clue in this question points specifically to rise in general price level.",
+          "trap_reason_hi": "increase in rainfall को rise in general price level समझ लिया। इस question की clue specifically rise in general price level की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Inflation is a sustained rise in general prices. Therefore, answer = rise in general price level.",
+      "explanation_concept_en": "Inflation is a sustained rise in general prices. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is rise in general price level.",
+      "explanation_method_hi": "Keyword याद रखें: Inflation general price level में rise है। अतः answer = rise in general price level।",
+      "explanation_concept_hi": "Inflation general price level में rise है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer rise in general price level है।"
+    },
+    {
+      "id": "gaeco-07",
+      "stem_en": "MGNREGA is mainly linked with:",
+      "stem_hi": "MGNREGA mainly किससे linked है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "space research",
+          "text_hi": "space research",
+          "is_correct": false,
+          "trap_reason_en": "Confuses space research with rural wage employment; the clue in this question points specifically to rural wage employment.",
+          "trap_reason_hi": "space research को rural wage employment समझ लिया। इस question की clue specifically rural wage employment की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "urban metro only",
+          "text_hi": "urban metro only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses urban metro only with rural wage employment; the clue in this question points specifically to rural wage employment.",
+          "trap_reason_hi": "urban metro only को rural wage employment समझ लिया। इस question की clue specifically rural wage employment की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "rural wage employment",
+          "text_hi": "rural wage employment",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "stock trading",
+          "text_hi": "stock trading",
+          "is_correct": false,
+          "trap_reason_en": "Confuses stock trading with rural wage employment; the clue in this question points specifically to rural wage employment.",
+          "trap_reason_hi": "stock trading को rural wage employment समझ लिया। इस question की clue specifically rural wage employment की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: MGNREGA provides rural wage employment guarantee. Therefore, answer = rural wage employment.",
+      "explanation_concept_en": "MGNREGA provides rural wage employment guarantee. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is rural wage employment.",
+      "explanation_method_hi": "Keyword याद रखें: MGNREGA rural wage employment guarantee से linked है। अतः answer = rural wage employment।",
+      "explanation_concept_hi": "MGNREGA rural wage employment guarantee से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer rural wage employment है।"
+    },
+    {
+      "id": "gaeco-08",
+      "stem_en": "Pradhan Mantri Jan Dhan Yojana focuses on:",
+      "stem_hi": "PM Jan Dhan Yojana का focus क्या है?",
+      "difficulty": "EASY",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rocket launch",
+          "text_hi": "rocket launch",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rocket launch with financial inclusion; the clue in this question points specifically to financial inclusion.",
+          "trap_reason_hi": "rocket launch को financial inclusion समझ लिया। इस question की clue specifically financial inclusion की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "soil testing only",
+          "text_hi": "soil testing only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses soil testing only with financial inclusion; the clue in this question points specifically to financial inclusion.",
+          "trap_reason_hi": "soil testing only को financial inclusion समझ लिया। इस question की clue specifically financial inclusion की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "rail electrification",
+          "text_hi": "rail electrification",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail electrification with financial inclusion; the clue in this question points specifically to financial inclusion.",
+          "trap_reason_hi": "rail electrification को financial inclusion समझ लिया। इस question की clue specifically financial inclusion की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "financial inclusion",
+          "text_hi": "financial inclusion",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: PMJDY focuses on financial inclusion through bank accounts. Therefore, answer = financial inclusion.",
+      "explanation_concept_en": "PMJDY focuses on financial inclusion through bank accounts. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is financial inclusion.",
+      "explanation_method_hi": "Keyword याद रखें: PMJDY bank accounts के through financial inclusion पर focus करती है। अतः answer = financial inclusion।",
+      "explanation_concept_hi": "PMJDY bank accounts के through financial inclusion पर focus करती है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer financial inclusion है।"
+    },
+    {
+      "id": "gaeco-09",
+      "stem_en": "Pradhan Mantri Ujjwala Yojana is linked with:",
+      "stem_hi": "PM Ujjwala Yojana किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "LPG connections",
+          "text_hi": "LPG connections",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "crop insurance",
+          "text_hi": "crop insurance",
+          "is_correct": false,
+          "trap_reason_en": "Confuses crop insurance with LPG connections; the clue in this question points specifically to LPG connections.",
+          "trap_reason_hi": "crop insurance को LPG connections समझ लिया। इस question की clue specifically LPG connections की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "digital payments only",
+          "text_hi": "digital payments only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses digital payments only with LPG connections; the clue in this question points specifically to LPG connections.",
+          "trap_reason_hi": "digital payments only को LPG connections समझ लिया। इस question की clue specifically LPG connections की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "metro rail",
+          "text_hi": "metro rail",
+          "is_correct": false,
+          "trap_reason_en": "Confuses metro rail with LPG connections; the clue in this question points specifically to LPG connections.",
+          "trap_reason_hi": "metro rail को LPG connections समझ लिया। इस question की clue specifically LPG connections की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ujjwala is linked with LPG connections. Therefore, answer = LPG connections.",
+      "explanation_concept_en": "Ujjwala is linked with LPG connections. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is LPG connections.",
+      "explanation_method_hi": "Keyword याद रखें: Ujjwala LPG connections से linked है। अतः answer = LPG connections।",
+      "explanation_concept_hi": "Ujjwala LPG connections से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer LPG connections है।"
+    },
+    {
+      "id": "gaeco-10",
+      "stem_en": "Ayushman Bharat is mainly a:",
+      "stem_hi": "Ayushman Bharat mainly क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rail freight policy",
+          "text_hi": "rail freight policy",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail freight policy with health protection scheme; the clue in this question points specifically to health protection scheme.",
+          "trap_reason_hi": "rail freight policy को health protection scheme समझ लिया। इस question की clue specifically health protection scheme की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "health protection scheme",
+          "text_hi": "health protection scheme",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "space mission",
+          "text_hi": "space mission",
+          "is_correct": false,
+          "trap_reason_en": "Confuses space mission with health protection scheme; the clue in this question points specifically to health protection scheme.",
+          "trap_reason_hi": "space mission को health protection scheme समझ लिया। इस question की clue specifically health protection scheme की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "defence exercise",
+          "text_hi": "defence exercise",
+          "is_correct": false,
+          "trap_reason_en": "Confuses defence exercise with health protection scheme; the clue in this question points specifically to health protection scheme.",
+          "trap_reason_hi": "defence exercise को health protection scheme समझ लिया। इस question की clue specifically health protection scheme की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Ayushman Bharat is a health protection programme. Therefore, answer = health protection scheme.",
+      "explanation_concept_en": "Ayushman Bharat is a health protection programme. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is health protection scheme.",
+      "explanation_method_hi": "Keyword याद रखें: Ayushman Bharat health protection programme है। अतः answer = health protection scheme।",
+      "explanation_concept_hi": "Ayushman Bharat health protection programme है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer health protection scheme है।"
+    },
+    {
+      "id": "gaeco-11",
+      "stem_en": "PM-KISAN provides:",
+      "stem_hi": "PM-KISAN क्या provide करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "free rail tickets",
+          "text_hi": "free rail tickets",
+          "is_correct": false,
+          "trap_reason_en": "Confuses free rail tickets with income support to farmers; the clue in this question points specifically to income support to farmers.",
+          "trap_reason_hi": "free rail tickets को income support to farmers समझ लिया। इस question की clue specifically income support to farmers की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "urban housing tax",
+          "text_hi": "urban housing tax",
+          "is_correct": false,
+          "trap_reason_en": "Confuses urban housing tax with income support to farmers; the clue in this question points specifically to income support to farmers.",
+          "trap_reason_hi": "urban housing tax को income support to farmers समझ लिया। इस question की clue specifically income support to farmers की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "income support to farmers",
+          "text_hi": "income support to farmers",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "defence pension only",
+          "text_hi": "defence pension only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses defence pension only with income support to farmers; the clue in this question points specifically to income support to farmers.",
+          "trap_reason_hi": "defence pension only को income support to farmers समझ लिया। इस question की clue specifically income support to farmers की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: PM-KISAN provides income support to eligible farmers. Therefore, answer = income support to farmers.",
+      "explanation_concept_en": "PM-KISAN provides income support to eligible farmers. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is income support to farmers.",
+      "explanation_method_hi": "Keyword याद रखें: PM-KISAN eligible farmers को income support देता है। अतः answer = income support to farmers।",
+      "explanation_concept_hi": "PM-KISAN eligible farmers को income support देता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer income support to farmers है।"
+    },
+    {
+      "id": "gaeco-12",
+      "stem_en": "GST is a:",
+      "stem_hi": "GST किस type का tax है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "taxation"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "direct tax",
+          "text_hi": "direct tax",
+          "is_correct": false,
+          "trap_reason_en": "Confuses direct tax with indirect tax; the clue in this question points specifically to indirect tax.",
+          "trap_reason_hi": "direct tax को indirect tax समझ लिया। इस question की clue specifically indirect tax की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "wealth title",
+          "text_hi": "wealth title",
+          "is_correct": false,
+          "trap_reason_en": "Confuses wealth title with indirect tax; the clue in this question points specifically to indirect tax.",
+          "trap_reason_hi": "wealth title को indirect tax समझ लिया। इस question की clue specifically indirect tax की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "bank deposit",
+          "text_hi": "bank deposit",
+          "is_correct": false,
+          "trap_reason_en": "Confuses bank deposit with indirect tax; the clue in this question points specifically to indirect tax.",
+          "trap_reason_hi": "bank deposit को indirect tax समझ लिया। इस question की clue specifically indirect tax की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "indirect tax",
+          "text_hi": "indirect tax",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: GST is an indirect tax on supply of goods and services. Therefore, answer = indirect tax.",
+      "explanation_concept_en": "GST is an indirect tax on supply of goods and services. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is indirect tax.",
+      "explanation_method_hi": "Keyword याद रखें: GST goods/services supply पर indirect tax है। अतः answer = indirect tax।",
+      "explanation_concept_hi": "GST goods/services supply पर indirect tax है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer indirect tax है।"
+    },
+    {
+      "id": "gaeco-13",
+      "stem_en": "Income tax is a:",
+      "stem_hi": "Income tax किस type का tax है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "taxation"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "direct tax",
+          "text_hi": "direct tax",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "indirect tax",
+          "text_hi": "indirect tax",
+          "is_correct": false,
+          "trap_reason_en": "Confuses indirect tax with direct tax; the clue in this question points specifically to direct tax.",
+          "trap_reason_hi": "indirect tax को direct tax समझ लिया। इस question की clue specifically direct tax की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "customs duty only",
+          "text_hi": "customs duty only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses customs duty only with direct tax; the clue in this question points specifically to direct tax.",
+          "trap_reason_hi": "customs duty only को direct tax समझ लिया। इस question की clue specifically direct tax की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "cess on goods only",
+          "text_hi": "cess on goods only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cess on goods only with direct tax; the clue in this question points specifically to direct tax.",
+          "trap_reason_hi": "cess on goods only को direct tax समझ लिया। इस question की clue specifically direct tax की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Income tax is paid directly on income. Therefore, answer = direct tax.",
+      "explanation_concept_en": "Income tax is paid directly on income. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is direct tax.",
+      "explanation_method_hi": "Keyword याद रखें: Income tax income पर direct tax है। अतः answer = direct tax।",
+      "explanation_concept_hi": "Income tax income पर direct tax है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer direct tax है।"
+    },
+    {
+      "id": "gaeco-14",
+      "stem_en": "NITI Aayog replaced the:",
+      "stem_hi": "NITI Aayog ने किस institution को replace किया?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "institutions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Election Commission",
+          "text_hi": "Election Commission",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Election Commission with Planning Commission; the clue in this question points specifically to Planning Commission.",
+          "trap_reason_hi": "Election Commission को Planning Commission समझ लिया। इस question की clue specifically Planning Commission की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Planning Commission",
+          "text_hi": "Planning Commission",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Finance Commission",
+          "text_hi": "Finance Commission",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Finance Commission with Planning Commission; the clue in this question points specifically to Planning Commission.",
+          "trap_reason_hi": "Finance Commission को Planning Commission समझ लिया। इस question की clue specifically Planning Commission की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Railway Board",
+          "text_hi": "Railway Board",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Railway Board with Planning Commission; the clue in this question points specifically to Planning Commission.",
+          "trap_reason_hi": "Railway Board को Planning Commission समझ लिया। इस question की clue specifically Planning Commission की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: NITI Aayog replaced the Planning Commission. Therefore, answer = Planning Commission.",
+      "explanation_concept_en": "NITI Aayog replaced the Planning Commission. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Planning Commission.",
+      "explanation_method_hi": "Keyword याद रखें: NITI Aayog ने Planning Commission को replace किया। अतः answer = Planning Commission।",
+      "explanation_concept_hi": "NITI Aayog ने Planning Commission को replace किया। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Planning Commission है।"
+    },
+    {
+      "id": "gaeco-15",
+      "stem_en": "NABARD is mainly associated with:",
+      "stem_hi": "NABARD mainly किससे associated है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "institutions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "stock exchanges",
+          "text_hi": "stock exchanges",
+          "is_correct": false,
+          "trap_reason_en": "Confuses stock exchanges with agriculture and rural development; the clue in this question points specifically to agriculture and rural development.",
+          "trap_reason_hi": "stock exchanges को agriculture and rural development समझ लिया। इस question की clue specifically agriculture and rural development की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "space missions",
+          "text_hi": "space missions",
+          "is_correct": false,
+          "trap_reason_en": "Confuses space missions with agriculture and rural development; the clue in this question points specifically to agriculture and rural development.",
+          "trap_reason_hi": "space missions को agriculture and rural development समझ लिया। इस question की clue specifically agriculture and rural development की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "agriculture and rural development",
+          "text_hi": "agriculture and rural development",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "supreme court",
+          "text_hi": "supreme court",
+          "is_correct": false,
+          "trap_reason_en": "Confuses supreme court with agriculture and rural development; the clue in this question points specifically to agriculture and rural development.",
+          "trap_reason_hi": "supreme court को agriculture and rural development समझ लिया। इस question की clue specifically agriculture and rural development की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: NABARD supports agriculture and rural development finance. Therefore, answer = agriculture and rural development.",
+      "explanation_concept_en": "NABARD supports agriculture and rural development finance. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is agriculture and rural development.",
+      "explanation_method_hi": "Keyword याद रखें: NABARD agriculture और rural development finance से linked है। अतः answer = agriculture and rural development।",
+      "explanation_concept_hi": "NABARD agriculture और rural development finance से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer agriculture and rural development है।"
+    },
+    {
+      "id": "gaeco-16",
+      "stem_en": "SEBI regulates the:",
+      "stem_hi": "SEBI किस market को regulate करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "institutions"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "weather department",
+          "text_hi": "weather department",
+          "is_correct": false,
+          "trap_reason_en": "Confuses weather department with securities market; the clue in this question points specifically to securities market.",
+          "trap_reason_hi": "weather department को securities market समझ लिया। इस question की clue specifically securities market की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "railway recruitment",
+          "text_hi": "railway recruitment",
+          "is_correct": false,
+          "trap_reason_en": "Confuses railway recruitment with securities market; the clue in this question points specifically to securities market.",
+          "trap_reason_hi": "railway recruitment को securities market समझ लिया। इस question की clue specifically securities market की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "school boards",
+          "text_hi": "school boards",
+          "is_correct": false,
+          "trap_reason_en": "Confuses school boards with securities market; the clue in this question points specifically to securities market.",
+          "trap_reason_hi": "school boards को securities market समझ लिया। इस question की clue specifically securities market की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "securities market",
+          "text_hi": "securities market",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: SEBI regulates India's securities market. Therefore, answer = securities market.",
+      "explanation_concept_en": "SEBI regulates India's securities market. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is securities market.",
+      "explanation_method_hi": "Keyword याद रखें: SEBI securities market regulate करता है। अतः answer = securities market।",
+      "explanation_concept_hi": "SEBI securities market regulate करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer securities market है।"
+    },
+    {
+      "id": "gaeco-17",
+      "stem_en": "Balance of Payments records:",
+      "stem_hi": "Balance of Payments क्या record करता है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "external-sector"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "transactions with the rest of the world",
+          "text_hi": "transactions with the rest of the world",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "only railway tickets",
+          "text_hi": "only railway tickets",
+          "is_correct": false,
+          "trap_reason_en": "Confuses only railway tickets with transactions with the rest of the world; the clue in this question points specifically to transactions with the rest of the world.",
+          "trap_reason_hi": "only railway tickets को transactions with the rest of the world समझ लिया। इस question की clue specifically transactions with the rest of the world की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "only rainfall",
+          "text_hi": "only rainfall",
+          "is_correct": false,
+          "trap_reason_en": "Confuses only rainfall with transactions with the rest of the world; the clue in this question points specifically to transactions with the rest of the world.",
+          "trap_reason_hi": "only rainfall को transactions with the rest of the world समझ लिया। इस question की clue specifically transactions with the rest of the world की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "only school results",
+          "text_hi": "only school results",
+          "is_correct": false,
+          "trap_reason_en": "Confuses only school results with transactions with the rest of the world; the clue in this question points specifically to transactions with the rest of the world.",
+          "trap_reason_hi": "only school results को transactions with the rest of the world समझ लिया। इस question की clue specifically transactions with the rest of the world की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: BoP records economic transactions with the rest of the world. Therefore, answer = transactions with the rest of the world.",
+      "explanation_concept_en": "BoP records economic transactions with the rest of the world. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is transactions with the rest of the world.",
+      "explanation_method_hi": "Keyword याद रखें: BoP rest of the world के साथ economic transactions record करता है। अतः answer = transactions with the rest of the world।",
+      "explanation_concept_hi": "BoP rest of the world के साथ economic transactions record करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer transactions with the rest of the world है।"
+    },
+    {
+      "id": "gaeco-18",
+      "stem_en": "MSP stands for:",
+      "stem_hi": "MSP का full form क्या है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Maximum Selling Price",
+          "text_hi": "Maximum Selling Price",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Maximum Selling Price with Minimum Support Price; the clue in this question points specifically to Minimum Support Price.",
+          "trap_reason_hi": "Maximum Selling Price को Minimum Support Price समझ लिया। इस question की clue specifically Minimum Support Price की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Minimum Support Price",
+          "text_hi": "Minimum Support Price",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "Monthly Salary Plan",
+          "text_hi": "Monthly Salary Plan",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Monthly Salary Plan with Minimum Support Price; the clue in this question points specifically to Minimum Support Price.",
+          "trap_reason_hi": "Monthly Salary Plan को Minimum Support Price समझ लिया। इस question की clue specifically Minimum Support Price की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Market Share Policy",
+          "text_hi": "Market Share Policy",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Market Share Policy with Minimum Support Price; the clue in this question points specifically to Minimum Support Price.",
+          "trap_reason_hi": "Market Share Policy को Minimum Support Price समझ लिया। इस question की clue specifically Minimum Support Price की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: MSP means Minimum Support Price. Therefore, answer = Minimum Support Price.",
+      "explanation_concept_en": "MSP means Minimum Support Price. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Minimum Support Price.",
+      "explanation_method_hi": "Keyword याद रखें: MSP का अर्थ Minimum Support Price है। अतः answer = Minimum Support Price।",
+      "explanation_concept_hi": "MSP का अर्थ Minimum Support Price है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Minimum Support Price है।"
+    },
+    {
+      "id": "gaeco-19",
+      "stem_en": "The Green Revolution is linked mainly with:",
+      "stem_hi": "Green Revolution mainly किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "milk",
+          "text_hi": "milk",
+          "is_correct": false,
+          "trap_reason_en": "Confuses milk with food grains; the clue in this question points specifically to food grains.",
+          "trap_reason_hi": "milk को food grains समझ लिया। इस question की clue specifically food grains की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "fish",
+          "text_hi": "fish",
+          "is_correct": false,
+          "trap_reason_en": "Confuses fish with food grains; the clue in this question points specifically to food grains.",
+          "trap_reason_hi": "fish को food grains समझ लिया। इस question की clue specifically food grains की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "food grains",
+          "text_hi": "food grains",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "oil and gas",
+          "text_hi": "oil and gas",
+          "is_correct": false,
+          "trap_reason_en": "Confuses oil and gas with food grains; the clue in this question points specifically to food grains.",
+          "trap_reason_hi": "oil and gas को food grains समझ लिया। इस question की clue specifically food grains की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Green Revolution raised food grain production. Therefore, answer = food grains.",
+      "explanation_concept_en": "The Green Revolution raised food grain production. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is food grains.",
+      "explanation_method_hi": "Keyword याद रखें: Green Revolution food grain production से linked है। अतः answer = food grains।",
+      "explanation_concept_hi": "Green Revolution food grain production से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer food grains है।"
+    },
+    {
+      "id": "gaeco-20",
+      "stem_en": "The White Revolution is linked mainly with:",
+      "stem_hi": "White Revolution mainly किससे linked है?",
+      "difficulty": "MEDIUM",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "coal",
+          "text_hi": "coal",
+          "is_correct": false,
+          "trap_reason_en": "Confuses coal with milk; the clue in this question points specifically to milk.",
+          "trap_reason_hi": "coal को milk समझ लिया। इस question की clue specifically milk की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "cotton",
+          "text_hi": "cotton",
+          "is_correct": false,
+          "trap_reason_en": "Confuses cotton with milk; the clue in this question points specifically to milk.",
+          "trap_reason_hi": "cotton को milk समझ लिया। इस question की clue specifically milk की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "jute",
+          "text_hi": "jute",
+          "is_correct": false,
+          "trap_reason_en": "Confuses jute with milk; the clue in this question points specifically to milk.",
+          "trap_reason_hi": "jute को milk समझ लिया। इस question की clue specifically milk की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "milk",
+          "text_hi": "milk",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: White Revolution is linked to milk production. Therefore, answer = milk.",
+      "explanation_concept_en": "White Revolution is linked to milk production. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is milk.",
+      "explanation_method_hi": "Keyword याद रखें: White Revolution milk production से linked है। अतः answer = milk।",
+      "explanation_concept_hi": "White Revolution milk production से linked है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer milk है।"
+    },
+    {
+      "id": "gaeco-21",
+      "stem_en": "The Blue Revolution is linked mainly with:",
+      "stem_hi": "Blue Revolution mainly किससे linked है?",
+      "difficulty": "HARD",
+      "tags": [
+        "economy",
+        "agriculture"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "fish production",
+          "text_hi": "fish production",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "wheat production",
+          "text_hi": "wheat production",
+          "is_correct": false,
+          "trap_reason_en": "Confuses wheat production with fish production; the clue in this question points specifically to fish production.",
+          "trap_reason_hi": "wheat production को fish production समझ लिया। इस question की clue specifically fish production की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "steel production",
+          "text_hi": "steel production",
+          "is_correct": false,
+          "trap_reason_en": "Confuses steel production with fish production; the clue in this question points specifically to fish production.",
+          "trap_reason_hi": "steel production को fish production समझ लिया। इस question की clue specifically fish production की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "textiles",
+          "text_hi": "textiles",
+          "is_correct": false,
+          "trap_reason_en": "Confuses textiles with fish production; the clue in this question points specifically to fish production.",
+          "trap_reason_hi": "textiles को fish production समझ लिया। इस question की clue specifically fish production की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Blue Revolution relates to fisheries. Therefore, answer = fish production.",
+      "explanation_concept_en": "Blue Revolution relates to fisheries. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is fish production.",
+      "explanation_method_hi": "Keyword याद रखें: Blue Revolution fisheries से related है। अतः answer = fish production।",
+      "explanation_concept_hi": "Blue Revolution fisheries से related है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer fish production है।"
+    },
+    {
+      "id": "gaeco-22",
+      "stem_en": "HDI is published by:",
+      "stem_hi": "HDI किस organization द्वारा publish होता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "economy",
+        "human-development"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "RBI",
+          "text_hi": "RBI",
+          "is_correct": false,
+          "trap_reason_en": "Confuses RBI with UNDP; the clue in this question points specifically to UNDP.",
+          "trap_reason_hi": "RBI को UNDP समझ लिया। इस question की clue specifically UNDP की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "UNDP",
+          "text_hi": "UNDP",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "C",
+          "text_en": "SEBI",
+          "text_hi": "SEBI",
+          "is_correct": false,
+          "trap_reason_en": "Confuses SEBI with UNDP; the clue in this question points specifically to UNDP.",
+          "trap_reason_hi": "SEBI को UNDP समझ लिया। इस question की clue specifically UNDP की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "ISRO",
+          "text_hi": "ISRO",
+          "is_correct": false,
+          "trap_reason_en": "Confuses ISRO with UNDP; the clue in this question points specifically to UNDP.",
+          "trap_reason_hi": "ISRO को UNDP समझ लिया। इस question की clue specifically UNDP की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: The Human Development Index is associated with UNDP. Therefore, answer = UNDP.",
+      "explanation_concept_en": "The Human Development Index is associated with UNDP. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is UNDP.",
+      "explanation_method_hi": "Keyword याद रखें: Human Development Index UNDP से associated है। अतः answer = UNDP।",
+      "explanation_concept_hi": "Human Development Index UNDP से associated है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer UNDP है।"
+    },
+    {
+      "id": "gaeco-23",
+      "stem_en": "CPI is commonly used to track:",
+      "stem_hi": "CPI commonly किसे track करता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "economy",
+        "inflation"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "rainfall",
+          "text_hi": "rainfall",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rainfall with retail inflation; the clue in this question points specifically to retail inflation.",
+          "trap_reason_hi": "rainfall को retail inflation समझ लिया। इस question की clue specifically retail inflation की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "rail speed",
+          "text_hi": "rail speed",
+          "is_correct": false,
+          "trap_reason_en": "Confuses rail speed with retail inflation; the clue in this question points specifically to retail inflation.",
+          "trap_reason_hi": "rail speed को retail inflation समझ लिया। इस question की clue specifically retail inflation की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "retail inflation",
+          "text_hi": "retail inflation",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "D",
+          "text_en": "forest cover only",
+          "text_hi": "forest cover only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses forest cover only with retail inflation; the clue in this question points specifically to retail inflation.",
+          "trap_reason_hi": "forest cover only को retail inflation समझ लिया। इस question की clue specifically retail inflation की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Consumer Price Index tracks retail inflation. Therefore, answer = retail inflation.",
+      "explanation_concept_en": "Consumer Price Index tracks retail inflation. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is retail inflation.",
+      "explanation_method_hi": "Keyword याद रखें: Consumer Price Index retail inflation track करता है। अतः answer = retail inflation।",
+      "explanation_concept_hi": "Consumer Price Index retail inflation track करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer retail inflation है।"
+    },
+    {
+      "id": "gaeco-24",
+      "stem_en": "FDI stands for:",
+      "stem_hi": "FDI का full form क्या है?",
+      "difficulty": "HARD",
+      "tags": [
+        "economy",
+        "external-sector"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "Fiscal Debt Index",
+          "text_hi": "Fiscal Debt Index",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Fiscal Debt Index with Foreign Direct Investment; the clue in this question points specifically to Foreign Direct Investment.",
+          "trap_reason_hi": "Fiscal Debt Index को Foreign Direct Investment समझ लिया। इस question की clue specifically Foreign Direct Investment की ओर जाती है।"
+        },
+        {
+          "label": "B",
+          "text_en": "Food Distribution Input",
+          "text_hi": "Food Distribution Input",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Food Distribution Input with Foreign Direct Investment; the clue in this question points specifically to Foreign Direct Investment.",
+          "trap_reason_hi": "Food Distribution Input को Foreign Direct Investment समझ लिया। इस question की clue specifically Foreign Direct Investment की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "Federal Deposit Insurance",
+          "text_hi": "Federal Deposit Insurance",
+          "is_correct": false,
+          "trap_reason_en": "Confuses Federal Deposit Insurance with Foreign Direct Investment; the clue in this question points specifically to Foreign Direct Investment.",
+          "trap_reason_hi": "Federal Deposit Insurance को Foreign Direct Investment समझ लिया। इस question की clue specifically Foreign Direct Investment की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "Foreign Direct Investment",
+          "text_hi": "Foreign Direct Investment",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: FDI means Foreign Direct Investment. Therefore, answer = Foreign Direct Investment.",
+      "explanation_concept_en": "FDI means Foreign Direct Investment. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is Foreign Direct Investment.",
+      "explanation_method_hi": "Keyword याद रखें: FDI का अर्थ Foreign Direct Investment है। अतः answer = Foreign Direct Investment।",
+      "explanation_concept_hi": "FDI का अर्थ Foreign Direct Investment है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer Foreign Direct Investment है।"
+    },
+    {
+      "id": "gaeco-25",
+      "stem_en": "Make in India mainly promotes:",
+      "stem_hi": "Make in India mainly किसे promote करता है?",
+      "difficulty": "HARD",
+      "tags": [
+        "economy",
+        "schemes"
+      ],
+      "source": "Original",
+      "license": "ORIGINAL",
+      "options": [
+        {
+          "label": "A",
+          "text_en": "manufacturing",
+          "text_hi": "manufacturing",
+          "is_correct": true,
+          "trap_reason_en": null,
+          "trap_reason_hi": null
+        },
+        {
+          "label": "B",
+          "text_en": "desert tourism only",
+          "text_hi": "desert tourism only",
+          "is_correct": false,
+          "trap_reason_en": "Confuses desert tourism only with manufacturing; the clue in this question points specifically to manufacturing.",
+          "trap_reason_hi": "desert tourism only को manufacturing समझ लिया। इस question की clue specifically manufacturing की ओर जाती है।"
+        },
+        {
+          "label": "C",
+          "text_en": "court procedure",
+          "text_hi": "court procedure",
+          "is_correct": false,
+          "trap_reason_en": "Confuses court procedure with manufacturing; the clue in this question points specifically to manufacturing.",
+          "trap_reason_hi": "court procedure को manufacturing समझ लिया। इस question की clue specifically manufacturing की ओर जाती है।"
+        },
+        {
+          "label": "D",
+          "text_en": "monsoon forecast",
+          "text_hi": "monsoon forecast",
+          "is_correct": false,
+          "trap_reason_en": "Confuses monsoon forecast with manufacturing; the clue in this question points specifically to manufacturing.",
+          "trap_reason_hi": "monsoon forecast को manufacturing समझ लिया। इस question की clue specifically manufacturing की ओर जाती है।"
+        }
+      ],
+      "explanation_method_en": "Recall the keyword: Make in India promotes manufacturing and investment. Therefore, answer = manufacturing.",
+      "explanation_concept_en": "Make in India promotes manufacturing and investment. In NTPC GA, link the exact clue in the stem to the fixed fact before eliminating distractors. Final answer is manufacturing.",
+      "explanation_method_hi": "Keyword याद रखें: Make in India manufacturing और investment promote करता है। अतः answer = manufacturing।",
+      "explanation_concept_hi": "Make in India manufacturing और investment promote करता है। NTPC GA में stem की exact clue को fixed fact से link करके distractors हटाते हैं। Final answer manufacturing है।"
+    }
+  ]
+}
