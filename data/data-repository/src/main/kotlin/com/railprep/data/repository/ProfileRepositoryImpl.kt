@@ -27,6 +27,9 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonElement
 import javax.inject.Inject
 import javax.inject.Singleton
 
@@ -139,6 +142,34 @@ class ProfileRepositoryImpl @Inject constructor(
                 },
             )
         }
+
+    override suspend fun exportMyData(): DomainResult<String> = withContext(dispatchers.io) {
+        runCatching {
+            val payload = supabase.postgrest.rpc("export_my_data")
+                .decodeAs<JsonElement>()
+            Json { prettyPrint = true }.encodeToString(payload)
+        }.fold(
+            onSuccess = { DomainResult.Success(it) },
+            onFailure = { t ->
+                DomainResult.Failure(DomainError.Network(t.message ?: "export failed", t))
+            },
+        )
+    }
+
+    override suspend fun deleteMyAccount(): DomainResult<Unit> = withContext(dispatchers.io) {
+        runCatching {
+            supabase.postgrest.rpc("delete_my_account")
+            supabase.auth.signOut()
+            cacheOnboardingComplete(false)
+            _cached.value = null
+            Unit
+        }.fold(
+            onSuccess = { DomainResult.Success(Unit) },
+            onFailure = { t ->
+                DomainResult.Failure(DomainError.Network(t.message ?: "delete failed", t))
+            },
+        )
+    }
 
     private suspend fun cacheOnboardingComplete(value: Boolean) {
         appContext.profileCachePrefs.edit { prefs ->

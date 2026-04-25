@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="paywall_title">RailPrep Pro</string>
+    <string name="paywall_headline">Unlock Pro test sets</string>
+    <string name="paywall_body">Your 7-day trial is granted on signup. After that, Pro unlocks paid sectionals and mocks through Google Play subscriptions.</string>
+    <string name="paywall_monthly">Monthly</string>
+    <string name="paywall_quarterly">Quarterly</string>
+    <string name="paywall_subscribe">Subscribe</string>
+    <string name="paywall_refresh">Refresh Play Billing</string>
+    <string name="paywall_owned">Subscription found. Server entitlement may take a moment to refresh.</string>
+    <string name="paywall_unavailable">Products are not available yet. Confirm the subscription products are active in Play Console for this app.</string>
+    <string name="paywall_cancelled">Purchase cancelled.</string>
+    <string name="paywall_billing_error">Google Play Billing is unavailable on this device right now.</string>
+    <string name="paywall_purchase_failed">Purchase did not complete.</string>
+</resources>

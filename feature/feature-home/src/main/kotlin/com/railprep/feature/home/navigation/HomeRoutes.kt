@@ -6,9 +6,11 @@ import androidx.navigation.compose.composable
 import androidx.navigation.toRoute
 import com.railprep.feature.home.HomeRootScreen
 import com.railprep.feature.home.profile.about.AboutScreen
+import com.railprep.feature.home.profile.account.AccountSettingsScreen
 import com.railprep.feature.home.profile.bookmarks.BookmarksScreen
 import com.railprep.feature.home.profile.diag.DiagScreen
 import com.railprep.feature.home.profile.edit.ProfileEditScreen
+import com.railprep.feature.home.profile.performance.PerformanceScreen
 import com.railprep.feature.home.profile.savedquestions.SavedQuestionDetailScreen
 import com.railprep.feature.home.profile.savedquestions.SavedQuestionsScreen
 import kotlinx.serialization.Serializable
@@ -19,6 +21,8 @@ sealed interface HomeRoute {
     @Serializable data object Bookmarks : HomeRoute
     @Serializable data object SavedQuestions : HomeRoute
     @Serializable data class SavedQuestionDetail(val questionId: String) : HomeRoute
+    @Serializable data object Performance : HomeRoute
+    @Serializable data object AccountSettings : HomeRoute
     @Serializable data object About : HomeRoute
     @Serializable data object Diag : HomeRoute
 }
@@ -33,12 +37,17 @@ fun NavGraphBuilder.homeGraph(
     onSignedOut: () -> Unit,
     onNavigateToLearn: () -> Unit,
     onNavigateToTopic: (topicId: String) -> Unit,
+    privacyPolicyUrl: String = "",
+    termsUrl: String = "",
+    supportEmail: String = "",
+    onOpenPro: () -> Unit = {},
     onNavigateToTestInstructions: (testId: String) -> Unit = {},
     onNavigateToPyqPaper: (testId: String) -> Unit = {},
     testsTabContent: @androidx.compose.runtime.Composable (
         onOpenInstructions: (String) -> Unit,
         onOpenPyqPaper: (String) -> Unit,
-    ) -> Unit = { _, _ -> },
+        onOpenPro: () -> Unit,
+    ) -> Unit = { _, _, _ -> },
     dailyHomeCard: @androidx.compose.runtime.Composable () -> Unit = {},
 ) {
     composable<HomeRoute.Home> {
@@ -47,6 +56,9 @@ fun NavGraphBuilder.homeGraph(
             onNavigateToLearn = onNavigateToLearn,
             onOpenBookmarks = { navController.navigate(HomeRoute.Bookmarks) },
             onOpenSavedQuestions = { navController.navigate(HomeRoute.SavedQuestions) },
+            onOpenPerformance = { navController.navigate(HomeRoute.Performance) },
+            onOpenAccountSettings = { navController.navigate(HomeRoute.AccountSettings) },
+            onOpenPro = onOpenPro,
             onOpenProfileEdit = { navController.navigate(HomeRoute.ProfileEdit) },
             onOpenAbout = { navController.navigate(HomeRoute.About) },
             onOpenDiag = { navController.navigate(HomeRoute.Diag) },
@@ -81,8 +93,25 @@ fun NavGraphBuilder.homeGraph(
             onRemoved = { navController.popBackStack() },
         )
     }
+    composable<HomeRoute.Performance> {
+        PerformanceScreen(
+            onBack = { navController.popBackStack() },
+            onOpenTopic = onNavigateToTopic,
+        )
+    }
+    composable<HomeRoute.AccountSettings> {
+        AccountSettingsScreen(
+            onBack = { navController.popBackStack() },
+            onDeleted = onSignedOut,
+        )
+    }
     composable<HomeRoute.About> {
-        AboutScreen(onBack = { navController.popBackStack() })
+        AboutScreen(
+            onBack = { navController.popBackStack() },
+            privacyPolicyUrl = privacyPolicyUrl,
+            termsUrl = termsUrl,
+            supportEmail = supportEmail,
+        )
     }
     composable<HomeRoute.Diag> {
         DiagScreen(onBack = { navController.popBackStack() })

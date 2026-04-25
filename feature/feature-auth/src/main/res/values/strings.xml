@@ -12,13 +12,13 @@
     <string name="language_coming_soon_badge">Coming soon</string>
 
     <!-- Onboarding -->
-    <string name="onboarding_slide1_title">Current affairs, updated daily</string>
-    <string name="onboarding_slide1_body">Railway news, national events, and PIB releases — curated for the NTPC syllabus.</string>
-    <string name="onboarding_slide2_title">Full CBT-pattern mock tests</string>
-    <string name="onboarding_slide2_body">Timed sections, negative marking, instant analytics — built like the real exam.</string>
-    <string name="onboarding_slide3_title">Study in Hindi or English</string>
-    <string name="onboarding_slide3_body">Switch languages anytime. Every lesson, every question, every notification.</string>
-    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_slide1_title">RRB NTPC practice that behaves like the exam</string>
+    <string name="onboarding_slide1_body">Sectionals, PYQ papers, timed tests, negative marking, and review explanations built for CBT-1 preparation.</string>
+    <string name="onboarding_slide2_title">Find weak topics fast</string>
+    <string name="onboarding_slide2_body">Results route you to matching primers, and Saved Questions keeps formulas and traps ready for revision.</string>
+    <string name="onboarding_slide3_title">Free trial, then Pro when you need depth</string>
+    <string name="onboarding_slide3_body">Start with a 7-day trial. Pro unlocks paid test sets at ₹79/month or ₹199/quarter through Google Play.</string>
+    <string name="onboarding_skip">Skip intro</string>
     <string name="onboarding_next">Next</string>
     <string name="onboarding_get_started">Get started</string>
 

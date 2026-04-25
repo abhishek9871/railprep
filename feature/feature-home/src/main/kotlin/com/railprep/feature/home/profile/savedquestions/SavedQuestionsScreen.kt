@@ -1,5 +1,7 @@
 package com.railprep.feature.home.profile.savedquestions
 
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -20,12 +22,17 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.BookmarkBorder
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -68,10 +75,34 @@ fun SavedQuestionsScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(stringResource(R.string.saved_questions_title)) },
+                title = {
+                    Text(
+                        if (state.selectionMode) {
+                            stringResource(R.string.saved_questions_selected_fmt, state.selectedQuestionIds.size)
+                        } else {
+                            stringResource(R.string.saved_questions_title)
+                        },
+                    )
+                },
                 navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null)
+                    IconButton(onClick = { if (state.selectionMode) viewModel.clearSelection() else onBack() }) {
+                        Icon(
+                            if (state.selectionMode) Icons.Filled.Close else Icons.AutoMirrored.Filled.ArrowBack,
+                            contentDescription = null,
+                        )
+                    }
+                },
+                actions = {
+                    if (state.selectionMode) {
+                        IconButton(
+                            onClick = viewModel::removeSelected,
+                            enabled = state.selectedQuestionIds.isNotEmpty(),
+                        ) {
+                            Icon(
+                                Icons.Filled.Delete,
+                                contentDescription = stringResource(R.string.saved_questions_remove_selected),
+                            )
+                        }
                     }
                 },
             )
@@ -90,11 +121,15 @@ fun SavedQuestionsScreen(
             ) { Text(stringResource(R.string.saved_questions_load_error)) }
 
             else -> Column(Modifier.fillMaxSize().padding(innerPadding)) {
+                SavedQuestionsSearchField(
+                    query = state.searchQuery,
+                    onQueryChange = viewModel::setSearchQuery,
+                )
                 SavedQuestionFilterRow(
                     filter = state.filter,
                     onChange = viewModel::setFilter,
                 )
-                val visible = state.bookmarks.filteredFor(state.filter)
+                val visible = state.bookmarks.filteredFor(state.filter).searchedFor(state.searchQuery, useHi)
                 PullToRefreshBox(
                     isRefreshing = state.refreshing,
                     onRefresh = { viewModel.refresh(showLoading = false) },
@@ -104,6 +139,8 @@ fun SavedQuestionsScreen(
                         EmptyState(
                             text = if (state.bookmarks.isEmpty()) {
                                 stringResource(R.string.saved_questions_empty)
+                            } else if (state.searchQuery.isNotBlank()) {
+                                stringResource(R.string.saved_questions_search_empty)
                             } else {
                                 stringResource(R.string.saved_questions_filter_empty)
                             },
@@ -118,7 +155,11 @@ fun SavedQuestionsScreen(
                                 SavedQuestionRow(
                                     bookmark = bookmark,
                                     useHi = useHi,
+                                    selectionMode = state.selectionMode,
+                                    selected = bookmark.questionId in state.selectedQuestionIds,
                                     onClick = { onQuestionClick(bookmark.questionId) },
+                                    onLongClick = { viewModel.startSelection(bookmark.questionId) },
+                                    onToggleSelected = { viewModel.toggleSelected(bookmark.questionId) },
                                     onRemove = { viewModel.remove(bookmark.questionId) },
                                 )
                             }
@@ -128,6 +169,23 @@ fun SavedQuestionsScreen(
             }
         }
     }
+}
+
+@Composable
+private fun SavedQuestionsSearchField(
+    query: String,
+    onQueryChange: (String) -> Unit,
+) {
+    OutlinedTextField(
+        value = query,
+        onValueChange = onQueryChange,
+        leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
+        placeholder = { Text(stringResource(R.string.saved_questions_search_hint)) },
+        singleLine = true,
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = Spacing.Lg, vertical = Spacing.Xs),
+    )
 }
 
 @Composable
@@ -204,15 +262,19 @@ private fun EmptyState(text: String) {
     }
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun SavedQuestionRow(
     bookmark: QuestionBookmark,
     useHi: Boolean,
+    selectionMode: Boolean,
+    selected: Boolean,
     onClick: () -> Unit,
+    onLongClick: () -> Unit,
+    onToggleSelected: () -> Unit,
     onRemove: () -> Unit,
 ) {
     Surface(
-        onClick = onClick,
         shape = RoundedCornerShape(12.dp),
         color = MaterialTheme.colorScheme.surfaceVariant,
         modifier = Modifier
@@ -221,8 +283,20 @@ private fun SavedQuestionRow(
     ) {
         Row(
             verticalAlignment = Alignment.Top,
-            modifier = Modifier.padding(Spacing.Md),
+            modifier = Modifier
+                .combinedClickable(
+                    onClick = { if (selectionMode) onToggleSelected() else onClick() },
+                    onLongClick = onLongClick,
+                )
+                .padding(Spacing.Md),
         ) {
+            if (selectionMode) {
+                Checkbox(
+                    checked = selected,
+                    onCheckedChange = { onToggleSelected() },
+                    modifier = Modifier.padding(end = Spacing.Xs),
+                )
+            }
             Column(modifier = Modifier.weight(1f)) {
                 Text(
                     text = bookmark.question.localizedStem(useHi),
@@ -256,10 +330,13 @@ private fun SavedQuestionRow(
                 }
             }
             Spacer(Modifier.size(Spacing.Sm))
-            IconButton(onClick = onRemove) {
+            IconButton(onClick = { if (selectionMode) onToggleSelected() else onRemove() }) {
                 Icon(
                     Icons.Filled.Bookmark,
-                    contentDescription = stringResource(R.string.saved_questions_remove),
+                    contentDescription = stringResource(
+                        if (selectionMode) R.string.saved_questions_select
+                        else R.string.saved_questions_remove,
+                    ),
                     tint = MaterialTheme.colorScheme.primary,
                 )
             }

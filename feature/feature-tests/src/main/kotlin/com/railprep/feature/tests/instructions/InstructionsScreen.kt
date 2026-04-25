@@ -42,6 +42,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.annotation.StringRes
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -118,10 +119,20 @@ fun InstructionsScreen(
     }
 
     if (showBattOpt) {
+        val manufacturerName = Build.MANUFACTURER.takeIf { it.isNotBlank() }
+            ?: stringResource(R.string.battopt_device_generic)
         AlertDialog(
             onDismissRequest = { showBattOpt = false; viewModel.start() },
             title = { Text(stringResource(R.string.battopt_title)) },
-            text = { Text(stringResource(R.string.battopt_body)) },
+            text = {
+                Text(
+                    stringResource(
+                        R.string.battopt_body_fmt,
+                        manufacturerName,
+                        stringResource(batteryOptGuidanceRes()),
+                    ),
+                )
+            },
             confirmButton = {
                 Button(onClick = {
                     showBattOpt = false
@@ -226,13 +237,30 @@ private fun InstructionsBody(
                 else stringResource(R.string.instructions_start),
             )
         }
-        if (error == "start") {
+        if (error == "start" || error == "pro") {
             Text(
-                stringResource(R.string.instructions_start_error),
+                stringResource(
+                    if (error == "pro") R.string.instructions_pro_required
+                    else R.string.instructions_start_error,
+                ),
                 color = MaterialTheme.colorScheme.error,
                 style = MaterialTheme.typography.bodyMedium,
             )
         }
+    }
+}
+
+@StringRes
+private fun batteryOptGuidanceRes(): Int {
+    val manufacturer = Build.MANUFACTURER.lowercase()
+    return when {
+        manufacturer.contains("oppo") || manufacturer.contains("realme") || manufacturer.contains("oneplus") ->
+            R.string.battopt_oem_coloros
+        manufacturer.contains("xiaomi") || manufacturer.contains("redmi") || manufacturer.contains("poco") ->
+            R.string.battopt_oem_miui
+        manufacturer.contains("samsung") ->
+            R.string.battopt_oem_oneui
+        else -> R.string.battopt_oem_generic
     }
 }
 

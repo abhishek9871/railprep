@@ -24,6 +24,9 @@
     <string name="profile_edit">Edit profile</string>
     <string name="profile_bookmarks">Bookmarks</string>
     <string name="profile_saved_questions">Saved Questions</string>
+    <string name="profile_performance">Performance</string>
+    <string name="profile_pro">RailPrep Pro</string>
+    <string name="profile_account_settings">Privacy &amp; account</string>
     <string name="profile_language">Language</string>
     <string name="profile_about">About &amp; attributions</string>
     <string name="profile_sign_out">Sign out</string>
@@ -51,6 +54,11 @@
     <string name="saved_question_detail_title">Saved Question</string>
     <string name="saved_questions_empty">Bookmark questions while reviewing tests to revisit them later</string>
     <string name="saved_questions_filter_empty">No saved questions match this filter.</string>
+    <string name="saved_questions_search_hint">Search saved questions and notes</string>
+    <string name="saved_questions_search_empty">No saved questions match this search.</string>
+    <string name="saved_questions_selected_fmt">%1$d selected</string>
+    <string name="saved_questions_select">Select question</string>
+    <string name="saved_questions_remove_selected">Remove selected</string>
     <string name="saved_questions_load_error">Couldn\'t load saved questions.</string>
     <string name="saved_questions_filter_all">All</string>
     <string name="saved_questions_filter_with_note">With note</string>
@@ -63,6 +71,28 @@
     <string name="saved_question_save_note">Save note</string>
     <string name="saved_question_method_tab">Method</string>
     <string name="saved_question_concept_tab">Concept</string>
+
+    <!-- Performance -->
+    <string name="performance_title">Performance</string>
+    <string name="performance_subtitle">Accuracy by topic from your submitted attempts.</string>
+    <string name="performance_empty_title">No accuracy history yet</string>
+    <string name="performance_empty_body">Submit a mock test or sectional to see weak topics here.</string>
+    <string name="performance_retry">Retry</string>
+    <string name="performance_attempted_fmt">%1$d correct of %2$d attempted</string>
+    <string name="performance_pct_fmt">%1$.1f%%</string>
+    <string name="performance_study_primer">Study this primer</string>
+
+    <!-- Account -->
+    <string name="account_title">Privacy &amp; account</string>
+    <string name="account_body">You can export your RailPrep data or permanently delete your account. Deletion removes profile, attempts, bookmarks, saved questions, entitlements, and error logs tied to this account.</string>
+    <string name="account_export">Download my data</string>
+    <string name="account_export_ready">Your data export</string>
+    <string name="account_delete">Delete my account</string>
+    <string name="account_error">That action failed. Check your connection and try again.</string>
+    <string name="account_delete_confirm_title">Delete account?</string>
+    <string name="account_delete_confirm_body">This permanently deletes your RailPrep account and user data. This cannot be undone.</string>
+    <string name="account_delete_confirm">Delete</string>
+    <string name="account_delete_cancel">Cancel</string>
 
     <!-- About -->
     <string name="about_title">About RailPrep</string>
@@ -77,6 +107,13 @@
     <string name="about_license_ncert">NCERT — all rights reserved; we link only.</string>
     <string name="about_license_godl">Government Open Data Licence — India.</string>
     <string name="about_license_cc">CC BY-SA 4.0 (Wikipedia — not used in Phase 2).</string>
+    <string name="about_legal_header">Legal and support</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_terms">Terms &amp; Conditions</string>
+    <string name="about_privacy_missing">Privacy Policy URL is not configured in this build.</string>
+    <string name="about_terms_missing">Terms URL is not configured in this build.</string>
+    <string name="about_support_fmt">Support: %1$s</string>
+    <string name="about_support_missing">Support email is not configured in this build.</string>
 
     <!-- Diagnostics -->
     <string name="diag_title">Diagnostics</string>

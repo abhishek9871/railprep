@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.railprep.domain.model.AttemptStatus
 import com.railprep.domain.model.ExamTarget
+import com.railprep.domain.model.QuestionSearchResult
 import com.railprep.domain.model.Test
 import com.railprep.domain.model.TestKind
 import com.railprep.domain.repository.AttemptRepository
@@ -14,6 +15,8 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -32,6 +35,10 @@ data class TestsListUiState(
     val tests: List<Test> = emptyList(),
     val filter: TestsFilter = TestsFilter.ALL,
     val attemptStats: Map<String, TestAttemptStats> = emptyMap(),
+    val searchQuery: String = "",
+    val searchLoading: Boolean = false,
+    val searchResults: List<QuestionSearchResult> = emptyList(),
+    val searchError: String? = null,
     val error: String? = null,
 )
 
@@ -43,12 +50,35 @@ class TestsListViewModel @Inject constructor(
 
     private val _state = MutableStateFlow(TestsListUiState())
     val state: StateFlow<TestsListUiState> = _state.asStateFlow()
+    private var searchJob: Job? = null
 
     init { load(initial = true) }
 
     fun refresh() = load(initial = false)
 
     fun setFilter(filter: TestsFilter) = _state.update { it.copy(filter = filter) }
+
+    fun setSearchQuery(query: String) {
+        _state.update { it.copy(searchQuery = query) }
+        searchJob?.cancel()
+        val trimmed = query.trim()
+        if (trimmed.isEmpty()) {
+            _state.update { it.copy(searchLoading = false, searchResults = emptyList(), searchError = null) }
+            return
+        }
+        searchJob = viewModelScope.launch {
+            delay(250)
+            _state.update { it.copy(searchLoading = true, searchError = null) }
+            when (val r = testsRepository.searchQuestions(trimmed, limit = 50)) {
+                is DomainResult.Success -> _state.update {
+                    it.copy(searchLoading = false, searchResults = r.value, searchError = null)
+                }
+                is DomainResult.Failure -> _state.update {
+                    it.copy(searchLoading = false, searchResults = emptyList(), searchError = "search")
+                }
+            }
+        }
+    }
 
     private fun load(initial: Boolean) {
         viewModelScope.launch {

@@ -9,11 +9,13 @@ import com.railprep.domain.model.Option
 import com.railprep.domain.model.PaperLanguage
 import com.railprep.domain.model.Question
 import com.railprep.domain.model.QuestionDifficulty
+import com.railprep.domain.model.QuestionSearchResult
 import com.railprep.domain.model.SectionBreakdown
 import com.railprep.domain.model.SubjectHint
 import com.railprep.domain.model.Test
 import com.railprep.domain.model.TestKind
 import com.railprep.domain.model.TestSection
+import com.railprep.domain.model.TopicAccuracy
 import kotlinx.datetime.Instant
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
@@ -137,6 +139,35 @@ data class AttemptAnswerUpsertDto(
     @SerialName("flagged") val flagged: Boolean = false,
 )
 
+@Serializable
+data class QuestionSearchResultDto(
+    @SerialName("question_id") val questionId: String,
+    @SerialName("test_id") val testId: String,
+    @SerialName("test_slug") val testSlug: String,
+    @SerialName("test_title_en") val testTitleEn: String,
+    @SerialName("test_kind") val testKind: String,
+    @SerialName("exam_target") val examTarget: String,
+    @SerialName("section_title_en") val sectionTitleEn: String,
+    @SerialName("subject_hint") val subjectHint: String,
+    @SerialName("display_order") val displayOrder: Int,
+    @SerialName("stem_en") val stemEn: String,
+    @SerialName("stem_hi") val stemHi: String? = null,
+    @SerialName("difficulty") val difficulty: String,
+    @SerialName("tags") val tags: List<String> = emptyList(),
+    @SerialName("source") val source: String,
+    @SerialName("is_bookmarked") val isBookmarked: Boolean = false,
+    @SerialName("was_wrong") val wasWrong: Boolean = false,
+)
+
+@Serializable
+data class TopicAccuracyDto(
+    @SerialName("tag") val tag: String,
+    @SerialName("subject_hint") val subjectHint: String,
+    @SerialName("attempted") val attempted: Int,
+    @SerialName("correct") val correct: Int,
+    @SerialName("accuracy_pct") val accuracyPct: Float,
+)
+
 // RPC parameter payloads use buildJsonObject inline at the call site (supabase-kt 3.x
 // takes JsonObject directly, not @Serializable DTOs).
 
@@ -241,6 +272,33 @@ fun AttemptAnswerDto.toDomain() = AttemptAnswer(
     selectedOptionId = selectedOptionId,
     flagged = flagged,
     answeredAt = answeredAt,
+)
+
+fun QuestionSearchResultDto.toDomain() = QuestionSearchResult(
+    questionId = questionId,
+    testId = testId,
+    testSlug = testSlug,
+    testTitleEn = testTitleEn,
+    testKind = runCatching { TestKind.valueOf(testKind) }.getOrDefault(TestKind.SECTIONAL),
+    examTarget = ExamTarget.fromWire(examTarget) ?: ExamTarget.NtpcCbt1,
+    sectionTitleEn = sectionTitleEn,
+    subjectHint = subjectHintFromWire(subjectHint),
+    displayOrder = displayOrder,
+    stemEn = stemEn,
+    stemHi = stemHi,
+    difficulty = runCatching { QuestionDifficulty.valueOf(difficulty) }.getOrDefault(QuestionDifficulty.MEDIUM),
+    tags = tags,
+    source = source,
+    isBookmarked = isBookmarked,
+    wasWrong = wasWrong,
+)
+
+fun TopicAccuracyDto.toDomain() = TopicAccuracy(
+    tag = tag,
+    subjectHint = subjectHintFromWire(subjectHint),
+    attempted = attempted,
+    correct = correct,
+    accuracyPct = accuracyPct,
 )
 
 private fun contentStatusFromWire(s: String): ContentStatus = when (s) {

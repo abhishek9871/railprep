@@ -21,4 +21,10 @@ interface ProfileRepository {
     /** Flip profiles.notifications_enabled. Client schedules/cancels the on-device worker
      *  separately; the server is the canonical state so the flag travels with the user's account. */
     suspend fun setNotificationsEnabled(enabled: Boolean): DomainResult<Profile>
+
+    /** JSON export of profile, attempts, bookmarks, digest attempts, and entitlements. */
+    suspend fun exportMyData(): DomainResult<String>
+
+    /** Deletes the authenticated account. Server cascades user-owned rows. */
+    suspend fun deleteMyAccount(): DomainResult<Unit>
 }

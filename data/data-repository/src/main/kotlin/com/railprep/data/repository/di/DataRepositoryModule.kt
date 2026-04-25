@@ -4,6 +4,7 @@ import com.railprep.data.repository.AttemptRepositoryImpl
 import com.railprep.data.repository.AuthRepositoryImpl
 import com.railprep.data.repository.BookmarkRepositoryImpl
 import com.railprep.data.repository.DigestRepositoryImpl
+import com.railprep.data.repository.ErrorLogRepositoryImpl
 import com.railprep.data.repository.LearnRepositoryImpl
 import com.railprep.data.repository.ProfileRepositoryImpl
 import com.railprep.data.repository.QuestionBookmarkRepositoryImpl
@@ -12,6 +13,7 @@ import com.railprep.domain.repository.AttemptRepository
 import com.railprep.domain.repository.AuthRepository
 import com.railprep.domain.repository.BookmarkRepository
 import com.railprep.domain.repository.DigestRepository
+import com.railprep.domain.repository.ErrorLogRepository
 import com.railprep.domain.repository.LearnRepository
 import com.railprep.domain.repository.ProfileRepository
 import com.railprep.domain.repository.QuestionBookmarkRepository
@@ -58,4 +60,8 @@ abstract class DataRepositoryModule {
     @Binds
     @Singleton
     abstract fun bindDigestRepository(impl: DigestRepositoryImpl): DigestRepository
+
+    @Binds
+    @Singleton
+    abstract fun bindErrorLogRepository(impl: ErrorLogRepositoryImpl): ErrorLogRepository
 }

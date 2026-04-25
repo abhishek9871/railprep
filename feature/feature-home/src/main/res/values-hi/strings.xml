@@ -20,6 +20,9 @@
     <string name="profile_edit">प्रोफ़ाइल संपादित करें</string>
     <string name="profile_bookmarks">बुकमार्क</string>
     <string name="profile_saved_questions">सहेजे गए प्रश्न</string>
+    <string name="profile_performance">Performance</string>
+    <string name="profile_pro">RailPrep Pro</string>
+    <string name="profile_account_settings">Privacy और account</string>
     <string name="profile_language">भाषा</string>
     <string name="profile_about">जानकारी और श्रेय</string>
     <string name="profile_sign_out">साइन आउट</string>
@@ -43,6 +46,11 @@
     <string name="saved_question_detail_title">सहेजा गया प्रश्न</string>
     <string name="saved_questions_empty">Review में questions bookmark करें ताकि बाद में दोहरा सकें</string>
     <string name="saved_questions_filter_empty">इस filter में कोई saved question नहीं।</string>
+    <string name="saved_questions_search_hint">Saved questions और notes खोजें</string>
+    <string name="saved_questions_search_empty">इस search से कोई saved question नहीं मिला।</string>
+    <string name="saved_questions_selected_fmt">%1$d selected</string>
+    <string name="saved_questions_select">Question select करें</string>
+    <string name="saved_questions_remove_selected">Selected हटाएँ</string>
     <string name="saved_questions_load_error">Saved questions लोड नहीं हो सके।</string>
     <string name="saved_questions_filter_all">सभी</string>
     <string name="saved_questions_filter_with_note">Note वाले</string>
@@ -56,6 +64,26 @@
     <string name="saved_question_method_tab">Method</string>
     <string name="saved_question_concept_tab">Concept</string>
 
+    <string name="performance_title">Performance</string>
+    <string name="performance_subtitle">Submitted attempts के आधार पर topic-wise accuracy.</string>
+    <string name="performance_empty_title">अभी accuracy history नहीं</string>
+    <string name="performance_empty_body">Mock test या sectional submit करें, weak topics यहाँ दिखेंगे।</string>
+    <string name="performance_retry">Retry</string>
+    <string name="performance_attempted_fmt">%1$d सही / %2$d attempted</string>
+    <string name="performance_pct_fmt">%1$.1f%%</string>
+    <string name="performance_study_primer">यह primer पढ़ें</string>
+
+    <string name="account_title">Privacy और account</string>
+    <string name="account_body">आप अपना RailPrep data export कर सकते हैं या account permanently delete कर सकते हैं। Delete करने पर profile, attempts, bookmarks, saved questions, entitlements और इस account के error logs हट जाते हैं।</string>
+    <string name="account_export">मेरा data download करें</string>
+    <string name="account_export_ready">आपका data export</string>
+    <string name="account_delete">मेरा account delete करें</string>
+    <string name="account_error">Action fail हुआ। Connection check करके फिर कोशिश करें।</string>
+    <string name="account_delete_confirm_title">Account delete करें?</string>
+    <string name="account_delete_confirm_body">यह आपका RailPrep account और user data permanently delete करेगा। इसे undo नहीं किया जा सकता।</string>
+    <string name="account_delete_confirm">Delete</string>
+    <string name="account_delete_cancel">Cancel</string>
+
     <string name="about_title">RailPrep के बारे में</string>
     <string name="about_intro">RailPrep केवल कैटलॉग ऐप है। हम मीडिया होस्ट नहीं करते। हर वीडियो, PDF, लेख मूल स्रोत से दिखाया जाता है — पूरे श्रेय के साथ।</string>
     <string name="about_sources_header">सामग्री स्रोत</string>
@@ -68,6 +96,13 @@
     <string name="about_license_ncert">NCERT — सर्वाधिकार; हम केवल लिंक करते हैं।</string>
     <string name="about_license_godl">Government Open Data Licence — India.</string>
     <string name="about_license_cc">CC BY-SA 4.0 (फ़ेज़ 2 में प्रयोग नहीं)।</string>
+    <string name="about_legal_header">Legal और support</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_terms">Terms &amp; Conditions</string>
+    <string name="about_privacy_missing">इस build में Privacy Policy URL configured नहीं है।</string>
+    <string name="about_terms_missing">इस build में Terms URL configured नहीं है।</string>
+    <string name="about_support_fmt">Support: %1$s</string>
+    <string name="about_support_missing">इस build में support email configured नहीं है।</string>
 
     <string name="diag_title">डायग्नोस्टिक्स</string>
     <string name="diag_version">ऐप संस्करण</string>

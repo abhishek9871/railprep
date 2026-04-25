@@ -78,7 +78,8 @@ class InstructionsViewModel @Inject constructor(
                     _state.update { it.copy(starting = false, startedAttemptId = r.value.id) }
                 }
                 is DomainResult.Failure -> _state.update {
-                    it.copy(starting = false, error = "start")
+                    val code = if (r.error.message.contains("PRO_REQUIRED", ignoreCase = true)) "pro" else "start"
+                    it.copy(starting = false, error = code)
                 }
             }
         }

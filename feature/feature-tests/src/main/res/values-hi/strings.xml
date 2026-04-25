@@ -21,6 +21,19 @@
     <string name="tests_card_not_attempted">अभी तक attempt नहीं किया</string>
     <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>
     <string name="tests_card_best_single_fmt">Best: %1$s / %2$s · 1 attempt</string>
+    <string name="tests_search_hint">Questions, options, explanations खोजें</string>
+    <string name="tests_search_empty">कोई matching question नहीं मिला।</string>
+    <string name="tests_search_error">Questions search नहीं हो सके।</string>
+    <string name="tests_search_result_source_fmt">%1$s · %2$s · Q%3$d</string>
+    <string name="tests_search_bookmarked">Bookmarked</string>
+    <string name="tests_search_wrong_before">पहले गलत</string>
+    <string name="tests_difficulty_easy">Easy</string>
+    <string name="tests_difficulty_medium">Medium</string>
+    <string name="tests_difficulty_hard">Hard</string>
+    <string name="tests_pro_required_title">Pro test</string>
+    <string name="tests_pro_required_body_fmt">%1$s Pro test है। Pro tests unlock करने के लिए 7-day trial या Google Play subscription use करें।</string>
+    <string name="tests_get_pro">Pro लें</string>
+    <string name="tests_pro_maybe_later">अभी नहीं</string>
 
     <!-- Instructions -->
     <string name="instructions_title">निर्देश</string>
@@ -39,10 +52,17 @@
     <string name="instructions_resume">टेस्ट जारी रखें</string>
     <string name="instructions_starting">शुरू हो रहा है…</string>
     <string name="instructions_start_error">टेस्ट शुरू नहीं हो सका। कृपया पुनः प्रयास करें।</string>
+    <string name="instructions_pro_required">इस test के लिए Pro चाहिए। Active trial use करें या Google Play से subscribe करें।</string>
 
     <!-- Battery opt -->
     <string name="battopt_title">ऐप चालू रखें</string>
     <string name="battopt_body">यह device लंबे टेस्ट के दौरान ऐप रोक सकता है। अपने timer को सटीक रखने के लिए RailPrep के लिए battery optimization disable करें।</string>
+    <string name="battopt_body_fmt">यह %1$s device लंबे test में RailPrep को रोक सकता है। %2$s</string>
+    <string name="battopt_device_generic">Android</string>
+    <string name="battopt_oem_coloros">Auto-launch allow करें, background activity allow करें, और Battery / Energy saver में RailPrep को don\'t optimize रखें।</string>
+    <string name="battopt_oem_miui">Autostart enable करें, Battery saver में No restrictions चुनें, और recents में RailPrep lock करें।</string>
+    <string name="battopt_oem_oneui">Battery / Background usage limits / Never sleeping apps में RailPrep जोड़ें।</string>
+    <string name="battopt_oem_generic">Battery settings खोलकर RailPrep को battery optimization से exclude करें।</string>
     <string name="battopt_open_settings">Settings खोलें</string>
     <string name="battopt_skip">छोड़ें</string>
 

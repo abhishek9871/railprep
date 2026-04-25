@@ -15,11 +15,13 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import com.railprep.core.design.tokens.Spacing
@@ -27,7 +29,13 @@ import com.railprep.feature.home.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AboutScreen(onBack: () -> Unit) {
+fun AboutScreen(
+    onBack: () -> Unit,
+    privacyPolicyUrl: String,
+    termsUrl: String,
+    supportEmail: String,
+) {
+    val uriHandler = LocalUriHandler.current
     Scaffold(
         topBar = {
             TopAppBar(
@@ -66,6 +74,26 @@ fun AboutScreen(onBack: () -> Unit) {
                 BulletLine(stringResource(R.string.about_license_ncert))
                 BulletLine(stringResource(R.string.about_license_godl))
                 BulletLine(stringResource(R.string.about_license_cc))
+            }
+            Section(title = stringResource(R.string.about_legal_header)) {
+                if (privacyPolicyUrl.isNotBlank()) {
+                    OutlinedButton(onClick = { uriHandler.openUri(privacyPolicyUrl) }) {
+                        Text(stringResource(R.string.about_privacy_policy))
+                    }
+                } else {
+                    BulletLine(stringResource(R.string.about_privacy_missing))
+                }
+                if (termsUrl.isNotBlank()) {
+                    OutlinedButton(onClick = { uriHandler.openUri(termsUrl) }) {
+                        Text(stringResource(R.string.about_terms))
+                    }
+                } else {
+                    BulletLine(stringResource(R.string.about_terms_missing))
+                }
+                BulletLine(
+                    if (supportEmail.isBlank()) stringResource(R.string.about_support_missing)
+                    else stringResource(R.string.about_support_fmt, supportEmail),
+                )
             }
         }
     }

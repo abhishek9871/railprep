@@ -3,6 +3,7 @@ package com.railprep.navigation
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import com.railprep.BuildConfig
 import com.railprep.feature.auth.navigation.AuthRoute
 import com.railprep.feature.auth.navigation.authGraph
@@ -13,6 +14,7 @@ import com.railprep.feature.home.navigation.HomeRoute
 import com.railprep.feature.home.navigation.homeGraph
 import com.railprep.feature.learn.navigation.LearnRoute
 import com.railprep.feature.learn.navigation.learnGraph
+import com.railprep.feature.paywall.PaywallScreen
 import com.railprep.feature.tests.list.TestsTabBody
 import com.railprep.feature.tests.navigation.TestsRoute
 import com.railprep.feature.tests.navigation.testsGraph
@@ -46,16 +48,21 @@ fun RailPrepNavGraph(navController: NavHostController) {
             onNavigateToTopic = { topicId ->
                 navController.navigate(LearnRoute.Topic(topicId))
             },
+            privacyPolicyUrl = BuildConfig.PRIVACY_POLICY_URL,
+            termsUrl = BuildConfig.TERMS_URL,
+            supportEmail = BuildConfig.SUPPORT_EMAIL,
+            onOpenPro = { navController.navigate(AppRoute.Paywall) },
             onNavigateToTestInstructions = { testId ->
                 navController.navigate(TestsRoute.Instructions(testId))
             },
             onNavigateToPyqPaper = { testId ->
                 navController.navigate(TestsRoute.PyqPaper(testId))
             },
-            testsTabContent = { onOpenInstructions, onOpenPyqPaper ->
+            testsTabContent = { onOpenInstructions, onOpenPyqPaper, onOpenPro ->
                 TestsTabBody(
                     onOpenInstructions = onOpenInstructions,
                     onOpenPyqPaper = onOpenPyqPaper,
+                    onOpenPro = onOpenPro,
                 )
             },
             dailyHomeCard = {
@@ -70,6 +77,9 @@ fun RailPrepNavGraph(navController: NavHostController) {
             navController = navController,
             onOpenTopic = { topicId -> navController.navigate(LearnRoute.Topic(topicId)) },
         )
+        composable<AppRoute.Paywall> {
+            PaywallScreen(onBack = { navController.popBackStack() })
+        }
         dailyGraph(navController)
     }
 }

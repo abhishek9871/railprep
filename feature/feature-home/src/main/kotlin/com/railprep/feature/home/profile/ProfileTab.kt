@@ -19,9 +19,12 @@ import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.Logout
+import androidx.compose.material.icons.filled.LockOpen
 import androidx.compose.material.icons.filled.NotificationsActive
 import androidx.compose.material.icons.filled.Person
 import androidx.compose.material.icons.filled.Quiz
+import androidx.compose.material.icons.filled.QueryStats
+import androidx.compose.material.icons.filled.Security
 import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
@@ -60,6 +63,9 @@ fun ProfileTab(
     onOpenEdit: () -> Unit,
     onOpenBookmarks: () -> Unit,
     onOpenSavedQuestions: () -> Unit,
+    onOpenPerformance: () -> Unit,
+    onOpenAccountSettings: () -> Unit,
+    onOpenPro: () -> Unit,
     onOpenAbout: () -> Unit,
     onOpenDiag: () -> Unit,
     viewModel: ProfileViewModel = hiltViewModel(),
@@ -105,7 +111,22 @@ fun ProfileTab(
             badgeCount = state.savedQuestionCount,
             onClick = onOpenSavedQuestions,
         )
+        ProfileRow(
+            icon = Icons.Filled.QueryStats,
+            label = stringResource(R.string.profile_performance),
+            onClick = onOpenPerformance,
+        )
+        ProfileRow(
+            icon = Icons.Filled.LockOpen,
+            label = stringResource(R.string.profile_pro),
+            onClick = onOpenPro,
+        )
         ProfileRow(icon = Icons.Filled.Edit, label = stringResource(R.string.profile_edit), onClick = onOpenEdit)
+        ProfileRow(
+            icon = Icons.Filled.Security,
+            label = stringResource(R.string.profile_account_settings),
+            onClick = onOpenAccountSettings,
+        )
         ProfileRow(icon = Icons.Filled.Translate, label = stringResource(R.string.profile_language), onClick = { showLanguagePicker = true })
 
         NotificationsToggleRow(

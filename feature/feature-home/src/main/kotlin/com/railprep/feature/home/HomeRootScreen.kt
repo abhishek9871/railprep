@@ -35,6 +35,9 @@ fun HomeRootScreen(
     onNavigateToLearn: () -> Unit,
     onOpenBookmarks: () -> Unit,
     onOpenSavedQuestions: () -> Unit,
+    onOpenPerformance: () -> Unit,
+    onOpenAccountSettings: () -> Unit,
+    onOpenPro: () -> Unit,
     onOpenProfileEdit: () -> Unit,
     onOpenAbout: () -> Unit,
     onOpenDiag: () -> Unit,
@@ -45,7 +48,8 @@ fun HomeRootScreen(
     testsTabContent: @Composable (
         onOpenInstructions: (String) -> Unit,
         onOpenPyqPaper: (String) -> Unit,
-    ) -> Unit = { _, _ -> TestsTab() },
+        onOpenPro: () -> Unit,
+    ) -> Unit = { _, _, _ -> TestsTab() },
     /** Slot filled by the app nav graph with feature-daily's DailyHomeCard. Default empty. */
     dailyHomeCard: @Composable () -> Unit = {},
 ) {
@@ -89,13 +93,16 @@ fun HomeRootScreen(
                     onOpenBookmarks = onOpenBookmarks,
                     dailyHomeCard = dailyHomeCard,
                 )
-                Tab.TESTS -> testsTabContent(onOpenTestInstructions, onOpenPyqPaper)
+                Tab.TESTS -> testsTabContent(onOpenTestInstructions, onOpenPyqPaper, onOpenPro)
                 Tab.FEED -> FeedTab()
                 Tab.PROFILE -> ProfileTab(
                     onSignedOut = onSignedOut,
                     onOpenEdit = onOpenProfileEdit,
                     onOpenBookmarks = onOpenBookmarks,
                     onOpenSavedQuestions = onOpenSavedQuestions,
+                    onOpenPerformance = onOpenPerformance,
+                    onOpenAccountSettings = onOpenAccountSettings,
+                    onOpenPro = onOpenPro,
                     onOpenAbout = onOpenAbout,
                     onOpenDiag = onOpenDiag,
                 )

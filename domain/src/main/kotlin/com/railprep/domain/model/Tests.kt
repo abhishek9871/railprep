@@ -121,3 +121,30 @@ data class AttemptAnswer(
     val flagged: Boolean,
     val answeredAt: Instant,
 )
+
+data class QuestionSearchResult(
+    val questionId: String,
+    val testId: String,
+    val testSlug: String,
+    val testTitleEn: String,
+    val testKind: TestKind,
+    val examTarget: ExamTarget,
+    val sectionTitleEn: String,
+    val subjectHint: SubjectHint,
+    val displayOrder: Int,
+    val stemEn: String,
+    val stemHi: String?,
+    val difficulty: QuestionDifficulty,
+    val tags: List<String>,
+    val source: String,
+    val isBookmarked: Boolean,
+    val wasWrong: Boolean,
+)
+
+data class TopicAccuracy(
+    val tag: String,
+    val subjectHint: SubjectHint,
+    val attempted: Int,
+    val correct: Int,
+    val accuracyPct: Float,
+)

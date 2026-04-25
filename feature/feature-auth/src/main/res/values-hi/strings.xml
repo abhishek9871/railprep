@@ -13,13 +13,13 @@
 
     <!-- Onboarding -->
     <!-- TODO(i18n): polish copy with a native speaker in Phase 11. -->
-    <string name="onboarding_slide1_title">हर दिन अद्यतन करंट अफ़ेयर्स</string>
-    <string name="onboarding_slide1_body">रेलवे समाचार, राष्ट्रीय घटनाएँ, PIB विज्ञप्तियाँ — NTPC पाठ्यक्रम के अनुसार।</string>
-    <string name="onboarding_slide2_title">पूर्ण CBT-पैटर्न मॉक टेस्ट</string>
-    <string name="onboarding_slide2_body">समयबद्ध सेक्शन, नेगेटिव मार्किंग, तुरंत विश्लेषण — असल परीक्षा जैसा।</string>
-    <string name="onboarding_slide3_title">हिन्दी या अंग्रेज़ी में पढ़ें</string>
-    <string name="onboarding_slide3_body">भाषा कभी भी बदलें। हर पाठ, हर प्रश्न, हर सूचना।</string>
-    <string name="onboarding_skip">छोड़ें</string>
+    <string name="onboarding_slide1_title">RRB NTPC practice, exam जैसा</string>
+    <string name="onboarding_slide1_body">Sectionals, PYQ papers, timed tests, negative marking और CBT-1 review explanations.</string>
+    <string name="onboarding_slide2_title">Weak topics जल्दी पकड़ें</string>
+    <string name="onboarding_slide2_body">Results आपको matching primers तक ले जाते हैं, और Saved Questions formulas व traps revision के लिए रखते हैं।</string>
+    <string name="onboarding_slide3_title">पहले trial, फिर जरूरत पर Pro</string>
+    <string name="onboarding_slide3_body">7-day trial से शुरू करें। Pro test sets Google Play से ₹79/month या ₹199/quarter में unlock होते हैं।</string>
+    <string name="onboarding_skip">Intro skip करें</string>
     <string name="onboarding_next">आगे</string>
     <string name="onboarding_get_started">शुरू करें</string>
 

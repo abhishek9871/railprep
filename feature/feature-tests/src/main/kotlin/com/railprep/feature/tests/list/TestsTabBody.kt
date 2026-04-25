@@ -20,14 +20,22 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccessTime
 import androidx.compose.material.icons.filled.HelpOutline
 import androidx.compose.material.icons.filled.Lock
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
@@ -39,6 +47,8 @@ import com.railprep.core.design.tokens.Radius
 import com.railprep.core.design.tokens.Spacing
 import com.railprep.core.design.tokens.TouchTarget
 import com.railprep.domain.model.PaperLanguage
+import com.railprep.domain.model.QuestionDifficulty
+import com.railprep.domain.model.QuestionSearchResult
 import com.railprep.domain.model.Test
 import com.railprep.domain.model.TestKind
 import com.railprep.feature.tests.R
@@ -47,10 +57,12 @@ import com.railprep.feature.tests.R
 fun TestsTabBody(
     onOpenInstructions: (testId: String) -> Unit,
     onOpenPyqPaper: (testId: String) -> Unit = {},
+    onOpenPro: () -> Unit = {},
     viewModel: TestsListViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val filtered = state.tests.filteredFor(state.filter)
+    var proDialogTest by remember { mutableStateOf<Test?>(null) }
 
     Column(Modifier.fillMaxSize()) {
         Column(modifier = Modifier.padding(horizontal = Spacing.Lg, vertical = Spacing.Md)) {
@@ -65,15 +77,33 @@ fun TestsTabBody(
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(top = Spacing.Xs),
             )
+            OutlinedTextField(
+                value = state.searchQuery,
+                onValueChange = { viewModel.setSearchQuery(it) },
+                leadingIcon = { Icon(Icons.Filled.Search, contentDescription = null) },
+                placeholder = { Text(stringResource(R.string.tests_search_hint)) },
+                singleLine = true,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(top = Spacing.Md),
+            )
         }
 
-        FilterChipsRow(
-            filter = state.filter,
-            onChange = { viewModel.setFilter(it) },
-        )
+        if (state.searchQuery.isBlank()) {
+            FilterChipsRow(
+                filter = state.filter,
+                onChange = { viewModel.setFilter(it) },
+            )
+        }
 
         when {
             state.loading -> Box(Modifier.fillMaxSize(), Alignment.Center) { CircularProgressIndicator() }
+            state.searchQuery.isNotBlank() -> SearchResultsPane(
+                loading = state.searchLoading,
+                results = state.searchResults,
+                error = state.searchError,
+                onOpen = { onOpenInstructions(it.testId) },
+            )
             state.error != null -> Box(
                 Modifier.fillMaxSize().padding(Spacing.Lg),
                 Alignment.Center,
@@ -99,14 +129,136 @@ fun TestsTabBody(
                         onClick = {
                             // PYQ_LINK rows render the adda247 PDF on-device via PyqPaperScreen;
                             // everything else goes through the Instructions → Player flow.
-                            if (t.kind == TestKind.PYQ_LINK) onOpenPyqPaper(t.id)
-                            else onOpenInstructions(t.id)
+                            when {
+                                t.kind == TestKind.PYQ_LINK -> onOpenPyqPaper(t.id)
+                                t.isPro -> proDialogTest = t
+                                else -> onOpenInstructions(t.id)
+                            }
                         },
                     )
                 }
             }
         }
     }
+
+    proDialogTest?.let { test ->
+        AlertDialog(
+            onDismissRequest = { proDialogTest = null },
+            title = { Text(stringResource(R.string.tests_pro_required_title)) },
+            text = {
+                Text(
+                    stringResource(
+                        R.string.tests_pro_required_body_fmt,
+                        test.titleEn,
+                    ),
+                )
+            },
+            confirmButton = {
+                Button(onClick = {
+                    proDialogTest = null
+                    onOpenPro()
+                }) {
+                    Text(stringResource(R.string.tests_get_pro))
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { proDialogTest = null }) {
+                    Text(stringResource(R.string.tests_pro_maybe_later))
+                }
+            },
+        )
+    }
+}
+
+@Composable
+private fun SearchResultsPane(
+    loading: Boolean,
+    results: List<QuestionSearchResult>,
+    error: String?,
+    onOpen: (QuestionSearchResult) -> Unit,
+) {
+    when {
+        loading -> Box(Modifier.fillMaxSize(), Alignment.Center) { CircularProgressIndicator() }
+        error != null -> Box(
+            Modifier.fillMaxSize().padding(Spacing.Lg),
+            Alignment.Center,
+        ) { Text(stringResource(R.string.tests_search_error)) }
+        results.isEmpty() -> Box(
+            Modifier.fillMaxSize().padding(Spacing.Lg),
+            Alignment.Center,
+        ) { Text(stringResource(R.string.tests_search_empty)) }
+        else -> LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            contentPadding = PaddingValues(
+                start = Spacing.Lg,
+                end = Spacing.Lg,
+                top = Spacing.Md,
+                bottom = Spacing.Xl,
+            ),
+            verticalArrangement = Arrangement.spacedBy(Spacing.Sm),
+        ) {
+            items(results, key = { it.questionId }) { result ->
+                SearchResultCard(result = result, onClick = { onOpen(result) })
+            }
+        }
+    }
+}
+
+@Composable
+private fun SearchResultCard(result: QuestionSearchResult, onClick: () -> Unit) {
+    Surface(
+        onClick = onClick,
+        shape = RoundedCornerShape(Radius.Md),
+        color = MaterialTheme.colorScheme.surfaceVariant,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Column(Modifier.padding(Spacing.Md), verticalArrangement = Arrangement.spacedBy(Spacing.Xs)) {
+            Text(
+                text = result.stemEn,
+                style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold),
+                color = MaterialTheme.colorScheme.onSurface,
+                maxLines = 3,
+            )
+            Text(
+                text = stringResource(
+                    R.string.tests_search_result_source_fmt,
+                    result.testTitleEn,
+                    result.sectionTitleEn,
+                    result.displayOrder,
+                ),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            Row(horizontalArrangement = Arrangement.spacedBy(Spacing.Xs)) {
+                Text(
+                    text = difficultyLabel(result.difficulty),
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.primary,
+                )
+                if (result.isBookmarked) {
+                    Text(
+                        text = stringResource(R.string.tests_search_bookmarked),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.tertiary,
+                    )
+                }
+                if (result.wasWrong) {
+                    Text(
+                        text = stringResource(R.string.tests_search_wrong_before),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.error,
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun difficultyLabel(difficulty: QuestionDifficulty): String = when (difficulty) {
+    QuestionDifficulty.EASY -> stringResource(R.string.tests_difficulty_easy)
+    QuestionDifficulty.MEDIUM -> stringResource(R.string.tests_difficulty_medium)
+    QuestionDifficulty.HARD -> stringResource(R.string.tests_difficulty_hard)
 }
 
 @Composable
@@ -298,4 +450,3 @@ private fun AttemptStatsLine(stats: TestAttemptStats?) {
 
 private fun fmtScore(f: Float): String =
     if (f % 1f == 0f) f.toInt().toString() else "%.2f".format(f)
-

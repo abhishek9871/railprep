@@ -21,6 +21,19 @@
     <string name="tests_card_not_attempted">Not attempted yet</string>
     <string name="tests_card_best_fmt">Best: %1$s / %2$s · %3$d attempts</string>
     <string name="tests_card_best_single_fmt">Best: %1$s / %2$s · 1 attempt</string>
+    <string name="tests_search_hint">Search questions, options, explanations</string>
+    <string name="tests_search_empty">No matching questions found.</string>
+    <string name="tests_search_error">Couldn\'t search questions.</string>
+    <string name="tests_search_result_source_fmt">%1$s · %2$s · Q%3$d</string>
+    <string name="tests_search_bookmarked">Bookmarked</string>
+    <string name="tests_search_wrong_before">Wrong earlier</string>
+    <string name="tests_difficulty_easy">Easy</string>
+    <string name="tests_difficulty_medium">Medium</string>
+    <string name="tests_difficulty_hard">Hard</string>
+    <string name="tests_pro_required_title">Pro test</string>
+    <string name="tests_pro_required_body_fmt">%1$s is a Pro test. Use your 7-day trial or subscribe through Google Play to unlock Pro tests.</string>
+    <string name="tests_get_pro">Get Pro</string>
+    <string name="tests_pro_maybe_later">Not now</string>
 
     <!-- Instructions -->
     <string name="instructions_title">Instructions</string>
@@ -39,10 +52,17 @@
     <string name="instructions_resume">Resume test</string>
     <string name="instructions_starting">Starting…</string>
     <string name="instructions_start_error">Couldn\'t start the test. Please try again.</string>
+    <string name="instructions_pro_required">This test requires Pro. Use your active trial or subscribe through Google Play.</string>
 
     <!-- Battery optimization exemption prompt (shown at test Start, not app launch) -->
     <string name="battopt_title">Keep the app running</string>
     <string name="battopt_body">This device may stop the app during a long test. Disable battery optimization for RailPrep to keep your timer accurate.</string>
+    <string name="battopt_body_fmt">This %1$s device may stop RailPrep during a long test. %2$s</string>
+    <string name="battopt_device_generic">Android</string>
+    <string name="battopt_oem_coloros">Allow auto-launch, allow background activity, and set Battery / Energy saver to don\'t optimize.</string>
+    <string name="battopt_oem_miui">Enable Autostart, set Battery saver to No restrictions, and lock RailPrep in recents.</string>
+    <string name="battopt_oem_oneui">Set Battery / Background usage limits / Never sleeping apps for RailPrep.</string>
+    <string name="battopt_oem_generic">Open battery settings and exclude RailPrep from battery optimization.</string>
     <string name="battopt_open_settings">Open settings</string>
     <string name="battopt_skip">Skip</string>
 
