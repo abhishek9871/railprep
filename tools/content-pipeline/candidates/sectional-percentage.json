@@ -15,9 +15,9 @@
       "license": "ORIGINAL",
       "options": [
         { "label": "A", "text_en": "84", "text_hi": "84", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
-        { "label": "B", "text_en": "82", "text_hi": "82", "is_correct": false, "trap_reason_en": "Computed 35×240/100 but rounded to nearest 10 too aggressively.", "trap_reason_hi": "35×240/100 निकाला पर 10 के पास round कर दिया।" },
-        { "label": "C", "text_en": "96", "text_hi": "96", "is_correct": false, "trap_reason_en": "Used 40% (rounded up the rate).", "trap_reason_hi": "rate को 40% तक round कर दिया।" },
-        { "label": "D", "text_en": "72", "text_hi": "72", "is_correct": false, "trap_reason_en": "Used 30% (rounded down the rate).", "trap_reason_hi": "rate को 30% तक round कर दिया।" }
+        { "label": "B", "text_en": "82", "text_hi": "82", "is_correct": false, "trap_reason_en": "Took 30% = 72 and used 5% = 10 instead of 12, giving 72 + 10 = 82.", "trap_reason_hi": "30% = 72 लिया और 5% को 12 की जगह 10 लिया; 72 + 10 = 82।" },
+        { "label": "C", "text_en": "96", "text_hi": "96", "is_correct": false, "trap_reason_en": "Used 40% of 240: 4 × 24 = 96, replacing the required 35%.", "trap_reason_hi": "35% की जगह 40% लगाया: 4 × 24 = 96।" },
+        { "label": "D", "text_en": "72", "text_hi": "72", "is_correct": false, "trap_reason_en": "Used only 30% of 240: 3 × 24 = 72, missing the extra 5%.", "trap_reason_hi": "सिर्फ 30% लिया: 3 × 24 = 72; extra 5% छूट गया।" }
       ],
       "explanation_method_en": "35% = 35/100 = 0.35. 0.35 × 240 = 84. Quicker: 10% of 240 = 24, so 35% = 24 × 3.5 = 84.",
       "explanation_concept_en": "'Percent' means 'per 100'. p% of N = (p × N)/100. The fraction p/100 is the multiplier; multiplying any number N by it scales N down proportionally. 10% chunks are easy mental anchors — split the rate into 10s and remainders.",
@@ -93,7 +93,7 @@
         { "label": "A", "text_en": "Increase by 50%", "text_hi": "50% की बढ़त", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
         { "label": "B", "text_en": "Increase by 10%", "text_hi": "10% की बढ़त", "is_correct": false, "trap_reason_en": "Subtracted 10 from 20 — but salary and expenses are different bases, you can't compare percentages directly.", "trap_reason_hi": "20 से 10 घटाया — पर salary और expenses के base अलग हैं, percentages को सीधे compare नहीं कर सकते।" },
         { "label": "C", "text_en": "Increase by 30%", "text_hi": "30% की बढ़त", "is_correct": false, "trap_reason_en": "Added 20 + 10 = 30 — wrong direction, expenses cut savings, they don't add.", "trap_reason_hi": "20 + 10 = 30 जोड़ा — दिशा गलत, expenses savings कम करते हैं, जोड़ते नहीं।" },
-        { "label": "D", "text_en": "Increase by 25%", "text_hi": "25% की बढ़त", "is_correct": false, "trap_reason_en": "Approximation by feel — actual answer requires computing absolute Δsavings = 20−7.5 = 12.5 on a savings base of 25.", "trap_reason_hi": "अंदाज़ से — असली answer में Δsavings = 20−7.5 = 12.5 (savings base 25 पर) निकालना पड़ता है।" }
+        { "label": "D", "text_en": "Increase by 25%", "text_hi": "25% की बढ़त", "is_correct": false, "trap_reason_en": "Found savings increase = 12.5, then divided by 50 instead of original savings 25: 12.5/50 = 25%.", "trap_reason_hi": "savings increase = 12.5 निकाला, फिर original savings 25 की जगह 50 से divide किया: 12.5/50 = 25%।" }
       ],
       "explanation_method_en": "Take salary = 100, so expenses = 75 and savings = 25. New salary = 120, new expenses = 75 × 1.10 = 82.5. New savings = 120 − 82.5 = 37.5. Change = (37.5 − 25)/25 = 50%.",
       "explanation_concept_en": "Savings are the residual: salary minus expenses. When two different bases (here 100 and 75) grow at different rates, the residual's percent change depends on the absolute changes, not the percent changes. Always assume a clean base (e.g., 100), compute absolute amounts, and only then convert the change in the residual back to a percent.",
@@ -111,7 +111,7 @@
       "options": [
         { "label": "A", "text_en": "25%", "text_hi": "25%", "is_correct": false, "trap_reason_en": "Symmetric instinct — but cutting consumption by 25% only offsets a small price rise, not 25%. Bases differ.", "trap_reason_hi": "symmetric instinct से — पर 25% consumption cut छोटी price rise को offset करता है, 25% को नहीं। bases अलग।" },
         { "label": "B", "text_en": "20%", "text_hi": "20%", "is_correct": true, "trap_reason_en": null, "trap_reason_hi": null },
-        { "label": "C", "text_en": "15%", "text_hi": "15%", "is_correct": false, "trap_reason_en": "Underestimated — 15% consumption cut leaves expenditure higher than original.", "trap_reason_hi": "अंदाज़ कम — 15% consumption cut से expenditure मूल से ज़्यादा रह जाता है।" },
+        { "label": "C", "text_en": "15%", "text_hi": "15%", "is_correct": false, "trap_reason_en": "Used 25% price rise minus a 10-point adjustment to get 15%. But 1.25 × 0.85 = 1.0625, so expenditure still rises by 6.25%.", "trap_reason_hi": "25% price rise में से 10-point adjustment घटाकर 15% लिया। पर 1.25 × 0.85 = 1.0625, इसलिए expenditure फिर भी 6.25% बढ़ता है।" },
         { "label": "D", "text_en": "30%", "text_hi": "30%", "is_correct": false, "trap_reason_en": "Overcompensated — 30% consumption cut would leave expenditure lower than original.", "trap_reason_hi": "Overcompensate — 30% consumption cut से expenditure मूल से कम हो जाता है।" }
       ],
       "explanation_method_en": "Formula: required reduction% = (rise%)/(100 + rise%) × 100 = 25/125 × 100 = 20%.",
@@ -149,7 +149,7 @@
       "options": [
         { "label": "A", "text_en": "13%",   "text_hi": "13%",   "is_correct": false, "trap_reason_en": "Used (3000/23000)×100 — divided by the new value instead of the old.",       "trap_reason_hi": "(3000/23000)×100 लगाया — नए value से भाग दिया, पुराने से नहीं।" },
         { "label": "B", "text_en": "15%",   "text_hi": "15%",   "is_correct": true,  "trap_reason_en": null,                                                                          "trap_reason_hi": null },
-        { "label": "C", "text_en": "10%",   "text_hi": "10%",   "is_correct": false, "trap_reason_en": "Estimation — close to 15 but underestimated. 3000/20000 = 0.15 = 15%, exact.", "trap_reason_hi": "अंदाज़ कम — 15 के पास, पर 3000/20000 = 0.15 = 15% exact है।" },
+        { "label": "C", "text_en": "10%",   "text_hi": "10%",   "is_correct": false, "trap_reason_en": "Divided 3000 by 30000 instead of 20000: 3000/30000 × 100 = 10%.", "trap_reason_hi": "3000 को 20000 की जगह 30000 से divide किया: 3000/30000 × 100 = 10%।" },
         { "label": "D", "text_en": "1.15%", "text_hi": "1.15%", "is_correct": false, "trap_reason_en": "Computed 3000/20000 = 0.15 but forgot to multiply by 100 to convert to %.",   "trap_reason_hi": "3000/20000 = 0.15 निकाला पर × 100 भूल गए।" }
       ],
       "explanation_method_en": "Increase = 23000 − 20000 = 3000. % increase = 3000/20000 × 100 = 15%.",
@@ -206,7 +206,7 @@
       "options": [
         { "label": "A", "text_en": "60",  "text_hi": "60",  "is_correct": false, "trap_reason_en": "Used 24 ÷ 0.40 — used wrong fail percentage.",                       "trap_reason_hi": "24 ÷ 0.40 लगाया — fail % गलत।" },
         { "label": "B", "text_en": "80",  "text_hi": "80",  "is_correct": true,  "trap_reason_en": null,                                                                  "trap_reason_hi": null },
-        { "label": "C", "text_en": "100", "text_hi": "100", "is_correct": false, "trap_reason_en": "Used 24/24 = 1 ⇒ 100. Estimation slip.",                                "trap_reason_hi": "अंदाज़ — 24/0.24 लगाने में जल्दबाज़ी।" },
+        { "label": "C", "text_en": "100", "text_hi": "100", "is_correct": false, "trap_reason_en": "Used 24/24 = 1, then converted it to 100; the fail fraction should be 30%, so total = 24/0.30 = 80.", "trap_reason_hi": "24/24 = 1 करके 100 लिया; fail fraction 30% है, इसलिए total = 24/0.30 = 80।" },
         { "label": "D", "text_en": "120", "text_hi": "120", "is_correct": false, "trap_reason_en": "Used 24 ÷ 0.20 — used 20% fail rate, but actual is 30%.",                "trap_reason_hi": "24 ÷ 0.20 लगाया — 20% fail माना, सही 30%।" }
       ],
       "explanation_method_en": "Pass% = 70 ⇒ Fail% = 30. 30% of total = 24 ⇒ total = 24 ÷ 0.30 = 80.",
@@ -225,7 +225,7 @@
       "options": [
         { "label": "A", "text_en": "55%", "text_hi": "55%", "is_correct": false, "trap_reason_en": "Subtracted 20+25 = 45% directly from 100% — wrong, compound effects.", "trap_reason_hi": "20+25 = 45% सीधे घटाया — गलत, compound effect।" },
         { "label": "B", "text_en": "60%", "text_hi": "60%", "is_correct": true,  "trap_reason_en": null,                                                                       "trap_reason_hi": null },
-        { "label": "C", "text_en": "65%", "text_hi": "65%", "is_correct": false, "trap_reason_en": "Estimated by additive feel — actual is 60.",                                "trap_reason_hi": "अंदाज़ से — असली 60 है।" },
+        { "label": "C", "text_en": "65%", "text_hi": "65%", "is_correct": false, "trap_reason_en": "Subtracted 20 and 25 from 100, then added back 10: 100 - 45 + 10 = 65. The overlap correction should be 5, so A is 60% of C.", "trap_reason_hi": "100 से 20 और 25 घटाकर 10 वापस जोड़ा: 100 - 45 + 10 = 65। correction 5 होना चाहिए, इसलिए A = 60% of C।" },
         { "label": "D", "text_en": "75%", "text_hi": "75%", "is_correct": false, "trap_reason_en": "Took only the B-vs-C step (75%) and forgot the A-vs-B step.",               "trap_reason_hi": "केवल B-vs-C step (75%) लिया, A-vs-B भूले।" }
       ],
       "explanation_method_en": "Take C = 100. B = 100 × 0.75 = 75. A = 75 × 0.80 = 60. So A = 60% of C.",
@@ -245,7 +245,7 @@
         { "label": "A", "text_en": "20%",         "text_hi": "20%",         "is_correct": false, "trap_reason_en": "Used 12/60 instead of 12/42 — divided present girls by total class, not present class.", "trap_reason_hi": "12/60 लगाया, सही 12/42 — divisor present class नहीं, total लिया।" },
         { "label": "B", "text_en": "Approx 28.6%", "text_hi": "लगभग 28.6%", "is_correct": true,  "trap_reason_en": null,                                                                                          "trap_reason_hi": null },
         { "label": "C", "text_en": "40%",         "text_hi": "40%",         "is_correct": false, "trap_reason_en": "This is the original girls% — but absent girls reduced it.",                                  "trap_reason_hi": "मूल girls% यही है — पर absent ने इसे कम कर दिया।" },
-        { "label": "D", "text_en": "32%",         "text_hi": "32%",         "is_correct": false, "trap_reason_en": "Used 12/(50−8) but rounded the calculation in the wrong direction.",                          "trap_reason_hi": "12/(50−8) लगाया पर round wrong direction में किया।" }
+        { "label": "D", "text_en": "32%",         "text_hi": "32%",         "is_correct": false, "trap_reason_en": "Used 37.5 as the present-class base instead of 42: 12/37.5 × 100 = 32%.",                       "trap_reason_hi": "present class base 42 की जगह 37.5 लिया: 12/37.5 × 100 = 32%।" }
       ],
       "explanation_method_en": "Total = 50, boys = 30, girls = 20. Absent girls = 8 ⇒ present girls = 12. Present class = 50 − 8 = 42. % = 12/42 × 100 ≈ 28.57%. Rounded to one decimal, this is 28.6%.",
       "explanation_concept_en": "When the population's composition changes (here through absences), recompute the relevant base. The 'percent present girls' takes 'present girls' as the numerator and 'present total' (not original total) as the denominator. The boys count stays at 30 because no boys are absent.",
@@ -263,7 +263,7 @@
       "options": [
         { "label": "A", "text_en": "Approx 16.9%", "text_hi": "लगभग 16.9%", "is_correct": true,  "trap_reason_en": null,                                                                                                          "trap_reason_hi": null },
         { "label": "B", "text_en": "22%",          "text_hi": "22%",          "is_correct": false, "trap_reason_en": "Subtracted 8 from 30 directly — but expenditure = price × consumption, ratios involved.",               "trap_reason_hi": "30 में से 8 घटाया — पर expenditure = price × consumption, ratios लगते हैं।" },
-        { "label": "C", "text_en": "20%",          "text_hi": "20%",          "is_correct": false, "trap_reason_en": "Approximation — actual consumption ratio is 1.08/1.30 ≈ 0.831, drop ≈ 16.9%, not 20%.",                  "trap_reason_hi": "अंदाज़ से — actual consumption ratio 1.08/1.30 ≈ 0.831, drop ≈ 16.9% है।" },
+        { "label": "C", "text_en": "20%",          "text_hi": "20%",          "is_correct": false, "trap_reason_en": "Used price ratio 1.35 instead of 1.30: 1.08/1.35 = 0.80, giving a 20% drop.",                         "trap_reason_hi": "price ratio 1.30 की जगह 1.35 लिया: 1.08/1.35 = 0.80, इसलिए 20% drop।" },
         { "label": "D", "text_en": "30%",          "text_hi": "30%",          "is_correct": false, "trap_reason_en": "Cancelled the price rise entirely — would mean expenditure didn't change.",                                "trap_reason_hi": "price rise पूरा cancel कर दिया — पर तब expenditure वही रहती।" }
       ],
       "explanation_method_en": "expenditure = price × consumption. So consumption_ratio = expenditure_ratio / price_ratio = 1.08 / 1.30 ≈ 0.8308. Drop ≈ (1 − 0.8308) × 100 ≈ 16.9%.",

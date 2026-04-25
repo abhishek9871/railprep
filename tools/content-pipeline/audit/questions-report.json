@@ -1,5 +1,5 @@
 {
-  "stamp": "2026-04-25T10:19:35.517Z",
+  "stamp": "2026-04-25T11:30:17.174Z",
   "fileSummaries": [
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-averages.json",
@@ -11,7 +11,7 @@
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-percentage.json",
       "count": 15,
       "errors": 0,
-      "warnings": 7
+      "warnings": 0
     },
     {
       "file": "C:\\Users\\VASU\\Desktop\\railprep\\tools\\content-pipeline\\candidates\\sectional-profit-loss.json",
@@ -39,13 +39,5 @@
     }
   ],
   "errors": [],
-  "warnings": [
-    "Q[0] (pct-01): option B trap_reason_en uses vibe-language (rounded); name the specific computation that produces this value",
-    "Q[0] (pct-01): option C trap_reason_en uses vibe-language (rounded); name the specific computation that produces this value",
-    "Q[0] (pct-01): option D trap_reason_en uses vibe-language (rounded); name the specific computation that produces this value",
-    "Q[4] (pct-05): option D trap_reason_en uses vibe-language (Approximation); name the specific computation that produces this value",
-    "Q[11] (pct-12): option C trap_reason_en uses vibe-language (Estimated); name the specific computation that produces this value",
-    "Q[12] (pct-13): option D trap_reason_en uses vibe-language (rounded); name the specific computation that produces this value",
-    "Q[13] (pct-14): option C trap_reason_en uses vibe-language (Approximation); name the specific computation that produces this value"
-  ]
+  "warnings": []
 }
