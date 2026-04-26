@@ -1,6 +1,8 @@
 package com.railprep.feature.home.profile
 
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -15,10 +17,10 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.automirrored.filled.Logout
 import androidx.compose.material.icons.filled.BookmarkBorder
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
-import androidx.compose.material.icons.filled.Logout
 import androidx.compose.material.icons.filled.LockOpen
 import androidx.compose.material.icons.filled.NotificationsActive
 import androidx.compose.material.icons.filled.Person
@@ -73,6 +75,7 @@ fun ProfileTab(
     val state by viewModel.state.collectAsStateWithLifecycle()
     var showLanguagePicker by remember { mutableStateOf(false) }
     var showNotifPrompt by remember { mutableStateOf(false) }
+    var showSignOutConfirm by remember { mutableStateOf(false) }
     val context = androidx.compose.ui.platform.LocalContext.current
 
     LifecycleEventEffect(Lifecycle.Event.ON_RESUME) {
@@ -82,6 +85,7 @@ fun ProfileTab(
     Column(
         modifier = Modifier
             .fillMaxSize()
+            .verticalScroll(rememberScrollState())
             .padding(horizontal = Spacing.Lg, vertical = Spacing.Xl),
         verticalArrangement = Arrangement.spacedBy(Spacing.Md),
     ) {
@@ -127,6 +131,12 @@ fun ProfileTab(
             label = stringResource(R.string.profile_account_settings),
             onClick = onOpenAccountSettings,
         )
+        ProfileRow(
+            icon = Icons.AutoMirrored.Filled.Logout,
+            label = stringResource(R.string.profile_sign_out),
+            onClick = { showSignOutConfirm = true },
+            destructive = true,
+        )
         ProfileRow(icon = Icons.Filled.Translate, label = stringResource(R.string.profile_language), onClick = { showLanguagePicker = true })
 
         NotificationsToggleRow(
@@ -149,13 +159,6 @@ fun ProfileTab(
 
         Spacer(Modifier.size(Spacing.Md))
 
-        ProfileRow(
-            icon = Icons.Filled.Logout,
-            label = stringResource(R.string.profile_sign_out),
-            onClick = { viewModel.signOut(onSignedOut) },
-            destructive = true,
-        )
-
         Text(
             text = stringResource(R.string.profile_diag_hint),
             style = MaterialTheme.typography.bodySmall,
@@ -171,6 +174,32 @@ fun ProfileTab(
             onPick = { lang ->
                 viewModel.setLanguage(lang)
                 showLanguagePicker = false
+            },
+        )
+    }
+
+    if (showSignOutConfirm) {
+        AlertDialog(
+            onDismissRequest = { showSignOutConfirm = false },
+            title = { Text(stringResource(R.string.profile_sign_out_confirm_title)) },
+            text = { Text(stringResource(R.string.profile_sign_out_confirm_body)) },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        showSignOutConfirm = false
+                        viewModel.signOut(onSignedOut)
+                    },
+                ) {
+                    Text(
+                        text = stringResource(R.string.profile_sign_out_confirm_ok),
+                        color = MaterialTheme.colorScheme.error,
+                    )
+                }
+            },
+            dismissButton = {
+                TextButton(onClick = { showSignOutConfirm = false }) {
+                    Text(stringResource(R.string.profile_sign_out_confirm_cancel))
+                }
             },
         )
     }

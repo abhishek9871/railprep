@@ -31,6 +31,10 @@
     <string name="profile_language">Language</string>
     <string name="profile_about">About &amp; attributions</string>
     <string name="profile_sign_out">Sign out</string>
+    <string name="profile_sign_out_confirm_title">Sign out?</string>
+    <string name="profile_sign_out_confirm_body">You can sign in again anytime with the same email or Google account.</string>
+    <string name="profile_sign_out_confirm_ok">Sign out</string>
+    <string name="profile_sign_out_confirm_cancel">Cancel</string>
     <string name="profile_no_email">No email on file</string>
     <string name="profile_diag_hint">Long-press your avatar for diagnostics.</string>
 

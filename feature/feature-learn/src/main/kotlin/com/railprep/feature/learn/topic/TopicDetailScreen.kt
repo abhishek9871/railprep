@@ -153,7 +153,7 @@ private fun PdfBody(
     modifier: Modifier = Modifier,
 ) {
     val context = LocalContext.current
-    Box(modifier, contentAlignment = Alignment.Center) {
+    Box(modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
         when {
             pdfFile != null -> PdfViewer(pdfFile, modifier = Modifier.fillMaxSize())
             downloading -> CircularProgressIndicator()
@@ -203,9 +203,7 @@ private fun PdfBody(
 
 @Composable
 private fun ArticleBody(topic: Topic) {
-    val context = LocalContext.current
     val content = topic.contentMd?.trim().orEmpty()
-    val articleUrl = topic.articleUrl
     SelectionContainer {
         Column(
             modifier = Modifier
@@ -222,15 +220,6 @@ private fun ArticleBody(topic: Topic) {
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
-            }
-            if (articleUrl != null) {
-                Button(onClick = {
-                    context.startActivity(Intent(Intent.ACTION_VIEW, articleUrl.toUri()))
-                }) {
-                    Icon(Icons.Filled.OpenInBrowser, contentDescription = null)
-                    Spacer(Modifier.size(Spacing.Xs))
-                    Text(stringResource(R.string.learn_article_open_source))
-                }
             }
         }
     }

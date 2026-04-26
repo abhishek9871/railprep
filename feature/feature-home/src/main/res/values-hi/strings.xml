@@ -27,6 +27,10 @@
     <string name="profile_language">भाषा</string>
     <string name="profile_about">जानकारी और श्रेय</string>
     <string name="profile_sign_out">साइन आउट</string>
+    <string name="profile_sign_out_confirm_title">साइन आउट करें?</string>
+    <string name="profile_sign_out_confirm_body">आप उसी email या Google account से फिर कभी sign in कर सकते हैं।</string>
+    <string name="profile_sign_out_confirm_ok">साइन आउट</string>
+    <string name="profile_sign_out_confirm_cancel">Cancel</string>
     <string name="profile_no_email">कोई ईमेल दर्ज नहीं</string>
     <string name="profile_diag_hint">अवतार पर लंबे समय दबाएँ — डायग्नोस्टिक्स खुलेंगे।</string>
 

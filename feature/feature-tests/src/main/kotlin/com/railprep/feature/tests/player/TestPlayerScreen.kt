@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -384,7 +385,11 @@ private fun PlayerBottomBar(
     nextEnabled: Boolean,
     submitEnabled: Boolean,
 ) {
-    Surface(color = MaterialTheme.colorScheme.surface, shadowElevation = 6.dp) {
+    Surface(
+        color = MaterialTheme.colorScheme.surface,
+        shadowElevation = 6.dp,
+        modifier = Modifier.navigationBarsPadding(),
+    ) {
         Row(
             modifier = Modifier
                 .fillMaxWidth()

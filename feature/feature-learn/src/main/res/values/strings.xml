@@ -11,7 +11,7 @@
     <string name="learn_pdf_retry">Retry</string>
     <string name="learn_pdf_unsupported">This PDF can\'t be displayed in-app.</string>
     <string name="learn_pdf_unsupported_hint">The link may be stale or the file is protected. You can open it in your browser instead.</string>
-    <string name="learn_article_external_hint">This topic is available from its source site.</string>
+    <string name="learn_article_external_hint">This primer is being prepared for in-app reading.</string>
     <string name="learn_article_open_source">Open source</string>
 
     <!-- Attribution per source type (licensing register lives in About screen). -->
