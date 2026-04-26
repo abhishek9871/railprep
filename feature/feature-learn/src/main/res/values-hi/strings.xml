@@ -11,11 +11,13 @@
     <string name="learn_pdf_retry">पुनः प्रयास</string>
     <string name="learn_pdf_unsupported">यह PDF ऐप में नहीं खुल सकती।</string>
     <string name="learn_pdf_unsupported_hint">लिंक पुराना हो सकता है या फ़ाइल सुरक्षित है। आप इसे ब्राउज़र में खोल सकते हैं।</string>
-    <string name="learn_article_placeholder">लेख सुविधा फ़ेज़ 4 में आएगी।</string>
+    <string name="learn_article_external_hint">यह topic अपने source site पर उपलब्ध है।</string>
+    <string name="learn_article_open_source">Source खोलें</string>
 
     <string name="attrib_ncert_fmt">स्रोत: %1$s — ncert.nic.in. RailPrep NCERT की मूल PDF से लिंक करता है, कॉपी होस्ट नहीं करता।</string>
     <string name="attrib_godl_fmt">स्रोत: %1$s. GODL-India के अंतर्गत प्रकाशित।</string>
     <string name="attrib_ccbysa_fmt">स्रोत: %1$s. CC BY-SA 4.0.</string>
     <string name="attrib_yt_fmt">स्रोत: %1$s (YouTube). आधिकारिक YouTube IFrame प्लेयर पर चलाया गया।</string>
     <string name="attrib_public_fmt">स्रोत: %1$s. पब्लिक डोमेन.</string>
+    <string name="attrib_original_fmt">स्रोत: %1$s. RailPrep का original learning content.</string>
 </resources>

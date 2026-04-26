@@ -8,8 +8,15 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Visibility
+import androidx.compose.material.icons.filled.VisibilityOff
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
@@ -22,14 +29,18 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import androidx.compose.foundation.text.KeyboardOptions
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.RailPrepTheme
@@ -52,7 +63,7 @@ fun EmailAuthScreen(
         // stays as a persistent banner so the user doesn't keep hammering the Create account
         // button (which hits 429 rate limits).
         if (state.info == EmailAuthViewModel.INFO_RESET_EMAIL_SENT) {
-            onForgotPasswordRequested(state.email)
+            onForgotPasswordRequested(EmailAuthViewModel.normalizedEmail(state.email))
             viewModel.clearInfo()
         }
     }
@@ -86,6 +97,9 @@ internal fun EmailAuthContent(
     onBack: () -> Unit,
     snackbarHostState: SnackbarHostState,
 ) {
+    val focusManager = LocalFocusManager.current
+    var passwordVisible by remember { mutableStateOf(false) }
+
     Scaffold(
         snackbarHost = { SnackbarHost(snackbarHostState) },
         containerColor = MaterialTheme.colorScheme.background,
@@ -142,7 +156,10 @@ internal fun EmailAuthContent(
                 isError = state.emailError != null,
                 supportingText = state.emailError?.let { { Text(emailErrorText(it)) } },
                 singleLine = true,
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
+                keyboardOptions = KeyboardOptions(
+                    keyboardType = KeyboardType.Email,
+                    imeAction = ImeAction.Next,
+                ),
                 modifier = Modifier.fillMaxWidth(),
             )
 
@@ -151,10 +168,36 @@ internal fun EmailAuthContent(
                 onValueChange = onPasswordChange,
                 label = { Text(stringResource(R.string.email_field_password)) },
                 isError = state.passwordError != null,
-                supportingText = state.passwordError?.let { { Text(passwordErrorText(it)) } },
+                supportingText = {
+                    Text(
+                        state.passwordError?.let { passwordErrorText(it) }
+                            ?: if (state.mode == EmailMode.CreateAccount) {
+                                stringResource(R.string.password_helper_create)
+                            } else {
+                                stringResource(R.string.password_helper_sign_in)
+                            },
+                    )
+                },
                 singleLine = true,
-                visualTransformation = PasswordVisualTransformation(),
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                visualTransformation = if (passwordVisible) VisualTransformation.None else PasswordVisualTransformation(),
+                trailingIcon = {
+                    IconButton(onClick = { passwordVisible = !passwordVisible }) {
+                        Icon(
+                            imageVector = if (passwordVisible) Icons.Filled.VisibilityOff else Icons.Filled.Visibility,
+                            contentDescription = stringResource(R.string.password_toggle_visibility),
+                        )
+                    }
+                },
+                keyboardOptions = KeyboardOptions(
+                    keyboardType = KeyboardType.Password,
+                    imeAction = ImeAction.Done,
+                ),
+                keyboardActions = KeyboardActions(
+                    onDone = {
+                        focusManager.clearFocus()
+                        onSubmit()
+                    },
+                ),
                 modifier = Modifier.fillMaxWidth(),
             )
 
@@ -205,6 +248,7 @@ private fun emailErrorText(code: String): String = when (code) {
 private fun passwordErrorText(code: String): String = when (code) {
     "EMPTY" -> stringResource(R.string.password_err_empty)
     "TOO_SHORT" -> stringResource(R.string.password_err_too_short)
+    "WEAK" -> stringResource(R.string.password_err_weak)
     else -> code
 }
 

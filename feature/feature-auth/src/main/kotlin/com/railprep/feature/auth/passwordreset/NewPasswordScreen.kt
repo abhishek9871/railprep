@@ -74,8 +74,11 @@ fun NewPasswordScreen(
                 onValueChange = viewModel::onPasswordChange,
                 label = { Text(stringResource(R.string.new_password_field_new)) },
                 isError = state.passwordError != null,
-                supportingText = state.passwordError?.let {
-                    { Text(passwordErrorText(it)) }
+                supportingText = {
+                    Text(
+                        state.passwordError?.let { passwordErrorText(it) }
+                            ?: stringResource(R.string.password_helper_create),
+                    )
                 },
                 singleLine = true,
                 visualTransformation = PasswordVisualTransformation(),
@@ -120,5 +123,6 @@ fun NewPasswordScreen(
 private fun passwordErrorText(code: String): String = when (code) {
     "EMPTY" -> stringResource(R.string.password_err_empty)
     "TOO_SHORT" -> stringResource(R.string.password_err_too_short)
+    "WEAK" -> stringResource(R.string.password_err_weak)
     else -> code
 }

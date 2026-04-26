@@ -21,7 +21,7 @@ data class Chapter(
 
 enum class ContentType { YT_VIDEO, PDF_URL, ARTICLE, QUIZ }
 
-enum class License { CC_BY_SA, GODL_INDIA, PUBLIC_DOMAIN, YT_STANDARD, NCERT_LINKED }
+enum class License { CC_BY_SA, GODL_INDIA, PUBLIC_DOMAIN, YT_STANDARD, NCERT_LINKED, ORIGINAL }
 
 enum class TopicStatus { ACTIVE, STALE, REMOVED }
 
@@ -39,6 +39,7 @@ data class Topic(
     val externalVideoId: String?,
     val externalPdfUrl: String?,
     val articleUrl: String?,
+    val contentMd: String?,
     val source: String,
     val license: License,
     val durationSeconds: Int?,

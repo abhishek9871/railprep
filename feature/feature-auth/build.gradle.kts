@@ -16,6 +16,7 @@ dependencies {
 
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.kotlinx.datetime)
+    implementation(libs.androidx.compose.material.icons)
 
     // Credential Manager + Google Identity
     implementation(libs.androidx.credentials)

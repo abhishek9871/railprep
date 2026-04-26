@@ -1,6 +1,9 @@
 package com.railprep.feature.learn.topic
 
 import android.content.Intent
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.selection.SelectionContainer
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,6 +41,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -129,7 +134,7 @@ fun TopicDetailScreen(
                             onRetry = { viewModel.retryPdf() },
                             modifier = Modifier.weight(1f),
                         )
-                        ContentType.ARTICLE, ContentType.QUIZ -> ArticlePlaceholder(topic)
+                        ContentType.ARTICLE, ContentType.QUIZ -> ArticleBody(topic)
                     }
                     AttributionFooter(topic)
                 }
@@ -197,14 +202,88 @@ private fun PdfBody(
 }
 
 @Composable
-private fun ArticlePlaceholder(topic: Topic) {
-    Column(modifier = Modifier.fillMaxSize().padding(Spacing.Lg)) {
-        Text(
-            text = stringResource(R.string.learn_article_placeholder),
-            style = MaterialTheme.typography.bodyLarge,
-        )
+private fun ArticleBody(topic: Topic) {
+    val context = LocalContext.current
+    val content = topic.contentMd?.trim().orEmpty()
+    val articleUrl = topic.articleUrl
+    SelectionContainer {
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState())
+                .padding(Spacing.Lg),
+            verticalArrangement = Arrangement.spacedBy(Spacing.Sm),
+        ) {
+            if (content.isNotBlank()) {
+                MarkdownContent(content)
+            } else {
+                Text(
+                    text = stringResource(R.string.learn_article_external_hint),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            if (articleUrl != null) {
+                Button(onClick = {
+                    context.startActivity(Intent(Intent.ACTION_VIEW, articleUrl.toUri()))
+                }) {
+                    Icon(Icons.Filled.OpenInBrowser, contentDescription = null)
+                    Spacer(Modifier.size(Spacing.Xs))
+                    Text(stringResource(R.string.learn_article_open_source))
+                }
+            }
+        }
     }
 }
+
+@Composable
+private fun MarkdownContent(content: String) {
+    content.lineSequence().forEach { rawLine ->
+        val line = rawLine.trim()
+        when {
+            line.isBlank() -> Spacer(Modifier.size(Spacing.Xxs))
+            line.startsWith("### ") -> Text(
+                cleanInlineMarkdown(line.removePrefix("### ")),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.SemiBold,
+            )
+            line.startsWith("## ") -> Text(
+                cleanInlineMarkdown(line.removePrefix("## ")),
+                style = MaterialTheme.typography.titleLarge,
+                fontWeight = FontWeight.SemiBold,
+            )
+            line.startsWith("# ") -> Text(
+                cleanInlineMarkdown(line.removePrefix("# ")),
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.SemiBold,
+            )
+            line.startsWith("- ") || line.startsWith("* ") -> Row(
+                horizontalArrangement = Arrangement.spacedBy(Spacing.Xs),
+                modifier = Modifier.fillMaxWidth(),
+            ) {
+                Text("•", style = MaterialTheme.typography.bodyLarge)
+                Text(
+                    cleanInlineMarkdown(line.drop(2)),
+                    style = MaterialTheme.typography.bodyLarge,
+                    modifier = Modifier.weight(1f),
+                )
+            }
+            line.startsWith("|") -> Text(
+                cleanInlineMarkdown(line),
+                style = MaterialTheme.typography.bodyMedium,
+                fontFamily = FontFamily.Monospace,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            else -> Text(
+                cleanInlineMarkdown(line),
+                style = MaterialTheme.typography.bodyLarge,
+            )
+        }
+    }
+}
+
+private fun cleanInlineMarkdown(value: String): String =
+    value.replace("**", "").replace("__", "").replace("`", "").replace("*", "")
 
 @Composable
 private fun AttributionFooter(topic: Topic) {
@@ -214,6 +293,7 @@ private fun AttributionFooter(topic: Topic) {
         License.CC_BY_SA -> stringResource(R.string.attrib_ccbysa_fmt, topic.source)
         License.YT_STANDARD -> stringResource(R.string.attrib_yt_fmt, topic.source)
         License.PUBLIC_DOMAIN -> stringResource(R.string.attrib_public_fmt, topic.source)
+        License.ORIGINAL -> stringResource(R.string.attrib_original_fmt, topic.source)
     }
     Surface(
         color = MaterialTheme.colorScheme.surfaceVariant,

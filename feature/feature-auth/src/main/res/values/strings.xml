@@ -43,6 +43,10 @@
     <string name="email_err_invalid">That doesn\'t look like a valid email.</string>
     <string name="password_err_empty">Enter a password.</string>
     <string name="password_err_too_short">Use at least 8 characters.</string>
+    <string name="password_err_weak">Use at least one letter and one number.</string>
+    <string name="password_helper_create">Use 8+ characters with at least one letter and one number.</string>
+    <string name="password_helper_sign_in">Enter the password for this email.</string>
+    <string name="password_toggle_visibility">Show or hide password</string>
     <string name="email_reset_sent">Password reset email sent. Check your inbox.</string>
     <string name="email_account_created">Account created. Check your email to confirm.</string>
     <string name="email_banner_confirm">We sent a confirmation link to your email. Click it, then come back here and sign in.</string>
@@ -84,4 +88,8 @@
     <string name="goal_err_required">This is required.</string>
     <string name="goal_err_date_range">Pick a date between 30 days and 2 years from today.</string>
     <string name="goal_err_under_18">You must be at least 18 years old.</string>
+    <string name="goal_err_display_name">Use 60 characters or fewer.</string>
+    <string name="goal_target_date_helper">Choose a realistic date from 30 days to 2 years ahead.</string>
+    <string name="goal_daily_minutes_helper">Set between 30 and 240 minutes. You can change it later.</string>
+    <string name="goal_dob_helper">Required for age eligibility; must be 18+.</string>
 </resources>

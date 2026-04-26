@@ -44,6 +44,10 @@
     <string name="email_err_invalid">यह मान्य ईमेल नहीं लगता।</string>
     <string name="password_err_empty">पासवर्ड डालें।</string>
     <string name="password_err_too_short">कम से कम 8 अक्षर रखें।</string>
+    <string name="password_err_weak">कम से कम एक letter और एक number रखें।</string>
+    <string name="password_helper_create">8+ characters रखें, कम से कम एक letter और एक number के साथ।</string>
+    <string name="password_helper_sign_in">इस email का password डालें।</string>
+    <string name="password_toggle_visibility">Password दिखाएँ या छिपाएँ</string>
     <string name="email_reset_sent">पासवर्ड रीसेट लिंक भेजा गया। अपना ईमेल देखें।</string>
     <string name="email_account_created">खाता बना। पुष्टि के लिए अपना ईमेल देखें।</string>
     <string name="email_banner_confirm">हमने आपकी ईमेल पर पुष्टि लिंक भेजा है। उस पर क्लिक करें और फिर यहाँ लौटकर साइन इन करें।</string>
@@ -85,4 +89,8 @@
     <string name="goal_err_required">यह आवश्यक है।</string>
     <string name="goal_err_date_range">आज से 30 दिन और 2 वर्ष के बीच की तारीख चुनें।</string>
     <string name="goal_err_under_18">आपकी उम्र कम से कम 18 वर्ष होनी चाहिए।</string>
+    <string name="goal_err_display_name">60 characters या कम रखें।</string>
+    <string name="goal_target_date_helper">आज से 30 दिन से 2 वर्ष आगे तक की realistic date चुनें।</string>
+    <string name="goal_daily_minutes_helper">30 से 240 मिनट set करें। इसे बाद में बदल सकते हैं।</string>
+    <string name="goal_dob_helper">Age eligibility के लिए ज़रूरी; उम्र 18+ होनी चाहिए।</string>
 </resources>

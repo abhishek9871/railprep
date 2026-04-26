@@ -27,11 +27,26 @@ class LearnRepositoryImpl @Inject constructor(
 
     override suspend fun listSubjects(): DomainResult<List<Subject>> = withContext(dispatchers.io) {
         runCatchingNetwork("subjects") {
+            val activeChapterIds = supabase.postgrest.from("topics")
+                .select(columns = Columns.ALL) {
+                    filter { eq("status", "active") }
+                }
+                .decodeList<TopicDto>()
+                .map { it.chapterId }
+                .toSet()
+            val activeSubjectIds = supabase.postgrest.from("chapters")
+                .select(columns = Columns.ALL)
+                .decodeList<ChapterDto>()
+                .filter { it.id in activeChapterIds }
+                .map { it.subjectId }
+                .toSet()
+
             supabase.postgrest.from("subjects")
                 .select(columns = Columns.ALL) {
                     order("display_order", Order.ASCENDING)
                 }
                 .decodeList<SubjectDto>()
+                .filter { it.id in activeSubjectIds }
                 .map { it.toDomain() }
         }
     }
@@ -39,12 +54,21 @@ class LearnRepositoryImpl @Inject constructor(
     override suspend fun listChapters(subjectId: String): DomainResult<List<Chapter>> =
         withContext(dispatchers.io) {
             runCatchingNetwork("chapters") {
+                val activeChapterIds = supabase.postgrest.from("topics")
+                    .select(columns = Columns.ALL) {
+                        filter { eq("status", "active") }
+                    }
+                    .decodeList<TopicDto>()
+                    .map { it.chapterId }
+                    .toSet()
+
                 supabase.postgrest.from("chapters")
                     .select(columns = Columns.ALL) {
                         filter { eq("subject_id", subjectId) }
                         order("display_order", Order.ASCENDING)
                     }
                     .decodeList<ChapterDto>()
+                    .filter { it.id in activeChapterIds }
                     .map { it.toDomain() }
             }
         }

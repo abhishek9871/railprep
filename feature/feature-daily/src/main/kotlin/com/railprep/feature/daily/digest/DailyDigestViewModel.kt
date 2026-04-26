@@ -71,7 +71,7 @@ class DailyDigestViewModel @Inject constructor(
     fun selectOption(questionId: String, optionId: String?) {
         _state.update { s ->
             val next = s.answers.toMutableMap().also { it[questionId] = optionId }
-            s.copy(answers = next)
+            s.copy(answers = next, error = null)
         }
     }
 

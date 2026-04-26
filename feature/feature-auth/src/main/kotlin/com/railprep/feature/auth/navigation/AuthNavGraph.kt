@@ -67,7 +67,7 @@ fun NavGraphBuilder.authGraph(
         AuthScreen(
             webClientId = webClientId,
             onAuthenticated = {
-                navController.navigate(AuthRoute.Goal) {
+                navController.navigate(AuthRoute.Splash) {
                     popUpTo(AuthRoute.Auth) { inclusive = true }
                 }
             },
@@ -78,7 +78,7 @@ fun NavGraphBuilder.authGraph(
     composable<AuthRoute.EmailAuth> {
         EmailAuthScreen(
             onAuthenticated = {
-                navController.navigate(AuthRoute.Goal) {
+                navController.navigate(AuthRoute.Splash) {
                     popUpTo(AuthRoute.Auth) { inclusive = true }
                 }
             },
@@ -103,7 +103,7 @@ fun NavGraphBuilder.authGraph(
     composable<AuthRoute.PasswordResetNewPassword> {
         NewPasswordScreen(
             onSuccess = {
-                navController.navigate(AuthRoute.Goal) {
+                navController.navigate(AuthRoute.Splash) {
                     popUpTo(AuthRoute.Auth) { inclusive = true }
                 }
             },

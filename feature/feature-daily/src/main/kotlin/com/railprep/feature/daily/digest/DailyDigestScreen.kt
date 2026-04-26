@@ -1,5 +1,6 @@
 package com.railprep.feature.daily.digest
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -225,6 +226,11 @@ private fun OptionRow(
         color = if (selected) MaterialTheme.colorScheme.primaryContainer
                 else MaterialTheme.colorScheme.surfaceVariant,
         shape = RoundedCornerShape(Radius.Md),
+        border = BorderStroke(
+            width = if (selected) 2.dp else 1.dp,
+            color = if (selected) MaterialTheme.colorScheme.primary
+                    else MaterialTheme.colorScheme.outlineVariant,
+        ),
         modifier = Modifier
             .fillMaxWidth()
             .heightIn(min = TouchTarget.Min),

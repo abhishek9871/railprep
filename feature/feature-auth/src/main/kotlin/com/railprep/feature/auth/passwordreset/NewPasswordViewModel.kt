@@ -70,6 +70,7 @@ class NewPasswordViewModel @Inject constructor(
         internal fun validatePassword(p: String): String? {
             if (p.isEmpty()) return "EMPTY"
             if (p.length < 8) return "TOO_SHORT"
+            if (!p.any(Char::isLetter) || !p.any(Char::isDigit)) return "WEAK"
             return null
         }
 

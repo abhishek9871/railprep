@@ -34,6 +34,7 @@ data class GoalUiState(
     val dob: LocalDate? = null,
     val loading: Boolean = false,
     val submitEnabled: Boolean = false,
+    val attemptedSubmit: Boolean = false,
     val errors: Map<String, String> = emptyMap(),
     val done: Boolean = false,
 )
@@ -75,7 +76,7 @@ class GoalViewModel @Inject constructor(
         val s = _uiState.value
         val errs = validate(s)
         if (errs.isNotEmpty()) {
-            mutate { it.copy(errors = errs) }
+            mutate { it.copy(attemptedSubmit = true, submitEnabled = false, errors = errs) }
             return
         }
         val goal = ExamGoal(
@@ -101,12 +102,18 @@ class GoalViewModel @Inject constructor(
         }
     }
 
-    private fun GoalUiState.revalidate(): GoalUiState = copy(
-        submitEnabled = validate(this).isEmpty(),
-        errors = emptyMap(),
-    )
+    private fun GoalUiState.revalidate(): GoalUiState {
+        val nextErrors = validate(this)
+        return copy(
+            submitEnabled = nextErrors.isEmpty(),
+            errors = if (attemptedSubmit) nextErrors else emptyMap(),
+        )
+    }
 
     internal fun validate(s: GoalUiState): Map<String, String> = buildMap {
+        if (s.displayName.trim().length > MAX_DISPLAY_NAME_CHARS) {
+            put("displayName", "OUT_OF_RANGE")
+        }
         if (s.examTarget == null) put("examTarget", "REQUIRED")
         if (s.examTargetDate == null) put("examTargetDate", "REQUIRED")
         else if (s.examTargetDate < targetDateMin || s.examTargetDate > targetDateMax) put("examTargetDate", "OUT_OF_RANGE")
@@ -119,5 +126,9 @@ class GoalViewModel @Inject constructor(
 
     private fun mutate(transform: (GoalUiState) -> GoalUiState) {
         _uiState.value = transform(_uiState.value)
+    }
+
+    private companion object {
+        const val MAX_DISPLAY_NAME_CHARS = 60
     }
 }

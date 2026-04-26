@@ -11,7 +11,8 @@
     <string name="learn_pdf_retry">Retry</string>
     <string name="learn_pdf_unsupported">This PDF can\'t be displayed in-app.</string>
     <string name="learn_pdf_unsupported_hint">The link may be stale or the file is protected. You can open it in your browser instead.</string>
-    <string name="learn_article_placeholder">Articles surface is coming in Phase 4.</string>
+    <string name="learn_article_external_hint">This topic is available from its source site.</string>
+    <string name="learn_article_open_source">Open source</string>
 
     <!-- Attribution per source type (licensing register lives in About screen). -->
     <string name="attrib_ncert_fmt">Source: %1$s — ncert.nic.in. RailPrep links to NCERT\'s original PDF and does not host a copy.</string>
@@ -19,4 +20,5 @@
     <string name="attrib_ccbysa_fmt">Source: %1$s. CC BY-SA 4.0.</string>
     <string name="attrib_yt_fmt">Source: %1$s on YouTube. Played via the official YouTube IFrame player.</string>
     <string name="attrib_public_fmt">Source: %1$s. Public domain.</string>
+    <string name="attrib_original_fmt">Source: %1$s. Original RailPrep learning content.</string>
 </resources>

@@ -1,11 +1,5 @@
 package com.railprep.feature.tests.instructions
 
-import android.content.Context
-import android.content.Intent
-import android.net.Uri
-import android.os.Build
-import android.os.PowerManager
-import android.provider.Settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -20,7 +14,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
-import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -30,19 +23,13 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
-import androidx.annotation.StringRes
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -62,8 +49,6 @@ fun InstructionsScreen(
     viewModel: InstructionsViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
-    val ctx = LocalContext.current
-    var showBattOpt by remember { mutableStateOf(false) }
 
     LaunchedEffect(testId) { viewModel.load(testId) }
 
@@ -104,48 +89,10 @@ fun InstructionsScreen(
                 hasActiveAttempt = state.hasActiveAttempt,
                 starting = state.starting,
                 error = state.error,
-                onStart = {
-                    // Battery-optimization exemption prompt — only if not already whitelisted.
-                    // Prompted at test Start (not app launch — launch-time prompts get denied).
-                    if (needsBatteryOptExempt(ctx)) {
-                        showBattOpt = true
-                    } else {
-                        viewModel.start()
-                    }
-                },
+                onStart = { viewModel.start() },
                 modifier = Modifier.fillMaxSize().padding(innerPadding),
             )
         }
-    }
-
-    if (showBattOpt) {
-        val manufacturerName = Build.MANUFACTURER.takeIf { it.isNotBlank() }
-            ?: stringResource(R.string.battopt_device_generic)
-        AlertDialog(
-            onDismissRequest = { showBattOpt = false; viewModel.start() },
-            title = { Text(stringResource(R.string.battopt_title)) },
-            text = {
-                Text(
-                    stringResource(
-                        R.string.battopt_body_fmt,
-                        manufacturerName,
-                        stringResource(batteryOptGuidanceRes()),
-                    ),
-                )
-            },
-            confirmButton = {
-                Button(onClick = {
-                    showBattOpt = false
-                    openBatteryOptSettings(ctx)
-                    viewModel.start()
-                }) { Text(stringResource(R.string.battopt_open_settings)) }
-            },
-            dismissButton = {
-                TextButton(onClick = { showBattOpt = false; viewModel.start() }) {
-                    Text(stringResource(R.string.battopt_skip))
-                }
-            },
-        )
     }
 }
 
@@ -248,41 +195,4 @@ private fun InstructionsBody(
             )
         }
     }
-}
-
-@StringRes
-private fun batteryOptGuidanceRes(): Int {
-    val manufacturer = Build.MANUFACTURER.lowercase()
-    return when {
-        manufacturer.contains("oppo") || manufacturer.contains("realme") || manufacturer.contains("oneplus") ->
-            R.string.battopt_oem_coloros
-        manufacturer.contains("xiaomi") || manufacturer.contains("redmi") || manufacturer.contains("poco") ->
-            R.string.battopt_oem_miui
-        manufacturer.contains("samsung") ->
-            R.string.battopt_oem_oneui
-        else -> R.string.battopt_oem_generic
-    }
-}
-
-private fun needsBatteryOptExempt(ctx: Context): Boolean {
-    if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) return false
-    val pm = ctx.getSystemService(Context.POWER_SERVICE) as? PowerManager ?: return false
-    return !pm.isIgnoringBatteryOptimizations(ctx.packageName)
-}
-
-private fun openBatteryOptSettings(ctx: Context) {
-    // ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS requires the REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
-    // permission which we don't declare — instead deep-link into the system settings so the user
-    // can toggle it themselves. This is Play-policy safe.
-    val intent = Intent(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)
-    intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
-    runCatching { ctx.startActivity(intent) }
-        .onFailure {
-            // Fall back to the app's app-info screen on OEMs that don't expose the settings activity.
-            val fallback = Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS).apply {
-                data = Uri.fromParts("package", ctx.packageName, null)
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK
-            }
-            runCatching { ctx.startActivity(fallback) }
-        }
 }

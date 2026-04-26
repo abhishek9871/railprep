@@ -39,6 +39,7 @@ data class TopicDto(
     @SerialName("external_video_id") val externalVideoId: String? = null,
     @SerialName("external_pdf_url") val externalPdfUrl: String? = null,
     @SerialName("article_url") val articleUrl: String? = null,
+    @SerialName("content_md") val contentMd: String? = null,
     @SerialName("source") val source: String,
     @SerialName("license") val license: String,
     @SerialName("duration_seconds") val durationSeconds: Int? = null,
@@ -71,6 +72,7 @@ fun TopicDto.toDomain(bookmarked: Boolean = false) = Topic(
     externalVideoId = externalVideoId,
     externalPdfUrl = externalPdfUrl,
     articleUrl = articleUrl,
+    contentMd = contentMd,
     source = source,
     license = licenseFromWire(license),
     durationSeconds = durationSeconds,
@@ -82,10 +84,13 @@ fun TopicDto.toDomain(bookmarked: Boolean = false) = Topic(
 
 private fun licenseFromWire(s: String): License = when (s) {
     "CC-BY-SA" -> License.CC_BY_SA
+    "CC_BY_SA" -> License.CC_BY_SA
     "GODL-India" -> License.GODL_INDIA
+    "GODL_INDIA" -> License.GODL_INDIA
     "PUBLIC_DOMAIN" -> License.PUBLIC_DOMAIN
     "YT_STANDARD" -> License.YT_STANDARD
     "NCERT_LINKED" -> License.NCERT_LINKED
+    "ORIGINAL" -> License.ORIGINAL
     else -> License.YT_STANDARD
 }
 

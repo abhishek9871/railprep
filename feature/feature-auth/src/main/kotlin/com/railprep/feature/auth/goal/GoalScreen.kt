@@ -19,6 +19,7 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
+import androidx.compose.material3.SelectableDates
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
@@ -47,6 +48,7 @@ import com.railprep.feature.auth.R
 import kotlinx.datetime.Instant
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.TimeZone
+import kotlinx.datetime.atStartOfDayIn
 import kotlinx.datetime.toLocalDateTime
 
 @Composable
@@ -72,6 +74,9 @@ fun GoalScreen(
         onDobChange = viewModel::onDobChange,
         onSubmit = { viewModel.onSubmit(onCompleted) },
         snackbarHostState = snackbarHostState,
+        targetDateMin = viewModel.targetDateMin,
+        targetDateMax = viewModel.targetDateMax,
+        dobMaxAllowed = viewModel.dobMaxAllowed,
     )
 }
 
@@ -88,6 +93,9 @@ internal fun GoalContent(
     onDobChange: (LocalDate) -> Unit,
     onSubmit: () -> Unit,
     snackbarHostState: SnackbarHostState,
+    targetDateMin: LocalDate,
+    targetDateMax: LocalDate,
+    dobMaxAllowed: LocalDate,
 ) {
     var examDatePickerOpen by remember { mutableStateOf(false) }
     var dobPickerOpen by remember { mutableStateOf(false) }
@@ -119,6 +127,10 @@ internal fun GoalContent(
                 value = state.displayName,
                 onValueChange = onDisplayNameChange,
                 label = { Text(stringResource(R.string.goal_display_name)) },
+                isError = state.errors.containsKey("displayName"),
+                supportingText = state.errors["displayName"]?.let {
+                    { Text(stringResource(R.string.goal_err_display_name)) }
+                },
                 singleLine = true,
                 modifier = Modifier.fillMaxWidth(),
             )
@@ -157,8 +169,16 @@ internal fun GoalContent(
                     }
                 },
                 isError = state.errors.containsKey("examTargetDate"),
+                supportingText = {
+                    Text(
+                        if (state.errors.containsKey("examTargetDate")) {
+                            examDateErrorText(state.errors["examTargetDate"])
+                        } else {
+                            stringResource(R.string.goal_target_date_helper)
+                        },
+                    )
+                },
             )
-            state.errors["examTargetDate"]?.let { ErrorText(stringResource(R.string.goal_err_date_range)) }
 
             // Daily minutes
             FormSectionLabel(stringResource(R.string.goal_daily_minutes, state.dailyMinutes))
@@ -168,6 +188,11 @@ internal fun GoalContent(
                 valueRange = 30f..240f,
                 steps = ((240 - 30) / 15) - 1,
                 modifier = Modifier.fillMaxWidth(),
+            )
+            Text(
+                stringResource(R.string.goal_daily_minutes_helper),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
 
             // Qualification
@@ -217,21 +242,22 @@ internal fun GoalContent(
                     }
                 },
                 isError = state.errors.containsKey("dob"),
+                supportingText = {
+                    Text(
+                        if (state.errors.containsKey("dob")) {
+                            dobErrorText(state.errors["dob"])
+                        } else {
+                            stringResource(R.string.goal_dob_helper)
+                        },
+                    )
+                },
             )
-            state.errors["dob"]?.let {
-                ErrorText(
-                    when (it) {
-                        "UNDER_18" -> stringResource(R.string.goal_err_under_18)
-                        else -> stringResource(R.string.goal_err_required)
-                    },
-                )
-            }
 
             Spacer(Modifier.size(Spacing.Md))
 
             Button(
                 onClick = onSubmit,
-                enabled = state.submitEnabled && !state.loading,
+                enabled = !state.loading,
                 modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min),
             ) {
                 if (state.loading) {
@@ -248,15 +274,16 @@ internal fun GoalContent(
     }
 
     if (examDatePickerOpen) {
-        val pickerState = rememberDatePickerState()
+        val pickerState = rememberDatePickerState(
+            initialSelectedDateMillis = state.examTargetDate?.toUtcMillis(),
+            selectableDates = selectableDateRange(targetDateMin, targetDateMax),
+        )
         DatePickerDialog(
             onDismissRequest = { examDatePickerOpen = false },
             confirmButton = {
                 TextButton(onClick = {
                     pickerState.selectedDateMillis?.let { millis ->
-                        val date = Instant.fromEpochMilliseconds(millis)
-                            .toLocalDateTime(TimeZone.currentSystemDefault()).date
-                        onExamTargetDateChange(date)
+                        onExamTargetDateChange(millis.toPickerDate())
                     }
                     examDatePickerOpen = false
                 }) { Text(stringResource(R.string.goal_ok)) }
@@ -272,15 +299,16 @@ internal fun GoalContent(
     }
 
     if (dobPickerOpen) {
-        val pickerState = rememberDatePickerState()
+        val pickerState = rememberDatePickerState(
+            initialSelectedDateMillis = state.dob?.toUtcMillis(),
+            selectableDates = selectableDateRange(null, dobMaxAllowed),
+        )
         DatePickerDialog(
             onDismissRequest = { dobPickerOpen = false },
             confirmButton = {
                 TextButton(onClick = {
                     pickerState.selectedDateMillis?.let { millis ->
-                        val date = Instant.fromEpochMilliseconds(millis)
-                            .toLocalDateTime(TimeZone.currentSystemDefault()).date
-                        onDobChange(date)
+                        onDobChange(millis.toPickerDate())
                     }
                     dobPickerOpen = false
                 }) { Text(stringResource(R.string.goal_ok)) }
@@ -315,6 +343,37 @@ private fun ErrorText(text: String) {
     )
 }
 
+@Composable
+private fun examDateErrorText(code: String?): String = when (code) {
+    "REQUIRED" -> stringResource(R.string.goal_err_required)
+    "OUT_OF_RANGE" -> stringResource(R.string.goal_err_date_range)
+    else -> stringResource(R.string.goal_err_date_range)
+}
+
+@Composable
+private fun dobErrorText(code: String?): String = when (code) {
+    "UNDER_18" -> stringResource(R.string.goal_err_under_18)
+    "REQUIRED" -> stringResource(R.string.goal_err_required)
+    else -> stringResource(R.string.goal_err_required)
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+private fun selectableDateRange(
+    min: LocalDate?,
+    max: LocalDate?,
+): SelectableDates = object : SelectableDates {
+    override fun isSelectableDate(utcTimeMillis: Long): Boolean {
+        val date = utcTimeMillis.toPickerDate()
+        return (min == null || date >= min) && (max == null || date <= max)
+    }
+}
+
+private fun LocalDate.toUtcMillis(): Long =
+    atStartOfDayIn(TimeZone.UTC).toEpochMilliseconds()
+
+private fun Long.toPickerDate(): LocalDate =
+    Instant.fromEpochMilliseconds(this).toLocalDateTime(TimeZone.UTC).date
+
 @Preview(widthDp = 360, heightDp = 780)
 @Composable
 private fun GoalPreview() {
@@ -330,6 +389,9 @@ private fun GoalPreview() {
             onDobChange = {},
             onSubmit = {},
             snackbarHostState = remember { SnackbarHostState() },
+            targetDateMin = LocalDate(2026, 5, 26),
+            targetDateMax = LocalDate(2028, 4, 26),
+            dobMaxAllowed = LocalDate(2008, 4, 26),
         )
     }
 }

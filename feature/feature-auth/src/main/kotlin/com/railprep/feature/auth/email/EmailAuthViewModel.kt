@@ -52,17 +52,18 @@ class EmailAuthViewModel @Inject constructor(
     fun submit(onAuthenticated: () -> Unit) {
         val s = _uiState.value
         val emailError = validateEmail(s.email)
-        val passwordError = validatePassword(s.password)
+        val passwordError = validatePassword(s.password, s.mode)
         if (emailError != null || passwordError != null) {
             mutate { it.copy(emailError = emailError, passwordError = passwordError) }
             return
         }
+        val email = normalizedEmail(s.email)
         viewModelScope.launch {
             mutate { it.copy(loading = true, generalError = null, info = null) }
             try {
                 val result = when (s.mode) {
-                    EmailMode.SignIn -> authRepository.signInWithEmail(s.email, s.password)
-                    EmailMode.CreateAccount -> authRepository.createAccountWithEmail(s.email, s.password)
+                    EmailMode.SignIn -> authRepository.signInWithEmail(email, s.password)
+                    EmailMode.CreateAccount -> authRepository.createAccountWithEmail(email, s.password)
                 }
                 when (result) {
                     is DomainResult.Success -> {
@@ -106,7 +107,7 @@ class EmailAuthViewModel @Inject constructor(
     }
 
     fun sendReset() {
-        val email = _uiState.value.email
+        val email = normalizedEmail(_uiState.value.email)
         val err = validateEmail(email)
         if (err != null) {
             mutate { it.copy(emailError = err) }
@@ -154,17 +155,22 @@ class EmailAuthViewModel @Inject constructor(
         internal const val INFO_RESET_EMAIL_SENT = "RESET_EMAIL_SENT"
 
         internal fun validateEmail(raw: String): String? {
-            val e = raw.trim()
+            val e = normalizedEmail(raw)
             if (e.isEmpty()) return "EMPTY"
             if (!e.matches(Regex("^[^@\\s]+@[^@\\s]+\\.[^@\\s]{2,}$"))) return "INVALID"
             return null
         }
 
-        internal fun validatePassword(p: String): String? {
+        internal fun validatePassword(p: String, mode: EmailMode = EmailMode.SignIn): String? {
             if (p.isEmpty()) return "EMPTY"
             if (p.length < 8) return "TOO_SHORT"
+            if (mode == EmailMode.CreateAccount && (!p.any(Char::isLetter) || !p.any(Char::isDigit))) {
+                return "WEAK"
+            }
             return null
         }
+
+        internal fun normalizedEmail(raw: String): String = raw.trim().lowercase()
 
         /**
          * Map common Supabase-side error strings to friendlier copy. The full message from
