@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tests list (tab body) -->
-    <string name="tests_list_title">Mock tests</string>
-    <string name="tests_list_subtitle">CBT-pattern practice with timed sections + negative marking.</string>
-    <string name="tests_pyq_title">PYQ papers</string>
-    <string name="tests_pyq_subtitle">Original RRB NTPC papers open as PDFs. Use these for paper reading; timed mocks stay under Tests.</string>
+    <string name="tests_list_title">Tests &amp; CBT practice</string>
+    <string name="tests_list_subtitle">CBT-1, CBT-2 and sectionals with timer, server scoring, review, and weak-topic routing.</string>
+    <string name="tests_pyq_title">PYQ library</string>
+    <string name="tests_pyq_subtitle">Original RRB NTPC CBT-1 and CBT-2 papers open as PDFs inside RailPrep.</string>
     <string name="tests_pattern_title">Official RRB NTPC pattern</string>
     <string name="tests_pattern_cbt1">CBT-1: 100 Q / 90 min · GA 40, Math 30, Reasoning 30 · −1/3 per wrong answer</string>
     <string name="tests_pattern_cbt2">CBT-2: 120 Q / 90 min · GA 50, Math 35, Reasoning 35</string>

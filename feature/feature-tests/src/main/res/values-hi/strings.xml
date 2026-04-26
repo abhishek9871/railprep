@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Tests list (tab body) -->
-    <string name="tests_list_title">मॉक टेस्ट</string>
-    <string name="tests_list_subtitle">CBT पैटर्न प्रैक्टिस — section timing + negative marking के साथ।</string>
-    <string name="tests_pyq_title">PYQ पेपर</string>
-    <string name="tests_pyq_subtitle">Original RRB NTPC papers PDF में खुलते हैं। Timed mocks टेस्ट tab में हैं।</string>
+    <string name="tests_list_title">Tests और CBT practice</string>
+    <string name="tests_list_subtitle">CBT-1, CBT-2 और sectionals — timer, server scoring, review और weak-topic routing के साथ।</string>
+    <string name="tests_pyq_title">PYQ library</string>
+    <string name="tests_pyq_subtitle">Original RRB NTPC CBT-1 और CBT-2 papers RailPrep में PDF की तरह खुलते हैं।</string>
     <string name="tests_pattern_title">Official RRB NTPC pattern</string>
     <string name="tests_pattern_cbt1">CBT-1: 100 Q / 90 min · GA 40, Math 30, Reasoning 30 · गलत answer पर −1/3</string>
     <string name="tests_pattern_cbt2">CBT-2: 120 Q / 90 min · GA 50, Math 35, Reasoning 35</string>

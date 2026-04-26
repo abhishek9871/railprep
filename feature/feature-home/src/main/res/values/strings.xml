@@ -9,10 +9,22 @@
 
     <!-- Home dashboard -->
     <string name="home_welcome_fmt">Hey, %1$s</string>
+    <string name="home_friend">friend</string>
     <string name="home_subtitle">Let\'s keep the streak going.</string>
+    <string name="home_hero_title">Your RRB NTPC command centre</string>
+    <string name="home_hero_body">Practice CBT-1, CBT-2, PYQ papers, NCERT learning, saved questions, and daily revision from one focused dashboard.</string>
+    <string name="home_chip_cbt2">CBT-2 ready</string>
+    <string name="home_chip_pyq">PYQ library</string>
+    <string name="home_metric_sectionals">topic sectionals</string>
+    <string name="home_metric_sectionals_value">35</string>
+    <string name="home_metric_pyq">linked PYQ PDFs</string>
+    <string name="home_metric_pyq_value">68</string>
+    <string name="home_cta_tests_title">Start a test</string>
+    <string name="home_cta_tests_subtitle">CBT mocks, sectionals, and CBT-2 practice now sit under Tests.</string>
     <string name="home_cta_start_learning">Start learning</string>
     <string name="home_cta_learn_subtitle">Videos + NCERT PDFs curated for RRB NTPC.</string>
     <string name="home_cta_browse_bookmarks">Your bookmarks</string>
+    <string name="home_cta_bookmarks_subtitle">Resume saved study material without hunting through subjects.</string>
 
     <!-- Tests / Feed placeholders -->
     <string name="tests_coming_soon">Mock tests are coming in Phase 3.</string>

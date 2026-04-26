@@ -128,6 +128,13 @@ class TestsListViewModel @Inject constructor(
 
 fun List<Test>.filteredFor(mode: TestsTabMode, filter: TestsFilter): List<Test> = when (mode) {
     TestsTabMode.PYQ_LIBRARY -> filter { it.kind == TestKind.PYQ_LINK }
+        .let { rows ->
+            when (filter) {
+                TestsFilter.CBT1 -> rows.filter { it.examTarget == ExamTarget.NtpcCbt1 }
+                TestsFilter.CBT2 -> rows.filter { it.examTarget == ExamTarget.NtpcCbt2 }
+                else -> rows
+            }
+        }
     TestsTabMode.PRACTICE -> when (filter) {
         TestsFilter.ALL -> filter {
             it.kind == TestKind.CBT1_FULL ||

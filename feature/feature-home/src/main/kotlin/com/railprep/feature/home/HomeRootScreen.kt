@@ -92,6 +92,7 @@ fun HomeRootScreen(
         Box(Modifier.fillMaxSize().padding(innerPadding)) {
             when (tab) {
                 Tab.HOME -> DashboardTab(
+                    onStartTests = { tab = Tab.TESTS },
                     onStartLearning = onNavigateToLearn,
                     onOpenBookmarks = onOpenBookmarks,
                     dailyHomeCard = dailyHomeCard,

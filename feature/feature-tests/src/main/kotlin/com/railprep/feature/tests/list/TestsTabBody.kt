@@ -1,5 +1,6 @@
 package com.railprep.feature.tests.list
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,9 +19,11 @@ import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AccessTime
+import androidx.compose.material.icons.filled.Article
 import androidx.compose.material.icons.filled.HelpOutline
 import androidx.compose.material.icons.filled.Lock
 import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.TrendingUp
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.CircularProgressIndicator
@@ -47,6 +50,12 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.tokens.Radius
 import com.railprep.core.design.tokens.Spacing
 import com.railprep.core.design.tokens.TouchTarget
+import com.railprep.core.design.theme.Line
+import com.railprep.core.design.theme.Primary
+import com.railprep.core.design.theme.PrimarySoft
+import com.railprep.core.design.theme.SurfaceWhite
+import com.railprep.core.design.theme.Teal
+import com.railprep.core.design.theme.TealSoft
 import com.railprep.domain.model.PaperLanguage
 import com.railprep.domain.model.QuestionDifficulty
 import com.railprep.domain.model.QuestionSearchResult
@@ -71,21 +80,7 @@ fun TestsTabBody(
 
     Column(Modifier.fillMaxSize()) {
         Column(modifier = Modifier.padding(horizontal = Spacing.Lg, vertical = Spacing.Md)) {
-            Text(
-                text = stringResource(
-                    if (mode == TestsTabMode.PYQ_LIBRARY) R.string.tests_pyq_title else R.string.tests_list_title,
-                ),
-                style = MaterialTheme.typography.displaySmall,
-                color = MaterialTheme.colorScheme.onBackground,
-            )
-            Text(
-                text = stringResource(
-                    if (mode == TestsTabMode.PYQ_LIBRARY) R.string.tests_pyq_subtitle else R.string.tests_list_subtitle,
-                ),
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                modifier = Modifier.padding(top = Spacing.Xs),
-            )
+            TestsHero(mode = mode)
             if (mode == TestsTabMode.PRACTICE) {
                 OfficialPatternPanel(
                     modifier = Modifier.padding(top = Spacing.Md),
@@ -103,8 +98,9 @@ fun TestsTabBody(
             }
         }
 
-        if (mode == TestsTabMode.PRACTICE && state.searchQuery.isBlank()) {
+        if (state.searchQuery.isBlank()) {
             FilterChipsRow(
+                mode = mode,
                 filter = state.filter,
                 onChange = { viewModel.setFilter(it) },
             )
@@ -196,8 +192,9 @@ fun TestsTabBody(
 @Composable
 private fun OfficialPatternPanel(modifier: Modifier = Modifier) {
     Surface(
-        shape = RoundedCornerShape(Radius.Md),
-        color = MaterialTheme.colorScheme.secondaryContainer,
+        shape = RoundedCornerShape(8.dp),
+        color = SurfaceWhite,
+        border = BorderStroke(1.dp, Line),
         modifier = modifier.fillMaxWidth(),
     ) {
         Column(
@@ -207,18 +204,66 @@ private fun OfficialPatternPanel(modifier: Modifier = Modifier) {
             Text(
                 text = stringResource(R.string.tests_pattern_title),
                 style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.SemiBold),
-                color = MaterialTheme.colorScheme.onSecondaryContainer,
+                color = Primary,
             )
             Text(
                 text = stringResource(R.string.tests_pattern_cbt1),
                 style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSecondaryContainer,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
             Text(
                 text = stringResource(R.string.tests_pattern_cbt2),
                 style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSecondaryContainer,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
+        }
+    }
+}
+
+@Composable
+private fun TestsHero(mode: TestsTabMode) {
+    val isPyq = mode == TestsTabMode.PYQ_LIBRARY
+    val icon = if (isPyq) Icons.Filled.Article else Icons.Filled.TrendingUp
+    val iconTint = if (isPyq) Teal else Primary
+    val iconBg = if (isPyq) TealSoft else PrimarySoft
+    Surface(
+        color = SurfaceWhite,
+        shape = RoundedCornerShape(8.dp),
+        border = BorderStroke(1.dp, Line),
+        shadowElevation = 1.dp,
+        modifier = Modifier.fillMaxWidth(),
+    ) {
+        Row(
+            modifier = Modifier.padding(Spacing.Md),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(Spacing.Md),
+        ) {
+            Surface(color = iconBg, shape = RoundedCornerShape(8.dp), modifier = Modifier.size(52.dp)) {
+                Box(contentAlignment = Alignment.Center) {
+                    Icon(
+                        imageVector = icon,
+                        contentDescription = null,
+                        tint = iconTint,
+                        modifier = Modifier.size(30.dp),
+                    )
+                }
+            }
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(Spacing.Xxs)) {
+                Text(
+                    text = stringResource(
+                        if (isPyq) R.string.tests_pyq_title else R.string.tests_list_title,
+                    ),
+                    style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.Black),
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+                Text(
+                    text = stringResource(
+                        if (isPyq) R.string.tests_pyq_subtitle else R.string.tests_list_subtitle,
+                    ),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
         }
     }
 }
@@ -317,6 +362,7 @@ private fun difficultyLabel(difficulty: QuestionDifficulty): String = when (diff
 
 @Composable
 private fun FilterChipsRow(
+    mode: TestsTabMode,
     filter: TestsFilter,
     onChange: (TestsFilter) -> Unit,
 ) {
@@ -331,7 +377,9 @@ private fun FilterChipsRow(
         Chip(TestsFilter.ALL, filter, stringResource(R.string.tests_filter_all), onChange)
         Chip(TestsFilter.CBT1, filter, stringResource(R.string.tests_filter_cbt1), onChange)
         Chip(TestsFilter.CBT2, filter, stringResource(R.string.tests_filter_cbt2), onChange)
-        Chip(TestsFilter.SECTIONAL, filter, stringResource(R.string.tests_filter_sectional), onChange)
+        if (mode == TestsTabMode.PRACTICE) {
+            Chip(TestsFilter.SECTIONAL, filter, stringResource(R.string.tests_filter_sectional), onChange)
+        }
     }
 }
 
@@ -353,8 +401,9 @@ private fun Chip(
 private fun TestCard(test: Test, stats: TestAttemptStats?, useHi: Boolean, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
-        shape = RoundedCornerShape(Radius.Md),
-        color = MaterialTheme.colorScheme.surfaceVariant,
+        shape = RoundedCornerShape(8.dp),
+        color = SurfaceWhite,
+        border = BorderStroke(1.dp, Line),
         modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min * 2),
     ) {
         Row(modifier = Modifier.padding(Spacing.Md), verticalAlignment = Alignment.CenterVertically) {
