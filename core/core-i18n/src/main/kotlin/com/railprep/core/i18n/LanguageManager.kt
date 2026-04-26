@@ -1,6 +1,9 @@
 package com.railprep.core.i18n
 
+import android.app.LocaleManager
 import android.content.Context
+import android.os.Build
+import android.os.LocaleList
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.os.LocaleListCompat
 import androidx.datastore.preferences.core.booleanPreferencesKey
@@ -43,10 +46,7 @@ class LanguageManager @Inject constructor(
         appContext.railprepPreferences.edit { prefs ->
             prefs[PrefKeys.LANGUAGE] = language.code
         }
-        // Apply as the app-level locale. On API 33+ this is persisted by the OS per-app.
-        // On 24-32 androidx.appcompat stores it in a SharedPreferences-backed fallback.
-        // Triggers recreation of the current activity.
-        AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(language.code))
+        applyLocale(language)
         Unit
     }
 
@@ -67,6 +67,18 @@ class LanguageManager @Inject constructor(
      */
     fun applyStoredLocaleOnStart() {
         val current = currentSync() ?: return
-        AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(current.code))
+        applyLocale(current)
+    }
+
+    private fun applyLocale(language: SupportedLanguage) {
+        // Android 13+ exposes first-class per-app languages through LocaleManager.
+        // RailPrep's Activity is pure ComponentActivity/Compose, so using the
+        // framework API avoids relying on AppCompatActivity recreation semantics.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            appContext.getSystemService(LocaleManager::class.java)
+                .applicationLocales = LocaleList.forLanguageTags(language.code)
+        } else {
+            AppCompatDelegate.setApplicationLocales(LocaleListCompat.forLanguageTags(language.code))
+        }
     }
 }

@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.railprep.domain.model.Attempt
 import com.railprep.domain.model.AttemptStatus
 import com.railprep.domain.repository.AttemptRepository
+import com.railprep.domain.repository.LanguageRepository
 import com.railprep.domain.repository.TestsRepository
 import com.railprep.domain.util.DomainResult
 import com.railprep.feature.tests.diag.AttemptDiag
@@ -17,6 +18,7 @@ import com.railprep.feature.tests.work.AutoSubmitScheduler
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -37,6 +39,7 @@ private const val KEY_HI = "showHi"
 class TestPlayerViewModel @Inject constructor(
     private val testsRepository: TestsRepository,
     private val attemptRepository: AttemptRepository,
+    private val languageRepository: LanguageRepository,
     private val localDao: AttemptLocalDao,
     private val autoSubmitScheduler: AutoSubmitScheduler,
     private val savedState: SavedStateHandle,
@@ -117,7 +120,8 @@ class TestPlayerViewModel @Inject constructor(
             val savedIdx: Int? = savedState.get<Int>(KEY_INDEX)
             val savedHi: Boolean? = savedState.get<Boolean>(KEY_HI)
             val initialIdx = savedIdx ?: meta?.lastQuestionIndex ?: 0
-            val initialHi = savedHi ?: meta?.bilingualIsHi ?: false
+            val prefersHi = languageRepository.observeCurrent().first()?.code == "hi"
+            val initialHi = savedHi ?: meta?.bilingualIsHi ?: prefersHi
 
             val pendingUnsynced = localDao.countUnsynced(attemptId)
 

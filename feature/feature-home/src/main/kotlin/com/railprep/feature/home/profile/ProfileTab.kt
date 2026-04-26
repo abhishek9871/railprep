@@ -1,5 +1,9 @@
 package com.railprep.feature.home.profile
 
+import android.app.Activity
+import android.content.Context
+import android.content.ContextWrapper
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -172,8 +176,10 @@ fun ProfileTab(
             current = state.language,
             onDismiss = { showLanguagePicker = false },
             onPick = { lang ->
-                viewModel.setLanguage(lang)
                 showLanguagePicker = false
+                viewModel.setLanguage(lang) {
+                    context.findActivity()?.takeUnless { it.isFinishing || it.isDestroyed }?.recreate()
+                }
             },
         )
     }
@@ -358,6 +364,7 @@ private fun LanguagePickerDialog(
     onDismiss: () -> Unit,
     onPick: (String) -> Unit,
 ) {
+    var staged by remember(current) { mutableStateOf(current) }
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text(stringResource(R.string.language_picker_title)) },
@@ -365,17 +372,26 @@ private fun LanguagePickerDialog(
             Column {
                 LanguageChoice(
                     label = stringResource(R.string.language_picker_en),
-                    selected = current == "en",
-                    onClick = { onPick("en") },
+                    selected = staged == "en",
+                    onClick = { staged = "en" },
                 )
                 LanguageChoice(
                     label = stringResource(R.string.language_picker_hi),
-                    selected = current == "hi",
-                    onClick = { onPick("hi") },
+                    selected = staged == "hi",
+                    onClick = { staged = "hi" },
                 )
             }
         },
-        confirmButton = { TextButton(onClick = onDismiss) { Text("OK") } },
+        confirmButton = {
+            TextButton(onClick = { onPick(staged) }) {
+                Text(stringResource(R.string.language_picker_apply))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.language_picker_cancel))
+            }
+        },
     )
 }
 
@@ -385,9 +401,16 @@ private fun LanguageChoice(label: String, selected: Boolean, onClick: () -> Unit
         verticalAlignment = Alignment.CenterVertically,
         modifier = Modifier
             .fillMaxWidth()
-            .heightIn(min = TouchTarget.Min),
+            .heightIn(min = TouchTarget.Min)
+            .clickable(onClick = onClick),
     ) {
         RadioButton(selected = selected, onClick = onClick)
         Text(label, modifier = Modifier.weight(1f))
     }
+}
+
+private tailrec fun Context.findActivity(): Activity? = when (this) {
+    is Activity -> this
+    is ContextWrapper -> baseContext.findActivity()
+    else -> null
 }

@@ -48,6 +48,8 @@
     <string name="language_picker_en">English</string>
     <string name="language_picker_hi">हिन्दी (Hindi)</string>
     <string name="language_picker_applied">Language switched.</string>
+    <string name="language_picker_apply">Apply</string>
+    <string name="language_picker_cancel">Cancel</string>
 
     <!-- Bookmarks -->
     <string name="bookmarks_title">Your bookmarks</string>

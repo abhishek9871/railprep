@@ -39,6 +39,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
@@ -65,6 +66,7 @@ fun TopicDetailScreen(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val lifecycleOwner = LocalLifecycleOwner.current
     val snackbarHostState = remember { SnackbarHostState() }
+    val useHi = LocalConfiguration.current.locales.get(0).language == "hi"
 
     LaunchedEffect(topicId) { viewModel.load(topicId) }
 
@@ -78,7 +80,13 @@ fun TopicDetailScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(state.topic?.titleEn ?: stringResource(R.string.learn_topic_title_fallback)) },
+                title = {
+                    val topic = state.topic
+                    Text(
+                        if (topic != null && useHi && !topic.titleHi.isNullOrBlank()) topic.titleHi!!
+                        else topic?.titleEn ?: stringResource(R.string.learn_topic_title_fallback),
+                    )
+                },
                 navigationIcon = {
                     IconButton(onClick = onBack) {
                         Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = null)

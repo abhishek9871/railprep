@@ -42,6 +42,8 @@
     <string name="language_picker_en">English</string>
     <string name="language_picker_hi">हिन्दी</string>
     <string name="language_picker_applied">भाषा बदल दी गई।</string>
+    <string name="language_picker_apply">लागू करें</string>
+    <string name="language_picker_cancel">रद्द करें</string>
 
     <string name="bookmarks_title">आपके बुकमार्क</string>
     <string name="bookmarks_empty_title">अभी कोई बुकमार्क नहीं</string>

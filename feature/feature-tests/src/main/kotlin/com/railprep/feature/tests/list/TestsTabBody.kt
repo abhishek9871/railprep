@@ -38,6 +38,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -66,6 +67,7 @@ fun TestsTabBody(
     val state by viewModel.state.collectAsStateWithLifecycle()
     val filtered = state.tests.filteredFor(mode, state.filter)
     var proDialogTest by remember { mutableStateOf<Test?>(null) }
+    val useHi = LocalConfiguration.current.locales.get(0).language == "hi"
 
     Column(Modifier.fillMaxSize()) {
         Column(modifier = Modifier.padding(horizontal = Spacing.Lg, vertical = Spacing.Md)) {
@@ -114,6 +116,7 @@ fun TestsTabBody(
                 loading = state.searchLoading,
                 results = state.searchResults,
                 error = state.searchError,
+                useHi = useHi,
                 onOpen = { onOpenInstructions(it.testId) },
             )
             state.error != null -> Box(
@@ -145,6 +148,7 @@ fun TestsTabBody(
                     TestCard(
                         test = t,
                         stats = state.attemptStats[t.id],
+                        useHi = useHi,
                         onClick = {
                             // PYQ_LINK rows render the adda247 PDF on-device via PyqPaperScreen;
                             // everything else goes through the Instructions → Player flow.
@@ -168,7 +172,7 @@ fun TestsTabBody(
                 Text(
                     stringResource(
                         R.string.tests_pro_required_body_fmt,
-                        test.titleEn,
+                        test.displayTitle(useHi),
                     ),
                 )
             },
@@ -224,6 +228,7 @@ private fun SearchResultsPane(
     loading: Boolean,
     results: List<QuestionSearchResult>,
     error: String?,
+    useHi: Boolean,
     onOpen: (QuestionSearchResult) -> Unit,
 ) {
     when {
@@ -247,14 +252,14 @@ private fun SearchResultsPane(
             verticalArrangement = Arrangement.spacedBy(Spacing.Sm),
         ) {
             items(results, key = { it.questionId }) { result ->
-                SearchResultCard(result = result, onClick = { onOpen(result) })
+                SearchResultCard(result = result, useHi = useHi, onClick = { onOpen(result) })
             }
         }
     }
 }
 
 @Composable
-private fun SearchResultCard(result: QuestionSearchResult, onClick: () -> Unit) {
+private fun SearchResultCard(result: QuestionSearchResult, useHi: Boolean, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         shape = RoundedCornerShape(Radius.Md),
@@ -263,7 +268,7 @@ private fun SearchResultCard(result: QuestionSearchResult, onClick: () -> Unit) 
     ) {
         Column(Modifier.padding(Spacing.Md), verticalArrangement = Arrangement.spacedBy(Spacing.Xs)) {
             Text(
-                text = result.stemEn,
+                text = if (useHi && !result.stemHi.isNullOrBlank()) result.stemHi!! else result.stemEn,
                 style = MaterialTheme.typography.bodyLarge.copy(fontWeight = FontWeight.SemiBold),
                 color = MaterialTheme.colorScheme.onSurface,
                 maxLines = 3,
@@ -345,7 +350,7 @@ private fun Chip(
 }
 
 @Composable
-private fun TestCard(test: Test, stats: TestAttemptStats?, onClick: () -> Unit) {
+private fun TestCard(test: Test, stats: TestAttemptStats?, useHi: Boolean, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         shape = RoundedCornerShape(Radius.Md),
@@ -356,7 +361,7 @@ private fun TestCard(test: Test, stats: TestAttemptStats?, onClick: () -> Unit) 
             Column(modifier = Modifier.weight(1f)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Text(
-                        text = test.titleEn,
+                        text = test.displayTitle(useHi),
                         style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold),
                         color = MaterialTheme.colorScheme.onSurface,
                         modifier = Modifier.weight(1f),
@@ -391,9 +396,10 @@ private fun TestCard(test: Test, stats: TestAttemptStats?, onClick: () -> Unit) 
                         LangBadge(lang)
                     }
                 }
-                if (!test.titleHi.isNullOrBlank()) {
+                val secondaryTitle = test.secondaryTitle(useHi)
+                if (!secondaryTitle.isNullOrBlank()) {
                     Text(
-                        text = test.titleHi!!,
+                        text = secondaryTitle,
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant,
                     )
@@ -497,3 +503,11 @@ private fun AttemptStatsLine(stats: TestAttemptStats?) {
 
 private fun fmtScore(f: Float): String =
     if (f % 1f == 0f) f.toInt().toString() else "%.2f".format(f)
+
+private fun Test.displayTitle(useHi: Boolean): String =
+    if (useHi && !titleHi.isNullOrBlank()) titleHi!! else titleEn
+
+private fun Test.secondaryTitle(useHi: Boolean): String? = when {
+    useHi -> titleEn.takeIf { it.isNotBlank() && it != titleHi }
+    else -> titleHi
+}

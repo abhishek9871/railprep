@@ -29,6 +29,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -49,6 +50,7 @@ fun InstructionsScreen(
     viewModel: InstructionsViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val useHi = LocalConfiguration.current.locales.get(0).language == "hi"
 
     LaunchedEffect(testId) { viewModel.load(testId) }
 
@@ -89,6 +91,7 @@ fun InstructionsScreen(
                 hasActiveAttempt = state.hasActiveAttempt,
                 starting = state.starting,
                 error = state.error,
+                useHi = useHi,
                 onStart = { viewModel.start() },
                 modifier = Modifier.fillMaxSize().padding(innerPadding),
             )
@@ -103,6 +106,7 @@ private fun InstructionsBody(
     hasActiveAttempt: Boolean,
     starting: Boolean,
     error: String?,
+    useHi: Boolean,
     onStart: () -> Unit,
     modifier: Modifier = Modifier,
 ) {
@@ -112,13 +116,14 @@ private fun InstructionsBody(
         verticalArrangement = Arrangement.spacedBy(Spacing.Md),
     ) {
         Text(
-            stringResource(R.string.instructions_header_fmt, test.titleEn),
+            stringResource(R.string.instructions_header_fmt, test.displayTitle(useHi)),
             style = MaterialTheme.typography.headlineSmall.copy(fontWeight = FontWeight.SemiBold),
             color = MaterialTheme.colorScheme.onBackground,
         )
-        if (!test.titleHi.isNullOrBlank()) {
+        val secondaryTitle = test.secondaryTitle(useHi)
+        if (!secondaryTitle.isNullOrBlank()) {
             Text(
-                test.titleHi!!,
+                secondaryTitle,
                 style = MaterialTheme.typography.bodyLarge,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -151,7 +156,11 @@ private fun InstructionsBody(
         )
         sections.forEach { s ->
             Text(
-                stringResource(R.string.instructions_section_line_fmt, s.titleEn, s.questionCount),
+                stringResource(
+                    R.string.instructions_section_line_fmt,
+                    if (useHi && !s.titleHi.isNullOrBlank()) s.titleHi!! else s.titleEn,
+                    s.questionCount,
+                ),
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
             )
@@ -195,4 +204,12 @@ private fun InstructionsBody(
             )
         }
     }
+}
+
+private fun Test.displayTitle(useHi: Boolean): String =
+    if (useHi && !titleHi.isNullOrBlank()) titleHi!! else titleEn
+
+private fun Test.secondaryTitle(useHi: Boolean): String? = when {
+    useHi -> titleEn.takeIf { it.isNotBlank() && it != titleHi }
+    else -> titleHi
 }

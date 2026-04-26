@@ -117,9 +117,12 @@ class ProfileViewModel @Inject constructor(
         }
     }
 
-    fun setLanguage(code: String) {
+    fun setLanguage(code: String, onApplied: () -> Unit = {}) {
         val lang = SupportedLanguage.fromCode(code) ?: return
-        viewModelScope.launch { languageRepository.setLanguage(lang) }
+        viewModelScope.launch {
+            languageRepository.setLanguage(lang)
+            onApplied()
+        }
     }
 
     fun signOut(onSignedOut: () -> Unit) {

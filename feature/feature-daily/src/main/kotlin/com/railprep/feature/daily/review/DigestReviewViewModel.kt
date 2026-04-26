@@ -5,6 +5,7 @@ import androidx.lifecycle.viewModelScope
 import com.railprep.domain.model.Digest
 import com.railprep.domain.model.DigestAttempt
 import com.railprep.domain.repository.DigestRepository
+import com.railprep.domain.repository.LanguageRepository
 import com.railprep.domain.util.DomainResult
 import com.railprep.feature.daily.digest.todayInIst
 import dagger.hilt.android.lifecycle.HiltViewModel
@@ -12,6 +13,7 @@ import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.datetime.LocalDate
@@ -28,6 +30,7 @@ data class DigestReviewUiState(
 @HiltViewModel
 class DigestReviewViewModel @Inject constructor(
     private val digestRepository: DigestRepository,
+    private val languageRepository: LanguageRepository,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(DigestReviewUiState())
@@ -40,7 +43,8 @@ class DigestReviewViewModel @Inject constructor(
     private fun load() {
         viewModelScope.launch {
             val today = todayInIst()
-            _state.update { it.copy(loading = true, date = today, error = null) }
+            val prefersHi = languageRepository.observeCurrent().first()?.code == "hi"
+            _state.update { it.copy(loading = true, date = today, error = null, showHi = it.showHi || prefersHi) }
             val digestRes = digestRepository.loadForDate(today)
             val attemptRes = digestRepository.getMyAttempt(today)
             val digest = (digestRes as? DomainResult.Success)?.value

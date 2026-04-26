@@ -8,6 +8,7 @@ import com.railprep.domain.model.AttemptAnswer
 import com.railprep.domain.model.Question
 import com.railprep.domain.model.TestSection
 import com.railprep.domain.repository.AttemptRepository
+import com.railprep.domain.repository.LanguageRepository
 import com.railprep.domain.repository.QuestionBookmarkRepository
 import com.railprep.domain.repository.TestsRepository
 import com.railprep.domain.util.DomainResult
@@ -15,6 +16,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -42,6 +44,7 @@ class ReviewViewModel @Inject constructor(
     private val attemptRepository: AttemptRepository,
     private val testsRepository: TestsRepository,
     private val questionBookmarkRepository: QuestionBookmarkRepository,
+    private val languageRepository: LanguageRepository,
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(ReviewUiState())
@@ -75,6 +78,7 @@ class ReviewViewModel @Inject constructor(
                 is DomainResult.Success -> bookmarksRes.value
                 is DomainResult.Failure -> emptyMap()
             }
+            val prefersHi = languageRepository.observeCurrent().first()?.code == "hi"
             _state.update {
                 it.copy(
                     loading = false,
@@ -83,6 +87,7 @@ class ReviewViewModel @Inject constructor(
                     questions = questions,
                     answers = answers,
                     bookmarkNotes = bookmarkNotes,
+                    showHi = it.showHi || prefersHi,
                 )
             }
         }

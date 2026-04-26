@@ -7,12 +7,14 @@ import androidx.lifecycle.viewModelScope
 import com.railprep.domain.model.Digest
 import com.railprep.domain.model.Profile
 import com.railprep.domain.repository.DigestRepository
+import com.railprep.domain.repository.LanguageRepository
 import com.railprep.domain.util.DomainResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import kotlinx.datetime.Clock
@@ -43,6 +45,7 @@ data class DailyDigestUiState(
 @HiltViewModel
 class DailyDigestViewModel @Inject constructor(
     private val digestRepository: DigestRepository,
+    private val languageRepository: LanguageRepository,
     @Suppress("UNUSED_PARAMETER") savedState: SavedStateHandle,
 ) : ViewModel() {
 
@@ -54,7 +57,8 @@ class DailyDigestViewModel @Inject constructor(
     private fun load() {
         viewModelScope.launch {
             val today = todayInIst()
-            _state.update { it.copy(loading = true, error = null, date = today) }
+            val prefersHi = languageRepository.observeCurrent().first()?.code == "hi"
+            _state.update { it.copy(loading = true, error = null, date = today, showHi = it.showHi || prefersHi) }
             when (val r = digestRepository.loadForDate(today)) {
                 is DomainResult.Success -> {
                     Log.i(TAG, "digest-loaded date=$today qs=${r.value.questions.size}")

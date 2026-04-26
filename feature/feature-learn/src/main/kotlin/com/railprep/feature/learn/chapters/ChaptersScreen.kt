@@ -32,6 +32,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -54,6 +55,7 @@ fun ChaptersScreen(
     viewModel: ChaptersViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val useHi = LocalConfiguration.current.locales.get(0).language == "hi"
 
     LaunchedEffect(subjectId) { viewModel.load(subjectId) }
 
@@ -90,6 +92,7 @@ fun ChaptersScreen(
                     ChapterCard(
                         chapter = chapter,
                         topics = state.topics[chapter.id].orEmpty(),
+                        useHi = useHi,
                         onTopicClick = onTopicClick,
                     )
                 }
@@ -102,6 +105,7 @@ fun ChaptersScreen(
 private fun ChapterCard(
     chapter: Chapter,
     topics: List<Topic>,
+    useHi: Boolean,
     onTopicClick: (String) -> Unit,
 ) {
     Surface(
@@ -111,7 +115,7 @@ private fun ChapterCard(
     ) {
         Column(modifier = Modifier.padding(Spacing.Md)) {
             Text(
-                text = chapter.titleEn,
+                text = if (useHi) chapter.titleHi else chapter.titleEn,
                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.SemiBold),
                 color = MaterialTheme.colorScheme.onSurface,
             )
@@ -124,7 +128,7 @@ private fun ChapterCard(
                 )
             } else {
                 topics.forEach { topic ->
-                    TopicRow(topic = topic, onClick = { onTopicClick(topic.id) })
+                    TopicRow(topic = topic, useHi = useHi, onClick = { onTopicClick(topic.id) })
                     Spacer(Modifier.size(Spacing.Xs))
                 }
             }
@@ -133,7 +137,7 @@ private fun ChapterCard(
 }
 
 @Composable
-private fun TopicRow(topic: Topic, onClick: () -> Unit) {
+private fun TopicRow(topic: Topic, useHi: Boolean, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         shape = RoundedCornerShape(12.dp),
@@ -160,7 +164,7 @@ private fun TopicRow(topic: Topic, onClick: () -> Unit) {
             Spacer(Modifier.size(Spacing.Md))
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = topic.titleEn,
+                    text = if (useHi && !topic.titleHi.isNullOrBlank()) topic.titleHi!! else topic.titleEn,
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurface,
                 )

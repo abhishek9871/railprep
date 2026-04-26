@@ -26,6 +26,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -43,6 +44,7 @@ fun SubjectsScreen(
     viewModel: SubjectsViewModel = hiltViewModel(),
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
+    val useHi = LocalConfiguration.current.locales.get(0).language == "hi"
 
     Scaffold(
         topBar = {
@@ -78,7 +80,7 @@ fun SubjectsScreen(
                 verticalArrangement = Arrangement.spacedBy(Spacing.Sm),
             ) {
                 items(state.subjects, key = { it.id }) { subject ->
-                    SubjectRow(subject = subject, onClick = { onSubjectClick(subject) })
+                    SubjectRow(subject = subject, useHi = useHi, onClick = { onSubjectClick(subject) })
                 }
             }
         }
@@ -86,7 +88,7 @@ fun SubjectsScreen(
 }
 
 @Composable
-private fun SubjectRow(subject: Subject, onClick: () -> Unit) {
+private fun SubjectRow(subject: Subject, useHi: Boolean, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
         shape = RoundedCornerShape(16.dp),
@@ -103,12 +105,12 @@ private fun SubjectRow(subject: Subject, onClick: () -> Unit) {
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Text(
-                    text = subject.titleEn,
+                    text = if (useHi) subject.titleHi else subject.titleEn,
                     style = MaterialTheme.typography.titleLarge,
                     color = MaterialTheme.colorScheme.onSurface,
                 )
                 Text(
-                    text = subject.titleHi,
+                    text = if (useHi) subject.titleEn else subject.titleHi,
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                 )
