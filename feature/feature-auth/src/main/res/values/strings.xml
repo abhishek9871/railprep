@@ -2,7 +2,10 @@
 <resources>
     <!-- Splash -->
     <string name="app_wordmark">RailPrep</string>
-    <string name="app_tagline">Your NTPC journey starts here.</string>
+    <string name="app_tagline">RRB NTPC prep, built for serious CBT practice.</string>
+    <string name="splash_badge_cbt">CBT-1</string>
+    <string name="splash_badge_pyq">PYQ</string>
+    <string name="splash_badge_daily">Daily 10</string>
 
     <!-- Language picker -->
     <string name="language_title">Choose your language</string>
@@ -23,14 +26,19 @@
     <string name="onboarding_get_started">Get started</string>
 
     <!-- Auth -->
-    <string name="auth_title">Sign in to continue</string>
-    <string name="auth_subtitle">Track your progress across devices.</string>
+    <string name="auth_title">Keep your NTPC prep moving</string>
+    <string name="auth_subtitle">Your tests, streak, bookmarks, and weak-topic history stay synced across devices.</string>
+    <string name="auth_brand_label">RRB NTPC CBT prep</string>
+    <string name="auth_stat_tests">Timed tests</string>
+    <string name="auth_stat_review">Smart review</string>
+    <string name="auth_stat_bilingual">EN + HI</string>
     <string name="auth_continue_google">Continue with Google</string>
     <string name="auth_sign_in_email">Sign in with email</string>
     <string name="auth_legal_note">By continuing you agree to our Terms and acknowledge the Privacy Policy.</string>
 
     <!-- Email auth -->
-    <string name="email_title">Email sign in</string>
+    <string name="email_title">Sign in with email</string>
+    <string name="email_subtitle">Use the same account to restore attempts, saved questions, and streaks.</string>
     <string name="email_tab_sign_in">Sign in</string>
     <string name="email_tab_create_account">Create account</string>
     <string name="email_field_email">Email</string>

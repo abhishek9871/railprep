@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Splash -->
-    <string name="app_wordmark">रेलप्रेप</string>
-    <string name="app_tagline">आपकी NTPC यात्रा यहाँ से शुरू।</string>
+    <string name="app_wordmark">RailPrep</string>
+    <string name="app_tagline">RRB NTPC prep, serious CBT practice के लिए।</string>
+    <string name="splash_badge_cbt">CBT-1</string>
+    <string name="splash_badge_pyq">PYQ</string>
+    <string name="splash_badge_daily">Daily 10</string>
 
     <!-- Language picker -->
     <string name="language_title">भाषा चुनें</string>
@@ -24,14 +27,19 @@
     <string name="onboarding_get_started">शुरू करें</string>
 
     <!-- Auth -->
-    <string name="auth_title">जारी रखने के लिए साइन इन करें</string>
-    <string name="auth_subtitle">अपनी प्रगति सभी डिवाइसों पर ट्रैक करें।</string>
+    <string name="auth_title">NTPC prep जारी रखें</string>
+    <string name="auth_subtitle">Tests, streak, bookmarks और weak-topic history सभी devices पर synced रहती है।</string>
+    <string name="auth_brand_label">RRB NTPC CBT prep</string>
+    <string name="auth_stat_tests">Timed tests</string>
+    <string name="auth_stat_review">Smart review</string>
+    <string name="auth_stat_bilingual">EN + HI</string>
     <string name="auth_continue_google">Google से जारी रखें</string>
     <string name="auth_sign_in_email">ईमेल से साइन इन</string>
     <string name="auth_legal_note">जारी रखने पर, आप हमारी शर्तों और गोपनीयता नीति से सहमत हैं।</string>
 
     <!-- Email auth -->
-    <string name="email_title">ईमेल साइन इन</string>
+    <string name="email_title">ईमेल से साइन इन</string>
+    <string name="email_subtitle">Attempts, saved questions और streaks restore करने के लिए वही account इस्तेमाल करें।</string>
     <string name="email_tab_sign_in">साइन इन</string>
     <string name="email_tab_create_account">खाता बनाएँ</string>
     <string name="email_field_email">ईमेल</string>

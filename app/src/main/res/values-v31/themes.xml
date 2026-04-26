@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.RailPrep.Starting" parent="Theme.RailPrep">
+        <item name="android:windowSplashScreenBackground">#2B3EA8</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash_train</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#2B3EA8</item>
+        <item name="android:statusBarColor">#2B3EA8</item>
+        <item name="android:navigationBarColor">#2B3EA8</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+</resources>

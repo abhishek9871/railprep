@@ -3,15 +3,21 @@ package com.railprep.feature.auth.auth
 import android.app.Activity
 import android.content.Context
 import android.content.ContextWrapper
+import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -27,15 +33,22 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.RailPrepTheme
+import com.railprep.core.design.theme.Canvas
+import com.railprep.core.design.theme.Primary
 import com.railprep.core.design.tokens.Spacing
 import com.railprep.core.design.tokens.TouchTarget
 import com.railprep.feature.auth.R
+import com.railprep.feature.auth.common.AuthBrandLockup
+import com.railprep.feature.auth.common.AuthEntryBackdrop
+import com.railprep.feature.auth.common.AuthHeroPanel
 
 @Composable
 fun AuthScreen(
@@ -85,69 +98,87 @@ internal fun AuthContent(
 ) {
     Scaffold(
         snackbarHost = { SnackbarHost(snackbarHostState) },
-        containerColor = MaterialTheme.colorScheme.background,
+        containerColor = Canvas,
     ) { innerPadding ->
-        Column(
+        Box(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .padding(horizontal = Spacing.Lg, vertical = Spacing.Xl),
+                .background(Canvas),
         ) {
-            Spacer(Modifier.weight(0.4f))
+            AuthEntryBackdrop(modifier = Modifier.fillMaxSize())
 
-            Text(
-                stringResource(R.string.auth_title),
-                style = MaterialTheme.typography.displayMedium,
-                color = MaterialTheme.colorScheme.onBackground,
-                modifier = Modifier.pointerInput(Unit) {
-                    detectTapGestures(onLongPress = { onTitleLongPress() })
-                },
-            )
-            Spacer(Modifier.size(Spacing.Xs))
-            Text(
-                stringResource(R.string.auth_subtitle),
-                style = MaterialTheme.typography.bodyLarge,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-            )
-
-            Spacer(Modifier.weight(1f))
-
-            Button(
-                onClick = onGoogleClick,
-                enabled = !googleLoading,
-                modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min),
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .statusBarsPadding()
+                    .navigationBarsPadding()
+                    .padding(horizontal = Spacing.Lg, vertical = Spacing.Xl),
+                verticalArrangement = Arrangement.spacedBy(Spacing.Md),
             ) {
-                if (googleLoading) {
-                    CircularProgressIndicator(
-                        color = MaterialTheme.colorScheme.onPrimary,
-                        strokeWidth = 2.dp,
-                        modifier = Modifier.size(20.dp),
+                AuthBrandLockup(
+                    modifier = Modifier.pointerInput(Unit) {
+                        detectTapGestures(onLongPress = { onTitleLongPress() })
+                    },
+                )
+
+                Spacer(Modifier.size(Spacing.Sm))
+
+                AuthHeroPanel()
+
+                Spacer(Modifier.size(Spacing.Sm))
+
+                Text(
+                    stringResource(R.string.auth_title),
+                    style = MaterialTheme.typography.displayMedium.copy(letterSpacing = 0.sp),
+                    color = MaterialTheme.colorScheme.onBackground,
+                )
+                Text(
+                    stringResource(R.string.auth_subtitle),
+                    style = MaterialTheme.typography.bodyLarge,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+
+                Spacer(Modifier.weight(1f))
+
+                Button(
+                    onClick = onGoogleClick,
+                    enabled = !googleLoading,
+                    colors = ButtonDefaults.buttonColors(containerColor = Primary),
+                    modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min + Spacing.Sm),
+                ) {
+                    if (googleLoading) {
+                        CircularProgressIndicator(
+                            color = MaterialTheme.colorScheme.onPrimary,
+                            strokeWidth = 2.dp,
+                            modifier = Modifier.size(20.dp),
+                        )
+                        Spacer(Modifier.size(Spacing.Xs))
+                    }
+                    Text(
+                        text = stringResource(R.string.auth_continue_google),
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
                     )
-                    Spacer(Modifier.size(Spacing.Xs))
                 }
-                Text(stringResource(R.string.auth_continue_google))
+
+                OutlinedButton(
+                    onClick = onEmailClick,
+                    modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min + Spacing.Sm),
+                ) {
+                    Text(
+                        text = stringResource(R.string.auth_sign_in_email),
+                        style = MaterialTheme.typography.titleMedium.copy(fontWeight = FontWeight.Bold),
+                    )
+                }
+
+                Text(
+                    stringResource(R.string.auth_legal_note),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth(),
+                )
             }
-
-            Spacer(Modifier.size(Spacing.Sm))
-
-            OutlinedButton(
-                onClick = onEmailClick,
-                modifier = Modifier.fillMaxWidth().heightIn(min = TouchTarget.Min),
-            ) {
-                Text(stringResource(R.string.auth_sign_in_email))
-            }
-
-            Spacer(Modifier.size(Spacing.Md))
-
-            Text(
-                stringResource(R.string.auth_legal_note),
-                style = MaterialTheme.typography.bodySmall,
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth(),
-            )
-
-            Spacer(Modifier.weight(0.1f))
         }
     }
 }
