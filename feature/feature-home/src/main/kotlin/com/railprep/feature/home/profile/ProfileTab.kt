@@ -3,6 +3,7 @@ package com.railprep.feature.home.profile
 import android.app.Activity
 import android.content.Context
 import android.content.ContextWrapper
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.rememberScrollState
@@ -23,6 +24,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.automirrored.filled.Logout
 import androidx.compose.material.icons.filled.BookmarkBorder
+import androidx.compose.material.icons.filled.Check
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.LockOpen
@@ -35,7 +37,6 @@ import androidx.compose.material.icons.filled.Translate
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
@@ -58,6 +59,12 @@ import androidx.lifecycle.compose.LifecycleEventEffect
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.tokens.Spacing
 import com.railprep.core.design.tokens.TouchTarget
+import com.railprep.core.design.theme.Line
+import com.railprep.core.design.theme.Primary
+import com.railprep.core.design.theme.PrimarySoft
+import com.railprep.core.design.theme.Success
+import com.railprep.core.design.theme.SuccessSoft
+import com.railprep.core.design.theme.SurfaceWhite
 import com.railprep.feature.home.R
 import com.railprep.feature.notifications.NotificationsOptInPrompt
 import com.railprep.feature.notifications.hasPostNotificationsPermission
@@ -364,30 +371,28 @@ private fun LanguagePickerDialog(
     onDismiss: () -> Unit,
     onPick: (String) -> Unit,
 ) {
-    var staged by remember(current) { mutableStateOf(current) }
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text(stringResource(R.string.language_picker_title)) },
         text = {
-            Column {
+            Column(verticalArrangement = Arrangement.spacedBy(Spacing.Sm)) {
                 LanguageChoice(
                     label = stringResource(R.string.language_picker_en),
-                    selected = staged == "en",
-                    onClick = { staged = "en" },
+                    subtitle = stringResource(R.string.language_picker_en_subtitle),
+                    code = "EN",
+                    selected = current == "en",
+                    onClick = { onPick("en") },
                 )
                 LanguageChoice(
                     label = stringResource(R.string.language_picker_hi),
-                    selected = staged == "hi",
-                    onClick = { staged = "hi" },
+                    subtitle = stringResource(R.string.language_picker_hi_subtitle),
+                    code = "HI",
+                    selected = current == "hi",
+                    onClick = { onPick("hi") },
                 )
             }
         },
         confirmButton = {
-            TextButton(onClick = { onPick(staged) }) {
-                Text(stringResource(R.string.language_picker_apply))
-            }
-        },
-        dismissButton = {
             TextButton(onClick = onDismiss) {
                 Text(stringResource(R.string.language_picker_cancel))
             }
@@ -396,16 +401,71 @@ private fun LanguagePickerDialog(
 }
 
 @Composable
-private fun LanguageChoice(label: String, selected: Boolean, onClick: () -> Unit) {
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
+private fun LanguageChoice(
+    label: String,
+    subtitle: String,
+    code: String,
+    selected: Boolean,
+    onClick: () -> Unit,
+) {
+    val border = if (selected) Primary else Line
+    val background = if (selected) PrimarySoft else SurfaceWhite
+    Surface(
+        color = background,
+        shape = RoundedCornerShape(10.dp),
+        border = BorderStroke(if (selected) 2.dp else 1.dp, border),
         modifier = Modifier
             .fillMaxWidth()
-            .heightIn(min = TouchTarget.Min)
+            .heightIn(min = 72.dp)
             .clickable(onClick = onClick),
     ) {
-        RadioButton(selected = selected, onClick = onClick)
-        Text(label, modifier = Modifier.weight(1f))
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(Spacing.Md),
+            modifier = Modifier.padding(Spacing.Md),
+        ) {
+            Surface(
+                shape = RoundedCornerShape(8.dp),
+                color = Primary,
+                modifier = Modifier.size(44.dp),
+            ) {
+                Box(contentAlignment = Alignment.Center) {
+                    Text(
+                        text = code,
+                        style = MaterialTheme.typography.labelLarge.copy(fontWeight = FontWeight.Black),
+                        color = MaterialTheme.colorScheme.onPrimary,
+                    )
+                }
+            }
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = label,
+                    style = MaterialTheme.typography.titleMedium,
+                    color = MaterialTheme.colorScheme.onSurface,
+                )
+                Text(
+                    text = subtitle,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+            }
+            if (selected) {
+                Surface(
+                    shape = CircleShape,
+                    color = SuccessSoft,
+                    modifier = Modifier.size(30.dp),
+                ) {
+                    Box(contentAlignment = Alignment.Center) {
+                        Icon(
+                            imageVector = Icons.Filled.Check,
+                            contentDescription = null,
+                            tint = Success,
+                            modifier = Modifier.size(18.dp),
+                        )
+                    }
+                }
+            }
+        }
     }
 }
 

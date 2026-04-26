@@ -41,6 +41,8 @@
     <string name="language_picker_title">ऐप भाषा</string>
     <string name="language_picker_en">English</string>
     <string name="language_picker_hi">हिन्दी</string>
+    <string name="language_picker_en_subtitle">App interface English में करें।</string>
+    <string name="language_picker_hi_subtitle">App interface Hindi में करें; exam terms familiar रहेंगे।</string>
     <string name="language_picker_applied">भाषा बदल दी गई।</string>
     <string name="language_picker_apply">लागू करें</string>
     <string name="language_picker_cancel">रद्द करें</string>

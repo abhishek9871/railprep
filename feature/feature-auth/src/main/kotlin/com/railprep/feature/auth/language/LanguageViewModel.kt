@@ -25,6 +25,10 @@ class LanguageViewModel @Inject constructor(
     private val _messages = MutableSharedFlow<LanguageMessage>(extraBufferCapacity = 1)
     val messages: SharedFlow<LanguageMessage> = _messages.asSharedFlow()
 
+    init {
+        languageRepository.currentSync()?.let { _selected.value = it }
+    }
+
     fun onLanguageClicked(language: SupportedLanguage) {
         if (language.phase1Supported) {
             _selected.value = language

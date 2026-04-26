@@ -8,9 +8,12 @@
     <string name="splash_badge_daily">Daily 10</string>
 
     <!-- Language picker -->
-    <string name="language_title">Choose your language</string>
-    <string name="language_subtitle">You can change this anytime from Profile.</string>
+    <string name="language_title">Choose how RailPrep speaks to you</string>
+    <string name="language_subtitle">Pick the app language now. Exam questions stay bilingual wherever it helps practice.</string>
     <string name="language_continue">Continue</string>
+    <string name="language_choice_en_sample">Clean English UI for tests, review, and learning.</string>
+    <string name="language_choice_hi_sample">Hindi UI with familiar exam terms like CBT, PYQ, %, SI/CI.</string>
+    <string name="language_sync_hint">This syncs with Profile > Language, so you can switch later without losing progress.</string>
     <string name="language_coming_soon">Coming soon — English for now.</string>
     <string name="language_coming_soon_badge">Coming soon</string>
 
