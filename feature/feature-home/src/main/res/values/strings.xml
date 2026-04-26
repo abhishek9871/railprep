@@ -18,7 +18,7 @@
     <string name="home_metric_sectionals">topic sectionals</string>
     <string name="home_metric_sectionals_value">35</string>
     <string name="home_metric_pyq">linked PYQ PDFs</string>
-    <string name="home_metric_pyq_value">68</string>
+    <string name="home_metric_pyq_value">86</string>
     <string name="home_cta_tests_title">Start a test</string>
     <string name="home_cta_tests_subtitle">CBT mocks, sectionals, and CBT-2 practice now sit under Tests.</string>
     <string name="home_cta_start_learning">Start learning</string>
