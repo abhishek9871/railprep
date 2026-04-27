@@ -106,12 +106,13 @@
     <string name="account_delete_cancel">Cancel</string>
 
     <string name="about_title">RailPrep के बारे में</string>
-    <string name="about_intro">RailPrep केवल कैटलॉग ऐप है। हम मीडिया होस्ट नहीं करते। हर वीडियो, PDF, लेख मूल स्रोत से दिखाया जाता है — पूरे श्रेय के साथ।</string>
+    <string name="about_intro">RailPrep independent exam-preparation app है। यह किसी Railway Recruitment Board, Indian Railways, Ministry of Railways या Government of India को represent नहीं करता, affiliated नहीं है और endorsed नहीं है। Exam dates, eligibility, admit cards, answer keys, results और final notices हमेशा relevant official RRB website से verify करें।</string>
     <string name="about_sources_header">सामग्री स्रोत</string>
-    <string name="about_src_ncert">NCERT — पाठ्यपुस्तकें ncert.nic.in से लिंक; कॉपी नहीं।</string>
+    <string name="about_src_rrb">RRB official sources — notices और CENs: https://www.rrbcdg.gov.in/ ; सभी RRBs: https://www.rrbcdg.gov.in/other-rrb.php ; NTPC CEN 06/2024 pattern PDF: https://www.rrbcdg.gov.in/uploads/2024/06-NTPCUG/Detailed%%20CEN%%2006-2024%%20NTPC.pdf</string>
+    <string name="about_src_ncert">NCERT — textbooks https://ncert.nic.in/textbook.php से linked हैं; copy host नहीं करते।</string>
     <string name="about_src_youtube">YouTube — आधिकारिक IFrame प्लेयर से चलाए जाते हैं। हर विषय पर क्रिएटर का नाम दिखाया जाता है।</string>
-    <string name="about_src_pib">Press Information Bureau — GODL-India के तहत (फ़ेज़ 4)।</string>
-    <string name="about_src_datagov">data.gov.in — GODL-India के तहत डेटा (फ़ेज़ 4)।</string>
+    <string name="about_src_pib">Press Information Bureau, अगर इस्तेमाल हो — official source: https://pib.gov.in/</string>
+    <string name="about_src_datagov">data.gov.in, अगर इस्तेमाल हो — official source और GODL-India datasets: https://data.gov.in/</string>
     <string name="about_licenses_header">लाइसेंस</string>
     <string name="about_license_yt">YouTube Standard License — आधिकारिक IFrame प्लेयर से।</string>
     <string name="about_license_ncert">NCERT — सर्वाधिकार; हम केवल लिंक करते हैं।</string>

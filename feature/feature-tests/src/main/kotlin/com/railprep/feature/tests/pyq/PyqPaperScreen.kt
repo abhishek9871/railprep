@@ -29,11 +29,13 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.core.net.toUri
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.railprep.core.design.tokens.Spacing
+import com.railprep.feature.tests.R
 import com.railprep.feature.learn.pdf.PdfViewer
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -136,7 +138,7 @@ private fun AttributionFooter(attribution: String?) {
         modifier = Modifier.fillMaxWidth(),
     ) {
         Text(
-            text = "Source: $source · Memory-based reconstruction; answer key inside the PDF.",
+            text = stringResource(R.string.tests_pyq_footer_fmt, source),
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             modifier = Modifier.padding(Spacing.Md),

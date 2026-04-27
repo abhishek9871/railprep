@@ -4,7 +4,7 @@
     <string name="tests_list_title">Tests &amp; CBT practice</string>
     <string name="tests_list_subtitle">CBT-1, CBT-2 and sectionals with timer, server scoring, review, and weak-topic routing.</string>
     <string name="tests_pyq_title">PYQ library</string>
-    <string name="tests_pyq_subtitle">Original RRB NTPC CBT-1 and CBT-2 papers open as PDFs inside RailPrep.</string>
+    <string name="tests_pyq_subtitle">RRB NTPC CBT-1 and CBT-2 paper PDFs open inside RailPrep. Verify official notices, answer keys and results at https://www.rrbcdg.gov.in/ or your regional RRB.</string>
     <string name="tests_pattern_title">Official RRB NTPC pattern</string>
     <string name="tests_pattern_cbt1">CBT-1: 100 Q / 90 min · GA 40, Math 30, Reasoning 30 · −1/3 per wrong answer</string>
     <string name="tests_pattern_cbt2">CBT-2: 120 Q / 90 min · GA 50, Math 35, Reasoning 35</string>
@@ -16,7 +16,8 @@
     <string name="tests_filter_pyq_library">PYQ Library</string>
     <string name="tests_card_lang_en">EN</string>
     <string name="tests_card_lang_hi">हिन्दी</string>
-    <string name="tests_card_pyq_link_subtitle">Tap to read the original paper · Source: %1$s</string>
+    <string name="tests_card_pyq_link_subtitle">Tap to read the paper · External source: %1$s · Official RRB source: https://www.rrbcdg.gov.in/</string>
+    <string name="tests_pyq_footer_fmt">External source: %1$s. RailPrep does not represent RRB, Indian Railways or the Government of India. Verify official notices, answer keys and results at https://www.rrbcdg.gov.in/ and the all-RRB list at https://www.rrbcdg.gov.in/other-rrb.php.</string>
     <string name="tests_card_duration_fmt">%1$d min</string>
     <string name="tests_card_qcount_fmt">%1$d Q</string>
     <string name="tests_card_pro">PRO</string>

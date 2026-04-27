@@ -64,6 +64,7 @@ fun AboutScreen(
             )
             Spacer(Modifier.size(Spacing.Sm))
             Section(title = stringResource(R.string.about_sources_header)) {
+                BulletLine(stringResource(R.string.about_src_rrb))
                 BulletLine(stringResource(R.string.about_src_ncert))
                 BulletLine(stringResource(R.string.about_src_youtube))
                 BulletLine(stringResource(R.string.about_src_pib))

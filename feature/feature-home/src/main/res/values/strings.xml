@@ -117,12 +117,13 @@
 
     <!-- About -->
     <string name="about_title">About RailPrep</string>
-    <string name="about_intro">RailPrep is a catalog-only discovery app. We host no media. Every video, PDF, and article is served from its original source with full attribution.</string>
+    <string name="about_intro">RailPrep is an independent exam-preparation app. It does not represent, is not affiliated with, and is not endorsed by any Railway Recruitment Board, Indian Railways, Ministry of Railways or the Government of India. Always verify exam dates, eligibility, admit cards, answer keys, results and final notices from the relevant official RRB website.</string>
     <string name="about_sources_header">Content sources</string>
-    <string name="about_src_ncert">NCERT — school textbooks. Linked from ncert.nic.in; not redistributed.</string>
+    <string name="about_src_rrb">RRB official sources — notices and CENs: https://www.rrbcdg.gov.in/ ; all RRBs: https://www.rrbcdg.gov.in/other-rrb.php ; NTPC CEN 06/2024 pattern PDF: https://www.rrbcdg.gov.in/uploads/2024/06-NTPCUG/Detailed%%20CEN%%2006-2024%%20NTPC.pdf</string>
+    <string name="about_src_ncert">NCERT — school textbooks linked from https://ncert.nic.in/textbook.php; not redistributed.</string>
     <string name="about_src_youtube">YouTube — videos played via the official IFrame player. Creator names shown on every topic.</string>
-    <string name="about_src_pib">Press Information Bureau — published under GODL-India (Phase 4).</string>
-    <string name="about_src_datagov">data.gov.in — datasets under GODL-India (Phase 4).</string>
+    <string name="about_src_pib">Press Information Bureau, if used — official source: https://pib.gov.in/</string>
+    <string name="about_src_datagov">data.gov.in, if used — official source and GODL-India datasets: https://data.gov.in/</string>
     <string name="about_licenses_header">Licenses</string>
     <string name="about_license_yt">YouTube Standard License — via official IFrame player.</string>
     <string name="about_license_ncert">NCERT — all rights reserved; we link only.</string>
