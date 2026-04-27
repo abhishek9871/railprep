@@ -3,6 +3,8 @@
 .gradle/
 local.properties
 **/build/
+!build-logic/convention/src/main/kotlin/com/railprep/build/
+!build-logic/convention/src/main/kotlin/com/railprep/build/**
 captures/
 .externalNativeBuild/
 .cxx/
